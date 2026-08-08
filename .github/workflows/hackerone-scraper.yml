@@ -26,15 +26,26 @@ jobs:
 
       - name: Run scraper
         id: scrape
-        # GitHub-hosted jobs are hard-capped at 6h (360 min). Stop well before that
-        # so the export + commit steps still have room to run.
-        timeout-minutes: 330
-        continue-on-error: true
-        run: python h1/main.py --db h1/reports.db --csv h1/reports.csv
+        # Hard backstop, kept under the 6h (360 min) GitHub-hosted cap so the
+        # export + commit steps still get to run.
+        timeout-minutes: 350
+        run: |
+          # GNU timeout sends SIGINT at the time budget; the script catches it,
+          # finishes the current id, commits, and exits gracefully.
+          code=0
+          timeout --signal=SIGINT 320m \
+            python h1/main.py --db h1/reports.db --csv h1/reports.csv || code=$?
+          # 0   = reached the end of the range (whole sweep done)
+          # 124 = hit the time budget (normal for a long, resumable sweep)
+          if [ "$code" -eq 0 ] || [ "$code" -eq 124 ]; then
+            echo "Scraper finished or hit the time budget cleanly (code=$code)."
+            exit 0
+          fi
+          echo "Scraper failed with a real error (code=$code)."
+          exit "$code"
 
       - name: Export CSV from DB
-        # Runs even if the scraper timed out or errored, so the CSV always reflects
-        # the latest durable DB state (SQLite commits are crash-safe).
+        # Runs even if the scraper errored, so the CSV always reflects the DB.
         if: always()
         run: python h1/main.py --db h1/reports.db --csv h1/reports.csv --export-only
 
@@ -49,7 +60,3 @@ jobs:
           # DB/CSV are rewritten wholesale each run; if the remote moved, keep ours.
           git pull --rebase -X ours
           git push
-
-      - name: Fail job if scraper errored
-        if: steps.scrape.outcome == 'failure'
-        run: exit 1
