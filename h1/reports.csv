@@ -1,0 +1,525 @@
+id,program,title,link,upvotes,bounty,vuln_type,date
+110,HackerOne,Login page password-guessing attack,hackerone.com/reports/110,22,0.0,,2014-01-16
+120,HackerOne,Missing SPF for hackerone.com,hackerone.com/reports/120,48,0.0,Violation of Secure Design Principles,2014-01-09
+263,HackerOne,Report title autocompletion,hackerone.com/reports/263,8,0.0,Information Disclosure,2015-06-08
+275,HackerOne,Flawed account creation process allows registration of usernames corresponding to existing file names,hackerone.com/reports/275,15,0.0,,2015-06-08
+280,HackerOne,Real impersonation,hackerone.com/reports/280,48,0.0,,2013-11-30
+284,HackerOne,Broken Authentication and session management OWASP A2,hackerone.com/reports/284,35,0.0,Improper Authentication - Generic,2014-01-09
+288,HackerOne,Session Management,hackerone.com/reports/288,14,0.0,,2014-04-19
+298,HackerOne,RTL override symbol not stripped from file names,hackerone.com/reports/298,11,0.0,Violation of Secure Design Principles,2015-05-28
+321,HackerOne,CSP not consistently applied,hackerone.com/reports/321,34,0.0,Cross-site Scripting (XSS) - Generic,2013-11-30
+345,HackerOne,"Privilege escalation..., or not?!",hackerone.com/reports/345,11,0.0,Violation of Secure Design Principles,2015-06-08
+353,HackerOne,Session not expired on logout,hackerone.com/reports/353,22,100.0,,2014-04-19
+390,HackerOne,Pixel flood attack,hackerone.com/reports/390,66,500.0,Uncontrolled Resource Consumption,2013-11-30
+400,HackerOne,GIF flooding,hackerone.com/reports/400,51,250.0,Uncontrolled Resource Consumption,2013-11-30
+454,HackerOne,PNG compression DoS,hackerone.com/reports/454,18,500.0,Uncontrolled Resource Consumption,2015-05-28
+477,HackerOne,Flawed account creation process allows registration of usernames corresponding to existing file names,hackerone.com/reports/477,11,100.0,,2014-04-19
+487,HackerOne,DNS Cache Poisoning,hackerone.com/reports/487,41,100.0,,2014-01-09
+499,Ruby,Ruby: Heap Overflow in Floating Point Parsing,hackerone.com/reports/499,26,0.0,,2013-11-22
+500,Internet Bug Bounty,OpenSSH: Memory corruption in AES-GCM support,hackerone.com/reports/500,23,0.0,,2013-11-07
+501,Internet Bug Bounty,TLS Virtual Host Confusion,hackerone.com/reports/501,23,0.0,,2014-11-10
+523,Internet Bug Bounty,PHP openssl_x509_parse() Memory Corruption Vulnerability,hackerone.com/reports/523,16,0.0,Code Injection,2013-12-13
+546,HackerOne,Logical issues with account settings,hackerone.com/reports/546,15,0.0,Violation of Secure Design Principles,2015-05-28
+547,HackerOne,CSRF login,hackerone.com/reports/547,24,0.0,Cross-Site Request Forgery (CSRF),2014-01-13
+575,HackerOne,Email spoofing ,hackerone.com/reports/575,28,0.0,Violation of Secure Design Principles,2015-05-28
+713,HackerOne,Upload profile photo from URL,hackerone.com/reports/713,43,0.0,Server-Side Request Forgery (SSRF),2014-02-15
+727,HackerOne,Switching the user to the attacker's account,hackerone.com/reports/727,27,150.0,Cross-Site Request Forgery (CSRF),2014-02-20
+737,HackerOne,Improper session management,hackerone.com/reports/737,24,100.0,Improper Authentication - Generic,2014-02-19
+738,HackerOne,Information disclosure (reset password token) and changing the user's password,hackerone.com/reports/738,24,100.0,Cross-Site Request Forgery (CSRF),2014-02-19
+742,HackerOne,A password reset page does not properly validate the authenticity token at the server side.,hackerone.com/reports/742,10,100.0,Cross-Site Request Forgery (CSRF),2014-04-19
+761,HackerOne,Enumeration of users,hackerone.com/reports/761,20,0.0,Violation of Secure Design Principles,2014-10-03
+774,Phabricator,Log in a user to another account,hackerone.com/reports/774,21,300.0,Cross-Site Request Forgery (CSRF),2014-02-22
+809,Phabricator,Improperly implemented password recovery link functionality,hackerone.com/reports/809,14,300.0,Improper Authentication - Generic,2014-02-27
+842,HackerOne,Autocomplete enabled in Paypal preferences,hackerone.com/reports/842,8,0.0,Violation of Secure Design Principles,2015-05-28
+1093,HackerOne,LinkedIN URL should be HTTPS,hackerone.com/reports/1093,10,0.0,,2016-05-18
+1356,Internet Bug Bounty,PHP Heap Overflow Vulnerability in imagecrop(),hackerone.com/reports/1356,8,0.0,,2014-02-06
+1409,Factlink,Proxy discloses internal web servers,hackerone.com/reports/1409,10,0.0,Information Disclosure,2014-04-08
+1425,Secret,SSL Not Enforced,hackerone.com/reports/1425,7,0.0,,2014-03-16
+1498,Secret,Strict Transport Security on secret.ly,hackerone.com/reports/1498,3,0.0,,2014-04-22
+1509,HackerOne,DNS Misconfiguration,hackerone.com/reports/1509,19,0.0,,2014-02-15
+2106,Internet Bug Bounty,Flash type confusion vulnerability leads to code execution,hackerone.com/reports/2106,8,0.0,,2013-12-10
+2107,Internet Bug Bounty,Handling of jar: URIs bypasses AllowScriptAccess=never,hackerone.com/reports/2107,6,2000.0,,2014-01-14
+2140,Internet Bug Bounty,Flash local-with-fileaccess Sandbox Bypass,hackerone.com/reports/2140,6,0.0,Information Disclosure,2014-04-17
+2170,Internet Bug Bounty,Flash double free vulnerability leads to code execution,hackerone.com/reports/2170,5,0.0,Memory Corruption - Generic,2014-02-27
+2193,HackerOne,harvesting attack on user registration,hackerone.com/reports/2193,6,0.0,,2014-05-19
+2221,HackerOne,CSS leaks SCSS debug info,hackerone.com/reports/2221,13,0.0,Information Disclosure,2014-02-28
+2224,Phabricator,Bypass auth.email-domains,hackerone.com/reports/2224,15,1000.0,Improper Authentication - Generic,2014-03-25
+2228,Phabricator,Login CSRF using Twitter OAuth,hackerone.com/reports/2228,14,0.0,Cross-Site Request Forgery (CSRF),2014-03-26
+2233,Phabricator,Bypass auth.email-domains (2),hackerone.com/reports/2233,13,500.0,Improper Authentication - Generic,2014-03-26
+2293,Internet Bug Bounty,Widespread failure of certificate validation in Android apps,hackerone.com/reports/2293,5,0.0,Cryptographic Issues - Generic,2019-11-12
+2414,RelateIQ,open redirect,hackerone.com/reports/2414,1,0.0,Open Redirect,2014-05-19
+2421,RelateIQ,Value of JSESSIONID  and XSRF token parameter in cookie remains same before and after login,hackerone.com/reports/2421,5,0.0,Violation of Secure Design Principles,2014-05-14
+2427,RelateIQ,XSRF token problem,hackerone.com/reports/2427,1,0.0,Violation of Secure Design Principles,2014-04-20
+2429,HackerOne,Hackerone Email Addresses Enumeration,hackerone.com/reports/2429,24,0.0,Information Disclosure,2016-06-17
+2439,RelateIQ,Cross Site Scripting (XSS) - app.relateiq.com,hackerone.com/reports/2439,5,0.0,Cross-site Scripting (XSS) - Generic,2014-08-07
+2497,Slack,Reflective XSS can be triggered in IE,hackerone.com/reports/2497,4,150.0,Cross-site Scripting (XSS) - Generic,2015-03-15
+2559,Slack,Broken Authentication (including Slack OAuth bugs),hackerone.com/reports/2559,8,0.0,Violation of Secure Design Principles,2014-08-30
+2575,Slack,"Slack OAuth2 ""redirect_uri"" Bypass ",hackerone.com/reports/2575,10,0.0,Improper Authentication - Generic,2014-05-29
+2582,Slack,Session Fixation disclosing email address,hackerone.com/reports/2582,7,0.0,Information Disclosure,2014-03-31
+2584,HackerOne,Weird Bug - Ability to see partial of other user's notification,hackerone.com/reports/2584,8,0.0,,2014-04-19
+2617,Slack,Stored XSS in www.slack-files.com,hackerone.com/reports/2617,8,0.0,Cross-site Scripting (XSS) - Generic,2014-05-23
+2622,Slack,URL redirection flaw,hackerone.com/reports/2622,5,0.0,Open Redirect,2014-08-30
+2625,Slack,Stored XSS in username.slack.com,hackerone.com/reports/2625,4,0.0,Cross-site Scripting (XSS) - Generic,2014-08-07
+2628,Slack,CSRF vulnerability on https://sehacure.slack.com/account/settings,hackerone.com/reports/2628,5,0.0,Cross-Site Request Forgery (CSRF),2014-07-26
+2635,Slack,csrf,hackerone.com/reports/2635,4,0.0,Cross-Site Request Forgery (CSRF),2014-04-06
+2638,Slack,CSRF on add comment section,hackerone.com/reports/2638,2,0.0,Cross-Site Request Forgery (CSRF),2014-04-12
+2639,Slack,Stored XSS on this link https://sehacure.slack.com/help/requests/,hackerone.com/reports/2639,6,0.0,Cross-site Scripting (XSS) - Generic,2014-08-30
+2652,Slack,Stored XSS in Channel Chat ,hackerone.com/reports/2652,3,0.0,Cross-site Scripting (XSS) - Generic,2014-05-21
+2688,Slack,State parameter missing on google OAuth,hackerone.com/reports/2688,6,0.0,Cross-Site Request Forgery (CSRF),2014-04-06
+2731,Slack,Open redirect vulnerability ,hackerone.com/reports/2731,11,0.0,Open Redirect,2014-04-06
+2735,RelateIQ,"HTML injection in ""Invite Collaborators""",hackerone.com/reports/2735,9,0.0,Cross-site Scripting (XSS) - Generic,2014-04-06
+2746,Slack,Data exports stored on S3 can be scraped easily,hackerone.com/reports/2746,9,0.0,Improper Authentication - Generic,2014-12-09
+2766,Slack,Email enumeration,hackerone.com/reports/2766,8,0.0,Information Disclosure,2014-04-02
+2777,Slack,Reflected Xss,hackerone.com/reports/2777,3,500.0,Cross-site Scripting (XSS) - Generic,2014-05-19
+2857,Phabricator,CSRF token valid even after the session logout of a particular user,hackerone.com/reports/2857,2,0.0,Cross-Site Request Forgery (CSRF),2014-06-26
+2926,Slack,Stored XSS ,hackerone.com/reports/2926,4,0.0,Cross-site Scripting (XSS) - Generic,2014-04-06
+2975,Slack,Deleting Teams implemenation,hackerone.com/reports/2975,2,0.0,Improper Authentication - Generic,2014-08-21
+2979,Slack,Content Spoofing,hackerone.com/reports/2979,3,0.0,Violation of Secure Design Principles,2014-08-11
+3227,HackerOne,Control Characters Not Stripped From Username on Signup,hackerone.com/reports/3227,14,0.0,Violation of Secure Design Principles,2014-03-11
+3356,Phabricator,UnAuthorized Editorial Publishing to Blogs,hackerone.com/reports/3356,7,300.0,Improper Authentication - Generic,2014-04-05
+3370,Ruby on Rails,Directory traversal attack in view resolver,hackerone.com/reports/3370,8,0.0,Information Disclosure,2015-07-09
+3432,RelateIQ,RelateIQ GWT based application visible to unauthenticated users,hackerone.com/reports/3432,3,0.0,Information Disclosure,2014-04-11
+3441,RelateIQ,Captcha Bypass With Extension,hackerone.com/reports/3441,4,0.0,Cryptographic Issues - Generic,2014-04-20
+3455,Slack,flash content type sniff vulnerability in api.slack.com,hackerone.com/reports/3455,2,0.0,Cross-Site Request Forgery (CSRF),2014-04-08
+3596,Phabricator,OAuth access_token stealing in Phabricator,hackerone.com/reports/3596,9,450.0,Open Redirect,2014-04-11
+3709,HackerOne,Criptographic Issue: Strisct Transport Security with not good max age..(TOO SHORT!),hackerone.com/reports/3709,4,0.0,Cryptographic Issues - Generic,2014-04-22
+3722,Slack,User impersonation is possible with incoming webhooks,hackerone.com/reports/3722,3,0.0,Violation of Secure Design Principles,2014-04-10
+3921,Phabricator,Control character allowed in username,hackerone.com/reports/3921,8,300.0,,2014-04-12
+3923,HackerOne,Adding an user email address to the list before confirming.,hackerone.com/reports/3923,8,0.0,Violation of Secure Design Principles,2014-06-11
+3930,Phabricator,OAuth Stealing Attack (New),hackerone.com/reports/3930,10,400.0,Open Redirect,2014-04-13
+3986,HackerOne,Securing sensitive pages from SearchBots,hackerone.com/reports/3986,6,100.0,Violation of Secure Design Principles,2014-04-20
+3991,HackerOne,Accepting Invalid characters on email address,hackerone.com/reports/3991,7,0.0,Violation of Secure Design Principles,2016-04-25
+4114,Phabricator,Persistent XSS: Editor link,hackerone.com/reports/4114,8,300.0,Cross-site Scripting (XSS) - Generic,2014-04-16
+4184,HackerOne,javascript: and mailto: links are allowed on users' profiles,hackerone.com/reports/4184,8,0.0,Cross-site Scripting (XSS) - Generic,2015-05-13
+4276,MoneyStream,Here is another XSS i got for you,hackerone.com/reports/4276,7,0.0,Cross-site Scripting (XSS) - Generic,2014-08-06
+4409,RelateIQ,TRACE disclosure attack may be possible,hackerone.com/reports/4409,6,0.0,Information Disclosure,2014-07-25
+4549,Slack,Open Redirect in Slack,hackerone.com/reports/4549,2,0.0,Open Redirect,2014-05-21
+4561,Slack,Stored XSS in Slackbot Direct Messages,hackerone.com/reports/4561,8,0.0,Cross-site Scripting (XSS) - Generic,2014-05-04
+4638,Slack,Duplicate of #4550,hackerone.com/reports/4638,3,0.0,,2014-05-21
+4689,Internet Bug Bounty,SPDY memory corruption,hackerone.com/reports/4689,18,0.0,,2014-03-24
+4690,Internet Bug Bounty,SPDY heap buffer overflow,hackerone.com/reports/4690,14,0.0,,2014-03-24
+4777,Concrete CMS,XSS in Theme Preview Tools File,hackerone.com/reports/4777,2,0.0,Cross-site Scripting (XSS) - Generic,2014-08-28
+4792,Concrete CMS,HttpOnly flag not set for cookie on concrete5.org,hackerone.com/reports/4792,10,0.0,Violation of Secure Design Principles,2014-04-16
+4795,Concrete CMS,Bypass auth.email-domains,hackerone.com/reports/4795,11,0.0,Improper Authentication - Generic,2014-04-30
+4808,Concrete CMS,/index.php/dashboard/sitemap/explore/ Cross-site scripting,hackerone.com/reports/4808,4,0.0,Cross-site Scripting (XSS) - Generic,2014-06-09
+4811,Concrete CMS,dashboard/pages/types [Unknown column 'Array' in 'where clause'] disclosure.,hackerone.com/reports/4811,2,0.0,Information Disclosure,2014-06-09
+4826,Concrete CMS,XSS in private message,hackerone.com/reports/4826,7,0.0,Cross-site Scripting (XSS) - Generic,2014-05-14
+4839,Concrete CMS,XSS IN member List (Because of City Textbox),hackerone.com/reports/4839,6,0.0,Cross-site Scripting (XSS) - Generic,2014-04-16
+4931,Concrete CMS,CONCRETE5 - path disclosure.,hackerone.com/reports/4931,2,0.0,Information Disclosure,2014-06-09
+4938,Concrete CMS,page_controls_menu_js can reveal collection version of page,hackerone.com/reports/4938,4,0.0,Information Disclosure,2014-03-31
+5073,Coinbase,Information Disclosure That shows the webroot of CoinBase Server,hackerone.com/reports/5073,3,0.0,Information Disclosure,2014-05-04
+5199,Coinbase,Improper Validation of the Referrer header leading to Open URL Redirection,hackerone.com/reports/5199,2,0.0,Open Redirect,2014-04-29
+5200,Coinbase,"User Enumeration, Information Disclosure and Lack of Rate Limitation on API",hackerone.com/reports/5200,4,0.0,Violation of Secure Design Principles,2014-03-31
+5204,Coinbase, Cookie missing the HttpOnly flag  ,hackerone.com/reports/5204,2,0.0,,2014-04-30
+5205,Coinbase,IFRAME loaded from External Domains  ,hackerone.com/reports/5205,2,0.0,,2014-04-30
+5314,Coinbase,Coinbase Android Application - Bitcoin Wallet Leaks OAuth Response Code,hackerone.com/reports/5314,14,0.0,Information Disclosure,2014-11-26
+5426,MS-DOS,CRITICAL BUG!,hackerone.com/reports/5426,5,0.0,Violation of Secure Design Principles,2014-04-01
+5437,MS-DOS,Please contact me @sehacure otherwise i am going to disclose in Full disclosure mailing list :p ,hackerone.com/reports/5437,10,0.0,Uncontrolled Resource Consumption,2014-04-02
+5441,MS-DOS,Hack administrator password even if you are a guest,hackerone.com/reports/5441,7,0.0,Improper Authentication - Generic,2014-04-01
+5466,MS-DOS,Bug in Source Code Files(v1.1),hackerone.com/reports/5466,6,0.0,Memory Corruption - Generic,2014-04-01
+5499,MS-DOS,Arbitrary command execution in MS-DOS,hackerone.com/reports/5499,5,0.0,Command Injection - Generic,2014-04-01
+5534,MS-DOS,Permanent Denial of Service ,hackerone.com/reports/5534,19,0.0,Uncontrolled Resource Consumption,2014-04-01
+5549,MS-DOS,History Disclosure of MS-Dos,hackerone.com/reports/5549,3,0.0,Information Disclosure,2014-07-20
+5559,MS-DOS,Injecting Distrust and Disbelief in Addicted Gamers ,hackerone.com/reports/5559,3,0.0,,2014-06-04
+5596,MS-DOS,एमएस  डॉस प्राणघाती है।  ,hackerone.com/reports/5596,5,0.0,Improper Authentication - Generic,2014-04-04
+5617,Slack,TLS1/SSLv3 Renegotiation Vulnerability,hackerone.com/reports/5617,2,0.0,,2014-08-14
+5654,C2FO,OPTIONS Method Enabled,hackerone.com/reports/5654,4,0.0,,2014-04-07
+5688,C2FO,User guessing/enumeration at  https://app.c2fo.com/api/password-reset,hackerone.com/reports/5688,4,0.0,Information Disclosure,2014-05-19
+5691,C2FO,Password reset token leakage through referrer at https://app.c2fo.com/password/reset/,hackerone.com/reports/5691,4,0.0,Information Disclosure,2014-04-15
+5786,Coinbase,Coinbase Android Security Vulnerabilities,hackerone.com/reports/5786,9,0.0,Cryptographic Issues - Generic,2014-05-07
+5928,Internet Bug Bounty,Uncontrolled Resource Consumption with XMPP-Layer Compression,hackerone.com/reports/5928,3,500.0,Uncontrolled Resource Consumption,2014-04-20
+5933,Coinbase,Multiple Issues related to registering applications,hackerone.com/reports/5933,3,1000.0,Violation of Secure Design Principles,2014-05-29
+5946,HackerOne,Marking notifications as read CSRF bug,hackerone.com/reports/5946,4,0.0,Cross-Site Request Forgery (CSRF),2015-04-28
+6002,Slack,Stored XSS in Slack.com,hackerone.com/reports/6002,5,0.0,Cross-site Scripting (XSS) - Generic,2015-03-09
+6017,Slack,Facebook Takeover using Slack using 302 from files.slack.com with access_token,hackerone.com/reports/6017,17,0.0,Open Redirect,2015-01-11
+6035,Slack,open redirect in https://slack.com,hackerone.com/reports/6035,2,0.0,Open Redirect,2014-05-31
+6344,Khan Academy,http://smarthistory.khanacademy.org/search-results.html XSS,hackerone.com/reports/6344,4,0.0,Cross-site Scripting (XSS) - Generic,2014-04-09
+6350,HackerOne,creating titleless and non-closable bugs ,hackerone.com/reports/6350,6,0.0,,2014-04-17
+6352,Khan Academy,Dom based XSS https://www.khanacademy.org/,hackerone.com/reports/6352,4,0.0,Cross-site Scripting (XSS) - Generic,2014-04-09
+6353,RelateIQ,Wildcard DNS in website,hackerone.com/reports/6353,7,0.0,Violation of Secure Design Principles,2014-06-01
+6357,Khan Academy,https://www.khanacademy.org/login open-redirect,hackerone.com/reports/6357,3,0.0,Open Redirect,2014-04-09
+6362,Khan Academy,Full Path Disclosure on [smarthistory.khanacademy.org],hackerone.com/reports/6362,3,0.0,Information Disclosure,2014-04-11
+6369,Khan Academy,Stored XSS {dangerous?} https://www.khanacademy.org/coach/roster/?listId=allStudents,hackerone.com/reports/6369,4,0.0,Cross-site Scripting (XSS) - Generic,2014-04-09
+6370,Khan Academy,Possible clickjacking at shop.khanacademy.org,hackerone.com/reports/6370,2,0.0,UI Redressing (Clickjacking),2014-05-08
+6371,Khan Academy,Lighttpd version disclosure / directory listing,hackerone.com/reports/6371,4,0.0,Information Disclosure,2014-04-12
+6376,Khan Academy,User guessing/enumeration at sw.khanacademy.org,hackerone.com/reports/6376,3,0.0,Information Disclosure,2014-04-15
+6378,Khan Academy,CSRF - Adding/Removing items to cart - shop.khanacademy.org,hackerone.com/reports/6378,4,0.0,Cross-Site Request Forgery (CSRF),2014-05-08
+6380,Internet Bug Bounty,Same Origin Security Bypass Vulnerability,hackerone.com/reports/6380,3,2000.0,,2014-03-11
+6389,Internet Bug Bounty,Integer overflow in strop.expandtabs,hackerone.com/reports/6389,4,0.0,,2014-03-31
+6409,Khan Academy,https://www.khanacademy.org/coach/reports/activity XSS,hackerone.com/reports/6409,3,0.0,Cross-site Scripting (XSS) - Generic,2014-04-09
+6412,Khan Academy,Persistent class XSS [the fuck],hackerone.com/reports/6412,5,0.0,Cross-site Scripting (XSS) - Generic,2014-04-09
+6475,Concrete CMS,https://concrete5.org ::: HeartBleed Attack (CVE-2014-0160),hackerone.com/reports/6475,3,0.0,Information Disclosure,2014-04-09
+6488,Khan Academy,Weak Ciphers Enabled,hackerone.com/reports/6488,10,0.0,Information Disclosure,2014-04-09
+6491,C2FO,c2fo.com is releasing sensitive Information about Database Configuration.,hackerone.com/reports/6491,4,0.0,Information Disclosure,2014-05-08
+6504,ReddAPI,Session Fixation Found,hackerone.com/reports/6504,5,0.0,,2014-04-20
+6547,HackerOne,(lack of) smtp transport layer security,hackerone.com/reports/6547,4,0.0,Cryptographic Issues - Generic,2015-05-05
+6564,Khan Academy,Open Redirection in SmartHistory KhanAcademy,hackerone.com/reports/6564,5,0.0,Open Redirect,2014-04-09
+6574,ReddAPI,Login page password-guessing attack,hackerone.com/reports/6574,6,0.0,,2014-05-09
+6575,Khan Academy,XSS at  http://smarthistory.khanacademy.org,hackerone.com/reports/6575,7,0.0,Cross-site Scripting (XSS) - Generic,2014-04-09
+6626,Internet Bug Bounty,TLS heartbeat read overrun,hackerone.com/reports/6626,10,0.0,,2014-04-07
+6697,ReddAPI,No Captcha or rate limit on Login Page,hackerone.com/reports/6697,7,0.0,Improper Authentication - Generic,2014-04-23
+6794,C2FO,The server supports only older protocols for HTTPS connections,hackerone.com/reports/6794,2,0.0,Cryptographic Issues - Generic,2014-05-15
+6826,Faceless,Blocking yourself,hackerone.com/reports/6826,2,0.0,Violation of Secure Design Principles,2014-04-11
+6843,Concrete CMS,Cross-Site Scripting in getMarketplacePurchaseFrame,hackerone.com/reports/6843,2,0.0,Cross-site Scripting (XSS) - Generic,2014-08-18
+6853,Concrete CMS,XSS on [/concrete/concrete/elements/dashboard/sitemap.php],hackerone.com/reports/6853,6,0.0,Cross-site Scripting (XSS) - Generic,2014-08-28
+6871,IRCCloud,Login CSRF,hackerone.com/reports/6871,2,100.0,Cross-Site Request Forgery (CSRF),2014-04-21
+6872,IRCCloud,Sign up CSRF,hackerone.com/reports/6872,4,100.0,Cross-Site Request Forgery (CSRF),2014-05-14
+6877,IRCCloud,"Unsecure cookies, cookie flag secure not set",hackerone.com/reports/6877,3,100.0,Violation of Secure Design Principles,2014-05-15
+6883,IRCCloud,Bruteforcing irccloud login,hackerone.com/reports/6883,3,100.0,Violation of Secure Design Principles,2014-05-26
+6884,IRCCloud,Leaking Referrer in Reset Password Link,hackerone.com/reports/6884,5,100.0,Violation of Secure Design Principles,2014-04-12
+6888,IRCCloud,HTML Form without CSRF protection,hackerone.com/reports/6888,3,0.0,Cross-Site Request Forgery (CSRF),2014-05-14
+6907,IRCCloud,Session Token is not Verified while changing Account Setting's which Result In account Takeover,hackerone.com/reports/6907,5,0.0,Cross-Site Request Forgery (CSRF),2014-04-23
+6910,IRCCloud,Full account takeover using CSRF and password reset,hackerone.com/reports/6910,16,0.0,Cross-Site Request Forgery (CSRF),2014-04-14
+6927,IRCCloud,Session cookie can be leaked over an unencrypted HTTP connection,hackerone.com/reports/6927,1,0.0,Violation of Secure Design Principles,2014-05-15
+6935,IRCCloud,Missing X-Content-Type-Options,hackerone.com/reports/6935,6,0.0,Violation of Secure Design Principles,2014-05-15
+7033,IRCCloud,"""SESSION""  Cookie without HttpOnly flag set",hackerone.com/reports/7033,5,0.0,Improper Authentication - Generic,2014-05-11
+7036,IRCCloud,Bug in iOS application which could lead to unauthorised access.,hackerone.com/reports/7036,6,0.0,Improper Authentication - Generic,2014-05-15
+7041,IRCCloud,iOS application does not destroy session upon logout.,hackerone.com/reports/7041,5,0.0,Improper Authentication - Generic,2014-05-22
+7051,IRCCloud, User Account Creation CSRF ,hackerone.com/reports/7051,3,0.0,Cross-Site Request Forgery (CSRF),2014-06-25
+7085,IRCCloud,DNS Misconfiguration,hackerone.com/reports/7085,5,0.0,,2014-04-11
+7116,IRCCloud,CSRF to Account Take Over Bug ,hackerone.com/reports/7116,4,0.0,Cross-Site Request Forgery (CSRF),2014-09-08
+7121,IRCCloud,Persistent Cross Site Scripting within the IRCCloud Pastebin ,hackerone.com/reports/7121,3,500.0,Cross-site Scripting (XSS) - Generic,2014-10-01
+7226,IRCCloud,Login page password-guessing attack(Brute-force attack-High).,hackerone.com/reports/7226,8,0.0,Improper Authentication - Generic,2014-04-26
+7270,Faceless,Bruteforce attack in login panel,hackerone.com/reports/7270,4,0.0,Violation of Secure Design Principles,2014-04-15
+7277,Internet Bug Bounty,TLS Triple Handshake Attack,hackerone.com/reports/7277,14,0.0,,2014-03-03
+7332,IRCCloud,CSRF - Creating accounts,hackerone.com/reports/7332,1,0.0,Cross-Site Request Forgery (CSRF),2014-05-14
+7357,IRCCloud,Host Header is not validated resulting in Open Redirect,hackerone.com/reports/7357,4,100.0,Violation of Secure Design Principles,2014-04-24
+7369,Coinbase,2 factor authentication design flaw,hackerone.com/reports/7369,2,0.0,Violation of Secure Design Principles,2014-06-06
+7436,IRCCloud,Unwanted Spamming Using CSRF [LOGGED IN USER],hackerone.com/reports/7436,4,0.0,Cross-Site Request Forgery (CSRF),2014-05-17
+7441,IRCCloud,Dangerous Persistent xss,hackerone.com/reports/7441,4,0.0,Cross-site Scripting (XSS) - Generic,2014-05-13
+7516,IRCCloud,Log Out Cross site Request Forgery,hackerone.com/reports/7516,1,0.0,Cross-Site Request Forgery (CSRF),2014-06-13
+7531,IRCCloud,Login CSRF can be bypassed (Similar approach to previous one).,hackerone.com/reports/7531,8,0.0,Cross-Site Request Forgery (CSRF),2014-05-20
+7571,Automattic,Simplenote Silverlight cross-domain policy misconfiguration,hackerone.com/reports/7571,1,0.0,Cross-Site Request Forgery (CSRF),2014-05-17
+7680,Automattic,Session Cookie without Secure flag set,hackerone.com/reports/7680,2,0.0,,2014-05-21
+7736,Concrete CMS,FULL PATH DISCLOSUR ,hackerone.com/reports/7736,6,0.0,Information Disclosure,2014-04-17
+7803,Internet Bug Bounty,Security bypass could lead to information disclosure,hackerone.com/reports/7803,3,2000.0,,2014-04-08
+7843,Automattic,Session Cookie without Secure flag set,hackerone.com/reports/7843,1,0.0,,2014-05-21
+7849,Automattic,HTML form without CSRF protection,hackerone.com/reports/7849,4,0.0,Cross-Site Request Forgery (CSRF),2014-07-08
+7862,Localize,ClickJacking,hackerone.com/reports/7862,2,0.0,UI Redressing (Clickjacking),2014-05-17
+7863,Localize,HTML Form Without CSRF protection,hackerone.com/reports/7863,3,0.0,Cryptographic Issues - Generic,2014-04-18
+7865,Localize,Sign-up Form CSRF,hackerone.com/reports/7865,9,0.0,Cross-Site Request Forgery (CSRF),2014-04-18
+7868,Localize,XSS in Groups,hackerone.com/reports/7868,10,0.0,Cross-site Scripting (XSS) - Generic,2014-04-18
+7869,Localize,No BruteForce Protection,hackerone.com/reports/7869,2,0.0,Cryptographic Issues - Generic,2014-04-22
+7870,Localize,Change user settings through CSRF,hackerone.com/reports/7870,2,0.0,Cross-Site Request Forgery (CSRF),2014-05-18
+7873,Localize,Stored XSS,hackerone.com/reports/7873,3,0.0,Cross-site Scripting (XSS) - Generic,2014-04-20
+7876,Localize,XSS & HTML injection,hackerone.com/reports/7876,11,0.0,Cross-Site Request Forgery (CSRF),2014-04-18
+7882,Localize,XSS in main page,hackerone.com/reports/7882,10,0.0,Cross-site Scripting (XSS) - Generic,2014-04-18
+7883,Localize,Password Policy,hackerone.com/reports/7883,2,0.0,Violation of Secure Design Principles,2014-05-18
+7886,Localize,XSS in main page (invitation),hackerone.com/reports/7886,7,0.0,Cross-site Scripting (XSS) - Generic,2014-04-18
+7887,Localize,XSS in invite approval,hackerone.com/reports/7887,10,0.0,Cross-site Scripting (XSS) - Generic,2014-04-18
+7888,Localize,Unexpected array leaks information about the system,hackerone.com/reports/7888,4,0.0,Information Disclosure,2014-04-18
+7890,Localize,XSS in Localize.io,hackerone.com/reports/7890,4,0.0,Cross-site Scripting (XSS) - Generic,2014-04-18
+7894,Localize,Full path disclosure,hackerone.com/reports/7894,3,0.0,Information Disclosure,2014-04-18
+7897,Localize,"HTML/Javascript possible in ""Discussion"" section of reviews",hackerone.com/reports/7897,6,0.0,Cross-site Scripting (XSS) - Generic,2014-04-19
+7898,Respondly,Persistent Cross-site scripting vulnerability settings.,hackerone.com/reports/7898,2,0.0,Cross-site Scripting (XSS) - Generic,2014-04-21
+7900,Respondly,OAuth open redirect,hackerone.com/reports/7900,8,0.0,Open Redirect,2014-04-22
+7903,Localize,Path Disclosure (Info Disclosure) in  http://www.localize.io,hackerone.com/reports/7903,4,0.0,Information Disclosure,2014-04-18
+7909,Localize,Business logic Failure - Browser cache management and logout vulnerability.,hackerone.com/reports/7909,13,0.0,Improper Authentication - Generic,2014-05-18
+7913,Respondly,Import emails from Gmail are activate XSS,hackerone.com/reports/7913,2,0.0,Cross-site Scripting (XSS) - Generic,2014-04-21
+7914,Localize,Server header - information disclosure ,hackerone.com/reports/7914,3,0.0,Information Disclosure,2014-05-19
+7915,Localize,Uninitialized variable error message leaks information ,hackerone.com/reports/7915,4,0.0,Information Disclosure,2014-04-18
+7916,Localize,No Cross-Site Request Forgery protection at multiple locations,hackerone.com/reports/7916,3,0.0,Cross-Site Request Forgery (CSRF),2014-04-18
+7917,Respondly,"Find, private notes Cross-site scripting.",hackerone.com/reports/7917,2,0.0,Cross-site Scripting (XSS) - Generic,2014-04-21
+7919,Respondly,XSS via Email,hackerone.com/reports/7919,4,0.0,Cross-site Scripting (XSS) - Generic,2014-04-21
+7921,Localize,Assigning a non-existing role to user causes exception when opening project page,hackerone.com/reports/7921,3,0.0,Uncontrolled Resource Consumption,2014-04-19
+7923,Localize,Apache2 /icons/ folder accessible,hackerone.com/reports/7923,4,0.0,Information Disclosure,2014-05-18
+7924,Respondly,Clickjacking - changing role,hackerone.com/reports/7924,1,0.0,UI Redressing (Clickjacking),2014-04-21
+7929,HackerOne,Arbitrary file uploads to Amazon WS.,hackerone.com/reports/7929,4,0.0,Violation of Secure Design Principles,2014-04-26
+7930,Localize,Information Disclosure (Directory Structure),hackerone.com/reports/7930,4,0.0,Information Disclosure,2014-04-18
+7931,HackerOne,Issue with remember_user_token,hackerone.com/reports/7931,4,150.0,Violation of Secure Design Principles,2015-05-28
+7936,Secret,Login CSRF in Secret.ly,hackerone.com/reports/7936,5,0.0,Cross-Site Request Forgery (CSRF),2014-06-09
+7941,Localize,A Serious Bug on SIGNUP Process!,hackerone.com/reports/7941,4,0.0,Memory Corruption - Generic,2014-04-22
+7945,Respondly,x-frame options-sameorigin warning,hackerone.com/reports/7945,4,0.0,Violation of Secure Design Principles,2014-05-18
+7949,Respondly,DNS Misconfiguration,hackerone.com/reports/7949,2,0.0,,2014-05-18
+7950,Localize,User credentials are sent in clear text,hackerone.com/reports/7950,2,0.0,Information Disclosure,2014-04-18
+7954,Localize,Password type input with auto-complete enabled,hackerone.com/reports/7954,4,0.0,Improper Authentication - Generic,2014-04-19
+7962,Localize,CSRF in adding phrase.,hackerone.com/reports/7962,12,0.0,Cross-Site Request Forgery (CSRF),2014-04-19
+7968,Localize,Sensitive file,hackerone.com/reports/7968,5,0.0,Violation of Secure Design Principles,2014-04-18
+7969,Respondly,HTTP Strict transport security policy not enabled,hackerone.com/reports/7969,2,0.0,Violation of Secure Design Principles,2014-04-21
+7972,Localize,Full Path Disclosure,hackerone.com/reports/7972,4,0.0,Information Disclosure,2014-04-19
+7995,Localize,XSS in password,hackerone.com/reports/7995,5,0.0,Cross-site Scripting (XSS) - Generic,2014-05-11
+8010,Respondly,XSS via Email Link,hackerone.com/reports/8010,4,0.0,Cross-site Scripting (XSS) - Generic,2014-04-21
+8013,Localize,Full Path Disclosure (2),hackerone.com/reports/8013,3,0.0,Information Disclosure,2014-04-19
+8017,Localize,Login page password-guessing attack,hackerone.com/reports/8017,6,0.0,,2014-04-20
+8019,Localize,Possible sensitive files,hackerone.com/reports/8019,7,0.0,Information Disclosure,2014-04-20
+8053,Respondly,X-Content-Type-Options header missing,hackerone.com/reports/8053,1,0.0,Violation of Secure Design Principles,2014-05-21
+8055,Localize,Apache Documentation,hackerone.com/reports/8055,5,0.0,Information Disclosure,2014-04-18
+8059,Localize,X-Content-Type-Options header missing,hackerone.com/reports/8059,2,0.0,Violation of Secure Design Principles,2014-05-19
+8064,Localize,Numerous open ports/services,hackerone.com/reports/8064,5,0.0,Information Disclosure,2014-04-21
+8082,HackerOne,Password Reset Bug,hackerone.com/reports/8082,15,100.0,Violation of Secure Design Principles,2014-09-25
+8088,Localize,Full Path Disclosure (FPD) in www.localize.io,hackerone.com/reports/8088,3,0.0,Information Disclosure,2014-04-19
+8090,Localize,Full Path Disclosure / Info Disclosure in Creating New Group,hackerone.com/reports/8090,12,0.0,Information Disclosure,2014-04-19
+8091,Localize,Full Path Disclosure / Info Disclosure in Importing XML Section!,hackerone.com/reports/8091,3,0.0,Information Disclosure,2014-04-19
+8093,Localize,infinite number of new project creation!,hackerone.com/reports/8093,3,0.0,Memory Corruption - Generic,2014-04-22
+8102,Localize,Making groups in any project without permission ,hackerone.com/reports/8102,3,0.0,Privilege Escalation,2014-04-20
+8104,Localize,Deleting groups in any project without permission ,hackerone.com/reports/8104,3,0.0,Privilege Escalation,2014-04-20
+8184,Localize,OPTIONS Method Enabled,hackerone.com/reports/8184,3,0.0,,2014-04-21
+8216,Localize,Group Creation Via CSRF,hackerone.com/reports/8216,2,0.0,Cross-Site Request Forgery (CSRF),2014-04-21
+8218,Localize,Group Deletion Via CSRF,hackerone.com/reports/8218,2,0.0,Cross-Site Request Forgery (CSRF),2014-04-21
+8224,Localize, Private Project Access Request Accpeted Via CSRF ,hackerone.com/reports/8224,2,0.0,Cross-Site Request Forgery (CSRF),2014-04-21
+8226,Localize,Private Project Access Request Invitation Sent Via CSRF ,hackerone.com/reports/8226,9,0.0,Cross-Site Request Forgery (CSRF),2014-04-21
+8239,Localize,No Wildcard DNS,hackerone.com/reports/8239,2,0.0,Violation of Secure Design Principles,2014-04-21
+8242,Respondly,Allowed method disclosure,hackerone.com/reports/8242,2,0.0,Violation of Secure Design Principles,2014-04-21
+8273,Localize,Projects Watch or Notifications Settings Change Via CSRF,hackerone.com/reports/8273,3,0.0,Cross-Site Request Forgery (CSRF),2014-05-21
+8737,Respondly,Deleting team members,hackerone.com/reports/8737,8,0.0,Cross-site Scripting (XSS) - Generic,2014-04-23
+8780,StopTheHacker,Information Disclosure (FPD) - stopthehacker.com,hackerone.com/reports/8780,4,0.0,Information Disclosure,2014-07-08
+8843,StopTheHacker,CSRF - Disabling orders at https://panel.stopthehacker.com/manage/disable-order/order/ID,hackerone.com/reports/8843,2,0.0,Cross-Site Request Forgery (CSRF),2014-07-19
+8862,StopTheHacker,XSS in Stopthehacker support,hackerone.com/reports/8862,3,0.0,Cross-site Scripting (XSS) - Generic,2014-07-19
+8996,Respondly,No Bruteforce Protection,hackerone.com/reports/8996,4,0.0,Improper Authentication - Generic,2014-05-22
+9008,Localize,Criptographic Issue: Strisct Transport Security with not good max age..(TOO SHORT!),hackerone.com/reports/9008,3,0.0,Cryptographic Issues - Generic,2014-04-23
+9088,Localize,"Atttacker can send ""Invitation Request"" to a Project that is not even created yet!",hackerone.com/reports/9088,5,0.0,Improper Authentication - Generic,2014-04-23
+9137,Respondly,Full Path Disclosure,hackerone.com/reports/9137,3,0.0,Information Disclosure,2014-04-23
+9148,StopTheHacker,XSS Reflected - https://www.stopthehacker.com/,hackerone.com/reports/9148,2,0.0,Cross-site Scripting (XSS) - Generic,2014-08-08
+9230,StopTheHacker,XSS 1,hackerone.com/reports/9230,7,0.0,Cross-site Scripting (XSS) - Generic,2014-07-18
+9256,Localize,Full Path Disclosure (FPD) in www.localize.im,hackerone.com/reports/9256,3,0.0,Information Disclosure,2014-04-23
+9375,Ian Dunn,Stored XSS in all fields in Basic Google Maps Placemarks Settings,hackerone.com/reports/9375,2,25.0,Cross-site Scripting (XSS) - Generic,2014-04-23
+9391,Ian Dunn,Xss in CampTix Event Ticketing,hackerone.com/reports/9391,4,0.0,Cross-site Scripting (XSS) - Generic,2014-04-24
+9460,Respondly,OAuth Bug,hackerone.com/reports/9460,5,0.0,Improper Authentication - Generic,2014-04-30
+9479,HackerOne,Anti-MIME-Sniffing header X-Content-Type-Options header has not been set.,hackerone.com/reports/9479,9,0.0,Violation of Secure Design Principles,2015-04-28
+9485,Ian Dunn,Multiple Path Disclosure,hackerone.com/reports/9485,9,0.0,Information Disclosure,2016-07-16
+9516,Ian Dunn,PHP and Wordpress version disclosure,hackerone.com/reports/9516,2,0.0,Information Disclosure,2014-06-11
+9522,Automattic,https://polldaddy.com storage.swf XSS,hackerone.com/reports/9522,4,0.0,Cross-site Scripting (XSS) - Generic,2014-07-08
+9735,StopTheHacker,Reflected cross site scripting in login page ,hackerone.com/reports/9735,5,0.0,Cross-site Scripting (XSS) - Generic,2014-09-07
+9745,Localize,Full Path Disclosure (FPD) in www.localize.im,hackerone.com/reports/9745,4,0.0,Information Disclosure,2014-07-08
+9774,Slack,Stored XSS Found,hackerone.com/reports/9774,9,0.0,Cross-site Scripting (XSS) - Generic,2014-06-01
+9950,HackerOne,All Active user sessions should be deleted when user change his password!,hackerone.com/reports/9950,11,100.0,Violation of Secure Design Principles,2016-04-25
+10109,HackerOne,Flooding mailbox of user,hackerone.com/reports/10109,6,0.0,Violation of Secure Design Principles,2014-04-30
+10186,RelateIQ,Old Sessions remain valid after the password change.,hackerone.com/reports/10186,3,0.0,Improper Authentication - Generic,2014-06-11
+10297,Slack,Stored XSS in slack.com (integrations),hackerone.com/reports/10297,2,0.0,Cross-site Scripting (XSS) - Generic,2014-05-29
+10373,Internet Bug Bounty,Bypassing Same Origin Policy With JSONP APIs and Flash,hackerone.com/reports/10373,5,0.0,,2014-07-19
+10377,C2FO,All Active user sessions should be destroyed when user change his password!,hackerone.com/reports/10377,1,0.0,Violation of Secure Design Principles,2014-09-23
+10554,Coinbase,Bypassing 2FA for BTC transfers,hackerone.com/reports/10554,18,1000.0,Improper Authentication - Generic,2014-09-25
+10563,Coinbase,"CSRF on ""Set as primary"" option on the accounts page",hackerone.com/reports/10563,3,100.0,Cross-Site Request Forgery (CSRF),2014-07-26
+10577,Localize,XSS in Team Only Area,hackerone.com/reports/10577,4,0.0,Cross-site Scripting (XSS) - Generic,2014-07-08
+10829,Coinbase,"CSRF in function ""Set as primary"" on  accounts page",hackerone.com/reports/10829,1,0.0,Cross-Site Request Forgery (CSRF),2014-06-06
+11073,Slack,XSS in gist integration,hackerone.com/reports/11073,157,500.0,Cross-site Scripting (XSS) - Generic,2019-04-28
+11625,Hubdia,Subscribe User bug,hackerone.com/reports/11625,2,0.0,Violation of Secure Design Principles,2014-07-08
+11722,Coinbase,Simultaneous Session Logon : Improper Session Management,hackerone.com/reports/11722,4,0.0,Improper Authentication - Generic,2014-08-26
+11729,Ian Dunn,Path Disclosure Vulnerability,hackerone.com/reports/11729,6,0.0,Information Disclosure,2016-08-18
+11945,joola.io,HTTP Strict Transport Security (HSTS) Policy Not Enabled,hackerone.com/reports/11945,1,0.0,Violation of Secure Design Principles,2014-07-08
+11951,joola.io,SSH Port Wide Open,hackerone.com/reports/11951,2,0.0,Information Disclosure,2014-07-08
+12042,joola.io,Login password guessing attack,hackerone.com/reports/12042,3,0.0,Violation of Secure Design Principles,2014-05-19
+12297,Internet Bug Bounty,Python vulnerability: reading arbitrary process memory,hackerone.com/reports/12297,1,0.0,,2014-06-20
+12341,Kadira,MISSING SPF (Sender Policy Framework) for meteorapm.com,hackerone.com/reports/12341,4,0.0,Information Disclosure,2014-07-08
+12355,Kadira,Undeletable File,hackerone.com/reports/12355,2,0.0,Cryptographic Issues - Generic,2014-07-08
+12389,Respondly,XSS in the input,hackerone.com/reports/12389,3,0.0,Cross-site Scripting (XSS) - Generic,2014-07-08
+12425,Kadira,API keys being cached ,hackerone.com/reports/12425,3,0.0,Violation of Secure Design Principles,2014-07-08
+12453,ReddAPI,Strict Transport Security Misconfiguration,hackerone.com/reports/12453,5,0.0,Cryptographic Issues - Generic,2014-10-28
+12454,ReddAPI,Browser cross-site scripting filter misconfiguration,hackerone.com/reports/12454,3,0.0,Violation of Secure Design Principles,2014-10-28
+12457,ReddAPI, Content Sniffing not disabled,hackerone.com/reports/12457,2,0.0,Violation of Secure Design Principles,2014-10-28
+12497,Internet Bug Bounty,Adobe Flash Player FileReference Use-after-Free Vulnerability,hackerone.com/reports/12497,4,7500.0,Memory Corruption - Generic,2014-10-07
+12506,Secret,Content Sniffing not disabled,hackerone.com/reports/12506,2,0.0,Violation of Secure Design Principles,2014-07-08
+12613,joola.io,X-Content-Type-Options header missing,hackerone.com/reports/12613,2,0.0,Violation of Secure Design Principles,2014-07-08
+12617,Faceless,Account hijacking possible through ADB backup feature,hackerone.com/reports/12617,2,0.0,Information Disclosure,2014-05-21
+12782,HackerOne,Spamming any user from Reset Password Function,hackerone.com/reports/12782,5,0.0,Violation of Secure Design Principles,2016-05-03
+12815,HackerOne,Improper filtering of classes used in codeblocks in Markdown,hackerone.com/reports/12815,5,0.0,Cross-site Scripting (XSS) - Generic,2014-07-08
+12836,Localize,missing sender policy framework (SPF),hackerone.com/reports/12836,4,0.0,Violation of Secure Design Principles,2014-08-09
+12949,Urban Dictionary,Open Redirection,hackerone.com/reports/12949,2,0.0,Open Redirect,2014-07-08
+12964,Urban Dictionary,Open URL Redirection,hackerone.com/reports/12964,4,0.0,Open Redirect,2014-07-08
+12977,Secret,secret app for iOS and android is sending some info over HTTP,hackerone.com/reports/12977,3,0.0,Cryptographic Issues - Generic,2014-08-16
+13237,Localize,full path disclosure from false language,hackerone.com/reports/13237,3,0.0,Information Disclosure,2014-08-06
+13285,Khan Academy,Suffix of url-path is vulnerable to XSS-attack,hackerone.com/reports/13285,3,0.0,Cross-site Scripting (XSS) - Generic,2014-09-16
+13286,IRCCloud,Host Header Injection - irccloud.com,hackerone.com/reports/13286,10,100.0,Violation of Secure Design Principles,2014-07-08
+13314,Khan Academy,CRLF Injection,hackerone.com/reports/13314,2,0.0,Cross-Site Request Forgery (CSRF),2014-08-07
+13506,Khan Academy,Unchecking hidden parameter is vulnerable to XSS-attack,hackerone.com/reports/13506,3,0.0,Cross-site Scripting (XSS) - Generic,2014-08-07
+13550,Factlink,Click jacking,hackerone.com/reports/13550,2,0.0,UI Redressing (Clickjacking),2014-07-08
+13551,Factlink,HTML5 cross-origin resource sharing,hackerone.com/reports/13551,4,0.0,,2014-07-08
+13553,Factlink,Url Redirection,hackerone.com/reports/13553,2,0.0,Open Redirect,2014-06-10
+13555,Factlink,Login CSRF using Twitter oauth,hackerone.com/reports/13555,7,0.0,Cross-Site Request Forgery (CSRF),2014-07-05
+13557,Factlink,Leaking of password reset token through referer,hackerone.com/reports/13557,4,0.0,Information Disclosure,2014-07-08
+13563,Factlink,Missing SPF for factlink.com and Staging.factlink.com,hackerone.com/reports/13563,4,0.0,Cryptographic Issues - Generic,2014-07-08
+13567,Factlink,Password Complexity very low.,hackerone.com/reports/13567,5,0.0,Improper Authentication - Generic,2014-07-08
+13583,Factlink,Sign  up CSRF,hackerone.com/reports/13583,3,0.0,Cross-Site Request Forgery (CSRF),2014-06-05
+13602,Factlink,Session not expired on logout,hackerone.com/reports/13602,5,0.0,,2014-07-08
+13628,IRCCloud,Password type input with auto-complete enabled,hackerone.com/reports/13628,3,0.0,Violation of Secure Design Principles,2014-11-17
+13634,IRCCloud,Missing Character Restriction,hackerone.com/reports/13634,2,0.0,Violation of Secure Design Principles,2014-11-17
+13639,Factlink,X/Csrf token problem,hackerone.com/reports/13639,3,0.0,Improper Authentication - Generic,2014-05-30
+13652,Factlink,Proxy service crash DoS,hackerone.com/reports/13652,9,0.0,Uncontrolled Resource Consumption,2014-06-04
+13679,Factlink,Meta characters not filtered on signup,hackerone.com/reports/13679,7,0.0,Violation of Secure Design Principles,2014-07-08
+13703,Automattic,xss in app.simplenote.com,hackerone.com/reports/13703,3,0.0,Cross-site Scripting (XSS) - Generic,2014-07-08
+13705,Automattic,logout csrf app.simplenote.com/logout,hackerone.com/reports/13705,4,0.0,Cross-Site Request Forgery (CSRF),2014-07-08
+13746,Automattic,xss in simperium.com,hackerone.com/reports/13746,2,0.0,Cross-site Scripting (XSS) - Generic,2014-08-10
+13748,HackerOne,Potential denial of service in hackerone.com/teams/new,hackerone.com/reports/13748,3,0.0,Uncontrolled Resource Consumption,2014-06-20
+13794,Automattic,XSS on gravatar,hackerone.com/reports/13794,2,0.0,Cross-site Scripting (XSS) - Generic,2014-09-07
+13856,X / xAI,CSRF   in crashlytics.com,hackerone.com/reports/13856,1,0.0,Cross-Site Request Forgery (CSRF),2014-09-08
+13939,Automattic,information disclosure,hackerone.com/reports/13939,1,0.0,Information Disclosure,2014-07-16
+13959,Automattic,privilege escalation,hackerone.com/reports/13959,9,0.0,Improper Authentication - Generic,2014-08-10
+14092,Slack,Remote file Inclusion - RFI in upload,hackerone.com/reports/14092,7,0.0,Code Injection,2014-07-08
+14127,Slack,SSRF on https://whitehataudit.slack.com/account/photo,hackerone.com/reports/14127,5,0.0,Command Injection - Generic,2014-12-21
+14177,X / xAI,Token remains alive ever after logging out!,hackerone.com/reports/14177,3,0.0,Improper Authentication - Generic,2014-11-17
+14199,X / xAI,uclfinal.twitter.com and euro2012.twitter.com are vulnerable to CRIME attack,hackerone.com/reports/14199,3,0.0,Cryptographic Issues - Generic,2014-08-16
+14303,Automattic,http://jetpack.me/ Self XSS,hackerone.com/reports/14303,2,0.0,Cross-site Scripting (XSS) - Generic,2014-07-08
+14305,Automattic,genericons.com - DOM based XSS.,hackerone.com/reports/14305,2,0.0,Cross-site Scripting (XSS) - Generic,2014-07-08
+14461,Factlink,Password reset link doesn't expire.,hackerone.com/reports/14461,2,0.0,Violation of Secure Design Principles,2014-06-05
+14494,Mavenlink,Clickjacking & CSRF attack can be done at https://app.mavenlink.com/login,hackerone.com/reports/14494,3,0.0,Cross-Site Request Forgery (CSRF),2014-09-19
+14529,Mavenlink,The web application https://mavenlink.com discloses version details of the underlying Platform / Server,hackerone.com/reports/14529,3,0.0,Information Disclosure,2014-07-08
+14570,Mavenlink,Login password guessing attack,hackerone.com/reports/14570,6,0.0,Violation of Secure Design Principles,2014-07-22
+14631,Mavenlink,Clickjacking at https://www.mavenlink.com/ main website ,hackerone.com/reports/14631,4,0.0,UI Redressing (Clickjacking),2014-09-19
+14747,Factlink,Anonymous Proxy and IP leak ,hackerone.com/reports/14747,2,0.0,,2014-06-04
+14803,Automattic,Serving Transitions From: HTTP Protocol (not secure),hackerone.com/reports/14803,2,0.0,Information Disclosure,2014-06-04
+14883,X / xAI,[mobile.twitter.com / twitter.com] CSRF protection bypass,hackerone.com/reports/14883,6,0.0,Cross-Site Request Forgery (CSRF),2015-05-04
+15047,X / xAI,Captcha bypass with extension at http://www.mopub.com/about/contact/,hackerone.com/reports/15047,1,0.0,Cryptographic Issues - Generic,2014-09-22
+15125,X / xAI,XSS vulnerability in video player page,hackerone.com/reports/15125,2,0.0,Cross-site Scripting (XSS) - Generic,2014-08-02
+15166,Mavenlink,Password reset token not expiring,hackerone.com/reports/15166,6,0.0,Improper Authentication - Generic,2014-07-10
+15232,X / xAI,Cookie not marked as secure.,hackerone.com/reports/15232,2,0.0,,2014-08-04
+15356,X / xAI,XSS ON MOPUB.COM,hackerone.com/reports/15356,4,0.0,Cross-site Scripting (XSS) - Generic,2014-08-15
+15362,Internet Bug Bounty,Flash Sandbox Bypass,hackerone.com/reports/15362,5,0.0,Information Disclosure,2014-06-19
+15412,Coinbase,Leaking CSRF token over HTTP resulting in CSRF protection bypass,hackerone.com/reports/15412,6,1000.0,Cross-Site Request Forgery (CSRF),2014-10-16
+15454,FanFootage,NO CSRF token found on user details update,hackerone.com/reports/15454,1,0.0,Cross-Site Request Forgery (CSRF),2014-07-07
+15476,FanFootage,Session Token is not Verified while changing Account Setting's which Result In account Takeover,hackerone.com/reports/15476,3,0.0,Cross-Site Request Forgery (CSRF),2014-06-14
+15518,Factlink,Criptographic Issue: Strisct Transport Security with not good max age..(TOO SHORT!),hackerone.com/reports/15518,1,0.0,Cryptographic Issues - Generic,2014-07-13
+15574,FanFootage,Reporting Bugs,hackerone.com/reports/15574,2,0.0,,2016-06-16
+15578,FanFootage,Same user name and uuid for multiple user names,hackerone.com/reports/15578,1,0.0,Violation of Secure Design Principles,2014-07-13
+15619,FanFootage,Cookie fixation,hackerone.com/reports/15619,3,0.0,Uncontrolled Resource Consumption,2014-08-07
+15679,Localize,Bug on registration as new Translator user,hackerone.com/reports/15679,4,0.0,,2014-08-06
+15777,Automattic,Process of changing email address and password does not asks old Password.,hackerone.com/reports/15777,3,0.0,Improper Authentication - Generic,2014-07-11
+15785,HackerOne,Session not invalidated after password reset,hackerone.com/reports/15785,15,0.0,Violation of Secure Design Principles,2014-06-10
+15852,Mavenlink,Non Validation of session after password reset,hackerone.com/reports/15852,5,0.0,Violation of Secure Design Principles,2014-07-22
+15899,Localize,PHP PDOException and Full Path Disclosure,hackerone.com/reports/15899,3,0.0,Information Disclosure,2014-07-07
+16315,Phabricator,Abusing VCS control on phabricator,hackerone.com/reports/16315,1,600.0,Privilege Escalation,2014-06-13
+16330,Internet Bug Bounty,Multiple issues in looking-glass software (aka from web to BGP injections),hackerone.com/reports/16330,2,0.0,Cross-site Scripting (XSS) - Generic,2014-09-17
+16392,Phabricator,Abusing daemon logs for Privilege escalation under certain scenarios,hackerone.com/reports/16392,2,300.0,Privilege Escalation,2014-06-18
+16439,Automattic,User Enumeration and Guessable User Account Attack on WORDPRESS,hackerone.com/reports/16439,2,0.0,,2014-09-13
+16568,RelateIQ,Failed Certificate Validation On Custom Server (Register),hackerone.com/reports/16568,3,0.0,Cryptographic Issues - Generic,2014-08-25
+16571,RelateIQ,SSRF (Portscan) via Register Function (Custom Server),hackerone.com/reports/16571,3,0.0,Violation of Secure Design Principles,2014-07-26
+16696,Coinbase,2FA settings allowed to be changed with no delay/freeze on funds,hackerone.com/reports/16696,5,0.0,Violation of Secure Design Principles,2014-08-25
+16718,Slack,Open Redirect login account,hackerone.com/reports/16718,7,100.0,Open Redirect,2014-08-25
+16910,Internet Bug Bounty,Cross-site information assertion leak via Content Security Policy,hackerone.com/reports/16910,13,0.0,Information Disclosure,2018-09-05
+17105,HackerOne,Cache leads to Privacy leaks,hackerone.com/reports/17105,4,0.0,Improper Authentication - Generic,2014-07-17
+17160,Slack,Password Policy issue (Weak Protect),hackerone.com/reports/17160,5,0.0,Violation of Secure Design Principles,2014-09-04
+17225,Uzbey,"SQL injection, tile ID",hackerone.com/reports/17225,2,0.0,Command Injection - Generic,2014-08-07
+17227,Uzbey,"SQL injection, time zoom script, tile ID",hackerone.com/reports/17227,2,0.0,SQL Injection,2014-07-18
+17235,Uzbey,Album image XSS,hackerone.com/reports/17235,2,0.0,Cross-site Scripting (XSS) - Generic,2014-07-18
+17239,Uzbey,Missing HSTS (Strict Transport Security),hackerone.com/reports/17239,2,0.0,Violation of Secure Design Principles,2014-08-29
+17241,Uzbey,Cross-site scripting  vulnerability detected,hackerone.com/reports/17241,1,0.0,Uncontrolled Resource Consumption,2014-07-08
+17252,Uzbey,All Active user sessions should be destroyed when user change his password!,hackerone.com/reports/17252,3,0.0,Improper Authentication - Generic,2014-07-30
+17256,Uzbey,Language version disclosure in response header ,hackerone.com/reports/17256,2,0.0,Violation of Secure Design Principles,2014-07-23
+17287,Uzbey,email field doesn't filtered against XSS,hackerone.com/reports/17287,2,0.0,Cross-site Scripting (XSS) - Generic,2014-07-08
+17297,Uzbey,CMS Information Disclosure,hackerone.com/reports/17297,3,0.0,Information Disclosure,2014-08-07
+17299,Uzbey,Cross site scripting in type parameter,hackerone.com/reports/17299,2,0.0,Cross-site Scripting (XSS) - Generic,2014-08-07
+17311,Uzbey,Breach Attack Vulnerability,hackerone.com/reports/17311,1,0.0,Information Disclosure,2014-07-23
+17312,Uzbey,HTML Form Without CSRF Protection Vulnerability,hackerone.com/reports/17312,3,0.0,Cross-Site Request Forgery (CSRF),2014-07-23
+17315,Uzbey,Clickjacking at https://staging.uzbey.com/,hackerone.com/reports/17315,1,0.0,UI Redressing (Clickjacking),2014-08-07
+17321,Uzbey,Email Flooding Vuln,hackerone.com/reports/17321,3,0.0,Violation of Secure Design Principles,2014-08-07
+17383,HackerOne,Category- Broken Authentication and Session Management (leads to account compromise if some conditions are met),hackerone.com/reports/17383,15,0.0,Improper Authentication - Generic,2014-07-26
+17390,Uzbey,Flash Content-Type Sniffing Vulnerability ,hackerone.com/reports/17390,1,0.0,,2014-07-23
+17474,Phabricator,Broken Authentication and Session Management,hackerone.com/reports/17474,26,0.0,Improper Authentication - Generic,2014-08-05
+17502,Uzbey,Price Manipulation,hackerone.com/reports/17502,2,0.0,Violation of Secure Design Principles,2014-08-29
+17512,HackerOne,Account takeover,hackerone.com/reports/17512,16,0.0,Improper Authentication - Generic,2014-07-17
+17514,Uzbey,Information Disclosure (phpinfo()),hackerone.com/reports/17514,6,0.0,Information Disclosure,2014-06-28
+17540,IRCCloud,Reflected XSS in Pastebin-view,hackerone.com/reports/17540,3,0.0,Cross-site Scripting (XSS) - Generic,2014-06-28
+17638,Uzbey,Mass invitation send,hackerone.com/reports/17638,2,0.0,,2014-09-29
+17664,Factlink,Click-Jacking due to missing X-frame header,hackerone.com/reports/17664,4,0.0,Violation of Secure Design Principles,2014-08-13
+17688,Internet Bug Bounty,LZ4 Core,hackerone.com/reports/17688,1,0.0,Memory Corruption - Generic,2014-07-25
+17766,Faceless,Tap Jacking Attack on Button Tags,hackerone.com/reports/17766,2,0.0,,2014-07-07
+17785,HackerOne,Denial of Service,hackerone.com/reports/17785,4,100.0,Uncontrolled Resource Consumption,2015-04-28
+18371,jsDelivr,Directory Traversal at http://staging.jsdelivr.net/,hackerone.com/reports/18371,4,0.0,Command Injection - Generic,2014-08-20
+18372,jsDelivr,XSS,hackerone.com/reports/18372,2,0.0,Cross-site Scripting (XSS) - Generic,2014-07-29
+18382,jsDelivr,Using nmap revealing sensitive information ,hackerone.com/reports/18382,6,0.0,Information Disclosure,2014-08-28
+18398,jsDelivr,HSTS Policy not enabled on cdn.jsdelivr.net,hackerone.com/reports/18398,3,0.0,Violation of Secure Design Principles,2014-07-29
+18503,Automattic,Top 10 2013-A2-Broken Authentication and Session Management - wordpress.com,hackerone.com/reports/18503,4,0.0,Improper Authentication - Generic,2014-08-16
+18691,Phabricator,XSS in editor by any user,hackerone.com/reports/18691,3,1000.0,Cross-site Scripting (XSS) - Generic,2014-08-13
+18698,RelateIQ,Resubmitted with POC #18685 Password reset CSRF,hackerone.com/reports/18698,5,0.0,Cross-Site Request Forgery (CSRF),2014-09-16
+18805,Factlink,XSS 01 on staging.fct.li,hackerone.com/reports/18805,3,0.0,Cross-site Scripting (XSS) - Generic,2014-07-07
+18843,Internet Bug Bounty,use-after-free vulnerability in Flash Player,hackerone.com/reports/18843,1,0.0,Memory Corruption - Generic,2019-11-12
+18846,HackerOne,Email changing,hackerone.com/reports/18846,8,0.0,,2014-08-28
+19210,Secret,ClientId gives away platform (iOS/Android) from which a secret was posted.,hackerone.com/reports/19210,1,0.0,Information Disclosure,2014-08-01
+19363,Localize,PHP PDOException and Full Path Disclosure,hackerone.com/reports/19363,2,0.0,Information Disclosure,2015-01-18
+19451,Uzbey,IFXSS (image filename XSS) by creating a new Photo Gallery,hackerone.com/reports/19451,2,0.0,Cross-site Scripting (XSS) - Generic,2014-07-23
+19532,Uzbey,"Missing ""size check"" on files to upload could make memory leaks.",hackerone.com/reports/19532,5,0.0,Memory Corruption - Generic,2014-08-22
+19640,HackerOne,Session Hijacking attack (Different Scenario),hackerone.com/reports/19640,10,0.0,Improper Authentication - Generic,2014-07-17
+20049,RelateIQ,Cross-site Scripting in mailing (username),hackerone.com/reports/20049,2,0.0,Cross-site Scripting (XSS) - Generic,2014-12-27
+20071,Automattic,Missing HSTS header in https://public-api.wordpress.com,hackerone.com/reports/20071,1,0.0,Cryptographic Issues - Generic,2014-08-28
+20072,Automattic,Missing HSTS header in https://app.simplenote.com,hackerone.com/reports/20072,2,0.0,Cryptographic Issues - Generic,2014-08-16
+20081,X / xAI,password sent over HTTP,hackerone.com/reports/20081,1,0.0,Cryptographic Issues - Generic,2014-08-05
+20122,HackerOne,No option to logout concurrent sessions,hackerone.com/reports/20122,5,0.0,,2014-07-17
+20221,ExpressionEngine,Cross Site Scripting (Stored) ,hackerone.com/reports/20221,2,0.0,Cross-site Scripting (XSS) - Generic,2014-09-30
+20279,DigitalSellz,Verbose SQL error messages,hackerone.com/reports/20279,2,0.0,Information Disclosure,2014-08-17
+20305,DigitalSellz,"USER Account is not being deleted after user ""Delete Account"" from DASHBOARD",hackerone.com/reports/20305,3,0.0,Violation of Secure Design Principles,2014-08-17
+20671,Internet Bug Bounty,integer overflow in 'buffer' type allows reading memory,hackerone.com/reports/20671,1,0.0,,2014-06-24
+20861,Internet Bug Bounty,moderate: mod_deflate denial of service,hackerone.com/reports/20861,3,500.0,,2014-07-14
+20873,Internet Bug Bounty,rsync hash collisions may allow an attacker to corrupt or modify files,hackerone.com/reports/20873,1,0.0,Cryptographic Issues - Generic,2014-11-17
+21034,Coinbase,Invoice Details activate JS that filled in ,hackerone.com/reports/21034,3,0.0,Cross-site Scripting (XSS) - Generic,2015-03-30
+21064,Phabricator,Back - Refresh - Attack To  Obtain User Credentials,hackerone.com/reports/21064,3,0.0,Information Disclosure,2014-07-23
+21069,Mavenlink,Login CSRF,hackerone.com/reports/21069,4,0.0,Cross-Site Request Forgery (CSRF),2014-07-31
+21083,HackerOne,Account Hijacking (Only rare case scenario),hackerone.com/reports/21083,4,0.0,Improper Authentication - Generic,2014-08-23
+21110,Mavenlink,Clickjacking,hackerone.com/reports/21110,2,0.0,UI Redressing (Clickjacking),2014-08-21
+21150,Mavenlink,Flash XSS  on swfupload.swf showing at app.mavenlink.com,hackerone.com/reports/21150,4,0.0,Cross-site Scripting (XSS) - Generic,2014-07-24
+21172,Mavenlink,Cookies are not cleared from Server side on Logout,hackerone.com/reports/21172,4,0.0,,2017-05-09
+21210,Mavenlink,privilege escalation,hackerone.com/reports/21210,3,0.0,Privilege Escalation,2014-08-05
+21248,Slack,Content spoofing at Stripe Integrations,hackerone.com/reports/21248,2,100.0,Violation of Secure Design Principles,2014-08-25
+21603,IRCCloud,Bruteforce protection not enabled on the login page https://www.irccloud.com/,hackerone.com/reports/21603,5,0.0,Cryptographic Issues - Generic,2014-10-08
+22012,X / xAI,Password reset link not validated.,hackerone.com/reports/22012,4,0.0,Uncontrolled Resource Consumption,2014-08-31
+22093,Slack,Content Spoofing all Integrations in https://team.slack.com/services/new/,hackerone.com/reports/22093,4,200.0,Violation of Secure Design Principles,2014-09-03
+22142,Automattic,Open Redirect in WordPress Feed Statistics {Affected All Versions},hackerone.com/reports/22142,1,0.0,Open Redirect,2014-08-07
+22203,X / xAI,Broken authentication and invalidated email address leads to account takeover,hackerone.com/reports/22203,9,0.0,Cryptographic Issues - Generic,2014-11-28
+22858,Phabricator,Password Reset Links Not Expiring,hackerone.com/reports/22858,4,0.0,Improper Authentication - Generic,2014-09-06
+23010,Uzbey,XSS in 3rd party plugin (not affecting Uzbey's users),hackerone.com/reports/23010,3,0.0,Cross-site Scripting (XSS) - Generic,2014-11-02
+23014,Uzbey,SQL Injection,hackerone.com/reports/23014,4,0.0,SQL Injection,2014-11-02
+23363,Phabricator,Forgot Password Issue,hackerone.com/reports/23363,8,0.0,Improper Authentication - Generic,2014-09-10
+23386,HackerOne,Redirect while opening links in new tabs,hackerone.com/reports/23386,8,500.0,Open Redirect,2014-09-12
+23579,Secret,Broken Authentication and Session Management,hackerone.com/reports/23579,11,0.0,Improper Authentication - Generic,2014-11-17
+23913,X / xAI,User's DM won't deleted after logout from Twitter for iOS (com.atebits.xxx.application-state),hackerone.com/reports/23913,3,0.0,,2015-02-25
+23921,Concrete CMS,broken authentication,hackerone.com/reports/23921,6,0.0,Improper Authentication - Generic,2014-09-21
+24984,Greenhouse.io,openssh-server Forced Command Handling Information Disclosure Vulnerability on blog.greenhouse.io,hackerone.com/reports/24984,0,0.0,Information Disclosure,2014-10-10
+25128,X / xAI,HTML form without CSRF protection at http://try.crashlytics.com/enterprise/,hackerone.com/reports/25128,0,0.0,Cross-Site Request Forgery (CSRF),2014-10-02
+25160,Phabricator,Open redirection on secure.phabricator.com,hackerone.com/reports/25160,2,0.0,Open Redirect,2014-09-17
+25191,Greenhouse.io,SMTP protection not used (please read carefully ),hackerone.com/reports/25191,2,0.0,Improper Authentication - Generic,2014-12-07
+25275,Greenhouse.io,[greenhouse.io] CRLF Injection / Insecure nginx configuration,hackerone.com/reports/25275,8,0.0,,2016-11-02
+25281,HackerOne,Change Any username and profile link in hackerone,hackerone.com/reports/25281,9,100.0,Privilege Escalation,2014-09-25
+25537,Internet Bug Bounty,external entity expansion in Apache POI ,hackerone.com/reports/25537,3,0.0,Information Disclosure,2019-10-14
+26181,Mavenlink,DNS load balancing not enabled,hackerone.com/reports/26181,2,0.0,Violation of Secure Design Principles,2015-03-25
+26395,HackerOne,Notification of previous signed out user leakage.,hackerone.com/reports/26395,2,0.0,Information Disclosure,2014-09-01
+26482,ExpressionEngine,Stored Cross-Site Scripting Vulnerability in /admin.php?/cp/admin_system/general_configuration,hackerone.com/reports/26482,1,0.0,Cross-site Scripting (XSS) - Generic,2014-11-17
+26647,Django,CSRF protection bypass on any Django powered site via Google Analytics,hackerone.com/reports/26647,70,0.0,,2016-09-26
+26758,Phabricator,Password Policy issue,hackerone.com/reports/26758,3,0.0,Violation of Secure Design Principles,2014-10-02
+26763,Slack,HTTP Strict Transport Policy not enabled on newly made accounts,hackerone.com/reports/26763,2,0.0,Violation of Secure Design Principles,2014-10-03
+26825,X / xAI,Full path disclosure at ads.twitter.com,hackerone.com/reports/26825,2,140.0,Information Disclosure,2014-11-17
+26962,Internet Bug Bounty,open redirect in rfc6749,hackerone.com/reports/26962,6,3000.0,Open Redirect,2015-04-06
+27166,X / xAI,Missing Rate Limiting on https://twitter.com/account/complete,hackerone.com/reports/27166,1,0.0,Information Disclosure,2014-11-10
+27404,X / xAI,Delete Credit Cards from any Twitter Account in ads.twitter.com [New Vulnerability],hackerone.com/reports/27404,6,0.0,Improper Authentication - Generic,2014-09-30
+27511,X / xAI,ads.twitter.com xss,hackerone.com/reports/27511,4,0.0,Cross-site Scripting (XSS) - Generic,2014-11-17
+27564,Phabricator,Content spoofing,hackerone.com/reports/27564,3,0.0,Cross-site Scripting (XSS) - Generic,2014-09-11
+27594,GlassWire,Clickjacking: X-Frame-Options header missing,hackerone.com/reports/27594,1,0.0,UI Redressing (Clickjacking),2014-10-12
+27651,Internet Bug Bounty,Flash Local Sandbox Bypass,hackerone.com/reports/27651,5,0.0,Information Disclosure,2014-10-07
+27846,X / xAI,Stored xss,hackerone.com/reports/27846,4,0.0,Cross-site Scripting (XSS) - Generic,2014-09-27
+27987,HackerOne,Window Opener Property Bug,hackerone.com/reports/27987,4,0.0,,2014-10-28
+28150,X / xAI,Cross site scripting on ads.twitter.com,hackerone.com/reports/28150,7,0.0,Cross-site Scripting (XSS) - Generic,2014-10-16
+28445,Internet Bug Bounty,SPL ArrayObject/SPLObjectStorage Unserialization Type Confusion Vulnerabilities,hackerone.com/reports/28445,1,0.0,,2014-07-04
+28449,Ruby on Rails,Active Record SQL Injection Vulnerability Affecting PostgreSQL,hackerone.com/reports/28449,2,0.0,,2014-07-02
+28450,Ruby on Rails,Active Record SQL Injection Vulnerability Affecting PostgreSQL,hackerone.com/reports/28450,2,0.0,,2014-07-02
+28500,X / xAI,iOS App can establish Facetime calls without user's permission,hackerone.com/reports/28500,4,0.0,Cross-Site Request Forgery (CSRF),2015-04-27
+28632,Mavenlink,Email field filtering problem.,hackerone.com/reports/28632,4,0.0,Improper Authentication - Generic,2014-11-17
+28640,Internet Bug Bounty,Ericsson Erlang OTP Core Allocation Subsystem Integer Overflow (All Versions),hackerone.com/reports/28640,2,0.0,Memory Corruption - Generic,2019-11-12
+28703,IRCCloud,Weak password policy,hackerone.com/reports/28703,4,0.0,Improper Authentication - Generic,2014-11-27
+28792,Phabricator,Content Spoofing through URL,hackerone.com/reports/28792,5,0.0,Violation of Secure Design Principles,2014-09-20
+28865,HackerOne,Redirect FILTER bypass in report/comment,hackerone.com/reports/28865,6,500.0,Open Redirect,2014-10-19
+29185,HackerOne,"""early preview"" programs disclosure",hackerone.com/reports/29185,9,0.0,Information Disclosure,2015-01-21
+29206,X / xAI,Twitter Flight SSL 2.0 deprecated protocol vulnerability.,hackerone.com/reports/29206,1,0.0,Cryptographic Issues - Generic,2014-10-07
+29234,Coinbase,Credit Card Validation Issue,hackerone.com/reports/29234,2,0.0,,2015-03-12
+29328,X / xAI,XSS platform.twitter.com,hackerone.com/reports/29328,3,0.0,Cross-site Scripting (XSS) - Generic,2014-11-17
+29331,HackerOne,No email verification on username change,hackerone.com/reports/29331,11,500.0,Information Disclosure,2014-11-17
+29360,X / xAI,XSS platform.twitter.com | video-js metadata,hackerone.com/reports/29360,1,0.0,Cross-site Scripting (XSS) - Generic,2014-11-17
+29480,IRCCloud,Unvalidated Channel names causes IRC Command Injection,hackerone.com/reports/29480,1,300.0,Cross-Site Request Forgery (CSRF),2014-10-01
+29491,HackerOne,homograph attack. IDNs displayed in unicode in bug reports and on external link warning page,hackerone.com/reports/29491,12,500.0,Violation of Secure Design Principles,2014-10-09
+29835,X / xAI,Profile Pic padding (Length-hiding) fails due to use of GZIP,hackerone.com/reports/29835,7,280.0,Information Disclosure,2016-03-18
+29839,Internet Bug Bounty,GNU Bourne-Again Shell (Bash) 'Shellshock' Vulnerability,hackerone.com/reports/29839,19,0.0,,2014-10-01
+30019,Concrete CMS,Stored XSS in concrete5 5.7.0.4.,hackerone.com/reports/30019,3,0.0,Cross-site Scripting (XSS) - Generic,2015-03-11
+30238,Coinbase,New Device confirmation tokens are not properly validated.,hackerone.com/reports/30238,5,100.0,Improper Authentication - Generic,2015-05-25
+30567,Internet Bug Bounty,Adobe Flash Player MP4 Use-After-Free Vulnerability,hackerone.com/reports/30567,3,2000.0,Memory Corruption - Generic,2015-03-11
+30575,Bookfresh,Missing Function Level Access Control in /cindex.php/widget/customize/,hackerone.com/reports/30575,3,0.0,Violation of Secure Design Principles,2016-03-23
+30787,Localize,PHP reveals potentially sensitive information via certain HTTP requests that contain specific QUERY strings.,hackerone.com/reports/30787,2,0.0,,2015-02-17
+30852,RelateIQ,Relateiq SSLv3 deprecated protocol vulnerability.,hackerone.com/reports/30852,3,0.0,Cryptographic Issues - Generic,2014-12-24
+30975,X / xAI,Improper Verification of email address while saving Account Settings,hackerone.com/reports/30975,6,560.0,Violation of Secure Design Principles,2015-08-13
+31023,Khan Academy,Sql injection And XSS,hackerone.com/reports/31023,4,0.0,Cross-site Scripting (XSS) - Generic,2015-12-08
+31082,X / xAI,Unauthorized Tweeting on behalf of Account Owners,hackerone.com/reports/31082,2,420.0,Violation of Secure Design Principles,2015-05-07
+31166,joola.io,Weak Random Number Generator for Auth Tokens,hackerone.com/reports/31166,3,0.0,Cryptographic Issues - Generic,2014-10-25
+31167,joola.io,Timing Attack Side-Channel on API Token Verification,hackerone.com/reports/31167,4,0.0,Cryptographic Issues - Generic,2014-10-25
+31168,WP API,Cryptographic Side Channel in OAuth Library,hackerone.com/reports/31168,4,0.0,Cryptographic Issues - Generic,2014-10-29
+31171,Concrete CMS,Weak random number generator used in concrete/authentication/concrete/controller.php,hackerone.com/reports/31171,2,0.0,Cryptographic Issues - Generic,2014-10-26
+31187,Bookfresh,Reflected XSS on www.bookfresh.com/index.html?view=upload_form,hackerone.com/reports/31187,5,0.0,Cross-site Scripting (XSS) - Generic,2017-08-31
+31188,X / xAI,Creating Unauthorized Audience Lists,hackerone.com/reports/31188,2,0.0,Violation of Secure Design Principles,2014-11-28
+31255,Localize,files likes of README.md is public,hackerone.com/reports/31255,2,0.0,Information Disclosure,2015-02-17
+31383,HackerOne,Ability to see common response titles of other teams (limited),hackerone.com/reports/31383,8,0.0,Information Disclosure,2014-10-15
+31408,Internet Bug Bounty,Adobe Flash Player Out-of-Bound Read/Write Vulnerability,hackerone.com/reports/31408,2,5000.0,Memory Corruption - Generic,2015-03-11
+31415,RelateIQ,PoodleBleed,hackerone.com/reports/31415,4,0.0,Cryptographic Issues - Generic,2015-08-13
