@@ -523,3 +523,315 @@ id,program,title,link,upvotes,bounty,vuln_type,date
 31383,HackerOne,Ability to see common response titles of other teams (limited),hackerone.com/reports/31383,8,0.0,Information Disclosure,2014-10-15
 31408,Internet Bug Bounty,Adobe Flash Player Out-of-Bound Read/Write Vulnerability,hackerone.com/reports/31408,2,5000.0,Memory Corruption - Generic,2015-03-11
 31415,RelateIQ,PoodleBleed,hackerone.com/reports/31415,4,0.0,Cryptographic Issues - Generic,2015-08-13
+31554,X / xAI,Singup Page HTML Injection Vulnerability,hackerone.com/reports/31554,5,0.0,Command Injection - Generic,2015-03-22
+31756,Internet Bug Bounty,Drupal 7 pre auth sql injection and remote code execution,hackerone.com/reports/31756,21,0.0,SQL Injection,2015-04-06
+32137,HackerOne,Content Spoofing via reports,hackerone.com/reports/32137,4,0.0,Violation of Secure Design Principles,2016-05-25
+32519,X / xAI,XSS in fabric.io,hackerone.com/reports/32519,3,0.0,Cross-site Scripting (XSS) - Generic,2014-12-23
+32825,X / xAI,URGENT - Subdomain Takeover on media.vine.co due to unclaimed domain pointing to AWS,hackerone.com/reports/32825,50,0.0,Cross-site Scripting (XSS) - Generic,2014-11-03
+32944,WP API,MD5 used for Key-Auth signatures,hackerone.com/reports/32944,4,0.0,Cryptographic Issues - Generic,2014-10-29
+32990,HackerOne,Enumeration/Guess of Private (Invited) Programs,hackerone.com/reports/32990,6,0.0,Violation of Secure Design Principles,2015-05-09
+33018,Slack,a stored xss in  slack integration  https://onerror.slack.com/services/import,hackerone.com/reports/33018,6,500.0,Cross-site Scripting (XSS) - Generic,2016-05-22
+33091,X / xAI,DOM Cross-Site Scripting ( XSS ),hackerone.com/reports/33091,3,1400.0,Cross-site Scripting (XSS) - Generic,2014-12-03
+33153,Uzbey,Test,hackerone.com/reports/33153,2,0.0,Information Disclosure,2014-10-31
+33154,Uzbey,Test,hackerone.com/reports/33154,1,0.0,,2014-10-31
+33331,X / xAI,Flaw in valid password policy.,hackerone.com/reports/33331,3,0.0,Improper Authentication - Generic,2014-11-30
+33358,Uzbey,test,hackerone.com/reports/33358,5,0.0,,2014-10-31
+33432,X / xAI,BROKEN AUTHENTICATION IN MOBILE VERIFICATION  ,hackerone.com/reports/33432,2,0.0,Violation of Secure Design Principles,2014-12-14
+33935,HackerOne,File Name Enumeration ,hackerone.com/reports/33935,17,0.0,Information Disclosure,2014-11-17
+33986,X / xAI,Option Method Enabled on web server,hackerone.com/reports/33986,2,0.0,,2014-12-25
+33987,X / xAI,Options Method Enabled,hackerone.com/reports/33987,1,0.0,,2014-12-26
+34084,X / xAI,Bad extended ascii handling in HTTP 301 redirects of t.co,hackerone.com/reports/34084,1,0.0,Open Redirect,2015-08-09
+34112,Block.io,"SMPT Protection not used, I can hijack your email server.",hackerone.com/reports/34112,4,0.0,Cryptographic Issues - Generic,2015-08-13
+34188,Block.io,Various Low level Vulnerabilities,hackerone.com/reports/34188,2,0.0,Cross-site Scripting (XSS) - Generic,2015-05-03
+34725,X / xAI,XSS via Fabrico Account Name,hackerone.com/reports/34725,5,0.0,Cross-site Scripting (XSS) - Generic,2016-07-11
+34917,Block.io,Bypassed or command injection,hackerone.com/reports/34917,2,0.0,Command Injection - Generic,2015-01-01
+35036,Ian Dunn,XSS in Tagregator plugin,hackerone.com/reports/35036,4,0.0,Cross-site Scripting (XSS) - Generic,2016-08-18
+35102,Internet Bug Bounty,Locale::parseLocale Double Free,hackerone.com/reports/35102,1,2500.0,,2014-06-27
+35237,HackerOne,Gain reputation by creating a duplicate of an existing report,hackerone.com/reports/35237,14,0.0,Violation of Secure Design Principles,2015-08-14
+35287,X / xAI,getting emails of users/removing them from victims account [using typical attack],hackerone.com/reports/35287,4,0.0,Improper Authentication - Generic,2015-03-13
+35823,Factlink,File name/folder enumeration.,hackerone.com/reports/35823,7,0.0,Information Disclosure,2014-11-18
+36053,X / xAI,Headers Missing,hackerone.com/reports/36053,3,0.0,Violation of Secure Design Principles,2014-11-15
+36112,Phabricator,Content injection ,hackerone.com/reports/36112,2,0.0,Violation of Secure Design Principles,2014-12-15
+36211,HackerOne,Logic Issue with Reputation: Boost Reputation Points,hackerone.com/reports/36211,8,0.0,Violation of Secure Design Principles,2015-04-28
+36264,Internet Bug Bounty,mod_proxy_fcgi buffer overflow,hackerone.com/reports/36264,2,0.0,,2014-11-12
+36279,Internet Bug Bounty,Adobe Flash Player MP4 Use-After-Free Vulnerability,hackerone.com/reports/36279,2,2000.0,Memory Corruption - Generic,2015-03-11
+36409,Openfolio,Options Method Enabled,hackerone.com/reports/36409,1,0.0,Violation of Secure Design Principles,2014-12-21
+36459,ThisData,Missing SPF header on revert.io,hackerone.com/reports/36459,1,0.0,Violation of Secure Design Principles,2015-01-18
+36594,Coinbase,"New Device Confirmation, token is valid until not used. ",hackerone.com/reports/36594,3,0.0,Cryptographic Issues - Generic,2015-05-24
+36980,X / xAI,Notifications can mark as read by CSRF,hackerone.com/reports/36980,4,0.0,Cross-Site Request Forgery (CSRF),2015-01-03
+36986,X / xAI,[Stored XSS] vine.co - profile page,hackerone.com/reports/36986,2,0.0,Cross-site Scripting (XSS) - Generic,2015-03-26
+37108,X / xAI, Homograph attack. ,hackerone.com/reports/37108,2,0.0,Violation of Secure Design Principles,2015-01-01
+37240,Internet Bug Bounty,Race condition in Flash workers may cause an exploitabl​e double free,hackerone.com/reports/37240,14,0.0,Memory Corruption - Generic,2019-11-12
+37822,X / xAI,"Abuse of ""Remember Me"" functionality.",hackerone.com/reports/37822,3,0.0,Improper Authentication - Generic,2014-12-29
+38007,Greenhouse.io,Subdomain Takeover using blog.greenhouse.io pointing to Hubspot,hackerone.com/reports/38007,33,0.0,Cross-site Scripting (XSS) - Generic,2015-02-26
+38170,Internet Bug Bounty,Misc Python bugs (Memory Corruption & Use After Free),hackerone.com/reports/38170,2,0.0,,2014-10-04
+38189,Openfolio,xss in /browse/contacts/,hackerone.com/reports/38189,2,100.0,Cross-site Scripting (XSS) - Generic,2015-01-14
+38232,HackerOne,Breaking Bugs as team member,hackerone.com/reports/38232,4,0.0,Uncontrolled Resource Consumption,2014-12-09
+38343,HackerOne,Issue with password change,hackerone.com/reports/38343,5,500.0,Violation of Secure Design Principles,2015-05-28
+38778,Concrete CMS,SQL injection in conc/index.php/ccm/system/search/users/submit,hackerone.com/reports/38778,3,0.0,SQL Injection,2016-04-26
+38890,Concrete CMS,stored XSS in concrete5 5.7.2.1,hackerone.com/reports/38890,3,0.0,Cross-site Scripting (XSS) - Generic,2016-04-26
+38965,Phabricator,Phabricator Diffusion application allows unauthorized users to delete mirrors,hackerone.com/reports/38965,3,300.0,Improper Authentication - Generic,2015-01-09
+39139,HackerOne,"URL Crashing browser. {Tested on firefox, Chrome and Safari}",hackerone.com/reports/39139,5,0.0,Uncontrolled Resource Consumption,2016-05-25
+39181,Vimeo,[vimeopro.com] CRLF Injection,hackerone.com/reports/39181,10,0.0,,2016-10-24
+39198,C2FO,[admin.c2fo.com] Open Redirect,hackerone.com/reports/39198,10,0.0,Open Redirect,2016-10-29
+39250,Informatica,Missing SPF for informatica.com,hackerone.com/reports/39250,1,0.0,Violation of Secure Design Principles,2015-01-12
+39428,Phabricator,Phabricator Phame Blog Skins Local File Inclusion,hackerone.com/reports/39428,2,500.0,Code Injection,2015-01-14
+39631,X / xAI,Open redirection in fabric.io,hackerone.com/reports/39631,3,280.0,Open Redirect,2014-12-18
+39658,HackerOne,Reflected File Download,hackerone.com/reports/39658,10,0.0,Violation of Secure Design Principles,2016-04-25
+41240,X / xAI,"POODLE Bug: 199.16.156.44, 199.16.156.108, mx4.twitter.com",hackerone.com/reports/41240,1,140.0,Cryptographic Issues - Generic,2015-09-20
+41469,Enter,Error stack trace,hackerone.com/reports/41469,7,0.0,Information Disclosure,2015-04-03
+41758,Enter,Stored XSS in api key of operator wallet,hackerone.com/reports/41758,4,0.0,Cross-site Scripting (XSS) - Generic,2015-04-03
+41856,X / xAI,HTML/XSS rendered in Android App of Crashlytics through fabric.io,hackerone.com/reports/41856,5,0.0,Cross-site Scripting (XSS) - Generic,2015-02-18
+42154,Nearby Live,Gain access to any user's email address,hackerone.com/reports/42154,5,0.0,Information Disclosure,2015-03-14
+42161,Enter,stored xss in transaction,hackerone.com/reports/42161,3,0.0,Cross-site Scripting (XSS) - Generic,2015-04-03
+42236,X / xAI,"URGENT - Subdomain Takeover on users.tweetdeck.com , the same issue  of report #32825",hackerone.com/reports/42236,4,420.0,Code Injection,2015-01-01
+42240,Internet Bug Bounty,chrome allows POST requests with custom headers using flash + 307 redirect,hackerone.com/reports/42240,4,0.0,,2015-02-09
+42248,Concrete CMS,Stored XSS in adding fileset,hackerone.com/reports/42248,2,0.0,Cross-site Scripting (XSS) - Generic,2016-04-26
+42250,X / xAI,No rate limiting on creating lists,hackerone.com/reports/42250,1,0.0,Violation of Secure Design Principles,2015-01-06
+42393,Uber,XSS on partners.uber.com,hackerone.com/reports/42393,5,500.0,Cross-site Scripting (XSS) - Generic,2016-03-24
+42403,X / xAI,Account Deleted without any confirmation,hackerone.com/reports/42403,4,0.0,Improper Authentication - Generic,2015-02-05
+42537,Informatica,[careers.informatica.com] Cross Site Script Vulnerability on informatica,hackerone.com/reports/42537,10,0.0,Cross-site Scripting (XSS) - Generic,2017-05-10
+42582,Vimeo,Vimeo.com - Reflected XSS Vulnerability,hackerone.com/reports/42582,1,0.0,Cross-site Scripting (XSS) - Generic,2015-04-08
+42584,Vimeo,Vimeo.com - reflected xss vulnerability,hackerone.com/reports/42584,1,0.0,Cross-site Scripting (XSS) - Generic,2015-03-09
+42587,Vimeo,Vimeo.com Insecure Direct Object References Reset Password,hackerone.com/reports/42587,32,0.0,Improper Authentication - Generic,2015-02-26
+42702,Vimeo,APIs for channels allow HTML entities that may cause XSS issue,hackerone.com/reports/42702,2,0.0,Cross-site Scripting (XSS) - Generic,2015-01-08
+42728,Ruby on Rails,Data-Tags and the New HTML Sanitizer Subverts CSRF protection,hackerone.com/reports/42728,6,0.0,Cross-site Scripting (XSS) - Generic,2016-03-13
+42780,Nearby Live,Web Server information disclosure.,hackerone.com/reports/42780,2,0.0,Information Disclosure,2015-12-20
+42797,Ruby on Rails,Denial of Service in Action Pack Exception Handling,hackerone.com/reports/42797,8,0.0,Uncontrolled Resource Consumption,2015-06-16
+42961,X / xAI,fabric.io - app member can make himself an admin,hackerone.com/reports/42961,4,1400.0,Privilege Escalation,2015-03-09
+43065,X / xAI,Fabric.io - an app admin can delete team members from other user apps,hackerone.com/reports/43065,3,1120.0,Privilege Escalation,2015-03-09
+43070,Vimeo,Misconfigured crossdomain.xml - vimeo.com,hackerone.com/reports/43070,5,0.0,Cryptographic Issues - Generic,2015-02-09
+43280,HackerOne,HTTPS is not enforced for objects stored by HackerOne on Amazon S3,hackerone.com/reports/43280,5,0.0,Violation of Secure Design Principles,2015-03-08
+43440,Ruby on Rails,Arbitrary file existence disclosure in Action Pack,hackerone.com/reports/43440,5,0.0,,2014-11-20
+43443,Internet Bug Bounty,PyUnicode_FromFormatV crasher,hackerone.com/reports/43443,1,0.0,,2014-12-15
+43602,Vimeo,Buying ondemand videos that  0.1  and sometimes for free ,hackerone.com/reports/43602,4,0.0,Privilege Escalation,2015-02-13
+43617,Vimeo,Adding profile picture to anyone on Vimeo,hackerone.com/reports/43617,8,0.0,Violation of Secure Design Principles,2015-02-26
+43672,Vimeo,player.vimeo.com - Reflected XSS Vulnerability,hackerone.com/reports/43672,2,0.0,Cross-site Scripting (XSS) - Generic,2015-03-09
+43758,Vimeo,profile photo update bypass ,hackerone.com/reports/43758,2,0.0,Privilege Escalation,2015-02-17
+43770,Vimeo,Ability to Download Music Tracks Without Paying (Missing permission check on`/musicstore/download`),hackerone.com/reports/43770,5,0.0,Improper Authentication - Generic,2015-03-01
+43807,Vimeo,"Securing ""Reset password"" pages from bots",hackerone.com/reports/43807,11,0.0,Violation of Secure Design Principles,2017-01-31
+43846,Vimeo,No Limitation on Following allows user to follow people automatically!,hackerone.com/reports/43846,2,0.0,Cross-Site Request Forgery (CSRF),2016-05-02
+43850,Vimeo,abusing Thumbnails(https://vimeo.com/upload/select_thumb) to see a private video,hackerone.com/reports/43850,2,0.0,Privilege Escalation,2015-04-03
+43988,X / xAI,twitter android app Fragment Injection,hackerone.com/reports/43988,2,0.0,Command Injection - Generic,2015-04-11
+43998,Vimeo,CRITICAL full source code/config disclosure for Cameo,hackerone.com/reports/43998,5,0.0,Information Disclosure,2015-05-11
+44056,Vimeo,USER PRIVACY VIOLATED (PRIVATE DATA GETTING TRANSFER OVER INSECURE CHANNEL ) ,hackerone.com/reports/44056,2,0.0,Violation of Secure Design Principles,2015-01-20
+44146,Vimeo,Make API calls on behalf of another user (CSRF protection bypass),hackerone.com/reports/44146,31,0.0,Cross-Site Request Forgery (CSRF),2015-01-22
+44157,Vimeo,Open Redirection Security Filter bypassed,hackerone.com/reports/44157,3,0.0,Open Redirect,2015-06-28
+44202,Vimeo,Poodle bleed vulnerability in cloud sub domain,hackerone.com/reports/44202,6,0.0,Cryptographic Issues - Generic,2015-03-05
+44217,Vimeo,Application XSS filter function Bypass may allow Multiple stored XSS,hackerone.com/reports/44217,8,0.0,Cross-site Scripting (XSS) - Generic,2015-06-28
+44359,HackerOne,"Add text to the title of the page ""Thanks""",hackerone.com/reports/44359,5,0.0,Violation of Secure Design Principles,2016-04-25
+44371,X / xAI,Path disclosure in platform0.twitter.com,hackerone.com/reports/44371,1,0.0,Information Disclosure,2015-02-20
+44425,Vimeo,unvalid open authentication with facebook,hackerone.com/reports/44425,4,0.0,Improper Authentication - Generic,2015-01-21
+44492,X / xAI,Flaw in login with twitter to steal Oauth tokens,hackerone.com/reports/44492,6,0.0,Improper Authentication - Generic,2015-02-18
+44512,Vimeo,XSS on any site that includes the moogaloop flash player | deprecated embed code ,hackerone.com/reports/44512,6,0.0,Cross-site Scripting (XSS) - Generic,2015-02-22
+44513,Ruby on Rails,RCE due to Web Console IP Whitelist bypass in Rails 4.0 and 4.1,hackerone.com/reports/44513,13,0.0,Code Injection,2015-06-16
+44578,X / xAI,URGENT - SUBDOMAIN TAKEOVER ON TWITTER ACQ.,hackerone.com/reports/44578,2,0.0,Code Injection,2015-02-21
+44652,Mobile Vikings,Insecure crossdomain.xml,hackerone.com/reports/44652,6,0.0,Information Disclosure,2015-04-04
+44727,X / xAI,Insecure Data Storage in Vine Android App,hackerone.com/reports/44727,6,140.0,Cryptographic Issues - Generic,2015-06-24
+44798,Vimeo,Vimeo Search - XSS Vulnerability [http://vimeo.com/search],hackerone.com/reports/44798,3,0.0,Cross-site Scripting (XSS) - Generic,2015-01-23
+44888,HackerOne,Improper way of validating a program,hackerone.com/reports/44888,5,0.0,Cryptographic Issues - Generic,2015-02-04
+45050,Informatica,[community.informatica.com] - CSRF in Private Messages allows to move user's messages to Trash,hackerone.com/reports/45050,3,0.0,Cross-Site Request Forgery (CSRF),2016-03-02
+45084,Vimeo,Full account takeover via Add a New Email to account without email verified and without password confirmation.,hackerone.com/reports/45084,3,0.0,Violation of Secure Design Principles,2015-03-06
+45233,Mobile Vikings,Stored XSS in Direct debit name,hackerone.com/reports/45233,2,0.0,Cross-site Scripting (XSS) - Generic,2015-03-04
+45243,Mobile Vikings,"Number, username and name disclosure",hackerone.com/reports/45243,2,0.0,Information Disclosure,2015-03-04
+45368,Vimeo,ftp upload of video allows naming that is not sanitized as the manual naming,hackerone.com/reports/45368,2,0.0,Violation of Secure Design Principles,2015-01-29
+45428,Vimeo,CSRF bypass,hackerone.com/reports/45428,4,0.0,Cross-Site Request Forgery (CSRF),2015-01-30
+45484,Vimeo,XSS on Vimeo,hackerone.com/reports/45484,2,0.0,Cross-site Scripting (XSS) - Generic,2015-01-29
+45516,Zaption,[zaption.com] Open Redirect,hackerone.com/reports/45516,9,0.0,Open Redirect,2016-10-29
+45960,Vimeo,CRITICAL vulnerability - Insecure Direct Object Reference - Unauthorized access to `Videos` of Channel whose privacy is set to `Private`.,hackerone.com/reports/45960,5,0.0,Privilege Escalation,2015-03-18
+46019,Ruby on Rails,"Explicit, dynamic render path: Dir. Trav + RCE",hackerone.com/reports/46019,9,500.0,Code Injection,2016-02-12
+46072,HackerOne,Vulnerability with the way \ escaped characters in <http://danlec.com> style links are rendered,hackerone.com/reports/46072,21,5000.0,Cross-site Scripting (XSS) - Generic,2015-02-03
+46109,Vimeo,"Brute force on ""vimeo"" cookie",hackerone.com/reports/46109,3,0.0,Improper Authentication - Generic,2015-02-02
+46113,Vimeo,Can message users without the proper authorization,hackerone.com/reports/46113,7,0.0,Improper Authentication - Generic,2015-04-01
+46312,HackerOne,"In markdown, parsing things like @danlec and #46072 after links is unsafe",hackerone.com/reports/46312,7,0.0,,2015-07-04
+46345,Whisper,Directory index and information disclosure,hackerone.com/reports/46345,5,0.0,Information Disclosure,2017-03-29
+46366,Whisper,Error stack trace,hackerone.com/reports/46366,11,0.0,Information Disclosure,2017-03-29
+46379,Nearby Live,Group Invite not properly authenticated,hackerone.com/reports/46379,2,0.0,Improper Authentication - Generic,2015-02-12
+46397,HackerOne,Insecure Direct Object Reference vulnerability,hackerone.com/reports/46397,8,500.0,Violation of Secure Design Principles,2015-02-20
+46429,HackerOne,Team member invitations to sandboxed teams are not invalidated consistently,hackerone.com/reports/46429,5,500.0,Improper Authentication - Generic,2015-03-28
+46485,X / xAI,Problem with OAuth,hackerone.com/reports/46485,7,1260.0,Improper Authentication - Generic,2015-11-14
+46618,Enter,Frictionless Transferring of Wallet Ownership,hackerone.com/reports/46618,2,50.0,Violation of Secure Design Principles,2015-03-23
+46736,Enter,CSRF token leakage,hackerone.com/reports/46736,6,0.0,Cross-Site Request Forgery (CSRF),2015-03-23
+46747,Slack,Team admin can change unauthorized team setting (require_at_for_mention),hackerone.com/reports/46747,2,200.0,Privilege Escalation,2015-04-30
+46750,Slack,Team admin can change unauthorized team setting (allow_message_deletion),hackerone.com/reports/46750,3,100.0,Privilege Escalation,2015-05-30
+46818,X / xAI,Twitter Card - Parent Window Redirection,hackerone.com/reports/46818,3,560.0,Cross-site Scripting (XSS) - Generic,2015-05-04
+46916,HackerOne,Markdown parsing issue enables insertion of malicious tags and event handlers,hackerone.com/reports/46916,16,5000.0,Cross-site Scripting (XSS) - Generic,2015-04-07
+46952,HackerOne,Markdown code block sequence makes report unreadable,hackerone.com/reports/46952,6,0.0,,2015-06-29
+46954,Vimeo,subdomain takeover 1511493148.cloud.vimeo.com,hackerone.com/reports/46954,4,0.0,Violation of Secure Design Principles,2015-03-13
+47012,Internet Bug Bounty,Adobe Flash Player Out-of-Bound Access Vulnerability,hackerone.com/reports/47012,2,2000.0,Memory Corruption - Generic,2015-03-25
+47227,Internet Bug Bounty,Race condition in workers may cause an exploitable double free by abusing bytearray.compress()  ,hackerone.com/reports/47227,5,0.0,Memory Corruption - Generic,2015-03-25
+47232,Internet Bug Bounty,Use after free during the StageVideoAvailabilityEvent can result in arbitrary code execution,hackerone.com/reports/47232,1,0.0,Memory Corruption - Generic,2015-03-25
+47234,Internet Bug Bounty,Use After Free in Flash MessageChannel.send can cause arbitrary code execution,hackerone.com/reports/47234,1,0.0,Memory Corruption - Generic,2015-03-25
+47235,Informatica,XSS in Search Communities Function,hackerone.com/reports/47235,1,0.0,Cross-site Scripting (XSS) - Generic,2015-07-31
+47280,Ruby on Rails,JSON keys are not properly escaped,hackerone.com/reports/47280,8,0.0,Cross-site Scripting (XSS) - Generic,2015-06-16
+47341,Mobile Vikings,Reflected xss in user name thru cookie,hackerone.com/reports/47341,2,0.0,Cross-site Scripting (XSS) - Generic,2015-03-04
+47343,Mobile Vikings,Stored xss in user name,hackerone.com/reports/47343,2,0.0,Cross-site Scripting (XSS) - Generic,2015-03-04
+47349,Mobile Vikings,Stored xss in user name (2) affected another user.,hackerone.com/reports/47349,2,0.0,Cross-site Scripting (XSS) - Generic,2015-03-04
+47357,Mobile Vikings,CSRF token from another valid user session accepted,hackerone.com/reports/47357,2,0.0,Cross-Site Request Forgery (CSRF),2015-04-03
+47358,Mobile Vikings,Username and sim id enum,hackerone.com/reports/47358,3,0.0,Information Disclosure,2015-03-04
+47362,Mobile Vikings,Enum phone numbers thru /en/sims/topup/add/,hackerone.com/reports/47362,3,0.0,Improper Authentication - Generic,2015-04-03
+47384,Mobile Vikings,Approve topup method by sender of this method,hackerone.com/reports/47384,3,0.0,Improper Authentication - Generic,2015-03-04
+47472,HackerOne,"CSP Bypass: Click handler for links with data-method=""post"" can cause authenticity_token to be sent off domain",hackerone.com/reports/47472,10,2000.0,Cross-Site Request Forgery (CSRF),2015-02-26
+47627,Enter,Email Enumeration (POC),hackerone.com/reports/47627,12,0.0,Violation of Secure Design Principles,2015-05-27
+47779,Internet Bug Bounty,Heap overflow in H. Spencer’s regex library on 32 bit systems ,hackerone.com/reports/47779,2,0.0,Memory Corruption - Generic,2015-04-06
+47888,X / xAI,Reporting user's profile by using another people's ID,hackerone.com/reports/47888,4,140.0,Open Redirect,2015-06-11
+47940,Slack,Team admin can add billing contacts,hackerone.com/reports/47940,2,200.0,Privilege Escalation,2015-04-03
+48065,Coinbase,open authentication bug,hackerone.com/reports/48065,4,0.0,Improper Authentication - Generic,2015-03-11
+48100,Internet Bug Bounty,Bad Write in TTF font parsing (win32k.sys),hackerone.com/reports/48100,2,0.0,Memory Corruption - Generic,2015-03-01
+48416,HackerOne,Restrict any user from logging into his account.,hackerone.com/reports/48416,8,0.0,Improper Authentication - Generic,2015-03-24
+48422,HackerOne,Team member invitations to sandboxed teams are not invalidated consistently (v2),hackerone.com/reports/48422,6,500.0,Privilege Escalation,2015-02-27
+48516,X / xAI,Redirect URL in /intent/ functionality is not properly escaped,hackerone.com/reports/48516,3,0.0,Cross-site Scripting (XSS) - Generic,2015-02-24
+49170,Yelp,Information disclosure - emails disclosed in response > staging.seatme.us,hackerone.com/reports/49170,21,0.0,Cross-Site Request Forgery (CSRF),2017-05-11
+49304,Vimeo,Bypassing Email verification ,hackerone.com/reports/49304,2,0.0,,2015-03-29
+49356,Airbnb,I Can Delete Any Airbnb Users Symbol!,hackerone.com/reports/49356,5,0.0,Improper Authentication - Generic,2015-07-03
+49357,HackerOne,Substantially weakened authenticity verification when using 'Remember me for a week',hackerone.com/reports/49357,4,0.0,Cryptographic Issues - Generic,2015-03-12
+49474,X / xAI,Cross site Port Scanning bug in twitter developers console ,hackerone.com/reports/49474,4,0.0,Cryptographic Issues - Generic,2015-05-23
+49499,Airbnb,Generating Unlimited Free Travel Gift Invites | IDOR,hackerone.com/reports/49499,10,0.0,Information Disclosure,2015-04-04
+49513,Airbnb,Vulnerability type xss uncovered in airbnb.es,hackerone.com/reports/49513,4,0.0,Cross-site Scripting (XSS) - Generic,2015-04-08
+49537,Airbnb,SSL Issues,hackerone.com/reports/49537,3,0.0,Cryptographic Issues - Generic,2015-04-11
+49561,Vimeo,Vimeo + & Vimeo PRO Unautorised Tax bypass,hackerone.com/reports/49561,3,0.0,,2015-04-18
+49566,HackerOne,Auto Approval of Invitation to join Team as a Team member,hackerone.com/reports/49566,6,0.0,Violation of Secure Design Principles,2015-03-11
+49652,HackerOne,Improperly validated fields allows injection of arbitrary HTML via spoofed React objects,hackerone.com/reports/49652,22,5000.0,Cross-site Scripting (XSS) - Generic,2015-03-18
+49663,Vimeo,URGENT - Subdomain Takeover on status.vimeo.com due to unclaimed domain pointing to statuspage.io,hackerone.com/reports/49663,14,0.0,Cross-Site Request Forgery (CSRF),2015-04-18
+49759,X / xAI,Open Redirect leak of authenticity_token lead to full account take over.,hackerone.com/reports/49759,7,1400.0,Open Redirect,2015-04-03
+49806,X / xAI,Twitter Ads Campaign information disclosure through admin without any authentication.,hackerone.com/reports/49806,6,560.0,Improper Authentication - Generic,2015-04-25
+49888,Yelp,Missing X-Frame-Options header,hackerone.com/reports/49888,4,0.0,UI Redressing (Clickjacking),2017-11-09
+49935,Ruby on Rails,rails-ujs will send CSRF tokens to other origins,hackerone.com/reports/49935,3,0.0,Cross-Site Request Forgery (CSRF),2015-06-16
+49974,Enter,The csrf token remains same after user logs in,hackerone.com/reports/49974,4,50.0,Violation of Secure Design Principles,2015-11-26
+50134,X / xAI,XSS in original referrer after follow,hackerone.com/reports/50134,5,0.0,Cross-site Scripting (XSS) - Generic,2015-03-09
+50157,Adobe,Reflected Cross Site Scripting - 'puser' Parameter in login page,hackerone.com/reports/50157,5,0.0,Cross-site Scripting (XSS) - Generic,2015-05-09
+50170,Internet Bug Bounty,FREAK: Factoring RSA_EXPORT Keys to Impersonate TLS Servers,hackerone.com/reports/50170,5,0.0,Cryptographic Issues - Generic,2015-04-01
+50358,Adobe,files.acrobat.com stored XSS via send file,hackerone.com/reports/50358,4,0.0,Cross-site Scripting (XSS) - Generic,2015-04-14
+50379,Adobe,Open redirect and reflected xss in http://youthvoices.adobe.com/community?return_url=[payload her],hackerone.com/reports/50379,4,0.0,Cross-site Scripting (XSS) - Generic,2015-05-20
+50389,Adobe,Adobe XSS,hackerone.com/reports/50389,8,0.0,Cross-site Scripting (XSS) - Generic,2016-10-18
+50481,Concrete CMS,Self Xss on File Replace,hackerone.com/reports/50481,1,0.0,Cross-site Scripting (XSS) - Generic,2015-07-08
+50537,Phabricator,Server Side Request Forgery in macro creation,hackerone.com/reports/50537,3,0.0,Information Disclosure,2015-03-09
+50552,Concrete CMS,Stored XSS on Blog's page Tile,hackerone.com/reports/50552,2,0.0,Cross-site Scripting (XSS) - Generic,2015-07-08
+50554,Concrete CMS,Stored XSS on Title of Page List in edit page list,hackerone.com/reports/50554,2,0.0,Cross-site Scripting (XSS) - Generic,2015-07-08
+50556,Concrete CMS,Stored XSS on Search Title,hackerone.com/reports/50556,2,0.0,Cross-site Scripting (XSS) - Generic,2015-07-08
+50564,Concrete CMS,Stored XSS in Contact Form,hackerone.com/reports/50564,3,0.0,Cross-site Scripting (XSS) - Generic,2015-07-08
+50626,Concrete CMS,Stored XSS in Title of the topic List,hackerone.com/reports/50626,2,0.0,Cross-site Scripting (XSS) - Generic,2015-07-08
+50627,Concrete CMS,Stored XSS in title of date navigation,hackerone.com/reports/50627,3,0.0,Cross-site Scripting (XSS) - Generic,2015-07-08
+50639,Concrete CMS,Stored XSS in Feature tile ,hackerone.com/reports/50639,3,0.0,Cross-site Scripting (XSS) - Generic,2015-07-08
+50642,Concrete CMS,Stored Xss in Feature Paragraph,hackerone.com/reports/50642,2,0.0,Cross-site Scripting (XSS) - Generic,2015-07-08
+50644,Concrete CMS,Stored XSS in  Testimonial  name,hackerone.com/reports/50644,2,0.0,Cross-site Scripting (XSS) - Generic,2015-07-08
+50645,Concrete CMS,Stored XSS in Testimonial Position,hackerone.com/reports/50645,2,0.0,Cross-site Scripting (XSS) - Generic,2015-07-08
+50656,Concrete CMS,Stored XSS in testimonial Company,hackerone.com/reports/50656,2,0.0,Cross-site Scripting (XSS) - Generic,2015-07-08
+50658,HackerOne,Reflected File Download attack allows attacker to 'upload' executables to hackerone.com domain,hackerone.com/reports/50658,4,0.0,Command Injection - Generic,2015-04-16
+50662,Concrete CMS,Stored XSS In Company URL,hackerone.com/reports/50662,2,0.0,Cross-site Scripting (XSS) - Generic,2015-07-08
+50703,Ubiquiti Inc.,CSRF in login form would led to account takeover,hackerone.com/reports/50703,10,0.0,Cross-Site Request Forgery (CSRF),2016-06-20
+50752,X / xAI,open redirect sends authenticity_token to any website or (ip address),hackerone.com/reports/50752,1,560.0,Open Redirect,2015-03-14
+50776,Vimeo,A user can edit comments even after video comments are disabled,hackerone.com/reports/50776,3,0.0,Privilege Escalation,2015-03-11
+50779,Concrete CMS,Stored XSS in Bio/Quote,hackerone.com/reports/50779,2,0.0,Cross-site Scripting (XSS) - Generic,2015-07-08
+50780,Concrete CMS,Stored XSS in Message to Display When No Pages Listed.,hackerone.com/reports/50780,2,0.0,Cross-site Scripting (XSS) - Generic,2015-07-08
+50782,Concrete CMS,Stored XSS in Image Alt. Text,hackerone.com/reports/50782,2,0.0,Cross-site Scripting (XSS) - Generic,2015-07-08
+50786,Vimeo,A user can add videos to other user's private groups,hackerone.com/reports/50786,3,0.0,Privilege Escalation,2015-04-23
+50829,Vimeo,A user can post comments on other user's private videos,hackerone.com/reports/50829,3,0.0,Privilege Escalation,2015-03-11
+50884,Whisper,Bypass pin(4 digit passcode on your android app),hackerone.com/reports/50884,3,100.0,Privilege Escalation,2015-04-12
+50885,Whisper,CVE-2014-0224 openssl ccs vulnerability,hackerone.com/reports/50885,2,10.0,Cryptographic Issues - Generic,2015-04-10
+50941,Vimeo,A user can enhance their videos with paid tracks without buying the track,hackerone.com/reports/50941,2,0.0,Privilege Escalation,2015-10-14
+51166,IRCCloud,Email verification links still valid after changing it 2x,hackerone.com/reports/51166,4,0.0,Violation of Secure Design Principles,2015-03-13
+51265,Internet Bug Bounty,Flash Cross Domain Policy Bypass by Using File Upload and Redirection - only in Chrome,hackerone.com/reports/51265,3,0.0,,2015-05-06
+51817,Vimeo,Post in private groups after getting removed,hackerone.com/reports/51817,2,0.0,Privilege Escalation,2015-05-01
+52035,HackerOne,"Open redirect in ""Language change"".",hackerone.com/reports/52035,12,500.0,Open Redirect,2015-06-19
+52042,X / xAI,HTTP Response Splitting (CRLF injection) in report_story,hackerone.com/reports/52042,59,0.0,,2015-04-21
+52176,Vimeo,Insecure Direct Object References in https://vimeo.com/forums,hackerone.com/reports/52176,5,0.0,Improper Authentication - Generic,2015-05-04
+52181,Vimeo,Insecure Direct Object References that allows to read any comment (even if it should be private),hackerone.com/reports/52181,5,0.0,Improper Authentication - Generic,2015-05-04
+52532,HackerOne,"""learn more here"", reward email - domain expired.",hackerone.com/reports/52532,7,0.0,Open Redirect,2015-03-23
+52635,Ubiquiti Inc.,UniFi v3.2.10 Cross-Site Request Forgeries / Referer-Check Bypass,hackerone.com/reports/52635,8,0.0,Cross-Site Request Forgery (CSRF),2016-01-07
+52646,X / xAI,Insecure direct object reference - have access to deleted DM's,hackerone.com/reports/52646,10,0.0,Improper Authentication - Generic,2015-10-12
+52707,Vimeo,Invite any user to your group without even following him,hackerone.com/reports/52707,6,0.0,Privilege Escalation,2016-08-25
+52708,Vimeo,Share your channel to any user on vimeo without following him,hackerone.com/reports/52708,1,0.0,Privilege Escalation,2015-09-28
+52822,Phabricator,XSS with Time-of-Day Format,hackerone.com/reports/52822,2,0.0,Cross-site Scripting (XSS) - Generic,2015-04-19
+52982,Vimeo,[URGENT ISSUE] Add or Delete the videos in watch later list of any user .,hackerone.com/reports/52982,2,0.0,Cross-Site Request Forgery (CSRF),2015-05-01
+53004,Coinbase,Blacklist bypass on Callback URLs,hackerone.com/reports/53004,12,100.0,Information Disclosure,2016-09-14
+53088,Phabricator,SSRF vulnerability (access to metadata server on EC2 and OpenStack),hackerone.com/reports/53088,4,300.0,Information Disclosure,2015-03-26
+53098,X / xAI,XSS in twitter.com/safety/unsafe_link_warning,hackerone.com/reports/53098,4,1400.0,Cross-site Scripting (XSS) - Generic,2015-04-03
+53531,Mapbox,Logging a user into attacker's account using password reset link,hackerone.com/reports/53531,23,600.0,Violation of Secure Design Principles,2017-10-20
+53730,Mapbox,Stored xss in editor ,hackerone.com/reports/53730,12,1000.0,Cross-site Scripting (XSS) - Generic,2017-08-17
+53843,X / xAI,HTTP Response Splitting (CRLF injection) due to headers overflow,hackerone.com/reports/53843,30,0.0,,2015-05-04
+53858,X / xAI,Insecure Direct Object Reference - access to other user/group DM's,hackerone.com/reports/53858,10,0.0,Privilege Escalation,2015-10-03
+54034,HackerOne,Reflected Filename Download,hackerone.com/reports/54034,9,0.0,Code Injection,2016-04-25
+54094,Internet Bug Bounty,HTTP MitM on Flash Player settings manager allows attacker to set sandbox settings,hackerone.com/reports/54094,12,0.0,,2018-12-23
+54321,Shopify,Xss in website's link,hackerone.com/reports/54321,5,0.0,Cross-site Scripting (XSS) - Generic,2015-05-13
+54327,Mapbox,Persistent cross-site scripting (XSS) in map attribution,hackerone.com/reports/54327,7,1000.0,Cross-site Scripting (XSS) - Generic,2016-03-30
+54610,Slack,Logout any user of same team,hackerone.com/reports/54610,2,0.0,Cross-Site Request Forgery (CSRF),2015-05-05
+54631,Snapchat,Vulnerable to JavaScript injection. (WXS)  (Javascript injection)!,hackerone.com/reports/54631,14,0.0,Command Injection - Generic,2015-10-22
+54641,Snapchat,Captcha Bypass in Snapchat's Geofilter Submission Process,hackerone.com/reports/54641,9,0.0,Violation of Secure Design Principles,2015-05-04
+54733,Coinbase,Sandboxed iframes don't show confirmation screen,hackerone.com/reports/54733,3,0.0,UI Redressing (Clickjacking),2015-04-04
+54779,Shopify,Missing spf flags for myshopify.com,hackerone.com/reports/54779,8,0.0,,2015-04-16
+55009,Factlink,Frameset Proxy Problem,hackerone.com/reports/55009,1,0.0,Violation of Secure Design Principles,2015-05-09
+55017,Internet Bug Bounty,Multiple Python integer overflows,hackerone.com/reports/55017,3,0.0,,2015-02-04
+55018,Internet Bug Bounty,Segmentation fault for invalid PSS parameters,hackerone.com/reports/55018,2,0.0,,2015-03-19
+55028,Internet Bug Bounty,Free called on unitialized pointer in exif.c,hackerone.com/reports/55028,2,0.0,,2015-01-20
+55029,Internet Bug Bounty,Use after free vulnerability in unserialize() with DateTimeZone,hackerone.com/reports/55029,4,0.0,,2015-02-27
+55030,Internet Bug Bounty,SoapClient's __call() type confusion through unserialize(),hackerone.com/reports/55030,1,0.0,,2015-03-03
+55033,Internet Bug Bounty,Use after free vulnerability in unserialize(),hackerone.com/reports/55033,1,0.0,,2015-01-20
+55064,Faceless,Bypass Setup by External Activity Invoke,hackerone.com/reports/55064,2,0.0,,2015-05-09
+55140,Internet Bug Bounty,Race Conditions in OAuth 2 API implementations,hackerone.com/reports/55140,50,0.0,Improper Authentication - Generic,2017-09-19
+55431,drchrono,XML Parser Bug: XXE over which leads to RCE,hackerone.com/reports/55431,35,0.0,Code Injection,2016-06-13
+55506,X / xAI,Privacy Issue on protected tweets,hackerone.com/reports/55506,2,0.0,Improper Authentication - Generic,2015-05-14
+55525,Shopify,Open redirection in OAuth,hackerone.com/reports/55525,14,500.0,Open Redirect,2015-07-03
+55530,Shopify,Authentication Failed Mobile version,hackerone.com/reports/55530,9,500.0,Improper Authentication - Generic,2015-06-02
+55546,Shopify,Open Redirect after login at http://ecommerce.shopify.com,hackerone.com/reports/55546,6,500.0,Open Redirect,2015-10-05
+55644,Shopify,Lack of SSL Pinning on POS Application ( iOS ),hackerone.com/reports/55644,3,0.0,Cryptographic Issues - Generic,2015-05-21
+55670,X / xAI,Fabric.io:  Ex-admin of an organization can delete team members,hackerone.com/reports/55670,8,280.0,Privilege Escalation,2015-11-01
+55716,Shopify,Force 500 Internal Server Error on any shop (for one user),hackerone.com/reports/55716,7,0.0,Uncontrolled Resource Consumption,2015-06-09
+55827,Coinbase,iframes considered harmful,hackerone.com/reports/55827,1,0.0,Violation of Secure Design Principles,2015-12-01
+55842,Shopify,[persistent cross-site scripting] customers can target admins,hackerone.com/reports/55842,4,0.0,Cross-site Scripting (XSS) - Generic,2015-07-01
+55911,Shopify,CSRF token fixation in facebook store app that can lead to adding attacker to victim acc ,hackerone.com/reports/55911,4,500.0,Violation of Secure Design Principles,2015-06-25
+56002,Shopify,"Shopify android client all API request's response leakage, including access_token, cookie, response header, response body content",hackerone.com/reports/56002,8,0.0,Improper Authentication - Generic,2015-07-04
+56119,X / xAI,"Privecy Issue : view ""Protected users"" followers and following",hackerone.com/reports/56119,3,0.0,Improper Authentication - Generic,2015-05-15
+56177,Coin.Space,SMTP protection not used,hackerone.com/reports/56177,2,0.0,Improper Authentication - Generic,2015-06-10
+56182,Vimeo,May cause account take over (Via invitation page),hackerone.com/reports/56182,1,0.0,Violation of Secure Design Principles,2015-05-20
+56385,Internet Bug Bounty,Double free vulnerability in Flash Player Settings Manager (CVE-2015-0346),hackerone.com/reports/56385,35,5000.0,Memory Corruption - Generic,2019-10-18
+56511,Shopify,IDOR expire other user sessions,hackerone.com/reports/56511,29,1000.0,Improper Authentication - Generic,2015-04-17
+56626,Shopify,Shop admin can change external login services,hackerone.com/reports/56626,5,1000.0,Privilege Escalation,2015-10-02
+56628,Shopify,Payment gateway status transferred to Shopify without authentication,hackerone.com/reports/56628,7,0.0,Cross-Site Request Forgery (CSRF),2016-09-27
+56662,Shopify,XSS - URL Redirects,hackerone.com/reports/56662,4,0.0,Cross-site Scripting (XSS) - Generic,2015-05-16
+56726,Shopify,Invitation issue,hackerone.com/reports/56726,3,0.0,Privilege Escalation,2015-09-16
+56742,HackerOne,SPF whitelist of mandrill leads to email forgery,hackerone.com/reports/56742,6,0.0,Improper Authentication - Generic,2015-06-08
+56760,Shopify,XSS on support.shopify.com,hackerone.com/reports/56760,3,0.0,Cross-site Scripting (XSS) - Generic,2015-06-09
+56779,Shopify,XSS on ecommerce.shopify.com,hackerone.com/reports/56779,2,0.0,Cross-site Scripting (XSS) - Generic,2015-09-06
+56793,Whisper,Missing DMARC record,hackerone.com/reports/56793,4,0.0,Violation of Secure Design Principles,2016-10-28
+56800,Shopify,Multiple issues on Checkout Process,hackerone.com/reports/56800,3,0.0,Violation of Secure Design Principles,2015-05-21
+56936,Shopify,Notification request disclose private information about other myshopify accounts,hackerone.com/reports/56936,4,0.0,Improper Authentication - Generic,2015-09-24
+57125,Shopify,comment out causes information disclosure,hackerone.com/reports/57125,5,0.0,Information Disclosure,2015-04-19
+57163,HackerOne,Open-redirect on hackerone.com,hackerone.com/reports/57163,6,0.0,Open Redirect,2015-04-23
+57263,WordPoints,Rank Creation function not validating user inputs.,hackerone.com/reports/57263,1,0.0,Command Injection - Generic,2015-06-04
+57356,X / xAI,DOM based cookie bomb,hackerone.com/reports/57356,55,0.0,Uncontrolled Resource Consumption,2017-04-11
+57459,Shopify,XSS in experts.shopify.com,hackerone.com/reports/57459,7,0.0,Cross-site Scripting (XSS) - Generic,2015-05-19
+57505,Shopify,amazon aws s3 bucket content is public :-  http://shopify.com.s3.amazonaws.com/,hackerone.com/reports/57505,12,0.0,Memory Corruption - Generic,2015-10-15
+57603,Vimeo,API: missing invalidation of OAuth2 Authorization Code during access revocation causes authorization bypass,hackerone.com/reports/57603,8,0.0,Improper Authentication - Generic,2015-05-31
+57692,Enter,Server responds with the server error logs on account creation,hackerone.com/reports/57692,1,50.0,Information Disclosure,2015-11-26
+57736,HackerOne,Missing spf flags for hackerone.com,hackerone.com/reports/57736,5,0.0,Cryptographic Issues - Generic,2015-04-23
+57764,Coinbase,ByPassing the email Validation Email on Sign up process in mobile apps,hackerone.com/reports/57764,7,100.0,Violation of Secure Design Principles,2016-11-28
+57914,Enter,HTML injection in email sent by romit.io,hackerone.com/reports/57914,1,50.0,Command Injection - Generic,2015-11-26
+57918,Whisper,Insecure Local Data Storage  : Application stores data using a binary sqlite database,hackerone.com/reports/57918,8,50.0,Information Disclosure,2017-03-03
+58612,HackerOne,Homograph attack,hackerone.com/reports/58612,5,0.0,Violation of Secure Design Principles,2015-05-02
+58630,Shopify,Content Spoofing,hackerone.com/reports/58630,9,0.0,Violation of Secure Design Principles,2015-05-05
+58679,Shopify,SSL cookie without secure flag set,hackerone.com/reports/58679,9,0.0,Violation of Secure Design Principles,2015-07-13
+59015,Shopify,Stored XSS in the Shopify Discussion Forums,hackerone.com/reports/59015,6,500.0,Cross-site Scripting (XSS) - Generic,2015-05-31
+59369,HackerOne,Making any Report Failed to load,hackerone.com/reports/59369,6,0.0,Uncontrolled Resource Consumption,2015-05-09
+59372,HackerOne,Homograph Attack,hackerone.com/reports/59372,5,0.0,Open Redirect,2015-05-09
+59375,HackerOne,Homograph attack,hackerone.com/reports/59375,17,0.0,Violation of Secure Design Principles,2015-05-09
+59469,HackerOne,Fake URL + Additional vectors for homograph attack,hackerone.com/reports/59469,3,0.0,Violation of Secure Design Principles,2015-05-09
+59505,drchrono,Create and Update patients vulnerability,hackerone.com/reports/59505,11,0.0,Privilege Escalation,2017-03-10
+59508,drchrono,Accessing all appointments vulnerability,hackerone.com/reports/59508,6,0.0,Privilege Escalation,2016-07-21
+59659,HackerOne,Reopen Disable Accounts/ Hidden Access After Disable,hackerone.com/reports/59659,6,0.0,Improper Authentication - Generic,2015-06-08
+59660,Concrete CMS,Multiple Cross Site Request Forgery Vulnerabilities in Concrete5 version 5.7.3.1,hackerone.com/reports/59660,3,0.0,Cross-Site Request Forgery (CSRF),2016-06-26
+59661,Concrete CMS,Multiple Reflected Cross Site Scripting Vulnerabilities in Concrete5 version 5.7.3.1,hackerone.com/reports/59661,2,0.0,Cross-site Scripting (XSS) - Generic,2015-06-06
+59662,Concrete CMS,Multiple Stored Cross Site Scripting Vulnerabilities in Concrete5 version 5.7.3.1,hackerone.com/reports/59662,3,0.0,Cross-site Scripting (XSS) - Generic,2016-06-26
+59663,Concrete CMS,Sendmail Remote Code Execution Vulnerability in Concrete5 version 5.7.3.1,hackerone.com/reports/59663,3,0.0,Command Injection - Generic,2015-06-06
+59664,Concrete CMS,SQL Injection Vulnerability in Concrete5 version 5.7.3.1,hackerone.com/reports/59664,1,0.0,SQL Injection,2015-06-11
+59665,Concrete CMS,Local File Inclusion Vulnerability in Concrete5 version 5.7.3.1,hackerone.com/reports/59665,11,0.0,Violation of Secure Design Principles,2016-06-26
+59666,Concrete CMS,Unsafe usage of Host HTTP header in Concrete5 version 5.7.3.1,hackerone.com/reports/59666,3,0.0,Violation of Secure Design Principles,2018-01-11
+60016,Udemy,xss profile,hackerone.com/reports/60016,3,0.0,Cross-site Scripting (XSS) - Generic,2015-07-16
+60058,Udemy,teach.udemy.com log poison vulnerability through wordpress debug.log being publically available,hackerone.com/reports/60058,7,0.0,Code Injection,2015-06-09
+60201,Mobile Vikings,XSS Vulnerability on all pages,hackerone.com/reports/60201,2,0.0,Cross-site Scripting (XSS) - Generic,2015-05-13
+60260,Udemy,Misconfigured SPF Record Flag,hackerone.com/reports/60260,3,0.0,Violation of Secure Design Principles,2016-02-22
+60402,HackerOne,Content Spoofing - External Link Warning Page,hackerone.com/reports/60402,5,0.0,Violation of Secure Design Principles,2015-05-11
+60429,HackerOne,Logical Issue (Boosting Reputation points),hackerone.com/reports/60429,6,0.0,,2015-07-21
+61312,Slack,"Bypass of the SSRF protection (Slack commands, Phabricator integration)",hackerone.com/reports/61312,14,100.0,,2016-09-14
+61367,Udemy,xss on autoserch,hackerone.com/reports/61367,1,0.0,Cross-site Scripting (XSS) - Generic,2015-07-08
+61371,Udemy,leak receipt of another user,hackerone.com/reports/61371,2,0.0,Information Disclosure,2015-11-13
