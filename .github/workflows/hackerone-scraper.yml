@@ -1,0 +1,55 @@
+name: HackerOne Scraper
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * *'
+permissions:
+  contents: write
+concurrency:
+  group: h1-scraper
+  cancel-in-progress: false
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r h1/requirements.txt
+
+      - name: Run scraper
+        id: scrape
+        # GitHub-hosted jobs are hard-capped at 6h (360 min). Stop well before that
+        # so the export + commit steps still have room to run.
+        timeout-minutes: 330
+        continue-on-error: true
+        run: python h1/main.py --db h1/reports.db --csv h1/reports.csv
+
+      - name: Export CSV from DB
+        # Runs even if the scraper timed out or errored, so the CSV always reflects
+        # the latest durable DB state (SQLite commits are crash-safe).
+        if: always()
+        run: python h1/main.py --db h1/reports.db --csv h1/reports.csv --export-only
+
+      - name: Commit changes
+        if: always()
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git add h1/reports.db h1/reports.csv
+          git diff --cached --quiet && echo "No changes to commit" && exit 0
+          git commit -m "Update HackerOne reports ($(date -u +%Y-%m-%d))"
+          # DB/CSV are rewritten wholesale each run; if the remote moved, keep ours.
+          git pull --rebase -X ours
+          git push
+
+      - name: Fail job if scraper errored
+        if: steps.scrape.outcome == 'failure'
+        run: exit 1
