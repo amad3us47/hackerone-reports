@@ -2,7 +2,7 @@ name: HackerOne Scraper
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '0 0 * * *'   # daily safety net in case the self-chain ever breaks
 permissions:
   contents: write
 concurrency:
@@ -14,16 +14,13 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
-
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
           cache: pip
-
       - name: Install dependencies
         run: pip install -r h1/requirements.txt
-
       - name: Run scraper
         id: scrape
         # Hard backstop, kept under the 6h (360 min) GitHub-hosted cap so the
@@ -43,12 +40,10 @@ jobs:
           fi
           echo "Scraper failed with a real error (code=$code)."
           exit "$code"
-
       - name: Export CSV from DB
         # Runs even if the scraper errored, so the CSV always reflects the DB.
         if: always()
         run: python h1/main.py --db h1/reports.db --csv h1/reports.csv --export-only
-
       - name: Commit changes
         if: always()
         run: |
@@ -60,3 +55,13 @@ jobs:
           # DB/CSV are rewritten wholesale each run; if the remote moved, keep ours.
           git pull --rebase -X ours
           git push
+      # Kick off the next run as soon as this one finishes, so scraping runs
+      # continuously back-to-back. Uses a PAT because the default GITHUB_TOKEN
+      # cannot trigger another workflow run. Runs even on failure so the chain
+      # never stalls; concurrency (above) makes the queued run wait until this
+      # job fully completes.
+      - name: Trigger next run
+        if: always()
+        env:
+          GH_TOKEN: ${{ secrets.CHAIN_PAT }}
+        run: gh workflow run "HackerOne Scraper" --ref main
