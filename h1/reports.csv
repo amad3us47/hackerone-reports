@@ -2218,3 +2218,467 @@ id,program,title,link,upvotes,bounty,vuln_type,date
 155704,Shopify,Staff member can delete Private Apps,hackerone.com/reports/155704,7,0.0,Privilege Escalation,2016-08-09
 155726,Coinbase,Create Multiple Account Using Similar X-CSRF token,hackerone.com/reports/155726,5,0.0,Violation of Secure Design Principles,2016-08-09
 155774,Slack,CSRF - Add optional two factor mobile number,hackerone.com/reports/155774,7,500.0,Cross-Site Request Forgery (CSRF),2016-08-17
+156098,Uber,"XSS At ""pages.et.uber.com""",hackerone.com/reports/156098,264,0.0,Cross-site Scripting (XSS) - Generic,2016-08-19
+156166,Informatica,[kb.informatica.com] Dom Based xss,hackerone.com/reports/156166,23,0.0,Cross-site Scripting (XSS) - Generic,2019-08-17
+156182,Eternal,Visibility  Robots.txt file,hackerone.com/reports/156182,10,0.0,Information Disclosure,2017-05-18
+156196,Phabricator,Error page Text Injection.,hackerone.com/reports/156196,4,0.0,Violation of Secure Design Principles,2016-08-25
+156347,Algolia,Stored XSS triggered by json key during UI generation,hackerone.com/reports/156347,7,0.0,Cross-site Scripting (XSS) - Generic,2016-09-07
+156373,Algolia,Stored xss,hackerone.com/reports/156373,12,0.0,Cross-site Scripting (XSS) - Generic,2016-09-07
+156387,Algolia,Stored XSS from Display Settings triggered on Save and viewing realtime search demo,hackerone.com/reports/156387,4,0.0,Cross-site Scripting (XSS) - Generic,2016-09-07
+156425,Nextcloud,demo.nextcloud.com: Content spoofing due to default Apache Error Page,hackerone.com/reports/156425,1,0.0,Violation of Secure Design Principles,2016-08-30
+156510,Nextcloud,Directory listening enabled in: 88.198.160.130,hackerone.com/reports/156510,6,0.0,Information Disclosure,2016-09-04
+156511,Internet Bug Bounty,Incorrect logic in MySQL & MariaDB protocol leads to remote SSRF/Remote file read,hackerone.com/reports/156511,4,0.0,Information Disclosure,2019-11-12
+156520,Algolia,"Unauthorized team members can leak information and see all API calls through /1/admin/* endpoints, even after they have been removed.",hackerone.com/reports/156520,19,400.0,Improper Authentication - Generic,2016-11-27
+156536,Uber,Reading Emails in Uber Subdomains,hackerone.com/reports/156536,141,0.0,Improper Authentication - Generic,2016-09-14
+156537,Ubiquiti Inc.,IDOR Causing Deletion of any account,hackerone.com/reports/156537,30,0.0,,2016-11-29
+156542,Gratipay,"Avoid ""resend verification email"" confusion",hackerone.com/reports/156542,7,1.0,Cross-Site Request Forgery (CSRF),2017-03-20
+156615,Ruby,Attacker can smuggle a malicious domain in a URI object.,hackerone.com/reports/156615,8,0.0,Open Redirect,2022-12-13
+156941,Veris,bug,hackerone.com/reports/156941,10,0.0,Improper Authentication - Generic,2016-10-10
+156948,HackerOne,Repeated mediation requests and multiple emails possible on a report.,hackerone.com/reports/156948,44,500.0,,2019-04-11
+157412,SecNews,Querying private posts and changing post meta,hackerone.com/reports/157412,2,0.0,Privilege Escalation,2016-08-09
+157434,Nextcloud,XSS on IOS app via HTML rendering,hackerone.com/reports/157434,7,0.0,Cross-site Scripting (XSS) - Stored,2017-04-20
+157465,Gratipay,Host Header Injection/Redirection Attack,hackerone.com/reports/157465,9,0.0,Command Injection - Generic,2016-08-07
+157507,Gratipay,nginx version disclosure on downloads.gratipay.com,hackerone.com/reports/157507,4,0.0,Information Disclosure,2017-05-18
+157563,Gratipay,Cookie:HttpOnly Flag not set,hackerone.com/reports/157563,1,0.0,Violation of Secure Design Principles,2016-08-08
+157699,HackerOne,Disclosure of external users invited to a specific report,hackerone.com/reports/157699,9,0.0,Information Disclosure,2016-09-01
+157750,HackerOne,"Missing rate limit on critical user actions e.g. reset password, change email, disable account.",hackerone.com/reports/157750,14,0.0,Privilege Escalation,2019-04-11
+157876,Shopify,(FULL PATH DISCLOSURE) Unknown MySQL server host 'shardm-reader.chi2.shopify.io'  ,hackerone.com/reports/157876,8,0.0,Improper Authentication - Generic,2016-09-01
+157956,Instacart,CSRF To change Email Notification Settings ,hackerone.com/reports/157956,8,0.0,Cross-Site Request Forgery (CSRF),2016-09-15
+157958,Instacart,Stored XSS,hackerone.com/reports/157958,17,0.0,Cross-site Scripting (XSS) - Generic,2016-09-09
+157986,Veris,Internal server error 500 at log.veris.in ,hackerone.com/reports/157986,4,0.0,Information Disclosure,2016-08-13
+157993,Instacart,Cross-Site Request Forgery (CSRF),hackerone.com/reports/157993,33,0.0,Cross-Site Request Forgery (CSRF),2016-10-13
+157996,Instacart,Race Condition in Redeeming Coupons,hackerone.com/reports/157996,43,0.0,Violation of Secure Design Principles,2016-09-12
+158002,Instacart,Missing rel=noreferrer tag allows link in list to change url of currently open tab,hackerone.com/reports/158002,4,0.0,Violation of Secure Design Principles,2016-09-12
+158016,Instacart,Server side request forgery on image upload for lists,hackerone.com/reports/158016,21,50.0,Code Injection,2016-10-12
+158019,Instacart,Host Header Injection/Redirection in: https://www.instacart.com/,hackerone.com/reports/158019,17,0.0,Open Redirect,2016-09-11
+158021,Instacart,Image Upload Path Disclosure,hackerone.com/reports/158021,5,100.0,Information Disclosure,2016-09-12
+158118,Shopify,Access to Splunk at https://apt.ec2.shopify.com:8089,hackerone.com/reports/158118,14,500.0,,2016-09-01
+158148,X / xAI,reverb.twitter.com redirects to vulnerable reverb.guru,hackerone.com/reports/158148,50,0.0,,2016-10-01
+158157,Instacart,shopper login_code's can be brute forced,hackerone.com/reports/158157,9,0.0,Improper Authentication - Generic,2016-09-17
+158186,HackerOne,Non-secure requests are not automatically upgraded to HTTPS,hackerone.com/reports/158186,30,0.0,,2016-08-19
+158270,Certly,Business logic Failure - Browser cache management and logout vulnerability in Certly,hackerone.com/reports/158270,10,0.0,Improper Authentication - Generic,2016-08-29
+158287,Ubiquiti Inc.,XSS on Nanostation Loco M2 Airmax,hackerone.com/reports/158287,8,0.0,Cross-site Scripting (XSS) - Generic,2017-10-02
+158330,GitLab,"Ability to access all user authentication tokens, leads to RCE",hackerone.com/reports/158330,61,0.0,Privilege Escalation,2016-11-03
+158393,Uber,Attacker could setup reminder remotely using brute force,hackerone.com/reports/158393,36,0.0,Cross-Site Request Forgery (CSRF),2016-09-19
+158434,Shopify,(BYPASS) Open redirect and XSS in supporthiring.shopify.com,hackerone.com/reports/158434,37,0.0,Cross-Site Request Forgery (CSRF),2016-11-21
+158461,Mapbox,Blind XSS in mapbox.com/contact,hackerone.com/reports/158461,17,750.0,Cross-site Scripting (XSS) - Generic,2017-08-15
+158482,Gratipay,Host Header poisoning on gratipay.com,hackerone.com/reports/158482,2,0.0,Violation of Secure Design Principles,2017-08-21
+158484,Ubiquiti Inc.,[scores.ubnt.com] DOM based XSS at form.html,hackerone.com/reports/158484,11,0.0,Cross-site Scripting (XSS) - Generic,2017-02-24
+158505,Instacart,Reflected File Download on recipe list search,hackerone.com/reports/158505,7,0.0,Command Injection - Generic,2016-10-18
+158541,Moneybird,Webhook allows sending payload using insecure HTTP protocol,hackerone.com/reports/158541,6,0.0,Cryptographic Issues - Generic,2017-06-28
+158554,Instacart,Hyperlink Injection in Friend Invitation Emails,hackerone.com/reports/158554,14,100.0,Open Redirect,2016-09-12
+158749,Informatica,[alpha.informatica.com] Expensive DOMXSS,hackerone.com/reports/158749,10,0.0,Cross-site Scripting (XSS) - Generic,2017-07-08
+158757,Deriv.com,Cross site scripting ,hackerone.com/reports/158757,4,75.0,Cross-site Scripting (XSS) - Generic,2016-09-02
+159156,HackerOne,Hacker.One Subdomain Takeover,hackerone.com/reports/159156,154,0.0,Violation of Secure Design Principles,2016-09-20
+159213,Khan Academy,The web app's forgot password page is vulnerable to text injection/content spoofing,hackerone.com/reports/159213,6,0.0,Command Injection - Generic,2017-03-01
+159460,Slack, Stored XSS(Cross Site Scripting) In Slack App Name,hackerone.com/reports/159460,29,1000.0,Cross-site Scripting (XSS) - Generic,2016-11-22
+159497,bitaccess,"Missing Rate limiting for sensitive actions (like ""forgot password"") and reCaptcha error.  ",hackerone.com/reports/159497,4,0.0,Violation of Secure Design Principles,2016-11-21
+159512,HackerOne,Requesting Mediation possible on reports that are too old for mediation,hackerone.com/reports/159512,13,0.0,Privilege Escalation,2016-08-17
+159522,Shopify,Open redirect using checkout_url,hackerone.com/reports/159522,17,0.0,Open Redirect,2016-09-01
+159526,HackerOne,Information leakage of private program,hackerone.com/reports/159526,35,500.0,Information Disclosure,2016-08-18
+159536,Shopify,Open CouchDB on experiments.ec2.shopify.com:5984,hackerone.com/reports/159536,17,0.0,,2016-09-01
+159686,Internet Bug Bounty,integer overflow in the _csv module's join_append_data function,hackerone.com/reports/159686,0,0.0,,2019-11-12
+159687,Internet Bug Bounty,integer overflow in binascii.b2a_qp,hackerone.com/reports/159687,1,0.0,,2019-11-12
+159690,Internet Bug Bounty,stack buffer overflows in the curses module,hackerone.com/reports/159690,2,0.0,Memory Corruption - Generic,2019-11-12
+159693,Internet Bug Bounty,Py_DECREF on a non-owned object in the _sre module,hackerone.com/reports/159693,1,0.0,,2019-11-12
+159696,Internet Bug Bounty,Two vulnerabilities in the ssl module,hackerone.com/reports/159696,1,0.0,,2019-11-12
+159820,Instacart,Issues with uploading list images,hackerone.com/reports/159820,11,0.0,Uncontrolled Resource Consumption,2016-09-26
+159878,Snapchat,[render.bitstrips.com] Stored XSS via an incorrect avatar property value,hackerone.com/reports/159878,21,400.0,Cross-site Scripting (XSS) - Generic,2017-01-04
+159890,HackerOne,Ability to monitor reports' submission in real time,hackerone.com/reports/159890,16,0.0,Privilege Escalation,2016-08-17
+159925,Ian Dunn,Send emails to all users using Camptix,hackerone.com/reports/159925,3,0.0,Cross-Site Request Forgery (CSRF),2016-09-27
+159943,Internet Bug Bounty,Create an Unexpected Object and Don't Invoke __wakeup() in During Deserialization,hackerone.com/reports/159943,4,0.0,,2019-10-13
+159946,Internet Bug Bounty,PHP Session Data Injection Vulnerability,hackerone.com/reports/159946,16,0.0,,2019-10-13
+159948,Internet Bug Bounty,Use After Free Vulnerability in unserialize(),hackerone.com/reports/159948,4,0.0,Memory Corruption - Generic,2019-10-13
+159953,Internet Bug Bounty,integer overflow in curl_escape caused heap corruption,hackerone.com/reports/159953,5,500.0,Memory Corruption - Generic,2019-11-12
+159954,Internet Bug Bounty,integer overflow in base64_decode caused heap corruption,hackerone.com/reports/159954,4,500.0,Memory Corruption - Generic,2019-11-12
+159955,Internet Bug Bounty,integer overflow in bzdecompress caused heap corruption,hackerone.com/reports/159955,5,500.0,Memory Corruption - Generic,2019-11-12
+159958,Internet Bug Bounty,Integer overflow lead to heap corruption in sql_regcase,hackerone.com/reports/159958,5,500.0,Code Injection,2019-11-12
+159959,Internet Bug Bounty,integer overflow in quoted_printable_encode caused heap corruption,hackerone.com/reports/159959,4,500.0,Code Injection,2019-11-12
+159960,Internet Bug Bounty,integer overflow in urlencode caused heap corruption,hackerone.com/reports/159960,4,500.0,Code Injection,2019-11-12
+159961,Internet Bug Bounty,integer overflow in php_uuencode caused heap corruption,hackerone.com/reports/159961,5,500.0,Code Injection,2019-11-12
+159984,GitLab,XSS On meta tags in profile page,hackerone.com/reports/159984,11,0.0,Cross-site Scripting (XSS) - Generic,2016-08-21
+159988,Internet Bug Bounty,Heap Overflow due to integer overflows,hackerone.com/reports/159988,1,0.0,Memory Corruption - Generic,2019-11-12
+159992,Internet Bug Bounty,memory allocator fails to realloc small block to large one,hackerone.com/reports/159992,4,0.0,Memory Corruption - Generic,2019-10-14
+160047,Shopify,[apps.shopify.com] Open Redirect,hackerone.com/reports/160047,13,500.0,Open Redirect,2016-09-26
+160109,Instacart,Brute force login and bypass locked account restrictions via iOS app,hackerone.com/reports/160109,11,0.0,Violation of Secure Design Principles,2016-09-19
+160120,Instacart,API OAuth Public Key disclosure in mobile app,hackerone.com/reports/160120,5,0.0,Information Disclosure,2016-09-15
+160294,Internet Bug Bounty,Memory Leakage In exif_process_IFD_in_TIFF (CVE-2016-7128),hackerone.com/reports/160294,4,0.0,Memory Corruption - Generic,2019-11-12
+160295,Internet Bug Bounty,Heap overflow in curl_escape,hackerone.com/reports/160295,2,0.0,Memory Corruption - Generic,2019-11-12
+160488,Ian Dunn,stored SELF xss on Basic Google Maps Placemarks Settings plugin,hackerone.com/reports/160488,4,0.0,Cross-site Scripting (XSS) - Generic,2016-09-27
+160498,Coinbase,window.opener is leaking to external domains upon redirect on Safari,hackerone.com/reports/160498,5,0.0,Violation of Secure Design Principles,2016-08-22
+160500,Ian Dunn,Bypassing CSV injection using new line charcter,hackerone.com/reports/160500,5,0.0,Command Injection - Generic,2016-10-13
+160520,Ian Dunn,Bypass fix in https://hackerone.com/reports/151516 report.,hackerone.com/reports/160520,4,100.0,Command Injection - Generic,2016-10-12
+161189,Internet Bug Bounty,select_colors write out-of-bounds,hackerone.com/reports/161189,23,1000.0,Memory Corruption - Generic,2019-10-31
+161193,Internet Bug Bounty,imagegammacorrect allows arbitrary write access,hackerone.com/reports/161193,2,1000.0,Memory Corruption - Generic,2019-10-13
+161198,Internet Bug Bounty,wddx_deserialize null dereference with invalid xml,hackerone.com/reports/161198,2,500.0,Memory Corruption - Generic,2019-10-13
+161200,Internet Bug Bounty,wddx_deserialize allows illegal memory access,hackerone.com/reports/161200,2,500.0,Memory Corruption - Generic,2019-10-31
+161216,Internet Bug Bounty,wddx_deserialize null dereference,hackerone.com/reports/161216,1,500.0,Memory Corruption - Generic,2019-10-31
+161217,Internet Bug Bounty,wddx_deserialize null dereference in php_wddx_pop_element,hackerone.com/reports/161217,2,500.0,Memory Corruption - Generic,2019-10-13
+161290,Ian Dunn,bypass to csv injection,hackerone.com/reports/161290,1,0.0,Command Injection - Generic,2016-09-27
+161299,Nextcloud,Content Injection - apps.nextcloud.com,hackerone.com/reports/161299,2,0.0,Violation of Secure Design Principles,2016-08-26
+161301,Instacart,READ .svg files by changing .svg into .png extension,hackerone.com/reports/161301,7,0.0,Violation of Secure Design Principles,2017-03-29
+161323,Nextcloud,Content Injection - demo.nextcloud.com,hackerone.com/reports/161323,1,0.0,Violation of Secure Design Principles,2016-08-26
+161428,Bime,Subdomain takeover at ws.bimedb.com due to unclaimed Amazon S3 bucket,hackerone.com/reports/161428,6,0.0,,2016-10-05
+161459,Ian Dunn,Potentially vulnerable version of Apache software in and default files on https://iandunn.name/,hackerone.com/reports/161459,4,0.0,Information Disclosure,2016-09-27
+161529,Uber,Site-wide CSRF on eats.uber.com,hackerone.com/reports/161529,30,0.0,Cross-Site Request Forgery (CSRF),2018-12-19
+161621,Gratipay,XSS Via Method injection,hackerone.com/reports/161621,3,0.0,Cross-site Scripting (XSS) - Generic,2016-09-01
+161659,Airbnb,████ discloses valid Airbnb SSO login names via Google Search Results,hackerone.com/reports/161659,21,0.0,Information Disclosure,2016-10-09
+161918,Gratipay,Reset Link Issue,hackerone.com/reports/161918,4,0.0,Improper Authentication - Generic,2016-08-30
+161924,Nextcloud,Password Reset Link issue,hackerone.com/reports/161924,9,0.0,Improper Authentication - Generic,2016-09-23
+161932,Certly,Non secure requests at guard.certly.io not upgrading to https,hackerone.com/reports/161932,3,0.0,,2016-10-05
+161935,Gratipay,Usernames ending in .json are not restricted,hackerone.com/reports/161935,0,0.0,Violation of Secure Design Principles,2017-07-10
+161947,HackerOne,Lack of length validation on user address attribute,hackerone.com/reports/161947,18,0.0,Uncontrolled Resource Consumption,2019-04-11
+161991,Shopify,Open Redirect possible in https://www.shopify.com/admin/,hackerone.com/reports/161991,6,0.0,Open Redirect,2016-08-31
+162120,Gratipay,Cross Site Scripting In Profile Statement ,hackerone.com/reports/162120,5,0.0,Cross-site Scripting (XSS) - Generic,2016-08-23
+162147,GitLab,Boards leak private label names and desciptions,hackerone.com/reports/162147,10,0.0,Information Disclosure,2016-09-02
+162199,Uber,Lack of payment type validation in dial.uber.com allows for free rides,hackerone.com/reports/162199,68,0.0,Business Logic Errors,2018-11-20
+162336,Gratipay,x-xss protection header is not set in response header,hackerone.com/reports/162336,0,0.0,Violation of Secure Design Principles,2017-07-10
+162809,Uber,Changing paymentProfileUuid when booking a trip allows free rides,hackerone.com/reports/162809,73,0.0,Cross-Site Request Forgery (CSRF),2016-09-15
+162822,Instacart,Fetch private list metadata and any user's personal name,hackerone.com/reports/162822,6,150.0,Information Disclosure,2016-09-12
+162955,Slack,Code Injection in Slack's Windows Desktop Client leads to Privilege Escalation,hackerone.com/reports/162955,14,0.0,Command Injection - Generic,2017-07-14
+163067,Uber,Stealing users password (Limited Scenario),hackerone.com/reports/163067,35,0.0,Violation of Secure Design Principles,2016-09-29
+163087,Internet Bug Bounty,use of uninitialized variables in operator.methodcaller,hackerone.com/reports/163087,1,0.0,,2019-11-12
+163106,Nextcloud,Information Disclosure of .htaccess file in Private Server/Subdomain,hackerone.com/reports/163106,5,0.0,Information Disclosure,2016-08-26
+163124,Skyliner,[skyliner.io / qa.skyliner.io] Open Redirect,hackerone.com/reports/163124,5,0.0,Open Redirect,2016-09-29
+163131,HackerOne,Users contents on AWS  is cacheable ,hackerone.com/reports/163131,16,0.0,Information Disclosure,2016-09-06
+163156,Paragon Initiative Enterprises,Email Spoofing With Your Website's Email,hackerone.com/reports/163156,4,0.0,Improper Authentication - Generic,2016-08-24
+163272,Khan Academy,OPEN URL REDIRECT through PNG files,hackerone.com/reports/163272,18,0.0,Cross-site Scripting (XSS) - Generic,2017-02-17
+163307,Instacart,WordPress Authentication Denial of Service,hackerone.com/reports/163307,8,100.0,Uncontrolled Resource Consumption,2017-05-26
+163338,Nextcloud,\OCA\DAV\CardDAV\ImageExportPlugin allows serving arbitrary data with user-defined or empty mimetype,hackerone.com/reports/163338,9,0.0,Cross-site Scripting (XSS) - Generic,2016-12-03
+163342,Nextcloud,Expired SSL certificate ,hackerone.com/reports/163342,7,0.0,Violation of Secure Design Principles,2016-08-25
+163381,HackerOne,Session  hijacking attack,hackerone.com/reports/163381,20,0.0,,2019-12-06
+163421,Nextcloud,Wordpress: Directory Traversal / Denial of Serivce,hackerone.com/reports/163421,7,0.0,Information Disclosure,2016-08-26
+163459,Tor,potential memory corruption in or/buffers.c (particularly on 32 bit),hackerone.com/reports/163459,6,0.0,Memory Corruption - Generic,2017-10-19
+163464,Legal Robot,User Information sent to client through websockets,hackerone.com/reports/163464,9,0.0,Information Disclosure,2016-09-12
+163467,Legal Robot,User Information leak allows user to bypass email verification.,hackerone.com/reports/163467,9,0.0,Violation of Secure Design Principles,2016-09-12
+163475,Legal Robot,Email spoofing possible via Legal Robot domain,hackerone.com/reports/163475,1,0.0,Violation of Secure Design Principles,2017-01-21
+163476,Legal Robot,Information Disclosure in AWS S3 Bucket,hackerone.com/reports/163476,10,0.0,Information Disclosure,2016-08-26
+163491,Legal Robot,CORS (Cross-Origin Resource Sharing),hackerone.com/reports/163491,9,0.0,Improper Authentication - Generic,2016-10-05
+163501,Legal Robot,Email spoofing-fake mail from your mail domain server ,hackerone.com/reports/163501,6,0.0,Improper Authentication - Generic,2016-08-27
+163526,Skyliner,Email Spoofing,hackerone.com/reports/163526,3,0.0,Privilege Escalation,2016-11-15
+163599,Legal Robot,Amazon Bucket Accessible (http://legalrobot.s3.amazonaws.com/),hackerone.com/reports/163599,4,0.0,Information Disclosure,2016-08-26
+163646,Legal Robot,Clickjacking: X-Frame-Options header missing,hackerone.com/reports/163646,4,0.0,UI Redressing (Clickjacking),2016-08-29
+163676,Legal Robot, Legal | Application is Missing CSP(Content Security Policy) Header ,hackerone.com/reports/163676,2,0.0,Violation of Secure Design Principles,2016-08-31
+163677,Legal Robot,2 vulns ,hackerone.com/reports/163677,6,0.0,,2016-08-27
+163730,Legal Robot,News Feed Detected ,hackerone.com/reports/163730,12,0.0,Information Disclosure,2017-08-27
+163753,Legal Robot,UI Redressing ( ClickJacking ) Issue on Information submit form ,hackerone.com/reports/163753,7,0.0,UI Redressing (Clickjacking),2016-08-29
+163790,Instacart,[Critical] Subdomain Takeover,hackerone.com/reports/163790,13,0.0,Privilege Escalation,2016-09-20
+163812,Gratipay,Insecure Transportation Security Protocol Supported (TLS 1.0),hackerone.com/reports/163812,1,0.0,Violation of Secure Design Principles,2017-07-10
+163815,Gratipay,Lack of CSRF token validation at server side,hackerone.com/reports/163815,1,0.0,Cross-Site Request Forgery (CSRF),2017-07-10
+163820,Khan Academy,Sensitive information/action is stored/done is done using a GET request,hackerone.com/reports/163820,19,0.0,Cross-Site Request Forgery (CSRF),2019-06-23
+163823,Nextcloud,Slow Http attack on nextcloud(DOS),hackerone.com/reports/163823,1,0.0,Uncontrolled Resource Consumption,2016-10-05
+163834,VK.com,Обход 2ух-шаговой авторизации / 2FA Bypass,hackerone.com/reports/163834,21,1000.0,Improper Authentication - Generic,2017-04-12
+163885,Legal Robot,unsecured legalrobot.co.uk assets,hackerone.com/reports/163885,3,0.0,Violation of Secure Design Principles,2016-10-05
+163888,Legal Robot,Click Jacking,hackerone.com/reports/163888,5,0.0,UI Redressing (Clickjacking),2016-08-29
+163904,Gratipay,Username can be used to trick the victim on the name of www.gratipay.com,hackerone.com/reports/163904,5,0.0,Violation of Secure Design Principles,2016-12-30
+163938,Slack,Snooping into messages via email service,hackerone.com/reports/163938,30,0.0,Improper Authentication - Generic,2016-09-14
+163949,Gratipay,Username Restriction is not applied for reserved folders,hackerone.com/reports/163949,4,0.0,Violation of Secure Design Principles,2016-12-30
+164027,Nextcloud,Reflected Self-XSS Vulnerability in the Comment section of Files Information,hackerone.com/reports/164027,3,100.0,Cross-site Scripting (XSS) - Generic,2016-08-30
+164137,Legal Robot,Possible content spoofing due to missing error page,hackerone.com/reports/164137,2,0.0,Violation of Secure Design Principles,2016-09-06
+164224,Unikrn,Urgent: Server side template injection via Smarty template allows for RCE,hackerone.com/reports/164224,122,0.0,Code Injection,2017-08-17
+164239,Udemy,NON VALIDATION OF SESSIONS AFTER PASSWORD CHANGE,hackerone.com/reports/164239,6,0.0,Improper Authentication - Generic,2016-09-16
+164419,Legal Robot,Non-secure requests are not automatically upgraded to HTTPS,hackerone.com/reports/164419,0,0.0,,2017-12-19
+164483,Phabricator,link reset problem,hackerone.com/reports/164483,3,0.0,,2016-08-30
+164520,Nextcloud,Reflected Self-XSS Vulnerability in the Comment section of Files (Different-payloads),hackerone.com/reports/164520,2,0.0,Cross-site Scripting (XSS) - Generic,2016-08-31
+164648,Legal Robot,Missing access control at password change,hackerone.com/reports/164648,7,0.0,Improper Authentication - Generic,2017-09-11
+164649,X / xAI,[Studio.twitter.com] See someone else pics ,hackerone.com/reports/164649,84,0.0,Improper Authentication - Generic,2017-06-22
+164674,Ian Dunn,CSV Injection in Camptix,hackerone.com/reports/164674,4,0.0,Command Injection - Generic,2016-10-12
+164687,Legal Robot,Validation bypass on user profile,hackerone.com/reports/164687,7,0.0,Violation of Secure Design Principles,2017-01-20
+164833,Algolia,Hyperlink Injection in Friend Invitation Emails,hackerone.com/reports/164833,20,100.0,Open Redirect,2016-10-07
+164922,Gratipay,XSS found In Your Web,hackerone.com/reports/164922,1,0.0,Cross-site Scripting (XSS) - Generic,2017-10-01
+165046,Shopify,Open redirect allows changing iframe content in *.myshopify.com/admin/themes/<id>/editor,hackerone.com/reports/165046,19,0.0,Open Redirect,2016-09-22
+165048,Shopify,Access to Splunk via shard3-db2.ec2.shopify.com endpoint,hackerone.com/reports/165048,12,0.0,Improper Authentication - Generic,2016-09-19
+165102,Internet Bug Bounty,urllib HTTP header injection CVE-2016-5699,hackerone.com/reports/165102,14,0.0,,2016-09-01
+165131,Instacart,Seemingly sensitive information at /api/v2/zones,hackerone.com/reports/165131,5,50.0,Information Disclosure,2016-11-16
+165136,Mapbox,"target=""_blank"" Vulnerability Resulting in Critical Phishing Vector",hackerone.com/reports/165136,5,0.0,Open Redirect,2016-09-07
+165154,Internet Bug Bounty,Additional information for CVE-2016-5699,hackerone.com/reports/165154,1,0.0,,2019-11-12
+165229,Nextcloud,Nextcloud 10.0 privilege escalation issue - Normal user can mask external storage shared by admin    ,hackerone.com/reports/165229,14,0.0,Privilege Escalation,2020-03-01
+165309,Shopify,Subdomain Takeover in http://genghis-cdn.shopify.io/ pointing to Fastly ,hackerone.com/reports/165309,23,0.0,,2016-09-06
+165353,Nextcloud,**minor issue ** -Nextcloud 10.0 session issue with desktop client and android client,hackerone.com/reports/165353,3,0.0,Violation of Secure Design Principles,2020-03-01
+165542,Legal Robot,clickjacking at http://mailboxes.legalrobot-uat.com/,hackerone.com/reports/165542,1,0.0,UI Redressing (Clickjacking),2017-09-01
+165561,Uber,Physical Access to Mobile App Allows Local Attribute Updates without Authentication,hackerone.com/reports/165561,12,0.0,Improper Authentication - Generic,2018-12-19
+165570,Slack,Race Condition in account survey,hackerone.com/reports/165570,29,0.0,Violation of Secure Design Principles,2017-11-12
+165686,Nextcloud,Reflected XSS in Gallery App,hackerone.com/reports/165686,7,0.0,Cross-site Scripting (XSS) - Generic,2016-12-03
+165727,Slack,Rate-limit bypass,hackerone.com/reports/165727,26,500.0,Improper Authentication - Generic,2016-11-28
+165969,Internet Bug Bounty,"The “Malstaller” Attack, global hijacking of any installation process to achieve RCE with elevated privileges, Windows OS (vendor agnostic) ",hackerone.com/reports/165969,2,0.0,Code Injection,2019-11-12
+166080,Internet Bug Bounty,null pointer dereference in set_conversion_mode due uncheck _ctypes_conversion_errors,hackerone.com/reports/166080,3,500.0,Memory Corruption - Generic,2019-11-12
+166231,Legal Robot,CSRF Issue,hackerone.com/reports/166231,0,0.0,Cross-Site Request Forgery (CSRF),2017-08-27
+166265,Yelp,Verification of E-Mail address possible on https://biz.yelp.com/login and https://biz.yelp.com/forgot,hackerone.com/reports/166265,10,0.0,Information Disclosure,2016-10-27
+166581,Nextcloud,Privilege escalation - Normal user can somehow make admin to delete shared folders,hackerone.com/reports/166581,9,0.0,Privilege Escalation,2017-05-20
+166629,Internet Bug Bounty,Cross-protocol attack on TLS using SSLv2 (DROWN) (CVE-2016-0800),hackerone.com/reports/166629,13,0.0,Cryptographic Issues - Generic,2016-09-21
+166634,Internet Bug Bounty,SSLv2 doesn't block disabled ciphers (CVE-2015-3197),hackerone.com/reports/166634,7,0.0,Cryptographic Issues - Generic,2016-09-21
+166661,Ruby,"Arbitrary heap overread in strscan on 32 bit Ruby, patch included",hackerone.com/reports/166661,17,0.0,Information Disclosure,2016-11-17
+166699,WebSummit,Reflected xss on websummit.net,hackerone.com/reports/166699,3,0.0,Cross-site Scripting (XSS) - Generic,2016-10-04
+166709,Yelp,Self-XSS via location cookie city field when getting suggestions for a new location,hackerone.com/reports/166709,8,0.0,Cross-site Scripting (XSS) - Generic,2016-11-30
+166849,Yelp,"IDOR(indirect object references) on add friend,complement and send message ",hackerone.com/reports/166849,5,0.0,Violation of Secure Design Principles,2017-11-09
+166861,Legal Robot,AWS hosting bucket for Legal Robots set as public browse and list contents: s3://legalrobot,hackerone.com/reports/166861,21,0.0,Information Disclosure,2021-02-24
+166887,Shopify,Unsanitized Location Name in POS Channel can lead to XSS in Orders Timeline,hackerone.com/reports/166887,12,0.0,Cross-site Scripting (XSS) - Generic,2016-09-19
+166942,X / xAI,leaking Digits OAuth authorization to third party websites,hackerone.com/reports/166942,13,0.0,Information Disclosure,2017-01-24
+167036,Yelp,Ngnix Server version disclosure 404 Page!,hackerone.com/reports/167036,5,0.0,Information Disclosure,2017-11-09
+167041,Legal Robot,Server version disclosure,hackerone.com/reports/167041,6,0.0,Information Disclosure,2016-12-31
+167075,Shopify,XSS in SHOPIFY: Unsanitized Supplier Name  can lead to XSS in Transfers Timeline,hackerone.com/reports/167075,12,0.0,Cross-site Scripting (XSS) - Generic,2016-09-19
+167121,VK.com,Второй способ обхода 2FA,hackerone.com/reports/167121,17,1050.0,Improper Authentication - Generic,2017-05-09
+167380,Legal Robot,content spoofing,hackerone.com/reports/167380,13,0.0,,2017-05-16
+167481,Nextcloud,Android - Possible to intercept broadcasts about uploaded files,hackerone.com/reports/167481,16,0.0,Information Disclosure,2017-03-23
+167489,Yelp,Bybass The Closing of the account and logged again to your account,hackerone.com/reports/167489,34,0.0,Improper Authentication - Generic,2016-10-21
+167510,Internet Bug Bounty,CVE-2016-5157 OpenJPEG opj_dwt_interleave_v Out-of-Bounds Write Vulnerability,hackerone.com/reports/167510,1,0.0,Memory Corruption - Generic,2019-11-12
+167512,Internet Bug Bounty,CVE-2016-7163 OpenJPEG opj_pi_create_decode Integer Overflow Vulnerability,hackerone.com/reports/167512,3,0.0,Memory Corruption - Generic,2019-11-12
+167688,Internet Bug Bounty,msilib.OpenDatabase Type Confusion,hackerone.com/reports/167688,1,1000.0,Code Injection,2016-09-20
+167828,HackerOne,Ability to enumerate private programs using SAML,hackerone.com/reports/167828,24,0.0,Information Disclosure,2016-09-14
+167846,Shopify,Deleted Post and Administrative Function Access in eCommerce Forum,hackerone.com/reports/167846,7,0.0,Privilege Escalation,2016-10-05
+167859,Eternal,Base alpha version code exposure,hackerone.com/reports/167859,99,0.0,Information Disclosure,2016-10-14
+167888,Internet Bug Bounty,Uninitialized Thumbail Data Leads To Memory Leakage in exif_process_IFD_in_TIFF,hackerone.com/reports/167888,6,0.0,Memory Corruption - Generic,2019-11-12
+167895,Internet Bug Bounty,Out of bound when verify signature of zip phar in phar_parse_zipfile,hackerone.com/reports/167895,3,0.0,Memory Corruption - Generic,2019-11-12
+167896,Internet Bug Bounty,Out of bound when verify signature of tar phar in phar_parse_tarfile,hackerone.com/reports/167896,3,0.0,Memory Corruption - Generic,2019-11-12
+167901,Internet Bug Bounty,integer overflow in pg_escape_string caused heap corruption,hackerone.com/reports/167901,5,500.0,Memory Corruption - Generic,2019-11-12
+167902,Internet Bug Bounty,integer overflow in php_ldap_do_escape caused heap corruption,hackerone.com/reports/167902,4,500.0,Memory Corruption - Generic,2019-11-12
+167903,Internet Bug Bounty, integer overflow in str_pad caused heap corruption,hackerone.com/reports/167903,4,500.0,Memory Corruption - Generic,2019-11-12
+167904,Internet Bug Bounty,heap overflow in substr_replace,hackerone.com/reports/167904,7,500.0,Memory Corruption - Generic,2019-11-12
+167905,Internet Bug Bounty,integer overflow in pg_escape_bytea caused heap corruption,hackerone.com/reports/167905,5,500.0,Memory Corruption - Generic,2019-11-12
+167906,Internet Bug Bounty,integer overflow in imap_binary caused heap corruption,hackerone.com/reports/167906,7,500.0,Memory Corruption - Generic,2019-11-12
+167907,Internet Bug Bounty,integer overflow in preg_quote caused heap corruption,hackerone.com/reports/167907,3,500.0,Memory Corruption - Generic,2019-11-12
+167908,Internet Bug Bounty,integer overflow in fgets cause heap corruption,hackerone.com/reports/167908,4,500.0,Memory Corruption - Generic,2019-11-12
+167909,Internet Bug Bounty,integer overflow in recode_string caused heap corruption,hackerone.com/reports/167909,2,500.0,Memory Corruption - Generic,2019-11-12
+167910,Internet Bug Bounty,memory corruption in wordwrap function,hackerone.com/reports/167910,7,500.0,Memory Corruption - Generic,2019-11-12
+167911,Internet Bug Bounty,integer overflow in fgetcsv caused heap corruption,hackerone.com/reports/167911,6,500.0,Memory Corruption - Generic,2019-11-12
+167921,Internet Bug Bounty,integer overflow in xml_utf8_encode,hackerone.com/reports/167921,1,500.0,Memory Corruption - Generic,2019-11-12
+167931,Internet Bug Bounty,Memory Corruption in During Deserialized-object Destruction,hackerone.com/reports/167931,4,0.0,Memory Corruption - Generic,2019-10-13
+167947,Internet Bug Bounty,CVE-2016-3183 OpenJPEG sycc422_to_rgb Out-of-Bounds Read Vulnerability,hackerone.com/reports/167947,2,0.0,Memory Corruption - Generic,2019-11-12
+167953,Internet Bug Bounty,CVE-2016-3182 OpenJPEG color_esycc_to_rgb Out-of-Bounds Read Vulnerability,hackerone.com/reports/167953,2,0.0,Memory Corruption - Generic,2019-11-12
+167955,Internet Bug Bounty,CVE-2016-4796 OpenJPEG color_cmyk_to_rgb Out-of-Bounds Read Vulnerability,hackerone.com/reports/167955,3,0.0,Memory Corruption - Generic,2019-11-12
+167957,Internet Bug Bounty,CVE-2016-1924 OpenJPEG opj_tgt_reset Out-of-Bounds Read Vulnerability,hackerone.com/reports/167957,1,0.0,Memory Corruption - Generic,2019-11-12
+167977,Internet Bug Bounty,Missing type check when unserializing SplArray,hackerone.com/reports/167977,1,500.0,Memory Corruption - Generic,2019-11-12
+168027,Internet Bug Bounty,gzdecode does NOT check output string size which leads to an overflow,hackerone.com/reports/168027,1,500.0,Memory Corruption - Generic,2019-11-12
+168028,Internet Bug Bounty,gzuncompress does NOT check output string size which leads to an overflow,hackerone.com/reports/168028,1,500.0,Memory Corruption - Generic,2019-11-12
+168029,Internet Bug Bounty,ldap_escape could produce string larger than 2Gb,hackerone.com/reports/168029,2,500.0,Memory Corruption - Generic,2019-11-12
+168054,Nextcloud,Unauthenticated Stored xss ,hackerone.com/reports/168054,14,0.0,Cross-site Scripting (XSS) - Generic,2016-09-13
+168078,Concrete CMS,Content Spoofing possible in concrete5.org,hackerone.com/reports/168078,2,0.0,Violation of Secure Design Principles,2017-07-23
+168116,X / xAI,Insufficient validation on Digits bridge,hackerone.com/reports/168116,261,0.0,Improper Authentication - Generic,2020-08-20
+168165,SecNews,DOM based XSS in search functionality,hackerone.com/reports/168165,2,0.0,Cross-site Scripting (XSS) - Generic,2016-11-16
+168223,Instacart,User Information sent to client through websockets,hackerone.com/reports/168223,1,0.0,Information Disclosure,2016-12-07
+168289,Coinbase,coinbase Email leak while sending and requesting,hackerone.com/reports/168289,6,0.0,Improper Authentication - Generic,2016-10-11
+168293,Paragon Initiative Enterprises,Not clearing hex-decoded variable after usage in Authentication,hackerone.com/reports/168293,3,0.0,Violation of Secure Design Principles,2016-11-03
+168358,Yelp,Clickjacking: X-Frame Header Missing,hackerone.com/reports/168358,2,0.0,UI Redressing (Clickjacking),2017-11-09
+168453,Uber,Users can falsely declare their own Uber account info on the monthly billing application,hackerone.com/reports/168453,7,0.0,Improper Authentication - Generic,2016-10-20
+168458,Shopify,Stored XSS in https://productreviews.shopifyapps.com/proxy/v4/reviews/product,hackerone.com/reports/168458,30,0.0,Cross-site Scripting (XSS) - Generic,2019-11-08
+168476,Snapchat,Incoming email hijacking on sc-cdn.net,hackerone.com/reports/168476,25,0.0,Misconfiguration,2016-09-23
+168485,IRCCloud,"Exposed, outdated nginx server (v1.4.6) potentially vulnerable to heap-based buffer overflow & RCE",hackerone.com/reports/168485,15,0.0,Memory Corruption - Generic,2016-10-15
+168509,Coinbase,Information leakage on https://docs.gdax.com,hackerone.com/reports/168509,7,100.0,Information Disclosure,2016-11-28
+168538,X / xAI,Twitter iOS fails to validate server certificate and sends oauth token,hackerone.com/reports/168538,40,2100.0,Cryptographic Issues - Generic,2016-12-23
+168574,Eternal,CORS Misconfiguration on www.zomato.com,hackerone.com/reports/168574,31,0.0,,2017-06-30
+169680,Nextcloud,Bypass permissions,hackerone.com/reports/169680,9,0.0,Privilege Escalation,2017-02-09
+169699,Eternal,"CSRF in the ""Add restaurant picture"" function",hackerone.com/reports/169699,8,50.0,Cross-Site Request Forgery (CSRF),2017-09-14
+169704,Skyliner,DNSSEC misconfiguration,hackerone.com/reports/169704,8,0.0,Violation of Secure Design Principles,2016-09-30
+169751,Imgur,Stored XSS in albums on http://m.imgur.com/,hackerone.com/reports/169751,5,0.0,Cross-site Scripting (XSS) - Generic,2017-01-17
+169759,Shopify,Open redirect in bulk edit,hackerone.com/reports/169759,28,0.0,Open Redirect,2016-12-04
+169992,Slack,Email information leakage for certain addresses,hackerone.com/reports/169992,5,400.0,Information Disclosure,2016-10-31
+170052,DigitalSellz,AWS Signature Disclosure in www.digitalsellz.com allows access to S3,hackerone.com/reports/170052,5,0.0,Improper Authentication - Generic,2016-11-27
+170138,Internet Bug Bounty,SEH buffer overflow msgfmt_format_message,hackerone.com/reports/170138,3,1000.0,Memory Corruption - Generic,2019-10-13
+170144,Internet Bug Bounty,wddx_deserialize use-after-free,hackerone.com/reports/170144,14,500.0,Memory Corruption - Generic,2019-11-03
+170156,Revive Adserver,Reflected XSS in Step 2 of the Installation,hackerone.com/reports/170156,6,0.0,Cross-site Scripting (XSS) - Generic,2017-08-02
+170161,Yelp,Password reset token not expiring,hackerone.com/reports/170161,18,0.0,Improper Authentication - Generic,2017-11-09
+170260,Internet Bug Bounty,imap_rfc822_parse_headers GS Violation,hackerone.com/reports/170260,2,500.0,Memory Corruption - Generic,2019-10-31
+170295,DigitalSellz,Access to Amazon S3 bucket,hackerone.com/reports/170295,4,0.0,Violation of Secure Design Principles,2016-11-27
+170301,RubyGems,Invalid username updating,hackerone.com/reports/170301,10,0.0,,2016-10-17
+170310,HackerOne,Bypass rate limiting on /users/password (possibly site-wide rate limit bypass?),hackerone.com/reports/170310,75,0.0,Violation of Secure Design Principles,2016-12-08
+170333,RubyGems,Host Header Injection/Redirection,hackerone.com/reports/170333,2,0.0,Violation of Secure Design Principles,2018-02-08
+170369,Informatica,[kb.informatica.com] Stored XSS,hackerone.com/reports/170369,7,0.0,Cross-site Scripting (XSS) - Generic,2017-04-09
+170548,Ruby,Ruby OpenSSL Library - IV Reuse in GCM Mode,hackerone.com/reports/170548,17,0.0,,2021-03-07
+170552,HackerOne,Slack integration setup lacks CSRF protection,hackerone.com/reports/170552,149,2500.0,Cross-Site Request Forgery (CSRF),2021-07-07
+170618,Internet Bug Bounty,CVE-2016-7418 PHP Out-Of-Bounds Read in php_wddx_push_element,hackerone.com/reports/170618,5,0.0,Memory Corruption - Generic,2020-10-10
+170619,Internet Bug Bounty,PHP Integer Overflow in gdImageWebpCtx,hackerone.com/reports/170619,4,0.0,Memory Corruption - Generic,2020-10-10
+170748,RubyGems,"RCE,SQL,Vulnerability + Exploit Method.",hackerone.com/reports/170748,1,0.0,Command Injection - Generic,2018-02-08
+171205,Algolia,No rate limit for Referral Program,hackerone.com/reports/171205,15,0.0,Violation of Secure Design Principles,2017-03-12
+171272,ownCloud,Accessable Htaccess,hackerone.com/reports/171272,6,0.0,Information Disclosure,2016-09-26
+171337,Legal Robot,Near-duplicate accounts allowed with ignored email mutations,hackerone.com/reports/171337,15,0.0,Improper Authentication - Generic,2017-01-12
+171398,HackerOne,"(HackerOne SSO-SAML) Login CSRF, Open Redirect, and Self-XSS Possible Exploitation",hackerone.com/reports/171398,44,0.0,Cross-site Scripting (XSS) - Generic,2016-10-27
+171473,"OWOX, Inc.",HTTP Response Splitting(CRLF injection) in bi.owox.com,hackerone.com/reports/171473,13,0.0,Command Injection - Generic,2016-12-20
+171497,Nextcloud,Content spoofing in lookup.nextcloud.com,hackerone.com/reports/171497,11,0.0,Violation of Secure Design Principles,2016-10-10
+171593,Internet Bug Bounty,Malicious Server can force read any file on clients system with default configuration in MySQL Clients,hackerone.com/reports/171593,5,0.0,Information Disclosure,2019-11-12
+171670,CodeIgniter,Link sanitation bypass in xss_clean() ,hackerone.com/reports/171670,20,0.0,Cross-site Scripting (XSS) - Generic,2016-11-04
+171879,Legal Robot,Cloudflare issue: Error 521 Ray ID: 2e7ea7f706ea4056 • 2016-09-25 12:59:55 UTC Web server is down,hackerone.com/reports/171879,4,0.0,Violation of Secure Design Principles,2020-04-13
+171942,Snapchat,Subdomain takeover of blog.snapchat.com,hackerone.com/reports/171942,14,0.0,,2016-10-05
+172115,Internet Bug Bounty,Multiple use after frees in obj2ast_* methods,hackerone.com/reports/172115,2,0.0,Memory Corruption - Generic,2019-11-12
+172137,Ubiquiti Inc.,Authentication bypass on sso.ubnt.com via subdomain takeover of ping.ubnt.com,hackerone.com/reports/172137,55,0.0,Cross-Site Request Forgery (CSRF),2016-11-29
+172289,HackerOne,HackerOne Integrations Design Issue,hackerone.com/reports/172289,36,500.0,Violation of Secure Design Principles,2019-04-11
+172296,Legal Robot,Information Disclosure on rate limit defense mechanism,hackerone.com/reports/172296,12,0.0,Information Disclosure,2016-10-16
+172403,Internet Bug Bounty,Python 2.7 32-bit JSON encoding heap corruption,hackerone.com/reports/172403,5,0.0,Memory Corruption - Generic,2019-10-13
+172411,Internet Bug Bounty,Heap overflow caused by type confusion vulnerability in merge_param(),hackerone.com/reports/172411,4,0.0,Memory Corruption - Generic,2017-05-30
+172545,Reverb.com,IDOR - Ability to view unlisted products,hackerone.com/reports/172545,22,0.0,Violation of Secure Design Principles,2018-04-27
+172549,Reverb.com,Possible Blind Writing to S3 Bucket,hackerone.com/reports/172549,17,0.0,Violation of Secure Design Principles,2018-04-27
+172562,Internet Bug Bounty,LZMADecompressor.decompress Use After Free,hackerone.com/reports/172562,16,1500.0,Memory Corruption - Generic,2016-12-05
+172574,Automattic,Follow Button XSS,hackerone.com/reports/172574,12,0.0,Cross-site Scripting (XSS) - Generic,2016-10-28
+172606,Ian Dunn,Google Authenticator - Cross Site Scripting,hackerone.com/reports/172606,1,0.0,Cross-site Scripting (XSS) - Generic,2016-10-11
+172609,Ian Dunn,Google Authenticator0.6 - PHP Version Dosclosure,hackerone.com/reports/172609,1,0.0,Information Disclosure,2016-10-06
+172618,Ian Dunn,All Plugins - Direct file access to plugin files Vulnerability,hackerone.com/reports/172618,2,0.0,Improper Authentication - Generic,2016-10-06
+172694,Udemy,Critical : Malware and XSS file can be uploaded and executed on udemy,hackerone.com/reports/172694,3,0.0,Cross-site Scripting (XSS) - Generic,2017-01-10
+172698,WebSummit,Subdomain take over signup.websummit,hackerone.com/reports/172698,17,0.0,Violation of Secure Design Principles,2017-01-29
+172707,Udemy,Udemy s3 storage can be used by an attacker personal website because of missing CSRF Token,hackerone.com/reports/172707,1,0.0,Cross-Site Request Forgery (CSRF),2017-01-05
+172711,Udemy,Content Spoofing in udemy,hackerone.com/reports/172711,4,0.0,Violation of Secure Design Principles,2017-07-23
+172733,Shopify,Add signature to transactions without any permission,hackerone.com/reports/172733,15,500.0,Improper Authentication - Generic,2016-10-07
+172746,WebSummit,WebSummit - Open Redirect ,hackerone.com/reports/172746,3,0.0,Open Redirect,2016-09-30
+172780,Starbucks,out of date disqus shortname usage in the web app source code,hackerone.com/reports/172780,14,0.0,Violation of Secure Design Principles,2017-08-12
+172809,General Motors,Flash XSS on global nav,hackerone.com/reports/172809,5,0.0,Cross-site Scripting (XSS) - Generic,2017-06-09
+172821,General Motors,Flash XSS on homepage fliptilescroller,hackerone.com/reports/172821,8,0.0,Cross-site Scripting (XSS) - Generic,2017-06-05
+172837,Shopify,password less login token expiration issue,hackerone.com/reports/172837,11,500.0,Improper Authentication - Generic,2016-10-19
+172843,Rockstar Games,DOM based reflected XSS in rockstargames.com/newswire/tags through cross domain ajax request,hackerone.com/reports/172843,27,0.0,Cross-site Scripting (XSS) - Generic,2017-03-17
+172933,Yelp,IDNs displayed in unicode in messages/about/talk sections (Homograph Attack),hackerone.com/reports/172933,12,0.0,Violation of Secure Design Principles,2017-11-09
+173043,Snapchat,"Bypassing ""You've requested your data the maximum number of times today."" + ""Please Verify an email address with snapchat to continue"" ",hackerone.com/reports/173043,20,0.0,Improper Authentication - Generic,2016-11-25
+173175,HackerOne,Obtain the username & the uid of the one doing the S3 sync on Hackerone,hackerone.com/reports/173175,14,0.0,Information Disclosure,2016-10-03
+173195,Legal Robot,Bypass 8 chars password complexity with 6 chars only due to insecure password reset functionaliy,hackerone.com/reports/173195,21,0.0,Violation of Secure Design Principles,2016-10-29
+173251,RubyGems,Password Reset emails missing TLS leads account takeover,hackerone.com/reports/173251,10,0.0,Improper Authentication - Generic,2016-10-04
+173268,RubyGems,Login credentials transmitted in cleartext on index.rubygems.org,hackerone.com/reports/173268,3,0.0,Violation of Secure Design Principles,2016-10-17
+173412,WebSummit,Full Sub Domain Takeover at s3.websummit.net,hackerone.com/reports/173412,5,0.0,,2017-02-02
+173417,Algolia,Possilbe Sub Domain takever at prestashop.algolia.com,hackerone.com/reports/173417,9,0.0,,2016-11-04
+173501,Revive Adserver,Stored XSS on Admin Access Page - Email field,hackerone.com/reports/173501,10,0.0,Cross-site Scripting (XSS) - Generic,2017-08-02
+173551,Uber,password reset token leaking allowed for ATO of an Uber account,hackerone.com/reports/173551,100,10000.0,Improper Authentication - Generic,2017-05-17
+173622,Nextcloud,Bypassing quota limit ,hackerone.com/reports/173622,4,0.0,Privilege Escalation,2017-03-10
+173681,Enter,[CRITICAL]-Taking over entire subdomain of romit.io,hackerone.com/reports/173681,35,513.0,Improper Authentication - Generic,2016-10-03
+173721,Nextcloud,Bad content-type in response header when getting document can lead to html injection,hackerone.com/reports/173721,7,0.0,Cross-site Scripting (XSS) - Generic,2017-01-12
+173969,Instacart,Full access to any list,hackerone.com/reports/173969,13,150.0,Privilege Escalation,2016-11-18
+173972,ok.ru,web.xml configuration file disclosure,hackerone.com/reports/173972,7,0.0,Information Disclosure,2017-04-10
+174069,Internet Bug Bounty,"Buffer overflow in HTTP parse_hostinfo(), parse_userinfo() and parse_scheme()",hackerone.com/reports/174069,3,0.0,Memory Corruption - Generic,2017-05-30
+174228,Gratipay,CSRF csrftoken in cookies,hackerone.com/reports/174228,4,0.0,Cross-Site Request Forgery (CSRF),2016-12-07
+174328,Slack,CSRF in github integration,hackerone.com/reports/174328,22,500.0,Cross-Site Request Forgery (CSRF),2016-11-18
+174404,Uber,"private passenger information is exposed to the Uber Driver app during ride dispatch (""Ping"") events",hackerone.com/reports/174404,91,0.0,Information Disclosure,2021-05-14
+174449,HackerOne,Researcher gets email updates on a private program after he/she quits that program.,hackerone.com/reports/174449,15,0.0,Information Disclosure,2016-11-21
+174470,HackerOne,Possible CSRF during external programs,hackerone.com/reports/174470,12,0.0,Cross-Site Request Forgery (CSRF),2016-10-18
+174524,Nextcloud,Filename enumeration && DoS,hackerone.com/reports/174524,4,0.0,Uncontrolled Resource Consumption,2017-02-09
+174632,Internet Bug Bounty,Information disclosure in mmap module - python 2.7.12,hackerone.com/reports/174632,31,0.0,Information Disclosure,2019-10-13
+174645,Files.com,Existence of Folder path by guessing the path through response,hackerone.com/reports/174645,14,0.0,Information Disclosure,2017-05-02
+174668,Bumble,No rate-limit in SERVER_SECURITY_CHECK,hackerone.com/reports/174668,11,0.0,Improper Authentication - Generic,2016-11-10
+174721,X / xAI,View liked twits of private account via publish.twitter.com,hackerone.com/reports/174721,47,0.0,Information Disclosure,2016-11-14
+174882,Yelp,Requesting Show CheckIn Alert for Non Friend User,hackerone.com/reports/174882,7,0.0,Information Disclosure,2016-10-27
+174896,Nextcloud,Dav sharing permissions issue,hackerone.com/reports/174896,5,0.0,Privilege Escalation,2017-05-20
+174909,Veris,Reflected Cross site scripting,hackerone.com/reports/174909,3,0.0,Cross-site Scripting (XSS) - Generic,2016-11-28
+174983,GitLab,Mailgun misconfiguration leads to email snooping and postmaster@-access on email.mg.gitlab.com,hackerone.com/reports/174983,31,0.0,Privilege Escalation,2016-12-06
+175061,Slack,Information Disclosure on stun.screenhero.com,hackerone.com/reports/175061,14,700.0,Information Disclosure,2016-11-30
+175070,Uber,Subdomain takeover on rider.uber.com due to non-existent distribution on Cloudfront,hackerone.com/reports/175070,69,0.0,Privilege Escalation,2016-12-12
+175085,Nextcloud,URI scheme bypass in mail app lead to HTML content spoof and opener control,hackerone.com/reports/175085,5,0.0,Violation of Secure Design Principles,2017-01-12
+175091,Internet Bug Bounty,chain.__setstate__ Type Confusion,hackerone.com/reports/175091,14,1000.0,Memory Corruption - Generic,2016-12-05
+175122,DigitalSellz,Public profile is vulnerable to stored XSS / Facebook Token can be stolen,hackerone.com/reports/175122,6,0.0,Cross-site Scripting (XSS) - Generic,2016-11-27
+175168,Shopify,[ecommerce.shopify.com] Invalidated redirection,hackerone.com/reports/175168,9,0.0,Open Redirect,2016-12-04
+175230,Internet Bug Bounty,Double-free in X509 parsing,hackerone.com/reports/175230,6,0.0,Memory Corruption - Generic,2016-12-30
+175260,Internet Bug Bounty,missing NULL check in dom_document_save_html,hackerone.com/reports/175260,1,500.0,Code Injection,2019-11-12
+175262,Internet Bug Bounty,NULL pointer dereference in SimpleXMLElement::asXML(),hackerone.com/reports/175262,1,500.0,Code Injection,2019-11-12
+175263,Internet Bug Bounty,crash in openssl_random_pseudo_bytes function,hackerone.com/reports/175263,1,500.0,Code Injection,2019-11-12
+175264,Internet Bug Bounty,heap overflow in php_ereg_replace function,hackerone.com/reports/175264,1,500.0,Code Injection,2019-11-12
+175286,Brave Software,Homograph attack,hackerone.com/reports/175286,14,0.0,Violation of Secure Design Principles,2016-10-14
+175310,Internet Bug Bounty,Write out-of-bounds at number_format,hackerone.com/reports/175310,2,500.0,Memory Corruption - Generic,2017-02-07
+175311,Internet Bug Bounty,memcpy negative size parameter in php_resolve_path,hackerone.com/reports/175311,1,500.0,Memory Corruption - Generic,2017-02-07
+175312,Internet Bug Bounty,memcpy negative parameter _bc_new_num_ex,hackerone.com/reports/175312,2,500.0,Memory Corruption - Generic,2017-02-07
+175315,Internet Bug Bounty,Illegal write access through Locale methods,hackerone.com/reports/175315,1,500.0,Memory Corruption - Generic,2019-10-13
+175316,Internet Bug Bounty,"stack-buffer-overflow through ""ResourceBundle"" methods",hackerone.com/reports/175316,1,500.0,Memory Corruption - Generic,2019-10-13
+175320,Brave Software,2 Directory Listing on ledger.brave.com & vault-staging.brave.com,hackerone.com/reports/175320,7,0.0,Information Disclosure,2016-11-13
+175366,Brave Software,Brave: Admin Panel Access,hackerone.com/reports/175366,2,0.0,Violation of Secure Design Principles,2017-08-10
+175397,Brave Software,Subdomain Takeover of Brave.com,hackerone.com/reports/175397,7,0.0,Improper Authentication - Generic,2016-10-14
+175403,Brave Software,[website] Script injection in newsletter signup https://brave.com/brave_youth_program_signup.html,hackerone.com/reports/175403,10,0.0,Command Injection - Generic,2016-11-03
+175451,X / xAI,Full Path Disclosure at 27.prd.vine.co,hackerone.com/reports/175451,3,140.0,,2016-10-21
+175490,Shopify,Able to Login deactivated staff account in shopify app mobile,hackerone.com/reports/175490,48,0.0,Privilege Escalation,2016-11-29
+175529,Brave Software,URI Obfuscation,hackerone.com/reports/175529,7,0.0,HTTP Response Splitting,2016-10-15
+175587,Internet Bug Bounty,Stack Buffer Overflow in GD dynamicGetbuf,hackerone.com/reports/175587,1,1500.0,Memory Corruption - Generic,2019-11-12
+175701,Brave Software,Status Bar Obfuscation,hackerone.com/reports/175701,8,0.0,Cryptographic Issues - Generic,2016-10-15
+175766,Internet Bug Bounty,Remote client memory corruption in ssl_add_clienthello_tlsext(),hackerone.com/reports/175766,6,0.0,Code Injection,2016-12-30
+175779,Brave Software,Address Bar Spoofing - Already resolved - Retroactive report,hackerone.com/reports/175779,8,0.0,Open Redirect,2016-10-14
+175958,Brave Software,[iOS/Android] Address Bar Spoofing Vulnerability ,hackerone.com/reports/175958,30,0.0,Violation of Secure Design Principles,2017-01-08
+175979,Brave Software,Access to local file system using javascript,hackerone.com/reports/175979,13,0.0,,2016-11-16
+175982,Internet Bug Bounty,Use-after-free in unserialize(),hackerone.com/reports/175982,5,0.0,Memory Corruption - Generic,2019-10-13
+176002,Coinbase,Information disclosure of user by email using buy widget,hackerone.com/reports/176002,6,0.0,Information Disclosure,2016-11-16
+176013,Vimeo,Disclosure of sensitive information through Google Cloud Storage bucket,hackerone.com/reports/176013,27,0.0,Information Disclosure,2017-09-29
+176042,Yelp,Error Page Text Injection,hackerone.com/reports/176042,0,0.0,Violation of Secure Design Principles,2017-11-09
+176065,Brave Software,[Android] HTML Injection in BatterySaveArticleRenderer WebView,hackerone.com/reports/176065,43,0.0,Cross-site Scripting (XSS) - Generic,2018-10-22
+176066,Brave Software,Denial of service attack on Brave Browser.,hackerone.com/reports/176066,5,0.0,Uncontrolled Resource Consumption,2017-02-10
+176076,Brave Software,Javascript confirm() crashes Brave on PC,hackerone.com/reports/176076,4,0.0,,2016-10-19
+176083,Brave Software,JavaScript URL Issues in the latest version of Brave Browser,hackerone.com/reports/176083,4,0.0,,2016-10-17
+176116,Revive Adserver,Weak Forgot Password implementation,hackerone.com/reports/176116,17,0.0,Improper Authentication - Generic,2017-08-02
+176127,Shopify,race condition in adding team members,hackerone.com/reports/176127,16,0.0,Violation of Secure Design Principles,2016-11-10
+176159,Brave Software,[iOS] URI Obfuscation in iOS application,hackerone.com/reports/176159,3,0.0,HTTP Response Splitting,2016-10-17
+176197,Brave Software,Denial of service attack(window object) on brave browser,hackerone.com/reports/176197,2,0.0,Uncontrolled Resource Consumption,2016-10-25
+176226,Internet Bug Bounty,CachingIterator null dereference when convert to string,hackerone.com/reports/176226,1,500.0,Memory Corruption - Generic,2019-11-12
+176279,Internet Bug Bounty,Heap overflow in mysqlnd related to BIT fields (CVE-2016-7412),hackerone.com/reports/176279,50,0.0,Memory Corruption - Generic,2019-11-12
+176308,Automattic,Wordpress.com REST API oauth bypass via Cross Site Flashing,hackerone.com/reports/176308,8,0.0,Cross-Site Request Forgery (CSRF),2018-04-26
+176364,Brave Software,DOS in browser using window.print() function,hackerone.com/reports/176364,0,0.0,Uncontrolled Resource Consumption,2016-10-20
+176599,Ian Dunn,No CAPTCHA ia exist in pages,hackerone.com/reports/176599,2,0.0,Violation of Secure Design Principles,2016-11-23
+176698,WebSummit,Reflective XSS,hackerone.com/reports/176698,8,0.0,Cross-site Scripting (XSS) - Generic,2017-10-28
+176754,X / xAI, Cross-site scripting (reflected),hackerone.com/reports/176754,45,0.0,Cross-site Scripting (XSS) - Generic,2016-12-09
+176929,Brave Software,[ios] Address bar spoofing in Brave for iOS,hackerone.com/reports/176929,13,0.0,,2016-10-25
+176979,Coinbase,Authentication Issue,hackerone.com/reports/176979,27,200.0,Privilege Escalation,2017-01-05
+177184,Brave Software,invalid homepage URL causes 'uncaught typeerror' or blank state,hackerone.com/reports/177184,5,0.0,Violation of Secure Design Principles,2017-06-12
+177335,Nextcloud,Content spoofing due to the improper behavior of the 403 page in Private Server,hackerone.com/reports/177335,4,0.0,Violation of Secure Design Principles,2016-10-31
+177472,Starbucks,CSRF: add item to victim's cart automatically (starbucks.com - updatecart),hackerone.com/reports/177472,13,0.0,Cross-Site Request Forgery (CSRF),2017-06-02
+177484,HackerOne,Information disclosure via policy update notifications after removal from program,hackerone.com/reports/177484,9,0.0,Information Disclosure,2016-10-29
+177508,Starbucks,Reflected XSS by exploiting CSRF vulnerability on teavana.com wishlist comment module. (wishlist-comments),hackerone.com/reports/177508,26,0.0,Cross-site Scripting (XSS) - Generic,2017-02-13
+177551,Uber,SMS/Call spamming due to truncated phone number,hackerone.com/reports/177551,14,0.0,Improper Authentication - Generic,2018-11-13
+177624,Bumble,Unvalidated redirect on team.badoo.com,hackerone.com/reports/177624,25,140.0,Cross-site Scripting (XSS) - Generic,2016-12-03
+177635,Starbucks,CSRF vulnerability in saving payment card on store.starbucks.com (COBilling -AddCreditCard),hackerone.com/reports/177635,10,0.0,Cross-Site Request Forgery (CSRF),2017-05-15
+177639,Starbucks,CSRF exploit | Adding/Editing comment of wishlist items (teavana.com - Wishlist-Comments),hackerone.com/reports/177639,8,0.0,Cross-Site Request Forgery (CSRF),2017-02-13
+177713,Nextcloud,xss on demo.nextcloud.com due to outdated version,hackerone.com/reports/177713,1,0.0,Cross-site Scripting (XSS) - Generic,2016-11-26
+177943,ExpressionEngine,Reflective XSS,hackerone.com/reports/177943,4,0.0,Cross-site Scripting (XSS) - Generic,2017-09-29
+178057,Informatica,[ipm.informatica.com] Sql injection Oracle ,hackerone.com/reports/178057,28,0.0,SQL Injection,2017-01-21
+178094,Internet Bug Bounty,php_snmp_parse_oid integer overflow in memory allocation,hackerone.com/reports/178094,2,500.0,Memory Corruption - Generic,2019-11-12
+178144,Internet Bug Bounty,imagecropauto out-of-bounds access,hackerone.com/reports/178144,2,500.0,Memory Corruption - Generic,2019-10-13
+178152,GitLab,"Read files on application server, leads to RCE",hackerone.com/reports/178152,114,0.0,Information Disclosure,2016-11-03
+178184,X / xAI,SSRF in https://cards-dev.twitter.com/validator,hackerone.com/reports/178184,16,0.0,Server-Side Request Forgery (SSRF),2017-04-06
+178278,Informatica,[parc.informatica.com] Reflected Cross Site Scripting and Open Redirect,hackerone.com/reports/178278,8,0.0,Cross-site Scripting (XSS) - Generic,2017-04-29
+178293,Shopify,Misconfiguration in Two Factor Authorisation,hackerone.com/reports/178293,40,1500.0,,2016-12-17
+178345,HackerOne,Limited Open redirection using SSO-SAML,hackerone.com/reports/178345,19,0.0,Open Redirect,2017-03-26
+178409,RubyGems,Possible Subdomain Takeover at http://production.s3.rubygems.org/ pointing to Fastly ,hackerone.com/reports/178409,5,0.0,,2017-03-06
+178503,Uber,ability to retrieve a user's phone-number/email for a given inviteCode,hackerone.com/reports/178503,6,0.0,Information Disclosure,2017-05-17
+178506,Instacart,Access private list metadata,hackerone.com/reports/178506,6,100.0,Information Disclosure,2016-12-24
+178567,Bumble,"Arbitrary modification value ""session"" (Cookie) in badoo.com",hackerone.com/reports/178567,9,0.0,,2017-06-25
+178611,Revive Adserver,Reflected XSS on Zones > Invocation Code,hackerone.com/reports/178611,7,0.0,Cross-site Scripting (XSS) - Generic,2017-08-02
+178632,Informatica,[afocusp.informatica.com] Sql injection  afocusp.informatica.com:37777,hackerone.com/reports/178632,10,0.0,SQL Injection,2017-01-21
+178742,Bumble,Leave inaccessible messaging system with a message (https://us1.badoo.com),hackerone.com/reports/178742,10,0.0,,2017-01-19
+178831,Yelp,CSRF on signup endpoint (auto-api.yelp.com),hackerone.com/reports/178831,13,0.0,Cross-Site Request Forgery (CSRF),2017-03-01
+178990,Legal Robot,The websocket traffic is not secure enough,hackerone.com/reports/178990,1,0.0,Cross-Site Request Forgery (CSRF),2017-08-27
+179021,Yelp,Possible content spoofing due to missing error page,hackerone.com/reports/179021,0,0.0,Violation of Secure Design Principles,2017-11-09
+179034,Paragon Initiative Enterprises,[Airship CMS] Local File Inclusion - RST Parser,hackerone.com/reports/179034,7,0.0,Information Disclosure,2016-10-31
+179073,Nextcloud,"Content Spoofing in ""files"" app",hackerone.com/reports/179073,4,50.0,Violation of Secure Design Principles,2017-03-06
+179103,Imgur,Unauthenticated Docker registry,hackerone.com/reports/179103,92,0.0,Improper Authentication - Generic,2016-11-22
+179121,Brave Software,Information disclosure of website,hackerone.com/reports/179121,3,0.0,Information Disclosure,2016-11-16
+179164,Ubiquiti Inc.,Stored XSS in community.ubnt.com,hackerone.com/reports/179164,22,0.0,Cross-site Scripting (XSS) - Generic,2017-04-28
+179217,Blockchain,server version dislosure,hackerone.com/reports/179217,14,0.0,Information Disclosure,2016-12-15
+179248,Brave Software,Denial of service(POP UP Recursion) on Brave browser,hackerone.com/reports/179248,1,0.0,Uncontrolled Resource Consumption,2016-11-07
+179421,VK.com,Новый 2FA Bypass,hackerone.com/reports/179421,12,1000.0,Improper Authentication - Generic,2017-07-23
+179426,Blockchain,Reflected XSS on blockchain.info,hackerone.com/reports/179426,12,0.0,Cross-site Scripting (XSS) - Generic,2017-03-06
+179599,Blockchain,Information disclosure at https://blockchain.atlassian.net,hackerone.com/reports/179599,16,100.0,Information Disclosure,2016-11-03
+179695,WordPress,XSS via unicode characters in upload filename,hackerone.com/reports/179695,23,0.0,Cross-site Scripting (XSS) - Generic,2020-08-28
+179701,Blockchain,username enumeration ,hackerone.com/reports/179701,4,0.0,Command Injection - Generic,2017-03-08
+179732,Yelp,[Yelp Blog] Backslash in search string causes JS error,hackerone.com/reports/179732,0,0.0,Violation of Secure Design Principles,2017-11-09
+179826,General Motors,Flash XSS on Buick_RotatingMasthead_JellyBeanSlider.swf,hackerone.com/reports/179826,4,0.0,Cross-site Scripting (XSS) - Generic,2017-06-05
+179828,Paragon Initiative Enterprises,DMARC  Not found for paragonie.com   URGENT,hackerone.com/reports/179828,147,0.0,XML External Entities (XXE),2016-11-03
+179839,Yelp,ClickJacking ,hackerone.com/reports/179839,1,0.0,UI Redressing (Clickjacking),2017-11-09
+179920,WordPress,"WordPress DB Class, bad implementation of prepare method guides to sqli and information disclosure",hackerone.com/reports/179920,17,0.0,SQL Injection,2017-11-13
+179986,Ubiquiti Inc.,Exposed API-key allows to control nightly builds of firmwares (█████████ & ████████),hackerone.com/reports/179986,21,0.0,Violation of Secure Design Principles,2017-10-09
+180074,Paragon Initiative Enterprises,BAD Code ! ,hackerone.com/reports/180074,547,0.0,Command Injection - Generic,2016-11-04
+180109,Internet Bug Bounty,crash in gzcompress and 3 other compress functions,hackerone.com/reports/180109,2,500.0,Memory Corruption - Generic,2019-11-12
+180110,Internet Bug Bounty,crash in implode() function,hackerone.com/reports/180110,1,500.0,Memory Corruption - Generic,2019-11-12
+180111,Internet Bug Bounty,crash in bzcompress function,hackerone.com/reports/180111,1,500.0,Memory Corruption - Generic,2019-11-12
+180112,Internet Bug Bounty,iconv() function missing string length check,hackerone.com/reports/180112,1,500.0,Memory Corruption - Generic,2019-11-12
+180113,Internet Bug Bounty,crash in get_icu_value_internal function,hackerone.com/reports/180113,1,500.0,Memory Corruption - Generic,2019-11-12
+180115,Internet Bug Bounty,crash in locale_get_keywords() when keyword value in locale string too long,hackerone.com/reports/180115,1,500.0,Code Injection,2019-11-12
+180116,Internet Bug Bounty,another crash in locale_get_keywords function,hackerone.com/reports/180116,1,500.0,Code Injection,2019-11-12
+180196,RubyGems,Host header Injection rubygems.org,hackerone.com/reports/180196,3,0.0,Open Redirect,2018-02-08
+180346,Yelp,Nginx server version disclosure on engineeringblog,hackerone.com/reports/180346,4,0.0,Information Disclosure,2017-11-09
+180388,Eternal,takeover a lot of accounts,hackerone.com/reports/180388,15,0.0,,2017-03-08
+180393,Paragon Initiative Enterprises,Subdomain Takeover,hackerone.com/reports/180393,83,0.0,Information Disclosure,2017-05-05
+180434,Internet Bug Bounty,cURL / libcURL - CVE-2016-8624 invalid URL parsing with '#',hackerone.com/reports/180434,10,500.0,Server-Side Request Forgery (SSRF),2018-01-11
+180527,VK.com,SSRF (open) - via GET request,hackerone.com/reports/180527,11,0.0,Server-Side Request Forgery (SSRF),2017-02-09
+180538,Yelp,X.509 certificate validation fails on international vanity domains,hackerone.com/reports/180538,7,0.0,Violation of Secure Design Principles,2017-02-06
+180548,Legal Robot,Missing restriction on string size in profile fields,hackerone.com/reports/180548,9,0.0,Uncontrolled Resource Consumption,2017-01-20
+180559,Yelp,Content spoofing on yelp.onelogin,hackerone.com/reports/180559,3,0.0,Open Redirect,2017-11-09
+180562,Internet Bug Bounty,Memory corruption in _php_math_number_format_ex(),hackerone.com/reports/180562,1,0.0,Memory Corruption - Generic,2019-11-12
+180563,Internet Bug Bounty,Heap overflow due to integer overflow in bzdecompress() function,hackerone.com/reports/180563,1,0.0,Memory Corruption - Generic,2019-11-12
+180572,Internet Bug Bounty,Memory corruption due to missing check size in _php_math_number_format_ex(),hackerone.com/reports/180572,1,0.0,Memory Corruption - Generic,2019-11-12
+180582,Internet Bug Bounty,Heap overflow due to integer overflow in php_escape_html_entities_ex() function,hackerone.com/reports/180582,1,0.0,Memory Corruption - Generic,2019-11-12
+180584,Internet Bug Bounty,Heap overflow due to integer overflow in pg_escape_string() function,hackerone.com/reports/180584,1,0.0,Memory Corruption - Generic,2019-11-12
+180588,Internet Bug Bounty,Invalid memory access in zend_strtod() function,hackerone.com/reports/180588,1,500.0,Memory Corruption - Generic,2019-11-12
+180589,Internet Bug Bounty,crash in simplestring_addn function,hackerone.com/reports/180589,1,500.0,Memory Corruption - Generic,2019-11-12
+180590,Internet Bug Bounty,Invalid memory access in spl_filesystem_dir_open function,hackerone.com/reports/180590,1,500.0,Memory Corruption - Generic,2019-11-12
+180591,Internet Bug Bounty,Invalid memory access in php_basename function,hackerone.com/reports/180591,1,500.0,Memory Corruption - Generic,2019-11-12
+180592,Internet Bug Bounty,Invalid memory access in spl_filesystem_info_set_filename function,hackerone.com/reports/180592,1,500.0,Memory Corruption - Generic,2019-11-12
+180695,shopify-scripts,ruby DoS https://www.mruby.science,hackerone.com/reports/180695,5,8000.0,Uncontrolled Resource Consumption,2017-01-15
+180814,Internet Bug Bounty,crash in locale_compose() function,hackerone.com/reports/180814,3,500.0,Code Injection,2019-11-12
+180895,Legal Robot,Password reset access control,hackerone.com/reports/180895,12,0.0,Improper Authentication - Generic,2017-08-16
+180908,Internet Bug Bounty,NULL Pointer Dereference in WDDX Packet Deserialization with PDORow,hackerone.com/reports/180908,4,0.0,Memory Corruption - Generic,2019-10-13
+180909,Internet Bug Bounty,Use-after-free in ArrayObject Deserialization,hackerone.com/reports/180909,4,0.0,Use After Free,2019-10-13
