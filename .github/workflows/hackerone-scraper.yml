@@ -2,7 +2,12 @@ name: HackerOne Scraper
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 0 * * *'   # daily safety net in case the self-chain ever breaks
+    # Fires every 15 min. Runs are long (hours), so an event always lands while
+    # one is in progress; the concurrency guard below keeps exactly one run
+    # queued, and it starts the instant the current run finishes -> back-to-back
+    # scraping with no token. Extra events that fire mid-run are harmlessly
+    # dropped by the concurrency group.
+    - cron: '*/15 * * * *'
 permissions:
   contents: write
 concurrency:
@@ -55,13 +60,7 @@ jobs:
           # DB/CSV are rewritten wholesale each run; if the remote moved, keep ours.
           git pull --rebase -X ours
           git push
-      # Kick off the next run as soon as this one finishes, so scraping runs
-      # continuously back-to-back. Uses a PAT because the default GITHUB_TOKEN
-      # cannot trigger another workflow run. Runs even on failure so the chain
-      # never stalls; concurrency (above) makes the queued run wait until this
-      # job fully completes.
-      - name: Trigger next run
-        if: always()
-        env:
-          GH_TOKEN: ${{ secrets.CHAIN_PAT }}
-        run: gh workflow run "HackerOne Scraper" --ref main
+      # Note: continuous chaining is driven by the schedule + concurrency above,
+      # not by self-triggering. The default GITHUB_TOKEN cannot dispatch another
+      # workflow run (GitHub blocks it to prevent recursion), so no token is
+      # needed here at all.
