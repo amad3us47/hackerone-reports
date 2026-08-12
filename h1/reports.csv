@@ -2682,3 +2682,584 @@ id,program,title,link,upvotes,bounty,vuln_type,date
 180895,Legal Robot,Password reset access control,hackerone.com/reports/180895,12,0.0,Improper Authentication - Generic,2017-08-16
 180908,Internet Bug Bounty,NULL Pointer Dereference in WDDX Packet Deserialization with PDORow,hackerone.com/reports/180908,4,0.0,Memory Corruption - Generic,2019-10-13
 180909,Internet Bug Bounty,Use-after-free in ArrayObject Deserialization,hackerone.com/reports/180909,4,0.0,Use After Free,2019-10-13
+180977,shopify-scripts,Exception cause SIGABRT,hackerone.com/reports/180977,13,0.0,Uncontrolled Resource Consumption,2016-12-16
+181061,Brave Software,Remote Stack Overflow Vulnerability (DoS),hackerone.com/reports/181061,1,0.0,Uncontrolled Resource Consumption,2017-08-10
+181073,Internet Bug Bounty,malloc negative size parameter,hackerone.com/reports/181073,1,500.0,Memory Corruption - Generic,2019-11-12
+181088,Coinbase,Window.opener bug at www.coinbase.com,hackerone.com/reports/181088,2,100.0,,2016-11-28
+181210,Paragon Initiative Enterprises,Incorrect detection of onion URLs,hackerone.com/reports/181210,5,0.0,,2016-11-13
+181212,Paragon Initiative Enterprises,Missing GIT tag/commit verification in Docker,hackerone.com/reports/181212,1,0.0,,2016-11-09
+181214,Paragon Initiative Enterprises,Using plain git protocol (vulnerable to MITM),hackerone.com/reports/181214,1,0.0,,2016-11-09
+181225,Paragon Initiative Enterprises,Missing rel=noopener noreferrer in target=_blank links (Phishing attack),hackerone.com/reports/181225,3,0.0,,2016-11-13
+181232,shopify-scripts,Denial of Service in mruby due to null pointer dereference,hackerone.com/reports/181232,8,8000.0,Uncontrolled Resource Consumption,2016-12-17
+181315,Paragon Initiative Enterprises,Not using Binary::safe* functions for substr/strlen function,hackerone.com/reports/181315,0,0.0,,2016-11-13
+181319,shopify-scripts,Memory disclosure in mruby String#lines method,hackerone.com/reports/181319,10,0.0,Memory Corruption - Generic,2016-12-16
+181321,shopify-scripts,Use after free vulnerability in mruby Array#to_h causing DOS possible RCE,hackerone.com/reports/181321,29,0.0,Code Injection,2016-12-16
+181558,Brave Software,[DOS] denial of service using code snippet on brave browser,hackerone.com/reports/181558,6,0.0,Uncontrolled Resource Consumption,2018-05-06
+181642,Internet Bug Bounty,libtiff 4.0.6 heap bufer overflow / out of bounds read (CVE-2016-9273),hackerone.com/reports/181642,7,0.0,Uncontrolled Resource Consumption,2019-10-04
+181665,Ubiquiti Inc.,Subdomain Takeover (moderator.ubnt.com),hackerone.com/reports/181665,19,0.0,Cross-site Scripting (XSS) - Generic,2017-02-06
+181677,shopify-scripts,NULL pointer dereference when parsing ternary operators,hackerone.com/reports/181677,10,0.0,Uncontrolled Resource Consumption,2016-12-17
+181685,shopify-scripts,Range#initialize_copy null pointer dereference,hackerone.com/reports/181685,9,10000.0,Uncontrolled Resource Consumption,2016-12-17
+181686,Brave Software,[DOS] Browser hangs on loading the code snippet,hackerone.com/reports/181686,9,0.0,Uncontrolled Resource Consumption,2018-05-06
+181695,shopify-scripts,Undefined method_missing null pointer dereference,hackerone.com/reports/181695,7,8000.0,Uncontrolled Resource Consumption,2016-12-17
+181748,X / xAI,[IDOR][translate.twitter.com] Opportunity to change any comment at the forum,hackerone.com/reports/181748,38,0.0,Privilege Escalation,2017-05-12
+181816,Informatica,[marketplace.informatica.com] Persistent XSS through document title,hackerone.com/reports/181816,8,0.0,Cross-site Scripting (XSS) - Generic,2017-02-02
+181823,VK.com,Stored XSS в личных сообщениях,hackerone.com/reports/181823,67,0.0,Cross-site Scripting (XSS) - Generic,2017-01-10
+181828,shopify-scripts,"Segfault in mruby, mruby_engine and the parent MRI Ruby due to null pointer dereference",hackerone.com/reports/181828,4,10000.0,Uncontrolled Resource Consumption,2016-12-16
+181849,Udemy,Jenkins,hackerone.com/reports/181849,13,0.0,,2017-01-10
+181871,shopify-scripts,DoS: type confusion in mrb_no_method_error,hackerone.com/reports/181871,60,0.0,Uncontrolled Resource Consumption,2017-03-01
+181874,shopify-scripts,SIGSEGV when invalid argument on remove_method,hackerone.com/reports/181874,9,0.0,Uncontrolled Resource Consumption,2016-12-17
+181879,shopify-scripts,Struct type confusion RCE,hackerone.com/reports/181879,14,18000.0,Code Injection,2016-12-17
+181893,shopify-scripts,TOCTTOU bug in mrb_str_setbyte leading the memory corruption,hackerone.com/reports/181893,23,0.0,Code Injection,2016-12-16
+181910,shopify-scripts,Range constructor type confusion DoS,hackerone.com/reports/181910,7,10000.0,Uncontrolled Resource Consumption,2016-12-17
+181955,Imgur,Stored xss in ALBUM DESCRIPTION ,hackerone.com/reports/181955,18,0.0,Cross-site Scripting (XSS) - Generic,2017-01-27
+182008,Pushwoosh,Spoof Email with Hyperlink Injection via Invites functionality,hackerone.com/reports/182008,14,0.0,Violation of Secure Design Principles,2016-11-14
+182017,Pushwoosh,htaccess file is accesible,hackerone.com/reports/182017,9,0.0,Information Disclosure,2016-11-14
+182027,shopify-scripts,SIGSEV on mrb_ary_splice,hackerone.com/reports/182027,5,0.0,Uncontrolled Resource Consumption,2016-12-17
+182033,Pushwoosh,Reflected Xss on ,hackerone.com/reports/182033,11,0.0,Cross-site Scripting (XSS) - Generic,2016-12-14
+182046,Pushwoosh,Nginx server version disclosure,hackerone.com/reports/182046,9,0.0,Information Disclosure,2016-11-14
+182089,Pushwoosh, Spam Some one using (user.saveInvite) system,hackerone.com/reports/182089,5,0.0,Memory Corruption - Generic,2016-11-22
+182104,Udemy,Completed Compromise & Source Code Disclosure via Exposed Jenkins Dashboard at https://jenkins101.udemy.com,hackerone.com/reports/182104,63,0.0,Code Injection,2017-06-17
+182140,Internet Bug Bounty,libtiff 4.0.6 segfault / read outside of buffer (CVE-2016-9297),hackerone.com/reports/182140,6,0.0,Memory Corruption - Generic,2019-10-04
+182160,PortSwigger Web Security,XSS in IE11 on portswigger.net via Flash,hackerone.com/reports/182160,33,0.0,Cross-site Scripting (XSS) - Generic,2016-11-30
+182169,Internet Bug Bounty,Type confusion in FutureIter_throw() which may potentially lead to an arbitrary code execution,hackerone.com/reports/182169,4,500.0,Code Injection,2016-12-03
+182234,Pushwoosh,Unsecured Grafana instance,hackerone.com/reports/182234,9,0.0,Improper Authentication - Generic,2016-11-15
+182267,Pushwoosh,Password Forgot/Password Reset Request Bug,hackerone.com/reports/182267,11,0.0,Uncontrolled Resource Consumption,2016-11-16
+182274,shopify-scripts,Null pointer dereference due to TOCTTOU bug in mrb_time_initialize,hackerone.com/reports/182274,15,0.0,Uncontrolled Resource Consumption,2017-01-15
+182358,HackerOne,"Partial disclosure of report activity through new ""Export as .zip"" feature",hackerone.com/reports/182358,354,10000.0,Information Disclosure,2016-11-29
+182420,Internet Bug Bounty,Illegal write/read access caused by gdImageAALine overflow,hackerone.com/reports/182420,7,500.0,Memory Corruption - Generic,2019-10-31
+182467,Bumble,Email Spoofing,hackerone.com/reports/182467,28,0.0,Violation of Secure Design Principles,2017-01-24
+182474,Internet Bug Bounty,Use After Free in PHP7 unserialize(),hackerone.com/reports/182474,5,0.0,Memory Corruption - Generic,2019-10-13
+182484,shopify-scripts,Broken handling of maximum number of method call arguments leads to segfault,hackerone.com/reports/182484,10,10000.0,Uncontrolled Resource Consumption,2016-12-21
+182487,GitLab,CSRF Token Bypass in Account Deletion,hackerone.com/reports/182487,7,0.0,Cross-Site Request Forgery (CSRF),2017-04-20
+182530,Pushwoosh,Bypass the resend limit in Send Invites,hackerone.com/reports/182530,16,0.0,Violation of Secure Design Principles,2016-11-22
+182557,Brave Software,links the user may download can be a malicious files,hackerone.com/reports/182557,4,0.0,Code Injection,2017-08-10
+182576,"OWOX, Inc.",Subdomain Takeover on http://kiosk.owox.com/,hackerone.com/reports/182576,12,0.0,Improper Authentication - Generic,2016-11-17
+182637,Pushwoosh,Administrator Access To Management Console,hackerone.com/reports/182637,9,0.0,Command Injection - Generic,2016-11-17
+183127,"OWOX, Inc.",ClickJacking,hackerone.com/reports/183127,1,0.0,UI Redressing (Clickjacking),2017-05-22
+183231,shopify-scripts,SIGSEGV on mruby mrb_str_modify() (Invalid memory access),hackerone.com/reports/183231,5,0.0,Uncontrolled Resource Consumption,2016-12-17
+183239,shopify-scripts,SIGSEGV on mruby's mark_tbl() (Invalid memory access),hackerone.com/reports/183239,5,0.0,Memory Corruption - Generic,2016-12-17
+183245,Pushwoosh,Nginx version disclosure via response header,hackerone.com/reports/183245,11,0.0,Information Disclosure,2016-11-18
+183318,"OWOX, Inc.",Direct IP Access,hackerone.com/reports/183318,4,0.0,Information Disclosure,2017-05-22
+183352,VK.com,Возможность провести DoS атаку от имени vk.com сервера,hackerone.com/reports/183352,8,0.0,,2017-03-06
+183356,shopify-scripts,"Segfault and/or potential unwanted (byte)code execution with ""break"" and ""||="" inside a loop",hackerone.com/reports/183356,14,10000.0,Uncontrolled Resource Consumption,2016-12-16
+183405,shopify-scripts,Null target_class DoS,hackerone.com/reports/183405,14,8000.0,Uncontrolled Resource Consumption,2016-12-17
+183425,shopify-scripts,Segmentation fault when a Ruby method is invoked by a C method via Object#send,hackerone.com/reports/183425,14,8000.0,Uncontrolled Resource Consumption,2017-04-13
+183458,Ubiquiti Inc.,Command injection in the process of downloading the latest version of the cloud key firmware through the unifi management software.,hackerone.com/reports/183458,7,0.0,Command Injection - Generic,2017-12-11
+183568,WordPress,[Buddypress] Arbitrary File Deletion through bp_avatar_set,hackerone.com/reports/183568,9,0.0,,2017-08-22
+183667,shopify-scripts,Null pointer dereference in ary_concat,hackerone.com/reports/183667,3,0.0,Uncontrolled Resource Consumption,2016-12-17
+183696,shopify-scripts,"Invalid memory access while freeing memory, caused by invalid type passed to mrb_ary_unshift",hackerone.com/reports/183696,2,0.0,Uncontrolled Resource Consumption,2016-12-17
+183835,U.S. Dept Of Defense,Reflected XSS vulnerability on a DoD website,hackerone.com/reports/183835,7,0.0,Cross-site Scripting (XSS) - Generic,2017-03-16
+183837,Urban Dictionary,Race condition in up voting and down voting,hackerone.com/reports/183837,42,0.0,Violation of Secure Design Principles,2023-10-27
+183844,U.S. Dept Of Defense,Reflected XSS on a DoD website,hackerone.com/reports/183844,2,0.0,Cross-site Scripting (XSS) - Generic,2017-06-01
+183854,U.S. Dept Of Defense,Reflective XSS vulnerability on a DoD website,hackerone.com/reports/183854,4,0.0,Cross-site Scripting (XSS) - Generic,2017-06-23
+183855,U.S. Dept Of Defense,Reflected XSS on a Department of Defense website,hackerone.com/reports/183855,8,0.0,Cross-site Scripting (XSS) - Generic,2017-01-12
+183871,U.S. Dept Of Defense,Reflected XSS on a DoD website,hackerone.com/reports/183871,9,0.0,Cross-site Scripting (XSS) - Generic,2017-02-16
+183878,U.S. Dept Of Defense,Reflected XSS on a Navy website,hackerone.com/reports/183878,7,0.0,Cross-site Scripting (XSS) - Generic,2017-01-11
+183925,U.S. Dept Of Defense,Unrestricted File Download / Path Traversal,hackerone.com/reports/183925,13,0.0,Information Disclosure,2017-01-11
+183971,U.S. Dept Of Defense,Stored cross-site scripting (XSS) on a DoD website,hackerone.com/reports/183971,4,0.0,Cross-site Scripting (XSS) - Generic,2017-03-16
+183978,U.S. Dept Of Defense,Local File Inclusion vulnerability on an Army system allows downloading local files,hackerone.com/reports/183978,48,0.0,Information Disclosure,2017-01-06
+184042,U.S. Dept Of Defense,Reflected cross-site scripting vulnerability on a DoD website,hackerone.com/reports/184042,11,0.0,Cross-site Scripting (XSS) - Generic,2017-04-07
+184057,Pushwoosh,"Read Application Name , Subscribers Count ",hackerone.com/reports/184057,13,0.0,Information Disclosure,2016-11-23
+184076,U.S. Dept Of Defense,Information disclosure on a DoD website,hackerone.com/reports/184076,7,0.0,Information Disclosure,2017-07-03
+184125,U.S. Dept Of Defense,Reflected XSS vulnerability on a DoD website,hackerone.com/reports/184125,4,0.0,Cross-site Scripting (XSS) - Generic,2017-06-23
+184199,U.S. Dept Of Defense,Reflected XSS on an Army website,hackerone.com/reports/184199,8,0.0,Cross-site Scripting (XSS) - Generic,2017-01-12
+184200,U.S. Dept Of Defense,Reflected XSS on a DoD website,hackerone.com/reports/184200,3,0.0,Cross-site Scripting (XSS) - Generic,2017-06-01
+184279,U.S. Dept Of Defense,RCE on a Department of Defense website,hackerone.com/reports/184279,27,0.0,Code Injection,2017-01-11
+184286,U.S. Dept Of Defense,Reflected XSS on a Department of Defense website,hackerone.com/reports/184286,8,0.0,Cross-site Scripting (XSS) - Generic,2017-01-12
+184472,U.S. Dept Of Defense,http://████/data.json  showing users sensitive information via  json file,hackerone.com/reports/184472,13,0.0,Information Disclosure,2019-12-02
+184495,U.S. Dept Of Defense,Cross-site scripting (XSS) vulnerability on a DoD website,hackerone.com/reports/184495,6,0.0,Cross-site Scripting (XSS) - Generic,2017-04-07
+184558,U.S. Dept Of Defense,Information disclosure vulnerability on a DoD website,hackerone.com/reports/184558,3,0.0,Information Disclosure,2017-07-05
+184575,U.S. Dept Of Defense,Cross-site scripting vulnerability on a DoD website,hackerone.com/reports/184575,4,0.0,Cross-site Scripting (XSS) - Generic,2017-03-16
+184596,U.S. Dept Of Defense,Unrestricted File Upload,hackerone.com/reports/184596,31,0.0,Command Injection - Generic,2016-12-22
+184661,shopify-scripts,mruby-time: Crash host with uninitialized Time obj,hackerone.com/reports/184661,3,8000.0,Memory Corruption - Generic,2016-12-16
+184698,Slack,Eavesdropping on private Slack calls,hackerone.com/reports/184698,68,1000.0,Improper Authentication - Generic,2017-02-08
+184712,shopify-scripts,Denial of service due to invalid memory access in mrb_ary_concat,hackerone.com/reports/184712,9,8000.0,Uncontrolled Resource Consumption,2016-12-17
+184715,shopify-scripts,Read after free in mrb_vm_exec with OP_ARYCAT reading R(B),hackerone.com/reports/184715,8,1000.0,Memory Corruption - Generic,2016-12-18
+184750,U.S. Dept Of Defense,Reflected XSS on a DoD website,hackerone.com/reports/184750,8,0.0,Cross-site Scripting (XSS) - Generic,2017-06-01
+184759,U.S. Dept Of Defense,XSS on a DoD website,hackerone.com/reports/184759,8,0.0,Cross-site Scripting (XSS) - Generic,2017-04-27
+184857,shopify-scripts,Crash: calling Proc::initialize_copy with a Proc instance where initialize never ran leads to a crash,hackerone.com/reports/184857,4,8000.0,Memory Corruption - Generic,2016-12-16
+184877,U.S. Dept Of Defense, Out-of-date Version (Apache) ,hackerone.com/reports/184877,6,0.0,Privilege Escalation,2019-12-02
+184881,"OWOX, Inc.",invalid URL parsing with and '@',hackerone.com/reports/184881,2,0.0,HTTP Response Splitting,2017-05-22
+184884,"OWOX, Inc.",Subdomain Takeover on  http://blog.owox.com/,hackerone.com/reports/184884,2,0.0,Improper Authentication - Generic,2017-05-22
+184901,U.S. Dept Of Defense,Stored cross site scripting (XSS) vulnerability on a DoD website,hackerone.com/reports/184901,4,0.0,Cross-site Scripting (XSS) - Generic,2017-06-23
+184933,U.S. Dept Of Defense,Insecure direct object reference vulnerability on a DoD website,hackerone.com/reports/184933,7,0.0,Privilege Escalation,2017-06-01
+185041,shopify-scripts,Type confusion in mrb_exc_set leading to memory corruption,hackerone.com/reports/185041,40,0.0,Uncontrolled Resource Consumption,2016-12-16
+185051,shopify-scripts,Type confusion in wrap_decimal leading to memory corruption,hackerone.com/reports/185051,35,0.0,Code Injection,2017-01-15
+185387,shopify-scripts,Null pointer dereference regression in parse.y,hackerone.com/reports/185387,5,1000.0,Uncontrolled Resource Consumption,2016-12-17
+185705,shopify-scripts,Null pointer dereference in mrb_str_concat,hackerone.com/reports/185705,2,0.0,Uncontrolled Resource Consumption,2016-12-17
+185775,shopify-scripts,Crash: Initialize Decimal with itself triggers an assertion,hackerone.com/reports/185775,10,10000.0,,2016-12-16
+185794,shopify-scripts,"Crash: mrb_any_to_s can't handle NilClass, Symbol and Fixnum",hackerone.com/reports/185794,4,8000.0,Memory Corruption - Generic,2016-12-16
+185826,Shopify,XSS in my.shopify.com in  widget,hackerone.com/reports/185826,5,500.0,Cross-site Scripting (XSS) - Generic,2017-07-21
+185833,Gratipay,Incomplete or No Cache-control and Pragma HTTP Header Set,hackerone.com/reports/185833,6,0.0,,2017-03-17
+185835,Gratipay,Secure Pages Include Mixed Content,hackerone.com/reports/185835,4,0.0,,2016-12-29
+185862,X / xAI,Twitter for android is exposing user's location to any installed android app,hackerone.com/reports/185862,23,560.0,Information Disclosure,2017-01-13
+185899,shopify-scripts,Invalid memory write caused by incorrect upper bound in array_copy,hackerone.com/reports/185899,6,1000.0,Uncontrolled Resource Consumption,2016-12-18
+185907,Ian Dunn,unchecked unserialize usage in WordPress-Functionality-Plugin-Skeleton/functionality-plugin-skeleton.php,hackerone.com/reports/185907,7,25.0,,2016-12-29
+185909,Ian Dunn,unchecked unserialize usages in audit-trail-extension/audit-trail-extension.php,hackerone.com/reports/185909,9,50.0,,2016-12-30
+185914,Ian Dunn,constant cache_page_secret in regolith,hackerone.com/reports/185914,7,25.0,,2016-12-30
+185957,shopify-scripts,Crash: A call to Symbol.new leads to a crash when inspecting the resulting object,hackerone.com/reports/185957,3,1000.0,Memory Corruption - Generic,2016-12-16
+186156,U.S. Dept Of Defense,SQL Injection vulnerability on a DoD website,hackerone.com/reports/186156,9,0.0,Cross-site Scripting (XSS) - Generic,2017-01-11
+186189,U.S. Dept Of Defense,Information leakage on a Department of Defense website,hackerone.com/reports/186189,7,0.0,Improper Authentication - Generic,2017-01-12
+186194,GitLab,State filter in IssuableFinder allows attacker to delete all issues and merge requests,hackerone.com/reports/186194,11,0.0,Privilege Escalation,2016-12-06
+186230,HackerOne,"Internal attachments can be exported via ""Export as .zip"" feature",hackerone.com/reports/186230,269,12500.0,Information Disclosure,2016-11-30
+186307,U.S. Dept Of Defense,Information disclosure vulnerability on a DoD website,hackerone.com/reports/186307,3,0.0,Information Disclosure,2017-04-27
+186308,U.S. Dept Of Defense,Information disclosure vulnerability in a DoD website,hackerone.com/reports/186308,4,0.0,Cryptographic Issues - Generic,2017-06-23
+186315,U.S. Dept Of Defense,Cross-site scripting (XSS) vulnerability on a DoD website,hackerone.com/reports/186315,4,0.0,Cross-site Scripting (XSS) - Generic,2017-03-16
+186316,U.S. Dept Of Defense,DNS Misconfiguration,hackerone.com/reports/186316,4,0.0,,2016-12-22
+186317,U.S. Dept Of Defense,Information disclosure on a DoD website,hackerone.com/reports/186317,2,0.0,Information Disclosure,2017-03-16
+186326,U.S. Dept Of Defense,Arbitary file download vulnerability on a DoD website,hackerone.com/reports/186326,6,0.0,Information Disclosure,2017-07-05
+186352,Phabricator,Fetching binaries (for software installation) over HTTP without verification (RCE as ROOT by MITM),hackerone.com/reports/186352,8,300.0,,2016-12-29
+186367,U.S. Dept Of Defense,SQLi in LASCO CME Query,hackerone.com/reports/186367,8,0.0,SQL Injection,2026-01-12
+186393,"OWOX, Inc.",Subdomain Takeover on OWOX.RU,hackerone.com/reports/186393,2,0.0,Improper Authentication - Generic,2017-05-22
+186402,U.S. Dept Of Defense,Cross-Site Scripting (XSS) on a DoD website,hackerone.com/reports/186402,4,0.0,Cross-site Scripting (XSS) - Generic,2017-04-27
+186462,Shopify,Stored XSS at 'Buy Button' page,hackerone.com/reports/186462,13,500.0,Cross-site Scripting (XSS) - Generic,2016-12-16
+186530,U.S. Dept Of Defense,Information disclosure vulnerability on a DoD website,hackerone.com/reports/186530,5,0.0,Information Disclosure,2017-08-15
+186554,Starbucks,Stored XSS in Adress Book (starbucks.com/account/profile),hackerone.com/reports/186554,9,0.0,Cross-site Scripting (XSS) - Generic,2017-05-31
+186586,"OWOX, Inc.",Access to Grafana Dashboard,hackerone.com/reports/186586,12,0.0,Information Disclosure,2017-01-06
+186723,shopify-scripts,Crash: Overwriting NoMethodError with a builtin class crashes/corrupts memory,hackerone.com/reports/186723,20,10000.0,Memory Corruption - Generic,2017-03-01
+186766,Starbucks,Subdomain takeover on happymondays.starbucks.com due to non-used AWS S3 DNS record,hackerone.com/reports/186766,105,0.0,Privilege Escalation,2016-12-19
+186862,PortSwigger Web Security,Order-phishing via Payment ID URL,hackerone.com/reports/186862,6,0.0,Cross-Site Request Forgery (CSRF),2016-11-30
+187006,U.S. Dept Of Defense,Open Redirect in a DoD website,hackerone.com/reports/187006,5,0.0,Open Redirect,2017-02-14
+187025,Pushwoosh,Publicy accessible IDRAC instance at api-m.inapp.pushwoosh.com,hackerone.com/reports/187025,11,0.0,Improper Authentication - Generic,2017-03-29
+187134,PortSwigger Web Security,JSBeautifier BApp: Race condition leads to memory disclosure,hackerone.com/reports/187134,32,0.0,Memory Corruption - Generic,2016-12-07
+187232,U.S. Dept Of Defense,Arbitrary Script Injection (Mail) in a DoD Website,hackerone.com/reports/187232,4,0.0,Cross-site Scripting (XSS) - Generic,2017-03-16
+187305,shopify-scripts,Invalid handling of zero-length heredoc identifiers leads to infinite loop in the sandbox,hackerone.com/reports/187305,23,10000.0,Uncontrolled Resource Consumption,2017-01-12
+187380,ownCloud,Stored xss,hackerone.com/reports/187380,5,0.0,Cross-site Scripting (XSS) - Generic,2017-03-30
+187410,Slack,Store XSS,hackerone.com/reports/187410,43,0.0,Cross-site Scripting (XSS) - Generic,2017-01-01
+187460,Nextcloud,Files Drop: WebDAV endpoint is leaking existence of resources,hackerone.com/reports/187460,9,0.0,Information Disclosure,2017-01-01
+187520,WordPress,Wordpress 4.7 - CSRF -> HTTP SSRF any private ip:port and basic-auth,hackerone.com/reports/187520,21,0.0,Cross-Site Request Forgery (CSRF),2017-11-20
+187536,shopify-scripts,Null pointer derefence due to bug in codegen with negation without using value,hackerone.com/reports/187536,9,10000.0,Uncontrolled Resource Consumption,2016-12-17
+187539,shopify-scripts,Null pointer dereference due to bug in codegen with negation of floats,hackerone.com/reports/187539,2,0.0,Uncontrolled Resource Consumption,2016-12-17
+187542,Brave Software,Brave Browser unexpectedly allows to send arbitrary IPC messages,hackerone.com/reports/187542,9,0.0,Command Injection - Generic,2018-09-18
+187705,U.S. Dept Of Defense,Authentication bypass vulnerability on a DoD website,hackerone.com/reports/187705,12,0.0,Improper Authentication - Generic,2017-02-15
+187714,X / xAI,Vine - overwrite account associated with email via android application,hackerone.com/reports/187714,30,280.0,Improper Authentication - Generic,2017-06-14
+187759,U.S. Dept Of Defense,Persistent XSS vulnerability on a DoD website,hackerone.com/reports/187759,4,0.0,Cross-site Scripting (XSS) - Generic,2017-02-14
+187822,U.S. Dept Of Defense,Reflected XSS vulnerability on a DoD website,hackerone.com/reports/187822,5,0.0,Cross-site Scripting (XSS) - Generic,2017-06-16
+187881,U.S. Dept Of Defense,XSS vulnerability on an Army website,hackerone.com/reports/187881,5,0.0,Cross-site Scripting (XSS) - Generic,2017-01-11
+187969,U.S. Dept Of Defense,Open redirect vulnerability in a DoD website,hackerone.com/reports/187969,6,0.0,Open Redirect,2017-06-23
+188078,Brave Software,Command Execution because of extension handling,hackerone.com/reports/188078,8,0.0,Command Injection - Generic,2017-08-10
+188086,Brave Software,Sending arbitrary IPC messages via overriding Function.prototype.apply,hackerone.com/reports/188086,53,0.0,Command Injection - Generic,2018-09-18
+188102,Internet Bug Bounty,3 heap corruptions in PHP,hackerone.com/reports/188102,1,1500.0,Memory Corruption - Generic,2019-11-12
+188124,U.S. Dept Of Defense,Violation of secure design principles on a DoD website,hackerone.com/reports/188124,7,0.0,Violation of Secure Design Principles,2017-07-05
+188132,Nextcloud,Wordpress Version Disclosure Bug On Nextcloud,hackerone.com/reports/188132,6,0.0,Information Disclosure,2016-12-04
+188149,U.S. Dept Of Defense,Personal information disclosure on a DoD website,hackerone.com/reports/188149,9,0.0,Information Disclosure,2017-02-16
+188185,Starbucks,Dom Based Xss DIV.innerHTML  parameters store.starbucks*,hackerone.com/reports/188185,15,0.0,Cross-site Scripting (XSS) - Generic,2017-01-12
+188195,Nextcloud,Login Hints on Admin Panel,hackerone.com/reports/188195,3,0.0,Violation of Secure Design Principles,2016-12-05
+188205,Nextcloud,BruteForce in to Admin Account,hackerone.com/reports/188205,2,0.0,Improper Authentication - Generic,2016-12-04
+188266,Shopify,Redirect in adding advance cash on delivery app,hackerone.com/reports/188266,7,0.0,Open Redirect,2017-06-27
+188284,U.S. Dept Of Defense,Remote code execution on an Army website,hackerone.com/reports/188284,31,0.0,Code Injection,2017-01-12
+188313,shopify-scripts,Segmentation fault due to bad memory access in kh_get_mt,hackerone.com/reports/188313,4,8000.0,Uncontrolled Resource Consumption,2016-12-17
+188326,shopify-scripts,Buffer overflow in mrb_time_asctime,hackerone.com/reports/188326,13,10000.0,Uncontrolled Resource Consumption,2016-12-18
+188561,Brave Software,Sending arbitrary IPC messages via overriding Array.prototype.push,hackerone.com/reports/188561,6,0.0,Command Injection - Generic,2018-09-18
+188661,Internet Bug Bounty,Invalid read when wddx decodes empty boolean element,hackerone.com/reports/188661,1,0.0,Memory Corruption - Generic,2019-11-12
+188691,U.S. Dept Of Defense,Reflected XSS in a Navy website,hackerone.com/reports/188691,8,0.0,Cross-site Scripting (XSS) - Generic,2017-01-06
+188719,HackerOne,Information Disclosure in /skills call,hackerone.com/reports/188719,285,10000.0,Information Disclosure,2017-01-05
+188743,U.S. Dept Of Defense,XXE on DoD web server,hackerone.com/reports/188743,36,0.0,XML External Entities (XXE),2017-01-09
+188929,U.S. Dept Of Defense,Time Based SQL Injection vulnerability on a DoD website,hackerone.com/reports/188929,4,0.0,SQL Injection,2017-06-16
+188972,Starbucks,Persistent XSS in www.starbucks.com,hackerone.com/reports/188972,35,0.0,Cross-site Scripting (XSS) - Generic,2017-01-17
+189023,Legal Robot,S3 ACL misconfiguration,hackerone.com/reports/189023,3,0.0,Improper Authentication - Generic,2017-08-29
+189069,U.S. Dept Of Defense,SQL injection vulnerability on a DoD website,hackerone.com/reports/189069,7,0.0,SQL Injection,2017-06-16
+189149,U.S. Dept Of Defense,QuickTime Promotion on a DoD website,hackerone.com/reports/189149,7,0.0,Violation of Secure Design Principles,2017-02-15
+189241,U.S. Dept Of Defense,Reflected XSS on a DoD website,hackerone.com/reports/189241,4,0.0,Cross-site Scripting (XSS) - Generic,2017-06-01
+189332,U.S. Dept Of Defense,SQL injection vulnerability on a DoD website,hackerone.com/reports/189332,14,0.0,SQL Injection,2017-02-17
+189356,Urban Dictionary,Text injection on Auth problem at urbandictionary.com,hackerone.com/reports/189356,11,0.0,Violation of Secure Design Principles,2017-01-17
+189378,Shopify,Unauthenticated Stored XSS on <any>.myshopify.com via checkout page,hackerone.com/reports/189378,14,0.0,Cross-site Scripting (XSS) - Generic,2016-12-16
+189414,U.S. Dept Of Defense,Information disclosure on a DoD website,hackerone.com/reports/189414,7,0.0,Information Disclosure,2017-03-16
+189458,U.S. Dept Of Defense,Information disclosure vulnerability on a DoD website,hackerone.com/reports/189458,7,0.0,Information Disclosure,2017-06-01
+189548,X / xAI,GNIP subdomain take over,hackerone.com/reports/189548,30,0.0,,2017-02-06
+189633,shopify-scripts,Certain inputs cause tight C-level recursion leading to process stack overflow,hackerone.com/reports/189633,11,10000.0,Memory Corruption - Generic,2017-03-14
+189648,U.S. Dept Of Defense,Server Side Request Forgery (SSRF) vulnerability in a DoD website,hackerone.com/reports/189648,6,0.0,Server-Side Request Forgery (SSRF),2017-08-15
+189704,shopify-scripts,Segmentation fault due to invalid memory access in codegen when using break with the 127th argument a constant,hackerone.com/reports/189704,2,0.0,Uncontrolled Resource Consumption,2016-12-17
+189726,HackerOne,Websites opened from reports can change url of report page ,hackerone.com/reports/189726,50,0.0,Open Redirect,2017-02-25
+189768,Quora,[controlsyou.quora.com] 429 Too Many Requests Error-Page XSS,hackerone.com/reports/189768,20,0.0,Cross-site Scripting (XSS) - Generic,2017-03-31
+189793,Quora,[Android] XSS via start ContentActivity,hackerone.com/reports/189793,50,0.0,Cross-site Scripting (XSS) - Generic,2017-04-05
+189834,Informatica,[kb.informatica.com] DOM based XSS in the bindBreadCrumb function,hackerone.com/reports/189834,10,0.0,Cross-site Scripting (XSS) - Generic,2017-06-24
+189851,U.S. Dept Of Defense,Time Based SQL Injection vulnerability on a DoD website,hackerone.com/reports/189851,9,0.0,SQL Injection,2017-07-05
+189878,Ruby on Rails,CSRF header is sent to external websites when using data-remote forms,hackerone.com/reports/189878,2,0.0,Cross-Site Request Forgery (CSRF),2020-05-26
+190015,Gratipay,Certificate signed using SHA-1,hackerone.com/reports/190015,3,0.0,,2016-12-29
+190016,Informatica,[network.informatica.com] The login form XSS via the referer value,hackerone.com/reports/190016,7,0.0,Cross-site Scripting (XSS) - Generic,2017-05-22
+190020,Informatica,"[careers.informatica.com] XSS on ""isJTN""",hackerone.com/reports/190020,5,0.0,Cross-site Scripting (XSS) - Generic,2017-04-07
+190133,shopify-scripts,Segfault when passing invalid values to `values_at`,hackerone.com/reports/190133,5,1000.0,Uncontrolled Resource Consumption,2016-12-17
+190194,Gratipay,Cookie HttpOnly Flag Not Set ,hackerone.com/reports/190194,4,0.0,,2016-12-29
+190205,U.S. Dept Of Defense,Reflected XSS on a DoD website,hackerone.com/reports/190205,3,0.0,Cross-site Scripting (XSS) - Generic,2017-06-16
+190217,Informatica,[marketplace.informatica.com] Profile stored XSS,hackerone.com/reports/190217,4,0.0,Cross-site Scripting (XSS) - Generic,2017-04-19
+190247,GoCD,Reflected XSS vector,hackerone.com/reports/190247,8,0.0,Cross-site Scripting (XSS) - Generic,2017-02-22
+190373,Gratipay,Gratipay uses the random module's cryptographically insecure PRNG.,hackerone.com/reports/190373,5,0.0,Cryptographic Issues - Generic,2016-12-12
+190427,U.S. Dept Of Defense,Reflected XSS on a DoD website,hackerone.com/reports/190427,4,0.0,Cross-site Scripting (XSS) - Generic,2017-06-16
+190798,Starbucks,Reflected XSS on teavana.com (Locale-Change),hackerone.com/reports/190798,15,0.0,Cross-site Scripting (XSS) - Generic,2017-06-09
+190863,Internet Bug Bounty,imagefilltoborder stackoverflow on truecolor images,hackerone.com/reports/190863,2,500.0,Uncontrolled Resource Consumption,2017-02-07
+190870,Nextcloud,Stored XSS on new Calling plugin (spreed),hackerone.com/reports/190870,4,0.0,Cross-site Scripting (XSS) - Generic,2016-12-13
+190933,Internet Bug Bounty,Invalid parameter in memcpy function trough openssl_pbkdf2,hackerone.com/reports/190933,4,500.0,Memory Corruption - Generic,2017-02-08
+190951,Shopify,XSS on manually entering Postal codes,hackerone.com/reports/190951,21,500.0,Cross-site Scripting (XSS) - Generic,2016-12-17
+190964,Gratipay,Content type incorrectly stated,hackerone.com/reports/190964,2,0.0,,2016-12-27
+191179,Starbucks,http://digital.starbucks.com/ Creation of Google G Suite Account on Behalf of starbucks. ,hackerone.com/reports/191179,11,0.0,Information Disclosure,2017-01-17
+191196,Uber,Authorization issue in Google G Suite allows DoS through HTTP redirect,hackerone.com/reports/191196,62,0.0,Uncontrolled Resource Consumption,2017-02-09
+191216,GitLab,SSRF via git Repo by URL Abuse,hackerone.com/reports/191216,3,0.0,Server-Side Request Forgery (SSRF),2017-11-28
+191220,PortSwigger Web Security,HTTP OPTION Method is Enabled on portswigger.net ,hackerone.com/reports/191220,6,0.0,Violation of Secure Design Principles,2016-12-27
+191243,U.S. Dept Of Defense,File upload vulnerability on a DoD website,hackerone.com/reports/191243,10,0.0,Unrestricted Upload of File with Dangerous Type,2017-03-16
+191323,X / xAI,Sub Domain Takeover at mk.prd.vine.co,hackerone.com/reports/191323,7,140.0,,2017-02-13
+191328,shopify-scripts,Invalid memory access in `mrb_str_format`,hackerone.com/reports/191328,4,100.0,Uncontrolled Resource Consumption,2017-01-11
+191380,X / xAI,CRLF and XSS stored on ton.twitter.com,hackerone.com/reports/191380,31,1680.0,Cross-site Scripting (XSS) - Generic,2017-07-05
+191381,U.S. Dept Of Defense,Reflected cross-site scripting (XSS) vulnerability on a DoD website,hackerone.com/reports/191381,5,0.0,Cross-site Scripting (XSS) - Generic,2017-06-23
+191407,U.S. Dept Of Defense,DOM Based XSS on an Army website,hackerone.com/reports/191407,12,0.0,Cross-site Scripting (XSS) - Generic,2017-01-12
+191416,U.S. Dept Of Defense,DOM Based XSS on a DoD website,hackerone.com/reports/191416,3,0.0,Cross-site Scripting (XSS) - Generic,2017-06-16
+191608,U.S. Dept Of Defense,Cross-site request forgery vulnerability on a DoD website,hackerone.com/reports/191608,6,0.0,Cross-Site Request Forgery (CSRF),2017-03-16
+191643,Legal Robot,Password complexity requirements not enforced,hackerone.com/reports/191643,18,0.0,Improper Authentication - Generic,2017-02-04
+191689,shopify-scripts,Incorrect code generation when result of NODE_NEGATE is not used,hackerone.com/reports/191689,8,1000.0,Uncontrolled Resource Consumption,2017-01-12
+191810,Uber,Reflected XSS in lert.uber.com,hackerone.com/reports/191810,39,0.0,Cross-site Scripting (XSS) - Reflected,2018-12-19
+191830,U.S. Dept Of Defense,Server side information disclosure on a DoD website,hackerone.com/reports/191830,4,0.0,Information Disclosure,2017-06-01
+191831,U.S. Dept Of Defense,Cross-site request forgery (CSRF) vulnerability on a DoD website,hackerone.com/reports/191831,3,0.0,Cross-Site Request Forgery (CSRF),2017-06-16
+191884,X / xAI,Remote Unrestricted file Creation/Deletion and Possible RCE.,hackerone.com/reports/191884,99,0.0,Code Injection,2017-02-26
+191890,Discourse,DOM Based XSS in Discourse Search,hackerone.com/reports/191890,29,0.0,Cross-site Scripting (XSS) - Generic,2017-01-10
+191902,U.S. Dept Of Defense,HTML injection vulnerability on a DoD website,hackerone.com/reports/191902,6,0.0,Cross-site Scripting (XSS) - Generic,2017-04-27
+191909,Discourse,XSS Vulnerability on Image link parser,hackerone.com/reports/191909,15,256.0,Cross-site Scripting (XSS) - Generic,2017-01-10
+191938,shopify-scripts,SIGSEGV on mruby mrb_get_args() ,hackerone.com/reports/191938,4,0.0,Uncontrolled Resource Consumption,2017-02-10
+191979,Nextcloud,Limitation of app specific password scope can be bypassed (NC-SA-2017-009),hackerone.com/reports/191979,5,300.0,Privilege Escalation,2017-05-08
+191994,shopify-scripts,SIGSEGV mrb_obj_freeze() Manipulating Register RAX and RSI,hackerone.com/reports/191994,4,0.0,Memory Corruption - Generic,2017-02-10
+192074,U.S. Dept Of Defense,Default credentials on a DoD website,hackerone.com/reports/192074,9,0.0,Improper Authentication - Generic,2017-07-03
+192079,U.S. Dept Of Defense,SQL Injection vulnerability in a DoD website,hackerone.com/reports/192079,4,0.0,SQL Injection,2017-06-23
+192082,U.S. Dept Of Defense,Attackers can control which security questions they are presented (████████),hackerone.com/reports/192082,4,0.0,Improper Authentication - Generic,2019-12-02
+192110,U.S. Dept Of Defense,SQL Injection vulnerability in a DoD website,hackerone.com/reports/192110,4,0.0,SQL Injection,2017-06-23
+192127,Ruby,Buffer underflow in sprintf,hackerone.com/reports/192127,7,0.0,Memory Corruption - Generic,2017-03-05
+192131,Bumble,CSRF Attack on (m.badoo.com)deleting account and erasing imported contacts,hackerone.com/reports/192131,5,280.0,Cross-Site Request Forgery (CSRF),2017-02-06
+192140,Shopify,XSS on postal codes,hackerone.com/reports/192140,15,0.0,Cross-site Scripting (XSS) - Generic,2017-01-11
+192197,Coinbase, Information disclosure in coinbase android app,hackerone.com/reports/192197,1,0.0,Improper Authentication - Generic,2017-08-30
+192210,Shopify,Stored XSS in blog comments through Shopify API,hackerone.com/reports/192210,48,0.0,Cross-site Scripting (XSS) - Generic,2017-03-16
+192223,Discourse,XSS vulnerability on Audio and Video parsers,hackerone.com/reports/192223,15,256.0,Cross-site Scripting (XSS) - Generic,2017-01-10
+192235,shopify-scripts,Integer Overflow in mrb_ary_set,hackerone.com/reports/192235,3,100.0,Memory Corruption - Generic,2017-01-12
+192318,shopify-scripts,mrb_vformat() heap overflow could lead to code execution,hackerone.com/reports/192318,4,0.0,Memory Corruption - Generic,2017-02-10
+192321,U.S. Dept Of Defense,Open FTP server on a DoD system,hackerone.com/reports/192321,14,0.0,File and Directory Information Exposure,2019-10-08
+192362,shopify-scripts,Heap Overflow in mrb_arb_splice,hackerone.com/reports/192362,4,800.0,Memory Corruption - Generic,2017-01-12
+192485,shopify-scripts,SIGSEGV on mrb_vm_exec() Null Deref,hackerone.com/reports/192485,3,0.0,Uncontrolled Resource Consumption,2017-03-01
+192512,Internet Bug Bounty,RCE on default Ubuntu Desktop >= 12.10 Quantal,hackerone.com/reports/192512,6,0.0,Command Injection - Generic,2019-11-12
+192532,shopify-scripts,"SIGABRT, SIGSEGV mspace_free() and mrb_default_allocf()",hackerone.com/reports/192532,3,0.0,Uncontrolled Resource Consumption,2017-03-01
+192567,U.S. Dept Of Defense,Remote code execution vulnerability on a DoD website,hackerone.com/reports/192567,6,0.0,Code Injection,2017-06-23
+192577,U.S. Dept Of Defense,Server side information disclosure,hackerone.com/reports/192577,3,0.0,Information Disclosure,2017-01-06
+192578,shopify-scripts,kh_get_n2s() stack overrun,hackerone.com/reports/192578,8,0.0,Memory Corruption - Generic,2017-03-09
+192611,Discourse,Users can bookmark other user's messages,hackerone.com/reports/192611,7,0.0,Privilege Escalation,2017-01-10
+192665,shopify-scripts,heap-buffer-overflow on mruby,hackerone.com/reports/192665,4,100.0,Memory Corruption - Generic,2017-02-10
+192667,Starbucks,"[stagecafrstore.starbucks.com] CRLF Injection, XSS",hackerone.com/reports/192667,27,0.0,Cross-site Scripting (XSS) - Generic,2018-01-22
+192734,shopify-scripts,SIGSEGV Null Pointer mrb_str_concat(),hackerone.com/reports/192734,5,0.0,Uncontrolled Resource Consumption,2017-02-10
+192749,Starbucks,"[newscdn.starbucks.com] CRLF Injection, XSS",hackerone.com/reports/192749,23,0.0,HTTP Response Splitting,2017-03-09
+192751,U.S. Dept Of Defense,XSS vulnerability on a DoD website,hackerone.com/reports/192751,3,0.0,Cross-site Scripting (XSS) - Generic,2017-03-16
+192786,Nextcloud,Reflected XSS in U2F plugin by shipping the example endpoints,hackerone.com/reports/192786,10,0.0,Cross-site Scripting (XSS) - Generic,2017-03-22
+192886,Mapbox,Mapbox Android SDK uses Broadcast Receiver instead of Local Broadcast Manager,hackerone.com/reports/192886,11,1000.0,Information Disclosure,2017-03-21
+192896,shopify-scripts,Memory disclosure in timegm,hackerone.com/reports/192896,7,1000.0,Memory Corruption - Generic,2017-01-31
+192922,"OWOX, Inc.",Stored XSS at https://finance.owox.com/customer/accountList,hackerone.com/reports/192922,16,0.0,Cross-site Scripting (XSS) - Generic,2017-02-12
+192931,U.S. Dept Of Defense,Server-side include injection vulnerability in a DoD website,hackerone.com/reports/192931,9,0.0,Code Injection,2017-07-03
+192940,U.S. Dept Of Defense,"Remote File Inclusion, Malicious File Hosting, and Cross-site Scripting (XSS) in ████████",hackerone.com/reports/192940,5,0.0,Cross-site Scripting (XSS) - Generic,2019-12-02
+192986,Gratipay,User Enumeration,hackerone.com/reports/192986,2,0.0,Improper Authentication - Generic,2016-12-27
+193056,WebSummit,Subdomain Takeover at http://gameday.websummit.net,hackerone.com/reports/193056,9,0.0,Privilege Escalation,2017-01-30
+193075,shopify-scripts,SIGSEGV - mrb_check_intern_str() - NullPointer,hackerone.com/reports/193075,3,0.0,Uncontrolled Resource Consumption,2017-03-01
+193077,shopify-scripts,mrb_str_modify try to write to memory not marked for writing,hackerone.com/reports/193077,6,0.0,Uncontrolled Resource Consumption,2017-02-06
+193081,shopify-scripts,Null pointer dereference in mrb_str_prepend,hackerone.com/reports/193081,3,800.0,Uncontrolled Resource Consumption,2017-02-07
+193143,shopify-scripts,Use After Free in str_replace,hackerone.com/reports/193143,7,800.0,Memory Corruption - Generic,2017-01-31
+193419,VK.com,Способ узнать имя человека удаленной страницы,hackerone.com/reports/193419,5,0.0,Information Disclosure,2017-02-09
+193436,U.S. Dept Of Defense,SQL injection vulnerability on a DoD website,hackerone.com/reports/193436,4,0.0,SQL Injection,2017-04-27
+193478,Starbucks,Create New User Whilst Logged On,hackerone.com/reports/193478,4,0.0,Open Redirect,2017-01-13
+193481,U.S. Dept Of Defense,Reflected XSS on a DoD website,hackerone.com/reports/193481,4,0.0,Cross-site Scripting (XSS) - Generic,2017-04-27
+193517,shopify-scripts,attempting double-free using the mruby compiler `mrbc`,hackerone.com/reports/193517,6,0.0,Memory Corruption - Generic,2017-02-07
+193556,Gratipay,Session Fixation At Logout /Session Misconfiguration,hackerone.com/reports/193556,8,0.0,Improper Authentication - Generic,2016-12-29
+193719,shopify-scripts,Double free of filename after codegen error,hackerone.com/reports/193719,6,200.0,Memory Corruption - Generic,2017-02-07
+193724,shopify-scripts,SIGSEGV - kh_resize_iv - Null Deref,hackerone.com/reports/193724,4,0.0,Uncontrolled Resource Consumption,2017-03-09
+193759,VK.com,Способ узнать имя человека удаленной страницы 2,hackerone.com/reports/193759,5,0.0,Information Disclosure,2017-02-09
+193773,shopify-scripts,SIGABRT - mrb_default_allocf ,hackerone.com/reports/193773,13,0.0,Memory Corruption - Generic,2017-02-05
+193799,Uber,XSS in ubermovement.com via editable Google Sheets,hackerone.com/reports/193799,11,2000.0,Cross-site Scripting (XSS) - Stored,2018-12-19
+193932,U.S. Dept Of Defense,Misconfigured password reset vulnerability on a DoD website,hackerone.com/reports/193932,19,0.0,Improper Authentication - Generic,2017-02-15
+193936,U.S. Dept Of Defense,SQL injection vulnerability on a DoD website,hackerone.com/reports/193936,7,0.0,SQL Injection,2017-05-31
+194065,Internet Bug Bounty, DoS vulnerability in mod_auth_digest CVE-2016-2161,hackerone.com/reports/194065,6,0.0,Uncontrolled Resource Consumption,2017-04-10
+194142,Legal Robot,Legal Robot AWS S3 Bucket Directory Listing,hackerone.com/reports/194142,14,0.0,Information Disclosure,2017-10-11
+194294,U.S. Dept Of Defense,Reflected XSS on a DoD website,hackerone.com/reports/194294,4,0.0,Cross-site Scripting (XSS) - Generic,2017-05-31
+194308,U.S. Dept Of Defense,Password reset vulnerability on a DoD website,hackerone.com/reports/194308,9,0.0,Improper Authentication - Generic,2017-03-16
+194318,Starbucks,Brute Force Attack against PIN on Card History Page Could Lead to Card Information Discovery / Fraud,hackerone.com/reports/194318,9,0.0,Violation of Secure Design Principles,2017-02-28
+194329,Nextcloud,No session logout after changing password & alsoandroid sessions not shown in sessions list so they can be deleted,hackerone.com/reports/194329,35,0.0,Violation of Secure Design Principles,2020-02-09
+194351,Yelp,Able to download arbitrary  PHP files at yelpblog.com,hackerone.com/reports/194351,21,0.0,Privilege Escalation,2017-02-06
+194454,Starbucks,Exposed Unencrypted Telnet Endpoint,hackerone.com/reports/194454,16,0.0,,2017-02-08
+194564,Nextcloud,Review remote code execution in SwiftMailer,hackerone.com/reports/194564,4,0.0,Code Injection,2017-02-18
+194594,Uber,IDOR on partners.uber.com allows for a driver to override administrator documents,hackerone.com/reports/194594,23,0.0,Insecure Direct Object Reference (IDOR),2018-12-19
+194721,Yelp,Verification of email addresses possible through https://www.yelp.com/signup/facebook,hackerone.com/reports/194721,10,0.0,Information Disclosure,2017-09-16
+194832,Shopify,Authentication Bypass on monitoring server,hackerone.com/reports/194832,12,0.0,Improper Authentication - Generic,2017-01-11
+194866,shopify-scripts,Deleting Key-value pair from Frozen HASH or Clearing a Frozen HASH,hackerone.com/reports/194866,12,0.0,Violation of Secure Design Principles,2017-01-05
+194884,shopify-scripts,Heap use-after-free during range creation,hackerone.com/reports/194884,5,200.0,Memory Corruption - Generic,2017-02-07
+194906,shopify-scripts,Heap overflow due to off-by-one when expanding stack,hackerone.com/reports/194906,5,800.0,Memory Corruption - Generic,2017-02-07
+195051,U.S. Dept Of Defense,SQL injection vulnerability in a DoD website,hackerone.com/reports/195051,4,0.0,SQL Injection,2017-06-23
+195058,GitLab,Users can download old project exports due to unclaimed namespace,hackerone.com/reports/195058,10,0.0,Information Disclosure,2017-01-23
+195088,GitLab,Every user can delete public deploy keys,hackerone.com/reports/195088,12,0.0,Privilege Escalation,2017-01-23
+195134,GitLab,User with guest access can access private merge requests,hackerone.com/reports/195134,13,0.0,Privilege Escalation,2017-01-23
+195140,GitLab,"Users with guest access can post notes to private merge requests, issues, and snippets",hackerone.com/reports/195140,9,0.0,Privilege Escalation,2017-01-23
+195156,Shopify,CSRF in all API endpoints when authenticated using HTTP Authentication,hackerone.com/reports/195156,30,0.0,Cross-Site Request Forgery (CSRF),2017-03-28
+195163,Starbucks,SAP Server - default credentials enabled,hackerone.com/reports/195163,28,0.0,Improper Authentication - Generic,2017-02-28
+195205,Uber,lert.uber.com: Few default folders/files of AURA Framework are accessible,hackerone.com/reports/195205,5,0.0,Information Disclosure,2018-12-19
+195350,Slack,Subdomain takeover on podcasts.slack-core.com,hackerone.com/reports/195350,27,100.0,Cross-site Scripting (XSS) - Generic,2017-01-04
+195356,U.S. Dept Of Defense,HTML Injection/Load Images vulnerability on a DoD website,hackerone.com/reports/195356,4,0.0,Violation of Secure Design Principles,2017-03-16
+195544,U.S. Dept Of Defense,Exposed Access Control Data Backup Files on DoD Website,hackerone.com/reports/195544,10,0.0,Improper Authentication - Generic,2017-02-15
+195580,Internet Bug Bounty,Crash (DoS) when parsing a hostile TIFF,hackerone.com/reports/195580,3,0.0,Uncontrolled Resource Consumption,2019-10-13
+195586,Internet Bug Bounty,Memory corruption when parsing a hostile PHAR archive,hackerone.com/reports/195586,12,0.0,Memory Corruption - Generic,2019-10-13
+195635,U.S. Dept Of Defense,Video player on ███ allows arbitrary remote videos to be played,hackerone.com/reports/195635,26,0.0,Violation of Secure Design Principles,2019-12-02
+195636,U.S. Dept Of Defense,Information disclosure vulnerability on a DoD website,hackerone.com/reports/195636,5,0.0,Violation of Secure Design Principles,2017-06-16
+195638,U.S. Dept Of Defense,Information disclosure vulnerability on a DoD website,hackerone.com/reports/195638,5,0.0,Information Disclosure,2017-06-16
+195688,Internet Bug Bounty,NULL Pointer Dereference while unserialize php object,hackerone.com/reports/195688,2,0.0,NULL Pointer Dereference,2019-11-12
+195836,U.S. Dept Of Defense,Information disclosure vulnerability on a DoD website,hackerone.com/reports/195836,4,0.0,Information Disclosure,2017-06-16
+195842,shopify-scripts,Segmentation fault - mrb_gc_mark,hackerone.com/reports/195842,3,0.0,Uncontrolled Resource Consumption,2017-03-09
+195950,Internet Bug Bounty,Use of uninitialized memory in unserialize(),hackerone.com/reports/195950,3,0.0,Code Injection,2017-06-01
+196221,Instacart,XSS in instacart.com/store/partner_recipe,hackerone.com/reports/196221,15,100.0,Cross-site Scripting (XSS) - Generic,2017-05-11
+196222,Snapchat,RTLO char allowed in chat,hackerone.com/reports/196222,18,0.0,UI Redressing (Clickjacking),2017-02-28
+196300,U.S. Dept Of Defense,Blind SQLi in a DoD Website,hackerone.com/reports/196300,9,0.0,SQL Injection,2017-06-14
+196358,HackerOne,Report redaction doesn't apply to report title update activities,hackerone.com/reports/196358,27,0.0,Violation of Secure Design Principles,2017-02-25
+196380,shopify-scripts,SIGSEGV in mrb_vm_exec,hackerone.com/reports/196380,4,0.0,Memory Corruption - Generic,2017-03-01
+196386,shopify-scripts,SIGSEGV - mrb_vm_exec - vm.c in line:1272,hackerone.com/reports/196386,5,0.0,Uncontrolled Resource Consumption,2017-03-09
+196416,shopify-scripts,"Clearing , Shifting and Pop Value from Frozen Array  ",hackerone.com/reports/196416,12,0.0,Violation of Secure Design Principles,2017-08-30
+196448,U.S. Dept Of Defense,Local file inclusion vulnerability on a DoD website,hackerone.com/reports/196448,11,0.0,Privilege Escalation,2017-04-27
+196458,Shopify,apps.shopify.com - CSRF token leakage through Google Analytics,hackerone.com/reports/196458,48,0.0,Cross-Site Request Forgery (CSRF),2017-02-07
+196482,U.S. Dept Of Defense,Information disclosure vulnerability on a DoD website,hackerone.com/reports/196482,5,0.0,Information Disclosure,2017-04-27
+196498,shopify-scripts,Segmentation fault on program counter,hackerone.com/reports/196498,10,0.0,Memory Corruption - Generic,2017-02-05
+196624,Slack,dom xss in https://www.slackatwork.com,hackerone.com/reports/196624,12,0.0,Cross-site Scripting (XSS) - Generic,2017-03-02
+196655,HackerOne,Disclose any user's private email through API,hackerone.com/reports/196655,140,0.0,Information Disclosure,2017-02-24
+196819,shopify-scripts,Heap Buffer overflow in mrb_funcall_with_block,hackerone.com/reports/196819,5,800.0,Uncontrolled Resource Consumption,2017-02-27
+196833,CodeIgniter,Vulnerable Javascript library,hackerone.com/reports/196833,4,0.0,Violation of Secure Design Principles,2017-01-10
+196846,Starbucks,Open redirect / Reflected XSS payload in root that affects all your sites (store.starbucks.* / shop.starbucks.* / teavana.com),hackerone.com/reports/196846,18,0.0,Cross-site Scripting (XSS) - Generic,2017-06-14
+196878,Nextcloud,bug reporting template encourages users to paste config file with passwords,hackerone.com/reports/196878,10,0.0,Information Disclosure,2017-04-19
+196937,VK.com,Возможность смотреть видео рекомендации любого пользователя вконтакте,hackerone.com/reports/196937,7,0.0,,2017-03-29
+196969,ownCloud,bug reporting template encourages users to paste config file with passwords,hackerone.com/reports/196969,3,0.0,Information Disclosure,2017-04-21
+196989,FormAssembly,XSS on username when register to proffesional account,hackerone.com/reports/196989,5,0.0,Cross-site Scripting (XSS) - Generic,2017-04-26
+197055,U.S. Dept Of Defense,Information disclosure vulnerability on a DoD website,hackerone.com/reports/197055,5,0.0,Information Disclosure,2017-06-16
+197115,Yelp,Clickjacking @ Main Domain[www.yelp.com],hackerone.com/reports/197115,0,0.0,UI Redressing (Clickjacking),2017-11-09
+197153,Rockstar Games,Ability to post comments to a crew even after getting kicked out,hackerone.com/reports/197153,6,500.0,Violation of Secure Design Principles,2017-08-08
+197253,FormAssembly,formassembly.com is vulnerable to padding-oracle attacks.,hackerone.com/reports/197253,5,0.0,Cryptographic Issues - Generic,2017-03-17
+197279,Airbnb,[m.airbnb.com] CRLF Injection,hackerone.com/reports/197279,37,2500.0,HTTP Response Splitting,2018-04-03
+197334,Airbnb,[airbnb.com] XSS via Cookie flash,hackerone.com/reports/197334,17,0.0,Cross-site Scripting (XSS) - Generic,2018-04-03
+197337,Rockstar Games,[IMP] - Blind XSS in the admin panel for reviewing comments,hackerone.com/reports/197337,20,650.0,Cross-site Scripting (XSS) - Generic,2017-03-17
+197365,VK.com,SSRF через Share-ботов,hackerone.com/reports/197365,4,300.0,Server-Side Request Forgery (SSRF),2017-04-22
+197443,Discourse,XSS in topics because of bandcamp preview engine vulnerability,hackerone.com/reports/197443,15,0.0,Cross-site Scripting (XSS) - Generic,2017-01-20
+197489,Uber,Subdomain takeover at signup.uber.com,hackerone.com/reports/197489,79,0.0,Privilege Escalation,2019-01-25
+197585,Starbucks,Starbucks.com is reachable via ip address thus possible to link any doamin to Starbucks.,hackerone.com/reports/197585,9,0.0,Cryptographic Issues - Generic,2017-01-26
+197693,shopify-scripts,SIGSEGV - mrb_vm_exec - line:1681,hackerone.com/reports/197693,6,0.0,Uncontrolled Resource Consumption,2017-03-09
+197694,shopify-scripts,SIGSEGV - mrb_obj_extend - line:413,hackerone.com/reports/197694,8,0.0,Uncontrolled Resource Consumption,2017-03-09
+197719,shopify-scripts,Still heap overflow in mrb_ary_splice,hackerone.com/reports/197719,3,800.0,Uncontrolled Resource Consumption,2017-02-07
+197723,shopify-scripts,Null pointer dereference in mrb_str_modify,hackerone.com/reports/197723,4,0.0,Uncontrolled Resource Consumption,2017-02-07
+197754,U.S. Dept Of Defense,SQL Injection vulnerability in a DoD website,hackerone.com/reports/197754,2,0.0,SQL Injection,2017-08-15
+197755,U.S. Dept Of Defense,SQL injection found in US Navy Website (http://███/),hackerone.com/reports/197755,1,0.0,SQL Injection,2019-12-02
+197786,ownCloud,User Information Disclosure via REST API,hackerone.com/reports/197786,10,0.0,Information Disclosure,2017-04-19
+197789,ok.ru,[insideok.ru] Database Dump,hackerone.com/reports/197789,27,0.0,Improper Authentication - Generic,2018-04-25
+197877,Nextcloud,User Information Disclosure via REST API,hackerone.com/reports/197877,8,0.0,Information Disclosure,2017-02-11
+197878,Nextcloud,WordPress <= 4.6.1 Stored XSS Via Theme File,hackerone.com/reports/197878,12,0.0,Cross-site Scripting (XSS) - Generic,2017-01-13
+197880,Yelp,Nginx version disclosure via forbidden page,hackerone.com/reports/197880,1,0.0,Information Disclosure,2017-11-21
+197902,Discourse,Stored XSS in topics because of whitelisted_generic engine vulnerability,hackerone.com/reports/197902,13,0.0,Cross-site Scripting (XSS) - Generic,2017-01-20
+197907,U.S. Dept Of Defense,Misconfigured user account settings on DoD website,hackerone.com/reports/197907,4,0.0,Improper Authentication - Generic,2017-03-16
+197914,Discourse,Stored XSS in posts because of absence of oembed variables values escaping,hackerone.com/reports/197914,13,0.0,Cross-site Scripting (XSS) - Generic,2017-01-20
+197916,shopify-scripts,Crash in print_backtrace,hackerone.com/reports/197916,3,100.0,Uncontrolled Resource Consumption,2017-02-07
+197958,Ubiquiti Inc.,[EdgeSwitch] Web GUI command injection as root with Privilege-1 and Privilege-15 users,hackerone.com/reports/197958,27,0.0,Command Injection - Generic,2017-07-21
+197976,U.S. Dept Of Defense,Open FTP on ███,hackerone.com/reports/197976,7,0.0,Information Disclosure,2019-12-02
+198012,Nextcloud,Disclosure of administrators via JSON on nextcloud.com Wordpress,hackerone.com/reports/198012,12,0.0,Information Disclosure,2017-01-13
+198218,U.S. Dept Of Defense,HTML Injection on ████,hackerone.com/reports/198218,5,0.0,Cross-site Scripting (XSS) - Generic,2019-12-02
+198259,U.S. Dept Of Defense,Reflected XSS vulnerability on a DoD website,hackerone.com/reports/198259,3,0.0,Cross-site Scripting (XSS) - Generic,2017-07-05
+198292,Starbucks,Time-based Blind SQLi on news.starbucks.com,hackerone.com/reports/198292,35,0.0,SQL Injection,2017-02-24
+198452,shopify-scripts,SIGABRT - mrb_realloc_simple - gc.c - line:201,hackerone.com/reports/198452,4,0.0,Memory Corruption - Generic,2017-03-29
+198470,Starbucks,csrf blogs.starbucks.com,hackerone.com/reports/198470,5,0.0,Cross-Site Request Forgery (CSRF),2017-08-15
+198494,Starbucks,Lack of Controls Allowing for Card and PIN Enumeration Leading to Fraud,hackerone.com/reports/198494,18,0.0,,2017-07-01
+198622,X / xAI,Clickjacking Periscope.tv on Chrome,hackerone.com/reports/198622,11,560.0,UI Redressing (Clickjacking),2017-02-06
+198673,Nextcloud,HTTP-Basic Authentication on logs.nextcloud.com,hackerone.com/reports/198673,5,0.0,Violation of Secure Design Principles,2017-01-17
+198723,Internet Bug Bounty,Create an Unexpected Object and Don't Invoke __wakeup() in Deserialization,hackerone.com/reports/198723,4,0.0,,2019-10-13
+198732,Internet Bug Bounty,Use After Free in unserialize(),hackerone.com/reports/198732,4,0.0,Use After Free,2019-10-13
+198733,Internet Bug Bounty,Type Confusion in Object Deserialization,hackerone.com/reports/198733,3,0.0,Type Confusion,2019-10-13
+198734,Internet Bug Bounty,GMP Deserialization Type Confusion Vulnerability [MyBB <= 1.8.3 RCE Vulnerability],hackerone.com/reports/198734,68,0.0,Code Injection,2019-10-13
+198773,Nextcloud,Drone Nextcloud,hackerone.com/reports/198773,5,0.0,,2017-02-12
+198851,FormAssembly,XSS in api_v1,hackerone.com/reports/198851,7,0.0,Cross-site Scripting (XSS) - Generic,2018-01-04
+198907,VK.com,HTML Injection possible due to bad filter,hackerone.com/reports/198907,11,0.0,Cross-site Scripting (XSS) - Generic,2017-02-10
+198927,Ruby,Parsing invalid unicode codepoints using json c extension (2.0.1+) triggers a segfault,hackerone.com/reports/198927,4,0.0,Memory Corruption - Generic,2017-10-25
+199243,Brave Software,No user confirmation when an auto-updated extension gets more permissions,hackerone.com/reports/199243,3,0.0,Violation of Secure Design Principles,2017-01-20
+199286,Nextcloud,Group admin can remove user from all his groups via API,hackerone.com/reports/199286,10,0.0,,2017-02-23
+199436,Yelp,Yelp.com is vulnerable to SWEET32 attack,hackerone.com/reports/199436,2,0.0,Cryptographic Issues - Generic,2017-11-09
+199438,Legal Robot,SWEET32 TLS attack,hackerone.com/reports/199438,4,0.0,Cryptographic Issues - Generic,2017-02-01
+199445,Nextcloud,Nextcloud.com is vulnerable to SWEET32 attack,hackerone.com/reports/199445,2,0.0,Cryptographic Issues - Generic,2017-01-25
+199644,U.S. Dept Of Defense,Privilege Escalation on a DoD Website,hackerone.com/reports/199644,9,0.0,Privilege Escalation,2017-02-15
+199714,Nextcloud,Missing Rate Limit for Current Password field in nextcloud.com,hackerone.com/reports/199714,8,0.0,Improper Authentication - Generic,2017-05-20
+199764,shopify-scripts,Aborted - proc.c - line:143,hackerone.com/reports/199764,4,0.0,Uncontrolled Resource Consumption,2017-03-09
+199779,HackerOne,Google Analytics could be used as CSP bypass for data exfiltration on hackerone.com,hackerone.com/reports/199779,44,0.0,Violation of Secure Design Principles,2017-03-26
+199996,Ian Dunn,HTML injection-WordCamp Talks plugin,hackerone.com/reports/199996,5,0.0,Cross-site Scripting (XSS) - Generic,2017-10-16
+200034,Informatica,[marketplace.informatica.com] Search XSS,hackerone.com/reports/200034,5,0.0,Cross-site Scripting (XSS) - Generic,2017-05-22
+200079,U.S. Dept Of Defense,Critical information disclosure at https://█████████,hackerone.com/reports/200079,8,0.0,Information Disclosure,2019-12-02
+200125,U.S. Dept Of Defense,Information disclosure vulnerability on a DoD website,hackerone.com/reports/200125,7,0.0,Improper Authentication - Generic,2017-06-16
+200179,Uber,SMS URL verification link does not expire on phone number change and lacks rate limiting,hackerone.com/reports/200179,9,0.0,Improper Authentication - Generic,2018-12-19
+200351,Eternal,XSS in flashmediaelement.swf (business-blog.zomato.com),hackerone.com/reports/200351,4,0.0,Cross-site Scripting (XSS) - Generic,2017-06-17
+200355,Eternal,MailPoet Newsletters <= 2.7.2 - Authenticated Reflected Cross-Site Scripting (XSS),hackerone.com/reports/200355,4,0.0,Cross-site Scripting (XSS) - Generic,2017-06-17
+200387,shopify-scripts,Incorrect code generation with redo inside NODE_RESCUE.,hackerone.com/reports/200387,3,100.0,Uncontrolled Resource Consumption,2017-02-28
+200419,Pushwoosh,Clickjacking,hackerone.com/reports/200419,7,0.0,UI Redressing (Clickjacking),2017-02-02
+200427,Slack,Access of Android protected components via embedded intent,hackerone.com/reports/200427,31,0.0,Privilege Escalation,2017-07-17
+200623,U.S. Dept Of Defense,SQL injection vulnerability on a DoD website,hackerone.com/reports/200623,17,0.0,SQL Injection,2017-03-16
+200693,GitLab,[RDoc] XSS in project README files,hackerone.com/reports/200693,8,0.0,Cross-site Scripting (XSS) - Generic,2017-02-15
+200753,Ubiquiti Inc.,[nutty.ubnt.com] DOM Based XSS nuttyapp github-btn.html,hackerone.com/reports/200753,17,0.0,Cross-site Scripting (XSS) - Generic,2017-03-30
+200762,Nextcloud,Email Spoofing,hackerone.com/reports/200762,4,0.0,Violation of Secure Design Principles,2017-01-25
+200821,shopify-scripts, heap-use-after-free /home/operac/testafl/mruby/mrubylast/mruby/src/gc.c,hackerone.com/reports/200821,3,100.0,Memory Corruption - Generic,2017-02-07
+200826,Algolia,[github.algolia.com] DOM Based XSS github-btn.html,hackerone.com/reports/200826,15,100.0,Cross-site Scripting (XSS) - Generic,2017-03-31
+200909,Internet Bug Bounty,Out of bounds memory read in unserialize(),hackerone.com/reports/200909,6,500.0,Out-of-bounds Read,2017-05-28
+201152,Informatica,[ipm.informatica.com]- Broken Authentication,hackerone.com/reports/201152,10,0.0,Improper Authentication - Generic,2017-04-11
+201300,X / xAI,Attacker can get vine repost user all informations even Ip address and location .,hackerone.com/reports/201300,95,0.0,Improper Authentication - Generic,2017-03-25
+201326,Uber,"[uchat.uberinternals.com] Mattermost doesn't check Origin in Websockets, which leads to the Critical Inforamation Leakage.",hackerone.com/reports/201326,50,2000.0,Cross-Site Request Forgery (CSRF),2023-03-23
+201346,Internet Bug Bounty,CVE-2017-3730: Bad (EC)DHE parameters cause a client crash,hackerone.com/reports/201346,5,0.0,Uncontrolled Resource Consumption,2017-02-07
+201489,Nextcloud,Wordpress 4.7.1,hackerone.com/reports/201489,12,0.0,,2017-01-27
+201512,U.S. Dept Of Defense,SQL Injection vulnerability in a DoD website,hackerone.com/reports/201512,5,0.0,SQL Injection,2017-07-05
+201520,Eternal,test.zba.se is vulnerable to SSL POODLE  ,hackerone.com/reports/201520,15,0.0,Cryptographic Issues - Generic,2017-02-27
+201529,Ubiquiti Inc.,Can upload files without authentication on AirFibre 3.2,hackerone.com/reports/201529,4,0.0,Violation of Secure Design Principles,2017-05-17
+201796,Automattic,cloudup Subdomain Takeover That resolves to Desk.com ( CNAME cloudup.desk.com ) ,hackerone.com/reports/201796,38,0.0,Violation of Secure Design Principles,2017-02-02
+201848,Yelp,Click jacking in delete image of user in Yelp,hackerone.com/reports/201848,2,0.0,UI Redressing (Clickjacking),2017-11-09
+201855,Coinbase,Information disclosue in Android Application,hackerone.com/reports/201855,0,0.0,Uncontrolled Resource Consumption,2017-08-30
+201897,shopify-scripts,Recursion causing uninitialized memory reads leading to a segfault,hackerone.com/reports/201897,4,2000.0,Memory Corruption - Generic,2017-02-28
+201903,shopify-scripts,Segmentfault at mrb_vm_exec,hackerone.com/reports/201903,3,100.0,Uncontrolled Resource Consumption,2017-02-28
+201905,shopify-scripts,SIGSEGV - vm.c - line:1214,hackerone.com/reports/201905,5,0.0,Uncontrolled Resource Consumption,2017-03-29
+201984,Ubiquiti Inc.,Wordpress directories/files visible to internet,hackerone.com/reports/201984,18,0.0,Information Disclosure,2017-03-08
+202177,Instacart,Login with Google Not Authenticated on iOS App,hackerone.com/reports/202177,15,0.0,Improper Authentication - Generic,2017-05-21
+202354,Ubiquiti Inc.,Stored XSS / Bypassing .htaccess protection in http://nodebb.ubnt.com/,hackerone.com/reports/202354,9,0.0,Cross-site Scripting (XSS) - Generic,2017-09-28
+202361,Coinbase,Requestor Email Disclosure via Email Notification,hackerone.com/reports/202361,13,0.0,Information Disclosure,2017-02-02
+202362,shopify-scripts,Null pointer dereference in mrb_random_initialize,hackerone.com/reports/202362,5,100.0,Uncontrolled Resource Consumption,2017-02-07
+202425,Grab,Two-factor authentication bypass on Grab Android App,hackerone.com/reports/202425,45,0.0,Improper Authentication - Generic,2017-09-12
+202496,U.S. Dept Of Defense,Stored XSS vulnerability on a DoD website,hackerone.com/reports/202496,2,0.0,Cross-site Scripting (XSS) - Generic,2017-05-31
+202499,Phabricator,User with only Viewing Privilege can send message to Room,hackerone.com/reports/202499,14,300.0,Privilege Escalation,2017-02-01
+202582,shopify-scripts,Denial of service (segfault) due to null pointer dereference in mrb_obj_instance_eval,hackerone.com/reports/202582,3,0.0,Uncontrolled Resource Consumption,2017-02-28
+202584,shopify-scripts,Denial of service (segfault) due to null pointer dereference in mrb_vm_exec,hackerone.com/reports/202584,2,0.0,Uncontrolled Resource Consumption,2017-02-28
+202619,U.S. Dept Of Defense,SQL injection vulnerability on a DoD website,hackerone.com/reports/202619,5,0.0,SQL Injection,2017-07-05
+202652,U.S. Dept Of Defense,Remote command execution (RCE) vulnerability on a DoD website,hackerone.com/reports/202652,5,0.0,Code Injection,2017-03-16
+202725,Mapbox,Public access to objects in AWS S3 bucket,hackerone.com/reports/202725,22,750.0,Information Disclosure,2017-07-12
+202740,VK.com,Missing Server Side Rate Limiting can Lead to VK Account Take over ,hackerone.com/reports/202740,14,400.0,Violation of Secure Design Principles,2017-04-19
+202767,HackerOne,Subdomain takeover at info.hacker.one,hackerone.com/reports/202767,134,0.0,Privilege Escalation,2017-03-27
+202774,ExpressionEngine,Type Juggling -> PHP Object Injection -> SQL Injection Chain,hackerone.com/reports/202774,40,0.0,Cryptographic Issues - Generic,2017-02-07
+202781,Uber,Chained Bugs to Leak Victim's Uber's FB Oauth Token,hackerone.com/reports/202781,426,0.0,Improper Authentication - Generic,2019-01-25
+202797,WebSummit,found a vulnerability in your website,hackerone.com/reports/202797,7,0.0,,2017-03-10
+202808,U.S. Dept Of Defense,Cross-site request forgery (CSRF) vulnerability in a DoD website,hackerone.com/reports/202808,4,0.0,Cross-site Scripting (XSS) - Generic,2017-06-23
+202823,X / xAI,Vine all registered user Private/sensitive information disclosure .[ Ip address/phone no/email and many other informations ],hackerone.com/reports/202823,121,0.0,Information Disclosure,2017-07-11
+202921,Eternal,Unauthorised Access to Anyone's User Account,hackerone.com/reports/202921,32,0.0,Improper Authentication - Generic,2017-03-28
+202951,Informatica,[marketplace.informatica.com]- Stored XSS on Image title and Edit Property,hackerone.com/reports/202951,5,0.0,Cross-site Scripting (XSS) - Generic,2017-04-21
+202960,Internet Bug Bounty,CVE-2017-5204: The IPv6 parser in tcpdump before 4.9.0 has a buffer overflow in print-ip6.c:ip6_print(),hackerone.com/reports/202960,3,0.0,Memory Corruption - Generic,2019-10-08
+202965,Internet Bug Bounty,CVE-2017-5341 The OTV parser in tcpdump before 4.9.0 has a buffer overflow in print-otv.c:otv_print(),hackerone.com/reports/202965,5,0.0,Memory Corruption - Generic,2019-10-08
+202967,Internet Bug Bounty,CVE-2017-5484 The ATM parser in tcpdump before 4.9.0 has a buffer overflow in print-atm.c:sig_print(),hackerone.com/reports/202967,5,0.0,Memory Corruption - Generic,2019-10-08
+202968,Internet Bug Bounty,CVE-2017-5342 In tcpdump before 4.9.0 a bug in multiple protocol parsers could cause a buffer overflow in print-ether.c:ether_print(),hackerone.com/reports/202968,2,0.0,Memory Corruption - Generic,2019-10-08
+202969,Internet Bug Bounty,CVE-2017-5482 The Q.933 parser in tcpdump before 4.9.0 has a buffer overflow in print-fr.c:q933_print().,hackerone.com/reports/202969,2,0.0,Memory Corruption - Generic,2019-10-08
+203002,Internet Bug Bounty,Incorrect GC behavior in xxlimited could lead to use-after-free,hackerone.com/reports/203002,2,500.0,Memory Corruption - Generic,2019-11-12
+203060,U.S. Dept Of Defense,Cross-site scripting (XSS) on a DoD website,hackerone.com/reports/203060,4,0.0,Cross-site Scripting (XSS) - Generic,2017-08-15
+203088,Brave Software,Brave payments remembers history even after clearing all browser data.,hackerone.com/reports/203088,2,0.0,Information Disclosure,2017-08-10
+203241,Algolia,Reflected XSS,hackerone.com/reports/203241,14,0.0,Cross-site Scripting (XSS) - Generic,2017-02-11
+203311,U.S. Dept Of Defense,Bypass file access control vulnerability on a DoD website,hackerone.com/reports/203311,8,0.0,Improper Authentication - Generic,2017-04-07
+203384,Gratipay,HTTP trace method is enabled on gip.rocks,hackerone.com/reports/203384,5,0.0,Violation of Secure Design Principles,2017-04-08
+203388,Gratipay,Content length restriction bypass can lead to DOS by reading large files on gip.rocks,hackerone.com/reports/203388,11,0.0,Uncontrolled Resource Consumption,2017-03-31
+203391,Ubiquiti Inc.,Content Spoofing or Text Injection in (403 forbidden page injection) and Nginx version disclosure via response header,hackerone.com/reports/203391,8,0.0,Violation of Secure Design Principles,2017-04-03
+203409,Gratipay,HTTP trace method is enabled on aspen.io,hackerone.com/reports/203409,10,0.0,Violation of Secure Design Principles,2017-03-31
+203513,shopify-scripts,SIGSEGV - mrb_vm_exec - line:1312,hackerone.com/reports/203513,4,0.0,Uncontrolled Resource Consumption,2017-03-29
+203515,WordPress,Wordpress 4.7.2 - Two XSS in Media Upload when file too large.,hackerone.com/reports/203515,23,0.0,Cross-site Scripting (XSS) - Generic,2017-07-17
+203594,Nextcloud,Calendar and addressbook names disclosed (NC-SA-2017-012),hackerone.com/reports/203594,7,183.0,Information Disclosure,2017-05-08
+203595,shopify-scripts,forgot to add the patch,hackerone.com/reports/203595,3,0.0,Memory Corruption - Generic,2017-03-29
+203600,U.S. Dept Of Defense,Remote code execution vulnerability on a DoD website,hackerone.com/reports/203600,3,0.0,Code Injection,2017-06-23
+203614,Phabricator,"Enumerating emails through ""Forgot Password"" form",hackerone.com/reports/203614,5,0.0,Violation of Secure Design Principles,2017-02-06
+203658,Phabricator,Restricted file access when it exists in old versions of task or wiki document,hackerone.com/reports/203658,3,0.0,Violation of Secure Design Principles,2017-02-06
+203673,Ubiquiti Inc.,AirFibre products vulnerable to HTTP Header injection,hackerone.com/reports/203673,4,0.0,Improper Authentication - Generic,2017-05-17
+203726,Greenhouse.io,Open Redirect in <customer>.greenhouse.io,hackerone.com/reports/203726,9,0.0,Open Redirect,2017-07-08
+203912,Informatica,Stored XSS via Discussion Title and Send as Email attribute in [marketplace.informatica.com],hackerone.com/reports/203912,9,0.0,Cross-site Scripting (XSS) - Generic,2017-04-08
+204047,shopify-scripts,Segmentation fault while printing backtrace,hackerone.com/reports/204047,2,1000.0,Uncontrolled Resource Consumption,2017-03-14
+204048,U.S. Dept Of Defense,Illegal account registration in ████████,hackerone.com/reports/204048,3,0.0,Violation of Secure Design Principles,2019-12-02
+204052,Ubiquiti Inc.,Weak credentials for nutty.ubnt.com,hackerone.com/reports/204052,4,0.0,Improper Authentication - Generic,2017-03-29
+204198,Brave Software,Clickjacking or URL Masking ,hackerone.com/reports/204198,2,0.0,Improper Authentication - Generic,2017-08-10
+204237,Informatica,[informatica.com]- Cross Site scripting ,hackerone.com/reports/204237,10,0.0,Cross-site Scripting (XSS) - Generic,2017-10-30
+204239,Informatica,[informatica.com]- Information Disclosure ,hackerone.com/reports/204239,5,0.0,Information Disclosure,2018-09-05
+204292,Rockstar Games,<- Critical IDOR vulnerability in socialclub allow to insert and delete comments as another user and it discloses sensitive information ->,hackerone.com/reports/204292,39,0.0,Cross-Site Request Forgery (CSRF),2017-05-24
+204421,shopify-scripts,Heap buffer oveflow with many arguments,hackerone.com/reports/204421,12,800.0,Memory Corruption - Generic,2017-02-28
+204513,WordPress,Infrastructure - Photon - SSRF,hackerone.com/reports/204513,21,0.0,Server-Side Request Forgery (SSRF),2017-07-17
+204568,Uber,stack trace exposed on  https://receipts.uber.com/,hackerone.com/reports/204568,8,0.0,Information Disclosure,2021-02-25
+204628,shopify-scripts,segafult in mruby's sprintf - mrb_str_format,hackerone.com/reports/204628,3,0.0,Uncontrolled Resource Consumption,2017-02-28
+204774,shopify-scripts,A crash when an exception is caught in a caller and the receiver returned from `ensure`,hackerone.com/reports/204774,4,0.0,,2017-02-28
+204802,Uber,pam-ussh may be tricked into using another logged in user's ssh-agent,hackerone.com/reports/204802,23,0.0,Improper Authentication - Generic,2017-03-20
+204996,U.S. Dept Of Defense,Access to job creation web page on http://████████,hackerone.com/reports/204996,1,0.0,Violation of Secure Design Principles,2019-12-02
+205000,Grab,Authorization bypass using login by phone option+horizontal escalation possible on Grab Android App,hackerone.com/reports/205000,67,0.0,Improper Authentication - Generic,2017-09-14
+205034,Informatica,[wave.informatica.com]- Subdomain missconfiguration,hackerone.com/reports/205034,3,0.0,Violation of Secure Design Principles,2017-02-19
+205250,Nextcloud,Missing SPF Flags on nextcloud.com,hackerone.com/reports/205250,5,0.0,Violation of Secure Design Principles,2017-02-10
+205284,shopify-scripts,SIGABRT - method_missing - mark_context_stack,hackerone.com/reports/205284,5,0.0,Memory Corruption - Generic,2017-03-29
+205360,U.S. Dept Of Defense,Content-Injection/XSS ████,hackerone.com/reports/205360,1,0.0,Information Disclosure,2019-12-02
+205481,WordPress,Wordpress unzip_file path traversal,hackerone.com/reports/205481,119,0.0,Violation of Secure Design Principles,2020-01-29
+205497,GitLab,[reStructuredText] XSS in project README files,hackerone.com/reports/205497,7,0.0,Cross-site Scripting (XSS) - Generic,2017-02-15
+205498,GitLab,[Textile] XSS in project README files,hackerone.com/reports/205498,5,0.0,Cross-site Scripting (XSS) - Generic,2017-02-15
+205521,shopify-scripts,Heap Buffer overflow in mrb_ary_unshift,hackerone.com/reports/205521,3,800.0,Uncontrolled Resource Consumption,2017-02-28
+205536,shopify-scripts,Use After Free in mrb_vm_exec,hackerone.com/reports/205536,3,800.0,Uncontrolled Resource Consumption,2017-02-28
+205626,Coursera,XSS Stored,hackerone.com/reports/205626,28,0.0,Cross-site Scripting (XSS) - Generic,2018-01-12
+205884,shopify-scripts,Interger overflow in str_substr leading to read/write out of bound memory,hackerone.com/reports/205884,4,100.0,Uncontrolled Resource Consumption,2017-03-15
+205908,Nextcloud,LDAP login possible even though account doesn't match user filter,hackerone.com/reports/205908,5,0.0,Improper Authentication - Generic,2019-07-27
+205949,"OWOX, Inc.",Subdomain takeover in many subdomains,hackerone.com/reports/205949,9,0.0,Privilege Escalation,2017-03-24
+205953,Lyst,CSRF - Adding unlimited number of saved items via GET request,hackerone.com/reports/205953,19,150.0,Cross-Site Request Forgery (CSRF),2017-09-28
+206109,shopify-scripts,mruby heap use-after-free ,hackerone.com/reports/206109,3,0.0,Memory Corruption - Generic,2017-04-27
+206227,Imgur,Remote Code Execution on Git.imgur-dev.com ,hackerone.com/reports/206227,119,0.0,Code Injection,2017-04-16
+206239,shopify-scripts,Heap Buffer Overflow while processing OP_SEND,hackerone.com/reports/206239,4,800.0,Uncontrolled Resource Consumption,2017-04-03
+206319,Starbucks,Persistent CSRF in /GiftCert-AddToBasket prevents purchases on eCommerce sites,hackerone.com/reports/206319,22,0.0,Cross-Site Request Forgery (CSRF),2017-05-15
+206359,PortSwigger Web Security, Email Spoofing,hackerone.com/reports/206359,3,0.0,Violation of Secure Design Principles,2017-02-14
+206591,Uber,Open Redirect on central.uber.com allows for account takeover,hackerone.com/reports/206591,143,0.0,Improper Authentication - Generic,2019-01-25
+206650,Automattic,Broken Authentication - Security token gets captured via man in the middle attack,hackerone.com/reports/206650,67,0.0,Improper Authentication - Generic,2019-06-22
+206653,Automattic,Captcha bypass for the most important function - At en.instagram-brand.com,hackerone.com/reports/206653,64,0.0,,2019-06-22
+206872,Uber,SQL injection in 3rd party software Anomali,hackerone.com/reports/206872,61,2500.0,SQL Injection,2017-03-21
+206877,ownCloud,HTML injection in Desktop Client,hackerone.com/reports/206877,5,0.0,Cross-site Scripting (XSS) - Generic,2017-05-23
+206894,Lyst,SSRF at iris.lystit.com,hackerone.com/reports/206894,21,0.0,Server-Side Request Forgery (SSRF),2017-10-18
+207042,HackerOne,Stealing contact form data on www.hackerone.com using Marketo Forms XSS with postMessage frame-jumping and jQuery-JSONP,hackerone.com/reports/207042,153,0.0,Violation of Secure Design Principles,2017-08-29
+207053,Ruby,Writable RubyCi Amazon s3 bucket,hackerone.com/reports/207053,14,0.0,Improper Authentication - Generic,2017-02-27
+207062,VK.com,Воскрешение сессии после сброса сессий / смены пароля / принудительной смены пароля,hackerone.com/reports/207062,7,700.0,Improper Authentication - Generic,2017-12-31
+207099,U.S. Dept Of Defense,Insecure Direct Object Reference (IDOR) vulnerability in a DoD website,hackerone.com/reports/207099,8,0.0,Violation of Secure Design Principles,2017-08-15
+207170,Slack,Stealing xoxs-tokens using weak postMessage / call-popup redirect to current team domain,hackerone.com/reports/207170,120,0.0,Violation of Secure Design Principles,2017-02-28
+207236,U.S. Dept Of Defense,Potentially sensitive information disclosure on a DoD website,hackerone.com/reports/207236,3,0.0,Information Disclosure,2017-03-16
+207266,HackerOne,Information leakage via CSV when content is valid JavaScript,hackerone.com/reports/207266,29,0.0,Cross-Site Request Forgery (CSRF),2017-05-23
+207321,shopify-scripts,Controlled address leak due to type confusion - ASLR bypass,hackerone.com/reports/207321,3,0.0,Information Disclosure,2017-03-14
+207329,Lyst,Mixed Active content issue on https://www.lyst.com,hackerone.com/reports/207329,12,0.0,Violation of Secure Design Principles,2017-02-22
+207431,Yelp,One of yelp.com url is redirecting to domain which is not yet purchased,hackerone.com/reports/207431,0,0.0,Open Redirect,2017-11-09
+207435,Yelp,Research papers on yelp  are getting indexed by google bots.,hackerone.com/reports/207435,2,0.0,Information Disclosure,2017-11-09
+207457,Khan Academy, SSL/TLS Vulnerability at khanacademy.org,hackerone.com/reports/207457,3,0.0,Cryptographic Issues - Generic,2017-02-22
+207477,U.S. Dept Of Defense,SSRF in ███████,hackerone.com/reports/207477,10,0.0,Server-Side Request Forgery (SSRF),2019-12-02
+207552,Khan Academy,No Security check at changing password and at adding mobile number which leads to account takeover and spam,hackerone.com/reports/207552,5,0.0,Violation of Secure Design Principles,2017-02-21
+207576,Shopify,Subdomain takeover on s3.shopify.com,hackerone.com/reports/207576,13,500.0,Cross-site Scripting (XSS) - Generic,2017-02-27
+207695,Ubiquiti Inc.,sqli,hackerone.com/reports/207695,33,0.0,SQL Injection,2017-03-31
+207710,shopify-scripts,Heap use-after-free in mrb_vm_exec ,hackerone.com/reports/207710,2,0.0,Memory Corruption - Generic,2017-04-13
+207781,U.S. Dept Of Defense,Reflected XSS vulnerability in a DoD website ,hackerone.com/reports/207781,2,0.0,Cross-site Scripting (XSS) - Generic,2017-04-27
+207983,Internet Bug Bounty,read outside of buffer (heap buffer overflow) in S_regmatch - regexec.c:6057,hackerone.com/reports/207983,7,0.0,Heap Overflow,2017-05-28
+208363,shopify-scripts,Memory corrouption in mrb_gc_mark,hackerone.com/reports/208363,6,100.0,Memory Corruption - Generic,2017-04-17
+208407,HackerOne,Able to create basic user account via Google login on HackerOne Drupal CMS,hackerone.com/reports/208407,20,0.0,Improper Authentication - Generic,2017-04-25
+208480,Lyst,Site configured improperly at subdomain of lyst.co.uk,hackerone.com/reports/208480,19,100.0,Violation of Secure Design Principles,2017-03-29
+208481,U.S. Dept Of Defense,Remote file inclusion vulnerability on a DoD website,hackerone.com/reports/208481,6,0.0,Violation of Secure Design Principles,2017-04-27
+208526,shopify-scripts,Null pointer dereference in mark_context_stack,hackerone.com/reports/208526,2,800.0,Uncontrolled Resource Consumption,2017-03-14
+208556,U.S. Dept Of Defense,Cross-site scripting (XSS) vulnerability on a DoD website,hackerone.com/reports/208556,1,0.0,Cross-site Scripting (XSS) - Generic,2017-08-15
+208566,ownCloud,Outdated Jenkins server hosted at OwnCloud.org,hackerone.com/reports/208566,6,0.0,Information Disclosure,2017-03-30
+208622,Ubiquiti Inc.,Reflected cross-site scripting (XSS) vulnerability in scores.ubnt.com allows attackers to inject arbitrary web script via p parameter.,hackerone.com/reports/208622,9,0.0,Cross-site Scripting (XSS) - Generic,2017-04-07
+208654,VK.com,"Обход: ""Аудиозапись недоступна для прослушивания в Вашем регионе.""",hackerone.com/reports/208654,8,0.0,Privilege Escalation,2017-04-22
+208719,Udemy,Subdomain Takeover at Landing.udemy.com ,hackerone.com/reports/208719,9,0.0,Privilege Escalation,2017-03-30
+208734,Files.com,CSRF @ configuration ,hackerone.com/reports/208734,7,0.0,Cross-Site Request Forgery (CSRF),2017-05-27
+208834,Brave Software,Address bar spoofing in Brave browser via. window close warnings,hackerone.com/reports/208834,5,0.0,Violation of Secure Design Principles,2017-08-10
+208978,X / xAI,[URGENT] Opportunity to publish tweets on any twitters account,hackerone.com/reports/208978,119,0.0,,2017-05-22
+209004,HackerOne,Subdomain takeover #2  at info.hacker.one,hackerone.com/reports/209004,78,0.0,Privilege Escalation,2017-04-28
+209008,Automattic,Authentication Bypass - Chaining two vulnerabilities leads to account takeover at en.instagram-brand.com,hackerone.com/reports/209008,40,0.0,Improper Authentication - Generic,2019-06-22
+209140,HackerOne,Private program email forwarding response invitation not expire after first use.,hackerone.com/reports/209140,38,0.0,Violation of Secure Design Principles,2018-05-30
+209223,Ruby,Open S3 Bucket WriteAble To Any Aws User,hackerone.com/reports/209223,14,0.0,Improper Authentication - Generic,2017-03-29
+209251,Ruby,public report - Reproducible - Writable RubyCi Amazon s3 bucket[207053],hackerone.com/reports/209251,7,0.0,Improper Authentication - Generic,2017-03-29
+209352,Automattic,Cross Domain leakage of sensitive information - Leading to Account Takeover at Instagram Brand,hackerone.com/reports/209352,19,0.0,Improper Authentication - Generic,2019-06-22
+209449,shopify-scripts,Heap buffer overflow with long array assignment,hackerone.com/reports/209449,2,800.0,Uncontrolled Resource Consumption,2017-03-14
+209520,Nextcloud,http://www.nextcloud.com/wp-includes/js/swfupload/swfupload.swf allows open redirect / site defacement,hackerone.com/reports/209520,42,0.0,Open Redirect,2020-03-07
+209521,Greenhouse.io,Content Spoofing on link.greenhouse.io,hackerone.com/reports/209521,6,0.0,Violation of Secure Design Principles,2017-07-27
+209736,Starbucks,"DOM XSS on teavana.com via ""pr_zip_location"" parameter",hackerone.com/reports/209736,15,0.0,Cross-site Scripting (XSS) - Generic,2017-05-03
+209765,shopify-scripts,Heap buffer overflow in mruby value_move,hackerone.com/reports/209765,2,0.0,Memory Corruption - Generic,2017-04-13
+209821,Gratipay,URL Given leading to end users ending up in malicious sites,hackerone.com/reports/209821,2,0.0,Violation of Secure Design Principles,2017-03-01
+209860,Khan Academy,Rate Limitation Vulnerability (DDos),hackerone.com/reports/209860,2,0.0,Uncontrolled Resource Consumption,2018-04-17
+209917,HackerOne,javascript: and mailto: links are allowed in JIRA integration settings,hackerone.com/reports/209917,12,0.0,Violation of Secure Design Principles,2017-04-10
+209937,shopify-scripts,SIGSEGV - mark_context_stack,hackerone.com/reports/209937,7,0.0,Memory Corruption - Generic,2017-05-13
+209949,Ruby,Arbitrary heap exposure in JSON.generate,hackerone.com/reports/209949,9,0.0,Memory Corruption - Generic,2017-09-25
+210188,Ubiquiti Inc.,Subdomain takeover on https://cloudfront.ubnt.com/ due to non-used CloudFront DNS entry,hackerone.com/reports/210188,12,0.0,Improper Authentication - Generic,2017-05-07
+210190,HackerOne,Transitioning a Private Program to Public Does Not Clear Previously Private Updates to Hackers,hackerone.com/reports/210190,24,500.0,Information Disclosure,2017-04-05
+210238,Rockstar Games,full path disclosure on www.rockstargames.com via apache filename brute forcing,hackerone.com/reports/210238,48,0.0,Information Disclosure,2019-10-04
+210246,shopify-scripts,Invalid Pointer Reference from OP_RESCUE,hackerone.com/reports/210246,3,800.0,Uncontrolled Resource Consumption,2017-04-03
+210331,Rockstar Games,SSLv3 POODLE Vulnerability,hackerone.com/reports/210331,6,0.0,Violation of Secure Design Principles,2017-04-09
+210417,Rockstar Games,Bypass CAPTCHA protection,hackerone.com/reports/210417,50,0.0,Improper Authentication - Generic,2018-04-23
+210429,shopify-scripts,mrb_vm_exec - null ptr dereference,hackerone.com/reports/210429,5,0.0,Uncontrolled Resource Consumption,2017-04-13
+210525,U.S. Dept Of Defense,Information disclosure vulnerability on a DoD website,hackerone.com/reports/210525,4,0.0,Information Disclosure,2017-07-05
+210572,Rockstar Games,Full path Disclosure in Rockstargames.com██████████ ,hackerone.com/reports/210572,13,0.0,Information Disclosure,2017-04-28
+210654,Slack,Bypass to postMessage origin validation via FTP,hackerone.com/reports/210654,15,0.0,Cross-site Scripting (XSS) - Generic,2017-04-21
+210671,shopify-scripts,Null pointer dereferences from mrb_vm_exec,hackerone.com/reports/210671,5,800.0,Uncontrolled Resource Consumption,2017-04-16
+210741,Rockstar Games,Unserialize leading to arbitrary PHP function invoke,hackerone.com/reports/210741,118,0.0,Code Injection,2017-12-13
+210779,X / xAI,[Urgent] Invalidating OAuth2 Bearer token makes TweetDeck unavailable,hackerone.com/reports/210779,323,0.0,Uncontrolled Resource Consumption,2019-04-25
+210875,Rockstar Games,use of unsafe host header leads to open redirect,hackerone.com/reports/210875,23,0.0,Violation of Secure Design Principles,2017-05-01
+210994,Rockstar Games,Control Character Injection In Messages,hackerone.com/reports/210994,15,0.0,Improper Authentication - Generic,2017-05-23
+211021,shopify-scripts,Null pointer dereference in 'get_file',hackerone.com/reports/211021,3,800.0,Uncontrolled Resource Consumption,2017-04-03
+211065,GitLab,Gitlab.com is vulnerable to reverse tabnabbing.,hackerone.com/reports/211065,7,0.0,Open Redirect,2017-03-21
+211072,VK.com,"Написать от имени любого пользователя на его стене, если он перейдет по ссылке. https://vk.com/al_video.php",hackerone.com/reports/211072,15,200.0,Privilege Escalation,2017-06-17
+211149,Gratipay,Inadequate/dangerous jQuery behavior,hackerone.com/reports/211149,8,0.0,Violation of Secure Design Principles,2017-04-05
+211206,Nextcloud,Version 4.7.2 of wordpress is vulnerable,hackerone.com/reports/211206,5,0.0,,2017-03-07
+211213,Nextcloud,https://xmpp.nextcloud.com///;@www.google.com allows open redirect,hackerone.com/reports/211213,20,0.0,Open Redirect,2017-08-13
+211283,Legal Robot,Cross Site WebSocket Hijacking,hackerone.com/reports/211283,3,0.0,Improper Authentication - Generic,2017-10-16
