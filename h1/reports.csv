@@ -4496,3 +4496,300 @@ id,program,title,link,upvotes,bounty,vuln_type,date
 292783,Ed,Oauth flow on the comments widget login can lead to the access code leakage,hackerone.com/reports/292783,43,0.0,Improper Authentication - Generic,2017-11-24
 292797,Ruby on Rails,ActionController::Parameters .each returns an unsafe hash,hackerone.com/reports/292797,4,0.0,,2020-05-18
 292825,Ed,Possible to redirect to a (non-existing) subdomain after logging in via GitHub (leaking the token),hackerone.com/reports/292825,71,0.0,Open Redirect,2017-11-25
+292997,VK.com,"XSS работающая по всему сайту, где есть упоминания",hackerone.com/reports/292997,7,0.0,Cross-site Scripting (XSS) - Generic,2017-12-31
+293016,Unikrn,CSRF log victim into the attacker account,hackerone.com/reports/293016,17,0.0,Cross-Site Request Forgery (CSRF),2018-04-10
+293105,ok.ru,XSS в личных сообщениях,hackerone.com/reports/293105,40,0.0,,2018-01-13
+293126,Internet Bug Bounty,Multiple issues in Libxml2 (2.9.2 - 2.9.5),hackerone.com/reports/293126,2,0.0,Information Disclosure,2019-10-14
+293299,HackerOne,Validation message in Bounty award endpoint can be used to determine program balances,hackerone.com/reports/293299,73,0.0,Information Disclosure,2017-11-29
+293358,Uber,The Microsoft Store Uber App Does Not Implement Certificate Pinning,hackerone.com/reports/293358,7,0.0,Improper Certificate Validation,2017-12-24
+293359,Uber,"The Uber Promo Customer Endpoint Does Not Implement Multifactor Authentication, Blacklisting or Rate Limiting",hackerone.com/reports/293359,5,0.0,Improper Restriction of Authentication Attempts,2017-12-24
+293363,Uber,The Microsoft Store Uber App Does Not Implement Server-side Token Revocation,hackerone.com/reports/293363,3,0.0,Insufficient Session Expiration,2017-12-24
+293490,Eternal,[www.zomato.com] Leaking Email Addresses of merchants via reset password feature,hackerone.com/reports/293490,113,0.0,Improper Access Control - Generic,2021-02-18
+293581,VK.com,self-xss ads_easy_promote vk.com,hackerone.com/reports/293581,8,0.0,,2017-12-31
+293593,HackerOne,Able To Check The Exact Bounty Balance of any Bug Bounty Program,hackerone.com/reports/293593,27,0.0,Information Disclosure,2017-12-06
+293689,HackerOne,Query parameter reordering causes redirect page to render unsafe URL,hackerone.com/reports/293689,61,1500.0,Cross-site Scripting (XSS) - Reflected,2017-11-30
+293743,Automattic,[public-api.wordpress.com] Stored XSS via Crafted Developer App Description,hackerone.com/reports/293743,9,0.0,Cross-site Scripting (XSS) - Stored,2017-12-01
+294048,Ubiquiti Inc.,Stored XSS => community.ubnt.com ,hackerone.com/reports/294048,9,0.0,Cross-site Scripting (XSS) - Stored,2018-01-10
+294147,Internet Bug Bounty,Mercurial git subrepo lead to arbritary command injection,hackerone.com/reports/294147,9,0.0,Command Injection - Generic,2019-09-26
+294201,Semrush,subdomain takeover at news-static.semrush.com,hackerone.com/reports/294201,40,0.0,Improper Access Control - Generic,2018-01-10
+294334,VK.com,clickjacking в /lead_forms_app.php,hackerone.com/reports/294334,11,0.0,,2018-04-02
+294364,Tor,De-anonymization by visiting specially crafted bookmark.,hackerone.com/reports/294364,15,0.0,Information Disclosure,2018-07-03
+294462,Ruby,NET::Ftp allows command injection in filenames,hackerone.com/reports/294462,28,0.0,Command Injection - Generic,2017-12-19
+294505,Shopify,"Cross-site scripting in ""Contact customer"" form",hackerone.com/reports/294505,33,0.0,Cross-site Scripting (XSS) - Stored,2017-12-19
+294568,RBKmoney,Information Disclosure - Composer.lock,hackerone.com/reports/294568,3,0.0,Information Disclosure,2018-01-29
+294867,X / xAI,Improper Host Detection During Team Up  on tweetdeck.twitter.com,hackerone.com/reports/294867,19,0.0,,2018-01-04
+294891,PortSwigger Web Security,Improper Certificate Validation,hackerone.com/reports/294891,0,0.0,Improper Certificate Validation,2018-01-02
+294911,Mapbox,Admin Panel Accessed (OAuth Bypassed ) ,hackerone.com/reports/294911,132,4000.0,Command Injection - Generic,2017-12-21
+295276,shopify-scripts,heap-use-after-free in OP_RESCUE,hackerone.com/reports/295276,4,800.0,Use After Free,2018-01-17
+295330,WordPress,code.wordpress.net subdomain Takeover,hackerone.com/reports/295330,9,0.0,,2018-03-11
+295339,Internet Bug Bounty,Mailsploit: a sender spoofing bug in over 30 email clients,hackerone.com/reports/295339,29,0.0,User Interface (UI) Misrepresentation of Critical Information,2019-09-19
+295380,shopify-scripts,heap-buffer-overflow in OP_R_BREAK,hackerone.com/reports/295380,6,800.0,Heap Overflow,2018-01-17
+295680,shopify-scripts,Invalid read leading to a segfault,hackerone.com/reports/295680,5,800.0,Out-of-bounds Read,2017-12-28
+295740,Internet Bug Bounty,GarlicRust - heartbleed style vulnerability in major I2P C++ router implementations,hackerone.com/reports/295740,3,0.0,Buffer Over-read,2019-11-12
+295865,RBKmoney,Open Redirection on auth.rbk.money,hackerone.com/reports/295865,7,0.0,Open Redirect,2018-01-26
+295900,Infogram,New team invitation functionality allows extend team without upgrade,hackerone.com/reports/295900,6,0.0,Privilege Escalation,2017-12-11
+296094,Inflection,Reflected Cross-site Scripting Vulnerability via JSON Error Message,hackerone.com/reports/296094,7,0.0,Cross-site Scripting (XSS) - Reflected,2018-02-09
+296198,shopify-scripts,SEGV on ary_concat,hackerone.com/reports/296198,5,800.0,Memory Corruption - Generic,2018-01-17
+296254,Node.js third-party modules,[serve-here] Static Web Server Directory Traversal via Crafted GET Request,hackerone.com/reports/296254,4,0.0,Path Traversal,2018-01-10
+296282,Node.js third-party modules,[augustine] Static Web Server Directory Traversal via Crafted GET Request,hackerone.com/reports/296282,3,0.0,Path Traversal,2018-01-23
+296305,Node.js third-party modules,[featurebook] Specification Server Directory Traversal via Crafted Browser Request,hackerone.com/reports/296305,4,0.0,Path Traversal,2018-01-10
+296377,Node.js third-party modules,"[redis-commander] Reflected SWF XSS via vulnerable ""clipboard.swf"" component",hackerone.com/reports/296377,4,0.0,Cross-site Scripting (XSS) - Reflected,2018-01-23
+296622,VK.com,Blind XXE on pu.vk.com,hackerone.com/reports/296622,18,500.0,XML External Entities (XXE),2018-03-04
+296632,Weblate,Audit log validation,hackerone.com/reports/296632,4,0.0,Improper Neutralization of HTTP Headers for Scripting Syntax,2018-08-28
+296645,Node.js third-party modules,[lactate] Static Web Server Directory Traversal via Crafted GET Request,hackerone.com/reports/296645,3,0.0,Path Traversal,2018-01-23
+296701,Uber,SSL-protected Reflected XSS in m.uber.com,hackerone.com/reports/296701,3,0.0,Cross-site Scripting (XSS) - Reflected,2017-12-26
+296706,HackerOne,Open redirect deceive in hackerone.com via another open redirect link.,hackerone.com/reports/296706,7,0.0,Open Redirect,2017-12-13
+296907,GitLab,Lack of validation before assigning custom domain names leading to abuse of GitLab pages service,hackerone.com/reports/296907,2,0.0,Phishing,2018-02-01
+296991,Internet Bug Bounty,Exim use-after-free vulnerability while reading mail header involving BDAT commands,hackerone.com/reports/296991,6,0.0,Use After Free,2019-11-12
+296994,Internet Bug Bounty,Exim handles BDAT data incorrectly and leads to crash/hang,hackerone.com/reports/296994,3,0.0,Uncontrolled Resource Consumption,2019-11-12
+297181,HackerOne,Common response suggestion is sent to Google Analytics when user accepts duplicate comment Genius suggestion,hackerone.com/reports/297181,37,500.0,Violation of Secure Design Principles,2018-01-22
+297198,Deriv.com,Leaking Referrer in Reset Password Link,hackerone.com/reports/297198,14,50.0,Violation of Secure Design Principles,2018-03-06
+297203,Semrush,Reflected XSS using Header Injection,hackerone.com/reports/297203,25,0.0,Cross-site Scripting (XSS) - Reflected,2018-01-18
+297359,X / xAI,No Rate Limit in email leads to huge Mass mailings,hackerone.com/reports/297359,19,0.0,Business Logic Errors,2018-06-01
+297383,shopify-scripts,mruby heredoc notation,hackerone.com/reports/297383,4,0.0,Uncontrolled Resource Consumption,2018-01-10
+297434,Deconf,Unauthenticated Reflected XSS in admin dashboard,hackerone.com/reports/297434,13,0.0,Cross-site Scripting (XSS) - Reflected,2017-12-19
+297478,GSA Bounty,SQL injection in https://labs.data.gov/dashboard/datagov/csv_to_json via User-agent ,hackerone.com/reports/297478,699,0.0,SQL Injection,2019-03-22
+297534,Eternal,[www.zomato.com] Boolean SQLi - /█████.php,hackerone.com/reports/297534,41,1000.0,SQL Injection,2018-03-29
+297547,Automattic,Improper markup sanitisation in Simplenote Android application.,hackerone.com/reports/297547,16,0.0,UI Redressing (Clickjacking),2018-02-13
+297751,Nextcloud,Registered users can change app password permissions for any user,hackerone.com/reports/297751,18,100.0,Insecure Direct Object Reference (IDOR),2018-02-08
+297803,Unikrn,[crm.unikrn.com] Open Redirect,hackerone.com/reports/297803,50,0.0,Open Redirect,2020-04-05
+297968,X / xAI,Persistent DOM-based XSS in https://help.twitter.com via localStorage,hackerone.com/reports/297968,84,0.0,Cross-site Scripting (XSS) - Stored,2018-02-24
+298028,Inflection,Clickjacking on https://www.goodhire.com/api,hackerone.com/reports/298028,12,0.0,UI Redressing (Clickjacking),2018-05-10
+298176,GitLab,SQL injection in MilestoneFinder order method,hackerone.com/reports/298176,41,2000.0,SQL Injection,2018-04-27
+298218,WordPress,"antispambot does not always escape <, >, &, "" and '",hackerone.com/reports/298218,3,0.0,Cross-site Scripting (XSS) - Generic,2019-09-16
+298246,Ruby,controlled buffer under-read in pack_unpack_internal(),hackerone.com/reports/298246,12,0.0,Buffer Under-read,2018-03-30
+298265,HackerOne,HTTP Parameter Pollution using semicolons in iframe element at hackerone.com/careers allows loading external Greenhouse forms,hackerone.com/reports/298265,65,0.0,,2018-03-13
+298862,Uber,It's possible to view configuration and/or source code on uchat.awscorp.uberinternal.com without ,hackerone.com/reports/298862,7,0.0,Improper Authentication - Generic,2017-12-26
+298873,GitLab,Command injection by overwriting authorized_keys file through GitLab import,hackerone.com/reports/298873,50,2000.0,Command Injection - Generic,2018-04-27
+298888,Uber,Design Issue at riders.uber.com/profile,hackerone.com/reports/298888,1,0.0,Business Logic Errors,2017-12-28
+298990,Uber,Configuration and/or source code files on uchat-staging.uberinternal.com can be viewed without OneLogin SSO Authentication ,hackerone.com/reports/298990,6,0.0,Improper Authentication - Generic,2017-12-26
+299009,Semrush,Single Sing On - Clickjacking,hackerone.com/reports/299009,11,0.0,UI Redressing (Clickjacking),2018-02-21
+299034,RBKmoney,Text manipulation in https://checkout.rbk.money,hackerone.com/reports/299034,2,0.0,Code Injection,2018-01-29
+299112,WordPress,MediaElements XSS,hackerone.com/reports/299112,9,0.0,Cross-site Scripting (XSS) - Reflected,2018-02-15
+299241,Informatica,[marketplace.informatica.com] -  Template Injection,hackerone.com/reports/299241,12,0.0,Code Injection,2018-01-02
+299334,Mavenlink,Information disclosure when trying to delete an expense's attachment on m.mavenlink.com  ,hackerone.com/reports/299334,17,0.0,Information Disclosure,2018-01-20
+299403,HackerOne,Domain spoofing in redirect page using RTLO,hackerone.com/reports/299403,47,0.0,Open Redirect,2018-01-30
+299424,Shopify,Bypass Filter and get Stored Xss ,hackerone.com/reports/299424,34,3000.0,Cross-site Scripting (XSS) - Stored,2018-12-12
+299460,Ed,Fix for self-DoS in Security-txt Chrome Extension.,hackerone.com/reports/299460,10,0.0,Uncontrolled Resource Consumption,2017-12-19
+299473,GitLab,Evaluating Ruby code by injecting Rescue job on the system_hook_push queue through web hook,hackerone.com/reports/299473,35,750.0,Server-Side Request Forgery (SSRF),2018-04-27
+299728,HackerOne,Markdown parsing issue enables insertion of malicious tags and event handlers,hackerone.com/reports/299728,184,5000.0,Cross-site Scripting (XSS) - Stored,2018-01-29
+299835,GSA Bounty,Link poisoning on https://secure.login.gov/ login page,hackerone.com/reports/299835,60,150.0,Open Redirect,2019-03-25
+299924,RBKmoney,DOM-based Cross-Site Scripting in redirect url checkout,hackerone.com/reports/299924,8,0.0,Cross-site Scripting (XSS) - DOM,2018-02-07
+300080,Uber,SSL-protected Reflected XSS in https://m.uber.com/0-dfffb25d2cf6ceeb0a27.js Endpoint,hackerone.com/reports/300080,3,0.0,Cross-site Scripting (XSS) - Reflected,2017-12-26
+300081,Uber,SSL-protected Reflected XSS in https://m.uber.com/0-dfffb25d2cf6ceeb0a27.js Endpoint,hackerone.com/reports/300081,3,0.0,Cross-site Scripting (XSS) - Reflected,2017-12-26
+300099,Eternal,[www.zomato.com] Privilege Escalation - Control reviews - /████dashboard_handler.php,hackerone.com/reports/300099,18,300.0,Privilege Escalation,2018-03-29
+300101,Uber,lite:sess Query Parameter Can Generate SSL-protected Reflected XSS in https://m.uber.com/0-dfffb25d2cf6ceeb0a27.js Endpoint,hackerone.com/reports/300101,3,0.0,Cross-site Scripting (XSS) - Reflected,2017-12-26
+300102,Uber,muber-id Query Parameter Can Generate SSL-protected Reflected XSS in https://m.uber.com/0-dfffb25d2cf6ceeb0a27.js Endpoint,hackerone.com/reports/300102,5,0.0,Cross-site Scripting (XSS) - Reflected,2017-12-26
+300103,Uber,udi-id Query Parameter Can Generate SSL-protected Reflected XSS in https://m.uber.com/0-dfffb25d2cf6ceeb0a27.js Endpoint,hackerone.com/reports/300103,3,0.0,Cross-site Scripting (XSS) - Reflected,2017-12-26
+300164,Hiro,REDIRECTION VULNERABILITY/HOST HEADER INJECTION VULNERABILITY,hackerone.com/reports/300164,20,0.0,Open Redirect,2025-10-31
+300176,Eternal,[https://reviews.zomato.com] Time Based SQL Injection,hackerone.com/reports/300176,72,1000.0,SQL Injection,2018-02-02
+300179,Mavenlink,User uploaded portfolio files can be accessed by any user even after deleted,hackerone.com/reports/300179,43,0.0,Insecure Direct Object Reference (IDOR),2019-02-27
+300181,Brave Software,Torrent Viewer extension web service available on all interfaces,hackerone.com/reports/300181,9,0.0,Information Disclosure,2018-01-26
+300270,Automattic,Stored XSS in learnboost.com via the lesson[goals] parameter.,hackerone.com/reports/300270,21,0.0,Cross-site Scripting (XSS) - Stored,2018-04-22
+300301,Unikrn,"[unikrn.com] Profile updated with error"":true,""success"":false""",hackerone.com/reports/300301,4,0.0,,2019-06-12
+300305,Shopify,Ability to bypass partner email confirmation to take over any store given an employee email,hackerone.com/reports/300305,270,15250.0,Time-of-check Time-of-use (TOCTOU) Race Condition,2018-02-07
+300454,Eternal,[www.zomato.com] Privilege Escalation - /php/restaurant_menus_handler.php,hackerone.com/reports/300454,26,200.0,Privilege Escalation,2018-03-29
+300513,U.S. Dept Of Defense,WebLogic Server Side Request Forgery,hackerone.com/reports/300513,6,0.0,Server-Side Request Forgery (SSRF),2019-12-02
+300532,Concrete CMS,Stored XSS on Add Event in Calendar,hackerone.com/reports/300532,7,0.0,Cross-site Scripting (XSS) - Stored,2018-09-01
+300539,U.S. Dept Of Defense,SharePoint exposed web services,hackerone.com/reports/300539,7,0.0,Information Disclosure,2019-12-02
+300540,U.S. Dept Of Defense,SharePoint exposed web services,hackerone.com/reports/300540,6,0.0,Information Disclosure,2019-12-02
+300571,Concrete CMS,Stored XSS on Add Calendar,hackerone.com/reports/300571,7,0.0,Cross-site Scripting (XSS) - Stored,2018-09-01
+300622,VK.com,"Монипулирование на страницах пользоватлей значением ""Подсказывать стикеры в полях ввода""",hackerone.com/reports/300622,7,100.0,CRLF Injection,2018-02-09
+300748,Coinbase,Ethereum account balance manipulation,hackerone.com/reports/300748,276,0.0,Business Logic Errors,2018-03-21
+300779,Uber,Hack The World 2017 Top 2 Bonus,hackerone.com/reports/300779,61,5000.0,,2018-11-13
+300812,Automattic,Stored XSS in www.learnboost.com via ZIP codes.,hackerone.com/reports/300812,17,0.0,Cross-site Scripting (XSS) - Stored,2018-04-22
+300881,Mavenlink,Account members can re-add themselve after has been deleted by administrator,hackerone.com/reports/300881,14,0.0,Privilege Escalation,2018-05-03
+300999,VK.com,CSRF в m.vk.com,hackerone.com/reports/300999,13,100.0,Cross-Site Request Forgery (CSRF),2021-11-05
+301137,GitLab,GitHub import allows user to create child group under existing namespace,hackerone.com/reports/301137,14,750.0,Improper Access Control - Generic,2018-05-24
+301257,Eternal,[www.zomato.com] Boolean SQLi - /███████.php,hackerone.com/reports/301257,35,1000.0,SQL Injection,2018-03-29
+301406,Ubiquiti Inc.,Unrestricted File System Access via Twig Template Injection on dev-ucrm-billing-demo.ubnt.com,hackerone.com/reports/301406,47,0.0,,2018-03-07
+301432,GitLab,GitLab CI runner can read and poison cache of all other projects,hackerone.com/reports/301432,43,2000.0,Path Traversal,2018-04-27
+301458,Automattic,Remote Code Execution in Wordpress Desktop,hackerone.com/reports/301458,10,0.0,Code Injection,2018-04-14
+301526,HackerOne,Invitation token leaks to https://bat.bing.com,hackerone.com/reports/301526,36,0.0,Information Disclosure,2018-01-11
+301572,VK.com,"Просмотр части номера телефона и отправка на него SMS, всего раз скомпроментировав аккаунт",hackerone.com/reports/301572,8,100.0,Business Logic Errors,2018-04-06
+301586,VK.com,CSRF на установку своей почты к аккаунту.,hackerone.com/reports/301586,23,0.0,Cross-Site Request Forgery (CSRF),2021-05-23
+301592,Concrete CMS,Host Header Injection allow HiJack Password Reset Link,hackerone.com/reports/301592,1,0.0,,2018-01-12
+301631,VK.com,"CSRF на ""ловлю гостей"" и раскрытие аудиотрансляции в частной группе",hackerone.com/reports/301631,7,100.0,Cross-Site Request Forgery (CSRF),2018-04-26
+301812,Snapchat,Bitmoji source code is accessible,hackerone.com/reports/301812,91,1000.0,Information Exposure Through Directory Listing,2021-07-31
+301831,Starbucks,"Leaking sensitive files on Github leads to internal files (python scripts,SQL files)",hackerone.com/reports/301831,73,0.0,Information Disclosure,2018-05-17
+301862,HackerOne,Path traversal leading to limited CSRF on GET requests on two endpoints,hackerone.com/reports/301862,41,0.0,,2019-04-05
+301919,Mavenlink,CSRF Add user templates,hackerone.com/reports/301919,18,0.0,Cross-Site Request Forgery (CSRF),2019-02-27
+301924,GitLab,SSRF vulnerability in gitlab.com webhook,hackerone.com/reports/301924,10,0.0,Server-Side Request Forgery (SSRF),2018-04-30
+301973,Paragon Initiative Enterprises,Airship: Persistent XSS via Comment,hackerone.com/reports/301973,4,0.0,Cross-site Scripting (XSS) - Stored,2018-04-24
+302253,ok.ru,Очень жесткая XSS в личных сообщениях m.ok.ru,hackerone.com/reports/302253,40,0.0,Cross-site Scripting (XSS) - Stored,2018-06-30
+302298,Ruby,Unintentional file creation caused at Tempfile with directory traversal,hackerone.com/reports/302298,15,0.0,Improper Access Control - Generic,2018-04-01
+302338,Ruby,The possibility that unintended file operation may be performed because some methods of `Dir` do not check NULL characters.,hackerone.com/reports/302338,13,0.0,Improper Access Control - Generic,2018-04-01
+302620,HackerOne,Partial disclosure of undisclosed programs through <meta> tags,hackerone.com/reports/302620,6,0.0,Information Disclosure,2018-01-11
+302651,PortSwigger Web Security,Leak of Platform Authentication credentials via Repeater,hackerone.com/reports/302651,15,200.0,Information Disclosure,2018-06-13
+302731,Mavenlink,Users email can be changed without verification,hackerone.com/reports/302731,17,0.0,Business Logic Errors,2018-04-27
+302885,HackerOne,ImageMagick GIF coder vulnerability leading to memory disclosure,hackerone.com/reports/302885,44,500.0,Information Disclosure,2018-02-07
+302997,Ruby,Unix domain socket and a path containing a null character,hackerone.com/reports/302997,17,0.0,Improper Access Control - Generic,2018-03-31
+303062,VK.com,Раскрытие названия частной группы через старый бокс просмотра фото.,hackerone.com/reports/303062,15,100.0,Information Disclosure,2021-12-01
+303299,HackerOne,Missing Password Confirmation at a Critical Function (Payout Method),hackerone.com/reports/303299,10,0.0,Violation of Secure Design Principles,2018-01-10
+303322,Coursera,[www.coursera.org] Leaking password reset link on referrer header,hackerone.com/reports/303322,9,0.0,Violation of Secure Design Principles,2018-02-14
+303390,Monero,"remote access to localhost daemon, can issue jsonrpc commands",hackerone.com/reports/303390,9,0.0,Cross-Site Request Forgery (CSRF),2018-02-22
+303480,Deconf,Reflected XSS in admin settings,hackerone.com/reports/303480,1,0.0,Cross-site Scripting (XSS) - Reflected,2018-02-24
+303522,Eternal,Zomato.com Reflected Cross Site Scripting,hackerone.com/reports/303522,13,100.0,Cross-site Scripting (XSS) - Reflected,2018-04-08
+303632,Node.js third-party modules,Fastify denial-of-service vulnerability with large JSON payloads,hackerone.com/reports/303632,25,0.0,Uncontrolled Resource Consumption,2018-01-25
+303730,GSA Bounty,Defacement of catalog.data.gov via web cache poisoning to stored DOMXSS,hackerone.com/reports/303730,93,750.0,Cross-site Scripting (XSS) - Stored,2018-11-01
+304073,Hiro,Missing restriction on string size of Full Name at browser.blockstack.org,hackerone.com/reports/304073,12,0.0,,2025-10-31
+304115,Ruby,Integer Underflow @ ossl_cipher_pkcs5_keyivgen ,hackerone.com/reports/304115,0,0.0,Integer Underflow,2018-02-23
+304175,Ubiquiti Inc.,Reflected XSS,hackerone.com/reports/304175,16,0.0,Cross-site Scripting (XSS) - Reflected,2018-09-25
+304190,Uber,ubernycmarketplace.com is vulnerable to the Heartbleed Bug,hackerone.com/reports/304190,112,1500.0,Information Disclosure,2020-04-23
+304240,Grab,Unrestricted access to Eureka server on ██████,hackerone.com/reports/304240,17,500.0,Improper Access Control - Generic,2018-02-06
+304378,Internet Bug Bounty,ACME TLS-SNI-01/02 challenge vulnerable when combined with shared hosting providers,hackerone.com/reports/304378,35,0.0,Privilege Escalation,2018-05-19
+304386,Grab,Unrestricted access to https://██████.█████myteksi.net/,hackerone.com/reports/304386,23,250.0,Improper Access Control - Generic,2018-02-12
+304642,Concrete CMS,Administrators can add other administrators,hackerone.com/reports/304642,2,0.0,Privilege Escalation,2020-05-11
+304770,Monero,Corrupt RPC responses from remote daemon nodes can lead to transaction tracing,hackerone.com/reports/304770,13,0.0,Privacy Violation,2018-03-16
+305128,Yelp,ClickJacking on IMPORTANT Functions of Yelp,hackerone.com/reports/305128,5,0.0,UI Redressing (Clickjacking),2020-08-21
+305518,Slack,Information leakage and default open port,hackerone.com/reports/305518,41,0.0,,2019-06-22
+305972,Internet Bug Bounty,Potential infinite loop in gdImageCreateFromGifCtx!,hackerone.com/reports/305972,8,500.0,Uncontrolled Resource Consumption,2019-11-12
+305973,Internet Bug Bounty,Inappropriately parsing HTTP response leads to PHP segment fault!,hackerone.com/reports/305973,6,500.0,NULL Pointer Dereference,2019-11-12
+306733,HackerOne,Submitted reports state logs leakage,hackerone.com/reports/306733,16,0.0,Information Disclosure,2018-01-19
+307050,Grab,Leak ██████████ information in real time through API request,hackerone.com/reports/307050,103,3000.0,Improper Authentication - Generic,2018-02-03
+307239,Coinbase,Double Payout via PayPal,hackerone.com/reports/307239,320,10000.0,Business Logic Errors,2018-04-04
+307424,HackerOne,While adding a payment method - Notification email not sent to newly added email ID as well as there is no verification for new email id (Paypal),hackerone.com/reports/307424,10,0.0,Violation of Secure Design Principles,2018-01-23
+307666,Node.js third-party modules,[serve] Directory index of arbitrary folder available due to lack of sanitization of %2e and %2f characters in url,hackerone.com/reports/307666,10,0.0,Path Traversal,2018-01-23
+307808,Ruby on Rails,Path Traversal on Default Installed Rails Application (Asset Pipeline),hackerone.com/reports/307808,38,1500.0,Path Traversal,2018-07-19
+308156,Nextcloud,Email Notification should be get while changing password on apps.nextcloud.com,hackerone.com/reports/308156,7,0.0,,2018-02-28
+308158,Node.js third-party modules,[html-janitor] Bypassing sanitization using DOM clobbering,hackerone.com/reports/308158,11,0.0,Business Logic Errors,2018-02-05
+308355,VK.com,Opcode Cache,hackerone.com/reports/308355,11,0.0,Information Disclosure,2018-02-22
+308394,Khan Academy,CSRF token fixation and potential account takeover,hackerone.com/reports/308394,8,0.0,Violation of Secure Design Principles,2018-04-19
+308610,Valve,Read Access to all comments on unauthorized forums' discussions! IDOR! ,hackerone.com/reports/308610,33,500.0,Insecure Direct Object Reference (IDOR),2018-05-09
+308721,Node.js third-party modules,[serve] Directory listing and File access even when they have been set to be ignored.,hackerone.com/reports/308721,15,0.0,Information Exposure Through Directory Listing,2018-03-13
+309058,WordPress,Open Redirect on the nl.wordpress.net,hackerone.com/reports/309058,14,0.0,Open Redirect,2018-02-22
+309367,Node.js third-party modules,[metascraper] Stored XSS in Open Graph meta properties read by metascrapper,hackerone.com/reports/309367,7,0.0,Cross-site Scripting (XSS) - Stored,2018-03-28
+309531,Rockstar Games,Stored XSS in Snapmatic + R★Editor comments,hackerone.com/reports/309531,118,0.0,Cross-site Scripting (XSS) - Stored,2018-04-19
+309537,VK.com,Backup Source Code Detected,hackerone.com/reports/309537,10,0.0,Information Disclosure,2018-02-24
+309594,VK.com,error,hackerone.com/reports/309594,10,0.0,Information Disclosure,2018-02-24
+309714,WordPress,[support.wordcamp.org] - publicly accessible .svn repository,hackerone.com/reports/309714,12,0.0,Improper Access Control - Generic,2018-02-01
+310031,U.S. Dept Of Defense,SQL injection on █████ due to tech.cfm ,hackerone.com/reports/310031,12,0.0,SQL Injection,2019-10-08
+310036,U.S. Dept Of Defense,SSRF vulnerability on ██████████ leaks internal IP and various sensitive information,hackerone.com/reports/310036,30,0.0,Server-Side Request Forgery (SSRF),2019-12-02
+310106,Node.js third-party modules,[glance] Path Traversal in glance static file server allows to read content of arbitrary file,hackerone.com/reports/310106,7,0.0,Path Traversal,2018-03-04
+310133,Node.js third-party modules,[glance] Stored XSS via file name allows to run arbitrary JavaScript when directory listing is displayed in browser,hackerone.com/reports/310133,4,0.0,Cross-site Scripting (XSS) - Stored,2018-04-15
+310185,GitLab,"Removing a user from a private group doesn't remove him from group's project, if his project's role was changed",hackerone.com/reports/310185,14,0.0,Improper Access Control - Generic,2019-04-05
+310280,MapsMarker.com e.U.,[Informational] Possible SQL Injection in inc/ajax-actions-frontend.php,hackerone.com/reports/310280,15,0.0,SQL Injection,2018-06-17
+310339,ok.ru,Хранимая XSS в личных сообщениях новое место,hackerone.com/reports/310339,15,0.0,,2019-12-02
+310439,Node.js third-party modules,Prototype pollution attack (Hoek),hackerone.com/reports/310439,4,0.0,Uncontrolled Resource Consumption,2018-02-13
+310443,Node.js third-party modules,Prototype pollution attack (lodash),hackerone.com/reports/310443,11,0.0,Uncontrolled Resource Consumption,2018-02-13
+310446,Node.js third-party modules,Prototype pollution attack (deap),hackerone.com/reports/310446,2,0.0,,2018-04-15
+310514,Node.js third-party modules,Prototype pollution attack (defaults-deep),hackerone.com/reports/310514,3,0.0,Uncontrolled Resource Consumption,2018-02-15
+310690,Node.js third-party modules,[crud-file-server] Path Traversal allows to read arbitrary file from the server,hackerone.com/reports/310690,8,0.0,Path Traversal,2018-04-03
+310706,Node.js third-party modules,Prototype pollution attack (merge-objects),hackerone.com/reports/310706,1,0.0,,2018-04-15
+310707,Node.js third-party modules,Prototype pollution attack (assign-deep),hackerone.com/reports/310707,4,0.0,Uncontrolled Resource Consumption,2018-02-15
+310943,Node.js third-party modules,[general-file-server] Path Traversal vulnerability allows to read content on arbitrary file on the server,hackerone.com/reports/310943,9,0.0,Path Traversal,2018-03-10
+310946,HackerOne,"The request tells the number of private programs, the new system of authorization /invite/token",hackerone.com/reports/310946,71,2000.0,Information Disclosure,2018-02-14
+311058,Informatica,[http://www.informatica.com]- info disclosure,hackerone.com/reports/311058,9,0.0,Information Disclosure,2018-02-26
+311101,Node.js third-party modules,[crud-file-server] Stored XSS in filenames when directory index is served by crud-file-server,hackerone.com/reports/311101,4,0.0,Cross-site Scripting (XSS) - Stored,2018-02-17
+311218,Node.js third-party modules,[hekto] Path Traversal vulnerability allows to read content of arbitrary files,hackerone.com/reports/311218,12,0.0,Path Traversal,2018-02-26
+311236,Node.js third-party modules,Prototype pollution attack (mixin-deep),hackerone.com/reports/311236,4,0.0,Uncontrolled Resource Consumption,2018-02-15
+311244,Node.js third-party modules,[query-mysql] SQL Injection due to lack of user input sanitization allows to run arbitrary SQL queries when fetching data from database,hackerone.com/reports/311244,14,0.0,SQL Injection,2018-05-19
+311289,GSA Bounty,CI for [example.gov] can be logged in and accessible,hackerone.com/reports/311289,49,2000.0,Improper Access Control - Generic,2018-02-07
+311326,X / xAI,"ms5 debug page exposing internal info (internal IPs, headers)",hackerone.com/reports/311326,19,280.0,Information Exposure Through Debug Information,2018-05-11
+311333,Node.js third-party modules,Prototype pollution attack (deep-extend),hackerone.com/reports/311333,4,0.0,,2018-04-15
+311336,Node.js third-party modules,Prototype pollution attack (merge-options),hackerone.com/reports/311336,1,0.0,,2018-04-15
+311337,Node.js third-party modules,Prototype pollution attack (merge-recursive),hackerone.com/reports/311337,1,0.0,,2018-04-15
+311449,HackerOne,Reputation gain split by company can be used to track the existence of otherwise undisclosed reports,hackerone.com/reports/311449,4,0.0,Information Disclosure,2018-02-02
+311639,Eternal,Reflected XSS on https://www.zomato.com,hackerone.com/reports/311639,14,0.0,Cross-site Scripting (XSS) - Reflected,2018-04-07
+311884,Ubiquiti Inc.,Format String Vulnerability in the EdgeSwitch restricted CLI,hackerone.com/reports/311884,7,0.0,Use of Externally-Controlled Format String,2018-06-19
+311913,VK.com,Reflected XSS в m.vk.com,hackerone.com/reports/311913,21,500.0,,2021-11-05
+311922,U.S. Dept Of Defense, SQL injection ,hackerone.com/reports/311922,29,0.0,SQL Injection,2018-04-17
+312292,Informatica,[https://life.informatica.com] - information disclose ,hackerone.com/reports/312292,4,0.0,Information Disclosure,2019-07-12
+312647,Discourse,Gaining access to private topics using quoting feature,hackerone.com/reports/312647,19,256.0,Improper Access Control - Generic,2018-03-17
+312918,Node.js third-party modules,[public] Path Traversal allows to read content of arbitrary files,hackerone.com/reports/312918,4,0.0,Path Traversal,2018-02-17
+313037,U.S. Dept Of Defense,Blind SQL injection on ████████,hackerone.com/reports/313037,15,0.0,SQL Injection,2019-10-08
+313050,Eternal,IDOR in treat subscriptions,hackerone.com/reports/313050,11,0.0,Insecure Direct Object Reference (IDOR),2018-04-25
+313075,HackerOne,Information Disclosure which violate program privacy,hackerone.com/reports/313075,5,0.0,Privacy Violation,2018-02-20
+313245,Ubiquiti Inc.,Code Execution in restricted CLI of EdgeSwitch,hackerone.com/reports/313245,8,0.0,Command Injection - Generic,2018-06-19
+313250,Valve,Xss was found by exploiting the URL markdown on http://store.steampowered.com,hackerone.com/reports/313250,30,1000.0,Cross-site Scripting (XSS) - DOM,2018-05-09
+313457,Snapchat,Publicly accessible Continuous Integration Tool,hackerone.com/reports/313457,562,0.0,Improper Access Control - Generic,2021-07-29
+315037,Node.js third-party modules,Media parsing in canvas is at least vulnerable to Denial of Service through multiple vulnerabilities,hackerone.com/reports/315037,0,0.0,Classic Buffer Overflow,2019-04-03
+315205,Greenhouse.io,Debug information disclosure on oauth-redirector.services.greenhouse.io,hackerone.com/reports/315205,34,0.0,Information Exposure Through Debug Information,2020-02-29
+315256,Valve,ImageMagick GIF coder vulnerability leading to memory disclosure,hackerone.com/reports/315256,85,0.0,Information Disclosure,2018-07-02
+315512,"Coalition, Inc.",No authentication on email address for password reset functionality/ https://platform.thecoalition.com/forgot-password,hackerone.com/reports/315512,6,0.0,Improper Authentication - Generic,2018-05-03
+315760,Node.js third-party modules,Path Traversal on Resolve-Path,hackerone.com/reports/315760,7,0.0,Path Traversal,2018-02-22
+315773,Node.js third-party modules,Remote Command Execution vulnerability in pullit,hackerone.com/reports/315773,7,0.0,Command Injection - Generic,2018-06-14
+315838,"Coalition, Inc.",Non-Cloudflare IPs allowed to access origin servers,hackerone.com/reports/315838,26,0.0,Violation of Secure Design Principles,2018-05-28
+315865,Coinbase,Stored CSS Injection,hackerone.com/reports/315865,15,0.0,Resource Injection,2018-04-02
+315879,Starbucks,Able to reset other user's password in https://card.starbucks.com.sg/,hackerone.com/reports/315879,18,0.0,Improper Authentication - Generic,2018-07-23
+315906,X / xAI,CVE-2017-15277 on Profile page,hackerone.com/reports/315906,23,0.0,Information Disclosure,2018-03-08
+316078,VK.com,"Обходим 2FA и/или получаем access_token, если мы когда-либо были на аккаунте жертвы",hackerone.com/reports/316078,11,300.0,Improper Authentication - Generic,2019-07-04
+316290,Coinbase,Prepopulation of email address and name leaks information provided to other merchants,hackerone.com/reports/316290,16,0.0,UI Redressing (Clickjacking),2018-04-02
+316319,Semrush,XSS on redirection page( Bypassed) ,hackerone.com/reports/316319,15,0.0,Cross-site Scripting (XSS) - Reflected,2018-06-13
+316346,Node.js third-party modules,[public] Stored XSS in filenames in directory served by public,hackerone.com/reports/316346,5,0.0,Cross-site Scripting (XSS) - Stored,2018-04-15
+316475,VK.com,Reflected xss в m.vk.com/chatjoin,hackerone.com/reports/316475,36,500.0,Cross-site Scripting (XSS) - Reflected,2021-11-05
+316789,Starbucks,Able to purchase a gift card with any amount,hackerone.com/reports/316789,41,0.0,Insecure Direct Object Reference (IDOR),2018-07-20
+316810,HackerOne,Can read features from any user,hackerone.com/reports/316810,28,250.0,Information Disclosure,2018-03-12
+316948,Rockstar Games,SocialClub's Facebook OAuth Theft through Warehouse XSS.,hackerone.com/reports/316948,17,0.0,Cross-Site Request Forgery (CSRF),2018-04-23
+317125,Node.js third-party modules,[bracket-template] Reflected XSS possible when variable passed via GET parameter is used in template,hackerone.com/reports/317125,9,0.0,Cross-site Scripting (XSS) - Reflected,2018-04-09
+317201,vulners.com,[vulners.com] nginx alias_traversal,hackerone.com/reports/317201,14,0.0,Information Disclosure,2018-05-03
+317321,RubyGems,Delete directory using symlink when decompressing tar,hackerone.com/reports/317321,35,500.0,Path Traversal,2019-04-11
+317332,Vend VDP,Improper access control on adding a Register to an Outlet,hackerone.com/reports/317332,19,0.0,Insecure Direct Object Reference (IDOR),2018-05-02
+317388,Uber,Delay of arrears notification allows Riders to take multiple rides without paying,hackerone.com/reports/317388,11,0.0,Business Logic Errors,2018-11-13
+317476,X / xAI,Account Takeover in Periscope TV,hackerone.com/reports/317476,212,0.0,Cross-site Scripting (XSS) - Generic,2018-09-06
+317543,HackerOne,Unicorn worker pool exhaustion by continuously updating payout preferences,hackerone.com/reports/317543,25,0.0,Uncontrolled Resource Consumption,2018-03-30
+317548,Node.js third-party modules,Regular Expression Denial of Service (ReDoS),hackerone.com/reports/317548,2,0.0,Uncontrolled Resource Consumption,2019-04-03
+317931,Brave Software,Bypassing Homograph Attack Using /@ [ Tested On Windows ],hackerone.com/reports/317931,15,0.0,Violation of Secure Design Principles,2018-02-23
+317985,VK.com,Просмотр приватных видео записей у Пользователей,hackerone.com/reports/317985,34,300.0,Information Disclosure,2018-07-06
+318099,Grab,Registration enabled on ███grab.com,hackerone.com/reports/318099,32,0.0,Information Disclosure,2018-02-28
+318399,HackerOne,Program profile_metrics.json contains time to triage for deptofdefense even it's turned off,hackerone.com/reports/318399,27,250.0,Information Disclosure,2018-03-09
+319003,Node.js third-party modules,[stattic] Inproper path validation leads to Path Traversal and allows to read arbitrary files with any extension(s),hackerone.com/reports/319003,7,0.0,Path Traversal,2018-03-06
+319036,Brave Software,There is vulnebility Click Here TO fix,hackerone.com/reports/319036,8,0.0,Improper Restriction of Authentication Attempts,2019-02-19
+319279,Khan Academy,[critical] sql injection by GET method,hackerone.com/reports/319279,22,0.0,SQL Injection,2018-03-06
+319465,Node.js third-party modules,"`sql` does not properly escape parameters when building SQL queries, resulting in potential SQLi",hackerone.com/reports/319465,2,0.0,SQL Injection,2018-05-12
+319467,Node.js third-party modules,`macaddress` concatenates unsanitized input into exec() command,hackerone.com/reports/319467,5,0.0,Command Injection - Generic,2018-05-11
+319476,Node.js third-party modules,`whereis` concatenates unsanitized input into exec() command,hackerone.com/reports/319476,9,0.0,Command Injection - Generic,2018-03-28
+319576,Node.js third-party modules,`protobufjs` is vulnerable to ReDoS when parsing crafted invalid *.proto files,hackerone.com/reports/319576,10,0.0,Uncontrolled Resource Consumption,2018-03-31
+319593,Node.js third-party modules,`sshpk` is vulnerable to ReDoS when parsing crafted invalid public keys,hackerone.com/reports/319593,5,0.0,Uncontrolled Resource Consumption,2018-04-04
+319629,Node.js third-party modules,`rgb2hex` is vulnerable to ReDoS when parsing crafted invalid colors,hackerone.com/reports/319629,3,0.0,Uncontrolled Resource Consumption,2019-12-13
+319674,VK.com,Просмотр любого видео из частной группы и кто загрузил,hackerone.com/reports/319674,9,300.0,Information Disclosure,2018-04-02
+319794,Node.js third-party modules,[m-server] HTML Injection in filenames displayed as directory listing in the browser allows to embed iframe with malicious JavaScript code,hackerone.com/reports/319794,3,0.0,Cross-site Scripting (XSS) - Stored,2018-07-12
+319795,Node.js third-party modules,[m-server] Path Traversal allows to display content of arbitrary file(s) from the server,hackerone.com/reports/319795,2,0.0,Path Traversal,2018-07-12
+319809,Node.js third-party modules,"`memjs` allocates and stores buffers on typed input, resulting in DoS and uninitialized memory usage",hackerone.com/reports/319809,11,0.0,Uncontrolled Resource Consumption,2018-06-27
+319951,Node.js third-party modules,`superstatic` is vulnerable to path traversal on Windows,hackerone.com/reports/319951,5,0.0,Path Traversal,2018-04-29
+320159,Node.js third-party modules,`useragent` is vulnerable to ReDoS in user-agent string,hackerone.com/reports/320159,2,0.0,Uncontrolled Resource Consumption,2019-04-03
+320166,Node.js third-party modules,`concat-with-sourcemaps` allocates uninitialized Buffers when number is passed as a separator,hackerone.com/reports/320166,2,0.0,Out-of-bounds Read,2018-04-28
+320222,Internet Bug Bounty,memory corruption while parsing HTTP response,hackerone.com/reports/320222,1,500.0,Array Index Underflow,2019-10-14
+320269,Node.js third-party modules,`npmconf` (and `npm` js api) allocate and write to disk uninitialized memory content when a typed number is passed as input on Node.js 4.x,hackerone.com/reports/320269,3,0.0,Out-of-bounds Read,2018-05-12
+320355,Shopify,myshopify.com domain takeover,hackerone.com/reports/320355,71,0.0,Business Logic Errors,2018-02-27
+320376,HackerOne,Open Redirection in index.php page,hackerone.com/reports/320376,53,0.0,Open Redirect,2018-03-07
+320586,Node.js third-party modules,`foreman` is vulnerable to ReDoS in path,hackerone.com/reports/320586,3,0.0,Uncontrolled Resource Consumption,2018-04-28
+320693,Node.js third-party modules,[hekto] open redirect when target domain name is used as html filename on server,hackerone.com/reports/320693,10,0.0,Open Redirect,2018-05-20
+321029,Slack,HTML Injection inside Slack promotional emails,hackerone.com/reports/321029,13,100.0,,2018-07-30
+321511,Stellar.org,It's possible to put SDX orderbook into invalid state and execute trades at arbitrary price,hackerone.com/reports/321511,12,0.0,Business Logic Errors,2018-10-14
+321594,VK.com,Смотрим фотографии из частных/закрытых групп.,hackerone.com/reports/321594,21,500.0,Information Disclosure,2018-04-26
+321631,Node.js third-party modules,"`http-proxy-agent` passes unsanitized options to Buffer(arg), resulting in DoS and uninitialized memory leak",hackerone.com/reports/321631,7,0.0,Uncontrolled Resource Consumption,2018-04-05
+321686,Node.js third-party modules,`atob` allocates uninitialized Buffers when number is passed in input on Node.js 4.x and below,hackerone.com/reports/321686,5,0.0,Out-of-bounds Read,2018-04-08
+321687,Node.js third-party modules,`base64url` allocates uninitialized Buffers when number is passed in input on Node.js 4.x and below,hackerone.com/reports/321687,4,0.0,Out-of-bounds Read,2018-05-11
+321701,Node.js third-party modules,`utile` allocates uninitialized Buffers when number is passed in input,hackerone.com/reports/321701,3,0.0,Out-of-bounds Read,2018-06-14
+321702,Node.js third-party modules,`put` allocates uninitialized Buffers when non-round numbers are passed in input,hackerone.com/reports/321702,4,0.0,Out-of-bounds Read,2018-06-14
+321704,Node.js third-party modules,`njwt` allocates uninitialized Buffers when number is passed in base64urlEncode input,hackerone.com/reports/321704,5,0.0,Out-of-bounds Read,2018-06-14
+322661,Shopify,Replace other user files in Inbox messages ,hackerone.com/reports/322661,38,0.0,Insecure Direct Object Reference (IDOR),2018-05-01
+322935,Internet Bug Bounty,Exim off-by-one RCE vulnerability,hackerone.com/reports/322935,11,0.0,Off-by-one Error,2019-09-26
+322985,Upserve ,Ability to reset password for account,hackerone.com/reports/322985,633,0.0,Improper Access Control - Generic,2019-06-06
+322988,Upserve ,Information disclosure through search engines (password reset token),hackerone.com/reports/322988,6,0.0,Information Disclosure,2018-03-13
+323005,Imgur,CSRF leads to a stored self xss,hackerone.com/reports/323005,145,0.0,Cross-site Scripting (XSS) - Reflected,2019-08-30
+323017,Internet Bug Bounty,Two vulnerability in GNU binutils,hackerone.com/reports/323017,4,0.0,Out-of-bounds Read,2019-10-14
+323566,MyCrypto,Reflected XSS { support.mycrypto.com },hackerone.com/reports/323566,6,0.0,Cross-site Scripting (XSS) - Reflected,2018-04-02
+323735,JamieWeb,Insecure Transportation Security Protocol Supported (TLS 1.0) on https://www.jamieweb.net,hackerone.com/reports/323735,13,0.0,Cryptographic Issues - Generic,2018-05-11
+323852,Ubiquiti Inc.,Firmware download/install vulnerable to CSRF,hackerone.com/reports/323852,35,0.0,Cross-Site Request Forgery (CSRF),2020-05-29
+323899,Uber,Outdated Wordpress installation and plugins at www.uberxgermany.com create CSRF and XSS vulnerabilities,hackerone.com/reports/323899,29,500.0,Cross-Site Request Forgery (CSRF),2021-02-25
+323975,Ping Identity,CSRF in Inviting users,hackerone.com/reports/323975,5,0.0,Cross-Site Request Forgery (CSRF),2019-03-26
+323992,U.S. Dept Of Defense,Publicly accessible Order confirmations leaking User Emails on ███,hackerone.com/reports/323992,19,0.0,Information Disclosure,2019-10-08
+324005,Ping Identity,Server-Side Request Forgery on SAML Application - Import via URL,hackerone.com/reports/324005,11,450.0,Server-Side Request Forgery (SSRF),2019-03-26
+324006,Ping Identity,SaaS admin can modify/delete/get user information.,hackerone.com/reports/324006,12,0.0,Privilege Escalation,2019-03-26
+324021,Rootstock Labs,JSON RPC methods for debugging enabled by default allow DoS,hackerone.com/reports/324021,27,0.0,Uncontrolled Resource Consumption,2023-02-27
+324136,Shopify,XSS *.myshopify.com/collections/vendors?q=,hackerone.com/reports/324136,35,0.0,Cross-site Scripting (XSS) - Reflected,2018-04-08
+324194,Upserve ,Blind stored xss in demo form,hackerone.com/reports/324194,25,500.0,Cross-site Scripting (XSS) - Stored,2018-04-12
+324303,MyCrypto,DOM Based XSS in mycrypto.com,hackerone.com/reports/324303,46,0.0,Cross-site Scripting (XSS) - DOM,2018-03-18
+324372,MyCrypto,Missing SPF Records.,hackerone.com/reports/324372,18,0.0,,2018-05-24
+324453,Node.js third-party modules,`command-exists` concatenates unsanitized input into exec()/execSync() commands,hackerone.com/reports/324453,6,0.0,Command Injection - Generic,2018-05-11
+324491,Node.js third-party modules,`fs-path` concatenates unsanitized input into exec()/execSync() commands,hackerone.com/reports/324491,2,0.0,Command Injection - Generic,2018-05-11
+324548,MyCrypto,Html injection mycrypto.com,hackerone.com/reports/324548,19,0.0,Cross-site Scripting (XSS) - Generic,2018-03-16
+325336,Starbucks,Subdomain takeover on svcgatewayus.starbucks.com,hackerone.com/reports/325336,109,0.0,Privilege Escalation,2018-06-25
+325594,HackerOne,Leakage badges on disabled user,hackerone.com/reports/325594,8,0.0,Information Disclosure,2018-03-15
+325734,MyCrypto,Missing SPF record for the in scope domain,hackerone.com/reports/325734,2,0.0,Phishing,2018-05-24
+325827,MyCrypto,Content Spoofing or Text Injection support.mycrypto.com,hackerone.com/reports/325827,7,0.0,Phishing,2018-04-18
+326040,U.S. Dept Of Defense,SSRF on █████████ Allowing internal server data access,hackerone.com/reports/326040,23,0.0,Information Disclosure,2019-10-08
+326043,U.S. Dept Of Defense,SSRF+XSS,hackerone.com/reports/326043,33,0.0,Information Disclosure,2018-04-17
+326080,Uber,Improper Access Control on Onelogin in multi-layered architecture,hackerone.com/reports/326080,29,500.0,Improper Access Control - Generic,2018-08-08
