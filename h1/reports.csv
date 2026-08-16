@@ -5739,3 +5739,209 @@ id,program,title,link,upvotes,bounty,vuln_type,date
 482634,U.S. Dept Of Defense,https://████████ Impacted by DNN ImageHandler SSRF,hackerone.com/reports/482634,4,0.0,Server-Side Request Forgery (SSRF),2019-10-08
 482707,Starbucks,Information Exposure Through an Error Message at news.starbucks.com,hackerone.com/reports/482707,5,0.0,Information Exposure Through an Error Message,2019-01-31
 482743,Rockstar Games,Facebook OAuth Code Theft through referer leakage on support.rockstargames.com,hackerone.com/reports/482743,71,0.0,Cross-Site Request Forgery (CSRF),2019-02-19
+483774,DuckDuckGo,XXE on https://duckduckgo.com,hackerone.com/reports/483774,218,0.0,XML External Entities (XXE),2019-01-31
+484377,U.S. Dept Of Defense,Information Disclosure (can access all ███s) within ███████ view █████████ Portal,hackerone.com/reports/484377,7,0.0,Information Disclosure,2019-10-08
+484398,VLC (European Commission - DIGIT),Buffer overflow in libavi_plugin memmove() call,hackerone.com/reports/484398,25,1126.91,Classic Buffer Overflow,2019-06-12
+484420,Ford,Subdomain takeover on usclsapipma.cv.ford.com,hackerone.com/reports/484420,105,0.0,Privilege Escalation,2019-03-24
+484434,Imgur,Stored XSS on imgur profile,hackerone.com/reports/484434,612,0.0,Cross-site Scripting (XSS) - Stored,2019-03-02
+484745,Valve,GoldSrc: Buffer Overflow in DELTA_ParseDelta function leads to RCE,hackerone.com/reports/484745,26,3000.0,Stack Overflow,2021-05-04
+484801,U.S. Dept Of Defense,[███]  SQL injection & Reflected XSS,hackerone.com/reports/484801,8,0.0,SQL Injection,2019-12-02
+484905,U.S. Dept Of Defense,XSS Reflected ,hackerone.com/reports/484905,3,0.0,Cross-site Scripting (XSS) - Reflected,2020-05-27
+484930,PuTTY (European Commission - DIGIT),puttygen: 160MB memory leak while trying to extract openssh public key from crafted key file,hackerone.com/reports/484930,46,0.0,Memory Corruption - Generic,2019-11-03
+485382,Rockstar Games,Flash injection vulnerability on /IV/imgPlayer/imageEmbed.swf,hackerone.com/reports/485382,11,0.0,Cross-site Scripting (XSS) - Generic,2020-06-24
+485684,U.S. Dept Of Defense,Self XSS combine CSRF at https://████████/index.php,hackerone.com/reports/485684,17,0.0,Cross-site Scripting (XSS) - Reflected,2020-05-27
+485748,X / xAI,Stored XSS on reports.,hackerone.com/reports/485748,230,700.0,Cross-site Scripting (XSS) - Stored,2019-04-01
+486629,Eternal,Improper validation allows user to unlock Zomato Gold multiple times at the same restaurant within one day,hackerone.com/reports/486629,22,0.0,Business Logic Errors,2019-01-28
+486667,RATELIMITED,Missing Protection Mechanism in Mail Servers allows malicious user to use staff.ratelimited.me email could lead to identity theft.,hackerone.com/reports/486667,28,0.0,Violation of Secure Design Principles,2019-02-02
+486693,Nextcloud,2FA Session not expires after the password reset,hackerone.com/reports/486693,35,50.0,Session Fixation,2021-01-18
+486732,DuckDuckGo,Partial bypass of #483774 with Blind XXE on https://duckduckgo.com,hackerone.com/reports/486732,159,0.0,XML External Entities (XXE),2019-02-25
+486837,Urban Dictionary,Users able to set video url for unpublished words and able to see the name of unpublished words,hackerone.com/reports/486837,44,0.0,Information Disclosure,2019-03-02
+486933,Node.js third-party modules,[serve] Access unlisted internal files/folders revealing sensitive information,hackerone.com/reports/486933,13,0.0,Information Exposure Through Directory Listing,2019-02-07
+487008,Flickr,Arbitrary file read via ffmpeg HLS parser at https://www.flickr.com/photos/upload,hackerone.com/reports/487008,340,0.0,Code Injection,2020-01-25
+487081,WordPress,Stored XSS in Private Message component (BuddyPress),hackerone.com/reports/487081,337,0.0,Cross-site Scripting (XSS) - Stored,2019-03-08
+487378,Rockstar Games,CSRF Vulnerability on post creation page /community/create-post.json,hackerone.com/reports/487378,29,0.0,Cross-Site Request Forgery (CSRF),2020-07-07
+487656,RATELIMITED,HTTP PUT method is enabled ratelimited.me,hackerone.com/reports/487656,19,0.0,,2019-01-29
+488108,Rockstar Games,Dom based xss on /reddeadredemption2/br/videos,hackerone.com/reports/488108,16,0.0,Cross-site Scripting (XSS) - DOM,2020-06-24
+488147,PayPal,Stored XSS on https://paypal.com/signin via cache poisoning,hackerone.com/reports/488147,684,18900.0,HTTP Request Smuggling,2019-08-07
+488269,Rockstar Games,Stealing Facebook OAuth Code Through Screenshot viewer,hackerone.com/reports/488269,200,0.0,Information Disclosure,2019-03-05
+488643,HackerOne,Disclosure of h1 challenges name through the calendar,hackerone.com/reports/488643,29,0.0,Information Disclosure,2019-01-30
+488795,U.S. Dept Of Defense,SQL injection on the https://████/,hackerone.com/reports/488795,23,0.0,SQL Injection,2019-10-04
+488923,Automattic,No Rate Limit on CrowdSignal Polls when Adding Comment,hackerone.com/reports/488923,16,0.0,Business Logic Errors,2019-04-13
+488985,HackerOne,Race condition in claiming program credentials ,hackerone.com/reports/488985,54,0.0,Time-of-check Time-of-use (TOCTOU) Race Condition,2019-05-19
+489102,VLC (European Commission - DIGIT),VLC 4.0.0 - Stack Buffer Overflow (SEH),hackerone.com/reports/489102,62,2817.28,Stack Overflow,2020-02-10
+489146,HackerOne,Confidential data of users and limited metadata of programs and reports accessible via GraphQL,hackerone.com/reports/489146,1032,0.0,Information Disclosure,2019-02-03
+489284,Shopify,Access to Employee calendar disclosing internal presentation and meetings,hackerone.com/reports/489284,111,1000.0,Improper Access Control - Generic,2019-03-08
+489483,U.S. Dept Of Defense,SQL Injection in the get_publications.php on the https://█████,hackerone.com/reports/489483,6,0.0,SQL Injection,2019-10-04
+490379,Node.js third-party modules,[glance] Access unlisted internal files/folders revealing sensitive information,hackerone.com/reports/490379,19,0.0,Information Exposure Through Directory Listing,2019-02-28
+490728,Node.js third-party modules,[takeapeek] XSS via HTML tag injection in directory lisiting page,hackerone.com/reports/490728,21,0.0,Cross-site Scripting (XSS) - Stored,2019-07-01
+490782,WordPress,Mssing Authorization on Private Message replies (BuddyPress),hackerone.com/reports/490782,66,0.0,Improper Access Control - Generic,2019-03-08
+490899,RATELIMITED,Credientals Over GET method in plain Text,hackerone.com/reports/490899,13,0.0,Unprotected Transport of Credentials,2019-02-17
+490946,Nextcloud,Bypassing lock protection,hackerone.com/reports/490946,13,50.0,Improper Authentication - Generic,2019-07-26
+490997,MariaDB,[downloads.mariadb.org] CRLF injection in case of encoded query mark,hackerone.com/reports/490997,6,0.0,CRLF Injection,2019-02-14
+491023,Semrush,XSS Reflected on my_report,hackerone.com/reports/491023,25,0.0,Cross-site Scripting (XSS) - Reflected,2019-06-21
+491191,U.S. Dept Of Defense,SQL Injection in the `move_papers.php` on the https://██████████,hackerone.com/reports/491191,26,0.0,SQL Injection,2020-06-25
+491319,GitLab,Guests Will Disclose the Private Project Full Activity Via Project Activity Feeds,hackerone.com/reports/491319,5,0.0,Information Disclosure,2019-02-08
+491473,X / xAI,Protected tweets exposure through the URL,hackerone.com/reports/491473,66,560.0,Information Disclosure,2019-04-19
+491654,Rockstar Games,Image Injection vulnerability affecting www.rockstargames.com/careers may lead to Facebook OAuth Theft,hackerone.com/reports/491654,7,0.0,Information Disclosure,2020-06-24
+491668,U.S. Dept Of Defense,RCE on https://█████/ Using CVE-2017-9248,hackerone.com/reports/491668,12,0.0,Cryptographic Issues - Generic,2019-10-10
+491753,Brave Software,DMARC RECORD MISSING,hackerone.com/reports/491753,20,0.0,,2019-02-13
+491892,Rocket.Chat,Broken access control on apps ,hackerone.com/reports/491892,9,0.0,Improper Access Control - Generic,2019-06-22
+492512,Internet Bug Bounty,[bower] Arbitrary File Write through improper validation of symlinks while package extraction,hackerone.com/reports/492512,7,500.0,Path Traversal,2019-09-10
+492767,U.S. Dept Of Defense,[https://███] Local File Inclusion via graph.php,hackerone.com/reports/492767,1,0.0,Path Traversal,2020-05-14
+493176,HackerOne,Partial report contents leakage - via HTTP/2 concurrent stream handling,hackerone.com/reports/493176,64,2500.0,Information Disclosure,2021-08-05
+493324,GitLab,Privilege escalation from any user (including external) to gitlab admin when admin impersonates you,hackerone.com/reports/493324,256,0.0,Privilege Escalation,2020-08-26
+493484,HackerOne,report id is exposed for undisclosed reports in Hacktivity,hackerone.com/reports/493484,24,0.0,Information Disclosure,2019-02-16
+493535,X / xAI,CSRF and probable account takeover on https://www.niche.co,hackerone.com/reports/493535,24,0.0,Cross-Site Request Forgery (CSRF),2019-02-28
+493552,X / xAI,"CSRF on https://www.niche.co leads to ""account disconnection""",hackerone.com/reports/493552,35,0.0,Cross-Site Request Forgery (CSRF),2019-03-02
+493791,GitLab,Inadequate cache control in gitter allows to view private chat room,hackerone.com/reports/493791,13,0.0,Improper Authentication - Generic,2019-03-08
+494979,Notepad++,Insufficient sanitizing can lead to arbitrary commands execution,hackerone.com/reports/494979,50,0.0,Command Injection - Generic,2019-06-06
+495382,Notepad++,No SearchEngine sanatizing can lead to command injection,hackerone.com/reports/495382,99,0.0,Command Injection - Generic,2019-06-06
+495495,Internet Bug Bounty,CVE-2019-5736: Escape from Docker and Kubernetes containers to root on host,hackerone.com/reports/495495,14,0.0,Privilege Escalation,2019-09-26
+495497,GitLab,Know whether private project name exists or not within a group using link comments,hackerone.com/reports/495497,57,0.0,Information Disclosure,2019-10-07
+495508,PuTTY (European Commission - DIGIT)," Assertion `len == 1' failed, process aborted while streaming ouput from remote server",hackerone.com/reports/495508,5,0.0,Uncontrolled Resource Consumption,2019-11-03
+495515,WordPress,Reflected XSS: Taxonomy Converter via tax parameter,hackerone.com/reports/495515,15,0.0,Cross-site Scripting (XSS) - Reflected,2019-08-28
+495525,Ian Dunn,XSSI: Quick Navigation Interface - leak of private page/post titles,hackerone.com/reports/495525,14,50.0,Information Disclosure,2019-02-15
+495583,Automattic,[FG-VD-19-022] Wordpress WooCommerce Cross-Site Scripting Vulnerability Notification,hackerone.com/reports/495583,30,0.0,Cross-site Scripting (XSS) - Stored,2019-04-06
+495789,Valve,Malformed .WAV triggers an Access Violation on GoldSRC (hl.exe),hackerone.com/reports/495789,14,0.0,Memory Corruption - Generic,2020-02-27
+495793,Valve,Malformed .MDL triggers an Access Violation on GoldSRC (hl.exe),hackerone.com/reports/495793,90,0.0,Memory Corruption - Generic,2019-10-09
+496113,Notepad++,Crash,hackerone.com/reports/496113,26,0.0,,2019-05-06
+496219,U.S. Dept Of Defense,█████ - Pre-generation of VIEWSTATE allows CAC bypass,hackerone.com/reports/496219,2,0.0,Improper Authentication - Generic,2020-05-11
+496285,Internet Bug Bounty,Ubuntu Linux privilege escalation (dirty_sock),hackerone.com/reports/496285,103,0.0,Privilege Escalation,2019-08-28
+496293,Node.js third-party modules,[url-parse] Improper Validation and Sanitization,hackerone.com/reports/496293,6,0.0,Improper Input Validation,2020-01-27
+496326,U.S. Dept Of Defense,"█████████ - Insecure download cookie generation allows bypass of CAC authentication, access to deleted and locked files",hackerone.com/reports/496326,4,0.0,Cryptographic Issues - Generic,2020-05-11
+496360,Khan Academy,EMAIL SPOOFING,hackerone.com/reports/496360,20,0.0,Privilege Escalation,2022-01-02
+496375,Starbucks,Reflected XSS in https://www.starbucks.co.jp/store/search/,hackerone.com/reports/496375,72,0.0,Cross-site Scripting (XSS) - Reflected,2019-05-22
+496937,Superhuman (formerly Grammarly),Employee's GitHub Token Found In Travis CI Build Logs,hackerone.com/reports/496937,405,5000.0,Information Disclosure,2019-05-22
+496973,GitLab,Persistent XSS via e-mail when creating merge requests,hackerone.com/reports/496973,24,0.0,Cross-site Scripting (XSS) - Generic,2019-08-30
+497047,GitLab,Blocked user Git access through CI/CD token,hackerone.com/reports/497047,11,1500.0,Improper Access Control - Generic,2019-12-13
+497255,Notepad++,A stack buffer overflow in BabyGrid.cpp can lead to program crashes via a malicious localization file,hackerone.com/reports/497255,8,0.0,Stack Overflow,2019-05-07
+497312,Notepad++,Command injection by setting a custom search engine,hackerone.com/reports/497312,50,0.0,Command Injection - Generic,2019-05-07
+497655,Rockstar Games,Image Injection on www.rockstargames.com/screenshot-viewer/responsive/image may allow facebook oauth token theft.,hackerone.com/reports/497655,14,0.0,Information Disclosure,2020-06-12
+497664,Upserve ,Open redirect on https://hq-api.upserve.com/,hackerone.com/reports/497664,44,0.0,Open Redirect,2019-06-07
+497724,WordPress,Stored XSS in Post Preview as Contributor,hackerone.com/reports/497724,14,0.0,Cross-site Scripting (XSS) - Stored,2020-08-18
+497771,U.S. Dept Of Defense,[Critical] Full local fylesystem access (LFI/LFD) as admin via Path Traversal in the misconfigured Java servlet on the https://███/,hackerone.com/reports/497771,14,0.0,Path Traversal,2019-10-04
+498351,U.S. Dept Of Defense,[█████] Get all tickets (IDOR),hackerone.com/reports/498351,10,0.0,Insecure Direct Object Reference (IDOR),2019-12-02
+498358,Rockstar Games,Image Injection on /bully/anniversaryedition may lead to OAuth token theft.,hackerone.com/reports/498358,8,0.0,Information Disclosure,2020-06-24
+498562,Smule,Error Page Content Spoofing or Text Injection ,hackerone.com/reports/498562,74,0.0,Violation of Secure Design Principles,2020-06-03
+498845,HackerOne,A small set of users were assigned someone else's payout preference,hackerone.com/reports/498845,30,0.0,Privacy Violation,2019-02-20
+498852,Nextcloud,XSS On Nextcloud Integrated with zimbra drive,hackerone.com/reports/498852,3,0.0,Cross-site Scripting (XSS) - Stored,2019-11-11
+498865,Liberapay,Session Cookie without HttpOnly and secure flag set,hackerone.com/reports/498865,2,0.0,Violation of Secure Design Principles,2019-02-21
+498878,Nextcloud,User Editable nextcloud Wiki pages of Public Repositories,hackerone.com/reports/498878,11,0.0,,2019-08-31
+498964,GitLab,"Full access to internal Gitlab instances at redash.gitlab.com, dashboards.gitlab.com, prometheus.gitlab.com",hackerone.com/reports/498964,306,0.0,Incorrect Authorization,2019-04-19
+499030,HackerOne,DOM Based XSS in www.hackerone.com via PostMessage (bypass of #398054),hackerone.com/reports/499030,106,0.0,Cross-site Scripting (XSS) - DOM,2019-05-04
+499041,U.S. Dept Of Defense,[████████] Reflected XSS,hackerone.com/reports/499041,6,0.0,Business Logic Errors,2019-12-02
+499348,X / xAI,"Twitter lite(Android): Vulnerable to local file steal, Javascript injection, Open redirect ",hackerone.com/reports/499348,95,0.0,Improper Access Control - Generic,2019-04-29
+500348,Slack,URL filter bypass in Enterprise Grid,hackerone.com/reports/500348,32,100.0,Phishing,2020-02-14
+500436,Superhuman (formerly Grammarly),DOM based CSS Injection on grammarly.com,hackerone.com/reports/500436,63,250.0,Cross-site Scripting (XSS) - DOM,2019-05-06
+500468,Starbucks,SSRF at ideas.starbucks.com,hackerone.com/reports/500468,33,0.0,Server-Side Request Forgery (SSRF),2019-04-03
+500515,Starbucks,XXE at ecjobs.starbucks.com.cn/retail/hxpublic_v6/hxdynamicpage6.aspx,hackerone.com/reports/500515,318,0.0,XML External Entities (XXE),2019-11-13
+500588,JamieWeb,Security headers missed on https://acme-validation.jamieweb.net/,hackerone.com/reports/500588,48,0.0,Violation of Secure Design Principles,2019-03-28
+500686,X / xAI,url that twitter mobile site can not load,hackerone.com/reports/500686,142,1120.0,Uncontrolled Resource Consumption,2019-03-19
+501077,Rocket.Chat,Online Status of arbitrary users can be changed,hackerone.com/reports/501077,33,0.0,Improper Access Control - Generic,2024-08-10
+501081,Rocket.Chat,Guest Privilege Escalation to admin group,hackerone.com/reports/501081,59,0.0,Improper Access Control - Generic,2024-08-10
+501084,Rocket.Chat,Upload of Avatars for other Users,hackerone.com/reports/501084,47,0.0,Improper Access Control - Generic,2024-08-10
+501585,Monero,Zero-amount miner TX + RingCT allows monero wallet to receive arbitrary amount of monero,hackerone.com/reports/501585,9,0.0,Resource Injection,2019-07-03
+502207,Rootstock Labs,Traffic amplification attack via discovery protocol,hackerone.com/reports/502207,24,2000.0,Improper Authentication - Generic,2023-03-13
+502593,GitLab,Attacker is able to access commit title and team member comments which are supposed to be private,hackerone.com/reports/502593,350,0.0,Improper Access Control - Generic,2019-07-03
+502753,Semmle,Email addresses exposed in getPersonBySlug API,hackerone.com/reports/502753,60,500.0,,2019-03-25
+502758,Starbucks,RCE and Complete Server Takeover of http://www.█████.starbucks.com.sg/,hackerone.com/reports/502758,571,0.0,Code Injection,2019-04-10
+502816,VLC (European Commission - DIGIT),Access Violation Reading in libfaad_plugin,hackerone.com/reports/502816,106,1120.81,Integer Underflow,2019-07-24
+502819,VK.com,[0.vk.com] Reflected XSS на странице подтверждения.,hackerone.com/reports/502819,4,200.0,Cross-site Scripting (XSS) - Reflected,2019-05-10
+502926,X / xAI,Html Injection and Possible XSS via MathML,hackerone.com/reports/502926,13,0.0,Cross-site Scripting (XSS) - Generic,2019-09-03
+503208,VLC (European Commission - DIGIT),Access Violation Reading EXPLOITABLE_0228,hackerone.com/reports/503208,77,1135.32,Double Free,2019-07-24
+503283,Slack,Real Time Error Logs Through Debug Information,hackerone.com/reports/503283,100,0.0,Information Exposure Through Debug Information,2019-04-11
+503298,X / xAI,Multiple XSS on account settings that can hijack any users in the company. ,hackerone.com/reports/503298,73,700.0,Cross-site Scripting (XSS) - Stored,2019-04-01
+503300,Unikrn,█████████ on CRM server without authorization,hackerone.com/reports/503300,15,0.0,,2019-03-14
+503804,Unikrn,Path Disclosure Vulnerability http://crm.******.com,hackerone.com/reports/503804,12,0.0,,2019-04-05
+503821,PuTTY (European Commission - DIGIT),"Assertion `col >= 0 && col < line->cols' failed, process aborted while streaming ouput from remote server",hackerone.com/reports/503821,3,0.0,Memory Corruption - Generic,2019-11-03
+503922,Hanno's projects,Open redirect on the https://tt.hboeck.de,hackerone.com/reports/503922,25,0.0,Open Redirect,2019-03-03
+503988,8x8,Cross-site Scripting (XSS) - Reflected,hackerone.com/reports/503988,10,0.0,Cross-site Scripting (XSS) - Reflected,2020-07-07
+504122,8x8,Sensitive information disclosure,hackerone.com/reports/504122,2,0.0,Information Disclosure,2020-02-12
+504162,VK.com,Делаем плейлист от любого(почти) пользователя/группы/артиста.,hackerone.com/reports/504162,3,100.0,,2021-11-05
+504261,Algolia,Web Cache Deception Attack (XSS),hackerone.com/reports/504261,26,0.0,Cross-site Scripting (XSS) - Reflected,2019-03-22
+504362,Semmle,the login blocking mechanism does not work correctly,hackerone.com/reports/504362,6,0.0,Improper Restriction of Authentication Attempts,2019-03-19
+504507,Urban Dictionary,Domain does not Match SSL Certificate,hackerone.com/reports/504507,11,0.0,Man-in-the-Middle,2019-05-29
+504509,Hanno's projects,Bypassing the fix of #503922,hackerone.com/reports/504509,18,0.0,Open Redirect,2019-03-04
+504514,Smule,Web cache poisoning leads to disclosure of CSRF token and sensitive information,hackerone.com/reports/504514,39,0.0,Violation of Secure Design Principles,2019-07-21
+504731,Nextcloud, Predictable Random Number Generator,hackerone.com/reports/504731,12,0.0,Use of Cryptographically Weak Pseudo-Random Number Generator (PRNG),2019-06-26
+504751,Omise,Open Redirect,hackerone.com/reports/504751,72,100.0,Open Redirect,2019-03-25
+504759,Nextcloud,Uploading large avatar images cause excessive CPU usage,hackerone.com/reports/504759,8,0.0,Uncontrolled Resource Consumption,2019-06-27
+504761,Internet Bug Bounty,phar_tar_writeheaders_int() buffer overflow,hackerone.com/reports/504761,2,1500.0,Classic Buffer Overflow,2020-11-09
+504951,Valve,Malformed playlist.txt in GoldSrc games leads to Access Violation & arbitrary code execution,hackerone.com/reports/504951,62,1000.0,Stack Overflow,2019-09-17
+505007,X / xAI,[Twitter Open Source] Releases were & are built/executed/tested/released in the context of insecure/untrusted code,hackerone.com/reports/505007,9,280.0,Cryptographic Issues - Generic,2019-12-13
+505157,Rockstar Games,Dom based xss on https://www.rockstargames.com/ via `returnUrl` parameter,hackerone.com/reports/505157,17,0.0,Cross-site Scripting (XSS) - DOM,2020-06-12
+505173,Valve,Malformed map detailed texture files in GoldSrc games lead to Remote Code Execution,hackerone.com/reports/505173,30,350.0,Stack Overflow,2019-09-17
+505259,Rockstar Games,Image injection on /screenshot-viewer/responsive/image ( FIX BYPASS),hackerone.com/reports/505259,6,0.0,Information Disclosure,2020-06-24
+505278,Internet Bug Bounty,DOS in stream filters,hackerone.com/reports/505278,44,0.0,Uncontrolled Resource Consumption,2020-10-12
+505336,VK.com,Просмотр аттачей удаленного сообщения.....,hackerone.com/reports/505336,8,200.0,Information Disclosure,2021-12-01
+505347,VK.com,Просмотр инфы на странице пользователя или группы который тебя добавил в ЧС,hackerone.com/reports/505347,5,200.0,Information Disclosure,2019-05-10
+505424,X / xAI,Twitter ID exposure via error-based side-channel attack,hackerone.com/reports/505424,154,1470.0,Privacy Violation,2019-05-16
+505595,Semmle,Authenticated Cross-Site-Request-Forgery,hackerone.com/reports/505595,8,0.0,Cross-Site Request Forgery (CSRF),2019-03-19
+506040,Internet Bug Bounty,ChaCha20-Poly1305 with long nonces,hackerone.com/reports/506040,8,0.0,Missing Encryption of Sensitive Data,2019-09-30
+506126,Rockstar Games,image injection /screenshot-viewer/responsive/image (ANOTHER FIX BYPASS),hackerone.com/reports/506126,6,0.0,Information Disclosure,2020-06-24
+506161,PortSwigger Web Security,Build fetches jars over HTTP,hackerone.com/reports/506161,134,1000.0,Man-in-the-Middle,2019-06-10
+506412,Linux Foundation Decentralized Trust,Enrolling to a CA that returns an empty response crashes the node process,hackerone.com/reports/506412,6,500.0,Uncontrolled Resource Consumption,2022-08-06
+506496,Monero,RingCT malformed tx prevents target from being able to sweep balance,hackerone.com/reports/506496,9,0.0,Business Logic Errors,2019-04-20
+506498,Monero,(remote) exabyte allocation via load_from_binary() (DoS),hackerone.com/reports/506498,2,0.0,Uncontrolled Resource Consumption,2019-07-03
+506595,Monero,CryptoNote: remote node DoS,hackerone.com/reports/506595,30,0.0,Uncontrolled Resource Consumption,2019-07-03
+506644,Node.js third-party modules,[@azhou/basemodel] SQL injection,hackerone.com/reports/506644,2,0.0,SQL Injection,2020-02-02
+506646,Starbucks,Webshell via File Upload on ecjobs.starbucks.com.cn,hackerone.com/reports/506646,688,0.0,OS Command Injection,2019-11-13
+506654,Node.js third-party modules,[typeorm] SQL Injection,hackerone.com/reports/506654,15,0.0,SQL Injection,2019-04-02
+506791,Central Security Project,Pippo XML Entity Expansion (Billion Laughs Attack),hackerone.com/reports/506791,1,0.0,XML Entity Expansion,2019-06-10
+507012,Unikrn,bypass Claudflare access crm.mautic.com,hackerone.com/reports/507012,7,0.0,,2019-04-05
+507097,Eternal,Open AWS S3 bucket leaks all Images uploaded to Zomato chat,hackerone.com/reports/507097,57,0.0,Improper Authentication - Generic,2019-05-01
+507139,Automattic,DOM based XSS in the WooCommerce plugin,hackerone.com/reports/507139,37,0.0,Cross-site Scripting (XSS) - DOM,2019-05-05
+507159,Node.js third-party modules,[fileview] Inadequate Output Encoding and Escaping ,hackerone.com/reports/507159,11,0.0,Cross-site Scripting (XSS) - Stored,2019-12-28
+507172,Nextcloud,"Able to bypass ""Device credentials"" Lock",hackerone.com/reports/507172,12,0.0,Improper Access Control - Generic,2019-07-26
+507222,Node.js third-party modules,[untitled-model] sql injection,hackerone.com/reports/507222,14,0.0,SQL Injection,2019-06-18
+507303,Node.js third-party modules,[file-browser] Inadequate Output Encoding and Escaping ,hackerone.com/reports/507303,1,0.0,Cross-site Scripting (XSS) - Stored,2020-01-29
+507310,Node.js third-party modules,[deliver-or-else] Path Traversal,hackerone.com/reports/507310,1,0.0,Path Traversal,2020-01-29
+507494,Rockstar Games,xss on https://www.rockstargames.com/GTAOnline/jp/screens/ ,hackerone.com/reports/507494,159,0.0,Cross-site Scripting (XSS) - Generic,2020-06-12
+507525,Chaturbate,DoS attacks utilizing camo.stream.highwebmedia.com,hackerone.com/reports/507525,41,400.0,Uncontrolled Resource Consumption,2019-05-01
+507957,Starbucks,Stored XSS on www.starbucks.com.sg/careers/career-center/career-landing-*,hackerone.com/reports/507957,37,0.0,Cross-site Scripting (XSS) - Stored,2019-04-10
+507972,VK.com,Просмотр удаленного сообщения из лс группы + возможность его переслать.,hackerone.com/reports/507972,5,100.0,Information Disclosure,2021-11-05
+508024,Omise,Public and secret api key leaked via omise github repo(owned by omise),hackerone.com/reports/508024,6,0.0,Information Disclosure,2019-03-25
+508184,GitLab,Persistent XSS in Note objects,hackerone.com/reports/508184,138,4500.0,Cross-site Scripting (XSS) - Stored,2019-07-19
+508256,Ubiquiti Inc.,EdgeSwitch Command Injection,hackerone.com/reports/508256,15,0.0,Command Injection - Generic,2019-03-31
+508346,Node.js third-party modules,[increments] sql injection,hackerone.com/reports/508346,1,0.0,SQL Injection,2020-02-02
+508446,Node.js third-party modules,XSS in Bootbox,hackerone.com/reports/508446,4,0.0,Cross-site Scripting (XSS) - Generic,2019-05-04
+508459,Omise,SSRF in webhooks leads to AWS private keys disclosure,hackerone.com/reports/508459,212,0.0,Server-Side Request Forgery (SSRF),2019-06-28
+508475,Rockstar Games,"DOM based XSS on /GTAOnline/de/news/article via ""returnUrl"" parameter",hackerone.com/reports/508475,6,0.0,Cross-site Scripting (XSS) - DOM,2020-06-24
+508487,Nextcloud,Arbitrary SQL command injection,hackerone.com/reports/508487,77,0.0,SQL Injection,2019-07-21
+508490,Nextcloud,Nextcloud domain and name of every user leaked to lookup server,hackerone.com/reports/508490,14,0.0,Privacy Violation,2019-11-26
+508493,Nextcloud,"Group admins can remove arbitrary data from ""data"" directory (including admin data)",hackerone.com/reports/508493,32,0.0,Privilege Escalation,2019-08-12
+508506,VK.com,Загружаем видеозаписи в основной альбом любой открытой группе/паблику.,hackerone.com/reports/508506,2,300.0,,2021-11-05
+508517,Rockstar Games,DOM based XSS on /GTAOnline/tw/starterpack/,hackerone.com/reports/508517,46,0.0,Cross-site Scripting (XSS) - DOM,2020-06-24
+508894,Valve,Vulnerability in GoldSource Engine allows to upload and run an arbitrary DLL on client,hackerone.com/reports/508894,11,0.0,Malware,2020-03-25
+509315,Central Security Project,c3p0 may be exploited by a Billion Laughs Attack when loading XML configuration,hackerone.com/reports/509315,5,0.0,XML Entity Expansion,2019-04-16
+509390,Nextcloud,Missing DNSSEC,hackerone.com/reports/509390,5,0.0,Man-in-the-Middle,2019-08-29
+509574,HackerOne,Invited team member can disclosure slack channels,hackerone.com/reports/509574,16,500.0,Information Disclosure,2019-04-05
+509697,Node.js third-party modules,[md-fileserver] Path Traversal,hackerone.com/reports/509697,1,0.0,Path Traversal,2020-01-29
+509924,GitLab,JSON serialization of any Project model results in all Runner tokens being exposed through Quick Actions,hackerone.com/reports/509924,365,12000.0,Information Disclosure,2019-04-20
+509930,WordPress,Potential unprivileged Stored XSS through wp_targeted_link_rel,hackerone.com/reports/509930,80,0.0,Cross-site Scripting (XSS) - Stored,2020-01-08
+510025,Internet Bug Bounty,Invalid Read on exif_process_SOFn,hackerone.com/reports/510025,6,0.0,Buffer Over-read,2020-10-10
+510152,PayPal,Bypass for #488147 enables stored XSS on https://paypal.com/signin again,hackerone.com/reports/510152,2682,20000.0,HTTP Request Smuggling,2019-08-07
+510336,Internet Bug Bounty,Uninitialized read in exif_process_IFD_in_TIFF,hackerone.com/reports/510336,0,0.0,Classic Buffer Overflow,2020-10-10
+510388,Rockstar Games,Image injection /br/games/info may lead to phishing attacks or FB OAuth theft.,hackerone.com/reports/510388,5,0.0,Information Disclosure,2020-06-24
+510759,HackerOne,IDOR in Report CSV export discloses the IDs of Custom Field Attributes of Programs,hackerone.com/reports/510759,67,0.0,Insecure Direct Object Reference (IDOR),2019-09-06
+510887,Internet Bug Bounty,[CVE-2018-18312] regcomp: heap-buffer-overflow write / reg_node overrun,hackerone.com/reports/510887,18,0.0,Heap Overflow,2019-09-25
+510888,Internet Bug Bounty,[CVE-2018-18313] regcomp: heap-buffer-overflow read in S_grok_bslash_N,hackerone.com/reports/510888,7,0.0,Heap Overflow,2019-09-25
+511025,Ubiquiti Inc.,Privilege-0 to Root Privilege Escalation on EdgeSwitch,hackerone.com/reports/511025,82,0.0,Privilege Escalation,2019-03-31
+511044,Eternal,[www.zomato.com] Availing Zomato Gold membership for free by tampering plan id(s) ,hackerone.com/reports/511044,229,0.0,Business Logic Errors,2019-03-18
+511317,Monero,Potential use-after-free due to struct array_entry_t lacking an explicit copy constructor,hackerone.com/reports/511317,9,0.0,Use After Free,2019-05-10
+511381,GitLab,All functions that allow users to specify color code are vulnerable to ReDoS,hackerone.com/reports/511381,53,1000.0,Uncontrolled Resource Consumption,2019-08-21
+511440,Eternal, credentials leakage in public lead to view dev websites ,hackerone.com/reports/511440,78,0.0,Information Disclosure,2019-03-18
+511459,Node.js third-party modules,[listening-processes] Command Injection,hackerone.com/reports/511459,0,0.0,OS Command Injection,2020-02-02
+511536,Semmle,Unprotected Api EndPoints,hackerone.com/reports/511536,3,0.0,Violation of Secure Design Principles,2019-03-21
+511779,HackerOne,Moving a report to a different program doesn't reassign the Custom Field Values,hackerone.com/reports/511779,15,0.0,Insecure Direct Object Reference (IDOR),2019-04-25
+512076,Revive Adserver,Deserialization of Untrusted Data in www/delivery/adxmlrpc.php,hackerone.com/reports/512076,4,0.0,Deserialization of Untrusted Data,2019-04-23
+512958,Ubiquiti Inc.,Login as root without password on EdgeSwitchX,hackerone.com/reports/512958,56,0.0,Improper Authentication - Generic,2019-03-31
+512968,Eternal,[api.zomato.com] Able to manipulate order amount,hackerone.com/reports/512968,135,0.0,Business Logic Errors,2019-04-16
+513105,Semmle,CSP : Inline scripts can be inserted,hackerone.com/reports/513105,9,0.0,Cross-site Scripting (XSS) - Generic,2019-03-21
+513134,Phabricator,Issue:Form does not contain an anti-CSRF token,hackerone.com/reports/513134,8,0.0,Cross-Site Request Forgery (CSRF),2019-03-22
+513137,Phabricator,Request vulnerable to CSRF,hackerone.com/reports/513137,5,0.0,Cross-Site Request Forgery (CSRF),2019-03-22
+513154,Valve,Unchecked weapon id in WeaponList message parser on client leads to RCE,hackerone.com/reports/513154,229,3000.0,Array Index Underflow,2019-09-17
+513172,Semmle,All Burp Suite Scan report,hackerone.com/reports/513172,5,0.0,Security Through Obscurity,2019-03-22
+514224,GSA Bounty,SSRF in Search.gov via ?url= parameter,hackerone.com/reports/514224,42,150.0,Server-Side Request Forgery (SSRF),2019-08-26
+514293,Chaturbate,Unrestricted POST request size on /customer_support/information_form/ endpoint,hackerone.com/reports/514293,8,0.0,Violation of Secure Design Principles,2019-05-01
+514421,MariaDB,smtp service vulnerable to POODLE SSLv3,hackerone.com/reports/514421,8,0.0,Cryptographic Issues - Generic,2019-05-11
