@@ -6028,3 +6028,36 @@ id,program,title,link,upvotes,bounty,vuln_type,date
 542258,Shopify,Cross Site Scripting at https://app.oberlo.com/,hackerone.com/reports/542258,16,0.0,Cross-site Scripting (XSS) - Stored,2019-05-26
 542340,Uber,Sensitive user information disclosure at bonjour.uber.com/marketplace/_rpc via the 'userUuid' parameter,hackerone.com/reports/542340,642,0.0,Information Disclosure,2019-09-09
 542670,Revive Adserver,Deserialization of Untrusted Data in www/delivery/dxmlrpc.php,hackerone.com/reports/542670,11,0.0,Deserialization of Untrusted Data,2019-04-23
+543775,8x8,Sensitive data disclosure via exposed phpunit file,hackerone.com/reports/543775,1,0.0,Information Disclosure,2020-06-09
+543782,Monero,Excessive Resource Usage,hackerone.com/reports/543782,9,0.0,Uncontrolled Resource Consumption,2019-07-03
+544096,Valve,[Source Engine] Material path truncation leads to Remote Code Execution,hackerone.com/reports/544096,60,2500.0,Improper Input Validation,2021-05-06
+544329,X / xAI,IDOR and statistics leakage in Orders ,hackerone.com/reports/544329,141,289.0,Insecure Direct Object Reference (IDOR),2019-06-14
+544334,U.S. Dept Of Defense,[Critical] Possibility to takeover any user account #2 without interaction on the https://██████████,hackerone.com/reports/544334,8,0.0,Privilege Escalation,2019-10-04
+544928,Ubiquiti Inc.,Privilege Escalation From user to SYSTEM via unauthenticated command execution ,hackerone.com/reports/544928,553,0.0,Command Injection - Generic,2019-11-08
+545052,curl,Github wikis are editable by anyone #Githubwikistakeover,hackerone.com/reports/545052,6,0.0,Improper Access Control - Generic,2019-05-25
+545136,RATELIMITED,HTTP PUT method is enabled downloader.ratelimited.me,hackerone.com/reports/545136,40,0.0,,2022-08-07
+546753,Nextcloud,Remote Code Execution via Extract App Plugin,hackerone.com/reports/546753,124,0.0,OS Command Injection,2019-05-30
+547145,ok.ru,[okl.lt] Раскрытие администраторских функций в .js + Возможность использования этих функций.,hackerone.com/reports/547145,12,0.0,Privilege Escalation,2019-07-23
+547630,curl,CVE-2019-5435: An integer overflow found in /lib/urlapi.c,hackerone.com/reports/547630,24,0.0,Incorrect Calculation of Buffer Size,2020-12-05
+547663,Trint Ltd,IDOR in changing shared file name,hackerone.com/reports/547663,36,0.0,Insecure Direct Object Reference (IDOR),2019-06-22
+548094,Ping Identity,Internal Hostname disclosure from multiple Apache servers via blank host header method,hackerone.com/reports/548094,21,150.0,Information Disclosure,2020-03-12
+548587,Khan Academy,Users can make accounts with a fake email address.,hackerone.com/reports/548587,10,0.0,,2019-04-25
+549040,GitLab,Clientside resource Exhausting by exploiting gitlab math rendering ,hackerone.com/reports/549040,50,0.0,Uncontrolled Resource Consumption,2019-10-01
+549355,Starbucks,Blind SQL Injection on starbucks.com.gt and WAF Bypass  :*,hackerone.com/reports/549355,210,0.0,SQL Injection,2019-06-19
+549364,HackerOne,Account recovery text message is sending a wrong domain to users.,hackerone.com/reports/549364,117,0.0,Business Logic Errors,2019-05-31
+549831,Nextcloud,External Storage - WebDAV - New user has access to storage from deleted user (same user-ID),hackerone.com/reports/549831,2,0.0,Insecure Storage of Sensitive Information,2021-02-14
+549882,Vimeo,"SSRF  leaking internal google cloud data through upload function [SSH Keys, etc..]",hackerone.com/reports/549882,276,0.0,Server-Side Request Forgery (SSRF),2019-12-13
+550266,ok.ru,[okmedia.insideok.ru] Web Cache Poisoing & XSS,hackerone.com/reports/550266,14,0.0,Cross-site Scripting (XSS) - Stored,2019-07-23
+550625,Valve,[CS:GO] Unchecked texture file name with TEXTUREFLAGS_DEPTHRENDERTARGET can lead to Remote Code Execution,hackerone.com/reports/550625,47,2500.0,Stack Overflow,2021-05-06
+550696,curl,CVE-2019-5436: Heap Buffer Overflow at lib/tftp.c,hackerone.com/reports/550696,16,0.0,Heap Overflow,2019-05-31
+550937,Automattic,Insufficient DKIM record with RSA 512-bit key used on WordPress.com,hackerone.com/reports/550937,27,0.0,Inadequate Encryption Strength,2019-05-30
+557154,GitLab,DoS attack via comment on Issue,hackerone.com/reports/557154,84,1000.0,Uncontrolled Resource Consumption,2019-11-21
+560668,LinkedIn,Access to resumes applied through LinkedIn Jobs,hackerone.com/reports/560668,79,0.0,Information Disclosure,2023-09-22
+561805,Nextcloud,W3 Total Cache plugin multiple vulnerabilities,hackerone.com/reports/561805,3,0.0,,2019-07-28
+562335,ownCloud,Remote Code Execution through Deserialization Attack in OwnBackup app.,hackerone.com/reports/562335,16,0.0,Deserialization of Untrusted Data,2019-07-01
+562417,HackerOne,Open Redirection in [https://www.hackerone.com/index.php],hackerone.com/reports/562417,33,0.0,Open Redirect,2019-05-08
+564196,Shopify,help.shopify.com Cross Site Scripting,hackerone.com/reports/564196,71,0.0,Cross-site Scripting (XSS) - Stored,2019-05-12
+565736,HackerOne,View HackerOne challenge scope before challenge begins,hackerone.com/reports/565736,48,0.0,Forced Browsing,2019-07-11
+565883,GitLab,Bypass Email Verification -- Able to Access Internal Gitlab Services that use Login with Gitlab and Perform Check on email domain,hackerone.com/reports/565883,249,0.0,Reliance on Untrusted Inputs in a Security Decision,2019-08-30
+566056,Node.js third-party modules,[larvitbase-api] Unintended Require,hackerone.com/reports/566056,7,0.0,Remote File Inclusion,2019-08-20
+566811,U.S. Dept Of Defense,████ - Complete account takeover,hackerone.com/reports/566811,26,0.0,Improper Authentication - Generic,2020-05-11
