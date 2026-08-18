@@ -6061,3 +6061,76 @@ id,program,title,link,upvotes,bounty,vuln_type,date
 565883,GitLab,Bypass Email Verification -- Able to Access Internal Gitlab Services that use Login with Gitlab and Perform Check on email domain,hackerone.com/reports/565883,249,0.0,Reliance on Untrusted Inputs in a Security Decision,2019-08-30
 566056,Node.js third-party modules,[larvitbase-api] Unintended Require,hackerone.com/reports/566056,7,0.0,Remote File Inclusion,2019-08-20
 566811,U.S. Dept Of Defense,████ - Complete account takeover,hackerone.com/reports/566811,26,0.0,Improper Authentication - Generic,2020-05-11
+568832,Automattic,No rate limit on app.crowdsignal.com (Finish quiz),hackerone.com/reports/568832,21,0.0,Business Logic Errors,2019-07-27
+569241,Shopify,Reflected XSS ,hackerone.com/reports/569241,48,0.0,Cross-site Scripting (XSS) - Reflected,2019-05-28
+569891,Node.js third-party modules,[min-http-server] List any file in the folder by using path traversal.,hackerone.com/reports/569891,8,0.0,Path Traversal,2020-08-26
+569966,Node.js third-party modules,[serve-here.js] List any file in the folder by using path traversal.,hackerone.com/reports/569966,8,0.0,Path Traversal,2019-06-24
+570035,Node.js third-party modules,[statichttpserver] List any file in the folder by using path traversal.,hackerone.com/reports/570035,5,0.0,Path Traversal,2019-08-25
+570133,Node.js third-party modules,[http-file-server] List any files and sub folders in the folder by using path traversal.,hackerone.com/reports/570133,7,0.0,Path Traversal,2019-07-10
+570563,Node.js third-party modules,[http-file-server] Stored XSS in the filename when directories listing,hackerone.com/reports/570563,10,0.0,Cross-site Scripting (XSS) - Stored,2019-07-24
+570568,Node.js third-party modules,[min-http-server] Stored XSS in the filename when directories listing,hackerone.com/reports/570568,3,0.0,,2019-07-24
+570651,Starbucks,Subdomain takeover of mydailydev.starbucks.com,hackerone.com/reports/570651,122,0.0,Externally Controlled Reference to a Resource in Another Sphere,2019-05-22
+574638,Uber,Lack of proper paymentProfileUUID validation allows any number of free rides without any outstanding balance,hackerone.com/reports/574638,82,0.0,Business Logic Errors,2019-07-18
+574639,X / xAI,Reports Modal in app.mopub.com Disclose by any user,hackerone.com/reports/574639,9,280.0,Information Disclosure,2019-10-02
+574962,X / xAI,Verify any unused email address,hackerone.com/reports/574962,197,560.0,Improper Access Control - Generic,2019-06-24
+575562,Nextcloud,Blind Stored XSS on iOS App due to Unsanitized Webview,hackerone.com/reports/575562,28,100.0,Cross-site Scripting (XSS) - Stored,2020-03-07
+576288,Chainlink,Testnet address being sent in cleartext as http://rinkeby.chain.link/ is missing SSL certificate,hackerone.com/reports/576288,19,0.0,Cleartext Transmission of Sensitive Information,2019-07-17
+576504,Revive Adserver,Authentication Bypass by abusing Insecure crypto tokens in /lib/OA/Dal/PasswordRecovery.php:,hackerone.com/reports/576504,31,0.0,Improper Authentication - Generic,2019-05-21
+576532,Shopify,DOM XSS via Shopify.API.remoteRedirect,hackerone.com/reports/576532,16,0.0,Cross-site Scripting (XSS) - DOM,2019-06-05
+576887,U.S. Dept Of Defense,RCE on █████ via CVE-2017-10271,hackerone.com/reports/576887,68,0.0,Code Injection,2019-07-01
+577584,Valve,ISteamAssets gives partners control over unrelated community market transactions,hackerone.com/reports/577584,109,0.0,Improper Access Control - Generic,2019-05-23
+577612,U.S. Dept Of Defense,MSSQL injection via param Customwho in https://█████/News/Transcripts/Search/Sort/ and WAF bypass,hackerone.com/reports/577612,11,0.0,SQL Injection,2019-10-10
+577920,X / xAI,login csrf in analytics.mopub.com,hackerone.com/reports/577920,12,280.0,Cross-Site Request Forgery (CSRF),2019-10-02
+578119,GitLab,Privilege escalation due to insecure use of logrotate,hackerone.com/reports/578119,32,0.0,Privilege Escalation,2019-10-01
+578138,Node.js third-party modules,[http_server] Stored XSS in the filename when directories listing,hackerone.com/reports/578138,61,0.0,Cross-site Scripting (XSS) - Stored,2019-09-13
+579116,Nextcloud,Vulnerable W3 Total Cache plugin version in use on nextcloud.com,hackerone.com/reports/579116,5,0.0,Cross-Site Request Forgery (CSRF),2019-06-21
+579517,Node.js third-party modules,[hnzserver] Path Traversal allowing to read any files on the server,hackerone.com/reports/579517,4,0.0,Path Traversal,2020-09-24
+579523,Node.js third-party modules,[http_server] Path Traversal allowing to read any files on the server,hackerone.com/reports/579523,2,0.0,Path Traversal,2020-09-24
+579560,Node.js third-party modules,[larvitbase-www] Unintended Require,hackerone.com/reports/579560,6,0.0,Remote File Inclusion,2019-09-03
+579760,Django,Jenkins Unauthenticated RCE on https://djangoci.com/,hackerone.com/reports/579760,22,0.0,OS Command Injection,2019-05-16
+580268,Uber,"API on campus-vtc.com allows access to ~100 Uber users full names, email addresses and telephone numbers.",hackerone.com/reports/580268,34,750.0,Information Disclosure,2021-07-08
+581939,Node.js third-party modules,[static-server-gx] Path Traversal allowing to read any files on the server,hackerone.com/reports/581939,2,0.0,Path Traversal,2020-09-03
+582349,GitLab,Last pipeline status for MR leaked ,hackerone.com/reports/582349,10,0.0,Improper Authentication - Generic,2019-10-01
+583184,Valve,Arbitrary File Write as SYSTEM from unprivileged user,hackerone.com/reports/583184,71,1250.0,Privilege Escalation,2020-01-15
+583710,Imgur,"BUG XSS IN ""ADD IMAGES""",hackerone.com/reports/583710,19,0.0,Cross-site Scripting (XSS) - Stored,2019-07-18
+583819,X / xAI,cookie injection allow dos attack to periscope.tv,hackerone.com/reports/583819,26,560.0,Uncontrolled Resource Consumption,2019-07-03
+583987,X / xAI,Periscope android app deeplink leads to CSRF in follow action,hackerone.com/reports/583987,224,1540.0,Cross-Site Request Forgery (CSRF),2020-02-21
+584582,VK.com,Просмотр закрытых фотографий,hackerone.com/reports/584582,24,500.0,Information Disclosure,2021-12-15
+584603,Valve,RCE on CS:GO client using unsanitized entity ID in EntityMsg message,hackerone.com/reports/584603,208,9000.0,Out-of-bounds Read,2021-05-27
+584757,Internet Bug Bounty,Null Pointer Dereference in phar_create_or_parse_filename,hackerone.com/reports/584757,3,0.0,NULL Pointer Dereference,2020-10-10
+586251,Homebrew,Homebrew installed LaunchDaemons create simple root esclations,hackerone.com/reports/586251,8,0.0,Privilege Escalation,2019-05-24
+587214,U.S. Dept Of Defense,██████ Authenticated User Data Disclosure,hackerone.com/reports/587214,7,0.0,Information Disclosure,2019-10-04
+587687,Trint Ltd,IDOR to update folder name of other user,hackerone.com/reports/587687,26,0.0,Insecure Direct Object Reference (IDOR),2019-07-03
+587727,phpBB,"CSS injection via BB code tag ""█████""",hackerone.com/reports/587727,28,0.0,Resource Injection,2019-09-26
+587733,Flickr,"Improper access control in place for ""member only"" groups via root.YUI_config.flickr.api.site_key",hackerone.com/reports/587733,15,0.0,Improper Access Control - Generic,2021-05-03
+587854,GitLab,"Local files could be overwritten in GitLab, leading to remote command execution",hackerone.com/reports/587854,542,12000.0,Command Injection - Generic,2019-07-17
+587910,HackerOne,Password not checked when disabling 2FA on HackerOne,hackerone.com/reports/587910,95,0.0,Violation of Secure Design Principles,2019-06-07
+588239,Tor,Detect Tor Browser's language,hackerone.com/reports/588239,11,0.0,Privacy Violation,2019-05-29
+588562,Nextcloud,Memory Leak in OCUtil.dll library in Desktop client can lead to DoS,hackerone.com/reports/588562,40,100.0,Uncontrolled Resource Consumption,2020-08-06
+589400,VK.com,Просмотр любых статей по их айди.,hackerone.com/reports/589400,10,200.0,Information Disclosure,2019-07-11
+589739,Node.js,Multiple HTTP/2 DOS Issues,hackerone.com/reports/589739,9,0.0,Uncontrolled Resource Consumption,2019-08-16
+590020,Internet Bug Bounty,CRLF Injection in urllib,hackerone.com/reports/590020,341,1000.0,CRLF Injection,2020-05-06
+590279,Valve,[CS 1.6] Map cycle abuse allows arbitrary file read/write,hackerone.com/reports/590279,22,750.0,Improper Access Control - Generic,2021-02-22
+590319,Nextcloud,Linux client is vulnerable to directory traversal when downloading files,hackerone.com/reports/590319,14,250.0,Path Traversal,2020-08-17
+591002,Unikrn,Full Path Disclosure,hackerone.com/reports/591002,5,0.0,,2019-05-29
+591295,X / xAI,Potential pre-auth RCE on Twitter VPN,hackerone.com/reports/591295,1241,20160.0,OS Command Injection,2019-08-10
+591302,Automattic,Denial of service to WP-JSON API by cache poisoning the CORS allow origin header,hackerone.com/reports/591302,405,0.0,Uncontrolled Resource Consumption,2020-04-16
+591432,X / xAI,Twitter Periscope Clickjacking Vulnerability,hackerone.com/reports/591432,143,1120.0,UI Redressing (Clickjacking),2019-07-10
+591770,curl,Signed integer overflow in tool_progress_cb(),hackerone.com/reports/591770,4,0.0,Integer Overflow,2019-10-04
+591786,Shopify,XSS on services.shopify.com,hackerone.com/reports/591786,43,500.0,Cross-site Scripting (XSS) - Stored,2019-06-14
+591813,Uber,[Pre-Submission][H1-4420-2019] API access to Phabricator on code.uberinternal.com from leaked certificate in git repo,hackerone.com/reports/591813,449,39999.99,Insecure Storage of Sensitive Information,2021-02-25
+592094,Monero,Remote Daemon RPC Attack,hackerone.com/reports/592094,4,0.0,,2019-07-03
+592200,Monero,Remote P2P DoS,hackerone.com/reports/592200,6,0.0,,2019-07-03
+592316,WordPress,Stored XSS on byddypress Plug-in via groups name,hackerone.com/reports/592316,132,0.0,Cross-site Scripting (XSS) - Stored,2019-07-27
+592400,Starbucks,"Blind SQLi leading to RCE, from Unauthenticated access to a test API Webservice",hackerone.com/reports/592400,236,0.0,SQL Injection,2019-07-22
+592525,Node.js third-party modules,Lack of input validation and sanitization in react-autolinker-wrapper library causes XSS ,hackerone.com/reports/592525,5,0.0,Cross-site Scripting (XSS) - Generic,2019-12-15
+592803,Automattic,Gaining unlimited bonus points on websites with WooCommerce Points and Rewards,hackerone.com/reports/592803,23,0.0,Business Logic Errors,2019-07-05
+592864,Nextcloud,Non-admin users can trigger writes to memcached by entering a malicious server as a share URL,hackerone.com/reports/592864,15,100.0,CRLF Injection,2020-07-09
+592885,Unikrn,multiple vulnerabilities on your mautic server,hackerone.com/reports/592885,7,0.0,,2019-07-10
+593229,Internet Bug Bounty,Out-of-bounds read in iconv.c:_php_iconv_mime_decode() due to integer overflow,hackerone.com/reports/593229,58,1500.0,Buffer Over-read,2020-10-12
+593893,Magic,CSRF in generating developer api_key,hackerone.com/reports/593893,17,500.0,Cross-Site Request Forgery (CSRF),2019-11-01
+593911,Node.js third-party modules,[public] Path traversal using symlink,hackerone.com/reports/593911,3,0.0,Path Traversal,2019-08-28
+593926,Homebrew,Homebrew privilege escalation vulnerability,hackerone.com/reports/593926,10,0.0,Privilege Escalation,2019-06-27
+594080,Infogram,Privilege escalation allows to use iframe functionality w/o upgrade,hackerone.com/reports/594080,35,0.0,Privilege Escalation,2019-06-05
+596363,VK.com,Бесконечный доступ к аккаунту если мы смогли хотя бы раз зайти на аккаунт.,hackerone.com/reports/596363,14,500.0,Privilege Escalation,2019-07-11
+600359,curl,Integer overflow in the source code tool_cb_prg.c,hackerone.com/reports/600359,3,0.0,Integer Overflow,2021-02-08
