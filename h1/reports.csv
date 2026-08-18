@@ -6134,3 +6134,38 @@ id,program,title,link,upvotes,bounty,vuln_type,date
 594080,Infogram,Privilege escalation allows to use iframe functionality w/o upgrade,hackerone.com/reports/594080,35,0.0,Privilege Escalation,2019-06-05
 596363,VK.com,Бесконечный доступ к аккаунту если мы смогли хотя бы раз зайти на аккаунт.,hackerone.com/reports/596363,14,500.0,Privilege Escalation,2019-07-11
 600359,curl,Integer overflow in the source code tool_cb_prg.c,hackerone.com/reports/600359,3,0.0,Integer Overflow,2021-02-08
+601192,Shopify,HTML injection in https://interviewing.shopify.com/index.php?candidate=,hackerone.com/reports/601192,17,0.0,Resource Injection,2019-07-04
+601287,WakaTime,Vulnerability Name: Host Header Injection Redirect,hackerone.com/reports/601287,14,0.0,Open Redirect,2019-09-02
+602596,ok.ru,Plain text password for 'unknown' user exist in URL when opening jira.apiok.ru,hackerone.com/reports/602596,3,0.0,Plaintext Storage of a Password,2019-06-17
+602767,Shopify,DOM XSS via Shopify.API.Modal.initialize,hackerone.com/reports/602767,34,500.0,Cross-site Scripting (XSS) - DOM,2019-06-21
+603196,ExpressionEngine,Open Redirect in comment section,hackerone.com/reports/603196,7,0.0,Open Redirect,2019-07-18
+603764,Upserve ,DOM Based XSS via postMessage at https://inventory.upserve.com/login/,hackerone.com/reports/603764,171,2500.0,Cross-site Scripting (XSS) - DOM,2019-06-25
+604534,HackerOne,Race Condition leads to undeletable group member,hackerone.com/reports/604534,153,0.0,Time-of-check Time-of-use (TOCTOU) Race Condition,2020-03-20
+604945,Brave Software,Tor IP leak caused by the PDF Viewer extension in certain situations,hackerone.com/reports/604945,25,0.0,Information Disclosure,2023-08-02
+605608,GitLab,[information disclosure] Validate existence of a private project.,hackerone.com/reports/605608,14,0.0,Information Disclosure,2021-03-09
+605720,HackerOne,Team member with Program permission only can escalate to Admin permission,hackerone.com/reports/605720,267,0.0,Privilege Escalation,2019-06-26
+605915,Nextcloud,Reflected XSS / Markup Injection in `index.php/svg/core/logo/logo` parameter `color`,hackerone.com/reports/605915,17,0.0,Cross-site Scripting (XSS) - Reflected,2019-08-29
+606526,Node.js third-party modules,[tianma-static] Security issue with XSS.,hackerone.com/reports/606526,0,0.0,Cross-site Scripting (XSS) - Stored,2020-10-12
+608577,curl,CVE-2019-5443: Windows Privilege Escalation: Malicious OpenSSL Engine,hackerone.com/reports/608577,25,0.0,Code Injection,2019-06-29
+608620,Internet Bug Bounty,Industry-Wide MITM Vulnerability Impacting the JVM Ecosystem,hackerone.com/reports/608620,11,0.0,Man-in-the-Middle,2019-09-10
+608656,HackerOne,Disabled account can still use GraphQL endpoint,hackerone.com/reports/608656,24,0.0,Improper Access Control - Generic,2020-03-12
+610219,Weblate,Stored XSS via Create Project (Add new translation project),hackerone.com/reports/610219,11,0.0,Cross-site Scripting (XSS) - Stored,2019-07-09
+612231,X / xAI,Github Token Leaked publicly for https://github.com/mopub,hackerone.com/reports/612231,92,0.0,Cleartext Storage of Sensitive Information,2019-08-15
+614355,GitLab,"GraphQL query ""namespace"" leaks data",hackerone.com/reports/614355,64,0.0,Improper Access Control - Generic,2019-12-03
+614523,Eternal,Able to manipulate order amount by removing cancellation amount and cause financial impact,hackerone.com/reports/614523,129,0.0,Business Logic Errors,2019-08-16
+615336,Hiro,EXIF Geolocation Data Not Stripped From Uploaded Images,hackerone.com/reports/615336,20,50.0,Information Disclosure,2019-09-03
+615448,Flickr,CSRF in Account Deletion feature (https://www.flickr.com/account/delete),hackerone.com/reports/615448,92,0.0,Cross-Site Request Forgery (CSRF),2021-09-14
+615672,Quantopian,Cross-site scripting on algorithm collaborator ,hackerone.com/reports/615672,37,2100.0,Cross-site Scripting (XSS) - Stored,2022-12-21
+615840,GSA Bounty,"Blind Stored XSS In  ""Report a Problem"" on www.data.gov/issue/",hackerone.com/reports/615840,21,300.0,Cross-site Scripting (XSS) - Stored,2019-08-07
+616770,Concrete CMS,"Stored XSS in Conversations (both client and admin) when Active Conversation Editor is set to ""Rich Text""",hackerone.com/reports/616770,5,0.0,Cross-site Scripting (XSS) - Stored,2021-10-04
+617543,Uber,Arbitrary File Reading on Uber SSL VPN,hackerone.com/reports/617543,38,6500.0,Plaintext Storage of a Password,2021-02-25
+617896,GitLab,Bypass Email Verification using Salesforce -- Reproducible in gitlab.com,hackerone.com/reports/617896,55,0.0,Violation of Secure Design Principles,2019-12-13
+618031,Shopify,Stored XSS in Discounts section,hackerone.com/reports/618031,75,1000.0,Cross-site Scripting (XSS) - Generic,2019-06-27
+619484,Nextcloud,User with read-only access to a share can gain write access to sub-folders in the share,hackerone.com/reports/619484,17,0.0,Privilege Escalation,2020-03-01
+619578,Unikrn,Rate Limit workaround in the message of the phone number verification ,hackerone.com/reports/619578,7,100.0,Improper Restriction of Authentication Attempts,2019-07-26
+621308,shopify-scripts,NULL pointer dereference in `mrb_check_frozen`,hackerone.com/reports/621308,9,1000.0,NULL Pointer Dereference,2019-09-04
+622122,PayPal,DoS on PayPal via web cache poisoning,hackerone.com/reports/622122,851,9700.0,Uncontrolled Resource Consumption,2019-10-23
+622170,Nextcloud,Arbitrary code execution in desktop client via OpenSSL config,hackerone.com/reports/622170,59,100.0,Code Injection,2020-08-05
+622864,U.S. Dept Of Defense,https://█████████ Vulnerable to CVE-2018-0296 Cisco ASA Path Traversal Authentication Bypass,hackerone.com/reports/622864,6,0.0,Path Traversal,2019-10-04
+622937,Urban Company,Private ip leaking through response,hackerone.com/reports/622937,14,0.0,Information Disclosure,2021-06-16
+623588,Internet Bug Bounty,Uninitialized read in gdImageCreateFromXbm,hackerone.com/reports/623588,1,0.0,Information Disclosure,2020-10-10
