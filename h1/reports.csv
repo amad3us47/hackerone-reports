@@ -7308,3 +7308,190 @@ id,program,title,link,upvotes,bounty,vuln_type,date
 868615,Shopify,Inject page in admin panel via Shopify.API.pushState with protocol invalid,hackerone.com/reports/868615,39,500.0,Cross-site Scripting (XSS) - DOM,2020-12-27
 868834,Node.js,Denial of Service by resource exhaustion CWE-400 due to unfinished HTTP/1.1 requests,hackerone.com/reports/868834,8,250.0,Uncontrolled Resource Consumption,2020-10-17
 868934,DuckDuckGo,DOM XSS on duckduckgo.com search,hackerone.com/reports/868934,326,0.0,,2020-06-14
+869450,U.S. Dept Of Defense,Support incident can be opened for any user via /███████ and PII leak via █████████ field,hackerone.com/reports/869450,6,0.0,Improper Access Control - Generic,2021-02-18
+869574,Node.js third-party modules,SQL Injection or Denial of Service due to a Prototype Pollution,hackerone.com/reports/869574,8,0.0,SQL Injection,2020-07-24
+869605,Shopify,Subdomain takeover in help.tictail.com pointing to Zendesk (a Shopify acquisition),hackerone.com/reports/869605,5,0.0,Privilege Escalation,2020-08-24
+869831,Shopify,XSS within Shopify Email App - Admin,hackerone.com/reports/869831,50,0.0,Cross-site Scripting (XSS) - Stored,2020-09-14
+869888,Shopify,Path Traversal in App Proxy,hackerone.com/reports/869888,29,0.0,Path Traversal,2020-08-24
+870001,Shopify,access permission is not revoked even if the email has been deleted or changed on the partner account -partners.shopify-,hackerone.com/reports/870001,7,0.0,,2020-08-18
+870062,Rockstar Games,Referer Referer Header Leakage in language changer may lead to FB token theft,hackerone.com/reports/870062,3,0.0,Information Disclosure,2020-06-24
+870615,Kaspersky,[Fixed] A vulnerability in KAVKIS 2020 products family allows full disabling of protection,hackerone.com/reports/870615,15,0.0,Code Injection,2021-03-31
+870703,Automattic,Stored XSS in assets.txmblr.com,hackerone.com/reports/870703,10,0.0,Cross-site Scripting (XSS) - Stored,2020-05-11
+870709,Palo Alto Software,Unauthorised access to pagespeed global admin at https://webtools.paloalto.com/,hackerone.com/reports/870709,11,0.0,Improper Access Control - Generic,2020-05-14
+871071,Node.js third-party modules,[gfc] Command Injection via insecure command formatting,hackerone.com/reports/871071,3,0.0,Command Injection - Generic,2020-10-27
+871142,HackerOne,Disclosure of the name of a program that has a private part with an external link,hackerone.com/reports/871142,46,500.0,Information Disclosure,2020-05-22
+871156,Node.js third-party modules,[plain-object-merge] Prototype pollution,hackerone.com/reports/871156,2,0.0,Modification of Assumed-Immutable Data (MAID),2021-03-13
+871749,HackerOne,Unauthorized access to metadata of undisclosed reports that were retested,hackerone.com/reports/871749,189,0.0,Information Disclosure,2020-06-05
+872089,curl,Curl_auth_create_plain_message integer overflow leads to heap buffer overflow,hackerone.com/reports/872089,0,0.0,Incorrect Calculation of Buffer Size,2021-01-08
+872190,Kubernetes,Plaintext storage of a password on kubernetes release bucket,hackerone.com/reports/872190,0,0.0,Plaintext Storage of a Password,2021-01-07
+872304,U.S. Dept Of Defense,RXSS - https://████████/,hackerone.com/reports/872304,17,0.0,Cross-site Scripting (XSS) - Reflected,2021-10-18
+873474,Concrete CMS,Stored XSS on express entries,hackerone.com/reports/873474,5,0.0,Cross-site Scripting (XSS) - Stored,2020-07-03
+873584,Concrete CMS,Stored XSS in the file search filter,hackerone.com/reports/873584,8,0.0,Cross-site Scripting (XSS) - Stored,2020-07-03
+873614,PlayStation,Websites Can Run Arbitrary Code on Machines Running the 'PlayStation Now' Application,hackerone.com/reports/873614,777,15000.0,Code Injection,2020-12-04
+874017,U.S. Dept Of Defense,"SSN is exposed on slides, previous critical report was not fixed in an appropriate way",hackerone.com/reports/874017,9,0.0,Cleartext Storage of Sensitive Information,2020-06-11
+874198,VK.com,[m.vk.com] XSS на страницах /artist/ ,hackerone.com/reports/874198,13,500.0,Cross-site Scripting (XSS) - DOM,2021-01-08
+874228,U.S. Dept Of Defense,HTML Injection leads to XSS on███,hackerone.com/reports/874228,4,0.0,Cross-site Scripting (XSS) - Generic,2020-07-30
+874401,GitLab,Use of Ruby Forwardable module and runtime meta-programming may introduce vulnerabilities,hackerone.com/reports/874401,2,0.0,Information Disclosure,2021-11-15
+874427,U.S. Dept Of Defense,"Tomcat examples available for public, Disclosure Apache Tomcat version, Critical/High/Medium CVE",hackerone.com/reports/874427,8,0.0,Information Exposure Through an Error Message,2020-06-11
+874482,Insulet Corporation,Subdomain Takeover due to unclaimed domain pointing to Acquia Cloud,hackerone.com/reports/874482,18,0.0,Misconfiguration,2021-01-14
+874574,Shopify,Partner's non-verified business email change reflected into Shopify Collaborator Request,hackerone.com/reports/874574,8,0.0,Improper Access Control - Generic,2020-09-14
+874778,curl,CVE-2020-8169: Partial password leak over DNS on HTTP redirect,hackerone.com/reports/874778,21,0.0,Information Disclosure,2020-12-05
+874924,U.S. Dept Of Defense,RCE (Remote code execution) in one of DoD's websites ,hackerone.com/reports/874924,9,0.0,Cryptographic Issues - Generic,2020-07-30
+875049,U.S. Dept Of Defense,Register with non accepted email types on https://███████,hackerone.com/reports/875049,6,0.0,Improper Authentication - Generic,2021-02-10
+875775,curl,Invalid write (or double free) triggers curl command line tool crash,hackerone.com/reports/875775,4,0.0,Double Free,2020-05-18
+876022,Lark Technologies,RPC Implementation allows unauthenticated remote calls,hackerone.com/reports/876022,39,1250.0,Cross-site Scripting (XSS) - DOM,2021-02-10
+876148,DuckDuckGo,DOM XSS on duckduckgo.com search,hackerone.com/reports/876148,74,0.0,Cross-site Scripting (XSS) - Reflected,2020-06-26
+876192,Brave Software,Cookie steal through content Uri,hackerone.com/reports/876192,78,0.0,Weak Password Recovery Mechanism for Forgotten Password,2021-04-22
+876257,Stripo Inc,Integer Overflow (CVE_2017_7529),hackerone.com/reports/876257,6,0.0,Integer Overflow,2020-07-13
+876295,Starbucks,Misuse of an authentication cookie combined with a path traversal on app.starbucks.com permitted access to restricted data,hackerone.com/reports/876295,238,0.0,Path Traversal,2020-06-16
+876300,Starbucks,Singapore - Account Takeover via IDOR,hackerone.com/reports/876300,259,0.0,Insecure Direct Object Reference (IDOR),2020-07-28
+876530,Monero,Remote node DOS,hackerone.com/reports/876530,24,0.0,Uncontrolled Resource Consumption,2026-06-29
+876708,U.S. Dept Of Defense,Remote Code Execution through DNN Cookie Deserialization ,hackerone.com/reports/876708,56,0.0,OS Command Injection,2020-05-27
+876719,Valve,Signedness issue in ClassInfo message handler leads to RCE on CS:GO client,hackerone.com/reports/876719,35,7500.0,Array Index Underflow,2021-05-27
+876751,Kubernetes,Private RSA key and Server key exposed on the GitHub repository,hackerone.com/reports/876751,3,0.0,Cleartext Storage of Sensitive Information,2020-10-22
+876800,Concrete CMS,Time-base SQL Injection in Search Users,hackerone.com/reports/876800,60,0.0,SQL Injection,2020-08-05
+877300,Lark Technologies,User with single department permission can view applicant list of all department's,hackerone.com/reports/877300,20,0.0,Privilege Escalation,2021-03-03
+877303,Kubernetes,Internal IP addresses range and AWS cluster region leaked in a Github repository ,hackerone.com/reports/877303,0,0.0,Insecure Storage of Sensitive Information,2020-07-24
+877402,Kubernetes,Hard coded Username and password in GiHub commit,hackerone.com/reports/877402,0,0.0,Use of Hard-coded Credentials,2020-07-24
+877515,Node.js third-party modules,[keyd] Prototype pollution,hackerone.com/reports/877515,1,0.0,Modification of Assumed-Immutable Data (MAID),2020-09-14
+877598,U.S. Dept Of Defense,PII/PHI data available on web https://████████Portals/22/Documents/Meetings,hackerone.com/reports/877598,11,0.0,Cleartext Storage of Sensitive Information,2020-06-25
+877642,HackerOne,GraphQL field on Team node can be used to determine if External Program runs invite-only program,hackerone.com/reports/877642,107,2500.0,Information Disclosure,2020-07-25
+878145,Lab45,Blind stored XSS due to insecure contact form at https://www.topcoder.com leads to leakage of session token and other PII,hackerone.com/reports/878145,19,0.0,Cross-site Scripting (XSS) - Stored,2020-08-07
+878181,Node.js,Child process environment injection via prototype pollution,hackerone.com/reports/878181,3,0.0,Code Injection,2020-07-04
+878332,Node.js third-party modules,[object-path-set] Prototype pollution,hackerone.com/reports/878332,0,0.0,Modification of Assumed-Immutable Data (MAID),2020-08-20
+878339,Node.js third-party modules,[extend-merge] Prototype pollution,hackerone.com/reports/878339,5,0.0,Modification of Assumed-Immutable Data (MAID),2020-09-06
+878394,Node.js third-party modules,[objtools] Prototype pollution,hackerone.com/reports/878394,1,0.0,Modification of Assumed-Immutable Data (MAID),2020-09-14
+878420,Node.js third-party modules,[windows-edge] RCE via insecure command formatting,hackerone.com/reports/878420,3,0.0,Code Injection,2020-08-24
+878434,8x8,vidyard api auth_token exposed,hackerone.com/reports/878434,12,0.0,Information Disclosure,2020-12-15
+878724,LinkedIn,LinkedIn users primary email + full name visibilty,hackerone.com/reports/878724,73,0.0,Information Disclosure,2023-09-25
+878779,GitLab,Full Read SSRF on Gitlab's Internal Grafana,hackerone.com/reports/878779,228,0.0,Server-Side Request Forgery (SSRF),2020-08-07
+879562,8x8,Admin Reseller Account Disclosure,hackerone.com/reports/879562,19,0.0,Information Disclosure,2020-12-15
+879582,Xiaomi,"CORS Misconfiguration, could lead to disclosure of users information",hackerone.com/reports/879582,33,0.0,,2021-03-01
+879740,Central Security Project,Repositories of datanucleus are fetched over insecure protocol (http insted of https),hackerone.com/reports/879740,1,0.0,Man-in-the-Middle,2020-10-05
+879803,Node.js third-party modules,Bypass of SSRF Vulnerability,hackerone.com/reports/879803,9,0.0,Server-Side Request Forgery (SSRF),2021-06-28
+879960,8x8,IDOR: Adding Contacts to Other User Groups,hackerone.com/reports/879960,7,0.0,Insecure Direct Object Reference (IDOR),2020-07-27
+879984,Xiaomi,DOM-based XSS in d.miwifi.com on IE 11,hackerone.com/reports/879984,15,0.0,Cross-site Scripting (XSS) - DOM,2021-03-01
+880099,GitLab,Unrestricted file upload leads to Stored XSS,hackerone.com/reports/880099,89,0.0,Cross-site Scripting (XSS) - Stored,2020-08-03
+880187,HackerOne,Near to Infinite loop when changing Group's name that has API token as Team Member,hackerone.com/reports/880187,77,2500.0,,2020-07-23
+880730,Courier,"SSO Provider Credential Cache (logged out of Google/GitHub, could still log into Courier)",hackerone.com/reports/880730,1,0.0,,2020-07-20
+880863,GitLab,Todos are not redacted when membership changes - Access to (confidential) issues and merge requests,hackerone.com/reports/880863,7,0.0,Information Disclosure,2020-11-02
+881004,Nutanix,AWS S3 bucket writeable for authenticated AWS users,hackerone.com/reports/881004,6,0.0,Improper Authentication - Generic,2020-05-26
+881115,Starbucks,Cross-Site Scripting (XSS) on www.starbucks.com | .co.uk login pages,hackerone.com/reports/881115,77,0.0,Cross-site Scripting (XSS) - Generic,2020-06-30
+881186,Stripo Inc,[www.stripo.email] You can bypass the speed limit by changing the IP.,hackerone.com/reports/881186,8,0.0,Information Exposure Through Debug Information,2020-06-30
+881548,Starbucks,Default credentials for the temporary POC site alipoc.stg.starbucks.com.cn permitted WAF bypass and RCE,hackerone.com/reports/881548,19,0.0,OS Command Injection,2020-06-16
+881557,Slack,Stored XSS through PDF viewer,hackerone.com/reports/881557,76,4875.0,Cross-site Scripting (XSS) - Stored,2022-03-16
+881713,Node.js third-party modules,[last-commit-log] Command Injection,hackerone.com/reports/881713,6,0.0,Command Injection - Generic,2020-11-29
+881855,WordPress,Arbitrary change of blog's background image via CSRF,hackerone.com/reports/881855,21,0.0,Cross-Site Request Forgery (CSRF),2020-12-14
+881891,ownCloud,File System Monitoring Queue Overflow,hackerone.com/reports/881891,2,0.0,Business Logic Errors,2021-12-03
+881918,WordPress,Authenticated Stored Cross-site Scripting in bbPress,hackerone.com/reports/881918,24,0.0,Cross-site Scripting (XSS) - Stored,2020-06-29
+882220,U.S. Dept Of Defense,XSS via X-Forwarded-Host header,hackerone.com/reports/882220,16,0.0,Cross-site Scripting (XSS) - Reflected,2021-05-11
+882258,Nextcloud,New users can read all Nextcloud Deck data from previous user with same username,hackerone.com/reports/882258,3,0.0,Insecure Direct Object Reference (IDOR),2021-02-14
+882412,Shopify,OrderListInitial leaks order details,hackerone.com/reports/882412,2,1500.0,Information Disclosure,2020-08-18
+882546,Automattic,DOM-Based XSS in tumblr.com,hackerone.com/reports/882546,91,0.0,Cross-site Scripting (XSS) - DOM,2020-07-27
+882733,Xiaomi,Insecure file upload in xiaoai.mi.com Lead to Stored  XSS,hackerone.com/reports/882733,117,0.0,Cross-site Scripting (XSS) - Stored,2021-03-09
+882848,GitLab,Possibilty to purchase Ultimate - 1 Year (EDU or OSS),hackerone.com/reports/882848,23,0.0,Business Logic Errors,2020-11-02
+882923,Kubernetes,DoS for client-go jsonpath func,hackerone.com/reports/882923,6,0.0,Uncontrolled Resource Consumption,2020-07-24
+883151,Starbucks,Singapore - Unrestricted File Upload Leads to XSS on campaign.starbucks.com.sg/api/upload,hackerone.com/reports/883151,61,0.0,Cross-site Scripting (XSS) - Stored,2020-07-22
+883693,U.S. Dept Of Defense,Information Disclosure(PHPINFO/Credentials) on DoD Asset,hackerone.com/reports/883693,6,0.0,Information Disclosure,2021-03-11
+883731,Rockstar Games,Minor Account Privacy can Set to Everyone.,hackerone.com/reports/883731,22,0.0,Insecure Direct Object Reference (IDOR),2021-03-02
+883867,Shopify,Inject page in admin panel via Shopify.API.pushState [New Payload],hackerone.com/reports/883867,20,500.0,Cross-site Scripting (XSS) - DOM,2020-12-27
+884159,Shopify,Ability to generate shipping labels in another store orders,hackerone.com/reports/884159,26,0.0,Insecure Direct Object Reference (IDOR),2020-08-19
+884756,U.S. Dept Of Defense,"xmlrpc.php FILE IS enable which enables attacker to XSPA Brute-force and even Denial of Service(DOS), in https://████/xmlrpc.php",hackerone.com/reports/884756,10,0.0,Uncontrolled Resource Consumption,2020-06-25
+884931,Lark Technologies,Stored xss in larksuite internal helpdesk and other user's helpdesk.,hackerone.com/reports/884931,13,0.0,Cross-site Scripting (XSS) - Stored,2021-02-19
+885031,Node.js third-party modules,[commit-msg] RCE via insecure command formatting,hackerone.com/reports/885031,0,0.0,Code Injection,2020-09-24
+885041,Nextcloud,The password of a mail share is not hashed if the password is given when the share is created,hackerone.com/reports/885041,2,0.0,Plaintext Storage of a Password,2020-10-28
+885539,X / xAI,Private list members disclosure via GraphQL,hackerone.com/reports/885539,346,0.0,Improper Access Control - Generic,2020-08-04
+887167,Stripo Inc,multiple email usage -my.stripo.email-,hackerone.com/reports/887167,7,0.0,Improper Access Control - Generic,2020-07-03
+887321,HackerOne,Uploading large payload on domain instructions causes server-side DoS,hackerone.com/reports/887321,210,2500.0,Uncontrolled Resource Consumption,2020-06-20
+887462,curl,CVE-2020-8177: curl overwrite local file with -J,hackerone.com/reports/887462,55,0.0,Improper Input Validation,2020-12-05
+887611,h1-ctf,[H1-2006 2020] H1-2006 CTF Writeup,hackerone.com/reports/887611,23,0.0,Information Disclosure,2020-06-18
+887700,h1-ctf,[H1-2006 2020]  Multiple vulnerabilities leading account takeover,hackerone.com/reports/887700,10,0.0,Privilege Escalation,2020-06-17
+887744,h1-ctf,[H1-2006 2020]  Got the flag,hackerone.com/reports/887744,1,0.0,Buffer Underflow,2020-06-25
+887766,h1-ctf,[H1-2006 2020]   CTF Writeup,hackerone.com/reports/887766,10,0.0,Server-Side Request Forgery (SSRF),2020-06-18
+887816,h1-ctf,[H1-2006 2020] I made the CEO's bounty payment!,hackerone.com/reports/887816,28,0.0,,2020-06-18
+887818,h1-ctf,[H1-2006 2020] I successfully solved it!,hackerone.com/reports/887818,64,0.0,,2020-06-18
+887879,Shopify,xss stored in https://your store.myshopify.com/admin/,hackerone.com/reports/887879,46,1000.0,Cross-site Scripting (XSS) - Stored,2020-08-24
+887889,h1-ctf,[H1-2006 2020]  H1-CTF writeup,hackerone.com/reports/887889,3,0.0,,2020-06-18
+887993,h1-ctf,[H1-2006 2020] CTF,hackerone.com/reports/887993,5,0.0,Violation of Secure Design Principles,2020-06-18
+888021,Node.js third-party modules,[wappalyzer] ReDoS allows an attacker to completely break Wappalyzer,hackerone.com/reports/888021,4,0.0,Uncontrolled Resource Consumption,2020-06-18
+888030,Node.js third-party modules,[wappalyzer] ReDoS allows an attacker to completely break Wappalyzer,hackerone.com/reports/888030,6,0.0,Uncontrolled Resource Consumption,2020-08-06
+888141,h1-ctf,[H1-2006 2020] Flag for H1-CTF,hackerone.com/reports/888141,18,0.0,,2020-06-18
+888176,Ruby on Rails,HTTP Host injection in redirect_to function,hackerone.com/reports/888176,6,0.0,Improper Neutralization of HTTP Headers for Scripting Syntax,2021-06-15
+888253,h1-ctf,[H1-2006 2020] CTF Writeup,hackerone.com/reports/888253,10,0.0,,2020-07-06
+888261,Nextcloud,The password of a mail share is not set if the password is given when the share is created (Nextcloud < 18),hackerone.com/reports/888261,7,0.0,Improper Access Control - Generic,2021-03-04
+888331,h1-ctf,[H1-2006 2020]  ^FLAG^736c635d8842751b8aafa556154eb9f3$FLAG$,hackerone.com/reports/888331,4,0.0,,2020-06-18
+888484,h1-ctf,[H1-2006 2020] [Multiple Vulnerability] CTF Writeup - @abdilahrf_,hackerone.com/reports/888484,16,0.0,,2020-06-18
+888729,Helium,Read-Only user can delete users,hackerone.com/reports/888729,19,0.0,Insecure Direct Object Reference (IDOR),2020-07-10
+888930,HackerOne,SAML Response Reuse on hackerone.com/users/saml/auth,hackerone.com/reports/888930,26,0.0,Improper Authentication - Generic,2020-07-24
+888939,h1-ctf,[H1-2006 2020] CTF Writeup,hackerone.com/reports/888939,13,0.0,,2020-06-18
+888986,Internet Bug Bounty,[CVE-2020-10543] Buffer overflow caused by a crafted regular expression,hackerone.com/reports/888986,10,0.0,Heap Overflow,2020-11-09
+889041,Urban Dictionary,DOM XSS through ads,hackerone.com/reports/889041,18,0.0,Cross-site Scripting (XSS) - DOM,2022-01-18
+889160,curl,Poll loop/hang on incomplete HTTP header,hackerone.com/reports/889160,3,0.0,Uncontrolled Resource Consumption,2021-01-22
+889243,Nextcloud,Re-Sharing allows increase of privileges,hackerone.com/reports/889243,92,0.0,Improper Privilege Management,2020-09-28
+889293,h1-ctf,[H1-2006 2020] CTF Writeup!,hackerone.com/reports/889293,13,0.0,,2020-06-17
+889333,h1-ctf,[H1-2006 2020]  The Story of Making Bounty Hunters Happy,hackerone.com/reports/889333,3,0.0,Improper Access Control - Generic,2020-06-19
+889793,h1-ctf,[H1-2006 2020]  36 hours of brain cycles utilized on solving a neat puzzle,hackerone.com/reports/889793,13,0.0,,2020-06-18
+889795,Nextcloud,"Allows any user to share their ""Root"" level folder by sharing "".""",hackerone.com/reports/889795,9,0.0,Improper Access Control - Generic,2020-06-03
+889886,h1-ctf,[H1-2006 2020]  Connecting the dots to send hackers their Bug Bounty,hackerone.com/reports/889886,30,0.0,Code Injection,2020-06-18
+890196,h1-ctf,[H1-2006 2020]  Multiple vulnerabilities lead to CEO account takeover and paid bounties,hackerone.com/reports/890196,4,0.0,Improper Authentication - Generic,2020-06-18
+890209,Lark Technologies,Sub-Dept User Can Add User's To Main Department.,hackerone.com/reports/890209,10,0.0,Improper Privilege Management,2022-10-18
+890272,h1-ctf,"[H1-2006 2020]  ""Swiss Cheese"" design style leads to helping Mårten Mickos pay poor hackers",hackerone.com/reports/890272,6,0.0,Execution with Unnecessary Privileges,2020-06-18
+890555,h1-ctf,[H1-2006 2020] CTF write-up,hackerone.com/reports/890555,4,0.0,Server-Side Request Forgery (SSRF),2020-06-18
+891093,h1-ctf,[H1-2006 2020] Solution for the h1-2006 CTF challenge,hackerone.com/reports/891093,3,0.0,Privilege Escalation,2020-06-18
+891270,Node.js third-party modules,[Uppy] Internal Server side request forgery (bypass of #786956),hackerone.com/reports/891270,23,0.0,Server-Side Request Forgery (SSRF),2020-06-28
+891846,Internet Bug Bounty,CVE-2020-9383 Floppy OOB read,hackerone.com/reports/891846,3,750.0,Buffer Over-read,2021-08-22
+892049,Lark Technologies,Stored XSS & SSRF in Lark Docs,hackerone.com/reports/892049,178,3000.0,Server-Side Request Forgery (SSRF),2021-02-05
+892289,Imgur,self-xss with ClickJacking can leads to account takeover in Firefox,hackerone.com/reports/892289,17,0.0,Cross-site Scripting (XSS) - DOM,2020-11-17
+892337,h1-ctf,"[H1-2006 2020] [CTF Writeup] A story about Bounty Payments, Collaboration & Community",hackerone.com/reports/892337,3,0.0,Privilege Escalation,2020-06-18
+892632,h1-ctf,[H1-2006 2020] CTF writeup,hackerone.com/reports/892632,4,0.0,,2020-06-18
+892667,U.S. Dept Of Defense,Subdomain takeover of ███,hackerone.com/reports/892667,5,0.0,Privilege Escalation,2021-09-09
+892904,Shopify,Ability to link a Google account to another staff account/store owner that isn't linked yet,hackerone.com/reports/892904,84,0.0,,2020-07-14
+893085,8x8,2FA Disable With Wrong Password - Response Tampering.,hackerone.com/reports/893085,14,0.0,Improper Input Validation,2020-10-21
+893305,h1-ctf,[H1-2006 2020] CTF Writeup,hackerone.com/reports/893305,11,0.0,Server-Side Request Forgery (SSRF),2020-06-22
+893395,h1-ctf,[H1-2006 2020] CTF Writeup,hackerone.com/reports/893395,3,0.0,,2020-06-22
+893922,Internet Bug Bounty,IP-in-IP protocol routes arbitrary traffic by default - CVE-2020-10136,hackerone.com/reports/893922,13,750.0,Improper Access Control - Generic,2021-08-15
+893970,U.S. Dept Of Defense,Sensitive information about a ██████,hackerone.com/reports/893970,15,0.0,Cleartext Storage of Sensitive Information,2020-09-21
+894110,h1-ctf,"h1-ctf writeup , finally paid the payments by chaining multiple bugs",hackerone.com/reports/894110,5,0.0,Information Disclosure,2020-06-18
+894165,h1-ctf,[h1-2006 CTF] Payments for May have been processed!,hackerone.com/reports/894165,4,0.0,Information Disclosure,2020-06-19
+894170,h1-ctf,[H1-2006 2020] Writeup,hackerone.com/reports/894170,5,0.0,Improper Access Control - Generic,2020-06-18
+894174,h1-ctf,[H1-2006 2020] In-depth resolution of the h1-2006 CTF,hackerone.com/reports/894174,4,0.0,Improper Access Control - Generic,2020-06-18
+894198,h1-ctf,[H1-2006 2020]  Includes 1 free content discovery,hackerone.com/reports/894198,3,0.0,Improper Restriction of Authentication Attempts,2020-06-18
+894308,Node.js third-party modules,Arbitrary code execution via untrusted schemas in is-my-json-valid,hackerone.com/reports/894308,6,0.0,Code Injection,2020-07-31
+894518,Shopify,xss on polaris.shopify.com/demo using postMessage,hackerone.com/reports/894518,5,0.0,Cross-site Scripting (XSS) - DOM,2021-02-11
+894569,GitLab,An attacker can run pipeline jobs as arbitrary user,hackerone.com/reports/894569,307,12000.0,Business Logic Errors,2020-08-26
+894604,h1-ctf,[H1-2006 2020] CTF write-up,hackerone.com/reports/894604,8,0.0,Privilege Escalation,2020-06-18
+894623,h1-ctf,@shakedko H1-2006 CTF writeup,hackerone.com/reports/894623,6,0.0,,2020-07-06
+894863,h1-ctf,[H1-2006 2020] From multiple vulnerabilities to complete ATO on any customer account and staff admin,hackerone.com/reports/894863,9,0.0,Violation of Secure Design Principles,2020-06-22
+894876,Nextcloud,XSS through image upload of contacts using svg file,hackerone.com/reports/894876,22,100.0,Cross-site Scripting (XSS) - Stored,2020-12-17
+894880,BlockDev Sp. Z o.o,Email HTML injection ,hackerone.com/reports/894880,5,0.0,,2020-06-10
+894922,Nintendo,[3DS][SSL] Improper certificate validation allows an attacker to perform MitM attacks,hackerone.com/reports/894922,129,0.0,Improper Certificate Validation,2020-12-18
+894949,h1-ctf,[H1-2006 2020] Exploiting multiple vulnerabilities to get hacker's payment ensured,hackerone.com/reports/894949,4,0.0,Improper Privilege Management,2020-06-18
+895172,h1-ctf,"[H1-2006 2020] Bypassing access control checks by modifying the URL, internal application state, or the HTML page, or using a custom API attack tool",hackerone.com/reports/895172,23,0.0,Privilege Escalation,2020-06-22
+895202,h1-ctf,[H1-2006 2020] Multiple vulnerabilities allow to leak sensitive information ,hackerone.com/reports/895202,11,0.0,Improper Access Control - Generic,2020-06-22
+895587,h1-ctf,[H1-2006 2020] How I solved my first H1 CTF,hackerone.com/reports/895587,2,0.0,Violation of Secure Design Principles,2020-06-18
+895650,h1-ctf,[h1-2006 2020]  Chained vulnerabilities lead to account takeover,hackerone.com/reports/895650,4,0.0,Insecure Storage of Sensitive Information,2020-06-18
+895696,GSA Bounty,Blind SSRF on https://labs.data.gov/dashboard/Campaign/json_status/ Endpoint,hackerone.com/reports/895696,61,300.0,Use of Inherently Dangerous Function,2020-07-10
+895722,h1-ctf,[h1-2006 CTF] Multiple vulnerabilities leading to account takeover and two-factor authentication bypass allows to send pending bounty payments,hackerone.com/reports/895722,4,0.0,,2020-07-06
+895727,Ruby on Rails,Rack parses encoded cookie names allowing an attacker to send malicious `__Host-` and `__Secure-` prefixed cookies,hackerone.com/reports/895727,46,0.0,Reliance on Cookies without Validation and Integrity Checking in a Security Decision,2020-06-16
+895730,Nextcloud,Contacts menu (not app) fails to restrict (to local groups) for contacts from federated servers,hackerone.com/reports/895730,3,0.0,Information Disclosure,2020-07-25
+895769,Nintendo,[3DS][SSL] Use of uninitialized class member leads to RCE in eShop movie player,hackerone.com/reports/895769,38,0.0,Use After Free,2020-12-18
+895772,h1-ctf,[h1-2006 2020] Write up for H1-2006 CTF,hackerone.com/reports/895772,7,0.0,,2020-06-18
+895778,h1-ctf,[H1-2006] CTF Writeup,hackerone.com/reports/895778,10,0.0,Improper Access Control - Generic,2020-06-19
+895780,h1-ctf,[h1-2006 2020] CTF Walkthrough,hackerone.com/reports/895780,7,0.0,Server-Side Request Forgery (SSRF),2020-06-18
+895795,h1-ctf,[h1-2006 2020]  Writeup h12006 CTF,hackerone.com/reports/895795,2,0.0,Privilege Escalation,2020-06-19
+895798,h1-ctf,[H1-2006 2020] Bounty Pay CTF challenge,hackerone.com/reports/895798,11,0.0,Improper Access Control - Generic,2020-06-18
+895824,h1-ctf,[h1-2006 2020] Bounty payments are done !,hackerone.com/reports/895824,12,0.0,Server-Side Request Forgery (SSRF),2020-09-14
+895917,8x8,DOM Based XSS at docs.8x8.com,hackerone.com/reports/895917,9,0.0,Cross-site Scripting (XSS) - DOM,2020-09-22
+895972,GSA Bounty,Limited LFI,hackerone.com/reports/895972,48,300.0,Remote File Inclusion,2020-07-09
+896093,U.S. Dept Of Defense,(CORS) Cross-origin resource sharing misconfiguration,hackerone.com/reports/896093,14,0.0,Business Logic Errors,2020-07-14
+896338,Monero,Misconfiguration in build environment allows DLL preloading attack,hackerone.com/reports/896338,5,0.0,,2022-01-29
+896511,Nextcloud,XSS in image metadata field,hackerone.com/reports/896511,12,0.0,Cross-site Scripting (XSS) - Stored,2020-08-05
+896522,Nextcloud,Reflected XSS when renaming a file with a vulnerable name which results in an error,hackerone.com/reports/896522,17,100.0,Cross-site Scripting (XSS) - Reflected,2021-03-01
+897556,Greenhouse.io,SSH port on store.greenhouse.io is vulnerable to brute force attacks,hackerone.com/reports/897556,8,0.0,Improper Restriction of Authentication Attempts,2020-06-22
+897606,Nintendo,[3DS][SSL][SDK] Unchecked number of audio channels in Mobiclip SDK leads to RCE in eShop movie player,hackerone.com/reports/897606,43,0.0,Heap Overflow,2020-12-18
+897974,Node.js third-party modules,Arbitrary code execution via untrusted schemas in ajv,hackerone.com/reports/897974,1,0.0,Code Injection,2020-08-14
+898528,Shopify,GraphQL AdminGenerateSessionPayload is leaked to staff with no permission,hackerone.com/reports/898528,173,0.0,,2020-07-16
+898614,Ruby,DRb denial of service vulnerability,hackerone.com/reports/898614,1,0.0,Uncontrolled Resource Consumption,2021-03-07
+898841,Shopify,Password reset link not expired at Stocky App,hackerone.com/reports/898841,19,500.0,Improper Access Control - Generic,2020-08-18
+899069,Ruby on Rails,Untrusted users able to run pending migrations in production,hackerone.com/reports/899069,3,0.0,Uncontrolled Resource Consumption,2020-07-24
+899103,Kubernetes,Man in the middle leading to root privilege escalation using hostNetwork=true (CAP_NET_RAW considered harmful),hackerone.com/reports/899103,4,0.0,Man-in-the-Middle,2021-10-08
