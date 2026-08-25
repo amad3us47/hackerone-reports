@@ -8323,3 +8323,158 @@ id,program,title,link,upvotes,bounty,vuln_type,date
 1078373,Acronis,Credentials leaked via Github,hackerone.com/reports/1078373,26,50.0,Use of Hard-coded Credentials,2024-08-26
 1079561,Valve,Big Picture web browser leaks login cookies and discloses sensitive information (may lead to account takeover),hackerone.com/reports/1079561,59,0.0,Information Disclosure,2021-09-21
 1079630,Acronis,licenses key disclosure,hackerone.com/reports/1079630,35,50.0,Cleartext Storage of Sensitive Information,2021-02-09
+1080437,Bumble,Bumble API exposes read status of chat messages,hackerone.com/reports/1080437,74,600.0,Information Disclosure,2021-03-13
+1080700,Lark Technologies,Viewer is able to leak the previous versions of the file,hackerone.com/reports/1080700,17,0.0,Improper Access Control - Generic,2022-10-24
+1080839,CS Money,Able to upload backgrounds before entering 2FA,hackerone.com/reports/1080839,5,0.0,Improper Authentication - Generic,2021-02-03
+1080901,Kartpay,Misconfiguration of Merchant id in jwt header + Weird Debug mode enabling behavior leads to exposed OTP of mobile number.,hackerone.com/reports/1080901,6,0.0,Improper Authentication - Generic,2021-01-20
+1081137,ImpressCMS,Incorrect Authorization Checks in /include/findusers.php,hackerone.com/reports/1081137,4,0.0,Incorrect Authorization,2022-03-22
+1081145,ImpressCMS,SQL Injection through /include/findusers.php,hackerone.com/reports/1081145,30,0.0,SQL Injection,2022-10-06
+1081167,Shopify,Read/Write arbitrary (non-HttpOnly) cookies on checkout pages via GoogleAnalyticsAdditionalScripts postMessage handler,hackerone.com/reports/1081167,16,1600.0,Cross-site Scripting (XSS) - Generic,2022-12-01
+1081211,Nextcloud,[nextcloud.com] Control character allowed in Submit Question,hackerone.com/reports/1081211,5,0.0,Improper Access Control - Generic,2021-01-20
+1081406,Revive Adserver,Open redirect in ck.php and lg.php,hackerone.com/reports/1081406,2,0.0,Open Redirect,2021-01-20
+1081656,Informatica,Html injection on ██████.informatica.com via search.html?q=1,hackerone.com/reports/1081656,20,0.0,Code Injection,2021-02-12
+1081747,Acronis,Cross Site Scripting (Reflected) on https://www.acronis.cz/dotaznik/roadshow-2020/,hackerone.com/reports/1081747,22,50.0,Cross-site Scripting (XSS) - Reflected,2024-08-26
+1081750,Informatica,loing in to marketplace panel on enablement.informatica.com,hackerone.com/reports/1081750,11,0.0,Improper Authentication - Generic,2021-01-20
+1081766,Enjin,Unrestricted Upload of File with Dangerous Type,hackerone.com/reports/1081766,20,0.0,Business Logic Errors,2021-01-20
+1081878,ImpressCMS,Arbitrary File Deletion via Path Traversal in image-edit.php,hackerone.com/reports/1081878,7,0.0,Path Traversal,2022-03-22
+1081986,ImpressCMS,"Potential Authentication Bypass through ""autologin"" feature",hackerone.com/reports/1081986,5,0.0,,2022-03-22
+1081994,U.S. Dept Of Defense,Stored XSS at https://www.█████████.mil,hackerone.com/reports/1081994,6,0.0,Cross-site Scripting (XSS) - Stored,2021-02-01
+1082288,Kartpay,Disclosure of Merchant_id into the source code without entered OTP code leads to Victims MID takeover.,hackerone.com/reports/1082288,19,0.0,Information Disclosure,2021-03-08
+1082521,Kartpay,Full Path Disclosure of Server through 500 Server Error,hackerone.com/reports/1082521,3,0.0,Information Disclosure,2021-08-16
+1082774,Rockstar Games,phpinfo() on graph.rockstargames.com exposes sensitive information,hackerone.com/reports/1082774,20,0.0,Information Disclosure,2021-01-21
+1082847,Superhuman (formerly Grammarly),Config override using non-validated query parameter allows at least reflected XSS by injecting configuration into state,hackerone.com/reports/1082847,223,0.0,Business Logic Errors,2021-03-01
+1082891,Kartpay,Duplicate Entry of email leads to 500 Server Error which disclosing the SQL Database table information,hackerone.com/reports/1082891,39,0.0,Information Disclosure,2021-03-14
+1082900,Elastic,Over-Privileged API Credentials for Elastic Agent,hackerone.com/reports/1082900,3,1300.0,Violation of Secure Design Principles,2021-03-29
+1082991,LY Corporation,Webview address bar spoofing in LINE client for iOS,hackerone.com/reports/1082991,36,0.0,Phishing,2021-09-15
+1083231,Revive Adserver,Reflected XSS on /admin/userlog-index.php,hackerone.com/reports/1083231,20,0.0,Cross-site Scripting (XSS) - Reflected,2021-01-26
+1083376,Revive Adserver,Reflected XSS on /admin/stats.php,hackerone.com/reports/1083376,24,0.0,Cross-site Scripting (XSS) - Reflected,2021-01-26
+1083421,TikTok,Blocked user can send notification by liking the message due to Logical Bug,hackerone.com/reports/1083421,59,0.0,Privacy Violation,2021-07-10
+1083531,Enjin,Reset password policy isn't consistent with registration / change password policy.,hackerone.com/reports/1083531,10,0.0,Business Logic Errors,2021-01-22
+1083532,Acronis,Acronis True Image 2020 Build 22510 Nonstop Backup Service Unquoted service path (privilege escalation),hackerone.com/reports/1083532,17,0.0,Privilege Escalation,2024-08-27
+1083734,Automattic,"Stored XSS on the ""www.intensedebate.com/extras-widgets"" url at ""Recent comments by"" module with malicious blog url",hackerone.com/reports/1083734,12,0.0,Cross-site Scripting (XSS) - Stored,2022-04-13
+1083922,Shopify,[h1-2102] Information disclosure - ShopifyPlus add user displays existing Shopify ID fullname,hackerone.com/reports/1083922,18,0.0,Information Disclosure,2022-02-10
+1083923,OpenMage, Sharing products with Mail allows phishing attacks due to misconfiguration.,hackerone.com/reports/1083923,38,0.0,Business Logic Errors,2021-04-25
+1084156,Acronis,Cross Site Scripting (Reflected) on https://www.acronis.cz/,hackerone.com/reports/1084156,27,50.0,Cross-site Scripting (XSS) - Reflected,2021-11-17
+1084183,Acronis,Stored XSS in profile page,hackerone.com/reports/1084183,45,50.0,Cross-site Scripting (XSS) - Stored,2021-11-14
+1084342,Internet Bug Bounty,Buffer overflow in PyCArg_repr in _ctypes/callproc.c for Python 3.x to 3.9.1,hackerone.com/reports/1084342,51,1500.0,Classic Buffer Overflow,2021-08-25
+1084638,Shopify,[h1-2102] Improper Access Control at https://shopify.plus/[id]/users/api in operation UpdateOrganizationUserRole,hackerone.com/reports/1084638,31,0.0,Improper Access Control - Generic,2022-04-21
+1084865,Shopify,[h1-2102] [Oberlo] Least privileged user can cancel account owner's subscription via POST on  /payments/subscribe ,hackerone.com/reports/1084865,51,0.0,Improper Access Control - Generic,2024-01-17
+1084892,Shopify,[h1-2102] [Plus] User with Store Management Permission can Make changeDomainEnforcementState - that should be limited to User Management Only,hackerone.com/reports/1084892,23,0.0,Improper Privilege Management,2022-04-21
+1084904,Shopify,[h1-2102] [Plus] User with Store Management Permission can Make convertUsersFromSaml/convertUsersToSaml - that should be limited to User Management,hackerone.com/reports/1084904,11,0.0,Privilege Escalation,2022-04-21
+1084939,Shopify,[h1-2102] [PLUS] User with Store Management Permission can Make enforceSamlOrganizationDomains call - that should be limited to User Management Only,hackerone.com/reports/1084939,15,0.0,Improper Authorization,2022-04-21
+1085042,Shopify,[h1-2102] Improper Access Control at https://shopify.plus/[id]/users/api in operation UpdateOrganizationUserTfaEnforcement,hackerone.com/reports/1085042,33,0.0,Improper Access Control - Generic,2022-07-11
+1085079,OpenMage,No Limit on Email Subscription,hackerone.com/reports/1085079,12,0.0,Allocation of Resources Without Limits or Throttling,2021-09-04
+1085332,Shopify,"[h1-2102] shopApps query from the graphql at /users/api returns all existing created apps, including private ones",hackerone.com/reports/1085332,34,1900.0,Information Disclosure,2022-07-15
+1085336,Snapchat,CSRF when unlocking lenses leads to lenses being forcefully installed without user interaction,hackerone.com/reports/1085336,21,250.0,Cross-Site Request Forgery (CSRF),2021-07-29
+1085546,Shopify,[h1-2102] Stored XSS in product description via `productUpdate` GraphQL query leads to XSS at handshake-web-internal.shopifycloud.com/products/[ID],hackerone.com/reports/1085546,8,1600.0,Cross-site Scripting (XSS) - Stored,2022-07-11
+1085743,OpenMage,No error thrown when IDOR attempted while editing address,hackerone.com/reports/1085743,33,0.0,Misconfiguration,2021-04-26
+1085782,U.S. Dept Of Defense,█████████ IDOR leads to disclosure of PHI/PII,hackerone.com/reports/1085782,30,0.0,Insecure Direct Object Reference (IDOR),2021-02-18
+1085914,FetLife,Stored XSS via `Create a Fetish` section.,hackerone.com/reports/1085914,98,0.0,Cross-site Scripting (XSS) - Stored,2021-02-25
+1086108,Shopify,[h1-2102] FQDN takeover on all Shopify wholesale customer domains by trailing dot (RFC 1034),hackerone.com/reports/1086108,166,3100.0,Incorrect Permission Assignment for Critical Resource,2021-03-25
+1086206,Acronis,Blind SSRF vulnerability on cz.acronis.com,hackerone.com/reports/1086206,52,0.0,Server-Side Request Forgery (SSRF),2024-08-27
+1086259,curl,Proxy-Authorization header carried to a new host on a redirect,hackerone.com/reports/1086259,2,0.0,Cleartext Transmission of Sensitive Information,2021-03-08
+1086752,OpenMage,CSRF in changing password after using reset password link,hackerone.com/reports/1086752,24,0.0,Cross-Site Request Forgery (CSRF),2021-05-27
+1086781,GitLab,Change project visibility to a restricted option,hackerone.com/reports/1086781,51,1370.0,Violation of Secure Design Principles,2021-12-30
+1086850,BlockDev Sp. Z o.o,xmlrpc.php FILE IS enabled it will used for Bruteforce attack and Denial of Service(DoS),hackerone.com/reports/1086850,14,500.0,Uncontrolled Resource Consumption,2021-02-12
+1087061,GitLab,Stored-XSS on wiki pages,hackerone.com/reports/1087061,59,0.0,Cross-site Scripting (XSS) - Stored,2021-07-13
+1087122,Shopify,[h1-2102] HTML injection in packing slips can lead to physical theft,hackerone.com/reports/1087122,22,900.0,Improper Neutralization of Script-Related HTML Tags in a Web Page (Basic XSS),2022-07-11
+1087188,Weblate,Race Condition allows to get more free trials and get more than 100 languages and strings for free,hackerone.com/reports/1087188,20,0.0,Business Logic Errors,2021-02-25
+1087189,Shopify,Open Redirect on Login Page of Stocky App,hackerone.com/reports/1087189,17,0.0,Open Redirect,2021-02-11
+1087382,Shopify,Store Deletion or Sell without authentication,hackerone.com/reports/1087382,19,0.0,Improper Authentication - Generic,2021-10-21
+1087436,TikTok,CSRF on TikTok Ads Portal,hackerone.com/reports/1087436,23,1000.0,Cross-Site Request Forgery (CSRF),2021-05-26
+1087489,Shopify,Github access token exposure,hackerone.com/reports/1087489,1564,50000.0,,2021-07-26
+1087525,X / xAI,PI leakage By Brute Forcing and Phone number deleting without using password,hackerone.com/reports/1087525,15,0.0,Improper Access Control - Generic,2021-04-22
+1087744,Shopify,Improper deep link validation ,hackerone.com/reports/1087744,13,0.0,Forced Browsing,2022-07-11
+1088159,Shopify,[h1-2102] Break permissions waterfall,hackerone.com/reports/1088159,8,500.0,,2022-02-12
+1088966,HackerOne,Ability to invite a new member on Sandbox Program,hackerone.com/reports/1088966,44,0.0,Business Logic Errors,2021-04-05
+1089116,Rocket.Chat,"Hi! Security Team Rocket.Chat, It's possible to get information about the users emails without authentication",hackerone.com/reports/1089116,12,0.0,Information Disclosure,2021-04-29
+1089205,Algolia,email verification bypass,hackerone.com/reports/1089205,67,0.0,Improper Authentication - Generic,2021-02-18
+1089502,8x8,DNS Misconfiguration (Subdomain Takeover) ███.wavecell.com,hackerone.com/reports/1089502,15,0.0,Privilege Escalation,2021-02-15
+1089583,IBM,Insecure Object Permissions for Guest User leads to access to internal documents!,hackerone.com/reports/1089583,14,0.0,Improper Authentication - Generic,2022-07-15
+1089914,GitLab,Responsible Disclosure of Privacy Leakage Issue,hackerone.com/reports/1089914,7,0.0,Privacy Violation,2021-06-29
+1089978,Shopify,[h1-2102] [Yaworski's Broskis] Suspected overcharge and chargebacks in PoS,hackerone.com/reports/1089978,12,0.0,Business Logic Errors,2021-12-03
+1089995,Brave Software,Onion-Location header allows to open arbitrary URLs including chrome:,hackerone.com/reports/1089995,40,0.0,Violation of Secure Design Principles,2023-06-22
+1090678,Ruby,Command injection in OptionParser.load,hackerone.com/reports/1090678,1,0.0,Command Injection - Generic,2021-03-07
+1090838,U.S. Dept Of Defense,CSRF in  https://███,hackerone.com/reports/1090838,15,0.0,Cross-Site Request Forgery (CSRF),2021-04-20
+1090982,Automattic,"Non-changing ""_idnonce"" value leads to CSRF on accounts at https://intensedebate.com for account takeover",hackerone.com/reports/1090982,8,0.0,Cross-Site Request Forgery (CSRF),2021-02-17
+1091118,Rocket.Chat,Blind XSS,hackerone.com/reports/1091118,12,0.0,Cross-site Scripting (XSS) - Generic,2021-12-07
+1091165,MTN Group,RXSS - http://macademy.mtnonline.com,hackerone.com/reports/1091165,23,0.0,Cross-site Scripting (XSS) - Reflected,2021-12-11
+1091209,Shopify,[h1-2102] Wholesale - CSRF to Generate Invitation Token for a Customer and Move Customer to Invited Status,hackerone.com/reports/1091209,34,0.0,Cross-Site Request Forgery (CSRF),2021-12-06
+1091296,VK.com,CSRF в виджетах ,hackerone.com/reports/1091296,15,100.0,Cross-Site Request Forgery (CSRF),2021-11-05
+1091303,Shopify,[h1-2102] [Yaworski's Broskis] Low privilege user can read POS PINs via graphql and elevate his privilege,hackerone.com/reports/1091303,46,0.0,Information Disclosure,2021-04-08
+1091380,Shopify,[h1-2102] Partner's team member with no permission can retrieve services financial data,hackerone.com/reports/1091380,17,0.0,Improper Authorization,2021-04-08
+1091403,Enjin,CSRF Bypassed on Logout Endpoint,hackerone.com/reports/1091403,19,0.0,Cross-Site Request Forgery (CSRF),2022-06-17
+1091957,OpenMage,Very long names on demo.openmage.org could redirect victim users to malicious url redirects via email contacts.,hackerone.com/reports/1091957,14,0.0,Privacy Violation,2021-04-29
+1092125,U.S. Dept Of Defense,Bypassing CORS Misconfiguration Leads to Sensitive Exposure at https://███/,hackerone.com/reports/1092125,6,0.0,Violation of Secure Design Principles,2022-04-07
+1092230,GitLab,FogBugz import attachment full SSRF requiring vulnerability in *.fogbugz.com,hackerone.com/reports/1092230,57,0.0,Server-Side Request Forgery (SSRF),2021-07-13
+1092574,"Invision Power Services, Inc.","PHP Code Injection through ""previewBlock()"" method",hackerone.com/reports/1092574,26,0.0,Code Injection,2021-05-28
+1092678,U.S. Dept Of Defense,Self stored Xss + Login Csrf,hackerone.com/reports/1092678,20,0.0,Cross-site Scripting (XSS) - Stored,2021-06-30
+1092831,Shopify,"Password reset token leak via ""Host header""  on third party website",hackerone.com/reports/1092831,11,0.0,Violation of Secure Design Principles,2022-02-10
+1092859,Kubernetes,KOPS documentation references domains which were not registered,hackerone.com/reports/1092859,5,0.0,Privilege Escalation,2021-04-02
+1093444,ExpressionEngine,"PHP Code Injection through ""Translate::save()"" method",hackerone.com/reports/1093444,19,0.0,Code Injection,2024-05-28
+1093577,MercadoLibre,Reflected Cross Site Scripting,hackerone.com/reports/1093577,42,0.0,,2024-07-23
+1093667,Zenly,Google  Maps API key stored as plain text leading to DOS and financial damage,hackerone.com/reports/1093667,51,750.0,Cleartext Storage of Sensitive Information,2021-06-29
+1093908,U.S. Dept Of Defense,IDOR leads to Leakage an ██████████ Login Information,hackerone.com/reports/1093908,11,0.0,Insufficiently Protected Credentials,2021-03-11
+1094063,Nextcloud,Take over a mail account due missing validation of account id,hackerone.com/reports/1094063,15,0.0,Improper Access Control - Generic,2021-06-01
+1094151,Rockset,Leaking Rockset API key on Github,hackerone.com/reports/1094151,19,0.0,Cleartext Storage of Sensitive Information,2021-03-02
+1094276,U.S. Dept Of Defense,Reflected XSS In https://███████,hackerone.com/reports/1094276,10,0.0,Cross-site Scripting (XSS) - Reflected,2021-02-10
+1094702,LY Corporation,Theft of arbitrary files in LINE Lite client for Android,hackerone.com/reports/1094702,12,0.0,Improper Access Control - Generic,2021-07-06
+1095612,Kubernetes,Node Validation Admission does not observe all oldObject fields,hackerone.com/reports/1095612,14,0.0,Improper Access Control - Generic,2021-09-05
+1095633,VK.com,[VK Android] Access to app protected components leads to arbitrary code execution,hackerone.com/reports/1095633,43,0.0,,2021-05-27
+1095645,WordPress,Authenticated XXE,hackerone.com/reports/1095645,41,0.0,XML External Entities (XXE),2021-05-18
+1095765,U.S. Dept Of Defense,"Reflected XSS in https://██████████ via ""████████"" parameter",hackerone.com/reports/1095765,5,0.0,Cross-site Scripting (XSS) - Reflected,2021-04-02
+1095797,Informatica,Cross site scripting  ,hackerone.com/reports/1095797,12,0.0,Cross-site Scripting (XSS) - Reflected,2021-05-17
+1095830,U.S. Dept Of Defense,CRXDE Lite/CRX is on ██████ exposed that leads to PII disclosure,hackerone.com/reports/1095830,6,0.0,Information Disclosure,2021-03-11
+1095934,FetLife,Stored XSS via Angular Expression injection via Subject while starting conversation with other users.,hackerone.com/reports/1095934,82,0.0,Cross-site Scripting (XSS) - Stored,2021-03-07
+1096043,ExpressionEngine,Non-authenticated path traversal leading to arbitrary file read ,hackerone.com/reports/1096043,34,0.0,Path Traversal,2024-05-28
+1096045,ExpressionEngine,Import/Convert user file exposure leading to logins/passwords/PII leak. ,hackerone.com/reports/1096045,22,0.0,Insecure Storage of Sensitive Information,2024-05-28
+1096058,ExpressionEngine,Stored XSS filter bypass on discussion forum. ,hackerone.com/reports/1096058,19,0.0,Cross-site Scripting (XSS) - Stored,2024-05-28
+1096061,ExpressionEngine,"Stored XSS filter bypass on discussion forum. ""URL"" tag. ",hackerone.com/reports/1096061,26,0.0,Cross-site Scripting (XSS) - Stored,2024-05-28
+1096115,ExpressionEngine,Arbitrary comment content change with GET CSRF. ,hackerone.com/reports/1096115,27,0.0,Cross-Site Request Forgery (CSRF),2024-05-28
+1096123,ImpressCMS,CSRF to XSS in /htdocs/modules/system/admin.php,hackerone.com/reports/1096123,26,0.0,Cross-Site Request Forgery (CSRF),2023-10-14
+1096128,ExpressionEngine,Arbitrary forum topic close with GET CSRF.,hackerone.com/reports/1096128,23,0.0,Cross-Site Request Forgery (CSRF),2024-05-28
+1096141,ExpressionEngine,Comment/channel unsubscribe GET CSRF,hackerone.com/reports/1096141,23,0.0,Cross-Site Request Forgery (CSRF),2024-05-28
+1096560,X / xAI,Ability to add arbitrary images/descriptions/titles to ohter people's issues via IDOR on getrevue.co,hackerone.com/reports/1096560,66,0.0,Insecure Direct Object Reference (IDOR),2021-05-26
+1096609,Shopify,https://themes.shopify.com::: Host header web cache poisoning lead to DoS,hackerone.com/reports/1096609,82,2900.0,Uncontrolled Resource Consumption,2021-04-08
+1096907,Kubernetes,API Server DoS (crash?) if many large resources (~1MB each) are concurrently/repeatedly sent to an external Validating WebHook endpoint,hackerone.com/reports/1096907,2,0.0,Uncontrolled Resource Consumption,2021-04-01
+1097217,Revive Adserver,Reflected XSS on /admin/stats.php,hackerone.com/reports/1097217,9,0.0,Cross-site Scripting (XSS) - Reflected,2021-03-16
+1097979,Revive Adserver,Reflected XSS on /admin/campaign-zone-zones.php,hackerone.com/reports/1097979,7,0.0,Cross-site Scripting (XSS) - Reflected,2021-03-16
+1098793,GitLab,Kroki Arbitrary File Read/Write ,hackerone.com/reports/1098793,41,5600.0,Improper Access Control - Generic,2021-05-21
+1098948,Kartpay,Host Header Injection,hackerone.com/reports/1098948,27,0.0,HTTP Request Smuggling,2021-05-10
+1100096,Automattic,SSRF & Blind XSS in Gravatar email ,hackerone.com/reports/1100096,34,0.0,Cross-site Scripting (XSS) - Stored,2022-01-17
+1100326,Automattic,Reflected XSS due to vulnerable version of sockjs,hackerone.com/reports/1100326,13,0.0,Cross-site Scripting (XSS) - Reflected,2022-04-29
+1100383,U.S. Dept Of Defense,Course Registration Form Allowing an attacker to dump all the candidate name who had enrolled for the course,hackerone.com/reports/1100383,36,0.0,Information Disclosure,2024-08-16
+1101500,VK.com,Stored XSS при удалении группы из беседы (m.vk.com),hackerone.com/reports/1101500,32,500.0,Cross-site Scripting (XSS) - Stored,2021-03-17
+1101771,Rockstar Games,Open redirect on https://signin.rockstargames.com/connect/authorize/rsg,hackerone.com/reports/1101771,23,0.0,Open Redirect,2021-02-18
+1101877,8x8,DNS Misconfiguration (Subdomain Takeover) ███████.8x8.com,hackerone.com/reports/1101877,10,0.0,Privilege Escalation,2021-02-12
+1101882,curl,CVE-2021-22876: Automatic referer leaks credentials,hackerone.com/reports/1101882,5,0.0,,2021-04-30
+1102018,Concrete CMS,Stored unauth XSS in calendar event via CSRF,hackerone.com/reports/1102018,10,0.0,Cross-site Scripting (XSS) - Stored,2021-10-15
+1102064,Kubernetes,kubectl creating secrets from stringData leaves secret in plain text,hackerone.com/reports/1102064,1,0.0,Cleartext Storage of Sensitive Information,2021-08-21
+1102067,Concrete CMS,Authenticated path traversal to RCE,hackerone.com/reports/1102067,18,0.0,Path Traversal,2021-10-15
+1102365,Reddit,[dubmash] Lack of authorization checks - Update Sound Titles,hackerone.com/reports/1102365,20,0.0,Improper Authorization,2021-10-21
+1102537,TikTok,Subdomain Takeover via Unclaimed Amazon S3 Bucket (Musical.ly),hackerone.com/reports/1102537,29,200.0,Privilege Escalation,2022-11-07
+1102546,Shopify,Is the Google Bucket Meant To Be Publicly Listable? https://cdn.shopify.com/shop-assets/,hackerone.com/reports/1102546,25,0.0,,2022-02-09
+1102591,U.S. Dept Of Defense,Blind SQL iNJECTION ,hackerone.com/reports/1102591,19,0.0,SQL Injection,2021-06-03
+1102652,Shopify,staffOrderNotificationSubscriptionCreate Is Not Blocked Entirely From Staff Member With Settings Permission,hackerone.com/reports/1102652,21,0.0,Improper Authorization,2022-02-09
+1102660,Shopify,staffOrderNotificationSubscriptionDelete Could Be Used By Staff Member With Settings Permission,hackerone.com/reports/1102660,21,0.0,Improper Authorization,2022-02-09
+1102764,Slack,Lack of URL normalization renders Blocked-Previews feature ineffectual,hackerone.com/reports/1102764,100,1000.0,Security Through Obscurity,2022-01-16
+1102780,Nextcloud,bypassing dashboard without account + Information disclosure trough websockets ,hackerone.com/reports/1102780,6,0.0,Improper Access Control - Generic,2021-04-20
+1103033,U.S. Dept Of Defense,Reflected XSS on https://█████,hackerone.com/reports/1103033,1,0.0,Cross-site Scripting (XSS) - Reflected,2021-03-11
+1103212,Acronis,Found multiple SAP NetWeaver vulnerable services,hackerone.com/reports/1103212,2,0.0,,2021-02-16
+1103258,GitLab,Stored DOM XSS via Mermaid chart,hackerone.com/reports/1103258,27,3000.0,Cross-site Scripting (XSS) - Stored,2021-07-12
+1103298,Shopify,Blind Stored XSS in shopify internal Parquet Viewer,hackerone.com/reports/1103298,74,0.0,Cross-site Scripting (XSS) - Stored,2024-02-08
+1103448,Snapchat,Organization Members in Snap Kit may Deactivate Apps,hackerone.com/reports/1103448,26,0.0,Privilege Escalation,2021-08-26
+1103582,HackerOne,HackerOne Jira integration plugin Leaked JWT to unauthorized jira users,hackerone.com/reports/1103582,211,3000.0,Improper Authentication - Generic,2021-04-01
+1103812,HackerOne,"""Bounty splitting enabled"" can discloses if public VDPs are running private VRP",hackerone.com/reports/1103812,46,0.0,,2021-03-18
+1104077,Ruby,Round-trip instability in REXML,hackerone.com/reports/1104077,20,0.0,,2021-04-15
+1104349,Glovo,Server Side Template Injection on Name parameter during Sign Up process,hackerone.com/reports/1104349,26,0.0,Code Injection,2022-07-11
+1104874,Basecamp,Insecure Bundler configuration fetching internal Gems (okra) from Rubygems.org,hackerone.com/reports/1104874,102,5000.0,Command Injection - Generic,2021-08-10
+1105673,CS Money,"Origin IP found, Cloudflare bypassed",hackerone.com/reports/1105673,11,0.0,Violation of Secure Design Principles,2021-03-30
+1106009,U.S. Dept Of Defense,critical information disclosure,hackerone.com/reports/1106009,20,0.0,Information Disclosure,2021-03-11
+1106238,GitLab,Stored XSS via Mermaid Prototype Pollution vulnerability,hackerone.com/reports/1106238,58,3000.0,Cross-site Scripting (XSS) - Stored,2021-07-12
+1106505,U.S. Dept Of Defense,critical information disclosure,hackerone.com/reports/1106505,10,0.0,Information Disclosure,2021-03-11
+1106652,Ruby on Rails,"redirect_to([""string""]) remote code execution",hackerone.com/reports/1106652,9,0.0,Information Exposure Through an Error Message,2021-05-07
+1107282,WordPress,Privilege Escalation via REST API to Administrator leads to RCE,hackerone.com/reports/1107282,92,0.0,Privilege Escalation,2021-05-17
+1107536,CS Money,Blind Based SQL Injection in 3d.sc.money,hackerone.com/reports/1107536,23,0.0,SQL Injection,2021-04-16
+1107726,Shopify,Stored XSS on apps.shopify.com,hackerone.com/reports/1107726,26,500.0,Cross-site Scripting (XSS) - Stored,2021-04-08
+1108125,8x8,DNS Misconfiguration (Subdomain Takeover) █.staging.█.8x8.com,hackerone.com/reports/1108125,11,0.0,Privilege Escalation,2021-02-28
