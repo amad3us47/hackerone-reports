@@ -8160,3 +8160,166 @@ id,program,title,link,upvotes,bounty,vuln_type,date
 1051373,Reddit,XSS Reflected on reddit.com via url path,hackerone.com/reports/1051373,157,0.0,Cross-site Scripting (XSS) - Reflected,2022-09-27
 1051734,Automattic,[intensedebate.com] No Rate Limit On The report Functionality Lead To Delete Any Comment When it is enabled,hackerone.com/reports/1051734,50,0.0,Business Logic Errors,2021-01-23
 1051885,U.S. Dept Of Defense,Insecure ███████ credentials on staging app at ████ leads to application takeover,hackerone.com/reports/1051885,7,0.0,Insufficiently Protected Credentials,2021-02-10
+1052856,VK.com,Reflected XSS в /video,hackerone.com/reports/1052856,79,500.0,Cross-site Scripting (XSS) - Reflected,2020-12-09
+1054282,ownCloud,Protocol Smuggling over LDAP password field,hackerone.com/reports/1054282,11,0.0,CRLF Injection,2021-09-03
+1054382,PortSwigger Web Security,HTML Injection in Swing can disclose netNTLM hash or cause DoS,hackerone.com/reports/1054382,117,1000.0,Information Disclosure,2021-03-29
+1054526,Automattic,Stored XSS in wordpress.com,hackerone.com/reports/1054526,48,0.0,Cross-site Scripting (XSS) - Stored,2021-02-17
+1055503,Stripo Inc,No rate limiting for confirmation email lead to huge Mass mailings,hackerone.com/reports/1055503,9,0.0,Business Logic Errors,2020-12-11
+1055823,Helium,SSRF By adding a custom integration on console.helium.com,hackerone.com/reports/1055823,54,0.0,Server-Side Request Forgery (SSRF),2021-05-26
+1056144,Acronis,Acronis True Image  (Windows) does not validate server certificate on a TLS connection,hackerone.com/reports/1056144,34,500.0,Improper Certificate Validation,2021-08-05
+1056611,MTN Group,Unauthenticated Arbitrary File Deletion (CVE-2020-3187),hackerone.com/reports/1056611,10,0.0,Path Traversal,2021-08-29
+1056686,VK.com,Обход приватности у фотографий/документов,hackerone.com/reports/1056686,10,300.0,Privacy Violation,2021-01-08
+1056953,VK.com,XSS в названии звонка,hackerone.com/reports/1056953,11,500.0,Cross-site Scripting (XSS) - DOM,2021-01-08
+1057216,Ruby on Rails,"Regex Injection from request header (Rack::Sendfile, send_file)",hackerone.com/reports/1057216,4,0.0,Code Injection,2021-06-15
+1057269,U.S. Dept Of Defense,PII Information Leak at https://████████.mil/,hackerone.com/reports/1057269,8,0.0,Information Disclosure,2021-01-12
+1057419,U.S. Dept Of Defense,Reflected XSS on ███,hackerone.com/reports/1057419,19,0.0,Cross-site Scripting (XSS) - Reflected,2021-04-02
+1057484,Stripo Inc,Permanent DOS for new users!,hackerone.com/reports/1057484,11,0.0,Uncontrolled Resource Consumption,2020-12-21
+1057531,Automattic,GET /api/v2/url_info endpoint is vulnerable to Blind SSRF,hackerone.com/reports/1057531,9,0.0,Server-Side Request Forgery (SSRF),2020-12-15
+1058015,U.S. Dept Of Defense,Full account takeover on https://████████.mil,hackerone.com/reports/1058015,24,0.0,Improper Access Control - Generic,2021-01-25
+1058135,MTN Group,Developer Mistake,hackerone.com/reports/1058135,11,0.0,,2022-12-25
+1058383,LY Corporation,DoS of LINE client for Android via message containing multiple unicode characters (0x0e & 0x0f),hackerone.com/reports/1058383,23,0.0,Uncontrolled Resource Consumption,2021-09-24
+1058427,Imgur,xss reflected on imgur.com,hackerone.com/reports/1058427,15,0.0,Cross-site Scripting (XSS) - Reflected,2022-01-22
+1059395,U.S. Dept Of Defense,Reflected XSS on █████████,hackerone.com/reports/1059395,6,0.0,Cross-site Scripting (XSS) - Reflected,2021-04-02
+1059758,U.S. Dept Of Defense,Full account takeover in ███████ due lack of rate limiting in forgot password,hackerone.com/reports/1059758,14,0.0,Improper Restriction of Authentication Attempts,2022-04-20
+1060518,MTN Group,No rate limit in otp code sending,hackerone.com/reports/1060518,14,0.0,Violation of Secure Design Principles,2021-08-16
+1060541,MTN Group,No rate limit lead to otp brute forcing,hackerone.com/reports/1060541,13,0.0,Improper Restriction of Authentication Attempts,2021-08-16
+1060837,Rocket.Chat,Improper ACL in Message Starring,hackerone.com/reports/1060837,11,0.0,Improper Access Control - Generic,2024-08-10
+1061199,MTN Group,Reflected XSS on play.mtn.co.za,hackerone.com/reports/1061199,17,0.0,Cross-site Scripting (XSS) - Reflected,2021-08-14
+1061204,U.S. Dept Of Defense,CVE 2020 14179 on jira instance ,hackerone.com/reports/1061204,8,0.0,Improper Authentication - Generic,2021-02-18
+1061292,U.S. General Services Administration,TAMS registration details API for admins open at https://tamsapi.gsa.gov/user/tams/api/usermgmnt/pendingUserDetails/,hackerone.com/reports/1061292,60,0.0,Insecure Direct Object Reference (IDOR),2021-05-07
+1061591,Nextcloud,Acting under any different user via DB-stored credentials,hackerone.com/reports/1061591,8,0.0,Improper Access Control - Generic,2021-03-01
+1061664,Khan Academy,Access to alerta.khanacademy.org leak sensitive data ,hackerone.com/reports/1061664,28,0.0,Improper Access Control - Generic,2021-09-08
+1061736,U.S. Dept Of Defense,Unauthorized access to PII leads to MASS account Takeover,hackerone.com/reports/1061736,9,0.0,Business Logic Errors,2022-02-14
+1062380,U.S. Dept Of Defense,Reflected XSS on ███████,hackerone.com/reports/1062380,7,0.0,Cross-site Scripting (XSS) - Reflected,2021-04-02
+1062538,Rocket.Chat,Pinning leaks message content,hackerone.com/reports/1062538,8,0.0,Information Disclosure,2024-08-10
+1062803,U.S. Dept Of Defense,"Misconfigured AWS S3 bucket leaks senstive data  such of  admin, Prdouction,beta, localhost and many more directories....",hackerone.com/reports/1062803,7,0.0,Improper Authentication - Generic,2021-03-24
+1062888,TikTok,External SSRF and Local File Read via video upload due to vulnerable FFmpeg HLS processing,hackerone.com/reports/1062888,158,2727.0,Server-Side Request Forgery (SSRF),2021-02-15
+1063022,Uber,"Corss-Tenant IDOR on Business allowing escalation privilege, invitation takeover, and edition of any other Businesses' employees",hackerone.com/reports/1063022,29,0.0,Privilege Escalation,2021-05-14
+1063039,Concrete CMS,Phar Deserialization Vulnerability via Logging Settings,hackerone.com/reports/1063039,5,0.0,Deserialization of Untrusted Data,2021-09-24
+1063114,Rocket.Chat,Unread Messages can leak Message IDs,hackerone.com/reports/1063114,17,0.0,Information Disclosure,2024-08-10
+1063164,Rocket.Chat,Unauthenticated clients can modify Livechat Business Hours,hackerone.com/reports/1063164,13,0.0,Improper Access Control - Generic,2024-08-10
+1063256,U.S. Dept Of Defense,[CVE-2018-7600] Remote Code Execution due to outdated Drupal server on www.█████████,hackerone.com/reports/1063256,19,0.0,Command Injection - Generic,2021-03-24
+1063298,U.S. General Services Administration,Unauthorized access to employee panel with default credentials.,hackerone.com/reports/1063298,22,0.0,Authentication Bypass Using an Alternate Path or Channel,2021-11-13
+1063371,U.S. Dept Of Defense,Sensitive Information Leaking Through DoD Owned Website https://www.█████.mil,hackerone.com/reports/1063371,11,0.0,Information Disclosure,2021-02-01
+1063493,Acronis,HTTP Request Smuggling on https://promosandbox.acronis.com,hackerone.com/reports/1063493,12,0.0,HTTP Request Smuggling,2021-11-16
+1063627,Acronis,HTTP Request Smuggling on https://consumer.acronis.com,hackerone.com/reports/1063627,16,0.0,HTTP Request Smuggling,2021-11-16
+1064087,WHO COVID-19 Mobile App,DMARC and SPF records,hackerone.com/reports/1064087,9,0.0,,2020-12-22
+1064095,Acronis,Stored XSS in Acronis Cyber Protect Console,hackerone.com/reports/1064095,63,500.0,Cross-site Scripting (XSS) - Stored,2021-06-10
+1064149,WHO COVID-19 Mobile App,Improper Input Validation on User's Location on PUT /WhoService/putLocation Could Affect Availability/Falsify Users,hackerone.com/reports/1064149,8,0.0,Improper Input Validation,2021-01-12
+1064869,Shopify,Informations disclosure - Access to some checkout informations,hackerone.com/reports/1064869,149,0.0,,2021-03-13
+1065041,FetLife,Google API key leaked to Public,hackerone.com/reports/1065041,227,0.0,Information Disclosure,2021-01-23
+1065128,Myndr,No Rate Limit On dashboard.myndr.net/auth,hackerone.com/reports/1065128,8,0.0,Improper Authentication - Generic,2021-09-23
+1065134,Zego,Firebase Database Takeover in Zego Sense Android app,hackerone.com/reports/1065134,58,0.0,Improper Authentication - Generic,2021-06-23
+1065167,U.S. Dept Of Defense,Reflected XSS on https://█████████/,hackerone.com/reports/1065167,16,0.0,Cross-site Scripting (XSS) - Reflected,2021-02-01
+1065186,Reddit,Weak rate limit could lead to ATO due to weak password protection mechanisms,hackerone.com/reports/1065186,39,0.0,Improper Restriction of Authentication Attempts,2021-12-15
+1065468,h1-ctf,ctf walkthrough,hackerone.com/reports/1065468,4,0.0,Information Disclosure,2021-01-12
+1065485,h1-ctf,Stopping Grinch to ruin XMas!,hackerone.com/reports/1065485,9,0.0,,2021-01-11
+1065493,h1-ctf,[CTF] I've DDoSed Grinch Network,hackerone.com/reports/1065493,4,0.0,Uncontrolled Resource Consumption,2021-01-11
+1065495,h1-ctf,Solution for hackyholiday,hackerone.com/reports/1065495,15,500.0,,2021-01-12
+1065500,TikTok,Multiple bugs leads to RCE on TikTok for Android,hackerone.com/reports/1065500,370,0.0,Improper Export of Android Application Components,2021-03-17
+1065516,h1-ctf,Flags for hackyholidays CTF,hackerone.com/reports/1065516,9,0.0,,2021-01-12
+1065517,h1-ctf,h1 hacky holidays CTF solution,hackerone.com/reports/1065517,3,0.0,Buffer Over-read,2021-01-11
+1065583,h1-ctf,Hackyholidays CTF writeup,hackerone.com/reports/1065583,2,0.0,Improper Restriction of Authentication Attempts,2021-01-12
+1065731,h1-ctf,Writeup Hackyholiday CTF,hackerone.com/reports/1065731,1,0.0,,2021-01-12
+1065829,h1-ctf,Invading Grinch Network and Saving Christmas,hackerone.com/reports/1065829,10,0.0,,2021-01-12
+1065830,WHO COVID-19 Mobile App,Error Page Text Injection (no compromise),hackerone.com/reports/1065830,4,0.0,Misconfiguration,2021-02-13
+1065885,h1-ctf,Complete destruction of the Grinch server,hackerone.com/reports/1065885,2,0.0,Business Logic Errors,2021-01-12
+1065964,Stripo Inc,Stored XSS in the banner block description,hackerone.com/reports/1065964,25,0.0,Cross-site Scripting (XSS) - Stored,2021-03-09
+1066007,h1-ctf,Hacky Holidays CTF Writeup,hackerone.com/reports/1066007,1,0.0,Uncontrolled Resource Consumption,2021-01-12
+1066083,U.S. Dept Of Defense,███████mill is vulnerable to cross site request forgery that leads to full account take over.,hackerone.com/reports/1066083,7,0.0,Cross-Site Request Forgery (CSRF),2021-01-25
+1066135,h1-ctf,Wholesome Hacky Holidays: A Writeup,hackerone.com/reports/1066135,1,0.0,,2021-01-12
+1066203,Stripe,GRAPHQL cross-tenant IDOR giving write access thought the operation UpdateAtlasApplicationPerson,hackerone.com/reports/1066203,25,0.0,Insecure Direct Object Reference (IDOR),2022-03-08
+1066206,h1-ctf,[hacky-holidays] Grinch network is down,hackerone.com/reports/1066206,0,0.0,,2021-01-12
+1066233,h1-ctf,CTF Writeup,hackerone.com/reports/1066233,5,0.0,SQL Injection,2021-01-14
+1066410,Clario,Google API key leaks and security misconfiguration leads Open Redirect Vulnerability,hackerone.com/reports/1066410,68,300.0,Open Redirect,2021-04-01
+1066504,h1-ctf,Grinch Networks compromised!,hackerone.com/reports/1066504,3,0.0,,2021-01-11
+1066607,TikTok,HTML Injection through Account Name field on TikTok ads portal being rendered on emails,hackerone.com/reports/1066607,36,0.0,Code Injection,2021-03-19
+1066790,WHO COVID-19 Mobile App,Internal API endpoint is accesible for everyone,hackerone.com/reports/1066790,39,0.0,Improper Access Control - Generic,2020-12-28
+1066801,h1-ctf,Hacky Holidays CTF Writeup,hackerone.com/reports/1066801,3,0.0,Server-Side Request Forgery (SSRF),2021-01-11
+1066851,h1-ctf,"12 Days of Hacky Holidays write-up, but as a text-based RPG?",hackerone.com/reports/1066851,44,0.0,Uncontrolled Resource Consumption,2021-01-11
+1066914,h1-ctf,[ Hacky Holidays CTF ] Completely taken down the Grinch Networks,hackerone.com/reports/1066914,6,0.0,Server-Side Request Forgery (SSRF),2021-01-11
+1067004,U.S. Dept Of Defense,Sensitive data exposure via https://███████/secure/QueryComponent!Default.jspa - CVE-2020-14179,hackerone.com/reports/1067004,3,0.0,Information Disclosure,2021-01-12
+1067037,h1-ctf,Taking Grinch Down To Save Holidays,hackerone.com/reports/1067037,7,0.0,SQL Injection,2021-01-22
+1067087,h1-ctf,[h1-ctf] 12 Days of Adventure to stop Grinch from ruining Christmas,hackerone.com/reports/1067087,9,0.0,,2021-01-11
+1067090,h1-ctf,Mission completed. Grinch Networks is down and Christmas saved.,hackerone.com/reports/1067090,2,0.0,Uncontrolled Resource Consumption,2021-01-12
+1067276,U.S. Dept Of Defense,Sending trusted ████ and ██████████ emails through public API endpoint in ███████ site,hackerone.com/reports/1067276,10,0.0,Business Logic Errors,2021-04-08
+1067291,U.S. Dept Of Defense,RCE in ██████ subdomain via CVE-2017-1000486,hackerone.com/reports/1067291,10,0.0,Code Injection,2021-04-08
+1067443,Shopify,Screenshot Service leaks X-ABS-App-Token,hackerone.com/reports/1067443,14,0.0,Server-Side Request Forgery (SSRF),2021-02-12
+1067530,h1-ctf,Successfully took down the Grinch and saved the holidays from being ruined,hackerone.com/reports/1067530,0,0.0,,2021-01-12
+1067533,Courier,Rate limit function bypass can leads to occur huge critical problem into website. ,hackerone.com/reports/1067533,15,0.0,Improper Access Control - Generic,2021-01-08
+1067547,Automattic,Unauthenticated access to webmail at maildev.happytools.dev leading to compromised wordpress site api.happytools.dev [RCE],hackerone.com/reports/1067547,71,0.0,Information Disclosure,2021-02-01
+1067809,CS Money,Cookie poisoning leads to DOS and Privacy Violation,hackerone.com/reports/1067809,30,700.0,Privacy Violation,2021-02-25
+1067824,Nextcloud,Database error shown to the user when using a long guest name in richdocuments,hackerone.com/reports/1067824,29,0.0,Information Disclosure,2021-02-07
+1067835,h1-ctf,Hacky Holidays Writeup,hackerone.com/reports/1067835,1,0.0,,2021-01-12
+1067912,h1-ctf,A Visit from The Grinch ~ 'Twas the night before Hackmas...,hackerone.com/reports/1067912,9,0.0,Improper Access Control - Generic,2021-01-11
+1067967,TikTok,Blocked user can see live video,hackerone.com/reports/1067967,197,418.0,Privacy Violation,2021-05-28
+1068153,Slack,Cross-site leak allows attacker to de-anonymize members of his team from another origin,hackerone.com/reports/1068153,13,250.0,Privilege Escalation,2021-11-11
+1068301,LY Corporation,File sizes may be manipulated into negative numbers when uploading,hackerone.com/reports/1068301,58,500.0,Business Logic Errors,2024-07-10
+1068433,h1-ctf,12 Days of CTF Walkthroughs,hackerone.com/reports/1068433,3,0.0,Server-Side Request Forgery (SSRF),2021-01-11
+1068434,h1-ctf,HackyHolidays 2020 Full Write-up: Information Disclosure of 12 Flags,hackerone.com/reports/1068434,1,0.0,Information Disclosure,2021-01-11
+1068477,Trellix,RXSS in https://jp.mcafee.com/apps/mdm/jp/3.0_asp/ ,hackerone.com/reports/1068477,53,0.0,Cross-site Scripting (XSS) - Reflected,2025-12-19
+1068505,Brave Software,Phishing/Malware site blocking on Brave iOS can be bypassed with trailing dot in hostname,hackerone.com/reports/1068505,12,0.0,Violation of Secure Design Principles,2023-06-22
+1068880,h1-ctf,Writeup Submission,hackerone.com/reports/1068880,1,0.0,,2021-01-11
+1068881,h1-ctf,HackyHolidays H1 CTF Writeup,hackerone.com/reports/1068881,1,0.0,,2021-01-11
+1068934,h1-ctf,[h1ctf-Grinch Networks] MrR3b00t Saving the Christmas,hackerone.com/reports/1068934,2,0.0,,2021-01-11
+1069034,h1-ctf,Grinchs website takendown with various other exploits,hackerone.com/reports/1069034,4,0.0,Improper Restriction of Authentication Attempts,2021-03-02
+1069039,Reddit,GPS metadata preserved when converting HEIF to PNG,hackerone.com/reports/1069039,67,0.0,Privacy Violation,2021-10-21
+1069080,h1-ctf,hackyholidays CTF Writeup,hackerone.com/reports/1069080,10,0.0,,2021-03-02
+1069105,MTN Group,2x Remote file inclusion within your VMware Instances,hackerone.com/reports/1069105,16,0.0,Remote File Inclusion,2021-08-19
+1069141,h1-ctf,Infiltrating into Grinch-Networks and saving Christmas!,hackerone.com/reports/1069141,1,0.0,Server-Side Request Forgery (SSRF),2021-01-11
+1069171,h1-ctf,[H1 hackyholidays] CTF Writeup,hackerone.com/reports/1069171,0,0.0,Information Disclosure,2021-01-12
+1069175,h1-ctf,h1-ctf : 12 days of hack holiday writeup,hackerone.com/reports/1069175,6,0.0,Information Disclosure,2021-01-14
+1069189,h1-ctf,Grinch-Networks taken down - hacky holidays CTF ,hackerone.com/reports/1069189,3,0.0,Improper Restriction of Authentication Attempts,2021-01-11
+1069263,h1-ctf,First CTF ever!,hackerone.com/reports/1069263,0,0.0,SQL Injection,2021-01-12
+1069335,h1-ctf,How The Hackers Saved Christmas,hackerone.com/reports/1069335,179,0.0,Information Disclosure,2021-01-11
+1069376,h1-ctf,[hackyholidays] CTF write-up,hackerone.com/reports/1069376,0,0.0,,2021-01-12
+1069388,h1-ctf,It's just a man on a mission,hackerone.com/reports/1069388,0,0.0,,2021-01-12
+1069392,U.S. Dept Of Defense,Old Session Does Not Expires After Password Change,hackerone.com/reports/1069392,16,0.0,Insufficient Session Expiration,2021-01-25
+1069396,h1-ctf,Hackyholidays [ h1-ctf] writeup [mission:- stop the grinch ],hackerone.com/reports/1069396,7,0.0,Improper Access Control - Generic,2021-01-14
+1069467,h1-ctf,H1 Hackyholidays CTF - The Grinch was defeated,hackerone.com/reports/1069467,2,0.0,,2021-01-11
+1069487,Node.js,DNS rebinding in --inspect (insufficient fix of CVE-2018-7160),hackerone.com/reports/1069487,5,500.0,Improper Access Control - Generic,2021-02-23
+1069527,MTN Group,Reflected XSS on mtnhottseat.mtn.com.gh,hackerone.com/reports/1069527,22,0.0,Cross-site Scripting (XSS) - Reflected,2021-05-24
+1069528,MTN Group,Reflected XSS on gamesclub.mtn.com.g,hackerone.com/reports/1069528,15,0.0,Cross-site Scripting (XSS) - Generic,2021-05-24
+1069531,MTN Group,Blind SQL Injection ,hackerone.com/reports/1069531,43,0.0,SQL Injection,2021-08-14
+1069561,Automattic,SQL Injection  intensedebate.com,hackerone.com/reports/1069561,102,0.0,SQL Injection,2021-01-11
+1070081,Automattic,information disclosure lead to disclose users private notes,hackerone.com/reports/1070081,28,0.0,Information Disclosure,2021-02-25
+1070247,Phabricator,Git flag injection leads to arbitrary file write,hackerone.com/reports/1070247,54,0.0,Path Traversal,2021-07-25
+1070259,VK.com,Stored XSS в выборе метки на странице списка заказов.,hackerone.com/reports/1070259,9,500.0,Cross-site Scripting (XSS) - Stored,2021-02-11
+1070344,WHO COVID-19 Mobile App,ArcGIS Rest Service linked to unsecured survey data,hackerone.com/reports/1070344,3,0.0,Authentication Bypass Using an Alternate Path or Channel,2021-02-13
+1070510,Logitech,Manipulating response leads to free access to Streamlabs Prime ,hackerone.com/reports/1070510,80,0.0,Business Logic Errors,2021-01-21
+1070532,MTN Group,RCE Apache Struts2 remote command execution (S2-045) on [wifi-partner.mtn.com.gh],hackerone.com/reports/1070532,29,0.0,Code Injection,2021-09-09
+1070533,Acronis,Acronis True Image 2021 (windows) does not validate server hostname on a login TLS connection,hackerone.com/reports/1070533,18,250.0,Improper Certificate Validation,2021-08-10
+1070835,Valve,CS:GO Server -> Client RCE through OOB access in CSVCMsg_SplitScreen + Info leak in HTTP download,hackerone.com/reports/1070835,66,7500.0,Out-of-bounds Read,2021-05-17
+1070859,Logitech,Stored XSS on oslo.io in notifications via project name change,hackerone.com/reports/1070859,26,0.0,Cross-site Scripting (XSS) - Stored,2021-01-05
+1070889,Palo Alto Software,[Bypass #870709] Unauthorised access to pagespeed global admin at https://webtools.paloalto.com/,hackerone.com/reports/1070889,20,0.0,Improper Access Control - Generic,2021-02-13
+1071102,Rocket.Chat,Registration bypass with leaked Invite Token,hackerone.com/reports/1071102,29,0.0,Improper Authentication - Generic,2024-08-10
+1071524,U.S. Dept Of Defense,Reflected XSS on https://█████████html?url,hackerone.com/reports/1071524,7,0.0,Cross-site Scripting (XSS) - Reflected,2021-01-25
+1071832,Acronis,Local privilege escalation via insecure MSI file,hackerone.com/reports/1071832,25,250.0,Privilege Escalation,2021-08-07
+1071918,Logitech,Moderator user has access to owner's support portal and tickets,hackerone.com/reports/1071918,19,200.0,Improper Access Control - Generic,2021-01-20
+1072277,Logitech,Host Header injection in oslo.io (using X-Forwarded-For header) leading to email spoofing,hackerone.com/reports/1072277,37,0.0,Business Logic Errors,2021-01-07
+1072616,U.S. Dept Of Defense,Stored XSS through name / last name on https://██████████/,hackerone.com/reports/1072616,4,0.0,Cross-site Scripting (XSS) - Stored,2021-03-11
+1072832,U.S. Dept Of Defense,[hta3] Remote Code Execution on ████,hackerone.com/reports/1072832,104,0.0,Code Injection,2023-05-15
+1072868,GitLab,Stored XSS in repository file viewer,hackerone.com/reports/1072868,29,2000.0,Cross-site Scripting (XSS) - Stored,2022-05-19
+1072893,Logitech,Sensitive information disclosure to shared access user via streamlabs platform api,hackerone.com/reports/1072893,36,200.0,Information Disclosure,2021-01-20
+1073114,X / xAI,2 Subdomains Takeover at readfu.com,hackerone.com/reports/1073114,35,0.0,Privilege Escalation,2021-03-15
+1073202,Internet Bug Bounty,Canonical Snapcraft vulnerable to remote code execution under certain conditions,hackerone.com/reports/1073202,5,0.0,,2021-07-23
+1073363,Kubernetes,Index Out Of Bounds in protobuf unmarshalling,hackerone.com/reports/1073363,13,250.0,Buffer Over-read,2021-08-30
+1073420,Lab45,IDOR at https://fast.trychameleon.com/observe/v2/profiles/ via uid parameter discloses users' PII data,hackerone.com/reports/1073420,13,0.0,Information Disclosure,2021-02-03
+1073514,Kubernetes,XSS on kubernetes-csi.github.io (mdBook),hackerone.com/reports/1073514,9,0.0,Cross-site Scripting (XSS) - Reflected,2021-02-04
+1073565,X / xAI,Open Redirect on https://www.twitterflightschool.com/widgets/experience?destination_url=https://evil.com,hackerone.com/reports/1073565,53,0.0,Open Redirect,2021-05-04
+1073571,VK.com,XSS в обработчике ссылок,hackerone.com/reports/1073571,12,700.0,Cross-site Scripting (XSS) - Stored,2021-02-11
+1073725,Insulet Corporation,DOM XSS on www.omnipod.com/freedom/birthdate-confirmation and www.omnipod.com/pif/thanks-freedom,hackerone.com/reports/1073725,59,0.0,Cross-site Scripting (XSS) - DOM,2025-09-13
+1073780,U.S. Dept Of Defense,[hta3] Chain of ESI Injection & Reflected XSS leading to Account Takeover on [███],hackerone.com/reports/1073780,20,0.0,Cross-site Scripting (XSS) - Reflected,2022-10-14
+1074047,Bumble,Misconfigured oauth leads to Pre account takeover ,hackerone.com/reports/1074047,89,0.0,Business Logic Errors,2021-03-18
+1074136,U.S. Dept Of Defense,Bypassed a fix to gain access to PII of more than 100 Officers,hackerone.com/reports/1074136,7,0.0,Information Disclosure,2021-02-10
+1074420,Lark Technologies,IDOR Allows Viewer to Delete Bin's Files,hackerone.com/reports/1074420,16,0.0,Improper Access Control - Generic,2022-10-24
+1074613,DuckDuckGo,com.duckduckgo.mobile.android - Cache corruption,hackerone.com/reports/1074613,17,0.0,Business Logic Errors,2021-09-26
+1075449,Acronis,Local Privilege Escalation when updating Acronis True Image,hackerone.com/reports/1075449,25,250.0,Privilege Escalation,2024-08-27
+1075827,TikTok,Lack of rate limitation on careers site allows the attacker to brute force the verification code,hackerone.com/reports/1075827,104,0.0,Improper Restriction of Authentication Attempts,2021-02-11
+1076047,Stripo Inc,Bypass of #1047119: Missing Rate Limit while creating Plug-Ins at https://my.stripo.email/cabinet/plugins/,hackerone.com/reports/1076047,18,0.0,Business Logic Errors,2021-01-13
+1077022,Brave Software,Brave Browser Tor Window leaks user's real IP to the external DNS server,hackerone.com/reports/1077022,280,0.0,Information Disclosure,2021-06-17
+1077136,Slack,Denial of Service via Hyperlinks in Posts,hackerone.com/reports/1077136,109,1500.0,Uncontrolled Resource Consumption,2021-10-03
+1078002,Nextcloud,Nextcloud Desktop Client RCE via malicious URI schemes,hackerone.com/reports/1078002,73,1000.0,Resource Injection,2021-04-15
+1078373,Acronis,Credentials leaked via Github,hackerone.com/reports/1078373,26,50.0,Use of Hard-coded Credentials,2024-08-26
+1079561,Valve,Big Picture web browser leaks login cookies and discloses sensitive information (may lead to account takeover),hackerone.com/reports/1079561,59,0.0,Information Disclosure,2021-09-21
+1079630,Acronis,licenses key disclosure,hackerone.com/reports/1079630,35,50.0,Cleartext Storage of Sensitive Information,2021-02-09
