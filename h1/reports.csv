@@ -8985,3 +8985,74 @@ id,program,title,link,upvotes,bounty,vuln_type,date
 1256375,Shopify,Blog posts atom feed of a  store with password protection  can be accessed by anyone ,hackerone.com/reports/1256375,76,0.0,Information Disclosure,2021-11-08
 1256389,Acronis,Subdomain takeover of main domain of https://www.cyberlynx.lu/,hackerone.com/reports/1256389,70,100.0,Privilege Escalation,2021-10-12
 1256496,MTN Group,HTML injection in email content during registration via FirstName/LastName parameter,hackerone.com/reports/1256496,16,0.0,Improper Neutralization of Script-Related HTML Tags in a Web Page (Basic XSS),2021-12-18
+1256777,GitLab,"Stored XSS in main page of a project caused by arbitrary script payload in group ""Default initial branch name""",hackerone.com/reports/1256777,80,0.0,Cross-site Scripting (XSS) - Stored,2021-09-15
+1257100,Uber,CVE-2020-3452 - unauthenticated file read on anyconnect.routematch.com,hackerone.com/reports/1257100,39,0.0,Path Traversal,2021-08-05
+1257428,Shopify,Create free Shopify application credits.,hackerone.com/reports/1257428,133,0.0,Improper Access Control - Generic,2021-09-10
+1257586,Yoti,PIN 📌 BYPASS 🥷,hackerone.com/reports/1257586,83,0.0,Improper Authentication - Generic,2022-03-18
+1257753,Reddit,Open Redirect on www.redditinc.com via `failed` query param,hackerone.com/reports/1257753,41,0.0,Open Redirect,2022-09-22
+1257767,Stripe,HTML Injection in the Invoice memos field,hackerone.com/reports/1257767,53,500.0,Improper Access Control - Generic,2023-03-01
+1258448,Nextcloud,Missing brute force protection on OAuth2 API controller,hackerone.com/reports/1258448,20,500.0,Improper Restriction of Authentication Attempts,2023-08-10
+1258871,Shopify,Exposed Cortex API at https://cortex-ingest.shopifycloud.com/,hackerone.com/reports/1258871,99,6300.0,Misconfiguration,2022-12-02
+1260823,U.S. Dept Of Defense,Reflected XSS - https://███,hackerone.com/reports/1260823,2,0.0,Cross-site Scripting (XSS) - Reflected,2021-07-29
+1260825,Adobe,DOM XSS on  www.adobe.com,hackerone.com/reports/1260825,18,0.0,Cross-site Scripting (XSS) - DOM,2022-05-31
+1261148,GitLab,Stored-XSS in merge requests,hackerone.com/reports/1261148,6,0.0,Cross-site Scripting (XSS) - Reflected,2021-07-19
+1261225,Nextcloud,High memory usage for generating preview of broken image,hackerone.com/reports/1261225,10,0.0,Incorrect Calculation of Buffer Size,2022-03-09
+1261413,Nextcloud,HEIC image preview can be used to invoke Imagick,hackerone.com/reports/1261413,16,0.0,Information Disclosure,2023-01-07
+1262434,Shopify,Theme editor `oseid` parameter is leaked to third-party services through the `Referer` header which leads to somekind of storefront password bypass.,hackerone.com/reports/1262434,17,500.0,Improper Access Control - Generic,2022-07-11
+1262757,U.S. Dept Of Defense,SQL injection located in `███` in POST param `████████` ,hackerone.com/reports/1262757,4,0.0,SQL Injection,2021-09-09
+1262907,Shopify,Apache Flink Dashboard exposure at https://streaming-sales-model-production.flink.shopifykloud.com,hackerone.com/reports/1262907,23,0.0,Information Disclosure,2021-11-18
+1264725,HackerOne,Information disclosure - Feedback is accessible on Public profile even after 'disallowed' at https://hackerone.com/settings/feedback,hackerone.com/reports/1264725,30,0.0,Information Disclosure,2021-08-03
+1264805,Glovo,Reflected XSS on delivery.glovoapp.com,hackerone.com/reports/1264805,32,0.0,Cross-site Scripting (XSS) - Reflected,2021-08-18
+1264832,MTN Group,Reflected Cross-Site scripting in : mtn.bj,hackerone.com/reports/1264832,33,0.0,Cross-site Scripting (XSS) - Reflected,2021-09-26
+1264834,MTN Group,cross site scripting in : mtn.bj,hackerone.com/reports/1264834,14,0.0,Cross-site Scripting (XSS) - Reflected,2022-08-06
+1265225,Ian Dunn,Multiple server ssh usernames leaked in your github repository,hackerone.com/reports/1265225,7,0.0,Information Disclosure,2021-07-19
+1265344,Acronis,Self-DoS due to template injection via email field in password reset form on access.acronis.com,hackerone.com/reports/1265344,7,0.0,,2022-05-03
+1265709,Nextcloud,Lack of bruteforce protection for TOTP 2FA,hackerone.com/reports/1265709,22,750.0,Improper Restriction of Authentication Attempts,2023-03-26
+1266188,Elastic,Critical || Unrestricted access to private Github repos and properties of Elastic through leaked token of Elastic employee,hackerone.com/reports/1266188,64,0.0,Cleartext Storage of Sensitive Information,2021-09-01
+1266828,Shopify,Staff who only have apps and channels permission can do a takeover account at the wholesale store (Bypass get invitation link),hackerone.com/reports/1266828,53,1600.0,,2021-11-21
+1267174,JetBlue,Access to tomcat-manager with default creds,hackerone.com/reports/1267174,23,0.0,Improper Authentication - Generic,2023-02-05
+1267176,JetBlue,Open Redirection,hackerone.com/reports/1267176,21,0.0,Open Redirect,2023-02-05
+1267380,U.S. Dept Of Defense,Reflected XSS on [█████████],hackerone.com/reports/1267380,10,0.0,Cross-site Scripting (XSS) - Reflected,2022-04-07
+1267476,Krisp,Authentication CSRF resulting in unauthorized account access on Krisp app,hackerone.com/reports/1267476,34,0.0,Improper Authentication - Generic,2022-06-20
+1267488,ExpressionEngine,Authenticated RCE via page title,hackerone.com/reports/1267488,14,0.0,Code Injection,2024-05-28
+1267677,Shopify,Improper Input Validation on https://oberlo-image-proxy.shopifycloud.com/,hackerone.com/reports/1267677,16,0.0,,2021-08-16
+1268115,VK.com,Просмотр аватарки замороженной страницы/частной группы.,hackerone.com/reports/1268115,15,300.0,,2021-12-01
+1269242,curl,CVE-2021-22945: UAF and double-free in MQTT sending,hackerone.com/reports/1269242,14,0.0,Double Free,2021-09-15
+1269332,Rockstar Games,Open Redirection effects autodiscover.rockstargames.com,hackerone.com/reports/1269332,49,0.0,,2025-02-03
+1271701,UPchieve,Vulnerability Report - sweet32 UPchieve,hackerone.com/reports/1271701,3,0.0,Cryptographic Issues - Generic,2021-07-28
+1271710,Phabricator,Broken Authentication and Session Management lead to take over account,hackerone.com/reports/1271710,4,0.0,Improper Access Control - Generic,2021-07-21
+1271742,UPchieve,hackers.upchieve.org and argocd.upchieve.org is not preloaded.,hackerone.com/reports/1271742,2,0.0,Violation of Secure Design Principles,2021-07-28
+1271944,Shopify,Shopify.com Web Cache Deception vulnerability leads to personal information and CSRF tokens leakage,hackerone.com/reports/1271944,48,800.0,Violation of Secure Design Principles,2021-10-21
+1272095,U.S. Dept Of Defense,System Error Reveals  SQL Information,hackerone.com/reports/1272095,3,0.0,Information Exposure Through Debug Information,2021-09-09
+1272305,Stripe,"Without verifying email and activate account, user can perform all action which are not supposed to be done",hackerone.com/reports/1272305,20,0.0,Violation of Secure Design Principles,2022-07-18
+1272478,MTN Group,IDOR Leads To Account Takeover Without User Interaction,hackerone.com/reports/1272478,34,0.0,Insecure Direct Object Reference (IDOR),2022-09-04
+1273292,HackerOne,Internal Gitlab Ticket Disclosure via External Slack Channels,hackerone.com/reports/1273292,118,0.0,Information Disclosure,2021-08-04
+1274695,PortSwigger Web Security,RCE of Burp  Scanner / Crawler via Clickjacking ,hackerone.com/reports/1274695,171,3000.0,Command Injection - Generic,2023-10-10
+1276373,Algolia,Information disclosure -> 2fa bypass -> POST exploitation ,hackerone.com/reports/1276373,76,0.0,Information Disclosure,2021-09-08
+1276384,Sifchain,Signature Verification /// golang.org/x/crypto/ssh,hackerone.com/reports/1276384,1,0.0,Cryptographic Issues - Generic,2021-12-09
+1276733,Reddit,S3 bucket Upload on studio.redditinc.com (s3-r-w.ap-east-1.amazonaws.com),hackerone.com/reports/1276733,4,0.0,Improper Access Control - Generic,2021-10-21
+1276742,Shopify,Stored XSS in SVG file as data: url,hackerone.com/reports/1276742,151,5300.0,Cross-site Scripting (XSS) - Stored,2023-01-31
+1276992,HackerOne,Disclosure handle private program with external link,hackerone.com/reports/1276992,129,2500.0,,2021-08-24
+1277383,U.S. Dept Of Defense,XSS due to CVE-2020-3580 [███.mil],hackerone.com/reports/1277383,3,0.0,Cross-site Scripting (XSS) - Reflected,2021-08-19
+1277389,U.S. Dept Of Defense,XSS due to CVE-2020-3580 [███],hackerone.com/reports/1277389,2,0.0,Cross-site Scripting (XSS) - Reflected,2021-09-09
+1277392,U.S. Dept Of Defense,XSS due to CVE-2020-3580 [██████],hackerone.com/reports/1277392,5,0.0,Cross-site Scripting (XSS) - Reflected,2021-09-09
+1278050,U.S. Dept Of Defense,[CVE-2021-29156 on ForgeRock OpenAm] LDAP Injection in Webfinger Protocol!,hackerone.com/reports/1278050,2,0.0,LDAP Injection,2021-08-19
+1278072,Rockstar Games,Brute Force against VMware Horizon,hackerone.com/reports/1278072,53,250.0,Improper Restriction of Authentication Attempts,2021-08-16
+1278254,Node.js,"Built-in TLS module unexpectedly treats ""rejectUnauthorized: undefined"" as ""rejectUnauthorized: false"", disabling all certificate validation",hackerone.com/reports/1278254,20,150.0,Improper Certificate Validation,2021-09-10
+1278261,Rockstar Games,"Uninstalling Rockstar Games Launcher for Windows (64-bit), then reinstalling keeps you logged in without authentication",hackerone.com/reports/1278261,28,250.0,Privacy Violation,2022-04-07
+1278881,LY Corporation,See drafts and post articles if the account owner hasn't set password (livedoor CMS plugin),hackerone.com/reports/1278881,35,0.0,Improper Authentication - Generic,2021-12-27
+1278891,U.S. Dept Of Defense,[CVE-2021-29156] LDAP Injection at https://██████,hackerone.com/reports/1278891,4,0.0,LDAP Injection,2021-08-26
+1278928,UPchieve,blind sql on  [ https://argocd.upchieve.org/login?return_url=id= ],hackerone.com/reports/1278928,4,0.0,SQL Injection,2021-07-28
+1278952,U.S. Dept Of Defense,Sensitive data exposure via /secure/███████ endpoint on ████████,hackerone.com/reports/1278952,55,0.0,Information Disclosure,2024-12-18
+1278977,U.S. Dept Of Defense,Sensitive data exposure via /secure/QueryComponent!Default.jspa endpoint on ████████,hackerone.com/reports/1278977,2,0.0,Information Disclosure,2022-04-29
+1279322,Shopify,Ability to add address without being an admin or staff in the store via wholesale store,hackerone.com/reports/1279322,18,500.0,,2021-12-03
+1280002,GitLab,Stored XSS via Mermaid Prototype Pollution vulnerability,hackerone.com/reports/1280002,48,3000.0,Cross-site Scripting (XSS) - Stored,2021-11-18
+1280167,8x8,DNS Misconfiguration (Subdomain Takeover)  - █████████.8x8.com,hackerone.com/reports/1280167,18,0.0,Privilege Escalation,2021-07-30
+1280188,U.S. Dept Of Defense,https://██████/ Vulnerable to CVE-2013-3827 (Directory-traversal vulnerability),hackerone.com/reports/1280188,3,0.0,Path Traversal,2021-08-26
+1282282,Superhuman (formerly Grammarly),Bypassing the Grammarly plagiarism checker by simply replacing characters in the source text,hackerone.com/reports/1282282,17,0.0,Business Logic Errors,2021-10-28
+1283200,UPchieve,url redirection,hackerone.com/reports/1283200,5,0.0,Open Redirect,2021-07-30
+1283484,GitLab,ReDoS in syntax highlighting due to Rouge,hackerone.com/reports/1283484,13,600.0,Uncontrolled Resource Consumption,2021-11-15
+1283575,Stripo Inc,Insecure Storage and Overly Permissive API Keys,hackerone.com/reports/1283575,7,0.0,Missing Encryption of Sensitive Data,2022-03-30
+1283605,Sifchain,ETHEREUM_PRIVATE_KEY leaked via github,hackerone.com/reports/1283605,1,0.0,,2021-12-09
+1283871,Homebrew,Bypass of the installation sandbox by injecting keystrokes with TIOCSTI,hackerone.com/reports/1283871,5,0.0,Improper Access Control - Generic,2021-08-30
+1283938,LY Corporation,Missing authentication in buddy group API of LINE TIMELINE,hackerone.com/reports/1283938,47,3000.0,Improper Authentication - Generic,2021-12-27
