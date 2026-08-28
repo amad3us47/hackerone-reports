@@ -8906,3 +8906,82 @@ id,program,title,link,upvotes,bounty,vuln_type,date
 1224660,Acronis,bypass sql injection #1109311,hackerone.com/reports/1224660,164,0.0,SQL Injection,2021-10-05
 1225164,X / xAI,Identify the mobile number of a twitter user,hackerone.com/reports/1225164,30,560.0,Information Disclosure,2022-03-29
 1225299,Ping Identity,Broken Link on  Ping Identity's Vulnerability Submission Form on Hackerone,hackerone.com/reports/1225299,21,0.0,Violation of Secure Design Principles,2021-06-16
+1226891,Reddit,Domain Takeover of Reddit.ru via DNS Hijacking,hackerone.com/reports/1226891,20,500.0,Improper Access Control - Generic,2021-10-21
+1234406,Bumble,Exfiltrating a victim's exact location (to within 5m),hackerone.com/reports/1234406,278,0.0,Information Disclosure,2021-07-21
+1234531,MCUboot,private keys exposed on the GitHub repository,hackerone.com/reports/1234531,24,0.0,Cleartext Storage of Sensitive Information,2021-11-27
+1234746,HackerOne,Private program disclosure through notifications,hackerone.com/reports/1234746,39,500.0,Improper Access Control - Generic,2021-08-05
+1234760,curl,CVE-2021-22926: CURLOPT_SSLCERT mixup with Secure Transport,hackerone.com/reports/1234760,5,0.0,Business Logic Errors,2021-07-21
+1234925,U.S. Dept Of Defense,[CVE-2020-3452] on ███████,hackerone.com/reports/1234925,6,0.0,Path Traversal,2022-04-07
+1235008,Rockstar Games,Social Club Account Takeover Via RGL And Steam/Epic Linked Account,hackerone.com/reports/1235008,54,0.0,Privilege Escalation,2021-11-17
+1237321,Urban Dictionary,CSRF to Reflected XSS at echo.urbandictionary.biz via spoofing content type,hackerone.com/reports/1237321,86,0.0,Cross-site Scripting (XSS) - Stored,2025-03-11
+1237428,Reddit,"[dubsmash] Long String in 'shoutout' Parameter Leading Internal server Error on Popular hastags , Community and User Profile",hackerone.com/reports/1237428,32,0.0,Uncontrolled Resource Consumption,2021-12-13
+1237700,Semrush,Improper input validation in projects leads to fully deny access to project resources,hackerone.com/reports/1237700,35,0.0,Improper Input Validation,2021-09-01
+1238017,Kubernetes,AWS Load Balancer Controller Managed Security Groups can be replaced by an unprivileged attacker,hackerone.com/reports/1238017,5,500.0,Resource Injection,2022-06-02
+1238099,Node.js,HTTP Request Smuggling due to ignoring chunk extensions,hackerone.com/reports/1238099,7,250.0,HTTP Request Smuggling,2021-11-02
+1238470,Internet Bug Bounty,Fragmentation and Aggregation Flaws in Wi-Fi,hackerone.com/reports/1238470,14,0.0,Cryptographic Issues - Generic,2021-07-23
+1238482,Kubernetes,AWS Load Balancer Controller can be used by an attacker to modify rules of any Security Group that they are able to tag,hackerone.com/reports/1238482,3,500.0,Resource Injection,2022-06-02
+1238528,WordPress,wp-embed XSS on Safari,hackerone.com/reports/1238528,49,0.0,Cross-site Scripting (XSS) - DOM,2023-07-01
+1238684,Unikrn,Open URL Redirection,hackerone.com/reports/1238684,102,0.0,Open Redirect,2021-06-28
+1238709,Node.js,HTTP Request Smuggling due to accepting space before colon,hackerone.com/reports/1238709,18,250.0,HTTP Request Smuggling,2021-10-20
+1238749,Weblate,No rate Limit on Add new Translation Project ,hackerone.com/reports/1238749,8,0.0,Improper Restriction of Authentication Attempts,2021-06-21
+1239334,Urban Company,Broken Link on Urban Company's Vulnerability Submission Form,hackerone.com/reports/1239334,79,0.0,Violation of Secure Design Principles,2021-06-21
+1239633,MTN Group,information discloure via logs files at ==> https://ihelp.mtnbusiness.com/logfiles/Log_21-06-2021.txt,hackerone.com/reports/1239633,33,0.0,Information Disclosure,2021-08-20
+1240162,HackerOne,Mishandling of hackerone clear background checks resulting in disclosure of other hacker's information,hackerone.com/reports/1240162,23,0.0,Off-by-one Error,2021-08-05
+1241116,Reddit,hardcoded api secret & api key in com.reddit.frontpage,hackerone.com/reports/1241116,8,0.0,Improper Authentication - Generic,2021-10-21
+1241149,Acronis,FULL SSRF ,hackerone.com/reports/1241149,37,0.0,Server-Side Request Forgery (SSRF),2022-02-22
+1241460,Nextcloud,ApiService#fetch serves content as text/html and inline Content-Disposition,hackerone.com/reports/1241460,6,0.0,Cross-site Scripting (XSS) - Stored,2021-08-11
+1241483,Urban Company,Insufficient Session Expiration,hackerone.com/reports/1241483,4,0.0,Insufficient Session Expiration,2021-06-23
+1241849,Basecamp,Information Disclosure .htaccess accesible for public,hackerone.com/reports/1241849,76,0.0,,2021-07-18
+1242212,MyEtherWallet,PIN bypass,hackerone.com/reports/1242212,34,0.0,Improper Authentication - Generic,2021-06-29
+1242680,HackerOne,"Report Duplicate Detector can match deleted and draft reports, may disclose title and vulnerability information",hackerone.com/reports/1242680,46,0.0,Information Disclosure,2021-06-24
+1243009,Reddit,No Password Length Restriction leads to Denial of Service,hackerone.com/reports/1243009,2,0.0,Uncontrolled Resource Consumption,2021-10-21
+1243650,U.S. Dept Of Defense,███████ - XSS - CVE-2020-3580,hackerone.com/reports/1243650,8,0.0,Cross-site Scripting (XSS) - Reflected,2021-09-29
+1243724,Mattermost,DoS via large console messages,hackerone.com/reports/1243724,15,150.0,Uncontrolled Resource Consumption,2022-04-29
+1243782,U.S. Dept Of Defense,CUI labled and ████ Restricted pdf on █████,hackerone.com/reports/1243782,0,0.0,Insecure Storage of Sensitive Information,2021-08-26
+1244145,U.S. Dept Of Defense,RXSS ON https://██████████,hackerone.com/reports/1244145,1,0.0,Cross-site Scripting (XSS) - Reflected,2022-02-14
+1244403,U.S. Dept Of Defense,CUI labled and ████ and ██████  Restricted ██████ intelligence ,hackerone.com/reports/1244403,1,0.0,Information Disclosure,2021-08-19
+1244722,MTN Group,XSS at http://nextapps.mtnonline.com/search/suggest/q/{xss payload},hackerone.com/reports/1244722,9,0.0,Cross-site Scripting (XSS) - Reflected,2022-05-01
+1244731,MTN Group,XSS at videostore.mtnonline.com/GL/*.aspx via all parameters,hackerone.com/reports/1244731,6,0.0,Cross-site Scripting (XSS) - Reflected,2022-05-01
+1244798,Khan Academy,Client Side string length check,hackerone.com/reports/1244798,24,0.0,Client-Side Enforcement of Server-Side Security,2023-10-14
+1245048,U.S. Dept Of Defense,XSS DUE TO CVE-2020-3580,hackerone.com/reports/1245048,5,0.0,Cross-site Scripting (XSS) - Reflected,2021-07-29
+1245051,Basecamp,Error Page Content Spoofing or Text Injection ,hackerone.com/reports/1245051,45,100.0,Violation of Secure Design Principles,2021-07-14
+1245055,U.S. Dept Of Defense,XSS DUE TO CVE-2020-3580,hackerone.com/reports/1245055,13,0.0,Cross-site Scripting (XSS) - Reflected,2021-07-29
+1245094,Urban Company,Exposed data of credit card details to hacker or attacker.,hackerone.com/reports/1245094,4,0.0,Privacy Violation,2021-06-28
+1245165,Acronis,CSS Injection via Client Side Path Traversal + Open Redirect leads to personal data exfiltration on Acronis Cloud,hackerone.com/reports/1245165,36,0.0,Cross-site Scripting (XSS) - DOM,2022-11-04
+1245529,Acronis,No Rate Limit On Forgot Password Page,hackerone.com/reports/1245529,13,0.0,Improper Access Control - Generic,2021-07-09
+1245736,Shopify,A non-privileged user may create an admin account in Stocky,hackerone.com/reports/1245736,67,0.0,Privilege Escalation,2021-11-25
+1245741,Zenly,Friend Request Flow Exposes User Data ,hackerone.com/reports/1245741,19,0.0,Privacy Violation,2022-01-12
+1245762,Zenly,Account Takeover via SMS Authentication Flow ,hackerone.com/reports/1245762,93,0.0,Improper Authentication - Generic,2022-01-12
+1245787,Elastic,[Swiftype] - Stored XSS via document field `url` triggers on `https://app.swiftype.com/engines/<engine>/document_types/<type>/documents/<id>`,hackerone.com/reports/1245787,7,0.0,Cross-site Scripting (XSS) - Stored,2021-08-03
+1245972,Homebrew,clickjacking at  brew.sh,hackerone.com/reports/1245972,2,0.0,UI Redressing (Clickjacking),2021-06-28
+1246721,Nextcloud,Text app leaks file path of shared files,hackerone.com/reports/1246721,6,0.0,Information Disclosure,2021-08-11
+1247108,TikTok,TikTok 2FA Bypass,hackerone.com/reports/1247108,193,1564.0,Improper Authorization,2023-02-03
+1247833,MTN Group,Reflected Cross Site Scripting Cisco ASA on  myvpn.mtncameroon.net CVE-2020-3580,hackerone.com/reports/1247833,28,0.0,Cross-site Scripting (XSS) - Reflected,2024-08-23
+1248040,U.S. Dept Of Defense, Pre-auth RCE in ForgeRock OpenAM (CVE-2021-35464),hackerone.com/reports/1248040,11,0.0,Code Injection,2021-07-29
+1248052,U.S. Dept Of Defense,Pre-auth RCE in ForgeRock OpenAM (CVE-2021-35464),hackerone.com/reports/1248052,30,0.0,Code Injection,2023-12-21
+1248852,Slack,Misuse of groups feature allows workspace members to join private channels without being invited,hackerone.com/reports/1248852,23,0.0,Improper Access Control - Generic,2021-10-21
+1249050,TikTok,Information Disclosure on TikTok Unplugged Site,hackerone.com/reports/1249050,11,0.0,Information Disclosure,2021-08-13
+1249056,Brave Software,Brave Browser permanently timestamps & logs connection times for all v2 domains ~/.config/BraveSoftware/Brave-Browser/tor/data/tor.log,hackerone.com/reports/1249056,19,0.0,Cleartext Storage of Sensitive Information,2021-08-16
+1249456,U.S. Dept Of Defense,Pre-auth RCE in ForgeRock OpenAM (CVE-2021-35464),hackerone.com/reports/1249456,8,0.0,Code Injection,2021-07-29
+1249583,Kubernetes,Authenticated kubernetes principal with restricted permissions can retrieve ingress-nginx serviceaccount token and secrets across all namespaces,hackerone.com/reports/1249583,55,0.0,Privilege Escalation,2021-12-04
+1250037,Stripe,Email change or personal data change on the account.,hackerone.com/reports/1250037,149,3000.0,Insecure Direct Object Reference (IDOR),2022-01-21
+1250199,U.S. Dept Of Defense,Cross site scripting ,hackerone.com/reports/1250199,10,0.0,Cross-site Scripting (XSS) - Reflected,2021-07-29
+1250273,Tor,Tor Browser using --log or --verbose logs the exact connection time a client connects to any v2 domains.,hackerone.com/reports/1250273,4,0.0,Information Disclosure,2021-09-27
+1250293,U.S. Dept Of Defense,SQL injection my method -1 OR 3*2*1=6 AND 000159=000159,hackerone.com/reports/1250293,32,0.0,Code Injection,2021-07-29
+1250474,LY Corporation,Missing ownership check in 2FA for secondary client login,hackerone.com/reports/1250474,52,0.0,,2021-12-27
+1251464,Acronis,Acronis True Image Local Privilege Escalation Due To Race Condition In Application Verification ,hackerone.com/reports/1251464,8,0.0,Privilege Escalation,2022-07-28
+1251868,U.S. Dept Of Defense,XSS on https://████/ via ███████ parameter,hackerone.com/reports/1251868,6,0.0,Cross-site Scripting (XSS) - Reflected,2022-04-07
+1252020,U.S. Dept Of Defense,XSS on https://████████/████' parameter,hackerone.com/reports/1252020,1,0.0,Cross-site Scripting (XSS) - Reflected,2022-04-07
+1252059,U.S. Dept Of Defense,XSS on https://██████/███ via █████ parameter,hackerone.com/reports/1252059,3,0.0,Cross-site Scripting (XSS) - Reflected,2022-04-07
+1252155,Judge.me ,HTML INJECTION  (STORED),hackerone.com/reports/1252155,6,0.0,Improper Neutralization of Script-Related HTML Tags in a Web Page (Basic XSS),2023-02-01
+1252229,U.S. Dept Of Defense,XSS on https://███████/██████████ parameter,hackerone.com/reports/1252229,1,0.0,Cross-site Scripting (XSS) - Reflected,2022-04-07
+1252282,U.S. Dept Of Defense,XSS on ███,hackerone.com/reports/1252282,7,0.0,Cross-site Scripting (XSS) - Reflected,2021-08-19
+1253124,VK.com,XSS в выборе товара.,hackerone.com/reports/1253124,19,500.0,,2021-12-01
+1253462,TikTok,CSRF Account Takeover,hackerone.com/reports/1253462,95,0.0,Cross-Site Request Forgery (CSRF),2022-08-16
+1253732,Mattermost,Specially crafted message request crashes the webapp for users who view the message,hackerone.com/reports/1253732,17,150.0,Uncontrolled Resource Consumption,2022-03-14
+1253926,Basecamp,Domain Takeover [3737signals.com],hackerone.com/reports/1253926,47,0.0,Phishing,2021-08-13
+1255869,MCUboot,private keys exposed on the GitHub repository,hackerone.com/reports/1255869,13,0.0,Cleartext Storage of Sensitive Information,2021-11-04
+1256371,HackerOne,PII data Leakage through hackerone reports ,hackerone.com/reports/1256371,16,0.0,Information Disclosure,2021-08-09
+1256375,Shopify,Blog posts atom feed of a  store with password protection  can be accessed by anyone ,hackerone.com/reports/1256375,76,0.0,Information Disclosure,2021-11-08
+1256389,Acronis,Subdomain takeover of main domain of https://www.cyberlynx.lu/,hackerone.com/reports/1256389,70,100.0,Privilege Escalation,2021-10-12
+1256496,MTN Group,HTML injection in email content during registration via FirstName/LastName parameter,hackerone.com/reports/1256496,16,0.0,Improper Neutralization of Script-Related HTML Tags in a Web Page (Basic XSS),2021-12-18
