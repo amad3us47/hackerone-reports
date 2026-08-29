@@ -9186,3 +9186,80 @@ id,program,title,link,upvotes,bounty,vuln_type,date
 1344982,Shopify,Domain Takeover at 3hopify.media,hackerone.com/reports/1344982,19,0.0,Privilege Escalation,2021-10-21
 1346618,U.S. General Services Administration,Web Cache Poisoning leading to DoS,hackerone.com/reports/1346618,19,0.0,Uncontrolled Resource Consumption,2021-11-08
 1347249,Brave Software,Information disclosure,hackerone.com/reports/1347249,2,0.0,Information Disclosure,2021-09-21
+1350095,Shopify,Staff  can use BULK_OPERATIONS_FINISH webhook topic using Graphql without permissions all,hackerone.com/reports/1350095,26,0.0,Privilege Escalation,2021-12-04
+1350401,Reddit,Email Verification Bypass And Get access to user's private invitation.,hackerone.com/reports/1350401,3,0.0,Business Logic Errors,2021-10-21
+1350444,Concrete CMS,A bypass of adding remote files in concrete5 FIlemanager leads to remote code execution,hackerone.com/reports/1350444,10,0.0,,2021-11-11
+1350653,PlayStation,Remote kernel heap overflow,hackerone.com/reports/1350653,85,0.0,Heap Overflow,2022-05-11
+1350755,Kubernetes,Tokenless GUI Authentication,hackerone.com/reports/1350755,7,0.0,Improper Authentication - Generic,2021-11-04
+1350887,TikTok,Reflected XSS in TikTok endpoints,hackerone.com/reports/1350887,356,0.0,Cross-site Scripting (XSS) - Reflected,2021-10-22
+1351326,MTN Group,firebase credentials leaks @ ███████,hackerone.com/reports/1351326,7,0.0,Information Disclosure,2022-09-05
+1351329,MTN Group,firebase credentials leaks @ https://mpulse.mtnonline.com ,hackerone.com/reports/1351329,12,0.0,Information Disclosure,2022-09-05
+1351338,MTN Group,CVE-2021-38314  @ https://www.mtn.ci,hackerone.com/reports/1351338,4,0.0,,2022-09-05
+1351341,MTN Group,CVE-2021-38314 @ https://www.mtn.co.rw,hackerone.com/reports/1351341,4,0.0,,2022-09-05
+1351359,MTN Group,Exposed gitlab repo at https://adammanco.mtn.com/api/v4/projects,hackerone.com/reports/1351359,5,0.0,Information Disclosure,2022-09-05
+1352429,Internet Bug Bounty,CVE-2021-3711: SM2 decrypt  buffer overflow ,hackerone.com/reports/1352429,15,2000.0,Classic Buffer Overflow,2021-09-27
+1353103,GitLab,Drive-by arbitrary file deletion in the GDK via letter_opener_web gem,hackerone.com/reports/1353103,27,750.0,Cross-Site Request Forgery (CSRF),2021-11-12
+1353603,Elastic,Fix for CVE-2021-22151 (Kibana path traversal issue) can be bypassed on Windows,hackerone.com/reports/1353603,10,0.0,Path Traversal,2021-11-15
+1354066,8x8,Dangling DNS Record docs.jitsi.net (unsuccessful GSuite takeover),hackerone.com/reports/1354066,9,0.0,Violation of Secure Design Principles,2023-04-03
+1354255,Fastify,Open redirect in fastify-static via mishandled user's input when attempt to redirect,hackerone.com/reports/1354255,3,0.0,Open Redirect,2021-10-11
+1354334,Nextcloud,Error in Deleting Deck cards attachment reveals the full path of the website,hackerone.com/reports/1354334,6,0.0,Information Disclosure,2022-05-20
+1354368,UPchieve,"Missing Validation in editing  ""Your Phone Number"" ",hackerone.com/reports/1354368,4,0.0,Misconfiguration,2022-03-26
+1354382,UPchieve,Password Reuse,hackerone.com/reports/1354382,6,0.0,Misconfiguration,2022-03-26
+1354437,UPchieve,Password reset token leakage,hackerone.com/reports/1354437,12,0.0,Misconfiguration,2022-03-26
+1354444,UPchieve,Outdated Copyright Message @ Welcome email,hackerone.com/reports/1354444,4,0.0,Misconfiguration,2022-03-26
+1354452,VK.com,Выполнение API-методов при открытии сообщества/приложения,hackerone.com/reports/1354452,43,2000.0,Privilege Escalation,2021-12-30
+1355537,XVIDEOS,Script breaking tag (Forces website to render blank) (Informative),hackerone.com/reports/1355537,36,150.0,Unchecked Error Condition,2021-10-23
+1355817,IBM,SQL Injection in IBM access control panel & Broken access in admin panel,hackerone.com/reports/1355817,54,0.0,SQL Injection,2021-10-18
+1356508,Nextcloud,Read-only users can restore old versions,hackerone.com/reports/1356508,38,500.0,Improper Access Control - Generic,2024-06-14
+1356845,Elastic,CVE-2021-40870 on [52.204.160.31],hackerone.com/reports/1356845,75,0.0,Code Injection,2021-10-06
+1357013,Mattermost,ABLE TO TRICK THE VICTIM INTO USING A CRAFTED EMAIL ADDRESS FOR A PARTICULAR  SESSION AND THEN LATER TAKE BACK THE ACCOUNT ,hackerone.com/reports/1357013,49,0.0,Violation of Secure Design Principles,2022-01-05
+1357948,Kubernetes,Attacker can bypass authentication build on ingress external auth (`nginx.ingress.kubernetes.io/auth-url`),hackerone.com/reports/1357948,16,0.0,Improper Authentication - Generic,2022-04-23
+1358249,Semrush,php info file and sql backup at vendor's subdomain,hackerone.com/reports/1358249,14,0.0,Information Disclosure,2021-12-08
+1358977,Nextcloud,When sharing a Deck card in conversation the metaData can be manipulated to open arbitrary URL,hackerone.com/reports/1358977,19,0.0,Business Logic Errors,2022-02-15
+1360593,Informatica,CVE-2021-40870 in [███],hackerone.com/reports/1360593,12,0.0,Code Injection,2021-11-15
+1361804,Fastify,1-click DOS in fastify-static via directly passing user's input to new URL() of NodeJS without try/catch,hackerone.com/reports/1361804,4,0.0,Uncontrolled Resource Consumption,2021-10-11
+1362995,Tennessee Valley Authority,xss reflected - pq.tva.com,hackerone.com/reports/1362995,16,0.0,Cross-site Scripting (XSS) - Reflected,2023-09-11
+1363001,Tennessee Valley Authority,xss reflected - pqm.tva.com,hackerone.com/reports/1363001,17,0.0,Cross-site Scripting (XSS) - Reflected,2023-10-13
+1363185,Lark Technologies,Attacker is able to join any tenant on larksuite and view personal files/chats.,hackerone.com/reports/1363185,84,0.0,Privilege Escalation,2021-11-03
+1363672,Shopify,Bypass a fix for report #708013,hackerone.com/reports/1363672,102,3500.0,Improper Restriction of Authentication Attempts,2021-12-07
+1364022,8x8,Authentication Bypass & ApacheTomcat Misconfiguration in [██],hackerone.com/reports/1364022,18,0.0,Improper Authentication - Generic,2021-11-04
+1364797,Concrete CMS,SSRF - pivoting in the private LAN,hackerone.com/reports/1364797,7,0.0,Server-Side Request Forgery (SSRF),2022-11-25
+1364851,Traffic Factory,WordPress Plugin Update Confusion at trafficfactory.com,hackerone.com/reports/1364851,70,200.0,Business Logic Errors,2021-11-25
+1365076,8x8,Information Disclosure of metrics fax.wavecell.com/metrics,hackerone.com/reports/1365076,92,0.0,Information Disclosure,2025-05-30
+1365738,Flickr,critical server misconfiguration lead to access to any user sensitive data which include user email and password,hackerone.com/reports/1365738,116,500.0,Business Logic Errors,2021-11-02
+1368690,8x8,Hardcoded AWS credentials in ███████.msi,hackerone.com/reports/1368690,7,0.0,Use of Hard-coded Credentials,2022-04-29
+1369191,Stripe,Local applications from user's computer can listen for webhooks via insecure gRPC server from stripe-cli,hackerone.com/reports/1369191,19,0.0,Improper Authentication - Generic,2022-10-19
+1369288,MariaDB,Path Traversal CVE-2021-26086 CVE-2021-26085,hackerone.com/reports/1369288,3,0.0,Path Traversal,2021-11-05
+1369312,Concrete CMS,SSRF mitigation bypass using DNS Rebind attack,hackerone.com/reports/1369312,10,0.0,Server-Side Request Forgery (SSRF),2022-11-25
+1369674,X / xAI,Blind XSS on Twitter's internal Jira panel at ████ allows exfiltration of hackers reports and other sensitive data,hackerone.com/reports/1369674,99,0.0,Cross-site Scripting (XSS) - Stored,2022-02-12
+1369806,Nutanix,OPEN REDIRECT ,hackerone.com/reports/1369806,9,0.0,Open Redirect,2022-01-04
+1370240,VK.com,Reflected xss в m.vk.com/chatjoin,hackerone.com/reports/1370240,20,500.0,Cross-site Scripting (XSS) - Reflected,2021-11-05
+1370731,Acronis,CVE-2021-40438 on cp-eu2.acronis.com,hackerone.com/reports/1370731,19,0.0,Server-Side Request Forgery (SSRF),2022-07-13
+1370746,U.S. Dept Of Defense,Cross-site Scripting (XSS) - Reflected at https://██████████/,hackerone.com/reports/1370746,8,0.0,Cross-site Scripting (XSS) - Reflected,2022-04-07
+1370749,Shopify,"After changing the storefront password, the preview link is still valid",hackerone.com/reports/1370749,16,0.0,Improper Access Control - Generic,2022-04-21
+1372216,GitLab,"IDOR in ""external status check"" API leaks data about any status check on the instance",hackerone.com/reports/1372216,35,0.0,Insecure Direct Object Reference (IDOR),2022-02-22
+1372667,Basecamp,Able to steal bearer token from deep link,hackerone.com/reports/1372667,108,6337.0,Improper Authentication - Generic,2022-03-27
+1373784,Lark Technologies,Able to steal private files by manipulating response using Compose Email function of Lark,hackerone.com/reports/1373784,50,0.0,Insecure Direct Object Reference (IDOR),2022-01-25
+1374017,HackerOne,HTML injection in email at https://www.hackerone.com/,hackerone.com/reports/1374017,40,0.0,Code Injection,2023-05-12
+1374318,Ruby,Arbitrary file injection via symlink attack in rdoc generator,hackerone.com/reports/1374318,3,0.0,Resource Injection,2023-07-18
+1374512,Internet Bug Bounty,The Host Authorization middleware in Action Pack is vulnerable to crafted X-Forwarded-Host values,hackerone.com/reports/1374512,10,0.0,Open Redirect,2021-11-18
+1375393,GitLab,"""External status checks"" can be accepted by users below developer access if the user is either author or assignee of the target merge request",hackerone.com/reports/1375393,13,0.0,Improper Access Control - Generic,2022-06-08
+1376672,Judge.me ,Stored XSS in Email Templates via link,hackerone.com/reports/1376672,80,500.0,Cross-site Scripting (XSS) - Stored,2021-11-18
+1376961,TikTok,Cross-site Scripting (XSS) - Stored on ads.tiktok.com in Text  field,hackerone.com/reports/1376961,75,0.0,Cross-site Scripting (XSS) - Stored,2022-01-20
+1376990,TikTok,HTML Injection via TikTok Ads Email Share ,hackerone.com/reports/1376990,29,0.0,Improper Neutralization of Script-Related HTML Tags in a Web Page (Basic XSS),2022-07-28
+1377105,Rocket.Chat,Message ID Enumeration with Regular Expression in getReadReceipts Meteor method,hackerone.com/reports/1377105,1,0.0,Information Disclosure,2022-09-22
+1377748,Evernote,2 click Remote Code execution in Evernote Android,hackerone.com/reports/1377748,28,0.0,Path Traversal: '.../...//',2022-03-29
+1378175,Kubernetes,Ingress-nginx annotation injection allows retrieval of ingress-nginx serviceaccount token and secrets across all namespaces,hackerone.com/reports/1378175,34,0.0,Code Injection,2022-08-13
+1378413,TikTok,Reflected XSS on TikTok Website,hackerone.com/reports/1378413,88,3000.0,Cross-site Scripting (XSS) - Reflected,2022-04-13
+1378533,TikTok,Open Redirect TO  Stealing aadvid,hackerone.com/reports/1378533,31,0.0,Open Redirect,2022-03-02
+1378706,Ruby,RDoc::MethodAttr is vulnerable to Regular Expression Denial of Service (ReDoS),hackerone.com/reports/1378706,4,0.0,Uncontrolled Resource Consumption,2023-07-18
+1378889,Slack,[Android] Directory traversal leading to disclosure of auth tokens,hackerone.com/reports/1378889,50,3500.0,Path Traversal,2022-02-25
+1379080,MTN Group,SSRF Keycloak before 13.0.0 - CVE-2020-10770 on https://sponsoredata.mtn.ci,hackerone.com/reports/1379080,60,0.0,Server-Side Request Forgery (SSRF),2024-09-26
+1379130,IBM,Remote Code Execution at https://169.38.86.185/ (edst.ibm.com),hackerone.com/reports/1379130,49,0.0,Command Injection - Generic,2021-11-04
+1379158,Informatica,Reflected Cross-Site Scripting/HTML Injection,hackerone.com/reports/1379158,3,0.0,Cross-site Scripting (XSS) - Reflected,2021-12-17
+1379400,Rocket.Chat,XSS in various MessageTypes,hackerone.com/reports/1379400,12,0.0,Cross-site Scripting (XSS) - Stored,2024-08-10
+1379451,Rocket.Chat,Messages can be hidden regardless of server configuration,hackerone.com/reports/1379451,5,0.0,,2023-04-25
+1379635,Rocket.Chat,Retrospective change of message timestamp and order,hackerone.com/reports/1379635,3,0.0,,2023-04-25
+1379645,Rocket.Chat,Impersonation in Sequential Messages,hackerone.com/reports/1379645,7,0.0,,2024-08-10
+1379656,Omise,The endpoint '/test/webhooks' is vulnerable to DNS Rebinding,hackerone.com/reports/1379656,14,0.0,Server-Side Request Forgery (SSRF),2022-03-22
+1379707,Monero,RPC call crashes node,hackerone.com/reports/1379707,28,0.0,Uncontrolled Resource Consumption,2022-08-20
