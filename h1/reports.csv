@@ -9056,3 +9056,66 @@ id,program,title,link,upvotes,bounty,vuln_type,date
 1283605,Sifchain,ETHEREUM_PRIVATE_KEY leaked via github,hackerone.com/reports/1283605,1,0.0,,2021-12-09
 1283871,Homebrew,Bypass of the installation sandbox by injecting keystrokes with TIOCSTI,hackerone.com/reports/1283871,5,0.0,Improper Access Control - Generic,2021-08-30
 1283938,LY Corporation,Missing authentication in buddy group API of LINE TIMELINE,hackerone.com/reports/1283938,47,3000.0,Improper Authentication - Generic,2021-12-27
+1285081,Reddit,Open Redirect on www.redditinc.com via `failed` query param bypass after fixed bug #1257753,hackerone.com/reports/1285081,20,0.0,Open Redirect,2022-09-30
+1285115,HackerOne,"Leaked H1's Employees Email addresses,meeting info on private bug bounty program ████████",hackerone.com/reports/1285115,118,0.0,Information Disclosure,2021-11-08
+1285226,GitLab,"Improper access control for users with expired password, giving the user full access through API and Git",hackerone.com/reports/1285226,49,0.0,Improper Access Control - Generic,2022-01-27
+1285441,Tennessee Valley Authority,Rate limit missing sign-in page,hackerone.com/reports/1285441,7,0.0,Improper Restriction of Authentication Attempts,2023-07-11
+1285538,Omise,Race condition on action: Invite members to a team,hackerone.com/reports/1285538,26,0.0,Business Logic Errors,2022-03-22
+1285598,Reddit,s3 bucket takeover presented in https://github.com/reddit/rpan-studio/blob/e1782332c75ecb2f774343258ff509788feab7ce/CI/full-build-macos.sh,hackerone.com/reports/1285598,96,0.0,Business Logic Errors,2021-10-21
+1285694,MTN Group,No password length restriction in reset password endpoint at http://suppliers.mtn.cm,hackerone.com/reports/1285694,9,0.0,,2022-09-05
+1286332,TikTok,Multiple IDORs in family pairing api,hackerone.com/reports/1286332,107,0.0,Insecure Direct Object Reference (IDOR),2022-05-06
+1288898,Basecamp,Password reset link not expiring after changing password in settings,hackerone.com/reports/1288898,49,250.0,Improper Authentication - Generic,2021-08-10
+1290170,LY Corporation,Access to images and videos in drafts on LINE BLOG,hackerone.com/reports/1290170,19,0.0,Improper Access Control - Generic,2021-12-27
+1290872,Twitter Algorithmic Bias,Economic Harm through Twitter's Cropping Algorithm,hackerone.com/reports/1290872,11,0.0,Improper Input Validation,2021-09-08
+1293377,Khan Academy,The endpoint /api/internal/graphql/requestAuthEmail on Khanacademy.or is vulnerable to Race Condition Attack.,hackerone.com/reports/1293377,16,0.0,Business Logic Errors,2022-03-22
+1294043,Sifchain,SSH server due to Improper Signature Verification,hackerone.com/reports/1294043,2,0.0,,2021-08-30
+1294062,Twitter Algorithmic Bias,Underrepresentation Bias through Twitter's Cropping Algorithm,hackerone.com/reports/1294062,10,0.0,Improper Input Validation,2021-09-08
+1294231,Basecamp,Login session not expire,hackerone.com/reports/1294231,18,100.0,Insufficient Session Expiration,2021-08-10
+1294242,Twitter Algorithmic Bias,Underrepresentation Bias through Twitter's Cropping Algorithm #2: Favoring Animals over Black People,hackerone.com/reports/1294242,6,0.0,Improper Input Validation,2021-09-08
+1294492,Palo Alto Software,DNS Miconfiguration Leads to Subdomain Takeover  - max1.liveplan.com,hackerone.com/reports/1294492,10,0.0,Privilege Escalation,2021-09-08
+1294767,Logitech,clickjacking on deleting user's clips [https://crossclip.com/clips],hackerone.com/reports/1294767,4,0.0,UI Redressing (Clickjacking),2021-11-05
+1295187,UPchieve,Failed to validate Session after Password Change,hackerone.com/reports/1295187,9,0.0,Insufficient Session Expiration,2021-08-31
+1295497,Shopify,EC2 Takeover at turn.shopify.com,hackerone.com/reports/1295497,52,0.0,Cross-site Scripting (XSS) - Stored,2022-03-28
+1295844,Valve,Modify in-flight data to payment provider Smart2Pay,hackerone.com/reports/1295844,440,7500.0,Business Logic Errors,2021-08-10
+1296366,U.S. Dept Of Defense,EC2 subdomain takeover at http://████████/,hackerone.com/reports/1296366,33,0.0,Privilege Escalation,2022-02-14
+1296584,Glovo,"Getting a free delivery by singing up from ""admin_@glovoapp.com""",hackerone.com/reports/1296584,41,0.0,Privilege Escalation,2022-07-11
+1296597,UPchieve,Business logic error,hackerone.com/reports/1296597,9,0.0,Business Logic Errors,2021-08-11
+1297480,MTN Group,Default Login Credentials on https://broadbandmaps.mtn.com.gh/ ,hackerone.com/reports/1297480,42,0.0,Improper Access Control - Generic,2022-08-25
+1297689,Affirm,Subdomain takeover of www█████████.affirm.com,hackerone.com/reports/1297689,55,500.0,Business Logic Errors,2021-08-18
+1298809,Shopify,Senseitive data Related to Shopify Host -> https://shopify.zendesk.com/,hackerone.com/reports/1298809,29,0.0,Cleartext Storage of Sensitive Information,2021-11-08
+1298902,Reddit,Outsider can affect Upvote Percentage of private subreddit post by calling /api/vote API,hackerone.com/reports/1298902,52,0.0,Improper Access Control - Generic,2021-10-27
+1300583,VK.com,Баг с оплатой подписки,hackerone.com/reports/1300583,18,300.0,,2021-12-27
+1300585,Elastic,blind Server-Side Request Forgery (SSRF)  allows scanning internal ports,hackerone.com/reports/1300585,54,0.0,Server-Side Request Forgery (SSRF),2023-05-05
+1300589,U.S. Dept Of Defense,Sensitive information on ██████████,hackerone.com/reports/1300589,2,0.0,Cleartext Storage of Sensitive Information,2021-08-26
+1300591,U.S. Dept Of Defense,Sensitive information on '████████',hackerone.com/reports/1300591,0,0.0,Cleartext Storage of Sensitive Information,2021-08-26
+1300802,Ruby on Rails,Possible DOS in app with crashing `exceptions_app`,hackerone.com/reports/1300802,3,0.0,Uncontrolled Resource Consumption,2023-06-28
+1301113,UPchieve,CLICKJACKING LEADS TO DEACTIVATE ACCOUNT,hackerone.com/reports/1301113,4,0.0,UI Redressing (Clickjacking),2021-08-16
+1301696,Ruby,Bug Report : [ No Valid SPF Records ],hackerone.com/reports/1301696,3,0.0,,2022-01-13
+1302155,Nextcloud,Arbitrary read of all SVG files on a Nextcloud server,hackerone.com/reports/1302155,36,1250.0,Path Traversal,2023-03-26
+1302395,Ruby on Rails,Sauce Labs API key unencrypted in an old commit,hackerone.com/reports/1302395,23,0.0,Use of Hard-coded Cryptographic Key,2024-10-08
+1304490,UPchieve,i can join without user and pass in this website  https://argocd.upchieve.org/settings/accounts,hackerone.com/reports/1304490,4,0.0,"Reusing a Nonce, Key Pair in Encryption",2021-08-18
+1305432,LY Corporation,Bot setting information leakage in OpenChat room,hackerone.com/reports/1305432,29,0.0,Improper Access Control - Generic,2021-12-27
+1305472,U.S. Dept Of Defense,Reflected XSS at ████ via ██████████= parameter ,hackerone.com/reports/1305472,6,0.0,Cross-site Scripting (XSS) - Reflected,2021-10-28
+1305477,U.S. Dept Of Defense,XSS because of Akamai ARL misconfiguration on ████,hackerone.com/reports/1305477,2,0.0,Cross-site Scripting (XSS) - Reflected,2022-03-18
+1305766,MTN Group,There is no rate limit for SME REGISTRATION PORTAL,hackerone.com/reports/1305766,14,0.0,Improper Authentication - Generic,2022-09-19
+1306942,Revive Adserver,Use of a Broken or Risky Cryptographic Algorithm,hackerone.com/reports/1306942,14,0.0,Use of a Broken or Risky Cryptographic Algorithm,2021-09-15
+1307943,Basecamp,Privilege Escalation leads to trash other users comment without having admin rights.,hackerone.com/reports/1307943,9,0.0,Privilege Escalation,2021-12-01
+1309237,U.S. Dept Of Defense,Reflected XSS [███],hackerone.com/reports/1309237,3,0.0,Cross-site Scripting (XSS) - Reflected,2022-04-29
+1309385,U.S. Dept Of Defense,Reflected XSS [██████],hackerone.com/reports/1309385,5,0.0,Cross-site Scripting (XSS) - Reflected,2022-04-29
+1309386,U.S. Dept Of Defense,Reflected XSS [██████],hackerone.com/reports/1309386,4,0.0,Cross-site Scripting (XSS) - Reflected,2022-09-14
+1309435,UPchieve,Widespread CSRF on authenticated POST endpoints,hackerone.com/reports/1309435,17,0.0,Cross-Site Request Forgery (CSRF),2022-02-13
+1309949,Sony,Reflected XSS on ███ via jobid parameter,hackerone.com/reports/1309949,14,0.0,Cross-site Scripting (XSS) - Reflected,2022-08-24
+1310230,Reddit,Open Redirect through POST Request in www.redditinc.com,hackerone.com/reports/1310230,10,0.0,Open Redirect,2022-07-08
+1312365,Affirm,Subdomain takeover due to non registered TLD [ ██████████.█████.██████.com ],hackerone.com/reports/1312365,48,0.0,Improper Access Control - Generic,2021-08-31
+1313040,U.S. General Services Administration,Path Traversal on meetcqpub1.gsa.gov allows attackers to see arbitrary file listings.,hackerone.com/reports/1313040,11,0.0,Path Traversal,2021-10-02
+1314162,LY Corporation,Improper authorization allows disclosing users' notification data in Notification channel server,hackerone.com/reports/1314162,78,2000.0,Improper Authorization,2021-12-31
+1314172,MTN Group,Otp  bypass in verifying nin,hackerone.com/reports/1314172,24,0.0,Improper Authentication - Generic,2022-10-17
+1315898,U.S. Dept Of Defense,Open Akamai ARL XSS on http://media.████████,hackerone.com/reports/1315898,40,0.0,Cross-site Scripting (XSS) - Reflected,2024-07-26
+1315907,U.S. Dept Of Defense,Open Akamai ARL XSS on http://master-config-████████,hackerone.com/reports/1315907,53,0.0,Cross-site Scripting (XSS) - Reflected,2024-07-26
+1316412,Tor,Information Exposure Through Directory Listing,hackerone.com/reports/1316412,3,0.0,Information Exposure Through Directory Listing,2021-08-27
+1316650,Brave Software,unclaimed s3 bucket takeover in the 3 js file located on the github page of  brave software,hackerone.com/reports/1316650,15,0.0,Business Logic Errors,2021-09-24
+1317024,U.S. Dept Of Defense,Open Akamai ARL XSS at ████████,hackerone.com/reports/1317024,7,0.0,Cross-site Scripting (XSS) - Generic,2022-04-20
+1317031,U.S. Dept Of Defense,Open Akamai ARL XSS at ████████,hackerone.com/reports/1317031,8,0.0,Cross-site Scripting (XSS) - Reflected,2022-04-07
+1317236,IBM,Unauthorized Kubernetes to RCE (root) and found TEAMTNT Crypto Miner on it,hackerone.com/reports/1317236,12,0.0,,2021-10-18
+1317494,UPchieve,No Rate Limit on forgot password page,hackerone.com/reports/1317494,5,0.0,Improper Restriction of Authentication Attempts,2022-03-26
+1318087,UPchieve,OTP reflecting in response sensitive data exposure leads to account take over,hackerone.com/reports/1318087,5,0.0,,2022-03-26
