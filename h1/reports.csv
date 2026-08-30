@@ -9425,3 +9425,79 @@ id,program,title,link,upvotes,bounty,vuln_type,date
 1442644,Adobe,Log4j Java RCE in [beta.dev.adobeconnect.com],hackerone.com/reports/1442644,34,0.0,Code Injection,2022-03-21
 1442783,Rockstar Games,Improper Authentication inside the Rockstar Games Launcher which leads to Account takeover to some extend,hackerone.com/reports/1442783,50,750.0,Improper Authentication - Generic,2023-07-05
 1443211,Mattermost,Bypass Email Verification in Customer Portal,hackerone.com/reports/1443211,45,0.0,,2022-02-26
+1443567,Mattermost,html injection via invite members can be leads account takeover ,hackerone.com/reports/1443567,38,0.0,Cross-site Scripting (XSS) - Generic,2022-03-22
+1443654,U.S. General Services Administration,Registered users contact  information disclosure on salesforce lightning endpoint https://disposal.gsa.gov,hackerone.com/reports/1443654,5,0.0,Information Disclosure,2022-06-06
+1444031,Krisp,Error Page Content Spoofing or Text Injection,hackerone.com/reports/1444031,8,0.0,Violation of Secure Design Principles,2022-03-09
+1444151,Ruby on Rails,XSS vulnerabilities due to missing checks in tag helpers,hackerone.com/reports/1444151,41,0.0,Cross-site Scripting (XSS) - Generic,2023-07-28
+1444501,Ruby,"URI parser's RFC3986 regular expression has poor performance when there are two # characters, leading to ReDoS",hackerone.com/reports/1444501,22,0.0,,2023-12-13
+1444539,curl, Remote memory disclosure vulnerability in libcurl on 64 Bit Windows,hackerone.com/reports/1444539,5,0.0,Information Exposure Through Sent Data,2022-02-21
+1444675,Omise,Host Header Injection leads to Open Redirect and Content Spoofing or Text Injection.,hackerone.com/reports/1444675,50,300.0,,2022-04-09
+1444682,Shopify,XSS at jamfpro.shopifycloud.com,hackerone.com/reports/1444682,240,9400.0,Cross-site Scripting (XSS) - Generic,2023-02-02
+1445810,Rocket.Chat,Mute User can disclose private channel members to unauthorized users,hackerone.com/reports/1445810,6,0.0,Information Disclosure,2023-05-09
+1446090,Krisp,Add more seats by paying less via PUT /v2/seats request manipulation,hackerone.com/reports/1446090,30,0.0,Improper Input Validation,2022-06-20
+1446107,EXNESS,Verification process done using different documents without corresponding to user information / User information can be changed after verification,hackerone.com/reports/1446107,25,0.0,Business Logic Errors,2023-01-27
+1446236,U.S. Dept Of Defense,CVE-2021-42567 - Apereo CAS Reflected XSS on https://█████████,hackerone.com/reports/1446236,2,0.0,Cross-site Scripting (XSS) - Reflected,2022-03-18
+1446767,Rocket.Chat,API route chat.getThreadsList leaks private message content,hackerone.com/reports/1446767,4,0.0,Information Disclosure,2022-09-22
+1447440,Rocket.Chat,getRoomRoles Method leaks Channel Owner,hackerone.com/reports/1447440,2,0.0,Information Disclosure,2022-09-22
+1447619,Rocket.Chat,Authentication Bypass in login-token Authentication Method,hackerone.com/reports/1447619,31,0.0,Improper Authentication - Generic,2024-08-10
+1447751,MTN Group,Firebase Database Takeover in https://pulseradio.mtn.co.ug/,hackerone.com/reports/1447751,15,0.0,Insecure Storage of Sensitive Information,2022-12-01
+1448218,JetBlue,Sensitive information disclosure on grafana,hackerone.com/reports/1448218,45,0.0,,2024-02-26
+1448268,Rocket.Chat,TOTP 2 Factor Authentication Bypass,hackerone.com/reports/1448268,7,0.0,Improper Authentication - Generic,2022-09-22
+1448550,MTN Group,"Remove Every User, Admin, And Owner Out Of Their Teams on developers.mtn.com via IDOR + Information Disclosure",hackerone.com/reports/1448550,28,0.0,Insecure Direct Object Reference (IDOR),2022-12-01
+1448616,Recorded Future,Dom Xss vulnerability,hackerone.com/reports/1448616,8,0.0,Cross-site Scripting (XSS) - DOM,2022-01-19
+1450014,Krisp,Visibility Robots.txt file,hackerone.com/reports/1450014,18,0.0,Information Disclosure,2022-04-25
+1450117,Nextcloud,Nextcloud Deck : Possibility for anyone to add a stack with existing tasks on anyone's board,hackerone.com/reports/1450117,13,0.0,Insecure Direct Object Reference (IDOR),2022-05-20
+1450368,Nextcloud,com.nextcloud.client bypass the protection lock in andoid app v 3.18.1 latest version.,hackerone.com/reports/1450368,11,200.0,Improper Access Control - Generic,2022-04-30
+1451394,MTN Group,POST BASED REFLECTED XSS IN dailydeals.mtn.co.za,hackerone.com/reports/1451394,35,0.0,Cross-site Scripting (XSS) - Reflected,2022-07-15
+1452149,JetBlue,Dom-Based XSS on parameter ?vsid=,hackerone.com/reports/1452149,27,0.0,Cross-site Scripting (XSS) - DOM,2022-12-30
+1452375,TikTok,Reflected xss on ads.tiktok.com using `from` parameter.,hackerone.com/reports/1452375,111,0.0,Cross-site Scripting (XSS) - Reflected,2022-02-09
+1452774,Mars,Unauthenticated Sensitive Information Disclosure on █████████  CVE-2021-38314,hackerone.com/reports/1452774,66,0.0,Information Disclosure,2025-09-02
+1454002,ownCloud,Theft of protected files on Android,hackerone.com/reports/1454002,11,50.0,Violation of Secure Design Principles,2022-03-17
+1454359,VK.com,Reflected Xss On https://vk.com/search,hackerone.com/reports/1454359,38,500.0,Cross-site Scripting (XSS) - Reflected,2022-02-01
+1454552,Weblate,hosted.weblate.org display of unfiltered results,hackerone.com/reports/1454552,3,0.0,,2022-01-21
+1454965,8x8,████ api key exposed in github.com/███/███,hackerone.com/reports/1454965,23,0.0,Cleartext Storage of Sensitive Information,2022-02-22
+1455248,Internet Bug Bounty,Buffer Overflow in optimized_escape_html method,hackerone.com/reports/1455248,6,0.0,Classic Buffer Overflow,2022-01-22
+1455257,U.S. Dept Of Defense,CVE-2020-3452 on  https://█████/,hackerone.com/reports/1455257,1,0.0,Path Traversal,2022-03-18
+1455266,U.S. Dept Of Defense,Arbitrary File Deletion (CVE-2020-3187) on ████████,hackerone.com/reports/1455266,1,0.0,Path Traversal,2022-03-18
+1455411,Internet Bug Bounty,Invalid handling of X509_verify_cert() internal errors in libssl (CVE-2021-4044),hackerone.com/reports/1455411,3,1200.0,Improper Certificate Validation,2022-01-20
+1455987,EXNESS,Improper Implementation of SDK Allows Universal XSS in Webview Leading to Account Takeover,hackerone.com/reports/1455987,11,0.0,Improper Access Control - Generic,2022-04-13
+1456063,Basecamp,RCE via exposed JMX server on jabber.37signals.com/jabber.basecamp.com,hackerone.com/reports/1456063,30,100.0,Deserialization of Untrusted Data,2022-04-26
+1457277,U.S. Dept Of Defense,"Reflected XSS at https://█████████ via ""███"" parameter",hackerone.com/reports/1457277,4,0.0,Cross-site Scripting (XSS) - Reflected,2022-02-14
+1457413,U.S. Dept Of Defense,"Reflected XSS at https://██████/██████████ via ""████████"" parameter",hackerone.com/reports/1457413,3,0.0,Cross-site Scripting (XSS) - Reflected,2022-02-14
+1457444,U.S. Dept Of Defense,"Reflected XSS at https://██████/██████ via ""██████"" parameter",hackerone.com/reports/1457444,3,0.0,Cross-site Scripting (XSS) - Reflected,2022-02-14
+1457471,Shopify,Limited Privilege User Can Create Unauthorized Referrals on partners.shopify.com,hackerone.com/reports/1457471,180,0.0,Improper Access Control - Generic,2025-03-20
+1457493,U.S. Dept Of Defense,"Reflected XSS at https://██████████/████████ via ""███████"" parameter",hackerone.com/reports/1457493,2,0.0,Cross-site Scripting (XSS) - Reflected,2022-02-14
+1457546,U.S. Dept Of Defense,"Reflected XSS at https://█████ via ""██████████"" parameter",hackerone.com/reports/1457546,6,0.0,Cross-site Scripting (XSS) - Reflected,2022-02-14
+1457736,JetBlue,Open Redirect,hackerone.com/reports/1457736,13,0.0,Open Redirect,2023-01-29
+1457928,U.S. Dept Of Defense,Subdomain takeover of █████████,hackerone.com/reports/1457928,33,0.0,Security Through Obscurity,2022-09-06
+1458020,Rocket.Chat,NoSQL-Injection discloses S3 File Upload URLs,hackerone.com/reports/1458020,3,0.0,Information Disclosure,2022-09-22
+1458236,Aiven Ltd,0-day Cross Origin Request Forgery vulnerability in Grafana 8.x .,hackerone.com/reports/1458236,27,0.0,Cross-Site Request Forgery (CSRF),2022-03-16
+1459338,Shopify,Same the Url,hackerone.com/reports/1459338,8,500.0,,2022-04-21
+1459714,Acronis,[CVE-2021-44228] Arbitrary Code Execution on ng01-cloud.acronis.com,hackerone.com/reports/1459714,33,0.0,,2024-08-28
+1460373,FetLife,"Race condition in endpoint POST fetlife.com/users/invitation, allow attacker to generate unlimited invites",hackerone.com/reports/1460373,30,0.0,,2022-03-09
+1461194,Slack,Email html Injection,hackerone.com/reports/1461194,28,250.0,Code Injection,2022-05-19
+1461207,Reddit,Broken links make users from France unable to understand the allowed content policy,hackerone.com/reports/1461207,6,0.0,,2023-05-18
+1461340,Rocket.Chat,Maliciously crafted message can cause Rocket.Chat server to stop responding,hackerone.com/reports/1461340,3,0.0,Uncontrolled Resource Consumption,2023-05-09
+1462175,UPchieve,No character limit in password field,hackerone.com/reports/1462175,4,0.0,Use of Hard-coded Password,2022-01-30
+1463013,curl,Occasional use-after-free in multi_done() libcurl-7.81.0,hackerone.com/reports/1463013,1,0.0,Use After Free,2022-03-09
+1463028,Lark Technologies,[AWC-Pune] - User can download files deleted by Admin using shortcuts,hackerone.com/reports/1463028,11,0.0,,2022-02-25
+1463638,Equifax-vdp,RXSS on https://equifax.gr8people.com on Password Reset page in the username parameter,hackerone.com/reports/1463638,6,0.0,Cross-site Scripting (XSS) - Reflected,2022-03-09
+1464168,Semrush,IDOR allowing to read another user's token on the Social Media Ads service,hackerone.com/reports/1464168,103,0.0,Improper Access Control - Generic,2022-08-16
+1464396,Internet Bug Bounty,Ruby CVE-2021-41819: Cookie Prefix Spoofing in CGI::Cookie.parse,hackerone.com/reports/1464396,31,2000.0,Reliance on Cookies without Validation and Integrity Checking in a Security Decision,2022-02-03
+1465277,Omise,Brute force of a current password on a disable 2fa leads to guess password and disable 2fa.,hackerone.com/reports/1465277,11,0.0,Improper Restriction of Authentication Attempts,2022-07-07
+1466765,Kubernetes,monitoring.prow-canary.k8s.io is vulnerable to CVE-2022-21703 (Grafana 0-day),hackerone.com/reports/1466765,36,100.0,Cross-Site Request Forgery (CSRF),2024-06-25
+1466855,Shopify,User with no Develop apps permission can Uninstall Custom App,hackerone.com/reports/1466855,15,0.0,Improper Authorization,2022-04-21
+1466889,Kubernetes,Broken link hijacking in https://kubernetes-csi.github.io/docs/drivers.html?highlight=chubaofs#production-drivers,hackerone.com/reports/1466889,17,100.0,Insecure Temporary File,2022-03-25
+1466967,Omise,Brute force attack of current password on  login page by bypassing account limit using IP rotator(https://dashboard.omise.co/signin),hackerone.com/reports/1466967,14,0.0,Improper Restriction of Authentication Attempts,2022-03-04
+1467044,Cloudflare Public Bug Bounty,Blind SSRF on platform.dash.cloudflare.com Due to Sentry misconfiguration,hackerone.com/reports/1467044,54,0.0,Server-Side Request Forgery (SSRF),2022-08-31
+1467046,8x8,Open Redirect on https://██.8x8.com/login?nextPage=%2F,hackerone.com/reports/1467046,8,0.0,Open Redirect,2022-03-10
+1468962,curl,Binary output bypass,hackerone.com/reports/1468962,2,0.0,Classic Buffer Overflow,2022-03-09
+1470076,Lark Technologies,Normal User is able to EXPORT Feature Usage Statistics,hackerone.com/reports/1470076,21,0.0,Improper Access Control - Generic,2022-03-04
+1472394,Alohi,Misconfigured rate limit at app.sign.plus/forgot_password,hackerone.com/reports/1472394,25,0.0,Business Logic Errors,2022-03-25
+1472471,Shopify,Xss triggered in Your-store.myshopify.com/admin/apps/shopify-email/editor/****,hackerone.com/reports/1472471,63,2900.0,Cross-site Scripting (XSS) - Stored,2022-04-25
+1472721,U.S. General Services Administration,IDOR at https://demo.sftool.gov/TwsHome/ScorecardManage/ via scorecard name,hackerone.com/reports/1472721,9,0.0,Improper Access Control - Generic,2022-03-17
+1473071,8x8,connect.8x8.com: deactivated users remain access to /api/v1/users/UUID/roles,hackerone.com/reports/1473071,24,0.0,Improper Access Control - Generic,2023-02-15
+1474017,Omise,Open S3 Bucket Accessible by any  User,hackerone.com/reports/1474017,14,100.0,Information Disclosure,2022-04-13
+1474536,8x8,connect.8x8.com: admin user can send invites on behalf of another admin user via POST /api/v1/users/<User ID>/invites,hackerone.com/reports/1474536,105,0.0,Improper Access Control - Generic,2023-02-15
+1474784,Zenly,Subdomain Takeover of brand.zen.ly,hackerone.com/reports/1474784,61,750.0,,2022-02-17
+1475520,TikTok,IDOR delete any Tickets on ads.tiktok.com,hackerone.com/reports/1475520,216,0.0,Insecure Direct Object Reference (IDOR),2022-03-02
