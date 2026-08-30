@@ -9263,3 +9263,89 @@ id,program,title,link,upvotes,bounty,vuln_type,date
 1379645,Rocket.Chat,Impersonation in Sequential Messages,hackerone.com/reports/1379645,7,0.0,,2024-08-10
 1379656,Omise,The endpoint '/test/webhooks' is vulnerable to DNS Rebinding,hackerone.com/reports/1379656,14,0.0,Server-Side Request Forgery (SSRF),2022-03-22
 1379707,Monero,RPC call crashes node,hackerone.com/reports/1379707,28,0.0,Uncontrolled Resource Consumption,2022-08-20
+1379910,Panther Labs,Broken subdomain takeover of runpanther which was pointing towards herokuapp,hackerone.com/reports/1379910,21,0.0,,2021-11-13
+1379975,PlayStation,bd-j exploit chain,hackerone.com/reports/1379975,297,20000.0,Privilege Escalation,2022-06-10
+1380121,Urban Company,Critical full compromise of jarvis-new.urbanclap.com via weak session signing,hackerone.com/reports/1380121,123,1500.0,Improper Authentication - Generic,2022-01-30
+1380157,Rocket.Chat,Content-Security Policy bypass with File Uploads,hackerone.com/reports/1380157,14,0.0,,2024-08-10
+1382448,Acronis,%0A (New line) and limitness URL leads to DoS at all system [Main adress (https://www.acronis.com/)],hackerone.com/reports/1382448,36,0.0,Uncontrolled Resource Consumption,2022-01-04
+1382919,Kubernetes,Ingress-nginx path allows retrieval of ingress-nginx serviceaccount token,hackerone.com/reports/1382919,17,2500.0,Privilege Escalation,2022-08-06
+1385844,PortSwigger Web Security,Information disclosure on error message,hackerone.com/reports/1385844,18,0.0,Information Exposure Through an Error Message,2021-11-15
+1385906,Uber,Exposed Golang Pprof debugger at https://cn-geo1.uber.com/,hackerone.com/reports/1385906,14,0.0,Information Exposure Through Debug Information,2022-04-07
+1386277,HackerOne,Attachment references in markdown don't warn before downloading ,hackerone.com/reports/1386277,29,0.0,Open Redirect,2022-02-25
+1386547,Adobe,Disclosure of github access token in config file via nignx off-by-slash,hackerone.com/reports/1386547,15,0.0,Path Traversal,2022-01-13
+1387320,Lark Technologies,Able to steal private files by manipulating response using Auto Reply function of Lark,hackerone.com/reports/1387320,39,0.0,Insecure Direct Object Reference (IDOR),2022-01-25
+1387366,Kubernetes,"elections.k8s.io uses weak session secret key, may place elections at risk",hackerone.com/reports/1387366,85,250.0,Cryptographic Issues - Generic,2025-09-19
+1388788,Acronis,XSS in Acronis Cloud Manager Admin Portal,hackerone.com/reports/1388788,7,100.0,Cross-site Scripting (XSS) - Generic,2022-12-02
+1390131,U.S. Dept Of Defense,Reflected XSS,hackerone.com/reports/1390131,26,0.0,Cross-site Scripting (XSS) - Reflected,2023-01-06
+1390331,Nextcloud,SQL injextion via vulnerable doctrine/dbal version,hackerone.com/reports/1390331,10,0.0,SQL Injection,2022-05-11
+1390782,Rocket.Chat,Possible Domain Takeover on AWS Instance.,hackerone.com/reports/1390782,9,0.0,Phishing,2022-05-22
+1391549,Internet Bug Bounty,Request line injection via HTTP/2 in Apache mod_proxy,hackerone.com/reports/1391549,22,1200.0,,2021-11-04
+1391576,8x8,Remote Code Execution on ██.8x8.com via .NET VSTATE Deserialization,hackerone.com/reports/1391576,36,0.0,Code Injection,2022-02-03
+1391635,Cloudflare Public Bug Bounty,Bypassing Cache Deception Armor using .avif extension file,hackerone.com/reports/1391635,36,0.0,Information Disclosure,2022-06-27
+1392032,Shopify,Orders full read for a staff with only `Customers` permissions.,hackerone.com/reports/1392032,12,800.0,Improper Access Control - Generic,2022-02-10
+1392211,X / xAI,Remote 0click exfiltration of Safari user's IP address,hackerone.com/reports/1392211,28,560.0,Forced Browsing,2022-06-15
+1392262,Insightly,Stored XSS via LINK Name.,hackerone.com/reports/1392262,106,0.0,Cross-site Scripting (XSS) - Stored,2025-09-23
+1392287,XVIDEOS,No-Rate limit of current password on delete account endpoint(https://www.xvideos.com/account/close),hackerone.com/reports/1392287,67,100.0,,2021-11-23
+1392511,HackerOne,HackerOne Staging uses Production data for testing,hackerone.com/reports/1392511,58,0.0,Privacy Violation,2021-11-05
+1392630,TikTok,IDOR the ability to view support tickets of any user on seller platform,hackerone.com/reports/1392630,74,2500.0,Insecure Direct Object Reference (IDOR),2021-12-03
+1392733,8x8,xss(r) vcc-na11.8x8.com,hackerone.com/reports/1392733,8,0.0,Cross-site Scripting (XSS) - Reflected,2023-07-10
+1392935,Omise,XSS via X-Forwarded-Host header,hackerone.com/reports/1392935,65,200.0,Cross-site Scripting (XSS) - Reflected,2022-01-29
+1394399,Rocket.Chat,Unintended information disclosure in the Hubot Log files,hackerone.com/reports/1394399,1,0.0,Cleartext Storage of Sensitive Information,2022-09-22
+1394440,TikTok,reflected xss on the path m.tiktok.com,hackerone.com/reports/1394440,18,0.0,Cross-site Scripting (XSS) - Reflected,2021-12-03
+1394910,U.S. Dept Of Defense,Unauthenticated Access to Admin Panel Functions at https://██████████/████████,hackerone.com/reports/1394910,47,0.0,Improper Access Control - Generic,2021-11-29
+1394916,Internet Bug Bounty,Path traversal and file disclosure vulnerability in Apache HTTP Server 2.4.49,hackerone.com/reports/1394916,96,4000.0,Path Traversal,2021-11-09
+1394982,Shopify,Unathorised access to admin endpoint on plus-website-staging5.shopifycloud.com,hackerone.com/reports/1394982,35,0.0,Improper Access Control - Generic,2021-12-03
+1394984,Evernote,Email Verification Bypass by bruteforcing when setting up 2FA,hackerone.com/reports/1394984,22,150.0,Improper Restriction of Authentication Attempts,2022-05-22
+1395068,Judge.me ,The response shows the nginx version,hackerone.com/reports/1395068,12,0.0,Information Exposure Through Sent Data,2021-11-11
+1397564,U.S. Dept Of Defense,Unauthenticated Access to Admin Panel Functions at https://███████/███,hackerone.com/reports/1397564,14,0.0,Improper Access Control - Generic,2021-11-29
+1397786,MTN Group,Default Admin Username and Password on remedysso.mtncameroon.net,hackerone.com/reports/1397786,5,0.0,,2022-09-01
+1397788,MTN Group,Sensitive Information Disclosure Through Config File,hackerone.com/reports/1397788,13,0.0,Cleartext Storage of Sensitive Information,2022-09-01
+1397804,Concrete CMS,open redirect to a remote website which can phish users,hackerone.com/reports/1397804,4,0.0,Open Redirect,2022-11-25
+1397826,Cosmos,Unclaimed official s3 bucket of tendermint(tendermint-packages) which is used by many other blockchain companies in their code,hackerone.com/reports/1397826,27,0.0,Business Logic Errors,2023-02-15
+1397940,Judge.me ,Self-XSS due to image URL can be eploited via XSSJacking techniques in review email,hackerone.com/reports/1397940,14,0.0,,2023-02-01
+1398270,Evernote,[34.96.80.155] Server Logs Disclosure lead to Information Leakage,hackerone.com/reports/1398270,23,150.0,Privilege Escalation,2021-12-09
+1398285,Judge.me ,Stored XSS in Public Profile Reviews,hackerone.com/reports/1398285,25,250.0,Cross-site Scripting (XSS) - Stored,2023-02-01
+1398305,GitLab,Stored XSS on issue comments and other pages which contain notes,hackerone.com/reports/1398305,38,3000.0,Cross-site Scripting (XSS) - Stored,2022-06-08
+1398374,Adobe,Able to bypass the fix on DOM XSS at [www.adobe.com],hackerone.com/reports/1398374,12,0.0,Cross-site Scripting (XSS) - DOM,2022-05-31
+1398572,Kubernetes,Broken Link Takeover from kubernetes.io docs,hackerone.com/reports/1398572,6,0.0,Improper Access Control - Generic,2021-12-16
+1398617,Kubernetes,"Broken Github Link Used in deployment docs of ""github.com/kubernetes/kompose""",hackerone.com/reports/1398617,4,0.0,Improper Access Control - Generic,2021-12-16
+1398662,Azbuka Vkusa,Мисконфигурация Cisco Smart Install,hackerone.com/reports/1398662,12,0.0,Misconfiguration,2021-11-16
+1398706,Kubernetes,"Google storage bucket takeover which is used to load JS file in dashboard.html in ""github.com/kubernetes/release"" which can lead to XSS",hackerone.com/reports/1398706,14,0.0,Improper Access Control - Generic,2021-12-16
+1398905,Glovo,chainning bugs to get full disclosure of Users addresses ,hackerone.com/reports/1398905,16,0.0,Information Disclosure,2021-11-16
+1400238,Internet Bug Bounty,Path Traversal and Remote Code Execution in Apache HTTP Server 2.4.49 and 2.4.50 (incomplete fix of CVE-2021-41773) (CVE-2021-42013),hackerone.com/reports/1400238,29,1000.0,Path Traversal,2021-11-19
+1400309,Shopify,[https://shipit-sox-staging.shopifycloud.com] Presence of multiple vulnerabilities present in Ruby On Rails,hackerone.com/reports/1400309,17,0.0,Cross-Site Request Forgery (CSRF),2022-04-16
+1400357,8x8,8x8pilot.com: Reflected XSS in Apache Tomcat /jsp-examples example directory,hackerone.com/reports/1400357,6,0.0,Cross-site Scripting (XSS) - Reflected,2022-05-19
+1400405,UPchieve,Clickjacking ar https://hackers.upchieve.org/login,hackerone.com/reports/1400405,2,0.0,UI Redressing (Clickjacking),2021-11-19
+1401268,Rocket.Chat,Persistent CSS injection with ’marked’ markdown parser in Rocket.Chat,hackerone.com/reports/1401268,3,0.0,Cross-site Scripting (XSS) - Stored,2022-09-22
+1401444,GitLab,RCE via WikiCloth markdown rendering if the `rubyluabridge` gem is installed,hackerone.com/reports/1401444,50,3000.0,OS Command Injection,2022-04-12
+1402249,Nextcloud,Control character filtering misses leading and trailing whitespace in file and folder names,hackerone.com/reports/1402249,8,0.0,CRLF Injection,2022-05-27
+1403176,Acronis,IDOR vulnerability (Price manipulation),hackerone.com/reports/1403176,146,0.0,Insecure Direct Object Reference (IDOR),2021-11-30
+1403614,Nextcloud,Possibility to force an admin to install recommended applications,hackerone.com/reports/1403614,10,100.0,Cross-Site Request Forgery (CSRF),2022-04-29
+1404612,TikTok,Multiple vulnerability leading to account takeover in TikTok SMB subdomain.,hackerone.com/reports/1404612,89,0.0,Business Logic Errors,2022-02-02
+1404731,Internet Bug Bounty,Path Traversal and Remote Code Execution in Apache HTTP Server 2.4.50,hackerone.com/reports/1404731,26,1000.0,Path Traversal: '.../...//',2021-11-19
+1404770,Judge.me ,"Stored XSS in ""product type"" field executed via product filters",hackerone.com/reports/1404770,30,500.0,,2022-04-26
+1404789,Internet Bug Bounty,Ruby - Regular Expression Denial of Service Vulnerability of Date Parsing Methods,hackerone.com/reports/1404789,6,0.0,Uncontrolled Resource Consumption,2021-11-19
+1404804,Judge.me ,Email templates XSS by filterXSS bypass,hackerone.com/reports/1404804,51,1250.0,Cross-site Scripting (XSS) - Generic,2022-05-25
+1404986,UPchieve,CORS origin validation failure,hackerone.com/reports/1404986,5,0.0,,2021-12-07
+1405673,Shopify,Sidekiq dashboard exposed at notary.shopifycloud.com,hackerone.com/reports/1405673,26,0.0,Information Disclosure,2021-11-25
+1406335,X / xAI,Subdomain takeover of images.crossinstall.com,hackerone.com/reports/1406335,71,0.0,Business Logic Errors,2022-01-05
+1406471,UPchieve,Authentication Bypass - Email Verification code bypass in account registration process.,hackerone.com/reports/1406471,8,0.0,,2021-12-07
+1406479,Rocket.Chat,Moving private messages into vision with updateMessage method,hackerone.com/reports/1406479,10,0.0,Information Disclosure,2023-05-09
+1406495,Shopify,Ability to Disable the Login Attempt of any Shopify Owner for 24 hrs  (Zero_Click),hackerone.com/reports/1406495,65,900.0,Client-Side Enforcement of Server-Side Security,2022-02-15
+1406598,U.S. Dept Of Defense,Rxss on █████████ via logout?service=javascript:alert(1),hackerone.com/reports/1406598,12,0.0,Cross-site Scripting (XSS) - Reflected,2021-12-22
+1406926,Nextcloud,bypass forced password protection via circles app,hackerone.com/reports/1406926,14,100.0,Business Logic Errors,2022-06-19
+1406953,Rocket.Chat,Message ID Enumeration with Action Link Handler,hackerone.com/reports/1406953,2,0.0,Information Disclosure,2022-09-22
+1408589,MTN Group,Wordpress users disclosure from json and xml file,hackerone.com/reports/1408589,6,0.0,Information Disclosure,2022-09-02
+1408692,Nextcloud,Access to arbitrary file of the Nextcloud Android app from within the Nextcloud Android app,hackerone.com/reports/1408692,11,250.0,Path Traversal,2022-09-11
+1408745,XVIDEOS,CSRF on delete friend requests - Not protected with CSRF Token,hackerone.com/reports/1408745,9,0.0,Cross-Site Request Forgery (CSRF),2021-11-26
+1408782,Eternal,Add upto 10K rupees to a wallet by paying an arbitrary amount,hackerone.com/reports/1408782,129,2000.0,Business Logic Errors,2022-02-23
+1409727,Lark Technologies,Full read SSRF via Lark Docs `import as docs` feature ,hackerone.com/reports/1409727,124,5000.0,Server-Side Request Forgery (SSRF),2022-01-28
+1409788,GitLab,Arbitrary POST request as victim user from HTML injection in Jupyter notebooks,hackerone.com/reports/1409788,54,0.0,Resource Injection,2022-05-20
+1409913,Eternal,Race condition in User comments  Likes,hackerone.com/reports/1409913,45,0.0,Violation of Secure Design Principles,2022-02-09
+1410214,Stripe,Bypassing domain deny_list rule in Smokescreen via trailing dot leads to SSRF,hackerone.com/reports/1410214,50,0.0,Server-Side Request Forgery (SSRF),2022-03-23
+1410246,Rocket.Chat,getUserMentionsByChannel leaks messages with mention from private channel,hackerone.com/reports/1410246,3,0.0,Information Disclosure,2022-09-22
+1410357,Rocket.Chat,getUsersOfRoom discloses users in private channels,hackerone.com/reports/1410357,2,0.0,,2022-09-22
+1410459,Shopify,Reflected XSS online-store-git.shopifycloud.com,hackerone.com/reports/1410459,98,3500.0,Cross-site Scripting (XSS) - Reflected,2022-01-20
+1410498,Judge.me ,IDOR: leak buyer info & Publish/Hide foreign comments,hackerone.com/reports/1410498,47,1250.0,Insecure Direct Object Reference (IDOR),2022-03-31
+1411363,Imgur,No length on password,hackerone.com/reports/1411363,74,0.0,Weak Password Recovery Mechanism for Forgotten Password,2022-01-24
+1411867,Ruby on Rails,Escape Sequence Injection vulnerability in Rack,hackerone.com/reports/1411867,2,0.0,,2023-06-28
