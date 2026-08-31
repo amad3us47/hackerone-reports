@@ -9560,3 +9560,54 @@ id,program,title,link,upvotes,bounty,vuln_type,date
 1506129,ImpressCMS,SQL Injection in version 1.4.3 and below,hackerone.com/reports/1506129,32,0.0,SQL Injection,2023-08-12
 1507412,Cloudflare Public Bug Bounty,API docs expose an active token for the sample domain theburritobot.com,hackerone.com/reports/1507412,28,500.0,Information Disclosure,2022-06-27
 1508661,Sony,Response Manipulation leads to Admin Panel Login Bypass at https://██████/,hackerone.com/reports/1508661,24,0.0,Improper Authentication - Generic,2022-09-12
+1509057,TikTok,IDOR on TikTok Seller,hackerone.com/reports/1509057,31,0.0,Insecure Direct Object Reference (IDOR),2022-08-16
+1509211,EXNESS,Taking position in a discontinued forex pair without executing any trades,hackerone.com/reports/1509211,32,0.0,,2022-04-13
+1509216,Nextcloud,SMTP Command Injection in Appointment Emails via Newlines,hackerone.com/reports/1509216,27,0.0,CRLF Injection,2022-12-27
+1511619,Internet Bug Bounty,Read and write beyond bounds in mod_sed,hackerone.com/reports/1511619,6,0.0,Heap Overflow,2022-04-14
+1511628,Adobe,DoS of  https://research.adobe.com/ via CVE-2018-6389 exploitation,hackerone.com/reports/1511628,6,0.0,Uncontrolled Resource Consumption,2022-10-13
+1511843,Monero,monerod JSON RPC server remote DoS,hackerone.com/reports/1511843,5,0.0,Uncontrolled Resource Consumption,2022-09-12
+1512199,U.S. Dept Of Defense,username and password leaked via pptx for █████████ website,hackerone.com/reports/1512199,6,0.0,Cleartext Storage of Sensitive Information,2022-04-07
+1513031,Flickr,Open redirect bypass,hackerone.com/reports/1513031,28,300.0,Open Redirect,2022-05-23
+1514356,Khan Academy,Enumerate class codes via yahoo dork - Can access any course under teacher - Sensitive information leaked,hackerone.com/reports/1514356,17,0.0,Information Disclosure,2022-05-01
+1514359,EXNESS,CRLF Injection - Http Response Splitting ,hackerone.com/reports/1514359,15,200.0,CRLF Injection,2022-04-13
+1514554,TikTok,XSS and iframe injection on tiktok ads portal using redirect params,hackerone.com/reports/1514554,43,0.0,Cross-site Scripting (XSS) - Reflected,2022-05-19
+1514863,Internet Bug Bounty,Use of uninitialized value of in req_parsebody method of lua_request.c,hackerone.com/reports/1514863,2,0.0,Uncontrolled Resource Consumption,2022-03-17
+1516377,Nextcloud,SMTP Command Injection in iCalendar Attachments to Emails via Newlines,hackerone.com/reports/1516377,22,0.0,CRLF Injection,2022-07-04
+1516520,MTN Group,Download full backup  [Mtn.co.rw],hackerone.com/reports/1516520,20,0.0,,2022-05-14
+1517120,8x8,Jitsi: Attacker is able to cast a vote using the Victim's name on the Polls,hackerone.com/reports/1517120,5,0.0,,2022-11-18
+1517377,Rocket.Chat,Rocket.chat user info security issue,hackerone.com/reports/1517377,2,0.0,Cleartext Transmission of Sensitive Information,2022-09-22
+1518036,Internet Bug Bounty,Regexes with large repetitions on empty sub-expressions take a very long time to parse,hackerone.com/reports/1518036,25,4000.0,Uncontrolled Resource Consumption,2022-03-22
+1518343,Evernote,Reflected XSS in the shared note view on https://evernote.com,hackerone.com/reports/1518343,17,500.0,Cross-site Scripting (XSS) - Reflected,2022-04-20
+1519099,Internet Bug Bounty, Renderers can obtain access to random bluetooth device without permission,hackerone.com/reports/1519099,21,480.0,Improper Access Control - Generic,2022-04-23
+1519437,8x8,DLL Search-Order Hijacking Vulnerability in work-64-exe-v7.16.3-1.exe,hackerone.com/reports/1519437,5,0.0,Privilege Escalation,2022-09-22
+1519841,8x8,F5 BIG-IP TMUI RCE - CVE-2020-5902 (██.packet8.net),hackerone.com/reports/1519841,46,0.0,Code Injection,2022-03-25
+1520685,Nextcloud,Moderator can enable cam/mic remotely if  cam/mic-permission was disabled while user has activated cam/mic,hackerone.com/reports/1520685,9,100.0,Privacy Violation,2022-06-09
+1520931,Internet Bug Bounty,Time-of-check to time-of-use vulnerability in the std::fs::remove_dir_all() function of the Rust standard library,hackerone.com/reports/1520931,9,4000.0,Time-of-check Time-of-use (TOCTOU) Race Condition,2022-03-24
+1521336,Shopify,Staff can create workflows in Shopify Admin without apps permission,hackerone.com/reports/1521336,25,0.0,Improper Access Control - Generic,2022-10-13
+1521610,curl,Denial of Service vulnerability in curl when parsing MQTT server response,hackerone.com/reports/1521610,3,0.0,Uncontrolled Resource Consumption,2022-03-28
+1523584,Eternal,Attacker shall recieve order updates on whatsapp for users who have activated whatsapp notification,hackerone.com/reports/1523584,37,0.0,Business Logic Errors,2022-04-06
+1523651,MetaMask,Public Postman Api Collection Leaks Internal access to https://assets-paris-dev.codefi.network/ ,hackerone.com/reports/1523651,18,500.0,Insecure Storage of Sensitive Information,2022-05-14
+1524555,Node.js,HTTP Request Smuggling Due to Flawed Parsing of Transfer-Encoding ,hackerone.com/reports/1524555,7,0.0,HTTP Request Smuggling,2022-07-07
+1524692,Node.js,HTTP Request Smuggling Due To Improper Delimiting of Header Fields,hackerone.com/reports/1524692,9,0.0,HTTP Request Smuggling,2022-07-07
+1525200,Palantir Public,SQL Injection at https://files.palantir.com/ due to CVE-2021-38159,hackerone.com/reports/1525200,120,0.0,SQL Injection,2022-04-05
+1525309,Cloudflare Public Bug Bounty,"A malicious actor could rotate tokens of a victim, given that he knows the victim's token ID",hackerone.com/reports/1525309,34,0.0,Improper Access Control - Generic,2023-04-13
+1525578,Palantir Public,"Github Account Takeover which is used as gradle vcs in ""github.com/palantir/gradle-launch-config-plugin""",hackerone.com/reports/1525578,20,0.0,Improper Access Control - Generic,2022-05-05
+1526328,curl,CVE-2022-22576: OAUTH2 bearer bypass in connection re-use,hackerone.com/reports/1526328,6,0.0,Improper Authentication - Generic,2022-04-29
+1527284,IBM,SQL injection in URL path processing on www.ibm.com,hackerone.com/reports/1527284,35,0.0,SQL Injection,2022-05-06
+1527405,Imgur,8ybhy85kld9zp9xf84x6.imgur.com Subdomain Takeover,hackerone.com/reports/1527405,15,0.0,,2022-06-03
+1527906,TikTok,IDOR on TikTok Ads Endpoint,hackerone.com/reports/1527906,109,0.0,Insecure Direct Object Reference (IDOR),2022-09-01
+1528242,Stripe,"Bypass global deny-lists by wrapping domains using ""[]"" in https://github.com/stripe/smokescreen",hackerone.com/reports/1528242,19,0.0,Improper Input Validation,2022-05-18
+1529790,Aiven Ltd,Kafka Connect RCE via connector SASL  JAAS JndiLoginModule configuration,hackerone.com/reports/1529790,45,5000.0,Deserialization of Untrusted Data,2022-11-08
+1530066,Algolia,Web Cache Deception vulnerability on algolia.com leads to personal information leakage,hackerone.com/reports/1530066,46,400.0,Violation of Secure Design Principles,2023-04-19
+1530396,MTN Group,Open redirection at https://smartreports.mtncameroon.net,hackerone.com/reports/1530396,12,0.0,Open Redirect,2022-07-30
+1530581,U.S. Dept Of Defense,CORS Misconfiguration,hackerone.com/reports/1530581,5,0.0,Violation of Secure Design Principles,2022-04-20
+1530898,Ruby on Rails,Rails::Html::SafeListSanitizer vulnerable to xss attack in an environment that allows the style tag,hackerone.com/reports/1530898,8,0.0,Cross-site Scripting (XSS) - Generic,2022-06-14
+1531235,TikTok,CSRF in Changing User Verification Email,hackerone.com/reports/1531235,37,500.0,Cross-Site Request Forgery (CSRF),2022-09-13
+1531958,GitLab,ReDoS in net/http affects webhooks: Sidekiq job stuck at 100% CPU for a year,hackerone.com/reports/1531958,9,0.0,Uncontrolled Resource Consumption,2022-09-13
+1532858,Omise,Cross-site scripting on dashboard2.omise.co,hackerone.com/reports/1532858,13,200.0,Cross-site Scripting (XSS) - Stored,2022-05-24
+1533220,Lark Technologies,Ability to View Non-Permitted Admin Log,hackerone.com/reports/1533220,17,0.0,Improper Access Control - Generic,2022-10-20
+1533976,GitLab,Content injection in Jira issue title enabling sending arbitrary POST request as victim,hackerone.com/reports/1533976,54,0.0,Resource Injection,2022-09-22
+1534636,Flickr,Stored XSS in photos_user_map.gne,hackerone.com/reports/1534636,54,3263.0,Cross-site Scripting (XSS) - Stored,2022-05-23
+1536013,RubyGems,Possibility to guess email address from gravatar image URL,hackerone.com/reports/1536013,12,0.0,Inadequate Encryption Strength,2023-09-14
+1536046,TikTok,Stored XSS Payload when sending videos ,hackerone.com/reports/1536046,44,0.0,Cross-site Scripting (XSS) - Stored,2022-11-29
+1536215,U.S. Dept Of Defense,Reflected XSS via `████████` parameter,hackerone.com/reports/1536215,7,0.0,Cross-site Scripting (XSS) - Reflected,2022-06-27
