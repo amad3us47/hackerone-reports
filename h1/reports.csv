@@ -9501,3 +9501,62 @@ id,program,title,link,upvotes,bounty,vuln_type,date
 1474536,8x8,connect.8x8.com: admin user can send invites on behalf of another admin user via POST /api/v1/users/<User ID>/invites,hackerone.com/reports/1474536,105,0.0,Improper Access Control - Generic,2023-02-15
 1474784,Zenly,Subdomain Takeover of brand.zen.ly,hackerone.com/reports/1474784,61,750.0,,2022-02-17
 1475520,TikTok,IDOR delete any Tickets on ads.tiktok.com,hackerone.com/reports/1475520,216,0.0,Insecure Direct Object Reference (IDOR),2022-03-02
+1476709,Nextcloud,Information Exposure Through Directory Listing vulnerability,hackerone.com/reports/1476709,3,0.0,Information Exposure Through Directory Listing,2022-02-11
+1477050,Elastic,"CSRF in AppSearch allows creation of ""curations""",hackerone.com/reports/1477050,35,0.0,Cross-Site Request Forgery (CSRF),2022-11-17
+1478633,Cloudflare Public Bug Bounty,HTTP Request Smuggling in Transform Rules using hexadecimal escape sequences in the concat() function,hackerone.com/reports/1478633,116,6000.0,HTTP Request Smuggling,2022-05-16
+1478930,TikTok,Instance Page DOS  within Organization on TikTok Ads,hackerone.com/reports/1478930,3,0.0,Uncontrolled Resource Consumption,2022-03-17
+1479889,Omise,Open redirect Via X-Forwarded-Host,hackerone.com/reports/1479889,58,0.0,Open Redirect,2024-11-17
+1479894,8x8,jaas.8x8.vc: Removed users can still have READ/WRITE access to the workspace via different API endpoints,hackerone.com/reports/1479894,25,0.0,Improper Access Control - Generic,2023-02-15
+1480569,Reddit,CSRF (protection bypassed) to force a below 18 user into viewing an nsfw subreddit !,hackerone.com/reports/1480569,47,0.0,Cross-Site Request Forgery (CSRF),2022-06-16
+1481207,GitLab,Stored XSS in Notes (with CSP bypass for gitlab.com),hackerone.com/reports/1481207,161,0.0,Cross-site Scripting (XSS) - Stored,2022-05-25
+1482830,MTN Group,Insecure Storage of Sensitive Information on lonestarcell.com server,hackerone.com/reports/1482830,14,0.0,Insecure Storage of Sensitive Information,2022-04-09
+1482919,Alohi,Misconfigured rate limit for SMS phone verification endpoint,hackerone.com/reports/1482919,26,0.0,Business Logic Errors,2022-05-10
+1483201,U.S. General Services Administration,Account takeover leading to PII chained with stored XSS,hackerone.com/reports/1483201,14,0.0,Improper Authentication - Generic,2022-04-16
+1483327,Stripe,CSRF token validation system is disabled on Stripe Dashboard,hackerone.com/reports/1483327,113,0.0,Cross-Site Request Forgery (CSRF),2022-04-02
+1484168,Automattic,De-anonymize anonymous tips through the Tumblr blog network,hackerone.com/reports/1484168,6,0.0,Privacy Violation,2022-02-21
+1484468,TikTok,Information Leakage via TikTok Ads Web Cache Deception,hackerone.com/reports/1484468,14,0.0,Misconfiguration,2022-03-31
+1485379,curl,Use of Unsafe function || Strcpy,hackerone.com/reports/1485379,1,0.0,Classic Buffer Overflow,2022-03-09
+1485500,Kubernetes,File Read Vulnerability allows Attackers to Compromise S3 buckets using Prow,hackerone.com/reports/1485500,26,250.0,Improper Access Control - Generic,2023-04-25
+1485501,Ruby,ReDoS in Time.rfc2822,hackerone.com/reports/1485501,5,0.0,,2023-05-16
+1485717,Ruby,ReDoS in IPAddr,hackerone.com/reports/1485717,32,0.0,,2025-07-08
+1485788,Basecamp,Improper Authentication via previous backup code login,hackerone.com/reports/1485788,22,0.0,Improper Authentication - Generic,2022-03-24
+1486310,8x8,admin.8x8.vc: Member users with no permission can integrate email to connect calendar via GET /meet-external/spot-roomkeeper/v1/calendar/auth/init?..,hackerone.com/reports/1486310,48,0.0,Improper Access Control - Generic,2023-02-15
+1486327,lemlist,Security misconfiguration ,hackerone.com/reports/1486327,15,0.0,Misconfiguration,2022-05-16
+1486341,Acronis,Session Fixation on Acronis,hackerone.com/reports/1486341,6,0.0,Session Fixation,2022-03-01
+1486417,HackerOne,[Bypass] Ability to invite a new member in  sandbox Organization ,hackerone.com/reports/1486417,35,0.0,Business Logic Errors,2022-04-14
+1486670,8x8, subdomain takeover (abandoned Zendesk █.easycontactnow.com),hackerone.com/reports/1486670,9,0.0,,2022-04-28
+1486820,Mattermost,Invitation Email is resent as a Reminder after invalidating pending email invites,hackerone.com/reports/1486820,30,0.0,Improper Access Control - Generic,2022-04-19
+1487793,Sifchain,Subdomain Takeover on proxies.sifchain.finance pointing to vercel,hackerone.com/reports/1487793,12,0.0,Misconfiguration,2022-04-01
+1487889,Ruby,ReDoS in Psych,hackerone.com/reports/1487889,26,0.0,,2025-07-08
+1489077,Shopify,Bypass of fix #1370749,hackerone.com/reports/1489077,50,900.0,Improper Access Control - Generic,2022-04-22
+1489141,Ruby on Rails,ReDoS in Rack::Multipart,hackerone.com/reports/1489141,18,0.0,,2023-07-28
+1489470,U.S. Dept Of Defense,Authorization bypass -> IDOR -> PII Leakage,hackerone.com/reports/1489470,13,0.0,Insecure Direct Object Reference (IDOR),2022-04-07
+1489744,U.S. Dept Of Defense,SQL Injection in █████,hackerone.com/reports/1489744,10,0.0,SQL Injection,2022-04-07
+1489892,UPchieve,All user password hash can be seen from admin panel,hackerone.com/reports/1489892,16,0.0,Insecure Storage of Sensitive Information,2022-06-11
+1490133,U.S. Dept Of Defense,"Military  name,email,phone,address,certdata Disclosure ",hackerone.com/reports/1490133,7,0.0,Insecure Storage of Sensitive Information,2022-03-18
+1490311,TikTok,HTML Injection via Email Share,hackerone.com/reports/1490311,53,0.0,Improper Neutralization of Script-Related HTML Tags in a Web Page (Basic XSS),2022-07-27
+1490470,UPS VDP,Admin Authentication Bypass Lead to Admin Account Takeover ,hackerone.com/reports/1490470,105,0.0,Improper Authentication - Generic,2022-06-20
+1491127,HackerOne,Private invitation links/tokens leak to third-party analytics site,hackerone.com/reports/1491127,28,500.0,Information Disclosure,2022-04-05
+1492447,IBM,Public Jenkins instance with /script enabled,hackerone.com/reports/1492447,16,0.0,Improper Access Control - Generic,2022-03-11
+1492896,Internet Bug Bounty,CVE-2022-24288: Apache Airflow: TWO RCEs in example DAGs,hackerone.com/reports/1492896,46,0.0,Command Injection - Generic,2022-04-01
+1493007,U.S. Dept Of Defense,"Broken access control, can lead to legitimate user data loss",hackerone.com/reports/1493007,12,0.0,Improper Access Control - Generic,2022-04-07
+1493437,Stripe,CSRF token validation system is disabled on Stripe Dashboard,hackerone.com/reports/1493437,86,2500.0,Cross-Site Request Forgery (CSRF),2022-05-31
+1494308,Alohi,Waitlist bypass for accessing SIGN.PLUS Beta,hackerone.com/reports/1494308,11,0.0,Improper Access Control - Generic,2022-05-30
+1496297,Uber,Uber Test Report 20220301,hackerone.com/reports/1496297,22,0.0,Business Logic Errors,2022-03-03
+1496897,MTN Group,cross site scripting reflected ,hackerone.com/reports/1496897,81,0.0,Cross-site Scripting (XSS) - Reflected,2024-09-09
+1497169,GitHub,CSRF protection bypass in GitHub Enterprise management console,hackerone.com/reports/1497169,151,10000.0,Cross-Site Request Forgery (CSRF),2022-04-13
+1498353,TikTok,View thumbnail of any private video (friends or followers only) of Private/Public account ,hackerone.com/reports/1498353,41,500.0,Privacy Violation,2023-02-17
+1499114,8x8,connect.8x8.com: Users with no permission can track/access restricted details/data via GET /api/v2/support/requests/<ticket number >HTTP/2,hackerone.com/reports/1499114,31,0.0,Information Disclosure,2023-02-15
+1500614,TikTok,One Click Account Hijacking via Unvalidated Deeplink,hackerone.com/reports/1500614,60,0.0,Forced Browsing,2022-05-04
+1501611,HackerOne,An attacker can archive and unarchive any structured scope object on HackerOne,hackerone.com/reports/1501611,318,0.0,,2022-04-18
+1501679,Node.js,HTTP Request Smuggling Due to Incorrect Parsing of Multi-line Transfer-Encoding,hackerone.com/reports/1501679,7,0.0,HTTP Request Smuggling,2022-07-07
+1502099,Mattermost,Reflected XSS in OAuth complete endpoints,hackerone.com/reports/1502099,55,150.0,Cross-site Scripting (XSS) - Reflected,2023-09-28
+1503601,pixiv,XSS Reflected at https://sketch.pixiv.net/ Via `next_url`,hackerone.com/reports/1503601,64,0.0,Cross-site Scripting (XSS) - Reflected,2022-03-23
+1504202,TikTok,Stored XSS on TikTok Ads,hackerone.com/reports/1504202,201,0.0,Cross-site Scripting (XSS) - DOM,2022-08-19
+1504294,TikTok,Impersonation of tiktok account via Broken Link in TikTok Newsroom,hackerone.com/reports/1504294,10,0.0,Phishing,2022-03-24
+1504410,Reddit,XSS via Mod Log Removed Posts,hackerone.com/reports/1504410,218,0.0,Cross-site Scripting (XSS) - Stored,2022-03-10
+1505567,TikTok,Privilege Escalation on TikTok for Business,hackerone.com/reports/1505567,62,0.0,Insecure Direct Object Reference (IDOR),2022-05-16
+1505609,U.S. General Services Administration,Read Other Users Reports Through Cloning,hackerone.com/reports/1505609,19,0.0,Insecure Direct Object Reference (IDOR),2022-05-26
+1506129,ImpressCMS,SQL Injection in version 1.4.3 and below,hackerone.com/reports/1506129,32,0.0,SQL Injection,2023-08-12
+1507412,Cloudflare Public Bug Bounty,API docs expose an active token for the sample domain theburritobot.com,hackerone.com/reports/1507412,28,500.0,Information Disclosure,2022-06-27
+1508661,Sony,Response Manipulation leads to Admin Panel Login Bypass at https://██████/,hackerone.com/reports/1508661,24,0.0,Improper Authentication - Generic,2022-09-12
