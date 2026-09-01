@@ -9712,3 +9712,76 @@ id,program,title,link,upvotes,bounty,vuln_type,date
 1566017,Judge.me ,Race condition on https://judge.me/people,hackerone.com/reports/1566017,26,250.0,Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),2022-08-01
 1566325,Phabricator,Conduit feed.publish API allows you to spoof other users or make it look like you have access to a restricted object,hackerone.com/reports/1566325,9,300.0,,2022-05-18
 1566462,curl,error parse uri path in curl,hackerone.com/reports/1566462,4,0.0,Improper Access Control - Generic,2022-05-13
+1566758,U.S. Dept Of Defense,The dashboard is exposed in https://███,hackerone.com/reports/1566758,10,0.0,Information Disclosure,2022-09-06
+1567186,Reddit,"One-click account hijack for anyone using Apple sign-in with Reddit, due to response-type switch + leaking href to XSS on www.redditmedia.com",hackerone.com/reports/1567186,508,0.0,Improper Access Control - Generic,2022-08-02
+1567257,curl,Memory leak in CURLOPT_XOAUTH2_BEARER,hackerone.com/reports/1567257,4,0.0,Uncontrolled Resource Consumption,2022-05-13
+1567516,IBM,sql injection via https://setup.p2p.ihost.com/,hackerone.com/reports/1567516,40,0.0,SQL Injection,2022-06-17
+1568175,curl,Credential leak on redirect,hackerone.com/reports/1568175,5,0.0,Insufficiently Protected Credentials,2022-05-14
+1569926,curl,Credential leak when use two url,hackerone.com/reports/1569926,3,0.0,Insufficiently Protected Credentials,2022-06-27
+1569940,Shopify,XSS seems to work again after change to linkpop at https://linkpop.com/testnaglinagli,hackerone.com/reports/1569940,26,0.0,Cross-site Scripting (XSS) - Reflected,2022-10-13
+1569946,curl,CVE-2022-32205: Set-Cookie denial of service,hackerone.com/reports/1569946,4,0.0,Allocation of Resources Without Limits or Throttling,2022-06-27
+1570591,hostinger ,subdomain takeover at status.hosting24.com,hackerone.com/reports/1570591,6,0.0,Privilege Escalation,2022-05-16
+1570651,curl,CVE-2022-32206: HTTP compression denial of service,hackerone.com/reports/1570651,4,0.0,Allocation of Resources Without Limits or Throttling,2022-06-27
+1570874,Cloudflare Public Bug Bounty,Arbitrary file read from Cloudflare Pages build environment,hackerone.com/reports/1570874,40,0.0,,2024-02-23
+1571578,TikTok,Create product discounts of any shop,hackerone.com/reports/1571578,21,0.0,Insecure Direct Object Reference (IDOR),2022-09-21
+1572120,curl,"curl ""globbing"" can lead to denial of service attacks",hackerone.com/reports/1572120,1,0.0,Uncontrolled Resource Consumption,2022-06-16
+1572591,LinkedIn,"Privilege Escalation - ""Analyst"" Role Can View Email Domains of a Company - [GET /voyager/api/voyagerOrganizationDashEmailDomainMappings]",hackerone.com/reports/1572591,48,0.0,Privilege Escalation,2022-08-26
+1573634,curl,CVE-2022-32207: Unpreserved file permissions,hackerone.com/reports/1573634,6,0.0,Business Logic Errors,2022-06-27
+1574017,lemlist,Clickjacking at  app.lemlist.com,hackerone.com/reports/1574017,13,0.0,UI Redressing (Clickjacking),2022-05-20
+1574078,Node.js,DNS rebinding in --inspect (again) via invalid IP addresses ,hackerone.com/reports/1574078,9,0.0,OS Command Injection,2023-08-11
+1575014,Stripe,Limited path traversal in Node.js SDK leads to PII disclosure,hackerone.com/reports/1575014,22,1000.0,Information Disclosure,2023-10-10
+1575401,Yelp,xmlrpc file enabled,hackerone.com/reports/1575401,4,0.0,Information Disclosure,2022-06-16
+1575560,TikTok,Internal Employee informations Disclosure via TikTok Athena api,hackerone.com/reports/1575560,27,1000.0,Information Disclosure,2022-07-20
+1575912,Cloudflare Public Bug Bounty,HTTP request smuggling with Origin Rules using newlines in the host_header action parameter,hackerone.com/reports/1575912,46,3100.0,HTTP Request Smuggling,2022-06-27
+1577370,TikTok,Unrestricted File Upload Blind Stored Xss  in subdomain ads.tiktok.com,hackerone.com/reports/1577370,37,250.0,Cross-site Scripting (XSS) - Stored,2022-08-04
+1577793,Trellix,Sensitive Information Disclosure,hackerone.com/reports/1577793,12,0.0,,2023-04-14
+1577940,HackerOne,Banned user still has access to their deleted account via HackerOne's API using their API key,hackerone.com/reports/1577940,149,0.0,Improper Access Control - Generic,2025-07-14
+1578121,LinkedIn,Rate limit Bypass on contact-us through IP Rotator (burp extension)(https://www.linkedin.com/help/linkedin/solve/contact),hackerone.com/reports/1578121,7,0.0,,2022-06-15
+1578400,GitLab,New /add_contacts /remove_contacts quick commands susseptible to XSS from Customer Contact firstname/lastname fields,hackerone.com/reports/1578400,93,13950.0,Cross-site Scripting (XSS) - Stored,2022-11-16
+1578574,Acronis,"unauth mosquitto ( client emails, ips, license keys exposure )",hackerone.com/reports/1578574,20,150.0,Improper Access Control - Generic,2022-07-18
+1579374,Brave Software,Browser is not following proper flow for redirection cause open redirect ,hackerone.com/reports/1579374,41,0.0,,2022-06-30
+1579645,GitLab,XSS: `v-safe-html` is not safe enough,hackerone.com/reports/1579645,43,0.0,Cross-site Scripting (XSS) - Generic,2022-11-16
+1579820,Nextcloud,Ownership check missing when updating or deleting attachments,hackerone.com/reports/1579820,7,0.0,Insecure Direct Object Reference (IDOR),2022-07-06
+1580493,Kubernetes,Bypass validation parts in AWS IAM Authenticator for Kubernetes,hackerone.com/reports/1580493,67,2500.0,Improper Authentication - Generic,2023-05-25
+1580495,Stripe,Bypassing domain deny_list rule in Smokescreen via double brackets [[]] which leads to SSRF,hackerone.com/reports/1580495,11,0.0,Server-Side Request Forgery (SSRF),2022-10-19
+1580567,Glovo,"Exposed valid AWS, Mysql, Sendgrid and other secrets",hackerone.com/reports/1580567,21,0.0,Use of Hard-coded Credentials,2022-07-08
+1581059,Rocket.Chat,Regex account takeover,hackerone.com/reports/1581059,9,0.0,SQL Injection,2022-09-22
+1581240,Stripe,Mass Account Takeover at https://app.taxjar.com/ - No user Interaction,hackerone.com/reports/1581240,252,0.0,Authentication Bypass Using an Alternate Path or Channel,2022-07-11
+1581258,Flickr,Open Redirect,hackerone.com/reports/1581258,15,258.0,Open Redirect,2022-09-29
+1581454,Exodus,2 Cache Poisoning Attack Methods Affect Core Functionality www.exodus.com,hackerone.com/reports/1581454,7,0.0,,2022-06-06
+1581499,HackerOne,HTML Injection in email via Name field,hackerone.com/reports/1581499,84,500.0,Cross-site Scripting (XSS) - Generic,2022-09-18
+1581528,LinkedIn,"Can access the job name, creator name and can report any draft/under review/rejected job",hackerone.com/reports/1581528,65,0.0,Insecure Direct Object Reference (IDOR),2022-07-20
+1582160,GitLab,Bypass for Domain-level redirects (Unvalidated Redirects and Forwar),hackerone.com/reports/1582160,7,0.0,Open Redirect,2022-06-22
+1582778,Reddit,Misconfigurated login page able to lock login action for any account without user interaction,hackerone.com/reports/1582778,19,0.0,,2022-06-06
+1583680,Node.js,Undici does not use CONNECT or otherwise validate upstream HTTPS certificates when using a proxy,hackerone.com/reports/1583680,4,0.0,Improper Certificate Validation,2022-07-13
+1584034,Rocket.Chat,Clickjacking at open.rocket.chat,hackerone.com/reports/1584034,16,0.0,UI Redressing (Clickjacking),2023-06-15
+1584409,Phabricator,Deprecated owners.query API bypasses object view policy,hackerone.com/reports/1584409,7,300.0,Improper Access Control - Generic,2022-05-31
+1584569,Alohi,Weak rate limit for SIGN.PLUS email verification,hackerone.com/reports/1584569,3,0.0,,2022-06-21
+1584718,Shopify,Information disclosure ( Google Sales Channel ),hackerone.com/reports/1584718,20,500.0,,2022-07-17
+1586524,Yelp,installed.json sensitive file was publicly accessible on your web application which discloses information about authors and admins ,hackerone.com/reports/1586524,6,0.0,Information Disclosure,2022-10-22
+1586950,TikTok,IDOR in family pairing API,hackerone.com/reports/1586950,43,0.0,Insecure Direct Object Reference (IDOR),2023-06-02
+1587246,LinkedIn,Improper access control on Linkedin Page,hackerone.com/reports/1587246,14,0.0,Improper Access Control - Generic,2023-08-24
+1587374,LinkedIn,Campaign Account Balance and History Disclosed in API Response,hackerone.com/reports/1587374,21,0.0,Insecure Direct Object Reference (IDOR),2022-11-30
+1588562,Nextcloud,Missing length validation of user displayname allows to generate an SQL error,hackerone.com/reports/1588562,12,0.0,Uncontrolled Resource Consumption,2022-12-20
+1588732,GitLab,CSP-bypass XSS in project settings page,hackerone.com/reports/1588732,99,0.0,Cross-site Scripting (XSS) - Generic,2022-11-16
+1589847,curl,Heap overflow via HTTP/2 PUSH_PROMISE,hackerone.com/reports/1589847,2,0.0,Heap Overflow,2022-06-05
+1590071,curl,CVE-2022-32208: FTP-KRB bad message verification,hackerone.com/reports/1590071,11,0.0,Business Logic Errors,2022-06-27
+1590102,curl,KRB-FTP: Security level downgrade,hackerone.com/reports/1590102,1,0.0,Business Logic Errors,2022-06-05
+1590115,Shopify,Production Key and Data Found on Subdomain No Longer Operated by Shopify / Dangling DNS,hackerone.com/reports/1590115,34,0.0,File and Directory Information Exposure,2024-05-01
+1590237,Automattic,Unauthenticated Private Messages DIsclosure via wordpress Rest API,hackerone.com/reports/1590237,45,0.0,Information Disclosure,2022-08-04
+1591085,Reddit,Several Subdomains Takeover,hackerone.com/reports/1591085,2,0.0,,2022-06-08
+1591403,Shopify,Self XSS in https://linkpop.com/dashboard/admin,hackerone.com/reports/1591403,17,0.0,Cross-site Scripting (XSS) - Reflected,2022-10-13
+1591412,GitLab,Unauthenticated IP allowlist bypass when accessing job artifacts through gitlab pages at `{group_id}.gitlab.io`,hackerone.com/reports/1591412,16,0.0,Improper Access Control - Generic,2022-09-22
+1591504,LinkedIn,"The software does not implement sufficient measures to prevent multiple failed authentication attempts within in a short time frame, making it more su",hackerone.com/reports/1591504,3,0.0,Improper Restriction of Authentication Attempts,2022-06-15
+1591770,Adobe,API Key reported in #1465145 not rotated and thus is still valid and can be used by anyone,hackerone.com/reports/1591770,7,0.0,Cleartext Storage of Sensitive Information,2022-09-01
+1592587,LinkedIn,IDOR - Delete technical skill assessment result & Gained Badges result of any user,hackerone.com/reports/1592587,48,0.0,,2022-10-05
+1592596,Automattic,Sensei LMS IDOR to send message,hackerone.com/reports/1592596,45,0.0,Insecure Direct Object Reference (IDOR),2022-08-04
+1593404,Cloudflare Public Bug Bounty,"Sign in with Apple works on existing accounts, bypasses 2FA",hackerone.com/reports/1593404,31,1000.0,Improper Authentication - Generic,2022-06-27
+1593413,Cloudflare Public Bug Bounty,"Sign in with Apple generates long-life JWTs, seemingly irrevocable, that grant immediate access to accounts",hackerone.com/reports/1593413,16,250.0,Improper Authentication - Generic,2022-06-27
+1593913,GitHub,[Git Gud] GitHub.com Svnbridge memcached deserialization vulnerability chain leading to Remote Code Execution,hackerone.com/reports/1593913,14,0.0,Deserialization of Untrusted Data,2022-11-16
+1594627,Internet Bug Bounty,Apache HTTP Server: mod_proxy_ajp: Possible request smuggling,hackerone.com/reports/1594627,21,2400.0,,2022-07-09
+1595006,Nextcloud,"Unauthenticated SSRF in 3rd party module ""cerdic/csstidy""",hackerone.com/reports/1595006,17,250.0,Server-Side Request Forgery (SSRF),2022-09-03
+1595281,Internet Bug Bounty,Read beyond bounds in ap_strcmp_match() [zhbug_httpd_47.7],hackerone.com/reports/1595281,5,0.0,Information Disclosure,2022-07-09
+1595290,Internet Bug Bounty,Controllable read beyond bounds in lua_websocket_readbytes() [zhbug_httpd_126],hackerone.com/reports/1595290,5,0.0,Information Disclosure,2022-07-09
+1595296,Internet Bug Bounty,Read beyond bounds in mod_isapi.c [zhbug_httpd_41],hackerone.com/reports/1595296,5,0.0,Buffer Over-read,2022-07-09
+1595299,Internet Bug Bounty,Read beyond bounds via ap_rwrite() [zhbug_httpd_47.2],hackerone.com/reports/1595299,9,0.0,Information Disclosure,2022-07-09
