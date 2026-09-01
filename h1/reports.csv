@@ -9611,3 +9611,104 @@ id,program,title,link,upvotes,bounty,vuln_type,date
 1536013,RubyGems,Possibility to guess email address from gravatar image URL,hackerone.com/reports/1536013,12,0.0,Inadequate Encryption Strength,2023-09-14
 1536046,TikTok,Stored XSS Payload when sending videos ,hackerone.com/reports/1536046,44,0.0,Cross-site Scripting (XSS) - Stored,2022-11-29
 1536215,U.S. Dept Of Defense,Reflected XSS via `████████` parameter,hackerone.com/reports/1536215,7,0.0,Cross-site Scripting (XSS) - Reflected,2022-06-27
+1536299,SMTP2GO BBP,"Origin IP found, WAF Cloudflare Bypass",hackerone.com/reports/1536299,53,100.0,,2022-05-15
+1536461,UPS VDP,Reflected  XSS on  ███?loc=,hackerone.com/reports/1536461,11,0.0,Cross-site Scripting (XSS) - Reflected,2022-07-05
+1536899,Acronis,HTML Injection in E-mail,hackerone.com/reports/1536899,52,0.0,,2022-06-14
+1536901,Acronis,Self XSS in attachments name,hackerone.com/reports/1536901,20,0.0,,2022-05-31
+1536936,MTN Group,Unprotected Direct Object Reference,hackerone.com/reports/1536936,13,0.0,Insecure Direct Object Reference (IDOR),2022-12-01
+1537149,Automattic,XSS and HTML Injection on the pressable.com search box,hackerone.com/reports/1537149,57,0.0,Cross-site Scripting (XSS) - Stored,2022-08-23
+1537543,U.S. Dept Of Defense,██████████ vulnerable to CVE-2022-22954,hackerone.com/reports/1537543,6,0.0,Code Injection,2022-04-29
+1537694,U.S. Dept Of Defense,███ vulnerable to CVE-2022-22954,hackerone.com/reports/1537694,4,0.0,Code Injection,2022-04-20
+1538004,Acronis,Read-only administrator can change agent update settings,hackerone.com/reports/1538004,29,200.0,Improper Access Control - Generic,2022-08-10
+1538157,Reddit,Regular Expression Denial of Service vulnerability,hackerone.com/reports/1538157,6,0.0,Uncontrolled Resource Consumption,2022-04-12
+1538177,LinkedIn,[ADMIN FEATURE ACCESS] Knowing The Competitors analytics of any company  ,hackerone.com/reports/1538177,29,0.0,Insecure Direct Object Reference (IDOR),2023-10-05
+1538669,Omise,IDOR Payments Status,hackerone.com/reports/1538669,37,100.0,Business Logic Errors,2022-09-06
+1539426,UPS VDP,Broken access control ,hackerone.com/reports/1539426,54,0.0,Improper Authentication - Generic,2022-06-18
+1540252,EXNESS,subdomain takeover at odoo-staging.exness.io,hackerone.com/reports/1540252,9,0.0,Privilege Escalation,2022-07-18
+1540906,Uber,Full read SSRF in flyte-poc-us-east4.uberinternal.com,hackerone.com/reports/1540906,30,2000.0,Server-Side Request Forgery (SSRF),2022-05-26
+1540907,Nintendo,[WiiU/Switch] nullptr dereference in the ENL framework,hackerone.com/reports/1540907,9,0.0,NULL Pointer Dereference,2023-08-22
+1540969,HackerOne,Race condition in joining CTF group,hackerone.com/reports/1540969,72,500.0,Time-of-check Time-of-use (TOCTOU) Race Condition,2023-01-08
+1541273,Nintendo,[WiiU/Switch] Remote code execution inside the ENL library,hackerone.com/reports/1541273,36,0.0,Classic Buffer Overflow,2023-08-11
+1541301,PortSwigger Web Security,Redirection in Repeater & Intruder Tab,hackerone.com/reports/1541301,36,150.0,Open Redirect,2022-08-11
+1541660,MTN Group,Information Disclosure Leads To User Data Leak,hackerone.com/reports/1541660,25,0.0,Information Disclosure,2022-12-24
+1541740,U.S. Dept Of Defense,Pull Any Automated Record Brief,hackerone.com/reports/1541740,47,0.0,Information Disclosure,2024-10-25
+1541817,U.S. Dept Of Defense,██████ SSN/EDPI,hackerone.com/reports/1541817,26,0.0,Privacy Violation,2024-10-25
+1542450,Cloudflare Public Bug Bounty,Bypass Cloudflare WARP lock on iOS.,hackerone.com/reports/1542450,10,500.0,Client-Side Enforcement of Server-Side Security,2022-11-07
+1542510,GitLab,XSS in ZenTao integration affecting self hosted instances without strict CSP,hackerone.com/reports/1542510,81,0.0,Cross-site Scripting (XSS) - Generic,2022-09-22
+1542703,TikTok,Stored XSS on TikTok Live Form,hackerone.com/reports/1542703,95,0.0,Cross-site Scripting (XSS) - Stored,2022-06-16
+1542734,U.S. Dept Of Defense,lfi in filePathDownload parameter via ███████,hackerone.com/reports/1542734,10,0.0,Path Traversal,2022-04-29
+1542881,curl,curl proceeds with unsafe connections when -K file can't be read,hackerone.com/reports/1542881,1,0.0,Improper Check or Handling of Exceptional Conditions,2022-04-21
+1543159,Reddit,Able to approve admin approval and change effective status without adding payment details . ,hackerone.com/reports/1543159,190,5000.0,Business Logic Errors,2022-06-22
+1543234,TikTok,CSRF protection bypass on TikTok Webcast Endpoints,hackerone.com/reports/1543234,79,2500.0,Cross-Site Request Forgery (CSRF),2023-07-12
+1543259,Cloudflare Public Bug Bounty,Signup with any Email and Enable 2-FA without verifying Email,hackerone.com/reports/1543259,39,0.0,Improper Authentication - Generic,2022-09-12
+1543584,GitLab,DOS via move_issue,hackerone.com/reports/1543584,19,2300.0,Uncontrolled Resource Consumption,2022-11-04
+1543718,GitLab,DOS via issue preview,hackerone.com/reports/1543718,25,7640.0,Uncontrolled Resource Consumption,2022-11-04
+1543770,Reddit,Moderators can send messages to users from banned subreddits via `oauth.reddit.com/api/mod/conversations`,hackerone.com/reports/1543770,18,100.0,Improper Input Validation,2022-07-04
+1543773,curl,CVE-2022-27774: Credential leak on redirect,hackerone.com/reports/1543773,7,0.0,Insufficiently Protected Credentials,2022-04-27
+1544133,Kubernetes,SSRF vulnerability can be exploited when a hijacked aggregated api server such as metrics-server returns 30X,hackerone.com/reports/1544133,51,1000.0,Server-Side Request Forgery (SSRF),2022-12-10
+1544236,Insightly,returnUrl= allow attacker to redirect users to the another phising website and takeover credientials,hackerone.com/reports/1544236,94,0.0,Improper Authentication - Generic,2025-06-04
+1546268,curl,CVE-2022-27775: Bad local IPv6 connection reuse,hackerone.com/reports/1546268,7,0.0,Business Logic Errors,2022-04-27
+1546726,Omise,Anonymous access control - Payments Status,hackerone.com/reports/1546726,26,100.0,Improper Access Control - Generic,2022-08-07
+1546935,SKALE Network,Stack Buffer Overflow via `gmp_sprintf`in `BLSSignature` and `BLSSigShare`,hackerone.com/reports/1546935,23,2500.0,Classic Buffer Overflow,2022-07-07
+1547048,curl,CVE-2022-27776: Auth/cookie leak on redirect ,hackerone.com/reports/1547048,19,0.0,Insufficiently Protected Credentials,2022-04-27
+1547684,Shopify,Disconnecting an external login provider does not revoke session,hackerone.com/reports/1547684,20,1600.0,Insufficient Session Expiration,2022-12-01
+1547877,Aiven Ltd,[Kafka Connect] [JdbcSinkConnector][HttpSinkConnector] RCE by leveraging file upload via SQLite JDBC driver and SSRF to internal Jolokia,hackerone.com/reports/1547877,56,5000.0,Unrestricted Upload of File with Dangerous Type,2022-11-08
+1548067,U.S. Dept Of Defense,Unauthorized Access to Internal Server Panel without Authentication,hackerone.com/reports/1548067,13,0.0,Improper Access Control - Generic,2022-06-27
+1548535,curl,--libcurl code injection via trigraphs,hackerone.com/reports/1548535,6,0.0,Code Injection,2022-04-24
+1548870,Linux Foundation Decentralized Trust,Unauthorized packages modification or secrets exfiltration via GitHub actions,hackerone.com/reports/1548870,25,1500.0,Improper Access Control - Generic,2022-07-08
+1549206,Reddit,Reflected xss in https://sh.reddit.com,hackerone.com/reports/1549206,165,5000.0,Cross-site Scripting (XSS) - Reflected,2022-05-08
+1549217,Recorded Future,Storage of old passwords in plain text format,hackerone.com/reports/1549217,14,0.0,Plaintext Storage of a Password,2022-05-12
+1549435,curl,CURLOPT_SSH_HOST_PUBLIC_KEY_SHA256 comparison disaster,hackerone.com/reports/1549435,2,0.0,Cryptographic Issues - Generic,2022-04-25
+1549451,TikTok,DOM XSS on ads.tiktok.com,hackerone.com/reports/1549451,104,2500.0,Cross-site Scripting (XSS) - DOM,2022-07-20
+1549461,curl,CURLOPT_SSH_HOST_PUBLIC_KEY_MD5 bypass if string not 32 chars,hackerone.com/reports/1549461,4,0.0,Business Logic Errors,2022-04-25
+1549636,Internet Bug Bounty,CVE-2022-28738: Double free in Regexp compilation,hackerone.com/reports/1549636,26,4000.0,Double Free,2022-05-28
+1550400,Shopify,Staff without Manage Themes permissions can update themes,hackerone.com/reports/1550400,66,0.0,,2024-01-23
+1551176,Reddit,Able to bypass email verification and change email to any other user email ,hackerone.com/reports/1551176,199,5000.0,Improper Access Control - Generic,2022-05-06
+1551586,Internet Bug Bounty,CVE-2022-27774: Credential leak on redirect,hackerone.com/reports/1551586,36,2400.0,Insufficiently Protected Credentials,2022-04-29
+1551588,Internet Bug Bounty,CVE-2022-27775: Bad local IPv6 connection reuse,hackerone.com/reports/1551588,19,480.0,Information Disclosure,2022-04-29
+1551591,Internet Bug Bounty,CVE-2022-27776: Auth/cookie leak on redirect,hackerone.com/reports/1551591,23,480.0,Insufficiently Protected Credentials,2022-04-29
+1552110,Internet Bug Bounty,OAUTH2 bearer not-checked for connection re-use,hackerone.com/reports/1552110,15,0.0,Improper Authentication - Generic,2022-04-29
+1553301,curl,CVE-2022-27779: cookie for trailing dot TLD,hackerone.com/reports/1553301,5,0.0,Information Exposure Through Sent Data,2022-05-11
+1553598,curl,CVE-2022-27778: curl removes wrong file on error,hackerone.com/reports/1553598,11,0.0,Business Logic Errors,2022-05-11
+1553841,curl,CVE-2022-27780: percent-encoded path separator in URL host,hackerone.com/reports/1553841,9,0.0,Server-Side Request Forgery (SSRF),2022-05-11
+1554048,TikTok,XSS Payload on TikTok Seller Center endpoint,hackerone.com/reports/1554048,77,0.0,Cross-site Scripting (XSS) - Stored,2022-06-29
+1554888,Automattic, Site information's Display Name section vulnerable for XSS attacks and HTML Injections.,hackerone.com/reports/1554888,11,0.0,Cross-site Scripting (XSS) - Stored,2022-05-16
+1555015,U.S. Dept Of Defense,[CVE-2020-3452] Unauthenticated file read in Cisco ASA,hackerone.com/reports/1555015,4,0.0,Path Traversal,2022-05-12
+1555021,U.S. Dept Of Defense,[CVE-2020-3452] Unauthenticated file read in Cisco ASA,hackerone.com/reports/1555021,3,0.0,Path Traversal,2022-05-12
+1555025,U.S. Dept Of Defense,CVE-2020-3187 - Unauthenticated Arbitrary File Deletion,hackerone.com/reports/1555025,9,0.0,Path Traversal,2022-05-12
+1555027,U.S. Dept Of Defense,CVE-2020-3187 - Unauthenticated Arbitrary File Deletion,hackerone.com/reports/1555027,6,0.0,Path Traversal,2022-05-12
+1555376,TikTok,IDOR on Tagged People,hackerone.com/reports/1555376,63,0.0,Insecure Direct Object Reference (IDOR),2022-09-20
+1555440,curl,match,hackerone.com/reports/1555440,0,0.0,External Control of Critical State Data,2022-06-09
+1555441,curl,CVE-2022-27781: CERTINFO never-ending busy-loop,hackerone.com/reports/1555441,5,0.0,Uncontrolled Resource Consumption,2022-05-16
+1555502,Shopify,"Collaborators and Staff members without all necessary permissions are able to create, edit and install custom apps",hackerone.com/reports/1555502,46,1900.0,Improper Access Control - Generic,2022-07-11
+1555582,U.S. Dept Of Defense,RXSS on █████████,hackerone.com/reports/1555582,6,0.0,Cross-site Scripting (XSS) - Reflected,2022-06-10
+1555796,curl,CVE-2022-27782: TLS and SSH connection too eager reuse,hackerone.com/reports/1555796,6,0.0,Business Logic Errors,2022-05-11
+1556808,U.S. Dept Of Defense,Found Origin IP's Lead To Access ████,hackerone.com/reports/1556808,10,0.0,Violation of Secure Design Principles,2022-10-14
+1556950,U.S. Dept Of Defense,"Exposure of Private Personal Information to an Unauthorized Actor - PII  and soldier data (mos, schools, and speciality training)",hackerone.com/reports/1556950,69,0.0,Violation of Secure Design Principles,2025-01-24
+1557449,curl,CVE-2022-30115: HSTS bypass via trailing dot,hackerone.com/reports/1557449,7,0.0,Missing Required Cryptographic Step,2022-05-11
+1558010,HackerOne,Blind XSS in app.pullrequest.com/████████ via /reviews/ratings/{uuid},hackerone.com/reports/1558010,102,0.0,Cross-site Scripting (XSS) - Generic,2022-05-25
+1559262,Internet Bug Bounty,rubygems.org Batching attack to `confirmation_token` by bypass rate limit,hackerone.com/reports/1559262,11,480.0,,2022-07-13
+1559739,TikTok,IDOR in report download functionality on ads.tiktok.com,hackerone.com/reports/1559739,25,500.0,Insecure Direct Object Reference (IDOR),2022-07-22
+1560072,TikTok,Email address disclosure via invite token validatiion,hackerone.com/reports/1560072,11,250.0,Information Disclosure,2022-06-11
+1560149,Stripe,Tomcat Servlet Examples accessible at https://44.240.33.83:38443 and https://52.36.56.155:38443,hackerone.com/reports/1560149,38,0.0,Improper Authorization,2022-10-19
+1560324,curl,Cookie injection from non-secure context,hackerone.com/reports/1560324,2,0.0,Session Fixation,2022-05-13
+1560717,Phabricator,Possible to make restricted files public on Phabricator via Diffusion,hackerone.com/reports/1560717,17,2000.0,Improper Access Control - Generic,2022-07-29
+1561299,TikTok,disclosure the live_analytics information of any livestream.,hackerone.com/reports/1561299,16,0.0,Information Disclosure,2022-06-11
+1561377,Glovo,"Django debug enabled showing information about system, database, configuration files",hackerone.com/reports/1561377,25,0.0,Information Disclosure,2022-05-31
+1561448,UPchieve,Postgres Admin Username and Password in Plain text,hackerone.com/reports/1561448,12,0.0,Insecure Storage of Sensitive Information,2026-01-06
+1561471,Nextcloud,Password disclosure in initial setup of Mail App,hackerone.com/reports/1561471,17,0.0,Cleartext Storage of Sensitive Information,2022-09-03
+1562020,TikTok,TikTok Account Creation Date Information Disclosure ,hackerone.com/reports/1562020,28,100.0,Privacy Violation,2022-10-18
+1562515,Glovo,Integer overflow vulnerability ,hackerone.com/reports/1562515,29,0.0,Integer Overflow,2022-05-17
+1563061,curl,Certificate authentication re-use on redirect,hackerone.com/reports/1563061,2,0.0,Business Logic Errors,2022-05-11
+1563139,Phabricator,Global default settings page is accessible to non-administrators,hackerone.com/reports/1563139,10,300.0,Improper Access Control - Generic,2022-05-09
+1563142,Phabricator,Slowvote and Countdown can cause Denial of Service due to recursive inclusion,hackerone.com/reports/1563142,5,0.0,Uncontrolled Resource Consumption,2022-05-09
+1563334,Shopify,One Click XSS in [www.shopify.com],hackerone.com/reports/1563334,36,0.0,Cross-site Scripting (XSS) - Generic,2022-07-13
+1564922,curl,Integer overflows in unescape_word(),hackerone.com/reports/1564922,0,0.0,Integer Overflow,2022-06-09
+1565615,Internet Bug Bounty,CVE-2022-27779: cookie for trailing dot TLD,hackerone.com/reports/1565615,27,0.0,Information Exposure Through Sent Data,2022-06-11
+1565619,Internet Bug Bounty,CVE-2022-27780: percent-encoded path separator in URL host,hackerone.com/reports/1565619,8,0.0,Improper Input Validation,2022-06-11
+1565622,Internet Bug Bounty,CVE-2022-30115: HSTS bypass via trailing dot,hackerone.com/reports/1565622,10,0.0,Cleartext Transmission of Sensitive Information,2022-06-11
+1565623,Internet Bug Bounty,CVE-2022-27778: curl removes wrong file on error,hackerone.com/reports/1565623,11,2400.0,Business Logic Errors,2022-05-12
+1565624,Internet Bug Bounty,CVE-2022-27782: TLS and SSH connection too eager reuse,hackerone.com/reports/1565624,11,2400.0,Business Logic Errors,2022-05-12
+1566017,Judge.me ,Race condition on https://judge.me/people,hackerone.com/reports/1566017,26,250.0,Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),2022-08-01
+1566325,Phabricator,Conduit feed.publish API allows you to spoof other users or make it look like you have access to a restricted object,hackerone.com/reports/1566325,9,300.0,,2022-05-18
+1566462,curl,error parse uri path in curl,hackerone.com/reports/1566462,4,0.0,Improper Access Control - Generic,2022-05-13
