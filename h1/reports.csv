@@ -9864,3 +9864,78 @@ id,program,title,link,upvotes,bounty,vuln_type,date
 1626508,U.S. Dept Of Defense,IDOR leading unauthenticated attacker to download documents discloses PII of users and soldiers via https://www.█████████/Download.aspx?id= [HtUS],hackerone.com/reports/1626508,77,500.0,Insecure Direct Object Reference (IDOR),2024-06-27
 1626962,U.S. Dept Of Defense,RXSS on ███████,hackerone.com/reports/1626962,5,0.0,Cross-site Scripting (XSS) - Reflected,2022-09-06
 1627159,Internet Bug Bounty,Rack CVE-2022-30122: Denial of Service Vulnerability in Rack Multipart Parsing,hackerone.com/reports/1627159,9,2400.0,,2022-07-23
+1627616,U.S. Dept Of Defense,RXSS on █████████,hackerone.com/reports/1627616,3,0.0,Cross-site Scripting (XSS) - Reflected,2022-09-06
+1627961,U.S. Dept Of Defense,Account takeover on ███████ [HtUS],hackerone.com/reports/1627961,14,0.0,Improper Authentication - Generic,2022-10-14
+1627962,U.S. Dept Of Defense,Unauthenticated PII leak on verified/requested to be verified profiles on ███████/app/org/{id}/profile/{id}/version/{id} [HtUS],hackerone.com/reports/1627962,7,0.0,Information Disclosure,2022-10-14
+1627970,U.S. Dept Of Defense,time based SQL injection at [https://███] [HtUS],hackerone.com/reports/1627970,20,0.0,SQL Injection,2022-09-14
+1627974,U.S. Dept Of Defense,IDOR on ███████ [HtUS],hackerone.com/reports/1627974,9,0.0,Insecure Direct Object Reference (IDOR),2022-11-18
+1627980,U.S. Dept Of Defense,Unauthenticated access to internal API at██████████.███.edu  [HtUS],hackerone.com/reports/1627980,13,0.0,Improper Authorization,2024-07-19
+1627995,U.S. Dept Of Defense,SQL injection at [https://█████████] [HtUS],hackerone.com/reports/1627995,29,0.0,SQL Injection,2022-09-14
+1628012,U.S. Dept Of Defense,IDOR Lead  To VIEW & DELETE & Create api_key [HtUS],hackerone.com/reports/1628012,7,0.0,Insecure Direct Object Reference (IDOR),2022-09-14
+1628102,U.S. Dept Of Defense,Full read SSRF at █████████ [HtUS],hackerone.com/reports/1628102,11,0.0,Server-Side Request Forgery (SSRF),2022-09-14
+1628209,U.S. Dept Of Defense,SSRF in Functional Administrative Support Tool pdf generator (████) [HtUS],hackerone.com/reports/1628209,46,4000.0,Server-Side Request Forgery (SSRF),2022-09-14
+1628408,U.S. Dept Of Defense,SQL Injection at https://████████.asp (█████████) [selMajcom] [HtUS],hackerone.com/reports/1628408,30,0.0,SQL Injection,2023-01-06
+1629822,U.S. Dept Of Defense,Exposed GIT repo on ██████████[HtUS],hackerone.com/reports/1629822,10,0.0,Cleartext Storage of Sensitive Information,2023-05-15
+1629828,U.S. Dept Of Defense,CSRF to delete accounts [HtUS],hackerone.com/reports/1629828,15,0.0,Cross-Site Request Forgery (CSRF),2023-05-15
+1630073,XVIDEOS,Host Header Injection Attack - www.xnxx.com,hackerone.com/reports/1630073,14,0.0,Violation of Secure Design Principles,2022-11-08
+1630336,Node.js,CVE-2022-32213 bypass via obs-fold mechanic,hackerone.com/reports/1630336,5,0.0,HTTP Request Smuggling,2022-10-26
+1630667,Internet Bug Bounty, CVE-2022-32215 - HTTP Request Smuggling Due to Incorrect Parsing of Multi-line Transfer-Encoding,hackerone.com/reports/1630667,6,1800.0,HTTP Request Smuggling,2022-07-22
+1630668,Internet Bug Bounty, CVE-2022-32213 - HTTP Request Smuggling Due to Flawed Parsing of Transfer-Encoding,hackerone.com/reports/1630668,13,1800.0,HTTP Request Smuggling,2022-07-22
+1630669,Internet Bug Bounty,CVE-2022-32214 - HTTP Request Smuggling Due To Improper Delimiting of Header Fields,hackerone.com/reports/1630669,11,1800.0,HTTP Request Smuggling,2022-07-22
+1631228,Stripo Inc,[demo.stripo.email] HTTP request Smuggling,hackerone.com/reports/1631228,18,0.0,HTTP Request Smuggling,2024-02-15
+1631258,Rocket.Chat,Rocket.Chat Server RCE,hackerone.com/reports/1631258,21,0.0,Command Injection - Generic,2023-03-04
+1631350,Node.js,Off-by-slash vulnerability in nodejs.org and iojs.org,hackerone.com/reports/1631350,12,0.0,Path Traversal,2022-08-24
+1631364,U.S. Dept Of Defense,██████_log4j - https://██████,hackerone.com/reports/1631364,1,0.0,Code Injection,2022-09-06
+1631370,U.S. Dept Of Defense,solr_log4j - http://██████████,hackerone.com/reports/1631370,1,0.0,Code Injection,2022-09-06
+1631447,U.S. Dept Of Defense,"STORED XSS in █████████/nlc/login.aspx via ""edit"" GET parameter through markdown editor [HtUS]",hackerone.com/reports/1631447,2,0.0,Cross-site Scripting (XSS) - Stored,2022-09-14
+1631471,U.S. Dept Of Defense,an internel important  paths  disclosure  [HtUS],hackerone.com/reports/1631471,2,0.0,Information Disclosure,2022-09-14
+1632104,U.S. Dept Of Defense,Sensitive information disclosure [HtUS],hackerone.com/reports/1632104,23,0.0,Information Disclosure,2023-02-24
+1632186,Reddit,Can use the Reddit android app as usual even though revoking the access of it from reddit.com,hackerone.com/reports/1632186,19,0.0,Insufficient Session Expiration,2022-07-16
+1632921,Node.js,DNS rebinding in --inspect (insufficient fix of CVE-2022-32212 affecting macOS devices),hackerone.com/reports/1632921,16,0.0,Improper Access Control - Generic,2022-09-28
+1633231,Cloudflare Public Bug Bounty,Completely remove VPN profile from locked WARP iOS cient.,hackerone.com/reports/1633231,21,1000.0,Client-Side Enforcement of Server-Side Security,2022-11-07
+1634105,U.S. Dept Of Defense,Open Redirect at █████,hackerone.com/reports/1634105,6,0.0,Open Redirect,2022-11-18
+1634165,Stripe,Mass account takeover!,hackerone.com/reports/1634165,101,0.0,Misconfiguration,2022-12-21
+1635321,Linux Foundation Decentralized Trust,Fix : (Security) Mitigate Path Traversal Bug,hackerone.com/reports/1635321,6,200.0,Path Traversal,2022-08-05
+1635748,Cloudflare Public Bug Bounty,Ability to bypass locked Cloudflare WARP on wifi networks.,hackerone.com/reports/1635748,12,1000.0,Client-Side Enforcement of Server-Side Security,2022-11-16
+1635854,Linux Foundation Decentralized Trust,Remote denial of service in HyperLedger Fabric,hackerone.com/reports/1635854,12,0.0,Uncontrolled Resource Consumption,2022-09-01
+1636320,Cloudflare Public Bug Bounty,Lack of Packet Sanitation in Goflow Results in Multiple DoS Attack Vectors and Bugs,hackerone.com/reports/1636320,8,500.0,Uncontrolled Resource Consumption,2022-09-30
+1636345,U.S. Dept Of Defense,Reflected cross site scripting in https://███████,hackerone.com/reports/1636345,13,0.0,Cross-site Scripting (XSS) - Reflected,2022-09-06
+1636382,Elastic,Synthetics Recorder: Code injection when recording website with malicious content,hackerone.com/reports/1636382,47,0.0,Code Injection,2023-04-08
+1636552,Khan Academy,Email Verification Bypass Allows Users to Add & verify Any Email  As Guardians Email ,hackerone.com/reports/1636552,41,0.0,Privilege Escalation,2022-12-17
+1636566,Internet Bug Bounty,Node.js - DLL Hijacking on Windows,hackerone.com/reports/1636566,17,0.0,Untrusted Search Path,2022-07-25
+1637571,8x8,Open Redirect ███.8x8.com,hackerone.com/reports/1637571,15,0.0,Open Redirect,2022-07-17
+1637577,GitLab,Found Origin IP's lead to access to gitlab,hackerone.com/reports/1637577,6,0.0,Improper Access Control - Generic,2022-08-02
+1637621,GitHub,Command injection in GitHub Actions ContainerStepHost,hackerone.com/reports/1637621,32,4000.0,Resource Injection,2022-11-03
+1637761,Stripe,CSRF in Importing CSV files [app.taxjar.com],hackerone.com/reports/1637761,26,0.0,Cross-Site Request Forgery (CSRF),2023-03-16
+1638347,MTN Group,String length restriction byepass at https://callerfeel.mtnonline.com/profile/feedback.html,hackerone.com/reports/1638347,6,0.0,Violation of Secure Design Principles,2022-09-07
+1638984,Linux Foundation Decentralized Trust,fix(cmd-socketio-server): mitigate cross site scripting attack #2068,hackerone.com/reports/1638984,10,100.0,Cross-site Scripting (XSS) - Reflected,2022-07-21
+1639011,Planet Labs,Api data leak,hackerone.com/reports/1639011,58,0.0,Information Disclosure,2024-11-20
+1639364,U.S. Dept Of Defense,Local File Inclusion in download.php,hackerone.com/reports/1639364,25,0.0,Improper Input Validation,2024-07-19
+1639423,Linux Foundation Decentralized Trust,Insecure TLS Configuration #3530,hackerone.com/reports/1639423,2,0.0,Use of a Broken or Risky Cryptographic Algorithm,2022-08-01
+1639600,Slack,Hashed data exposure via WebSockets to Workspace Members,hackerone.com/reports/1639600,49,0.0,Insufficiently Protected Credentials,2023-09-21
+1639919,LY Corporation,Stored XSS Via Filename On https://partners.line.me/,hackerone.com/reports/1639919,25,100.0,Cross-site Scripting (XSS) - Stored,2023-03-28
+1641088,Nextcloud,Last video frame is still sent after video is disabled in a call,hackerone.com/reports/1641088,10,0.0,Privacy Violation,2022-09-16
+1641148,U.S. Dept Of Defense,Directory Traversal at █████,hackerone.com/reports/1641148,3,0.0,Path Traversal,2022-09-14
+1641475,GlassWire,Facebook App API credentials leaked in the APK,hackerone.com/reports/1641475,31,0.0,Cleartext Storage of Sensitive Information,2023-05-12
+1641661,8x8,LFI via Jolokia at https://█.█.█.█:1293,hackerone.com/reports/1641661,19,0.0,Information Disclosure,2022-07-20
+1643962,GitLab,Path paths and file disclosure vulnerabilities at influxdb.quality.gitlab.net,hackerone.com/reports/1643962,8,0.0,Information Disclosure,2022-11-04
+1644062,Linktree,No validation to Image upload user can upload ( php APK zip files and can be used as storage purpose),hackerone.com/reports/1644062,32,0.0,Unrestricted Upload of File with Dangerous Type,2022-09-15
+1644436,EXNESS,IDOR in Stats API Endpoint Allows Viewing Equity or Net Profit of Any MT Account ,hackerone.com/reports/1644436,58,0.0,Insecure Direct Object Reference (IDOR),2022-12-05
+1646248,MTN Group,Reflected xss on videostore.mtnonline.com,hackerone.com/reports/1646248,10,0.0,Cross-site Scripting (XSS) - Reflected,2022-09-25
+1646554,"Invision Power Services, Inc.",support.invisionpower.com takeover the subdomain with Zendesk,hackerone.com/reports/1646554,11,0.0,Privilege Escalation,2022-08-24
+1647248,TikTok,Stored XSS Via Ads Account Name,hackerone.com/reports/1647248,47,1000.0,Cross-site Scripting (XSS) - Stored,2023-09-12
+1647287,Internet Bug Bounty,"Disabling context isolation, nodeIntegrationInSubFrames using an unauthorised frame.",hackerone.com/reports/1647287,16,0.0,Improper Access Control - Generic,2022-08-11
+1650035,Uber,Golang expvar Information Disclosure,hackerone.com/reports/1650035,16,0.0,Information Exposure Through Debug Information,2022-08-24
+1650210,Linux Foundation Decentralized Trust,Corsa Site Scripting Vulnerability (XSS),hackerone.com/reports/1650210,3,0.0,Cross-site Scripting (XSS) - Reflected,2022-07-30
+1650264,ownCloud,GitHub Security Lab (GHSL) Vulnerability Report: SQLInjection in FileContentProvider.kt (GHSL-2022-059),hackerone.com/reports/1650264,12,300.0,SQL Injection,2023-04-12
+1650270,ownCloud,GitHub Security Lab (GHSL) Vulnerability Report: Insufficient path validation in ReceiveExternalFilesActivity.java (GHSL-2022-060),hackerone.com/reports/1650270,14,50.0,Path Traversal,2023-01-16
+1650273,Internet Bug Bounty,Off-by-slash vulnerability in nodejs.org and iojs.org,hackerone.com/reports/1650273,4,1200.0,Path Traversal,2022-07-28
+1651429,MetaMask,"Bypass parsing of transaction data, users on the phishing site will transfer/approve  ERC20 tokens without being alerted",hackerone.com/reports/1651429,32,1000.0,Improper Input Validation,2023-04-10
+1652042,Internet Bug Bounty,CVE-2022-21831: Possible code injection vulnerability in Rails / Active Storage,hackerone.com/reports/1652042,14,2000.0,Code Injection,2022-09-10
+1652046,Shopify,Stored XSS in Dovetale by application of creator,hackerone.com/reports/1652046,34,1600.0,Cross-site Scripting (XSS) - Stored,2022-11-29
+1652903,Nextcloud,Exception logging in Sharepoint app reveals clear-text connection details,hackerone.com/reports/1652903,4,0.0,Cleartext Storage of Sensitive Information,2022-11-26
+1653676,Nintendo,"[MK8DX] Improper verification of Competition creation allows to create ""Official"" competitions",hackerone.com/reports/1653676,23,0.0,Improper Access Control - Generic,2022-12-15
+1654145,GoCD,Open S3 Bucket Accessible by any Aws User,hackerone.com/reports/1654145,19,0.0,Improper Access Control - Generic,2022-07-31
+1654310,Ruby on Rails,Incomplete fix for CVE-2022-32209 (XSS in Rails::Html::Sanitizer under certain configurations),hackerone.com/reports/1654310,7,0.0,Cross-site Scripting (XSS) - Generic,2022-12-14
+1654657,TikTok,Add products to any livestream.,hackerone.com/reports/1654657,34,0.0,Insecure Direct Object Reference (IDOR),2022-09-21
+1655629,Acronis,Bypassing Recaptcha Protection in  `https://connect.acronis.com`,hackerone.com/reports/1655629,54,0.0,Violation of Secure Design Principles,2024-10-30
