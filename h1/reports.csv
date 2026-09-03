@@ -10079,3 +10079,60 @@ id,program,title,link,upvotes,bounty,vuln_type,date
 1711938,GitHub,Github Apps can use Scoped-User-To-Server Tokens to Obtain Full Access to User's Projects in Project V2 GraphQL api,hackerone.com/reports/1711938,198,0.0,Improper Access Control - Generic,2023-01-26
 1712240,Yelp,Server-side request forgery  (ssrf),hackerone.com/reports/1712240,5,0.0,Server-Side Request Forgery (SSRF),2022-09-28
 1712329,Nextcloud,[nextcloud/server] Moment.js vulnerable to Inefficient Regular Expression Complexity,hackerone.com/reports/1712329,10,0.0,Improper Authentication - Generic,2022-12-09
+1714563,Mars,Jolokia Reflected XSS ,hackerone.com/reports/1714563,13,0.0,Cross-site Scripting (XSS) - Reflected,2022-10-27
+1714638,MTN Group,IDOR Leads To  User Profile Modification https://mtnmobad.mtnbusiness.com.ng/app/updateUser,hackerone.com/reports/1714638,96,0.0,Incorrect Authorization,2024-09-18
+1714767,U.S. Dept Of Defense,Upload and delete files in debug page without access control.,hackerone.com/reports/1714767,10,0.0,Improper Access Control - Generic,2023-02-24
+1714970,Yelp,no rate limit in forgot password session,hackerone.com/reports/1714970,3,0.0,,2022-09-29
+1714979,Internet Bug Bounty,DNS rebinding in --inspect (insufficient fix of CVE-2022-32212 affecting macOS devices),hackerone.com/reports/1714979,47,4200.0,Improper Access Control - Generic,2023-01-12
+1715536,Fastify,Deny of service via malicious Content-Type,hackerone.com/reports/1715536,17,0.0,Uncontrolled Resource Consumption,2022-10-10
+1715538,Yelp,Subdomain Takeover on  delivey.yelp.com ,hackerone.com/reports/1715538,2,0.0,Phishing,2022-11-12
+1716016,Slack,Ability to join an arbitrary workspace by utilizing a proxy to manipulate invite links,hackerone.com/reports/1716016,108,0.0,Improper Authentication - Generic,2023-06-23
+1716069,Omise,The endpoint '/test/webhooks' is vulnerable to DNS Rebinding,hackerone.com/reports/1716069,36,200.0,Server-Side Request Forgery (SSRF),2023-04-26
+1716249,Reddit,sensitive data exposure,hackerone.com/reports/1716249,5,0.0,Insecure Storage of Sensitive Information,2022-11-10
+1716286,Yelp,CORS Misconfiguration on trust.yelp.com,hackerone.com/reports/1716286,4,0.0,,2022-10-10
+1716300,LinkedIn,Unauthorized User can View Subscribers of Other Users Newsletters,hackerone.com/reports/1716300,117,0.0,Insecure Direct Object Reference (IDOR),2023-03-29
+1717210,Semrush,Exposure of service tokens to webpack bundle,hackerone.com/reports/1717210,56,0.0,Information Disclosure,2024-03-08
+1717626,MetaMask,Sub-Domain Takeover at   http://www.codefi.consensys.net/,hackerone.com/reports/1717626,42,500.0,Improper Access Control - Generic,2022-12-16
+1717650,Stripe,Promotion code can be used more than redemption limit.,hackerone.com/reports/1717650,54,0.0,Time-of-check Time-of-use (TOCTOU) Race Condition,2023-02-13
+1718371,Equifax-vdp,Subdomain takeover at http://test.www.midigator.com,hackerone.com/reports/1718371,32,0.0,Privilege Escalation,2022-11-12
+1718574,Linktree,A malicious admin can be able to permanently disable a Owner(Admin) to access his account,hackerone.com/reports/1718574,54,600.0,Insecure Direct Object Reference (IDOR),2022-10-25
+1718757,Ruby,Header CRLF Injection in Ruby Net::HTTP,hackerone.com/reports/1718757,5,0.0,CRLF Injection,2023-05-04
+1719588,Reddit,HTML injection in API response including request url,hackerone.com/reports/1719588,11,0.0,Remote File Inclusion,2023-05-18
+1719719,Acronis, mail.acronis.com is vulnerable to zero day vulnerability CVE-2022-41040,hackerone.com/reports/1719719,71,1000.0,Server-Side Request Forgery (SSRF),2022-10-13
+1720043,Nextcloud,Desktop client can be tricked into opening/executing local files when clicking a nc://open/ link,hackerone.com/reports/1720043,13,0.0,Code Injection,2023-02-10
+1720278,U.S. Dept Of Defense,Sensitive Data Exposure at https://█████████,hackerone.com/reports/1720278,12,0.0,Information Disclosure,2023-02-24
+1720621,Yelp,Autofill/Autosave password on login,hackerone.com/reports/1720621,4,0.0,Insufficiently Protected Credentials,2022-10-11
+1720822,Nextcloud,Suspicious login app ships old league/flysystem version,hackerone.com/reports/1720822,17,0.0,Violation of Secure Design Principles,2023-02-08
+1721098,curl,CVE-2022-35260: .netrc parser out-of-bounds access,hackerone.com/reports/1721098,7,0.0,Out-of-bounds Read,2022-10-27
+1722065,curl,CVE-2022-42915: HTTP proxy double-free,hackerone.com/reports/1722065,7,0.0,Double Free,2022-11-26
+1723445,Weblate,No rate limiting for Remove Account lead to huge Mass mailings,hackerone.com/reports/1723445,13,0.0,Business Logic Errors,2022-11-20
+1723896,U.S. Dept Of Defense,Sql Injection At █████████,hackerone.com/reports/1723896,14,0.0,SQL Injection,2023-01-06
+1724016,Nextcloud,Download permissions can be changed by resharer,hackerone.com/reports/1724016,49,500.0,Improper Access Control - Generic,2023-02-24
+1724021,Nextcloud,Secure view trivial to bypass,hackerone.com/reports/1724021,13,150.0,Improper Access Control - Generic,2023-03-30
+1724464,Cloudflare Public Bug Bounty,cd=false (DNSSEC) not respected in DNS over HTTPS JSON requests,hackerone.com/reports/1724464,23,250.0,Business Logic Errors,2022-12-12
+1724771,Yelp,Robots.txt file with potentially sensitive content.,hackerone.com/reports/1724771,9,0.0,Privacy Violation,2023-01-13
+1726445,Nextcloud,A vulnerability classified as critical has been found in gsi-openssh-server 7.9p1 on Fedora (Connectivity Software) on server (http://95.217.64.181:22,hackerone.com/reports/1726445,6,0.0,,2022-12-10
+1727044,Liberapay,Email Address Exposure via Gratipay Migration Tool,hackerone.com/reports/1727044,34,100.0,Insecure Direct Object Reference (IDOR),2022-10-09
+1727221,HackerOne,Improper CSRF token validation allows attackers to access victim's accounts linked to Hackerone,hackerone.com/reports/1727221,167,0.0,Cross-Site Request Forgery (CSRF),2023-06-19
+1727424,Nextcloud,No password length limit when creating a user as an administrator,hackerone.com/reports/1727424,39,0.0,Uncontrolled Resource Consumption,2022-12-31
+1728087,LinkedIn,User Details Can Be Disclosed Even If The Account IS In Hibernation State,hackerone.com/reports/1728087,57,0.0,Information Disclosure,2023-12-06
+1728174,Kubernetes,Ingress nginx annotation injection causes arbitrary command execution,hackerone.com/reports/1728174,57,2500.0,Code Injection,2023-11-24
+1728292,Cloudflare Public Bug Bounty,Cloudflare is not properly deleting user's account,hackerone.com/reports/1728292,23,0.0,Business Logic Errors,2023-04-13
+1730660,curl,CVE-2022-42916: HSTS bypass via IDN,hackerone.com/reports/1730660,2,0.0,Cleartext Transmission of Sensitive Information,2022-10-27
+1731349,GitLab,Stored XSS via Kroki diagram,hackerone.com/reports/1731349,295,13950.0,Cross-site Scripting (XSS) - Stored,2023-06-02
+1732595,GitHub,Github app Privilege Escalation to Administrator/Owner of the Organization ,hackerone.com/reports/1732595,98,0.0,Improper Access Control - Generic,2023-01-13
+1733627,TikTok,IDOR for changing privacy settings on any memories,hackerone.com/reports/1733627,122,0.0,Insecure Direct Object Reference (IDOR),2023-01-27
+1734639,LinkedIn,IDOR to make someone attend or leave an event,hackerone.com/reports/1734639,84,0.0,Insecure Direct Object Reference (IDOR),2026-03-06
+1735586,MTN Group,Wordpress users Disclosure [ /wp-json/wp/v2/users/ ],hackerone.com/reports/1735586,33,0.0,Information Disclosure,2022-11-27
+1735622,MTN Group,Reflected XSS in chatbot,hackerone.com/reports/1735622,9,0.0,Cross-site Scripting (XSS) - Reflected,2022-11-19
+1736317,U.S. Dept Of Defense,XSS via Client Side Template Injection on www.███/News/Speeches,hackerone.com/reports/1736317,6,0.0,Cross-site Scripting (XSS) - Generic,2023-01-06
+1736327,Adobe,DOM XSS at `https://adobedocs.github.io/indesign-api-docs/?configUrl={site}` due to outdated Swagger UI,hackerone.com/reports/1736327,14,0.0,Cross-site Scripting (XSS) - DOM,2023-01-19
+1736378,Adobe,DOM XSS at `https://adobedocs.github.io/OAE_PartnerAPI/?configUrl={site}` due to outdated Swagger UI,hackerone.com/reports/1736378,38,0.0,Cross-site Scripting (XSS) - DOM,2023-01-24
+1736390,Nextcloud,Mail app - blind SSRF via imapHost parameter,hackerone.com/reports/1736390,13,0.0,Server-Side Request Forgery (SSRF),2023-02-06
+1736432,U.S. Dept Of Defense,Reflected XSS | https://████,hackerone.com/reports/1736432,2,0.0,Cross-site Scripting (XSS) - Reflected,2022-11-18
+1736433,U.S. Dept Of Defense,Reflected XSS | https://████████,hackerone.com/reports/1736433,5,0.0,Cross-site Scripting (XSS) - Reflected,2022-11-18
+1736466,Adobe,HTML INJECTION FOUND ON https://adobedocs.github.io/analytics-1.4-apis/swagger-docs.html DUE TO OUTDATED SWAGGER UI,hackerone.com/reports/1736466,18,0.0,Cross-site Scripting (XSS) - DOM,2022-10-28
+1736846,Automattic,Akismet API keys are exposed by authentication method,hackerone.com/reports/1736846,17,0.0,Storing Passwords in a Recoverable Format,2022-12-16
+1737358,Shopify,URL Scheme Validation Bypass in Shopify Mobile App Allows Javascript Execution,hackerone.com/reports/1737358,65,0.0,Forced Browsing,2025-09-17
+1737943,Flickr,IDOR may allow access to non-public photos,hackerone.com/reports/1737943,59,0.0,Insecure Direct Object Reference (IDOR),2024-07-06
+1739099,Linux Foundation Decentralized Trust,CVE-2017-5929: Hyperledger - Arbitrary Deserialization of Untrusted Data ,hackerone.com/reports/1739099,5,0.0,,2022-10-18
