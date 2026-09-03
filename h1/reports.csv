@@ -10004,3 +10004,78 @@ id,program,title,link,upvotes,bounty,vuln_type,date
 1681178,U.S. Dept Of Defense,Reflected XSS at https://██████/,hackerone.com/reports/1681178,7,0.0,Cross-site Scripting (XSS) - Reflected,2023-09-29
 1681208,U.S. Dept Of Defense,XSS DUE TO CVE-2022-38463 in https://████████,hackerone.com/reports/1681208,6,0.0,Cross-site Scripting (XSS) - Reflected,2022-09-14
 1681275,GitLab,Dependecy Confusion via Lookup Request Forwarding to PyPi.org,hackerone.com/reports/1681275,6,0.0,Misconfiguration,2022-11-21
+1683129,TikTok,XSS at TikTok Ads Endpoint,hackerone.com/reports/1683129,60,0.0,Cross-site Scripting (XSS) - Reflected,2023-01-27
+1684163,Ruby on Rails,ReDoS (Rails::Html::PermitScrubber.scrub_attribute),hackerone.com/reports/1684163,11,0.0,,2023-01-02
+1685822,GitLab,RepositoryPipeline allows importing of local git repos,hackerone.com/reports/1685822,88,22300.0,Improper Access Control - Generic,2022-11-04
+1685970,Stripe,Mass Accounts Takeover Without any user Interaction  at https://app.taxjar.com/ ,hackerone.com/reports/1685970,211,13000.0,Authentication Bypass Using an Alternate Path or Channel,2022-10-19
+1685979,Mattermost,DoS via Playbook ,hackerone.com/reports/1685979,18,0.0,Uncontrolled Resource Consumption,2022-11-23
+1686935,Internet Bug Bounty,CVE-2022-35252: control code in cookie denial of service,hackerone.com/reports/1686935,8,0.0,Improper Input Validation,2022-11-05
+1687005,Nextcloud,[user_oidc] Unencrypted Communications,hackerone.com/reports/1687005,20,0.0,Cleartext Transmission of Sensitive Information,2022-12-18
+1687410,Nextcloud,[user_oidc] Stored XSS via Authorization Endpoint - Safari-Only,hackerone.com/reports/1687410,19,0.0,Cross-site Scripting (XSS) - Stored,2022-12-18
+1687415,U.S. Dept Of Defense,IDOR when editing email leads to Mass Full ATOs (Account Takeovers) without user interaction on https://██████/,hackerone.com/reports/1687415,18,0.0,Insecure Direct Object Reference (IDOR),2023-01-06
+1688199,Nextcloud,Database resource exhaustion for logged-in users via sharee recommendations with circles,hackerone.com/reports/1688199,13,250.0,Uncontrolled Resource Consumption,2022-11-26
+1688309,Nintendo,[MK8DX] Improper metadata parsing,hackerone.com/reports/1688309,24,0.0,NULL Pointer Dereference,2023-08-17
+1690000,Node.js,Weak randomness in WebCrypto keygen,hackerone.com/reports/1690000,11,0.0,Use of Cryptographically Weak Pseudo-Random Number Generator (PRNG),2022-10-26
+1690044,U.S. Dept Of Defense,IDOR leaking PII data via VendorId parameter,hackerone.com/reports/1690044,23,0.0,Insecure Direct Object Reference (IDOR),2022-10-14
+1690093,Internet Bug Bounty,Airflow Daemon Mode Insecure Umask Privilege Escalation,hackerone.com/reports/1690093,8,2400.0,Incorrect Permission Assignment for Critical Resource,2022-09-17
+1690377,Linux Foundation Decentralized Trust,Relative Path Traversal vulnerability in fabric-private-chaincode,hackerone.com/reports/1690377,6,0.0,Path Traversal,2022-10-09
+1690427,GitHub,Managing Pages ,hackerone.com/reports/1690427,54,0.0,Improper Access Control - Generic,2022-12-22
+1690510,Nextcloud,the complete server installation path is visible in cloud/user endpoint,hackerone.com/reports/1690510,5,0.0,Improper Removal of Sensitive Information Before Storage or Transfer,2023-03-30
+1690548,U.S. Dept Of Defense,"Authentication bypass leads to Information Disclosure at  U.S Air Force ""https://███""",hackerone.com/reports/1690548,11,0.0,Improper Access Control - Generic,2022-10-14
+1690951,Shopify,Subdomain Takeover at course.oberlo.com,hackerone.com/reports/1690951,14,0.0,Privilege Escalation,2022-12-01
+1691195,Nextcloud,Missing rate limiting on password reset functionality allows to send lot of emails,hackerone.com/reports/1691195,17,100.0,Improper Access Control - Generic,2023-03-05
+1691501,U.S. Dept Of Defense,Blind SSRF via image upload URL downloader on https://██████/ ,hackerone.com/reports/1691501,13,0.0,Server-Side Request Forgery (SSRF),2022-10-14
+1691603,LinkedIn,A Unverified User Can Post Newsletter (Which Is Not Allowed Through Application UI),hackerone.com/reports/1691603,27,0.0,Business Logic Errors,2023-08-24
+1691888,MTN Group,Firebase credentials leak,hackerone.com/reports/1691888,20,0.0,,2022-12-15
+1692603,8x8,Jitsi Desktop Client RCE By Interacting with Malicious URL Schemes on Windows,hackerone.com/reports/1692603,51,777.0,OS Command Injection,2023-02-10
+1692788,Shopify,Attacker is able to query Github repositories of arbitrary Shopify Hydrogen Users ,hackerone.com/reports/1692788,18,900.0,Improper Access Control - Generic,2023-03-09
+1693150,GitLab,Bypass: Stored-XSS with CSP-bypass via scoped labels' color,hackerone.com/reports/1693150,96,0.0,Cross-site Scripting (XSS) - Stored,2023-02-19
+1694037,TikTok,Stored XSS in the ticketing system,hackerone.com/reports/1694037,46,1000.0,Cross-site Scripting (XSS) - Stored,2022-10-10
+1694171,Revive Adserver,Multiple cross-site scripting (XSS) vulnerabilities in Revive Adserver,hackerone.com/reports/1694171,5,0.0,Cross-site Scripting (XSS) - Generic,2023-09-13
+1694173,Ruby on Rails,ActionView sanitize helper bypass leading to XSS using SVG tag.,hackerone.com/reports/1694173,24,0.0,Cross-site Scripting (XSS) - Generic,2023-07-10
+1694304,X / xAI,"Able to see Twitter Circle tweets due to improper access control on the ""FavoriteTweet"" endpoint",hackerone.com/reports/1694304,90,0.0,Improper Access Control - Generic,2024-03-01
+1695454,Automattic,"IDOR in API applications (able to see any API token, leads to account takeover)",hackerone.com/reports/1695454,58,0.0,Insecure Direct Object Reference (IDOR),2022-11-01
+1695472,Linux Foundation Decentralized Trust,DOS validator nodes of blockchain to block external connections,hackerone.com/reports/1695472,20,1500.0,Uncontrolled Resource Consumption,2022-09-13
+1695596,Node.js,Node 18 reads openssl.cnf from /home/iojs/build/... upon startup on MacOS,hackerone.com/reports/1695596,3,0.0,Cryptographic Issues - Generic,2022-10-26
+1695604,Shopify,DoS Vulnerability via Cache Poisoning on cdn.shopify.com and shopify-assets.shopifycdn.com,hackerone.com/reports/1695604,264,3800.0,Cache Poisoning,2025-06-04
+1696814,GitLab,No Restriction on password,hackerone.com/reports/1696814,2,0.0,,2022-09-13
+1697281,Nextcloud,Name collision of shared folders,hackerone.com/reports/1697281,5,0.0,Use of Incorrectly-Resolved Name or Reference,2023-04-29
+1697402,8x8,Subdomain Takeover at http://██.get8x8.com/,hackerone.com/reports/1697402,5,0.0,Leftover Debug Code (Backdoor),2022-10-14
+1697599,TikTok,Remotely Accessible Container Advisor exposed performance metrics and resource usage,hackerone.com/reports/1697599,28,100.0,Information Disclosure,2022-10-24
+1698006,MTN Group,IDOR  [mtnmobad.mtnbusiness.com.ng],hackerone.com/reports/1698006,28,0.0,,2022-10-13
+1698316,Expedia Group Bug Bounty,Cache Deception Allows Account Takeover,hackerone.com/reports/1698316,158,0.0,Use of Cache Containing Sensitive Information,2023-04-01
+1698652,Linktree,XSS in SocialIcon Link,hackerone.com/reports/1698652,105,0.0,Cross-site Scripting (XSS) - Stored,2022-10-31
+1699025,Linktree,[song.link] Open Redirect,hackerone.com/reports/1699025,27,0.0,Open Redirect,2023-01-23
+1699740,Nextcloud,nextcloudcmd incorrectly trusts bad TLS certificates,hackerone.com/reports/1699740,10,0.0,Improper Certificate Validation,2022-12-25
+1699762,Shopify,XSS in www.shopify.com/markets?utm_source=,hackerone.com/reports/1699762,159,0.0,Cross-site Scripting (XSS) - Reflected,2022-10-18
+1699855,U.S. Dept Of Defense,XSS in ServiceNow logout https://████:443,hackerone.com/reports/1699855,5,0.0,Cross-site Scripting (XSS) - Reflected,2023-05-15
+1700276,Cloudflare Public Bug Bounty,Take over subdomains of r2.dev using R2 custom domains,hackerone.com/reports/1700276,28,1125.0,,2022-09-28
+1700734,Shopify,Shop App - Attacker is able to intercept authorization code during authentication (OAuth) and is able to get access to Microsoft Outlook email account,hackerone.com/reports/1700734,29,900.0,Insufficiently Protected Credentials,2023-03-02
+1700896,U.S. General Services Administration,"access nagios dashboard using default credentials in ** omon1.fpki.gov, 3.220.248.203**",hackerone.com/reports/1700896,17,0.0,Improper Access Control - Generic,2022-10-21
+1701378,Rocket.Chat,Bypassing 2FA with conventional session management - open.rocket.chat,hackerone.com/reports/1701378,25,0.0,Improper Authentication - Generic,2024-08-10
+1701642,LY Corporation,iOS group chat denial of service,hackerone.com/reports/1701642,42,300.0,Use of a Broken or Risky Cryptographic Algorithm,2023-03-29
+1702859,Ruby on Rails,Unexpected deserialization in Kredis,hackerone.com/reports/1702859,12,0.0,Deserialization of Untrusted Data,2023-08-16
+1702864,Nextcloud,SSRF via filter bypass due to lax checking on IPs,hackerone.com/reports/1702864,33,250.0,Server-Side Request Forgery (SSRF),2023-02-10
+1703733,MTN Group,Exposure Of Admin Username & Password,hackerone.com/reports/1703733,48,0.0,Insecure Storage of Sensitive Information,2022-12-25
+1704017,curl,CVE-2022-32221: POST following PUT confusion,hackerone.com/reports/1704017,3,0.0,Expected Behavior Violation,2022-11-26
+1704024,U.S. Dept Of Defense,External service interaction ( DNS and HTTP ) in www.████████,hackerone.com/reports/1704024,14,0.0,Server-Side Request Forgery (SSRF),2023-06-23
+1704035,U.S. Dept Of Defense,AWS Credentials Disclosure at ███ ,hackerone.com/reports/1704035,14,0.0,Improper Access Control - Generic,2023-02-24
+1705717,Linux Foundation Decentralized Trust,POOL_UPGRADE request handler may allow an unauthenticated attacker to remotely execute code on every node in the network. ,hackerone.com/reports/1705717,39,2000.0,Command Injection - Generic,2022-10-20
+1706248,Nextcloud,Guests can continue to receive video streams from call after being removed from a conversation,hackerone.com/reports/1706248,15,0.0,Privacy Violation,2022-12-31
+1707287,Internet Bug Bounty,CVE-2022-40604: Apache Airflow: Format String Vulnerability,hackerone.com/reports/1707287,87,8000.0,Use of Externally-Controlled Format String,2025-01-18
+1707616,Yelp,CORS Misconfiguration on Yelp,hackerone.com/reports/1707616,19,0.0,,2022-09-28
+1707680,Yelp,"If the website does not impose additional defense against CSRF attacks, failing to use the 'Lax' or 'Strict' values could increase the risk of exposur",hackerone.com/reports/1707680,3,0.0,,2022-11-30
+1707977,Nextcloud,XSS in Desktop Client via user status and information,hackerone.com/reports/1707977,5,0.0,Resource Injection,2022-11-25
+1708824,Yelp,No rate limit on subscribe form ,hackerone.com/reports/1708824,13,0.0,Business Logic Errors,2022-10-05
+1708873,Nextcloud,Vulnerable moment-timezone version shipped,hackerone.com/reports/1708873,9,0.0,Cleartext Transmission of Sensitive Information,2023-02-08
+1709815,Stripo Inc,Non-revoked API Key Disclosure in a Disclosed API Key Disclosure Report on Stripo,hackerone.com/reports/1709815,13,0.0,Cleartext Transmission of Sensitive Information,2024-02-15
+1709881,MTN Group,Authentication Bypass Leads To  Complete Account TakeveOver on ██████████,hackerone.com/reports/1709881,107,0.0,Authentication Bypass Using an Alternate Path or Channel,2024-09-14
+1710541,Basecamp,Arbitrary write in the application's data folder and arbitrary read of server's replies from 3rd party apps. ,hackerone.com/reports/1710541,37,0.0,Path Traversal,2023-06-07
+1710564,MetaMask,"Possible to spoof Origin in ""Connected Sites""",hackerone.com/reports/1710564,13,0.0,User Interface (UI) Misrepresentation of Critical Information,2023-04-13
+1710652,Node.js,DNS rebinding in --inspect via invalid octal IP address,hackerone.com/reports/1710652,4,0.0,OS Command Injection,2022-12-07
+1711318,Automattic,Archived / Deleted / Private Poll Can Be Viewed by Another Users [Crowdsignal WordPress plugins],hackerone.com/reports/1711318,9,0.0,Improper Access Control - Generic,2022-11-03
+1711847,Nextcloud,XSS in Desktop Client in call notification popup,hackerone.com/reports/1711847,5,0.0,Resource Injection,2022-11-25
+1711890,Gymshark,Subdomain takeover on 'de-headless.staging.gymshark.com',hackerone.com/reports/1711890,31,0.0,Misconfiguration,2022-10-27
+1711938,GitHub,Github Apps can use Scoped-User-To-Server Tokens to Obtain Full Access to User's Projects in Project V2 GraphQL api,hackerone.com/reports/1711938,198,0.0,Improper Access Control - Generic,2023-01-26
+1712240,Yelp,Server-side request forgery  (ssrf),hackerone.com/reports/1712240,5,0.0,Server-Side Request Forgery (SSRF),2022-09-28
+1712329,Nextcloud,[nextcloud/server] Moment.js vulnerable to Inefficient Regular Expression Complexity,hackerone.com/reports/1712329,10,0.0,Improper Authentication - Generic,2022-12-09
