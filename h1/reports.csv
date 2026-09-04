@@ -10188,3 +10188,45 @@ id,program,title,link,upvotes,bounty,vuln_type,date
 1771051,8x8,Directory Listing at https://█.█.█.█,hackerone.com/reports/1771051,18,0.0,File and Directory Information Exposure,2022-11-18
 1771149,U.S. Dept Of Defense,CORS Misconfiguration in https://████████/accounts/login/,hackerone.com/reports/1771149,15,0.0,Improper Access Control - Generic,2023-02-24
 1772063,GitLab,ReDoS due to device-detector parsing user agents,hackerone.com/reports/1772063,23,0.0,Uncontrolled Resource Consumption,2024-10-08
+1773609,MTN Group,IDOR at mtnmobad.mtnbusiness.com.ng leads to PII leakage. ,hackerone.com/reports/1773609,133,0.0,Insecure Direct Object Reference (IDOR),2024-10-05
+1773895,Internet Bug Bounty,Leak of sensitive values to Airflow rendered template,hackerone.com/reports/1773895,17,480.0,Insecure Storage of Sensitive Information,2022-12-27
+1775162,Linktree,XSS in linktr.ee - on link thumbnail adding,hackerone.com/reports/1775162,68,600.0,Cross-site Scripting (XSS) - Stored,2022-12-06
+1776476,Internet Bug Bounty,CVE-2022-40127: RCE in Apache Airflow <2.4.0 bash example,hackerone.com/reports/1776476,60,4000.0,Code Injection,2023-01-05
+1777077,Khan Academy,S3 bucket takeover [learn2.khanacademy.org],hackerone.com/reports/1777077,34,0.0,,2022-12-29
+1777095,LinkedIn,Unauthorized access to resumes stored on LinkedIn,hackerone.com/reports/1777095,112,0.0,Insecure Direct Object Reference (IDOR),2022-12-07
+1779447,MTN Group,Reflected - XSS,hackerone.com/reports/1779447,63,0.0,Cross-site Scripting (XSS) - Reflected,2024-10-21
+1780399,MTN Group,No rate limit in OTP code sending,hackerone.com/reports/1780399,48,0.0,,2024-10-21
+1781096,Cloudflare Public Bug Bounty,"💥💥Crash report -Cloudflare WARP doesn't verify text length in ""Excluded Host"" name input data💥💥",hackerone.com/reports/1781096,29,0.0,Memory Corruption - Generic,2023-07-31
+1781102,Rocket.Chat,Insecure use of shell.openExternal() leads to RCE in Rocket.Chat-Desktop,hackerone.com/reports/1781102,4,0.0,OS Command Injection,2022-12-08
+1781131,Rocket.Chat,"Cross-Site-Scripting in ""Search Messages""",hackerone.com/reports/1781131,5,0.0,Cross-site Scripting (XSS) - Stored,2023-05-09
+1781751,Nextcloud,Ability to control the filename when uploading a logo or favicon on theming,hackerone.com/reports/1781751,6,0.0,Violation of Secure Design Principles,2023-04-10
+1782467,inDrive,Disclosure of users' ip address whenever they view my fright offer on image preview (Without interaction),hackerone.com/reports/1782467,73,0.0,Information Disclosure,2024-02-19
+1782514,Internet Bug Bounty,CVE-2022-45402: Apache Airflow: Open redirect during login,hackerone.com/reports/1782514,19,0.0,Open Redirect,2022-12-01
+1783001,TikTok,Ability to change permissions across seller platform,hackerone.com/reports/1783001,47,0.0,Improper Access Control - Generic,2022-12-06
+1783015,Urban Company,Host header injection that bypassed protection and allowed accessing multiple subdomains,hackerone.com/reports/1783015,32,500.0,Server-Side Request Forgery (SSRF),2022-12-21
+1784162,Nextcloud,"OAuth2 ""authorization_code"" is valid indefinetly",hackerone.com/reports/1784162,45,100.0,Violation of Secure Design Principles,2024-02-17
+1784310,Nextcloud,Messages can still be seen on conversation after expiring when cron is misconfigured,hackerone.com/reports/1784310,15,0.0,Privacy Violation,2023-02-27
+1784449,Node.js,Regular Expression Denial of Service in Headers,hackerone.com/reports/1784449,3,0.0,Uncontrolled Resource Consumption,2023-03-19
+1784645,Nextcloud,Passcode bypass on Talk Android app,hackerone.com/reports/1784645,29,0.0,Improper Access Control - Generic,2023-01-09
+1784681,Nextcloud,Ability to read any emails through IDOR on Nextcloud Mail,hackerone.com/reports/1784681,34,0.0,Insecure Direct Object Reference (IDOR),2023-04-12
+1784999,MTN Group,Wordpress users Disclosure [ /wp-json/wp/v2/users/ ]  Not Resolved () ,hackerone.com/reports/1784999,29,0.0,Information Disclosure,2022-12-28
+1785021,MTN Group,Leaking usernames through endpoints Wordpress,hackerone.com/reports/1785021,31,0.0,Information Disclosure,2024-08-10
+1785079,inDrive,"# Drivers can access the customers phone number, current location without getting their offer accepted!",hackerone.com/reports/1785079,78,0.0,Information Disclosure,2024-02-19
+1785145,inDrive,Full access to InDrive jira panel via exposed API token ,hackerone.com/reports/1785145,125,0.0,Information Disclosure,2023-06-28
+1785260,Cloudflare Public Bug Bounty,Using special IPv4-mapped IPv6 addresses to bypass local IP ban,hackerone.com/reports/1785260,77,7500.0,,2023-01-24
+1785378,Ian Dunn,Double evaluation in .bash_prompt of dotfiles allows a malicious repository to execute arbitrary commands,hackerone.com/reports/1785378,47,0.0,,2022-12-01
+1787644,HackerOne,Any organization's assets pending review can be downloaded,hackerone.com/reports/1787644,75,0.0,Information Disclosure,2022-11-29
+1787810,Internet Bug Bounty,Electron CVE-2022-35954 Delimiter Injection Vulnerability in exportVariable,hackerone.com/reports/1787810,12,0.0,,2022-12-14
+1788006,Expedia Group Bug Bounty,Open Redirect in Logout & Login,hackerone.com/reports/1788006,169,1000.0,Open Redirect,2023-03-02
+1788222,Nextcloud,Document content of files can be obtained through Collabora for files of other users,hackerone.com/reports/1788222,10,0.0,Improper Access Control - Generic,2023-05-04
+1789602,Nextcloud,Contacts only sanitizes PHOTO svg if mime type is all lower case,hackerone.com/reports/1789602,3,0.0,Cross-site Scripting (XSS) - Generic,2023-06-24
+1790444,Uber,HTML injection via insecure parameter [https://www.ubercarshare.com/],hackerone.com/reports/1790444,35,0.0,Improper Neutralization of Script-Related HTML Tags in a Web Page (Basic XSS),2023-03-23
+1791558,Brave Software,S3 Bucket Takeover : brave-apt,hackerone.com/reports/1791558,19,0.0,Improper Access Control - Generic,2023-04-26
+1791720,LinkedIn,Ad Account Takeover,hackerone.com/reports/1791720,30,0.0,Privilege Escalation,2023-07-20
+1792544,Hiro,Security Issue into Wallet lock protection ,hackerone.com/reports/1792544,52,0.0,Improper Authentication - Generic,2023-01-11
+1793526,8x8,Unprotected Atlantis Server at https://152.70.█.█,hackerone.com/reports/1793526,11,0.0,Improper Authentication - Generic,2022-12-06
+1793940,TikTok,Any user can vote on `Friend Only` video pull,hackerone.com/reports/1793940,27,0.0,Improper Authorization,2023-01-27
+1794462,Nextcloud,Website PHP source code returned in javascript,hackerone.com/reports/1794462,4,0.0,,2023-04-10
+1794757,U.S. Dept Of Defense,Reflective Cross Site Scripting (XSS) on ███████/Pages,hackerone.com/reports/1794757,18,0.0,Cross-site Scripting (XSS) - Reflected,2024-03-22
+1794884,U.S. Dept Of Defense,Unauthenticated phpinfo()files could lead to ability file read at █████████  [HtUS],hackerone.com/reports/1794884,9,0.0,Missing Encryption of Sensitive Data,2023-01-06
+1797661,Mattermost,"Uninstalling Mattermost Launcher for Windows (64-bit), then reinstalling keeps you logged in without authentication",hackerone.com/reports/1797661,20,0.0,Improper Restriction of Authentication Attempts,2023-01-14
