@@ -10136,3 +10136,55 @@ id,program,title,link,upvotes,bounty,vuln_type,date
 1737358,Shopify,URL Scheme Validation Bypass in Shopify Mobile App Allows Javascript Execution,hackerone.com/reports/1737358,65,0.0,Forced Browsing,2025-09-17
 1737943,Flickr,IDOR may allow access to non-public photos,hackerone.com/reports/1737943,59,0.0,Insecure Direct Object Reference (IDOR),2024-07-06
 1739099,Linux Foundation Decentralized Trust,CVE-2017-5929: Hyperledger - Arbitrary Deserialization of Untrusted Data ,hackerone.com/reports/1739099,5,0.0,,2022-10-18
+1741430,Nextcloud,CSRF vulnerability in Nextcloud Desktop Client 3.6.1 on Windows when clicking malicious link ,hackerone.com/reports/1741430,25,0.0,Cross-Site Request Forgery (CSRF),2023-01-11
+1741525,Nextcloud,Mail app - Blind SSRF via Sierve server fonctionnality and sieveHost parameter,hackerone.com/reports/1741525,11,0.0,Server-Side Request Forgery (SSRF),2023-02-06
+1744194,TikTok,"Business Suite ""Get Leads"" Resulting in Revealing User Email & Phone",hackerone.com/reports/1744194,51,0.0,Insecure Direct Object Reference (IDOR),2022-11-10
+1744212,Adobe,HTML INJECTION on https://adobedocs.github.io/JourneyAPI/ due to outdated SWAGGER UI,hackerone.com/reports/1744212,13,0.0,Cross-site Scripting (XSS) - DOM,2023-01-17
+1744264,Reddit, read and message other user's messages,hackerone.com/reports/1744264,14,0.0,Insecure Direct Object Reference (IDOR),2023-05-18
+1745702,Nextcloud,Insecure randomness for default password in file sharing when password policy app is disabled,hackerone.com/reports/1745702,5,0.0,Use of Cryptographically Weak Pseudo-Random Number Generator (PRNG),2023-03-30
+1745755,Nextcloud,Hide download previews are accessible without a watermark,hackerone.com/reports/1745755,11,0.0,Improper Access Control - Generic,2023-05-04
+1745766,Nextcloud,Disabled download shares still allow download through preview images,hackerone.com/reports/1745766,18,0.0,Improper Access Control - Generic,2022-12-31
+1746098,Internet Bug Bounty,potential denial of service attack via the locale parameter,hackerone.com/reports/1746098,9,2400.0,Uncontrolled Resource Consumption,2022-11-28
+1746582,Nextcloud,Mail app - blind SSRF via smtpHost parameter,hackerone.com/reports/1746582,11,0.0,Server-Side Request Forgery (SSRF),2023-02-06
+1747146,MTN Group,Authentication bypass in ████████,hackerone.com/reports/1747146,21,0.0,Authentication Bypass Using an Alternate Path or Channel,2022-12-02
+1747596,U.S. Department of State,Bypassing Whitelist to perform SSRF for internal host scanning,hackerone.com/reports/1747596,21,0.0,Server-Side Request Forgery (SSRF),2023-03-24
+1747642,Node.js,Permissions policies can be bypassed via process.mainModule,hackerone.com/reports/1747642,7,0.0,Privilege Escalation,2023-03-19
+1747978,TikTok,bypass two-factor authentication in Android apps and web,hackerone.com/reports/1747978,55,0.0,Authentication Bypass Using an Alternate Path or Channel,2023-01-09
+1748961,MetaMask,CSV Injection at https://assets-paris-demo.codefi.network/,hackerone.com/reports/1748961,40,500.0,Command Injection - Generic,2023-01-04
+1751258,GitLab,"Attacker is able to create,Edit & delete notes and leak the title of a victim's private personal snippet",hackerone.com/reports/1751258,29,1730.0,Insecure Direct Object Reference (IDOR),2023-06-02
+1751333,MetaMask,MetaMask Browser URL and Transaction Origin Spoofing - Metamask wallet Android & Metamask wallet iOS,hackerone.com/reports/1751333,86,0.0,Cross-site Scripting (XSS) - Stored,2023-07-04
+1752146,Internet Bug Bounty,POST following PUT confusion,hackerone.com/reports/1752146,14,2400.0,Information Disclosure,2022-12-02
+1753224,Internet Bug Bounty,CVE-2022-35260: .netrc parser out-of-bounds access,hackerone.com/reports/1753224,11,0.0,Stack Overflow,2022-12-03
+1753226,Internet Bug Bounty,CVE-2022-42916: HSTS bypass via IDN,hackerone.com/reports/1753226,12,0.0,Cleartext Transmission of Sensitive Information,2022-11-03
+1754811,Cloudflare Public Bug Bounty,"Extraction of Pages build scripts, config values, tokens, etc. via symlinks",hackerone.com/reports/1754811,12,500.0,Information Disclosure,2023-03-06
+1754843,Shopify,Reflected XSS In Marketing Reports Page On *.myshopify.com/admin,hackerone.com/reports/1754843,128,0.0,Cross-site Scripting (XSS) - Reflected,2025-04-15
+1755083,curl,CVE-2022-43551: Another HSTS bypass via IDN,hackerone.com/reports/1755083,7,0.0,Cleartext Transmission of Sensitive Information,2022-12-21
+1755552,Flickr,"Exceed photo dimensions, Flickr.com",hackerone.com/reports/1755552,9,0.0,,2022-11-07
+1755555,Nextcloud,Possibility to delete files attached to deck cards of other users,hackerone.com/reports/1755555,21,0.0,Insecure Direct Object Reference (IDOR),2023-01-09
+1757663,Rocket.Chat,"Low authorization level at server side API operation e2e.updateGroupKey, let an attacker break the E2E architecture.",hackerone.com/reports/1757663,19,0.0,Improper Access Control - Generic,2023-02-16
+1757676,Rocket.Chat,NoSQL injection in listEmojiCustom method call,hackerone.com/reports/1757676,11,0.0,SQL Injection,2023-05-09
+1758132,Khan Academy,xss due to incorrect handling of postmessages,hackerone.com/reports/1758132,34,0.0,Cross-site Scripting (XSS) - DOM,2022-12-23
+1758174,Slack,Unauthorized access to GovSlack,hackerone.com/reports/1758174,81,1500.0,Improper Authentication - Generic,2023-05-19
+1760213,Expedia Group Bug Bounty,Cache Poisoning Allows Stored XSS Via hav Cookie Parameter (To Account Takeover),hackerone.com/reports/1760213,117,0.0,Cross-site Scripting (XSS) - Stored,2023-04-01
+1760403,Linktree,Account takeover - improper validation of jwt signature (with regards  to experiation date claim),hackerone.com/reports/1760403,144,0.0,Improper Authorization,2022-12-26
+1761505,XVIDEOS,Self-XSS on Suggest Tag dialog box,hackerone.com/reports/1761505,15,50.0,Cross-site Scripting (XSS) - Stored,2022-11-08
+1762025,GitHub,Improper handling of null bytes in GitHub Actions Runner allows an attacker to set arbitrary environment variables,hackerone.com/reports/1762025,19,0.0,Resource Injection,2023-03-09
+1762764,Expedia Group Bug Bounty,Sensitive information for phpinfo.php at https://products.ean.com/,hackerone.com/reports/1762764,23,0.0,Information Disclosure,2023-04-11
+1762927,Reddit,api keys leaked,hackerone.com/reports/1762927,16,0.0,Improper Access Control - Generic,2022-11-10
+1763266,Yelp,Public Github Repo Leaking Internal Credentials ,hackerone.com/reports/1763266,10,0.0,,2022-11-07
+1763343,Linux Foundation Decentralized Trust,Dependency confusion in https://github.com/hyperledger/aries-mobile-agent-react-native ,hackerone.com/reports/1763343,1,0.0,Code Injection,2023-02-07
+1763404,U.S. Dept Of Defense,xss on reset password page,hackerone.com/reports/1763404,14,0.0,Cross-site Scripting (XSS) - Generic,2023-01-06
+1763704,Kubernetes,Git Arg Injection in  kubernetes-sigs/release-sdk ,hackerone.com/reports/1763704,14,100.0,,2023-05-25
+1763817,Node.js,Take over subdomain undici.nodejs.org.cdn.cloudflare.net,hackerone.com/reports/1763817,22,0.0,Array Index Underflow,2023-01-11
+1764858,curl,CVE-2022-43552: HTTP Proxy deny use-after-free,hackerone.com/reports/1764858,16,0.0,Use After Free,2022-12-26
+1765631,Nextcloud,Potential directory traversal in OC\Files\Node\Folder::getFullPath,hackerone.com/reports/1765631,10,0.0,Path Traversal: 'dir\..\..\filename',2023-05-04
+1767151,Uber,DOM based XSS via insecure parameter on [ https://uberpay-mock-psp.uber.com ],hackerone.com/reports/1767151,39,0.0,Cross-site Scripting (XSS) - DOM,2023-03-23
+1767439,Nextcloud,Exposed Log File Lead to Full Internal path disclosure at [https://nextcloud.com/wp-content/debug.log] ,hackerone.com/reports/1767439,15,0.0,Information Disclosure,2022-12-15
+1767503,Nextcloud,Reference caching can leak data to unauthorized users,hackerone.com/reports/1767503,14,0.0,Insecure Storage of Sensitive Information,2023-01-13
+1767771,hostinger ,Able to take over .zyrosite.com subdomains via `/v3/publish/connect-domain-hostinger` API endpoint,hackerone.com/reports/1767771,9,0.0,Improper Access Control - Generic,2022-12-05
+1768166,MetaMask,Arbitrary file write triggered by deeplink abuse - MetaMask Android,hackerone.com/reports/1768166,40,0.0,Business Logic Errors,2023-07-07
+1770797,HackerOne,adding h1_analyst_* to username for normal users ,hackerone.com/reports/1770797,186,500.0,Business Logic Errors,2023-04-12
+1770858,Semrush,IDOR vulnerability reveals additional information,hackerone.com/reports/1770858,98,0.0,Insecure Direct Object Reference (IDOR),2024-03-07
+1771051,8x8,Directory Listing at https://█.█.█.█,hackerone.com/reports/1771051,18,0.0,File and Directory Information Exposure,2022-11-18
+1771149,U.S. Dept Of Defense,CORS Misconfiguration in https://████████/accounts/login/,hackerone.com/reports/1771149,15,0.0,Improper Access Control - Generic,2023-02-24
+1772063,GitLab,ReDoS due to device-detector parsing user agents,hackerone.com/reports/1772063,23,0.0,Uncontrolled Resource Consumption,2024-10-08
