@@ -10295,3 +10295,46 @@ id,program,title,link,upvotes,bounty,vuln_type,date
 1826392,curl,curl/libcurl vulnerable to TLS truncation attacks,hackerone.com/reports/1826392,8,0.0,Business Logic Errors,2026-06-10
 1826892,8x8,wavecell.com: Broken Link Hijacking / Instagram Takeover @██,hackerone.com/reports/1826892,41,0.0,Externally Controlled Reference to a Resource in Another Sphere,2023-01-27
 1829170,EXNESS,Double forward slash breaks server-side restrictions & allows access to prohibited services from a partner account,hackerone.com/reports/1829170,16,0.0,,2023-02-10
+1831528,GitHub,Rogue collaborators and ambiguous branch names in GitHub,hackerone.com/reports/1831528,43,0.0,Business Logic Errors,2023-12-05
+1832126,Nextcloud,Existance of calendars and addressbooks can be checked by unauthenticated users ,hackerone.com/reports/1832126,14,0.0,Improper Access Control - Generic,2023-09-26
+1832494,EXNESS,Blind SSRF on https://my.exnessaffiliates.com/ allows for internal network enumeration,hackerone.com/reports/1832494,120,0.0,Server-Side Request Forgery (SSRF),2023-10-25
+1834042,U.S. Dept Of Defense,Reflected XSS at ████████,hackerone.com/reports/1834042,9,0.0,Cross-site Scripting (XSS) - Reflected,2023-02-24
+1835133,Brave Software,"S3 Bucket Takeover  ""brave-browser-rpm-staging-release-test""",hackerone.com/reports/1835133,24,0.0,Improper Access Control - Generic,2023-04-26
+1836339,8x8,Open Redirect - Polycom Company Directory,hackerone.com/reports/1836339,28,0.0,Open Redirect,2023-10-17
+1837309,LinkedIn,Anyone can view the results of linkedin skill test -if failed to earn a badge or if the badge earned is kept private: both cases results can be viewed,hackerone.com/reports/1837309,43,0.0,Insecure Direct Object Reference (IDOR),2023-05-17
+1838329,HackerOne,Private information exposed through GraphQL search endpoints aggregates,hackerone.com/reports/1838329,32,0.0,Information Disclosure,2023-01-19
+1838674,ownCloud,Remote Code Execution on ownCloud instances with ImageMagick installed,hackerone.com/reports/1838674,7,0.0,Code Injection,2023-04-12
+1839012,U.S. Dept Of Defense,Authentication Bypass Using Default Credentials on █████,hackerone.com/reports/1839012,14,0.0,Improper Authentication - Generic,2023-02-24
+1841064,X / xAI,Ability to getting Twitter Blue verified badge without purchase it,hackerone.com/reports/1841064,85,0.0,Business Logic Errors,2024-02-22
+1841408,Nextcloud,Error in  Booking an appointment reveals the full path of the website,hackerone.com/reports/1841408,24,0.0,Improper Access Control - Generic,2023-06-18
+1842114,Nextcloud,Missing brute force protection on password confirmation modal,hackerone.com/reports/1842114,24,0.0,Improper Restriction of Authentication Attempts,2023-03-21
+1842183,LinkedIn,bypass two-factor authentication.,hackerone.com/reports/1842183,40,0.0,Improper Authentication - Generic,2023-08-01
+1842674,Krisp,SQL Injection + Insecure Deserialization leads to Remote Code Execution on https://krisp.ai,hackerone.com/reports/1842674,119,0.0,Deserialization of Untrusted Data,2023-02-22
+1842800,Adobe,Adobe Experience Manager 'Childlist selector' - Cross-Site Scripting on cbconnection-stage.adobe.com ,hackerone.com/reports/1842800,29,0.0,Cross-site Scripting (XSS) - Reflected,2024-04-22
+1842801,Adobe,Adobe Experience Manager 'Childlist selector' - Cross-Site Scripting on  cbconnection.adobe.com,hackerone.com/reports/1842801,24,0.0,Cross-site Scripting (XSS) - Reflected,2024-05-02
+1842822,Automattic,Stored XSS on app.crowdsignal.com  your-subdomain.crowdsignal.net via Thank You Header,hackerone.com/reports/1842822,34,0.0,Cross-site Scripting (XSS) - Stored,2023-02-24
+1842829,Kubernetes,Privilege Escalation in kOps using GCE/GCP Provider,hackerone.com/reports/1842829,52,2500.0,Privilege Escalation,2023-08-04
+1844674,U.S. Dept Of Defense,Install.php File Exposure on Drupal,hackerone.com/reports/1844674,6,0.0,Information Exposure Through an Error Message,2023-02-24
+1844777,Rocket.Chat,Reflected Cross-Site Scripting(CVE-2022-32770 ),hackerone.com/reports/1844777,7,0.0,Cross-site Scripting (XSS) - Reflected,2023-06-22
+1844830,U.S. Department of State,HTML INJECTION on coins.state.gov,hackerone.com/reports/1844830,16,0.0,Improper Neutralization of Script-Related HTML Tags in a Web Page (Basic XSS),2023-04-26
+1847140,Internet Bug Bounty,Argo CD reconciles apps outside configured namespaces when sharding is enabled,hackerone.com/reports/1847140,18,2000.0,Improper Access Control - Generic,2023-03-05
+1847368,Nextcloud,Full Passcode bypass on Nextcloud App iOS,hackerone.com/reports/1847368,20,0.0,Improper Access Control - Generic,2023-04-10
+1848062,Brave Software,"download file type warning on Windows does not appear if ""ask where to save file before downloading"" setting is enabled",hackerone.com/reports/1848062,31,0.0,,2023-05-10
+1848176,U.S. Department of State,IDOR in TalentMAP API can be abused to enumerate personal information of all the users,hackerone.com/reports/1848176,40,0.0,Insecure Direct Object Reference (IDOR),2023-04-11
+1848551,IBM,Moodle XSS on s-immerscio.comprehend.ibm.com,hackerone.com/reports/1848551,11,0.0,Cross-site Scripting (XSS) - Reflected,2023-05-11
+1848780,MTN Group,PHP info page disclosure in ██████████,hackerone.com/reports/1848780,62,0.0,,2024-08-30
+1848940,Shopify,URL Path Manipulation Enables Cache Poisoning of Amazon Affiliate Products in Shopify Linkpop,hackerone.com/reports/1848940,85,500.0,Cache Poisoning,2025-08-14
+1849626,Stripe,"Fee discounts can be redeemed many times, resulting in unlimited fee-free transactions",hackerone.com/reports/1849626,264,5000.0,Business Logic Errors,2023-02-25
+1850065,U.S. Dept Of Defense,[█████] Bug Reports allow for Unrestricted File Upload,hackerone.com/reports/1850065,16,0.0,Violation of Secure Design Principles,2023-02-24
+1850235,U.S. Dept Of Defense,[XSS] Reflected XSS via POST request,hackerone.com/reports/1850235,12,0.0,Cross-site Scripting (XSS) - Reflected,2023-02-24
+1850407,Nextcloud,Chat room member disclosure via autocomplete API,hackerone.com/reports/1850407,17,0.0,Improper Access Control - Generic,2023-03-25
+1851818,Mattermost,Member role which doesn't have permission to send message can send by executing channel commands,hackerone.com/reports/1851818,43,0.0,Improper Access Control - Generic,2024-05-08
+1851886,Mars,Bug Report #23JAN135 (subdomain takeover via shopify ),hackerone.com/reports/1851886,50,0.0,Privilege Escalation,2025-09-02
+1851895,Mars,Bug Report #23JAN136 (subdomain takeover via shopify ),hackerone.com/reports/1851895,62,0.0,Privilege Escalation,2025-09-02
+1851969,JetBlue,Open Redirect - https://████████.jetblue.com/███?url=,hackerone.com/reports/1851969,21,0.0,Open Redirect,2023-03-13
+1853061,JetBlue,XSS via Vuln Rendertron Instance At `██████████.jetblue.com/render/*`,hackerone.com/reports/1853061,13,0.0,Cross-site Scripting (XSS) - Reflected,2023-06-20
+1858574,HackerOne,[CVE-2022-44268] Arbitrary Remote Leak via ImageMagick,hackerone.com/reports/1858574,371,0.0,Remote File Inclusion,2023-03-16
+1859592,Linux Foundation Decentralized Trust,"[indy_node]POOL_UPGRADE command injection, Trustee Node can execute command in any other Node`s system.",hackerone.com/reports/1859592,2,0.0,OS Command Injection,2023-04-27
+1860905,U.S. Dept Of Defense,Splunk Sensitive Information Disclosure @████████,hackerone.com/reports/1860905,32,0.0,Insecure Storage of Sensitive Information,2023-02-13
+1861487,inDrive,inDriver Job - Admin Approval Bypass,hackerone.com/reports/1861487,157,1000.0,Incorrect Authorization,2023-07-05
+1861569,U.S. Dept Of Defense,DoS at ████████ (CVE-2018-6389),hackerone.com/reports/1861569,8,0.0,Uncontrolled Resource Consumption,2023-02-24
