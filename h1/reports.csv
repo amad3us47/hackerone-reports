@@ -10230,3 +10230,68 @@ id,program,title,link,upvotes,bounty,vuln_type,date
 1794757,U.S. Dept Of Defense,Reflective Cross Site Scripting (XSS) on ███████/Pages,hackerone.com/reports/1794757,18,0.0,Cross-site Scripting (XSS) - Reflected,2024-03-22
 1794884,U.S. Dept Of Defense,Unauthenticated phpinfo()files could lead to ability file read at █████████  [HtUS],hackerone.com/reports/1794884,9,0.0,Missing Encryption of Sensitive Data,2023-01-06
 1797661,Mattermost,"Uninstalling Mattermost Launcher for Windows (64-bit), then reinstalling keeps you logged in without authentication",hackerone.com/reports/1797661,20,0.0,Improper Restriction of Authentication Attempts,2023-01-14
+1799197,MTN Group,"Reflected cross site scripting (XSS) attacks Reflected XSS attacks, ",hackerone.com/reports/1799197,100,0.0,Cross-site Scripting (XSS) - Reflected,2024-08-30
+1799562,U.S. Dept Of Defense,Reflected XSS on ██████.mil,hackerone.com/reports/1799562,19,0.0,Cross-site Scripting (XSS) - Reflected,2023-01-27
+1801427,LinkedIn,Information disclosure by sending a GIF,hackerone.com/reports/1801427,84,0.0,Client-Side Enforcement of Server-Side Security,2023-04-28
+1801527,LinkedIn,Delete any LinkedIn comment on learning API of other users,hackerone.com/reports/1801527,41,0.0,Improper Access Control - Generic,2023-05-12
+1803659,Cloudflare Public Bug Bounty,Origin IP address disclosure through Pingora response header,hackerone.com/reports/1803659,21,0.0,Information Exposure Through an Error Message,2023-01-10
+1804128,Internet Bug Bounty,ReDoS (Rails::Html::PermitScrubber.scrub_attribute),hackerone.com/reports/1804128,15,4000.0,,2022-12-14
+1804174,U.S. Dept Of Defense,Improper Access Control on Media Wiki allows an attackers to restart installation on DoD asset,hackerone.com/reports/1804174,8,0.0,Improper Access Control - Generic,2023-03-24
+1804177,Stripe,Possible XSS vulnerability without a content security bypass,hackerone.com/reports/1804177,130,2000.0,Cross-site Scripting (XSS) - Generic,2023-05-01
+1805779,Cloudflare Public Bug Bounty,2FA BYPASS,hackerone.com/reports/1805779,86,0.0,Improper Access Control - Generic,2023-09-18
+1805873,Internet Bug Bounty,Rails ActionView sanitize helper bypass leading to XSS using SVG tag.,hackerone.com/reports/1805873,40,2400.0,Cross-site Scripting (XSS) - Generic,2023-01-29
+1805893,Internet Bug Bounty, CVE-2022-23520: Incomplete fix for CVE-2022-32209 (XSS in Rails::Html::Sanitizer under certain configurations),hackerone.com/reports/1805893,15,2400.0,Cross-site Scripting (XSS) - Generic,2023-01-04
+1805899,Internet Bug Bounty,CVE-2022-23519: Rails::Html::SafeListSanitizer vulnerable to XSS when certain tags are allowed (math+style || svg+style),hackerone.com/reports/1805899,22,2400.0,Cross-site Scripting (XSS) - Generic,2023-01-04
+1806223,Nextcloud,Reference fetch can saturate the server bandwidth for 10 seconds,hackerone.com/reports/1806223,4,0.0,Uncontrolled Resource Consumption,2023-04-29
+1806275,Nextcloud,Mail app stores cleartext password in database until OAUTH2 setup is done,hackerone.com/reports/1806275,12,0.0,Plaintext Storage of a Password,2023-03-08
+1806387,U.S. Department of State,Accessing unauthorized administration pages and seeing admin password - speakerkit.state.gov,hackerone.com/reports/1806387,44,0.0,Improper Access Control - Generic,2023-03-25
+1806939,LinkedIn,Entire database of emails exposed through URN injection,hackerone.com/reports/1806939,79,0.0,Code Injection,2023-05-22
+1807214,Kubernetes,The `io.kubernetes.client.util.generic.dynamic.Dynamics` contains a code execution vulnerability due to SnakeYAML,hackerone.com/reports/1807214,10,1000.0,Code Injection,2023-04-25
+1808079,Nextcloud,Permissions not respected when copying entire group folders,hackerone.com/reports/1808079,9,0.0,Improper Access Control - Generic,2023-09-09
+1808149,LinkedIn,"Attackers can create unlimited jobs by paying a low price `( Rp. 10,000 )` from the original lowest price of around **Rp 93,151**",hackerone.com/reports/1808149,19,0.0,Insecure Direct Object Reference (IDOR),2023-09-29
+1808596,Node.js,Multiple OpenSSL error handling issues in nodejs crypto library,hackerone.com/reports/1808596,5,0.0,Cryptographic Issues - Generic,2023-02-17
+1808719,LinkedIn,"Attackers can use TRIAL Premium only by paying **IDR 10,000.00** from the original price of `IDR462,400.00` per month",hackerone.com/reports/1808719,84,0.0,Insecure Direct Object Reference (IDOR),2023-08-24
+1809633,LinkedIn,Can VIEW Videos on LinkedIn Learning that Require a Subscription Without having to Subscribe Via `SHARE features`,hackerone.com/reports/1809633,20,0.0,Privilege Escalation,2023-09-25
+1810656,U.S. Department of State,xss and html injection on ( https://labs.history.state.gov),hackerone.com/reports/1810656,23,0.0,Improper Neutralization of Script-Related HTML Tags in a Web Page (Basic XSS),2023-02-20
+1812705,Cloudflare Public Bug Bounty,Bypassing creation of  API tokens without email verification,hackerone.com/reports/1812705,19,0.0,Improper Authentication - Generic,2023-03-27
+1812732,Nintendo,[MK8DX] Improper metadata validation 2,hackerone.com/reports/1812732,16,0.0,Array Index Underflow,2023-08-17
+1812768,Reddit,CVE-2020-11022,hackerone.com/reports/1812768,3,0.0,Cross-site Scripting (XSS) - Reflected,2023-05-18
+1813450,LinkedIn,Attackers do not need to Pay for a Subscription to get the `Discussion Group URL` in `Paid Learning`,hackerone.com/reports/1813450,44,0.0,Insecure Direct Object Reference (IDOR),2023-05-12
+1813453,Nintendo,[MK8DX] Improper ranking/replay file parsing,hackerone.com/reports/1813453,36,0.0,Memory Corruption - Generic,2025-07-06
+1813831,Internet Bug Bounty,CVE-2022-43551: Another HSTS bypass via IDN,hackerone.com/reports/1813831,10,0.0,Cleartext Transmission of Sensitive Information,2023-02-03
+1813864,curl,CVE-2023-23914: curl HSTS ignored on multiple requests,hackerone.com/reports/1813864,6,0.0,Cleartext Transmission of Sensitive Information,2023-02-15
+1814333,curl,CVE-2023-23915: HSTS amnesia with --parallel,hackerone.com/reports/1814333,7,0.0,Cleartext Transmission of Sensitive Information,2023-02-15
+1814335,U.S. Dept Of Defense,reflected xss in www.████████.gov,hackerone.com/reports/1814335,16,0.0,Cross-site Scripting (XSS) - Reflected,2023-01-27
+1814824,curl,curl file writing susceptible to symlink attacks,hackerone.com/reports/1814824,7,0.0,Business Logic Errors,2023-01-07
+1815355,Gener8,Twitter Broken Link in https://gener8ads.com (Hackerone Profile),hackerone.com/reports/1815355,7,0.0,,2023-04-13
+1815463,Reddit,oauth misconfigration lead to account takeover,hackerone.com/reports/1815463,11,0.0,Incorrect Authorization,2023-05-18
+1816181,Reddit,Reflected XSS via File Upload,hackerone.com/reports/1816181,4,0.0,Cross-site Scripting (XSS) - Reflected,2023-05-18
+1816900,Semrush,IDOR allows information disclosure,hackerone.com/reports/1816900,73,0.0,Insecure Direct Object Reference (IDOR),2024-03-05
+1817214,Sorare,Mystery with a leaked token and Reusability of email confirmation link leading to Account Takeover,hackerone.com/reports/1817214,49,300.0,Inadequate Encryption Strength,2023-02-03
+1818163,Equifax-vdp,reflected XSS in [www.equifax.com],hackerone.com/reports/1818163,46,0.0,Cross-site Scripting (XSS) - Reflected,2023-04-23
+1818172,Equifax-vdp,reflected XSS in [www.equifax.com],hackerone.com/reports/1818172,19,0.0,Cross-site Scripting (XSS) - Reflected,2023-04-23
+1818628,U.S. Department of State,RXSS on https://travel.state.gov/content/travel/en/search.html,hackerone.com/reports/1818628,29,0.0,Cross-site Scripting (XSS) - Reflected,2023-03-08
+1818969,LinkedIn,[ Continuation Report from #1814842 ] Can create articles using other users' NewsLetters,hackerone.com/reports/1818969,23,0.0,Insecure Direct Object Reference (IDOR),2023-05-15
+1819329,Brave Software,Brave Shield for iOS is weak against IDN homograph attacks,hackerone.com/reports/1819329,9,0.0,Phishing,2023-06-22
+1819652,Brave Software,UI spoofing by showing sms:/tel: dialog on another website,hackerone.com/reports/1819652,3,0.0,Phishing,2023-06-22
+1819668,Brave Software,Brave News feeds can open arbitrary chrome: URLs,hackerone.com/reports/1819668,12,0.0,Privilege Escalation,2023-06-22
+1819832,Snapchat,Delete anyone's content spotlight remotely.,hackerone.com/reports/1819832,794,15000.0,Insecure Direct Object Reference (IDOR),2023-03-06
+1820492,ExpressionEngine,PHP Object injection -> Building Custom Gadget chain -> RCE ,hackerone.com/reports/1820492,11,0.0,Command Injection - Generic,2023-03-28
+1820864,Nextcloud,No password length restriction in reset password endpoint,hackerone.com/reports/1820864,12,0.0,Uncontrolled Resource Consumption,2023-02-09
+1820953,Shopify,Non-store owners can transfer Shopify-managed domain to another domain provider,hackerone.com/reports/1820953,58,0.0,Improper Access Control - Generic,2024-01-17
+1820955,Node.js,CRLF Injection in Nodejs ‘undici’ via host,hackerone.com/reports/1820955,11,0.0,CRLF Injection,2023-02-22
+1822160,U.S. Dept Of Defense,[U.S. Air Force] Information disclosure due unauthenticated access to APIs and system browser functions,hackerone.com/reports/1822160,14,0.0,Violation of Secure Design Principles,2023-01-27
+1822665,U.S. Department of State,"Impact of Using the PHP Function ""phpinfo()"" on System Security - PHP info page disclosure",hackerone.com/reports/1822665,13,0.0,Information Disclosure,2023-05-18
+1823216,Stripe,XSS vulnerability without a content security bypass in a `CUSTOM` App through Button tag,hackerone.com/reports/1823216,45,2000.0,Cross-site Scripting (XSS) - Generic,2023-05-01
+1824342,HackerOne,Users querying dim_hacker_reports table through Analytics API can determine data from dim_reports table using WHERE or HAVING query,hackerone.com/reports/1824342,21,0.0,Information Disclosure,2023-02-22
+1824865,Yelp,Direct access to tox.ini file which is contain configuration details,hackerone.com/reports/1824865,15,0.0,Insecure Storage of Sensitive Information,2023-03-02
+1825227,Cloudflare Public Bug Bounty,Session mismatch leading to potential account takeover (local access required),hackerone.com/reports/1825227,16,0.0,Insecure Direct Object Reference (IDOR),2023-04-10
+1825377,curl, libssh backend CURLOPT_SSH_HOST_PUBLIC_KEY_SHA256 validation bypass,hackerone.com/reports/1825377,4,0.0,Business Logic Errors,2023-01-07
+1825472,8x8,speedtest.8x8.com: Enabled Directory Listing ,hackerone.com/reports/1825472,15,0.0,Information Exposure Through Directory Listing,2023-03-28
+1825679,Nextcloud,App pin of the Android app can be bypassed via 3rdparty apps generating deep links,hackerone.com/reports/1825679,18,0.0,Improper Authentication - Generic,2023-05-04
+1825942,U.S. Dept Of Defense,XSS on ( █████████.gov ) Via URL path,hackerone.com/reports/1825942,13,0.0,Cross-site Scripting (XSS) - Reflected,2023-01-27
+1826048,curl,CVE-2023-23916: HTTP multi-header compression denial of service,hackerone.com/reports/1826048,16,0.0,Allocation of Resources Without Limits or Throttling,2023-02-20
+1826141,HackerOne,HackerOne Undisclosed Report Leak via PoC of Full Disclosure on Hacktivity,hackerone.com/reports/1826141,77,500.0,Information Disclosure,2023-02-10
+1826392,curl,curl/libcurl vulnerable to TLS truncation attacks,hackerone.com/reports/1826392,8,0.0,Business Logic Errors,2026-06-10
+1826892,8x8,wavecell.com: Broken Link Hijacking / Instagram Takeover @██,hackerone.com/reports/1826892,41,0.0,Externally Controlled Reference to a Resource in Another Sphere,2023-01-27
+1829170,EXNESS,Double forward slash breaks server-side restrictions & allows access to prohibited services from a partner account,hackerone.com/reports/1829170,16,0.0,,2023-02-10
