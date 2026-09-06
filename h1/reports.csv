@@ -10406,3 +10406,48 @@ id,program,title,link,upvotes,bounty,vuln_type,date
 1892888,LinkedIn,Users can access exams in course without having to subscribe to PREMIUM,hackerone.com/reports/1892888,64,0.0,Improper Access Control - Generic,2024-01-10
 1893186,Nextcloud,Reflected XSS vulnerability with full CSP bypass in Nextcloud installations using recommended bundle,hackerone.com/reports/1893186,13,0.0,Cross-site Scripting (XSS) - Reflected,2023-05-15
 1893800,HackerOne,SQL Injection in CVE Discovery Search ,hackerone.com/reports/1893800,86,0.0,SQL Injection,2023-03-06
+1894653,Nextcloud,Missing brute force protection for passwords of password protected share links,hackerone.com/reports/1894653,17,0.0,Improper Restriction of Authentication Attempts,2023-04-25
+1895135,curl,CVE-2023-27536: GSS delegation too eager connection re-use,hackerone.com/reports/1895135,4,0.0,Authentication Bypass by Primary Weakness,2023-03-22
+1895277,Internet Bug Bounty,Apache Airflow Google Cloud Sql Provider Remote Command Execution,hackerone.com/reports/1895277,7,2400.0,Improper Input Validation,2023-04-16
+1895316,Internet Bug Bounty,CVE-2023-25692: Apache Airflow Google Provider: Google Cloud Sql Provider Denial Of Service and Remote Command Execution,hackerone.com/reports/1895316,8,480.0,Improper Input Validation,2023-04-16
+1895783,8x8,Unprotected Atlantis Server at https://132.226.█.█,hackerone.com/reports/1895783,45,0.0,Improper Authentication - Generic,2023-09-15
+1895874,Nextcloud,Responsive Server-side Request Forgery (SSRF),hackerone.com/reports/1895874,14,0.0,Server-Side Request Forgery (SSRF),2023-10-19
+1895976,Nextcloud,Users can set up workflows using restricted and invisible system tags,hackerone.com/reports/1895976,17,0.0,Improper Access Control - Generic,2023-05-17
+1897203,curl,CVE-2023-27537: HSTS double-free,hackerone.com/reports/1897203,12,0.0,Double Free,2023-03-20
+1897443,TikTok,1 Click to 'Close Account and Refund' via POSTMESSAGE,hackerone.com/reports/1897443,81,0.0,Improper Access Control - Generic,2024-01-03
+1898475,curl,CVE-2023-27538: SSH connection too eager reuse still,hackerone.com/reports/1898475,4,0.0,Authentication Bypass by Primary Weakness,2023-03-22
+1901040,GitHub,Authentication bypass on gist.github.com through SSH Certificates,hackerone.com/reports/1901040,182,10000.0,Improper Access Control - Generic,2023-04-20
+1901396,Nextcloud,Dos in Form Submission at https://nextcloud.com/instant-trial/,hackerone.com/reports/1901396,9,0.0,Uncontrolled Resource Consumption,2023-09-26
+1901706,Drugs.com,"Stored Xss On ""https://www.question.com/""",hackerone.com/reports/1901706,75,0.0,Cross-site Scripting (XSS) - Stored,2024-09-20
+1901713,Acronis,IDOR in backup recovery functionality,hackerone.com/reports/1901713,55,0.0,,2024-11-13
+1904097,Internet Bug Bounty,Potential DoS vulnerability in Django in multipart parser,hackerone.com/reports/1904097,47,2400.0,Uncontrolled Resource Consumption,2023-03-20
+1906897,Internet Bug Bounty,UAF in OpenSSL up to 3.0.7,hackerone.com/reports/1906897,12,2400.0,Use After Free,2023-03-18
+1910810,Internet Bug Bounty,Apache HTTP Server: mod_proxy_uwsgi HTTP response splitting (CVE-2023-27522),hackerone.com/reports/1910810,4,0.0,HTTP Response Splitting,2023-03-23
+1911568,Fastly VDP,Unauthenticated cache purging,hackerone.com/reports/1911568,16,0.0,Improper Access Control - Generic,2023-05-01
+1912540,Fastly VDP,CVE-2018-6389 exploitation - using scripts loader,hackerone.com/reports/1912540,8,0.0,Uncontrolled Resource Consumption,2023-04-20
+1912671,U.S. Dept Of Defense,Sensitive Data Exposure via wp-config.php file,hackerone.com/reports/1912671,10,0.0,Information Disclosure,2023-05-15
+1912770,Internet Bug Bounty,CVE-2023-27533: TELNET option IAC injection,hackerone.com/reports/1912770,11,480.0,Business Logic Errors,2023-03-20
+1912777,Internet Bug Bounty,CVE-2023-27534: SFTP path ~ resolving discrepancy,hackerone.com/reports/1912777,10,480.0,Business Logic Errors,2023-03-20
+1912778,Internet Bug Bounty,CVE-2023-27535: FTP too eager connection reuse,hackerone.com/reports/1912778,21,2400.0,Business Logic Errors,2023-03-20
+1912782,Internet Bug Bounty,CVE-2023-27536: GSS delegation too eager connection re-use,hackerone.com/reports/1912782,12,480.0,Business Logic Errors,2023-03-20
+1912783,Internet Bug Bounty,CVE-2023-27538: SSH connection too eager reuse still,hackerone.com/reports/1912783,12,480.0,Business Logic Errors,2023-04-19
+1913095,Nextcloud,Blind SSRF as normal user from mailapp,hackerone.com/reports/1913095,14,0.0,Server-Side Request Forgery (SSRF),2023-05-30
+1913110,Internet Bug Bounty,CVE-2023-27537: HSTS double-free,hackerone.com/reports/1913110,3,0.0,Double Free,2023-03-23
+1913263,Mozilla,HTML Injection at https://stage.firefoxmonitor.nonprod.cloudops.mozgcp.net/user/unsubscribe,hackerone.com/reports/1913263,41,500.0,Cross-Site Scripting (XSS),2023-10-20
+1913309,Mozilla,Race condition leads to add more than 5 email at Data breaches monitor system at https://stage.firefoxmonitor.nonprod.cloudops.mozgcp.net,hackerone.com/reports/1913309,50,0.0,Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),2024-10-18
+1913733,curl,CVE-2023-28319: UAF in SSH sha256 fingerprint check,hackerone.com/reports/1913733,20,0.0,Use After Free,2023-05-24
+1913951,Nextcloud,No rate limit while adding Additional emails feature,hackerone.com/reports/1913951,9,0.0,,2023-05-16
+1914115,Nextcloud,End-to-end encrypted file-drops can be made inaccessible,hackerone.com/reports/1914115,43,400.0,Improper Access Control - Generic,2023-06-22
+1915808,TikTok,Reflected Cross-site Scripting (XSS) at https://www.tiktok.com/,hackerone.com/reports/1915808,123,0.0,Cross-site Scripting (XSS) - Reflected,2023-06-02
+1916285,GitLab,Arbitrary escape sequence injection in docker-machine from worker nodes,hackerone.com/reports/1916285,5,0.0,Command Injection - Generic,2023-06-02
+1916400,Flickr,High resource consumption by insufficient sanitization of forum threads pagination,hackerone.com/reports/1916400,75,479.0,Allocation of Resources Without Limits or Throttling,2025-11-24
+1916565,Nextcloud,Twitter Account hijack @nextcloudfrance,hackerone.com/reports/1916565,15,0.0,,2023-03-30
+1916583,Internet Bug Bounty,Authenticated but unauthorized users may enumerate Application names via the API,hackerone.com/reports/1916583,11,2400.0,Information Exposure Through an Error Message,2023-05-25
+1918362,HackerOne,Any one can view collaborater email address via  path /reports/<id>/participants ,hackerone.com/reports/1918362,78,0.0,Improper Access Control - Generic,2023-06-01
+1918525,Nextcloud,Brute force protection allows to send more requests than intended,hackerone.com/reports/1918525,34,500.0,Improper Restriction of Authentication Attempts,2023-07-13
+1920908,Rockstar Games,Access to the business emails of Rockstar Support agents through the support platform,hackerone.com/reports/1920908,150,550.0,Improper Access Control - Generic,2025-10-02
+1921606,Mars,Stored XSS via ' profile ' at ███,hackerone.com/reports/1921606,16,0.0,Cross-site Scripting (XSS) - Stored,2023-06-23
+1922736,Nutanix,Limited Disclosure: Employee credentials checked in to github (fixed),hackerone.com/reports/1922736,10,0.0,Information Disclosure,2023-08-03
+1923672,GitLab,Account takeover due to insufficient URL validation on RelayState parameter,hackerone.com/reports/1923672,98,2450.0,Cross-Site Request Forgery (CSRF),2023-05-30
+1924212,Nextcloud,Improper restriction of excessive authentication attempts on WebDAV endpoint ,hackerone.com/reports/1924212,23,0.0,Improper Restriction of Authentication Attempts,2023-08-10
+1924355,Nextcloud,Notes attachments render HTML in preview mode,hackerone.com/reports/1924355,8,0.0,Cross-site Scripting (XSS) - Reflected,2023-08-10
