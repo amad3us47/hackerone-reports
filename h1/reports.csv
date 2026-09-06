@@ -10338,3 +10338,71 @@ id,program,title,link,upvotes,bounty,vuln_type,date
 1860905,U.S. Dept Of Defense,Splunk Sensitive Information Disclosure @████████,hackerone.com/reports/1860905,32,0.0,Insecure Storage of Sensitive Information,2023-02-13
 1861487,inDrive,inDriver Job - Admin Approval Bypass,hackerone.com/reports/1861487,157,1000.0,Incorrect Authorization,2023-07-05
 1861569,U.S. Dept Of Defense,DoS at ████████ (CVE-2018-6389),hackerone.com/reports/1861569,8,0.0,Uncontrolled Resource Consumption,2023-02-24
+1861974,pixiv,Stealing Users OAuth authorization code via redirect_uri,hackerone.com/reports/1861974,252,2000.0,Improper Authorization,2023-03-22
+1862677,LinkedIn,Attacker can unpin posts from companies he's not part of.,hackerone.com/reports/1862677,19,0.0,,2023-05-12
+1864188,EXNESS,SSRF in graphQL query (pwapi.ex2b.com),hackerone.com/reports/1864188,260,3000.0,Server-Side Request Forgery (SSRF),2023-07-24
+1865991,Internet Bug Bounty,Open Redirect Vulnerability in Action Pack,hackerone.com/reports/1865991,43,2400.0,Open Redirect,2023-03-26
+1868473,HackerOne,Scope information is leaked when visiting policy scopes tab of any External Program,hackerone.com/reports/1868473,85,0.0,Improper Access Control - Generic,2023-03-10
+1869184,U.S. Department of State,LDAP anonymous access enabled at certrep.pki.state.gov:389,hackerone.com/reports/1869184,16,0.0,Improper Access Control - Generic,2023-05-11
+1869613,HackerOne,Attachment in published HackerOne report exposure private program,hackerone.com/reports/1869613,49,0.0,Information Disclosure,2023-06-07
+1869714,Nextcloud,Blind SSRF in Mail App,hackerone.com/reports/1869714,37,0.0,Server-Side Request Forgery (SSRF),2024-01-10
+1872682,Internet Bug Bounty,Privilege Esacalation at Apache Airflow 2.5.1 ,hackerone.com/reports/1872682,20,2400.0,,2023-05-18
+1873655,U.S. Dept Of Defense,Reflected XSS in ██████,hackerone.com/reports/1873655,10,0.0,Cross-site Scripting (XSS) - Reflected,2023-03-24
+1874155,Bitwarden,"Biometric key is stored in Windows Credential Manager, accessible to other local unprivileged processes",hackerone.com/reports/1874155,19,0.0,Cleartext Storage of Sensitive Information,2023-06-07
+1874260,HackerOne,HTML injection that may lead to XSS on HackerOne.com through H1 Triage Wizard Chrome Extension,hackerone.com/reports/1874260,21,0.0,Cross-site Scripting (XSS) - Stored,2023-02-14
+1874715,Internet Bug Bounty,CVE-2023-23914: HSTS ignored on multiple requests,hackerone.com/reports/1874715,8,480.0,Business Logic Errors,2023-02-24
+1874716,Internet Bug Bounty,CVE-2023-23915: HSTS amnesia with --parallel,hackerone.com/reports/1874716,8,480.0,Business Logic Errors,2023-02-24
+1874836,Malwarebytes,Rails Debug Mode Enabled On ( https://44.208.145.207/testrail/files.md5 ) ,hackerone.com/reports/1874836,39,0.0,,2025-08-15
+1875484,8x8,connect.8x8.com: Blind SSRF via /api/v2/chats/image-check allows for Internal Ports scan,hackerone.com/reports/1875484,65,0.0,Server-Side Request Forgery (SSRF),2023-05-15
+1877185,8x8,connect.8x8.com: Too much resource consumption of the server due to incorrect date range control via /api/v1/reports?dateFrom=,hackerone.com/reports/1877185,12,0.0,Violation of Secure Design Principles,2023-06-26
+1877919,Node.js,The use of __proto__ in process.mainModule.__proto__.require() bypasses the permission system in Node v19.6.1,hackerone.com/reports/1877919,8,0.0,Privilege Escalation,2023-07-20
+1877977,Internet Bug Bounty,CVE-2023-23919: Multiple OpenSSL error handling issues in nodejs crypto library,hackerone.com/reports/1877977,14,1800.0,Cryptographic Issues - Generic,2023-03-29
+1877989,U.S. Dept Of Defense,Client side authentication leads to Auth Bypass,hackerone.com/reports/1877989,26,0.0,Improper Authentication - Generic,2023-03-24
+1878255,Nextcloud,Nextcloud mail does not respect download permissions in shares,hackerone.com/reports/1878255,29,250.0,Improper Access Control - Generic,2024-12-15
+1878381,Nextcloud,CSRF protection on OIDC login is broken,hackerone.com/reports/1878381,77,500.0,Cross-Site Request Forgery (CSRF),2023-04-04
+1878391,Nextcloud,ID4ME does not validate signature or expiration,hackerone.com/reports/1878391,29,750.0,Improper Verification of Cryptographic Signature,2024-07-14
+1878489,Internet Bug Bounty,CRLF Injection in Nodejs ‘undici’ via host,hackerone.com/reports/1878489,10,600.0,CRLF Injection,2023-03-29
+1878584,U.S. Department of State,Time Based SQL Injection,hackerone.com/reports/1878584,64,0.0,SQL Injection,2023-04-20
+1878756,U.S. Dept Of Defense,Email exploitation with web hosting services.,hackerone.com/reports/1878756,10,0.0,Information Disclosure,2023-04-14
+1879548,Mozilla,Missing Function Level Access Control in Mozilla formula containsRegular Expression Denial of Service (CVE-2023-25166),hackerone.com/reports/1879548,7,0.0,Uncontrolled Resource Consumption,2023-09-27
+1879549,Nextcloud,Basic auth header on WebDAV requests is not bruteforce protected,hackerone.com/reports/1879549,53,0.0,Improper Restriction of Authentication Attempts,2023-06-02
+1880607,LY Corporation,Reflected XSS on https://travel.line.me,hackerone.com/reports/1880607,35,100.0,Cross-site Scripting (XSS) - Reflected,2024-01-18
+1880610,Tor,Snowflake server: Leak of TLS packets from other clients,hackerone.com/reports/1880610,30,0.0,Information Disclosure,2023-03-15
+1880896,Mozilla,HTML Injection / Reflected Cross-Site Scripting with CSP on https://accounts.firefox.com/settings,hackerone.com/reports/1880896,18,1000.0,Improper Neutralization of Script-Related HTML Tags in a Web Page (Basic XSS),2023-04-04
+1880929,Mozilla,Email  user account in indexacao waybackurl,hackerone.com/reports/1880929,18,1000.0,Brute Force,2023-04-05
+1882592,U.S. Dept Of Defense,Reflected XSS in ████████████,hackerone.com/reports/1882592,21,0.0,Cross-site Scripting (XSS) - Reflected,2023-04-14
+1882751,U.S. Dept Of Defense,Reflected XSS in ██████████,hackerone.com/reports/1882751,5,0.0,Cross-site Scripting (XSS) - Reflected,2023-03-24
+1882754,U.S. Dept Of Defense,Reflected XSS in ██████████,hackerone.com/reports/1882754,5,0.0,Cross-site Scripting (XSS) - Reflected,2023-03-24
+1883806,Uber,Complete Admin account takeover due to PhpDebugBar turned on in Uber's production server,hackerone.com/reports/1883806,90,0.0,Misconfiguration,2023-08-23
+1884042,Brave Software,UXss on brave browser via scan QR Code,hackerone.com/reports/1884042,68,0.0,Cross-site Scripting (XSS) - Generic,2023-04-11
+1884159,Node.js,node.js process aborts when processing x509 certs with invalid public key information,hackerone.com/reports/1884159,2,0.0,Uncontrolled Resource Consumption,2023-07-20
+1884372,U.S. Dept Of Defense,HAProxy stats panel exposed externally,hackerone.com/reports/1884372,8,0.0,Information Disclosure,2023-03-24
+1886139,Internet Bug Bounty,HTTP multi-header compression denial of service,hackerone.com/reports/1886139,5,0.0,Allocation of Resources Without Limits or Throttling,2023-02-24
+1886143,HackerOne,information disclosure of another company bug on video.,hackerone.com/reports/1886143,47,0.0,Information Disclosure,2023-03-12
+1886954,Rocket.Chat,Unauthenticated full-read SSRF via Twilio integration,hackerone.com/reports/1886954,52,0.0,Server-Side Request Forgery (SSRF),2024-08-04
+1887917,IRCCloud,XSS from Mastodon embeds,hackerone.com/reports/1887917,63,500.0,Cross-site Scripting (XSS) - Generic,2023-10-09
+1887996,U.S. Dept Of Defense,DoS at █████(CVE-2018-6389),hackerone.com/reports/1887996,10,0.0,Uncontrolled Resource Consumption,2023-03-24
+1888351,Expedia Group Bug Bounty,https://www.wotif.com/vc/blog/info.php script is prone to reflected HTML/CSS injection and COOKIE leak,hackerone.com/reports/1888351,22,100.0,Code Injection,2023-05-20
+1888545,Mozilla,IDOR - send a message on behalf of other user ,hackerone.com/reports/1888545,82,0.0,Insecure Direct Object Reference (IDOR),2023-09-20
+1888723,U.S. Dept Of Defense, WordPress application vulnerable to DoS attack via wp-cron.php,hackerone.com/reports/1888723,21,0.0,Uncontrolled Resource Consumption,2023-04-14
+1888758,Internet Bug Bounty,Inadequate Encryption Strength in nodejs-current reads openssl.cnf from /home/iojs/build/... upon startup on MacOS,hackerone.com/reports/1888758,7,2400.0,Cryptographic Issues - Generic,2023-04-09
+1888760,Internet Bug Bounty,HTTP Request Smuggling Due to Incorrect Parsing of Header Fields,hackerone.com/reports/1888760,15,1800.0,HTTP Request Smuggling,2023-04-09
+1888803,Internet Bug Bounty,Use of Cryptographically Weak Pseudo-Random Number Generator in WebCrypto keygen,hackerone.com/reports/1888803,18,4000.0,,2023-04-09
+1888808,U.S. Dept Of Defense,Path traversal leads to reading of local files on ███████ and ████,hackerone.com/reports/1888808,12,0.0,Path Traversal,2023-03-24
+1888915,Mattermost,Reset password link sent over unsecured http protocol,hackerone.com/reports/1888915,438,750.0,Improper Access Control - Generic,2023-05-10
+1889161,Internet Bug Bounty,JWT audience claim is not verified,hackerone.com/reports/1889161,97,0.0,Missing Critical Step in Authentication,2023-04-16
+1889474,Internet Bug Bounty,"Ruby's CGI library has HTTP response splitting (HTTP header injection), leaking confidential information",hackerone.com/reports/1889474,7,0.0,,2023-04-09
+1889477,Internet Bug Bounty,Security Unfavorable Specifications and Implementations in the CGI::Cookie Class,hackerone.com/reports/1889477,4,0.0,,2023-04-09
+1890284,TikTok,Unrestricted File Upload on https://partner.tiktokshop.com/wsos_v2/oec_partner/upload,hackerone.com/reports/1890284,117,0.0,Unrestricted Upload of File with Dangerous Type,2023-04-12
+1890310,TikTok,CSRF in ticket function,hackerone.com/reports/1890310,79,0.0,Cross-Site Request Forgery (CSRF),2024-11-05
+1890719,U.S. Dept Of Defense,Unauthenticated Blind SSRF at https://█████ via xmlrpc.php file,hackerone.com/reports/1890719,28,0.0,Server-Side Request Forgery (SSRF),2023-04-14
+1891474,curl,CVE-2023-27533: Telnet option IAC injection,hackerone.com/reports/1891474,4,0.0,Failure to Sanitize Special Elements into a Different Plane (Special Element Injection),2023-03-22
+1891795,Internet Bug Bounty,RCE vulnerability in apache-airflow-providers-apache-sqoop 3.1.0,hackerone.com/reports/1891795,30,2400.0,Code Injection,2023-03-18
+1891926,Acronis,Reflected XSS in https://www.acronis.com/products/cyber-protect/trial/,hackerone.com/reports/1891926,71,100.0,Cross-site Scripting (XSS) - Reflected,2024-11-20
+1892200,GitLab,Attacker can create malicious child epics linked to a victim's epic in an unrelated group,hackerone.com/reports/1892200,22,1160.0,Insecure Direct Object Reference (IDOR),2023-06-02
+1892317,U.S. Dept Of Defense,XSS Reflected,hackerone.com/reports/1892317,13,0.0,Cross-site Scripting (XSS) - Reflected,2023-09-08
+1892351,curl,CVE-2023-27534: SFTP path ~ resolving discrepancy,hackerone.com/reports/1892351,3,0.0,Path Traversal,2023-03-22
+1892780,curl,CVE-2023-27535: FTP too eager connection reuse,hackerone.com/reports/1892780,4,0.0,Authentication Bypass by Primary Weakness,2023-03-22
+1892888,LinkedIn,Users can access exams in course without having to subscribe to PREMIUM,hackerone.com/reports/1892888,64,0.0,Improper Access Control - Generic,2024-01-10
+1893186,Nextcloud,Reflected XSS vulnerability with full CSP bypass in Nextcloud installations using recommended bundle,hackerone.com/reports/1893186,13,0.0,Cross-site Scripting (XSS) - Reflected,2023-05-15
+1893800,HackerOne,SQL Injection in CVE Discovery Search ,hackerone.com/reports/1893800,86,0.0,SQL Injection,2023-03-06
