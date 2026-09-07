@@ -10532,3 +10532,44 @@ id,program,title,link,upvotes,bounty,vuln_type,date
 1982099,U.S. Dept Of Defense,DOM-XSS,hackerone.com/reports/1982099,9,0.0,Cross-site Scripting (XSS) - DOM,2023-06-02
 1982630,U.S. Dept Of Defense,"CVE-2023-29489 XSS in cpanel at [www.███] - Securado, Oman",hackerone.com/reports/1982630,58,0.0,Cross-site Scripting (XSS) - Reflected,2023-06-09
 1984060,Mozilla,"After the upload of an private file, using transformations, the file becomes public without the possibility of changing it.",hackerone.com/reports/1984060,63,1000.0,Improper Access Control - Generic,2023-10-20
+1987011,Mozilla,[Hubs] - Broken access control in placing objects in hubs room,hackerone.com/reports/1987011,99,0.0,Improper Access Control - Generic,2023-07-20
+1987062,Nextcloud,Password reset endpoint is not brute force protected,hackerone.com/reports/1987062,46,500.0,Improper Restriction of Authentication Attempts,2023-07-21
+1987172,Automattic,Stored XSS on  wordpress.com,hackerone.com/reports/1987172,32,0.0,Cross-site Scripting (XSS) - Stored,2023-05-19
+1987680,Mozilla,Leaking VPN traffic through non-RFC1918 local IP addresses,hackerone.com/reports/1987680,49,0.0,Cleartext Transmission of Sensitive Information,2024-11-08
+1987687,Mozilla,Leakage of traffic in plaintext towards the IP address of VPN server,hackerone.com/reports/1987687,67,0.0,Cleartext Transmission of Sensitive Information,2024-11-08
+1988560,U.S. Dept Of Defense,Reflected xss on https://█████████,hackerone.com/reports/1988560,28,0.0,Cross-site Scripting (XSS) - Reflected,2023-06-02
+1989884,U.S. Dept Of Defense,Docker Registry without authentication leads to docker images download,hackerone.com/reports/1989884,27,0.0,Improper Access Control - Generic,2023-06-23
+1989901,Mozilla,"If rate limit is hit, IP address is leaked to anyone who tries to login",hackerone.com/reports/1989901,23,0.0,Information Disclosure,2023-09-20
+1990338,U.S. Dept Of Defense,Leaks of username and password leads to CVE-2018-18862 exploitation,hackerone.com/reports/1990338,24,0.0,Improper Access Control - Generic,2023-06-02
+1990421,Internet Bug Bounty, CVE-2023-28320 - siglongjmp race condition,hackerone.com/reports/1990421,7,480.0,Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),2023-05-26
+1990443,ownCloud,Federated share permissions can be increased by recipient,hackerone.com/reports/1990443,29,500.0,,2023-06-24
+1991214,U.S. Dept Of Defense,Automatic Admin Access,hackerone.com/reports/1991214,31,0.0,Improper Access Control - Generic,2024-07-19
+1991290,U.S. Dept Of Defense,Endpoint Redirects to Admin Page and Provides Admin role,hackerone.com/reports/1991290,28,0.0,Improper Access Control - Generic,2024-07-19
+1991376,inDrive,the domain is truck-admin.eu-east-1.indriverapp.com and Enter the management system of the blasting mobile phone verification code,hackerone.com/reports/1991376,57,0.0,Business Logic Errors,2023-09-11
+1991427,Internet Bug Bounty,CVE-2023-28321: IDN wildcard match,hackerone.com/reports/1991427,4,0.0,Improper Certificate Validation,2023-06-25
+1991428,Internet Bug Bounty,CVE-2023-28322: more POST-after-PUT confusion,hackerone.com/reports/1991428,10,0.0,,2023-06-25
+1992261,Mozilla,Flickr API key leaked in GitHub commit,hackerone.com/reports/1992261,24,0.0,Information Disclosure,2023-10-26
+1994227,IBM,response manipulation leads to bypass in register at employee website than 0 click account takeover,hackerone.com/reports/1994227,32,0.0,Improper Authentication - Generic,2023-06-21
+1994324,Nextcloud,OAuth2 client_secret stored in plain text in the database,hackerone.com/reports/1994324,31,100.0,Cleartext Storage in a File or on Disk,2023-11-15
+1994328,Nextcloud,App stores client secret unencrypted in database,hackerone.com/reports/1994328,3,0.0,Missing Encryption of Sensitive Data,2023-08-23
+1994585,curl,Cache purge requests are not authenticated,hackerone.com/reports/1994585,9,0.0,Business Logic Errors,2023-05-20
+1995595,Mozilla,Response Manipulation to enable Account recovery key with out current password,hackerone.com/reports/1995595,10,0.0,Improper Access Control - Generic,2023-09-11
+1997029,Nextcloud,Path traversal allows tricking the Talk Android app into writing files into it's root directory ,hackerone.com/reports/1997029,42,0.0,Path Traversal,2023-08-14
+1997312,Internet Bug Bounty,CVE-2023-28319: UAF in SSH sha256 fingerprint check,hackerone.com/reports/1997312,2,0.0,Use After Free,2023-06-25
+1998179,Python Cryptographic Authority,Error Page Content Spoofing or Text Injection,hackerone.com/reports/1998179,16,0.0,,2023-07-03
+2000000,HackerOne,2M Reports on HackerOne Celebration! - Ability to bulk-submit many reports.,hackerone.com/reports/2000000,54,0.0,Misconfiguration,2023-07-11
+2001873,Node.js,HTTP Request Smuggling via Empty headers separated by CR,hackerone.com/reports/2001873,7,0.0,HTTP Request Smuggling,2023-06-20
+2001913,HackerOne,Create miscellaneous support ticket on anyone's account through support@hackerone.com email,hackerone.com/reports/2001913,31,0.0,Misconfiguration,2023-08-11
+2002352,TikTok,CSRF in seller-us.tiktok.com/profile/account-setting/delegation-login ,hackerone.com/reports/2002352,41,0.0,Cross-Site Request Forgery (CSRF),2023-07-26
+2007093,TikTok,Dom XSS and open redirect in TikTok seller endpoint,hackerone.com/reports/2007093,77,1000.0,Cross-site Scripting (XSS) - DOM,2023-08-07
+2010530,Yelp,"yelp.com XSS ATO (via login keylogger, link Google account)",hackerone.com/reports/2010530,323,0.0,Cross-site Scripting (XSS) - Generic,2023-08-15
+2011298,Stripe,"The `stripe/veneur` GitHub repository links to a domain `veneur.org`, which is not under stripe's control",hackerone.com/reports/2011298,26,0.0,Misconfiguration,2023-07-03
+2011431,HackerOne,Asset Inventory Internal Descriptions are leaked in CSV export,hackerone.com/reports/2011431,76,0.0,Business Logic Errors,2023-07-12
+2012121,Internet Bug Bounty,[CVE-2022-44570] Possible Denial of Service Vulnerability in Rack’s Range header parsing,hackerone.com/reports/2012121,2,480.0,Uncontrolled Resource Consumption,2023-07-27
+2012122,Internet Bug Bounty,[CVE-2022-44571] Possible Denial of Service Vulnerability in Rack Content-Disposition parsing,hackerone.com/reports/2012122,2,480.0,Uncontrolled Resource Consumption,2023-07-27
+2012125,Internet Bug Bounty,[CVE-2022-44572] Possible Denial of Service Vulnerability in Rack’s RFC2183 boundary parsing,hackerone.com/reports/2012125,2,480.0,Uncontrolled Resource Consumption,2023-07-27
+2012131,Internet Bug Bounty,[CVE-2023-22796] Possible ReDoS based DoS vulnerability in Active Support’s underscore,hackerone.com/reports/2012131,2,480.0,Uncontrolled Resource Consumption,2023-07-27
+2012135,Internet Bug Bounty,[CVE-2023-22799] Possible ReDoS based DoS vulnerability in GlobalID,hackerone.com/reports/2012135,4,480.0,Uncontrolled Resource Consumption,2023-07-27
+2012519,TikTok,CRLF to XSS & Open Redirection,hackerone.com/reports/2012519,97,0.0,Cross-site Scripting (XSS) - Reflected,2023-08-16
+2012636,Automattic,Stored XSS on wordpress.com,hackerone.com/reports/2012636,60,0.0,Cross-site Scripting (XSS) - Stored,2023-06-26
+2012659,Basecamp,Spam & Clearance checks disabled with existing referenced Message-ID,hackerone.com/reports/2012659,123,250.0,Improper Access Control - Generic,2026-01-21
