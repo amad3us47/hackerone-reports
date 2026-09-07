@@ -10495,3 +10495,40 @@ id,program,title,link,upvotes,bounty,vuln_type,date
 1954937,Internet Bug Bounty,Possible DoS Vulnerability in Multipart MIME parsing in rack,hackerone.com/reports/1954937,3,480.0,Uncontrolled Resource Consumption,2023-04-27
 1955370,Ruby on Rails,Incorrect handling of certain characters passed to the redirection functionality in Rails can lead to a single-click XSS vulnerability.,hackerone.com/reports/1955370,15,0.0,Cross-site Scripting (XSS) - Reflected,2023-07-28
 1955485,MercadoLibre,Stored Cross-Site Scripting in mercadopago.com.ar,hackerone.com/reports/1955485,107,0.0,Cross-site Scripting (XSS) - Stored,2025-03-13
+1957430,8x8,Credential leak on GitHub: https://github.com/█/█/ (Peoplesoft CRM),hackerone.com/reports/1957430,47,0.0,Use of Hard-coded Credentials,2023-04-27
+1959219,HackerOne,Banned user still able to invited to reports as a collabrator and reset the password,hackerone.com/reports/1959219,107,0.0,Improper Access Control - Generic,2023-07-06
+1959540,Mars,' Full Account Takeover ' at █████,hackerone.com/reports/1959540,19,0.0,Improper Access Control - Generic,2023-06-23
+1960107,inDrive,Rider can forcefully get passenger's order accepted resulting in multiple impacts including PII reveal  and more mentioned in the report.,hackerone.com/reports/1960107,73,0.0,Improper Access Control - Generic,2023-06-28
+1960765,Reddit,Blind SSRF to internal services in matrix preview_link API,hackerone.com/reports/1960765,343,6000.0,Server-Side Request Forgery (SSRF),2023-04-26
+1960870,Node.js,Permissions policies can be bypassed via Module._load.,hackerone.com/reports/1960870,8,0.0,Privilege Escalation,2023-08-16
+1961163,LinkedIn,CSRF that makes any user send invitations to the attacker by simply clicking on a link.,hackerone.com/reports/1961163,41,0.0,Cross-Site Request Forgery (CSRF),2023-12-06
+1961655,Node.js,Renaming/aliasing relative symbolic links potentially redirects them to supposedly inaccessible locations,hackerone.com/reports/1961655,5,0.0,Privilege Escalation,2023-08-15
+1962645,Reddit,[accounts.reddit.com] Redirect parameter allows for XSS,hackerone.com/reports/1962645,394,5000.0,Cross-site Scripting (XSS) - Generic,2023-05-18
+1962701,Node.js,"Process-based permissions can be bypassed with the ""inspector"" module.  ",hackerone.com/reports/1962701,6,0.0,Improper Access Control - Generic,2023-07-20
+1962951,Reddit,Regression on dest parameter sanitization doesn't check scheme/websafe destinations,hackerone.com/reports/1962951,101,500.0,Cross-site Scripting (XSS) - Reflected,2023-06-03
+1963213,Omise,Subdomain takeover http://accessday.opn.ooo/,hackerone.com/reports/1963213,74,50.0,Improper Access Control - Generic,2023-06-11
+1964211,LinkedIn,CSRF that makes any linkedin user follow attacker controlled accounts by simply clicking https://www.linkedin.com/comm/mynetwork/discovery-see-all/*,hackerone.com/reports/1964211,53,0.0,Cross-Site Request Forgery (CSRF),2023-12-06
+1965156,Nextcloud,Text does not respect 'Allow download' permissions,hackerone.com/reports/1965156,12,250.0,Improper Access Control - Generic,2023-08-23
+1965640,Mars,████ ' can add animal to other account ' at ██████,hackerone.com/reports/1965640,27,0.0,Insecure Direct Object Reference (IDOR),2023-06-22
+1966006,Unikrn,An IDOR that can lead to enumeration of a user and disclosure of email and phone number within cashier,hackerone.com/reports/1966006,232,3000.0,Insecure Direct Object Reference (IDOR),2023-07-17
+1966083,Internet Bug Bounty,CVE-2023-28710 Apache Airflow Spark Provider Arbitrary File Read via JDBC,hackerone.com/reports/1966083,22,2400.0,Improper Input Validation,2023-07-12
+1966262,Reddit,Huge amount of Subdomains Takeovers at Reddit.com,hackerone.com/reports/1966262,8,0.0,Improper Access Control - Generic,2023-05-18
+1966492,Node.js,fs.openAsBlob() bypasses permission system,hackerone.com/reports/1966492,6,0.0,Improper Access Control - Generic,2023-07-20
+1966499,Node.js,fs module's file watching is not restricted by --allow-fs-read,hackerone.com/reports/1966499,5,0.0,Improper Access Control - Generic,2023-07-20
+1967109,Rocket.Chat,Rocket.Chat Desktop client fails to open browser on 3rd party external actions from PDF documents,hackerone.com/reports/1967109,11,0.0,Cleartext Transmission of Sensitive Information,2024-07-11
+1969141,HackerOne,Insecure Direct Object Reference (IDOR) - Delete Campaigns  ,hackerone.com/reports/1969141,346,0.0,Insecure Direct Object Reference (IDOR),2023-05-03
+1969696,inDrive,XSS on terra-6.indriverapp.com,hackerone.com/reports/1969696,43,0.0,Cross-site Scripting (XSS) - Reflected,2024-01-29
+1971589,Weblate,CSRF with logout action,hackerone.com/reports/1971589,29,0.0,Cross-Site Request Forgery (CSRF),2023-06-16
+1971610,Weblate,Logging in without knowing credentials after logged out action,hackerone.com/reports/1971610,10,0.0,,2023-06-16
+1974296,Valve,Steam Deck Single Click Root Remote Code Execution ,hackerone.com/reports/1974296,18,750.0,,2023-08-01
+1976449,Mozilla,DOS via cache poisoning on [developer.mozilla.org],hackerone.com/reports/1976449,55,0.0,Cache Poisoning,2023-06-05
+1977168,Ruby,XSS exploit of RDoc documentation generated by rdoc (CVE-2013-0256),hackerone.com/reports/1977168,16,0.0,Cross-site Scripting (XSS) - Stored,2023-07-18
+1977222,Nextcloud,"Open redirect on ""Unsupported browser"" warning",hackerone.com/reports/1977222,8,150.0,Open Redirect,2023-06-22
+1977252,Brave Software,UAF on JSEthereumProvider,hackerone.com/reports/1977252,38,0.0,Use After Free,2023-10-11
+1977258,Ruby,Stored XSS in RDoc hyperlinks through javascript scheme,hackerone.com/reports/1977258,4,0.0,Cross-site Scripting (XSS) - Stored,2023-07-18
+1978882,Nextcloud,User scoped external storage can be used to gather credentials of other users ,hackerone.com/reports/1978882,23,0.0,Business Logic Errors,2023-06-27
+1979372,Cloudflare Public Bug Bounty,Privilege escalation to root in Pages build image v2,hackerone.com/reports/1979372,10,350.0,Privilege Escalation,2023-05-26
+1981441,Monero,Dynamic fee algorithm doesn't check for zero fee,hackerone.com/reports/1981441,46,0.0,Uncontrolled Resource Consumption,2025-05-23
+1982099,U.S. Dept Of Defense,DOM-XSS,hackerone.com/reports/1982099,9,0.0,Cross-site Scripting (XSS) - DOM,2023-06-02
+1982630,U.S. Dept Of Defense,"CVE-2023-29489 XSS in cpanel at [www.███] - Securado, Oman",hackerone.com/reports/1982630,58,0.0,Cross-site Scripting (XSS) - Reflected,2023-06-09
+1984060,Mozilla,"After the upload of an private file, using transformations, the file becomes public without the possibility of changing it.",hackerone.com/reports/1984060,63,1000.0,Improper Access Control - Generic,2023-10-20
