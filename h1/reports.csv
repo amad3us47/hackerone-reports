@@ -10573,3 +10573,37 @@ id,program,title,link,upvotes,bounty,vuln_type,date
 2012519,TikTok,CRLF to XSS & Open Redirection,hackerone.com/reports/2012519,97,0.0,Cross-site Scripting (XSS) - Reflected,2023-08-16
 2012636,Automattic,Stored XSS on wordpress.com,hackerone.com/reports/2012636,60,0.0,Cross-site Scripting (XSS) - Stored,2023-06-26
 2012659,Basecamp,Spam & Clearance checks disabled with existing referenced Message-ID,hackerone.com/reports/2012659,123,250.0,Improper Access Control - Generic,2026-01-21
+2014955,inDrive,#1 XSS on watchdocs.indriverapp.com,hackerone.com/reports/2014955,147,0.0,Cross-site Scripting (XSS) - Reflected,2024-04-11
+2015074,inDrive,#2 XSS on watchdocs.indriverapp.com,hackerone.com/reports/2015074,101,0.0,Cross-site Scripting (XSS) - Reflected,2024-04-11
+2015554,Mozilla,Internal Blind Server-Side Request Forgery (SSRF) allows scanning internal ports,hackerone.com/reports/2015554,53,0.0,Server-Side Request Forgery (SSRF),2024-01-12
+2017323,Mozilla,Subdomain takeover on one of the subdomain under mozilla.org,hackerone.com/reports/2017323,31,0.0,Misconfiguration,2023-10-04
+2017600,GitHub,"Git Reference Ambiguity in GitHub - Commit Smuggling, Account Takeover, and Remote Code Execution",hackerone.com/reports/2017600,25,0.0,Resource Injection,2023-11-29
+2018615,Snapchat,HTML injection on newsroom.snap.com/* via search?q=1,hackerone.com/reports/2018615,57,0.0,Code Injection,2023-08-14
+2020429,U.S. Dept Of Defense,Blind Sql Injection https:/████████,hackerone.com/reports/2020429,39,0.0,SQL Injection,2023-06-30
+2021684,Nextcloud,Issuer not verified from obtained token in user_oidc ,hackerone.com/reports/2021684,1,250.0,,2023-08-23
+2028265,inDrive,#3 XSS on watchdocs.indriverapp.com,hackerone.com/reports/2028265,68,0.0,Cross-site Scripting (XSS) - Reflected,2024-04-11
+2028450,Rocket.Chat,IDOR vulnerability leads to Deleting message after leaving/getting banned from group using message ID,hackerone.com/reports/2028450,85,0.0,Insecure Direct Object Reference (IDOR),2024-10-13
+2029753,Mars,CSRF to delete a pet,hackerone.com/reports/2029753,25,0.0,Cross-Site Request Forgery (CSRF),2023-08-30
+2030076,Mozilla,Mozilla FuzzManager API Token Exposed in Git Commit,hackerone.com/reports/2030076,49,0.0,Cleartext Storage of Sensitive Information,2023-11-29
+2031855,"Invision Power Services, Inc.",XSS with Visual Language Editor tags,hackerone.com/reports/2031855,15,0.0,Cross-site Scripting (XSS) - Stored,2023-09-17
+2032716,HackerOne,An attacker can can view any hacker email via  /SaveCollaboratorsMutation operation name ,hackerone.com/reports/2032716,427,12500.0,Information Disclosure,2023-07-04
+2032778,HackerOne,Internal machine learning API endpoint for CWE classification is vulnerable to path traversal,hackerone.com/reports/2032778,32,0.0,Path Traversal,2023-07-05
+2032842,Internet Bug Bounty,HTTP Request Smuggling via Empty headers separated by CR,hackerone.com/reports/2032842,15,1800.0,HTTP Request Smuggling,2023-08-28
+2033005,Frontegg,Bypassing the block of Security Domain Restriction and normally invite blocked domains with special characters “İ”,hackerone.com/reports/2033005,86,0.0,Business Logic Errors,2024-03-20
+2035332,HackerOne,RXSS at image.hackerone.live via the `url` parameter,hackerone.com/reports/2035332,170,500.01,Cross-site Scripting (XSS) - Reflected,2023-08-11
+2037032,Mozilla,Subdomain takeover on one of the subdomain under mozaws.net,hackerone.com/reports/2037032,25,0.0,Improper Resource Shutdown or Release,2024-02-11
+2037234,Mars,"Stored XSS + CSRF in ""apellido"" value",hackerone.com/reports/2037234,13,0.0,Cross-site Scripting (XSS) - Stored,2023-08-30
+2037887,Node.js,fs.mkdtemp() and fs.mkdtempSync() are missing getValidatedPath() checks.,hackerone.com/reports/2037887,4,0.0,Path Traversal,2023-08-11
+2037902,Automattic,Authentication bypass on JetPack SSO manager - Allows to access the administration panel of wordpress without user interaction,hackerone.com/reports/2037902,41,0.0,,2023-12-28
+2038134,Node.js,"Permission model bypass by specifying a path traversal sequence in a buffer, ",hackerone.com/reports/2038134,4,0.0,Path Traversal,2023-08-11
+2038484,Internet Bug Bounty,DiffieHellman doesn't generate keys after setting a key,hackerone.com/reports/2038484,33,1800.0,Cryptographic Issues - Generic,2023-06-30
+2038943,Acronis,[oem.acronis.com] Reflected Cross Site Scripting ,hackerone.com/reports/2038943,134,100.0,Cross-site Scripting (XSS) - Reflected,2024-12-28
+2039384,MTN Group,Reflected XSS in https://nin.mtn.ng/nin/success?message=lol&nin=<VULNERABLE>,hackerone.com/reports/2039384,70,0.0,Cross-site Scripting (XSS) - Reflected,2024-10-05
+2039447,Automattic,Entering passwords on the Share Login Page can lead to a brute-force attack,hackerone.com/reports/2039447,15,0.0,Improper Restriction of Authentication Attempts,2023-08-27
+2039464,Kubernetes,Code inject via nginx.ingress.kubernetes.io/permanent-redirect annotation,hackerone.com/reports/2039464,40,2500.0,Code Injection,2023-10-25
+2039870,curl,CVE-2023-32001: fopen race condition,hackerone.com/reports/2039870,26,0.0,Time-of-check Time-of-use (TOCTOU) Race Condition,2023-07-25
+2040756,HackerOne,An attacker can submit a Pentest Opportunity and change the status of the opportunity from submitted to in_review or reviewed,hackerone.com/reports/2040756,93,0.0,Improper Access Control - Generic,2024-01-04
+2041007,ownCloud,Cross-Site Request Forgery ,hackerone.com/reports/2041007,111,0.0,Cross-Site Request Forgery (CSRF),2023-11-05
+2043552,Tennessee Valley Authority,Admin.MyTVA.com Customer lookup and internal notes bypass,hackerone.com/reports/2043552,20,0.0,Authentication Bypass Using an Alternate Path or Channel,2023-10-13
+2043807,Node.js,Policy-restricted modules can escalate to higher privileges by impersonating other modules in a policy list using module.constructor.createRequire(),hackerone.com/reports/2043807,2,0.0,Privilege Escalation,2023-08-11
+2043885,Cloudflare Public Bug Bounty,Ability to  bypass Admin override on Cloudflare WARP Android,hackerone.com/reports/2043885,29,0.0,Client-Side Enforcement of Server-Side Security,2023-09-07
