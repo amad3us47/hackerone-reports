@@ -10607,3 +10607,36 @@ id,program,title,link,upvotes,bounty,vuln_type,date
 2043552,Tennessee Valley Authority,Admin.MyTVA.com Customer lookup and internal notes bypass,hackerone.com/reports/2043552,20,0.0,Authentication Bypass Using an Alternate Path or Channel,2023-10-13
 2043807,Node.js,Policy-restricted modules can escalate to higher privileges by impersonating other modules in a policy list using module.constructor.createRequire(),hackerone.com/reports/2043807,2,0.0,Privilege Escalation,2023-08-11
 2043885,Cloudflare Public Bug Bounty,Ability to  bypass Admin override on Cloudflare WARP Android,hackerone.com/reports/2043885,29,0.0,Client-Side Enforcement of Server-Side Security,2023-09-07
+2045549,U.S. Dept Of Defense,CVE-2023-24488 xss on https://██████/,hackerone.com/reports/2045549,6,0.0,Cross-site Scripting (XSS) - Reflected,2023-09-08
+2045722,HackerOne,inviting collaborator using email disclose the hackerone account related to the user,hackerone.com/reports/2045722,80,0.0,Information Disclosure,2024-09-19
+2047168,Nextcloud,Any (non-admin) user from an instance can destroy any (user and/or global) external filesystem,hackerone.com/reports/2047168,12,0.0,Improper Access Control - Generic,2023-08-10
+2048725,Sorare,Circular based introspetion Query leading to single request denial of service and cost consumption and query cost on api.sorare.com/graphql,hackerone.com/reports/2048725,56,0.0,,2024-10-17
+2050059,Nextcloud,Nextcloud All-In-One path disclosure of internal frontend,hackerone.com/reports/2050059,5,0.0,Information Disclosure,2023-09-26
+2051085,inDrive,Stored XSS on promo.indrive.com,hackerone.com/reports/2051085,47,284.0,Cross-site Scripting (XSS) - Stored,2023-08-28
+2051224,Node.js,fs.statfs bypasses Permission Model,hackerone.com/reports/2051224,8,0.0,Improper Access Control - Generic,2023-09-10
+2051257,Node.js,process.binding() can bypass the permission model through path traversal,hackerone.com/reports/2051257,8,0.0,Path Traversal,2023-09-10
+2051931,inDrive,Blind SQL injection on id.indrive.com,hackerone.com/reports/2051931,199,4134.0,Blind SQL Injection,2023-11-24
+2052795,Nextcloud,No Rate Limit On Forgot Password on https://apps.nextcloud.com,hackerone.com/reports/2052795,11,0.0,Improper Authentication - Generic,2023-09-26
+2053051,HackerOne,Hackerone All Private Program Name Leaked to Public Via Collaborator OR Attacker can Easily Dump all Private Program Names through Collaborator ,hackerone.com/reports/2053051,57,0.0,Information Disclosure,2023-08-11
+2053396,Mozilla,Possibility of Deface through translation tool - www.mozilla.com,hackerone.com/reports/2053396,30,0.0,Information Disclosure,2023-10-27
+2054184,U.S. Dept Of Defense,RCE via File Upload  with a Null Byte Truncated File Extension at https://██████/,hackerone.com/reports/2054184,33,0.0,Command Injection - Generic,2023-12-21
+2054222,HackerOne,"Usernames still visible on report export pdf despite ""I want to redact all usernames"" is selected",hackerone.com/reports/2054222,75,500.0,Information Disclosure,2023-08-08
+2054283,Node.js,Improper HTTP header block termination in llhttp,hackerone.com/reports/2054283,122,0.0,HTTP Request Smuggling,2025-06-13
+2055081,Mars,Google dork lead to unsubscribe anyone from all Banfield emails,hackerone.com/reports/2055081,12,0.0,Improper Access Control - Generic,2023-08-30
+2055132,Automattic,reflected xss in https://wordpress.com/start/account/user,hackerone.com/reports/2055132,43,0.0,Cross-site Scripting (XSS) - Reflected,2023-11-15
+2058337,Nextcloud,Inviting excessive long email addresses to a calendar event makes the server unresponsive,hackerone.com/reports/2058337,46,0.0,Uncontrolled Resource Consumption,2023-10-16
+2058556,Nextcloud,Self XSS when sending HTML as a comment in the Deck app,hackerone.com/reports/2058556,20,0.0,Cross-site Scripting (XSS) - Generic,2024-01-18
+2061049,Mars,Html injection,hackerone.com/reports/2061049,11,0.0,Improper Neutralization of Script-Related HTML Tags in a Web Page (Basic XSS),2023-08-30
+2061367,HackerOne,Triager/Team members can edit  hacker's report and hacker is not even notified,hackerone.com/reports/2061367,84,0.0,,2023-08-31
+2061826,IBM,Nginx Alias Traversal -  babel.bluetab.net,hackerone.com/reports/2061826,13,0.0,Path Traversal,2023-08-11
+2061982,U.S. Dept Of Defense,Create account without auth via response manipulation ,hackerone.com/reports/2061982,41,0.0,Business Logic Errors,2026-01-12
+2063636,X / xAI,Twitter Subscriptions Information Disclosure,hackerone.com/reports/2063636,30,0.0,Information Disclosure,2023-09-18
+2064723,Internet Bug Bounty,unsanitized input goes to regex function leads to ReDos that make request hangs,hackerone.com/reports/2064723,5,540.0,Uncontrolled Resource Consumption,2023-08-28
+2065288,Internet Bug Bounty,jdbc apache airflow provider code execution vulnerability,hackerone.com/reports/2065288,7,520.0,Privilege Escalation,2023-08-26
+2065306,Internet Bug Bounty,odbc apache airflow provider code execution vulnerability,hackerone.com/reports/2065306,10,2480.0,Privilege Escalation,2023-08-26
+2067247,Sorare,Operation CreateOrUpdateSo5LineupMutation does not restrict multiple captains,hackerone.com/reports/2067247,23,300.0,Improper Input Validation,2023-08-01
+2067572,Nextcloud,New AppPassword can be generated without password confirmation,hackerone.com/reports/2067572,11,250.0,Improper Access Control - Generic,2023-08-10
+2068004,Internet Bug Bounty,Regular Expression Denial of Service (ReDoS) Vulnerability before 2.6.3,hackerone.com/reports/2068004,4,540.0,Uncontrolled Resource Consumption,2023-09-14
+2068830,HackerOne,HackerOne Support System Doesn't Require Any Authentication May Lead Unauthorized Action,hackerone.com/reports/2068830,21,0.0,Misconfiguration,2023-08-11
+2069593,HackerOne,Draft report exposure via slack alerting system for programs,hackerone.com/reports/2069593,83,0.0,Information Disclosure,2023-10-06
+2070212,Internet Bug Bounty,Apache Airflow path traversal by authenticated user,hackerone.com/reports/2070212,12,540.0,Path Traversal,2023-09-14
