@@ -10640,3 +10640,53 @@ id,program,title,link,upvotes,bounty,vuln_type,date
 2068830,HackerOne,HackerOne Support System Doesn't Require Any Authentication May Lead Unauthorized Action,hackerone.com/reports/2068830,21,0.0,Misconfiguration,2023-08-11
 2069593,HackerOne,Draft report exposure via slack alerting system for programs,hackerone.com/reports/2069593,83,0.0,Information Disclosure,2023-10-06
 2070212,Internet Bug Bounty,Apache Airflow path traversal by authenticated user,hackerone.com/reports/2070212,12,540.0,Path Traversal,2023-09-14
+2070810,Internet Bug Bounty,Potential NULL dereference in libssh's sftp server,hackerone.com/reports/2070810,2,0.0,NULL Pointer Dereference,2023-09-14
+2071554,Internet Bug Bounty,[CVE-2023-27531] Possible Deserialization of Untrusted Data vulnerability in Kredis JSON,hackerone.com/reports/2071554,15,4660.0,Deserialization of Untrusted Data,2023-08-15
+2071556,Internet Bug Bounty,[CVE-2023-27539] Possible Denial of Service Vulnerability in Rack’s header parsing,hackerone.com/reports/2071556,5,2540.0,,2023-08-15
+2071561,Internet Bug Bounty,CVE-2023-36617: ReDoS vulnerability in URI (Ruby),hackerone.com/reports/2071561,4,2540.0,,2023-08-15
+2072306,U.S. Dept Of Defense,Blind Sql Injection in https://████████/,hackerone.com/reports/2072306,9,0.0,SQL Injection,2023-09-08
+2072338,curl,CVE-2023-38039: HTTP header allocation DOS,hackerone.com/reports/2072338,9,0.0,Allocation of Resources Without Limits or Throttling,2023-09-13
+2073717,U.S. Dept Of Defense,SqlInject at ██████,hackerone.com/reports/2073717,12,0.0,SQL Injection,2023-09-08
+2073950,Mars,IDOR in one subdomain of █████████ -> change information of pets without athorization!,hackerone.com/reports/2073950,44,0.0,Insecure Direct Object Reference (IDOR),2024-02-14
+2076019,LinkedIn,HTML injection at Company Name or Product Name and can be shown on Contact Sales form,hackerone.com/reports/2076019,32,0.0,,2023-10-18
+2076786,inDrive,Host Header Injection - internal.qa.delivery.indrive.com,hackerone.com/reports/2076786,66,0.0,,2024-02-12
+2077985,Semrush,Lack of sanitization of the billing address in pdf invoice,hackerone.com/reports/2077985,66,0.0,Server-Side Request Forgery (SSRF),2024-03-06
+2078490,8x8,Stored xss at https://█.8x8.com/api/█/ID,hackerone.com/reports/2078490,108,1337.0,Cross-site Scripting (XSS) - Stored,2023-10-30
+2078527,inDrive,Bypassing Garbage Collection with Uppercase Endpoint,hackerone.com/reports/2078527,41,0.0,,2023-10-04
+2078571,Internet Bug Bounty,[curl] CVE-2023-32001: fopen race condition,hackerone.com/reports/2078571,21,2480.0,Time-of-check Time-of-use (TOCTOU) Race Condition,2023-07-27
+2078581,Internet Bug Bounty,"CVE-2023-30587 Process-based permissions can be bypassed with the ""inspector"" module.",hackerone.com/reports/2078581,27,3495.0,Improper Access Control - Generic,2023-09-30
+2078707,Mozilla,Exposing Django Debug Panel and Sensitive Infrastructure Information at https://dev.fxprivaterelay.nonprod.cloudops.mozgcp.net,hackerone.com/reports/2078707,18,0.0,Improper Access Control - Generic,2023-10-13
+2079103,Node.js,Permission model improperly processes UNC paths,hackerone.com/reports/2079103,35,0.0,Privilege Escalation,2024-07-15
+2079502,HackerOne,Unauthorized Ticket can be created by an Attacker in user's Helpdesk account,hackerone.com/reports/2079502,18,1000.0,,2023-09-08
+2081316,U.S. Dept Of Defense,Blind Sql Injection in https://█████/qsSearch.aspx,hackerone.com/reports/2081316,11,0.0,SQL Injection,2023-09-08
+2081332,U.S. Dept Of Defense,LDAP Anonymous Login enabled in ████,hackerone.com/reports/2081332,10,0.0,Information Disclosure,2023-09-08
+2081744,LinkedIn,Deny Admin from Editing LinkedIn Company Page using Gen Form Visibility via POST /voyager/api/voyagerOrganizationDashCompanies/{id},hackerone.com/reports/2081744,34,0.0,Improper Access Control - Generic,2023-10-19
+2081930,HackerOne,Bypass report submit restriction/ban using the API key,hackerone.com/reports/2081930,90,0.0,Privilege Escalation,2023-10-29
+2082528,U.S. Dept Of Defense,Adobe ColdFusion - Access Control Bypass [CVE-2023-38205] at ██████,hackerone.com/reports/2082528,15,0.0,Improper Access Control - Generic,2023-09-08
+2082680,HackerOne,Register & create a ticket as somebody else on HackerOne Support ,hackerone.com/reports/2082680,56,0.0,Misconfiguration,2023-07-31
+2083270,IBM,IDOR in channel ID leads to customer email disclosure on https://video.ibm.com,hackerone.com/reports/2083270,26,0.0,Information Disclosure,2023-08-11
+2083771,U.S. Dept Of Defense, Remote Code Execution and AWS IAM Credentials Exfiltration in https://████████/,hackerone.com/reports/2083771,114,0.0,Command Injection - Generic,2024-12-18
+2084280,Node.js,WASI sandbox escape via symlink,hackerone.com/reports/2084280,44,0.0,Privilege Escalation,2025-05-24
+2085185,IBM,IDOR in upload videos of a Channel on https://video.ibm.com,hackerone.com/reports/2085185,57,0.0,Insecure Direct Object Reference (IDOR),2023-08-31
+2085260,HackerOne,Takeover of hackerone.engineering via Github,hackerone.com/reports/2085260,135,0.0,Privilege Escalation,2023-07-31
+2086301,Cloudflare Public Bug Bounty,Permanent CASB Integration Takeover due to Improper Access Controls+Confused Deputy Problem,hackerone.com/reports/2086301,11,0.0,Improper Access Control - Generic,2023-09-18
+2088808,Liberapay,Disavowed an email without any authentication,hackerone.com/reports/2088808,24,0.0,Improper Access Control - Generic,2023-07-31
+2089042,Yelp,yelp.com and biz.yelp.com ATO via XSS + Cookie Bridge,hackerone.com/reports/2089042,120,0.0,Cross-site Scripting (XSS) - Generic,2023-09-08
+2089895,Mars,Reflected XSS on formaction parameter,hackerone.com/reports/2089895,25,0.0,Cross-site Scripting (XSS) - Reflected,2024-11-19
+2090435,U.S. Dept Of Defense,Adobe ColdFusion Access Control Bypass - CVE-2023-38205,hackerone.com/reports/2090435,12,0.0,Improper Access Control - Generic,2023-12-21
+2090964,IBM,RXSS in hidden parameter,hackerone.com/reports/2090964,65,0.0,Cross-site Scripting (XSS) - Reflected,2024-04-23
+2091137,Internet Bug Bounty,OpenSSL engines can be used to bypass and/or disable the Node.js permission model,hackerone.com/reports/2091137,9,2540.0,Privilege Escalation,2023-10-07
+2092749,Node.js,Bypass network import restriction via data URL,hackerone.com/reports/2092749,18,0.0,Improper Access Control - Generic,2024-07-08
+2092852,Node.js,Permission model improperly protects against path traversal,hackerone.com/reports/2092852,9,0.0,Path Traversal,2023-10-13
+2094056,Cosmos,RCE and DoS in Cosmovisor,hackerone.com/reports/2094056,28,0.0,Code Injection,2023-10-10
+2094235,Node.js,Integrity checks according to policies can be circumvented,hackerone.com/reports/2094235,6,0.0,Insufficient Verification of Data Authenticity,2023-10-13
+2094346,Cloudflare Public Bug Bounty,Yet Another CASB Integration Takeover of Active Integrations,hackerone.com/reports/2094346,68,0.0,,2023-11-13
+2094473,Nextcloud,Password of talk conversations can be bruteforced,hackerone.com/reports/2094473,27,0.0,Improper Restriction of Authentication Attempts,2023-11-12
+2094785,Internet Bug Bounty, Cargo not respecting umask when extracting crate archives,hackerone.com/reports/2094785,7,4660.0,,2023-08-15
+2095061,8x8,Jitsi: Bridge Message Spoofing due to Improper JSON Handling leads to Prototype Pollution,hackerone.com/reports/2095061,17,0.0,Command Injection - Generic,2024-08-26
+2096271,HackerOne,"Staff and Triage can modify the initial post of a report, including of already disclosed reports",hackerone.com/reports/2096271,50,0.0,Improper Access Control - Generic,2023-08-28
+2097377,GitLab,Information Disclosure - Pvt Gitlab Issue Disclosing Through GitLab Unfiltered YouTube channel.,hackerone.com/reports/2097377,27,0.0,Information Disclosure,2023-09-13
+2097517,WakaTime,Waketime Payment Gateway Vulnerability,hackerone.com/reports/2097517,2,0.0,Missing Encryption of Sensitive Data,2023-08-05
+2101076,HackerOne,HackerOne SAML signup domain enforcement bypass results in unauthorized access to HackerOne PullRequest organization,hackerone.com/reports/2101076,228,0.0,Improper Null Termination,2024-02-04
+2101087,HackerOne,Able to see Bonus amount given to a report  even if the bounty and Bonus is not visible to public or mentioned in {Report-Id}.json,hackerone.com/reports/2101087,104,0.0,Information Disclosure,2023-09-14
+2101165,Nextcloud,user_ldap app logs user passwords in the log file on level debug,hackerone.com/reports/2101165,28,0.0,Cleartext Storage of Sensitive Information,2023-11-21
