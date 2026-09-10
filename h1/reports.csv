@@ -10736,3 +10736,24 @@ id,program,title,link,upvotes,bounty,vuln_type,date
 2131224,LinkedIn,"Attackers can *Upgrade and claim offer* on the Premium Trial Subscription with a total price of *IDR0.00* from the original *IDR7,022,061.82*",hackerone.com/reports/2131224,70,0.0,Business Logic Errors,2024-06-18
 2132183,Mars,IDOR to account takeover on POST to █████████ by changing member_id parameter,hackerone.com/reports/2132183,45,0.0,Insecure Direct Object Reference (IDOR),2024-01-30
 2133308,Liberapay,Password Reset Token Leak Via Referrer,hackerone.com/reports/2133308,42,0.0,Information Disclosure,2023-11-23
+2134671,Mozilla,Subdomain takeover on one of the subdomain under mozaws.net,hackerone.com/reports/2134671,3,0.0,Misconfiguration,2024-02-11
+2134874,HackerOne,Hackers two email disclosed on  submission at hackerone hactivity,hackerone.com/reports/2134874,43,0.0,Information Disclosure,2023-10-18
+2135054,Mozilla,Subdomain takeover on one of the subdomain under mozaws.net,hackerone.com/reports/2135054,15,0.0,Misconfiguration,2023-10-04
+2137154,Mozilla,Mozilla Mastodon Staging Instance Admin API Key Disclosure Through Slack,hackerone.com/reports/2137154,25,1000.0,Insecure Storage of Sensitive Information,2023-09-11
+2138080,Internet Bug Bounty,Context isolation bypass via nested unserializable return value,hackerone.com/reports/2138080,15,2550.0,Privilege Escalation,2023-10-07
+2139047,IBM,Jenkins server access due to weak password,hackerone.com/reports/2139047,39,0.0,Improper Authentication - Generic,2024-02-29
+2139190,HackerOne,IDOR: Authorization Bypass in LockReport Mutation for public reports,hackerone.com/reports/2139190,113,0.0,Improper Access Control - Generic,2023-09-13
+2139260,Snapchat,Intent Leads To Unauthorised Video Call Initiation Leaking Surrounding Informations Of Victim,hackerone.com/reports/2139260,126,0.0,Privacy Violation,2024-04-05
+2140960,X / xAI,Ability to see hidden likes,hackerone.com/reports/2140960,82,0.0,Improper Access Control - Generic,2024-05-10
+2140976,Mozilla,Subdomain takeover on one of the subdomain under mozgcp.net,hackerone.com/reports/2140976,39,0.0,Misconfiguration,2023-11-12
+2142109,Mars,0 Click account takeover via timed requests to ███████forgot-password (single-packet attack),hackerone.com/reports/2142109,58,0.0,Use of a Broken or Risky Cryptographic Algorithm,2024-07-11
+2143408,Mozilla,Subdomain takeover on one of the subdomain under mozgcp.net,hackerone.com/reports/2143408,29,0.0,Misconfiguration,2023-11-12
+2143411,U.S. Dept Of Defense,authentication bypass,hackerone.com/reports/2143411,21,0.0,Improper Authentication - Generic,2023-09-29
+2144868,Internet Bug Bounty,CVE-2023-40611: Apache Airflow Dag Runs Broken Access Control Vulnerability,hackerone.com/reports/2144868,32,0.0,Improper Access Control - Generic,2023-10-27
+2144870,Mars,"**""CSRF Vulnerability in ███████ Website Allows Attackers to Change User Profile Picture at ███████""**",hackerone.com/reports/2144870,26,0.0,,2023-11-15
+2145862,Node.js,fs.lstat bypasses permission model,hackerone.com/reports/2145862,18,0.0,Privilege Escalation,2024-07-09
+2146691,Internet Bug Bounty,[curl] CVE-2023-38039: HTTP header allocation DOS,hackerone.com/reports/2146691,20,2540.0,Allocation of Resources Without Limits or Throttling,2023-09-27
+2147132,Mozilla,"Security bug https://bugzilla.mozilla.org/oauth/authorize - CRLF Header injection via ""redirect_uri"" parameter",hackerone.com/reports/2147132,61,200.0,CRLF Injection,2023-10-28
+2148242,curl,CVE-2023-38546: cookie injection with none file,hackerone.com/reports/2148242,14,0.0,External Control of File Name or Path,2023-10-11
+2149124,Frontegg,PATCH method manipulation allowing the users to escalate their functionalities and edit (upgrade/downgrade) API Keys settings which is not allowed,hackerone.com/reports/2149124,54,0.0,Improper Access Control - Generic,2024-03-20
+2160178,Trellix,default credentials at https://52.42.105.71/,hackerone.com/reports/2160178,77,0.0,Improper Authentication - Generic,2024-02-01
