@@ -10757,3 +10757,34 @@ id,program,title,link,upvotes,bounty,vuln_type,date
 2148242,curl,CVE-2023-38546: cookie injection with none file,hackerone.com/reports/2148242,14,0.0,External Control of File Name or Path,2023-10-11
 2149124,Frontegg,PATCH method manipulation allowing the users to escalate their functionalities and edit (upgrade/downgrade) API Keys settings which is not allowed,hackerone.com/reports/2149124,54,0.0,Improper Access Control - Generic,2024-03-20
 2160178,Trellix,default credentials at https://52.42.105.71/,hackerone.com/reports/2160178,77,0.0,Improper Authentication - Generic,2024-02-01
+2166697,HackerOne,Ability to bulk submit reports via query named based batching,hackerone.com/reports/2166697,37,500.0,Violation of Secure Design Principles,2024-06-19
+2166843,Mars,RXSS on ████ via q parameter,hackerone.com/reports/2166843,38,0.0,Cross-site Scripting (XSS) - Reflected,2024-11-21
+2168002,phpBB,Authenticated path traversal to Stored XSS and Denial-of-Service,hackerone.com/reports/2168002,69,0.0,Cross-site Scripting (XSS) - Stored,2023-10-29
+2170226,Node.js,setuid() does not drop all privileges due to io_uring,hackerone.com/reports/2170226,24,0.0,Privilege Escalation,2024-03-16
+2170559,Cloudflare Public Bug Bounty,Bypass R2 payment screen,hackerone.com/reports/2170559,57,350.0,Improper Restriction of Authentication Attempts,2023-11-10
+2171309,curl,NULL Pointer dereference in idn.c,hackerone.com/reports/2171309,9,0.0,NULL Pointer Dereference,2023-09-20
+2171494,Mozilla,Subdomain takeover on one of the subdomain under mozaws.net,hackerone.com/reports/2171494,10,0.0,Misconfiguration,2023-09-27
+2174818,Cloudflare Public Bug Bounty,YAML schema injection risk in Swagger UI via schema_url parameter at developers.cloudflare.com,hackerone.com/reports/2174818,24,0.0,Resource Injection,2023-11-10
+2177925,PlayStation,Remote vulnerabilities in spp,hackerone.com/reports/2177925,196,12500.0,Classic Buffer Overflow,2024-04-25
+2178061,TikTok,Reflected XSS On [https://www-useast1a.tiktok.com/ug/incentive/share/hd],hackerone.com/reports/2178061,78,0.0,Cross-site Scripting (XSS) - Reflected,2024-01-12
+2178941,U.S. Dept Of Defense,Unauthenticated Jenkins instance exposed information related to █████,hackerone.com/reports/2178941,38,0.0,Improper Authentication - Generic,2024-01-26
+2180018,U.S. Dept Of Defense,Information Disclosure FrontPage Configuration Information,hackerone.com/reports/2180018,23,0.0,Improper Access Control - Generic,2023-10-20
+2180521,HackerOne,Google Docs link in JS files allows editing & reading survey information,hackerone.com/reports/2180521,217,0.0,Information Disclosure,2023-11-04
+2182202,MTN Group,Remote code execution [CVE-2023-36845],hackerone.com/reports/2182202,87,0.0,,2024-10-09
+2184872,Rockstar Games,Exposed CDN access token allows modification of all newly uploaded Snapmatic photos,hackerone.com/reports/2184872,41,0.0,Improper Access Control - Generic,2024-01-26
+2184950,GitHub,"[PATs] Ability to leak comments from issues without ANY ""Issues"" repo permissions by utilizing ""Pull Request"" permissions",hackerone.com/reports/2184950,42,0.0,Improper Access Control - Generic,2024-01-03
+2185545,GitHub,Persistent Unauthorized Administrative Access on All Organization Repositories via RC in User Conversion to Organization,hackerone.com/reports/2185545,51,0.0,Improper Authentication - Generic,2024-03-15
+2187833,curl,CVE-2023-38545: socks5 heap buffer overflow,hackerone.com/reports/2187833,55,0.0,Heap Overflow,2023-10-11
+2188126,Internet Bug Bounty,Permissions policies can be bypassed via Module._load and require.extensions (High) (CVE-2023-30587),hackerone.com/reports/2188126,29,1165.0,Improper Access Control - Generic,2023-11-30
+2188240,U.S. Dept Of Defense,Subdomain Takeover via Host Header Injection on www.█████,hackerone.com/reports/2188240,35,0.0,Violation of Secure Design Principles,2024-06-18
+2189797,Mars,RXSS on stores on *█████████/visitorRegistration.pml via destination parameter,hackerone.com/reports/2189797,40,0.0,Cross-site Scripting (XSS) - Reflected,2025-09-02
+2189960,TikTok,CRLF injection leads to internal XSS on PangleGlobal,hackerone.com/reports/2189960,97,0.0,CRLF Injection,2023-10-31
+2190062,Mars,No CSRF protection when adding an item to cart,hackerone.com/reports/2190062,29,0.0,Cross-Site Request Forgery (CSRF),2024-01-30
+2190117,Tennessee Valley Authority,File listing through scripts folder,hackerone.com/reports/2190117,42,0.0,File and Directory Information Exposure,2024-02-09
+2190380,Mozilla,Subdomain takeover on one of the subdomain under mozgcp.net,hackerone.com/reports/2190380,22,0.0,Misconfiguration,2023-11-12
+2190808,U.S. Dept Of Defense,User automatically logged in as Sys Admin user on https://███/Administration/Administration.aspx,hackerone.com/reports/2190808,87,0.0,Improper Access Control - Generic,2023-11-03
+2190827,GitHub,Bypassing Collaborator Restrictions: Retaining Admin Access Post-Repository Transfer,hackerone.com/reports/2190827,57,0.0,Improper Access Control - Generic,2024-03-15
+2192984,IBM,Unauthenticated Remote Access to Testing Endpoint,hackerone.com/reports/2192984,67,0.0,Improper Access Control - Generic,2023-12-04
+2193815,Mozilla,Mozilla Employee's Token for sql.telemetry.mozilla.org Exposed in Git Commit,hackerone.com/reports/2193815,41,0.0,Cleartext Storage of Sensitive Information,2023-12-18
+2194289,Mozilla,Subdomain takeover on one of the subdomain under mozaws.net,hackerone.com/reports/2194289,12,0.0,Misconfiguration,2023-10-13
+2194928,U.S. Dept Of Defense,Full account takeover of any user through reset password,hackerone.com/reports/2194928,71,0.0,Improper Authentication - Generic,2023-11-17
