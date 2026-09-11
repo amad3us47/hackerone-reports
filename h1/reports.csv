@@ -10860,3 +10860,43 @@ id,program,title,link,upvotes,bounty,vuln_type,date
 2251074,Nextcloud,Improper handling of request URLs in nextcloud/guests allows guest users to bypass app allowlist,hackerone.com/reports/2251074,22,0.0,Improper Handling of URL Encoding (Hex Encoding),2024-01-18
 2251191,TikTok,RXSS via region parameter,hackerone.com/reports/2251191,47,0.0,Cross-site Scripting (XSS) - Reflected,2024-01-09
 2252307,curl,Buffer overflow and affected url:-https://github.com/curl/curl/blob/master/docs/examples/hsts-preload.c,hackerone.com/reports/2252307,21,0.0,Classic Buffer Overflow,2023-11-15
+2254151,Nextcloud,Notes app can be tricked into using a received share created before the user logged in,hackerone.com/reports/2254151,49,0.0,Business Logic Errors,2024-06-19
+2255750,Mozilla,Remote code execution and exfiltration of secret tokens by poisoning the mozilla/fxa CI build cache,hackerone.com/reports/2255750,58,8000.0,Code Injection,2024-01-20
+2255968,Linux Foundation Decentralized Trust,CVE-2023-46132,hackerone.com/reports/2255968,34,0.0,Deserialization of Untrusted Data,2024-01-08
+2256032,Sony,SQL injection at ███████,hackerone.com/reports/2256032,63,0.0,SQL Injection,2024-01-24
+2256167,Internet Bug Bounty,Path traversal through path stored in Uint8Array in Node.js 20,hackerone.com/reports/2256167,44,3495.0,Path Traversal,2024-01-20
+2256548,Mozilla,Exposure of account recovery hint by querying by user email,hackerone.com/reports/2256548,64,250.0,Exposure of Sensitive Information Due to Incompatible Policies,2024-01-11
+2257080,GitLab,Stored-XSS injected in Wiki page via Banzai pipeline,hackerone.com/reports/2257080,71,0.0,Cross-site Scripting (XSS) - Stored,2024-05-28
+2257156,Node.js,Improper handling of wildcards in --allow-fs-read and --allow-fs-write,hackerone.com/reports/2257156,20,0.0,Improper Access Control - Generic,2024-02-15
+2257374,X / xAI,Bypassing x profile verification to receive instant blue checkmark and unlimited profile changes,hackerone.com/reports/2257374,60,250.0,Business Logic Errors,2024-03-26
+2258758,Internet Bug Bounty,CVE-2023-46695: Potential denial of service vulnerability in UsernameField on Windows,hackerone.com/reports/2258758,28,2540.0,Uncontrolled Resource Consumption,2023-11-29
+2258950,Automattic,Timeline API returns private post when target of a push notification,hackerone.com/reports/2258950,38,0.0,Improper Access Control - Generic,2024-10-17
+2259914,Node.js,Multiple permission model bypasses due to improper path traversal sequence sanitization,hackerone.com/reports/2259914,20,0.0,Path Traversal,2024-02-15
+2260337,Node.js,Permissions can be bypassed via arbitrary code execution through abusing libuv signal pipes,hackerone.com/reports/2260337,20,0.0,Privilege Escalation,2024-08-08
+2261577,Mozilla,MozillaVPN: Elevation of Privilege via a Race Condition Vulnerability,hackerone.com/reports/2261577,41,0.0,Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),2025-07-03
+2261600,Mars,CSRF to delete a pet on ██████,hackerone.com/reports/2261600,61,0.0,Cross-Site Request Forgery (CSRF),2024-02-05
+2262365,U.S. Dept Of Defense,Default Admin Username and Password on ███,hackerone.com/reports/2262365,22,0.0,Improper Access Control - Generic,2023-12-21
+2262382,HackerOne,Server Side Request Forgery (SSRF) via Analytics Reports,hackerone.com/reports/2262382,524,25000.0,Server-Side Request Forgery (SSRF),2023-12-08
+2262554,Mars,Critical Unauthenticated Access to Sensitive Employee and Customer Data Including Invoice Details at ████,hackerone.com/reports/2262554,53,0.0,Improper Authentication - Generic,2024-01-30
+2262939,Internet Bug Bounty,Misconfiguration in AWS CloudFront CDN configuration makes rubygems.org serve (and cache) content from a unclaimed S3-bucket,hackerone.com/reports/2262939,38,0.0,Misconfiguration,2023-12-07
+2263044,Nextcloud,Open redirect in user_saml via RelayState parameter,hackerone.com/reports/2263044,21,0.0,Open Redirect,2024-01-18
+2263294,HackerOne,Cloud Computer Hackerone Triager can be Accessible for everyone [h1_analyst_lucas+view@wearehackerone.com] computer,hackerone.com/reports/2263294,91,0.0,Business Logic Errors,2024-05-10
+2264960,EXNESS,Unrestricted Access to Celery Flower Instance,hackerone.com/reports/2264960,97,0.0,,2023-12-14
+2264982,SideFX,Port 587 SMPT Open: Can send any mail remotely from the internal mail users to company mail id's.,hackerone.com/reports/2264982,71,300.0,,2024-02-01
+2265413,Fastly VDP,Open Redirect on ███████,hackerone.com/reports/2265413,74,0.0,Open Redirect,2025-05-02
+2266081,Mars,Blind SQL Injection on █████ via URI Path,hackerone.com/reports/2266081,29,0.0,SQL Injection,2024-02-14
+2269177,Node.js,Node.js is vulnerable to the Marvin Attack (timing variant of the Bleichenbacher attack against PKCS#1 v1.5 padding),hackerone.com/reports/2269177,16,0.0,Use of a Broken or Risky Cryptographic Algorithm,2024-02-15
+2269867,Mozilla,Subdomain takeover on one of the subdomain under mozaws.net,hackerone.com/reports/2269867,79,0.0,Misconfiguration,2024-01-04
+2269989,CS Money,Authentication Bypass to (CVE-2023-2982),hackerone.com/reports/2269989,73,100.0,Authentication Bypass Using an Alternate Path or Channel,2023-12-08
+2270225,Internet Bug Bounty,OpenSSL vulnerable to the Marvin Attack (CVE-2022-4304),hackerone.com/reports/2270225,41,2540.0,Information Exposure Through Timing Discrepancy,2023-12-21
+2270633,Valve,Web API key registration allows registering multiple keys by reusing `request_id` ,hackerone.com/reports/2270633,39,0.0,,2023-12-12
+2271054,Ruby,DoS in bigdecimal's sqrt function due to miscalculation of loop iterations,hackerone.com/reports/2271054,14,0.0,Uncontrolled Resource Consumption,2023-12-20
+2271095,Internet Bug Bounty,ASAR Integrity bypass via filetype confusion,hackerone.com/reports/2271095,49,2540.0,,2024-01-20
+2274981,Internet Bug Bounty,curl cookie mixed case PSL bypass,hackerone.com/reports/2274981,40,2540.0,Information Exposure Through Sent Data,2023-12-22
+2276148,PortSwigger Web Security,"The role ""CI-driven scan initiator"" provides excessive read access",hackerone.com/reports/2276148,28,0.0,Privilege Escalation,2026-01-02
+2278865,HackerOne,Some limited confidential information can still be accessed after a user exits a private program,hackerone.com/reports/2278865,85,50.0,Information Disclosure,2024-01-19
+2279010,PortSwigger Web Security,A user with only [MODIFY_SETTINGS] permmision could takeover any user accounts,hackerone.com/reports/2279010,51,0.0,Improper Access Control - Generic,2024-05-20
+2279041,PortSwigger Web Security,Changing the administrator password via admin console does not invalidate other sessions,hackerone.com/reports/2279041,41,0.0,Improper Authentication - Generic,2024-05-20
+2279346,PortSwigger Web Security,CSP bypass on PortSwigger.net using Google script resources,hackerone.com/reports/2279346,113,0.0,Cross-site Scripting (XSS) - Reflected,2024-02-18
+2279572,Shopify,HTTP Response Header Injection in shopify/pitchfork + Rack 3,hackerone.com/reports/2279572,136,800.0,HTTP Response Splitting,2025-03-27
+2279759,Internet Bug Bounty,curl HSTS long file name clears contents ,hackerone.com/reports/2279759,57,0.0,Missing Encryption of Sensitive Data,2024-01-20
