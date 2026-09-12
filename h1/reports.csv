@@ -10949,3 +10949,39 @@ id,program,title,link,upvotes,bounty,vuln_type,date
 2312334,U.S. Dept Of Defense,Time based SQL injection at████████,hackerone.com/reports/2312334,96,0.0,SQL Injection,2024-01-26
 2312609,U.S. Dept Of Defense,Full Access to sonarQube and Docker,hackerone.com/reports/2312609,21,0.0,Information Disclosure,2024-03-22
 2313478,Mars,CSRF resulting in adding pet at ███████,hackerone.com/reports/2313478,29,0.0,Cross-Site Request Forgery (CSRF),2024-06-25
+2315026,Monero,Transactions in invalid blocks are kept in tx-pool without undergoing certain checks.,hackerone.com/reports/2315026,23,0.0,,2025-04-23
+2315420,Drugs.com,Email OTP/2FA Bypass,hackerone.com/reports/2315420,100,0.0,Improper Authentication - Generic,2024-06-16
+2319584,Node.js,"""Assertion failed"" in node::http2::Http2Session::~Http2Session() leads to HTTP/2 server crash",hackerone.com/reports/2319584,65,0.0,Uncontrolled Resource Consumption,2024-04-08
+2319586,MTN Group,Broken Access Control(Horizontal Privilege Escalation).,hackerone.com/reports/2319586,68,0.0,Improper Access Control - Generic,2025-01-31
+2321874,MTN Group,DOM Based Reflected Cross Site Scripting,hackerone.com/reports/2321874,103,0.0,Cross-site Scripting (XSS) - DOM,2024-12-25
+2322082,HackerOne,Being able to disclose IBB bounty table of any public program,hackerone.com/reports/2322082,72,0.0,Information Disclosure,2024-03-17
+2322663,MTN Group,Insecure direct Object Reference(Horizontal Escalation),hackerone.com/reports/2322663,64,0.0,Insecure Direct Object Reference (IDOR),2025-01-31
+2323292,GitHub,Management Console Editor Privilege Escalation to Root SSH Access in GitHub Enterprise Server via RCE in actions-console,hackerone.com/reports/2323292,47,0.0,Command Injection - Generic,2024-09-17
+2323303,HackerOne,Program admins could add verified domains to an organization,hackerone.com/reports/2323303,82,0.0,Improper Access Control - Generic,2024-03-07
+2325023,GitHub,Management Console Editor Privilege Escalation to Root SSH Access in GitHub Enterprise Server via RCE in ghe-update-check,hackerone.com/reports/2325023,87,0.0,Command Injection - Generic,2024-09-17
+2326194,Internet Bug Bounty,Argo CD CSRF leads to Kubernetes cluster compromise,hackerone.com/reports/2326194,34,4660.0,Cross-Site Request Forgery (CSRF),2024-01-29
+2326618,Nextcloud,Deck app allows to spoof file extensions by using RTLO characters,hackerone.com/reports/2326618,19,100.0,,2026-01-04
+2327238,Enjin,Lack of Tenant Scoping Enables Limited Cross-Tenant Data Querying and Mutation,hackerone.com/reports/2327238,41,0.0,Improper Access Control - Generic,2024-01-25
+2327341,Internet Bug Bounty,CVE-2024-21733 Apache Tomcat HTTP Request Smuggling (Client- Side Desync) (CWE: 444),hackerone.com/reports/2327341,57,4660.0,HTTP Request Smuggling,2024-01-29
+2329466,GitHub,Management Console Editor Privilege Escalation to Root SSH Access in GitHub Enterprise Server via RCE in syslog-ng,hackerone.com/reports/2329466,61,0.0,Command Injection - Generic,2024-09-13
+2329547,GitHub,Management Console Editor Privilege Escalation to Root SSH Access in GitHub Enterprise Server via RCE in collectd,hackerone.com/reports/2329547,47,0.0,Command Injection - Generic,2024-09-17
+2331473,8x8,Open Redirect via Non-Latin Subdomain in vcc-*.8x8.com/AGUI/█.php,hackerone.com/reports/2331473,46,100.0,Open Redirect,2024-03-20
+2332551,GitHub,Management Console Editor Privilege Escalation to Root SSH Access in GitHub Enterprise Server via nomad template injection,hackerone.com/reports/2332551,61,0.0,Command Injection - Generic,2024-09-13
+2332623,GitHub,Management Console Editor Privilege Escalation to Root SSH Access in GitHub Enterprise Server via nomad template injection and audit-forward,hackerone.com/reports/2332623,80,0.0,Command Injection - Generic,2024-09-13
+2332728,Publitas,CORS Misconfiguration on  █████,hackerone.com/reports/2332728,4,0.0,,2024-01-31
+2334401,Internet Bug Bounty,Denial of Service caused by HTTP/2 CONTINUATION Flood,hackerone.com/reports/2334401,42,4860.0,Uncontrolled Resource Consumption,2024-04-22
+2334420,U.S. Dept Of Defense,Improper Authentication (Login without Registration with any user) at ████,hackerone.com/reports/2334420,67,0.0,Improper Authentication - Generic,2024-03-22
+2334446,Publitas,CVE-2018-6389 exploitation - using scripts loader,hackerone.com/reports/2334446,39,0.0,,2024-02-13
+2334455,Ruby on Rails,"Path traversal in AcitveStorage, and lead RCE",hackerone.com/reports/2334455,37,0.0,Path Traversal,2024-10-08
+2334460,Internet Bug Bounty,Pickle deserialization vulnerability in XComs,hackerone.com/reports/2334460,16,0.0,Deserialization of Untrusted Data,2024-01-29
+2336236,GitHub,Privilege Escalation to Root SSH Access via Pre-Receive Hook Environment in GitHub Enterprise Server,hackerone.com/reports/2336236,71,0.0,,2024-09-13
+2337427,ownCloud,Authentication Bypass with usage of PreSignedURL,hackerone.com/reports/2337427,43,2000.0,Improper Access Control - Generic,2024-03-22
+2337938,Sheer,Cleartext Transmission of password via Email,hackerone.com/reports/2337938,84,200.0,Cleartext Transmission of Sensitive Information,2024-04-22
+2338094,Monero,RPC service DOS,hackerone.com/reports/2338094,47,0.0,Uncontrolled Resource Consumption,2025-05-23
+2338285,IBM,XSS Refelected on jazz.net,hackerone.com/reports/2338285,64,0.0,Cross-site Scripting (XSS) - Reflected,2024-02-29
+2339192,LinkedIn,Blocking a company page admin prevents him from delete paid media admin or edit his roles,hackerone.com/reports/2339192,55,0.0,Improper Access Control - Generic,2026-03-05
+2340833,Internet Bug Bounty,Apache Airflow: Bypass permission verification to read code of other dags,hackerone.com/reports/2340833,29,540.0,Improper Access Control - Generic,2024-03-12
+2341038,Mars,Account takeover using reset password link,hackerone.com/reports/2341038,40,0.0,Open Redirect,2024-06-25
+2341063,Internet Bug Bounty,CVE-2024-0853: OCSP verification bypass with TLS session reuse,hackerone.com/reports/2341063,24,0.0,,2024-03-27
+2342461,MTN Group,Improper Access Controls(Admin Path),hackerone.com/reports/2342461,87,0.0,Improper Access Control - Generic,2025-01-31
+2343548,IBM,XSS in IBM InfoCenter,hackerone.com/reports/2343548,39,0.0,Cross-site Scripting (XSS) - DOM,2024-07-17
