@@ -10900,3 +10900,52 @@ id,program,title,link,upvotes,bounty,vuln_type,date
 2279346,PortSwigger Web Security,CSP bypass on PortSwigger.net using Google script resources,hackerone.com/reports/2279346,113,0.0,Cross-site Scripting (XSS) - Reflected,2024-02-18
 2279572,Shopify,HTTP Response Header Injection in shopify/pitchfork + Rack 3,hackerone.com/reports/2279572,136,800.0,HTTP Response Splitting,2025-03-27
 2279759,Internet Bug Bounty,curl HSTS long file name clears contents ,hackerone.com/reports/2279759,57,0.0,Missing Encryption of Sensitive Data,2024-01-20
+2280279,MetaMask,total Failure of password protection while extracting seed phrase! increases attack surface area for scammers,hackerone.com/reports/2280279,131,0.0,Authentication Bypass Using an Alternate Path or Channel,2025-07-31
+2280391,Internet Bug Bounty,Possibility of Request smuggling attack,hackerone.com/reports/2280391,93,4660.0,HTTP Request Smuggling,2023-12-22
+2280863,TikTok,RXSS on TikTok endpoints,hackerone.com/reports/2280863,61,0.0,Cross-site Scripting (XSS) - Reflected,2024-01-09
+2284065,Node.js,Denial of Service by resource exhaustion in fetch() brotli decoding,hackerone.com/reports/2284065,27,0.0,Uncontrolled Resource Consumption,2024-03-16
+2285198,HackerOne,How the Arch Angel stole Live Events,hackerone.com/reports/2285198,98,0.0,,2023-12-15
+2285286,Mozilla,Subdomain takeover on one of the subdomain under mozaws.net,hackerone.com/reports/2285286,37,0.0,Misconfiguration,2024-01-04
+2286745,TikTok,Authentication Bypass on TikTok Seller Signup Process Allows Account Creation Without Phone Verification,hackerone.com/reports/2286745,84,0.0,Improper Access Control - Generic,2024-07-03
+2286764,Liberapay,Avatar URL is exposed in patron export for secret donations,hackerone.com/reports/2286764,48,0.0,Privacy Violation,2023-12-15
+2286867,Mozilla,Subdomain takeover on one of the subdomain under mozaws.net,hackerone.com/reports/2286867,44,0.0,Misconfiguration,2024-01-04
+2287098,Mozilla,Subdomain takeover on one of the subdomain under mozaws.net,hackerone.com/reports/2287098,40,0.0,Misconfiguration,2024-01-04
+2289333,Nextcloud,see card comments after remove shared board,hackerone.com/reports/2289333,18,0.0,Improper Access Control - Generic,2024-06-18
+2289425,Nextcloud,Can reshare read&share only folder with more permissions,hackerone.com/reports/2289425,32,750.0,Improper Access Control - Generic,2024-07-14
+2289836,MercadoLibre,Account Takeover / Arbitrary File read and deletion / Partial code execution (intent redirection),hackerone.com/reports/2289836,65,0.0,Code Injection,2024-06-28
+2290680,Nextcloud,Re-emergence of Security Vulnerability in Nextcloud Version 28 Previously Fixed in 25.0.4,hackerone.com/reports/2290680,24,500.0,Improper Access Control - Generic,2024-07-14
+2291999,LinkedIn,An attacker can submit arbitrary projects to their service accounts and obtain full information on projects of other users.,hackerone.com/reports/2291999,93,0.0,Insecure Direct Object Reference (IDOR),2024-03-12
+2292236,IBM,Improper Authentication on Alertmanager instance,hackerone.com/reports/2292236,36,0.0,Improper Authentication - Generic,2024-02-29
+2293343,GitLab,Account Takeover via Password Reset without user interactions,hackerone.com/reports/2293343,968,35000.0,Improper Access Control - Generic,2025-02-26
+2293731,Internet Bug Bounty,Command Injection using malicious hostname in expanded proxycommand,hackerone.com/reports/2293731,39,540.0,Code Injection,2024-02-28
+2294709,Internet Bug Bounty,CVE-2023-49920: Apache Airflow: Missing CSRF protection on DAG/trigger,hackerone.com/reports/2294709,24,0.0,Cross-Site Request Forgery (CSRF),2024-01-09
+2294930,U.S. Dept Of Defense,"███ leaking PII of tour visitors (names, email addresses, phone numbers) via misconfigured record permissions",hackerone.com/reports/2294930,89,0.0,Cleartext Storage of Sensitive Information,2024-03-22
+2295958,TikTok,Exploitable live argument in onClick Function leads to Data Leakage of Inactive/Suspended Products,hackerone.com/reports/2295958,128,1000.0,Business Logic Errors,2024-07-19
+2297561,U.S. Dept Of Defense,Resource Injection - [████████],hackerone.com/reports/2297561,22,0.0,Resource Injection,2024-03-22
+2298307,curl,Buffer Overflow Vulnerability in WebSocket Handling,hackerone.com/reports/2298307,38,0.0,Heap Overflow,2024-01-02
+2298922,curl,CVE-2024-0853: OCSP verification bypass with TLS session reuse,hackerone.com/reports/2298922,23,0.0,Improper Check for Certificate Revocation,2024-01-31
+2299069,Nextcloud,"xmlrpc.php &wp-cron.php files are enabled, and will used for (DDOS),(DOS) and broutforce users attack.",hackerone.com/reports/2299069,41,0.0,XML External Entities (XXE),2024-02-08
+2299529,TikTok,HTML Injection on TikTok Ads,hackerone.com/reports/2299529,155,0.0,Improper Neutralization of Script-Related HTML Tags in a Web Page (Basic XSS),2024-02-20
+2299571,LinkedIn,Employee-only Area Bypass,hackerone.com/reports/2299571,76,0.0,Improper Access Control - Generic,2024-02-19
+2299692,Internet Bug Bounty,"Request Smuggling in Apache Tomcat (Important, CVE-2023-45648)",hackerone.com/reports/2299692,51,4660.0,HTTP Request Smuggling,2024-02-07
+2300358,inDrive,SSRF in https://couriers.indrive.com/api/file-storage,hackerone.com/reports/2300358,141,0.0,Server-Side Request Forgery (SSRF),2024-01-16
+2301565,HackerOne,Server Side Request Forgery (SSRF) in webhook functionality,hackerone.com/reports/2301565,137,2500.0,Server-Side Request Forgery (SSRF),2024-01-30
+2303609,Ruby on Rails,"XSS when using `translate` in Action Controller (Rails 7.0, 7.1)",hackerone.com/reports/2303609,50,0.0,Cross-site Scripting (XSS) - Generic,2024-10-01
+2305880,Nextcloud,Email not verified when changing afterwards on apps.nextcloud.com,hackerone.com/reports/2305880,42,0.0,Violation of Secure Design Principles,2025-09-29
+2306491,TikTok,Stored-XSS-ads.tiktok.com,hackerone.com/reports/2306491,310,0.0,Cross-site Scripting (XSS) - Stored,2024-10-02
+2307225,Node.js,Path traversal by drive name in Windows environment,hackerone.com/reports/2307225,59,0.0,Path Traversal,2025-01-27
+2307625,Nextcloud,Code injection in Nextcloud Desktop Client for macOS,hackerone.com/reports/2307625,37,250.0,Code Injection,2024-06-14
+2307813,Ruby on Rails,"DoS with crafted ""Range"" header",hackerone.com/reports/2307813,24,0.0,,2024-06-25
+2307913,Mars,RXSS in ███ via S parameter  ,hackerone.com/reports/2307913,38,0.0,Cross-site Scripting (XSS) - Reflected,2024-11-19
+2307933,Mars,Datadog api keys exposed can be used to do all the read and write access to the instance,hackerone.com/reports/2307933,47,0.0,Information Disclosure,2024-01-25
+2308491,IBM,XSS in Aspera documentation website,hackerone.com/reports/2308491,52,0.0,Cross-site Scripting (XSS) - DOM,2024-05-06
+2308654,Mars,Sensitive Information Exposed at █████,hackerone.com/reports/2308654,33,0.0,Information Disclosure,2024-01-30
+2309291,MTN Group,CVE-2023-41763 Business Elevation of Privilege vulnerability on [.mtn.com],hackerone.com/reports/2309291,46,0.0,Command Injection - Generic,2025-02-22
+2310620,HackerOne,New Hacktivity features:Bounty rewards leakage Where programs doesn’t decide to disclose bounty in limited disclosure report,hackerone.com/reports/2310620,97,0.0,Information Disclosure,2024-03-28
+2311179,Nextcloud,Directory Listing of publicly available assets,hackerone.com/reports/2311179,70,0.0,Information Exposure Through Directory Listing,2025-09-29
+2312029,HackerOne,View Titles of Private Reports with pending email invitation,hackerone.com/reports/2312029,255,0.0,Improper Access Control - Generic,2024-01-16
+2312217,Enjin,Revocation API Token by Bypassing The XSRF Token,hackerone.com/reports/2312217,59,0.0,Cross-Site Request Forgery (CSRF),2024-01-19
+2312320,Enjin,Weak Email Verification: Newly Registered Users Can Bypass Email Verification Step and Log In,hackerone.com/reports/2312320,48,0.0,Improper Authentication - Generic,2024-01-19
+2312334,U.S. Dept Of Defense,Time based SQL injection at████████,hackerone.com/reports/2312334,96,0.0,SQL Injection,2024-01-26
+2312609,U.S. Dept Of Defense,Full Access to sonarQube and Docker,hackerone.com/reports/2312609,21,0.0,Information Disclosure,2024-03-22
+2313478,Mars,CSRF resulting in adding pet at ███████,hackerone.com/reports/2313478,29,0.0,Cross-Site Request Forgery (CSRF),2024-06-25
