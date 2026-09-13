@@ -11006,3 +11006,43 @@ id,program,title,link,upvotes,bounty,vuln_type,date
 2372332,ExpressionEngine,Multiple XSS and open HTTP redirection,hackerone.com/reports/2372332,29,0.0,Cross-site Scripting (XSS) - Stored,2024-07-16
 2372363,HackerOne,LLM01: Invisible Prompt Injection,hackerone.com/reports/2372363,158,0.0,LLM01: Prompt Injection,2024-05-13
 2374730,Bykea,Broken Access Control (IDOR) in Booking Detail and Bids Could Leads to Sensitive Information Disclosure,hackerone.com/reports/2374730,106,0.0,Insecure Direct Object Reference (IDOR),2025-06-13
+2375446,Internet Bug Bounty,http: Reading unprocessed HTTP request with unbounded chunk extension allows DoS attacks,hackerone.com/reports/2375446,40,3495.0,Uncontrolled Resource Consumption,2024-03-05
+2375659,MTN Group,CVE-2010-1429 JBoss Insecure Storage of Sensitive Information on ips.mtn.co.ug,hackerone.com/reports/2375659,42,0.0,Insecure Storage of Sensitive Information,2024-08-30
+2375666,MTN Group,CVE-2018-0296 Cisco ASA Denial of Service & Path Traversal vulnerable on [mtn.co.ug],hackerone.com/reports/2375666,61,0.0,Path Traversal: '.../...//',2024-08-30
+2376900,Nextcloud,Attachments folder for Text app is accessible on Files Drop/Password protected shares,hackerone.com/reports/2376900,29,0.0,Information Disclosure,2024-11-15
+2376909,Nextcloud,Possible to enumerate valid files in password protected shares/files drop shares as well as spam folder with files,hackerone.com/reports/2376909,29,0.0,Information Disclosure,2025-02-21
+2376929,Nextcloud,ID4me feature of OpenID connect app available even when disabled ,hackerone.com/reports/2376929,66,0.0,Improper Access Control - Generic,2024-05-30
+2377760,Node.js,fetch with integrity option is too lax when algorithm is specified but hash value is in incorrect,hackerone.com/reports/2377760,11,0.0,Violation of Secure Design Principles,2024-05-03
+2380084,Mozilla,paypal client_id And stripe api key indexed on web archive,hackerone.com/reports/2380084,42,0.0,Information Disclosure,2024-10-18
+2380133,Nextcloud,Can download files on Android app without permission,hackerone.com/reports/2380133,46,250.0,Improper Access Control - Generic,2026-01-16
+2381253,HackerOne,Ability to identify actual private from sandboxed programs using link hackerone.com/$handle/terms_acceptance_data.csv,hackerone.com/reports/2381253,110,500.0,Improper Access Control - Generic,2024-06-20
+2381816,Tools for Humanity,"IDOR - Leaking of team data (name, email, ID, member ID) via POST /api/v1/graphql  `FetchMemberships` operation",hackerone.com/reports/2381816,90,500.0,Insecure Direct Object Reference (IDOR),2024-05-09
+2382120,HackerOne,Creation of bounties through Customer API leads to private email disclosure,hackerone.com/reports/2382120,101,0.0,Information Disclosure,2024-03-26
+2382484,Mozilla,IDOR on Delete Email address features,hackerone.com/reports/2382484,83,0.0,Insecure Direct Object Reference (IDOR),2024-03-07
+2383092,GitHub,Source Code and data exfiltration via Github Copilot,hackerone.com/reports/2383092,63,0.0,Code Injection,2024-08-19
+2383486,Mozilla,Insecure S3 Bucket Exposing Git Directory in Mozilla Foundation Infographics Project,hackerone.com/reports/2383486,56,0.0,Improper Access Control - Generic,2024-03-13
+2384833,curl,CVE-2024-2004: Usage of disabled protocol,hackerone.com/reports/2384833,33,0.0,Misinterpretation of Input,2024-03-27
+2387297,Mozilla,Bypass Email Verification on Add Email Monitoring,hackerone.com/reports/2387297,93,0.0,Information Disclosure,2025-01-07
+2387458,PortSwigger Web Security,CSP Bypass and escalation of https://hackerone.com/reports/2279346,hackerone.com/reports/2387458,48,0.0,Business Logic Errors,2024-02-23
+2387600,Mars,CVE-2022-21371:  Oracle WebLogic Server Local File Inclusion,hackerone.com/reports/2387600,30,0.0,,2024-03-04
+2388183,Nextcloud,Easy way to create a new Deck board without permission ,hackerone.com/reports/2388183,56,100.0,Improper Access Control - Generic,2026-01-16
+2389431,Ruby on Rails,Action Text ReDoS (Ruby 3.1  or lower),hackerone.com/reports/2389431,28,0.0,Uncontrolled Resource Consumption,2026-06-09
+2389565,Ruby on Rails,Action Text XSS (Rails 7.1.x),hackerone.com/reports/2389565,33,0.0,Cross-site Scripting (XSS) - Stored,2025-02-04
+2389897,Mars,Reflected xss on ████████ ,hackerone.com/reports/2389897,33,0.0,Cross-site Scripting (XSS) - Reflected,2024-06-25
+2390009,Internet Bug Bounty,Proxy-Authorization header is not cleared in cross-domain redirect in undici,hackerone.com/reports/2390009,30,405.0,Information Disclosure,2024-03-12
+2393021,Mars,Upload profile photo and  Pets addition - IDOR,hackerone.com/reports/2393021,64,0.0,Insecure Direct Object Reference (IDOR),2024-11-21
+2396549,Yelp,Privilege Escalation - A Non Owner User Who Does not Have access to the user management can invite other users to the restaurant page,hackerone.com/reports/2396549,75,0.0,Improper Access Control - Generic,2025-01-29
+2396571,Yelp,Privilege Escalation - A Low Privilege User who does not have access to the user management module can remove the owner of the business account,hackerone.com/reports/2396571,60,0.0,Improper Access Control - Generic,2025-01-28
+2396630,Mars,sensitive  data-creds for database - private key,hackerone.com/reports/2396630,27,0.0,Missing Encryption of Sensitive Data,2024-11-19
+2398335,IBM,jazz.net - publicly accessible .svn repositories,hackerone.com/reports/2398335,43,0.0,LLM06: Sensitive Information Disclosure,2024-08-16
+2398630,Mozilla,Subdomain takeover on one of the subdomains under mozaws.net,hackerone.com/reports/2398630,34,0.0,Misconfiguration,2024-07-25
+2399386,Doppler,"Github app(link) Takeover Listed on ""https://docs.doppler.com/docs/github-actions"" page",hackerone.com/reports/2399386,32,0.0,,2024-03-15
+2401359,Internet Bug Bounty,CVE-2024-25128: Apache Airflow: Authentication Bypass when Legacy OpenID(2.0) is in use as AUTH_TYPE,hackerone.com/reports/2401359,33,0.0,Improper Authentication - Generic,2024-04-28
+2401648,Mozilla,two aws access key and secret key and database username and password exposed ,hackerone.com/reports/2401648,70,0.0,Information Disclosure,2024-10-18
+2402010,Mars,Attacker can add two free bags offered by the site at the same time.,hackerone.com/reports/2402010,62,0.0,Business Logic Errors,2024-06-25
+2402193,Internet Bug Bounty,CVE-2024-27351: Potential regular expression denial-of-service in django.utils.text.Truncator.words(),hackerone.com/reports/2402193,20,0.0,Uncontrolled Resource Consumption,2024-04-28
+2402842,IBM,Information disclosure identified on IBM endpoint. ,hackerone.com/reports/2402842,39,0.0,Information Disclosure,2025-07-08
+2402845,curl,CVE-2024-2398: HTTP/2 push headers memory-leak,hackerone.com/reports/2402845,12,0.0,Uncontrolled Resource Consumption,2024-03-27
+2402853,curl,HTTP/2 PUSH_PROMISE DoS,hackerone.com/reports/2402853,20,0.0,Uncontrolled Resource Consumption,2024-03-27
+2403554,LY Corporation,XSS on LINE CAREERS,hackerone.com/reports/2403554,26,0.0,Cross-site Scripting (XSS) - Reflected,2024-07-10
+2404415,HackerOne,View any user email using the Team's audit log section,hackerone.com/reports/2404415,61,0.0,Information Disclosure,2024-03-26
