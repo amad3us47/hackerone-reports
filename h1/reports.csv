@@ -11046,3 +11046,32 @@ id,program,title,link,upvotes,bounty,vuln_type,date
 2402853,curl,HTTP/2 PUSH_PROMISE DoS,hackerone.com/reports/2402853,20,0.0,Uncontrolled Resource Consumption,2024-03-27
 2403554,LY Corporation,XSS on LINE CAREERS,hackerone.com/reports/2403554,26,0.0,Cross-site Scripting (XSS) - Reflected,2024-07-10
 2404415,HackerOne,View any user email using the Team's audit log section,hackerone.com/reports/2404415,61,0.0,Information Disclosure,2024-03-26
+2408074,Node.js,Proxy-Authorization header not cleared on cross-origin redirect in undici.request,hackerone.com/reports/2408074,9,0.0,Insufficiently Protected Credentials,2024-05-03
+2408480,U.S. Dept Of Defense,CVE-2021-39226 Discovered on endpoint https://██████/api/snapshots,hackerone.com/reports/2408480,24,0.0,Improper Access Control - Generic,2024-06-18
+2410111,Linux Foundation Decentralized Trust,Docker Secret Disclosure via GitHub Actions Cache Poisoning,hackerone.com/reports/2410111,56,0.0,Information Disclosure,2024-04-20
+2410774,curl,CVE-2024-2379: QUIC certificate check bypass with wolfSSL,hackerone.com/reports/2410774,11,0.0,Improper Certificate Validation,2024-03-27
+2412583,Rootstock Labs,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,hackerone.com/reports/2412583,85,0.0,Uncontrolled Resource Consumption,2025-06-13
+2412983,Mozilla,sentry Auth Token exposed publicly in docker hub image ,hackerone.com/reports/2412983,51,0.0,Information Disclosure,2024-10-18
+2414707,U.S. Dept Of Defense,Authentication Bypass on https://███████/,hackerone.com/reports/2414707,58,0.0,Improper Authentication - Generic,2024-07-19
+2416725,curl,CVE-2024-2466: TLS certificate check bypass with mbedTLS,hackerone.com/reports/2416725,17,0.0,Improper Validation of Certificate with Host Mismatch,2024-03-27
+2417516,TikTok,Lynxview JS interfaces Takeover via deeplink traversal,hackerone.com/reports/2417516,103,0.0,Cross-site Scripting (XSS) - DOM,2024-05-24
+2417864,U.S. Dept Of Defense,Reflected XSS on error message on Login Page,hackerone.com/reports/2417864,44,0.0,Cross-site Scripting (XSS) - Reflected,2024-05-03
+2418210,Doppler,"Acquisition on broken link listed on the page ""https://docs.doppler.com/docs/removal-deprecated-packages-scripts in [scheduling a call]",hackerone.com/reports/2418210,47,0.0,Externally Controlled Reference to a Resource in Another Sphere,2024-05-22
+2419227,GoCD,XSS in new.loading.page.html,hackerone.com/reports/2419227,62,0.0,Cross-site Scripting (XSS) - Reflected,2024-03-17
+2419776,Nextcloud,Ability to by-pass second factor ,hackerone.com/reports/2419776,29,1000.0,Improper Authentication - Generic,2024-07-14
+2421796,HackerOne,Possible PII Disclosure via Advanced Vetting Process - ██████,hackerone.com/reports/2421796,82,2500.0,Information Disclosure,2024-05-13
+2424815,PortSwigger Web Security,[portswigger.net] Path Traversal al /cms/audioitems,hackerone.com/reports/2424815,145,0.0,Path Traversal,2024-04-04
+2425873,Monero,[Monero wallet RPC] File precreation to file ownership and credentials leak,hackerone.com/reports/2425873,75,0.0,Improper Access Control - Generic,2024-09-04
+2429894,Internet Bug Bounty,Libuv: Improper Domain Lookup that potentially leads to SSRF attacks,hackerone.com/reports/2429894,74,4860.0,Server-Side Request Forgery (SSRF),2024-03-29
+2430179,HackerOne,Minor security issue with Hackerone Invitations from sandbox program,hackerone.com/reports/2430179,64,0.0,Business Logic Errors,2024-07-22
+2431495,HackerOne,"""package_name"" can be set as desired when submitting a Pentest Opportunity form",hackerone.com/reports/2431495,62,0.0,Improper Access Control - Generic,2024-06-19
+2433634,GoCD,XSS in GOCD Analytics Plugin,hackerone.com/reports/2433634,29,0.0,Cross-site Scripting (XSS) - DOM,2024-03-27
+2433970,U.S. Dept Of Defense,SQL injection on ██████████ via 'where' parameter,hackerone.com/reports/2433970,34,0.0,SQL Injection,2024-05-03
+2434811,Internet Bug Bounty,Path traversal by monkey-patching Buffer internals,hackerone.com/reports/2434811,67,2430.0,Path Traversal,2024-05-29
+2434819,Internet Bug Bounty,Improper handling of wildcards in --allow-fs-read and --allow-fs-write,hackerone.com/reports/2434819,44,1290.0,Improper Access Control - Generic,2024-05-29
+2434904,U.S. Dept Of Defense,Reflected Cross-site Scripting via search query on ██████,hackerone.com/reports/2434904,45,0.0,Cross-site Scripting (XSS) - Reflected,2024-05-03
+2435482,Internet Bug Bounty,CVE-2024-2466: TLS certificate check bypass with mbedTLS (reward request),hackerone.com/reports/2435482,48,2580.0,Improper Certificate Validation,2024-03-29
+2437050,Internet Bug Bounty,CVE-2024-2379: QUIC certificate check bypass with wolfSSL,hackerone.com/reports/2437050,37,560.0,Improper Certificate Validation,2024-03-29
+2437131,Internet Bug Bounty,Usage of disabled protocol in curl,hackerone.com/reports/2437131,30,560.0,Cleartext Transmission of Sensitive Information,2024-03-29
+2438265,Internet Bug Bounty,CVE-2024-27281: RCE vulnerability with .rdoc_options in RDoc,hackerone.com/reports/2438265,87,4860.0,,2024-03-29
+2439734,passhash,Missing policies for password in password_policies.go,hackerone.com/reports/2439734,15,0.0,,2026-03-27
