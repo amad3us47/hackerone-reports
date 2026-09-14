@@ -11106,3 +11106,26 @@ id,program,title,link,upvotes,bounty,vuln_type,date
 2468496,U.S. Dept Of Defense,GlobalProtect - OS Command Injection #█████████,hackerone.com/reports/2468496,14,0.0,OS Command Injection,2026-01-12
 2469706,HackerOne,Session Not Expire / 2FA Bypass,hackerone.com/reports/2469706,28,0.0,Insufficient Session Expiration,2024-07-11
 2469713,GitHub,View private repository NWO of deploy key via internal LFS API,hackerone.com/reports/2469713,69,0.0,Improper Access Control - Generic,2024-07-23
+2471924,U.S. Dept Of Defense,[███] .NET Framework ObjRefs Disclosure (CVE-2024-29059),hackerone.com/reports/2471924,5,0.0,Information Disclosure,2026-01-12
+2471956,Linux Foundation Decentralized Trust,Code exec on Github runner via Pull request name,hackerone.com/reports/2471956,26,0.0,Code Injection,2024-04-28
+2472071,Node.js,fs.fchown/fchmod bypasses permission model,hackerone.com/reports/2472071,20,0.0,Improper Access Control - Generic,2024-07-09
+2472798,Automattic,Authentication & Registration Bypass in Newspack Extended Access,hackerone.com/reports/2472798,51,0.0,Improper Authentication - Generic,2024-05-20
+2473173,pixiv,Internal logs/info leaked via endpoint {https://203.137.128.240/server-status},hackerone.com/reports/2473173,144,0.0,Information Disclosure,2026-01-20
+2473862,LY Corporation,Client-Side Path Traversal on LINE Developers Console,hackerone.com/reports/2473862,60,0.0,Cross-Site Request Forgery (CSRF),2024-09-26
+2476149,HackerOne,Confirmed #2118458: Intentional redirect from www.hackerone.com to domain which is up for sale,hackerone.com/reports/2476149,91,0.0,,2024-05-09
+2479161,U.S. Dept Of Defense,reflected xss [CVE-2020-3580],hackerone.com/reports/2479161,43,0.0,Cross-site Scripting (XSS) - Reflected,2024-05-03
+2479325,Nextcloud,Events information leaked with shared calendars on recurrence exceptions,hackerone.com/reports/2479325,45,100.0,Information Disclosure,2024-06-14
+2479622,HackerOne,2FA Bypass via Leaked Cookies,hackerone.com/reports/2479622,28,0.0,Improper Authentication - Generic,2024-07-11
+2483422,HackerOne,Payload delivery via Social Media urls on H1 profile,hackerone.com/reports/2483422,138,0.0,Remote File Inclusion,2024-07-23
+2483666,HackerOne,[IDOR] Improper Access Control on Embedded Submission Form,hackerone.com/reports/2483666,110,2500.0,Insecure Direct Object Reference (IDOR),2024-06-19
+2484499,Nextcloud,Incomplete sanitization in SVG preview provider,hackerone.com/reports/2484499,34,250.0,Information Disclosure,2024-12-15
+2484635,GitHub,GitHub Apps can access suspended installations via scoped user-to-server tokens,hackerone.com/reports/2484635,88,0.0,Improper Access Control - Generic,2024-07-31
+2486086,HackerOne,Two-factor authentication bypass lead to information disclosure about the program and all hackers participate,hackerone.com/reports/2486086,36,0.0,Information Disclosure,2024-07-11
+2487889,HackerOne,Insecure Direct Object Reference (IDOR) Allows Viewing Private Report Details via /bugs.json Endpoint,hackerone.com/reports/2487889,261,0.0,Insecure Direct Object Reference (IDOR),2024-05-23
+2489843,Rootstock Labs,Crafted smart contract can take 1.5 minutes to execute due to inefficient CODESIZE implementation,hackerone.com/reports/2489843,30,0.0,Uncontrolled Resource Consumption,2025-06-12
+2490953,HackerOne,Able to Create  Testimonials for myself using Sandbox,hackerone.com/reports/2490953,85,0.0,Improper Access Control - Generic,2024-05-22
+2492631,HackerOne,Reset the 2FA of the user which can lead to Account Takeover,hackerone.com/reports/2492631,35,0.0,Improper Access Control - Generic,2024-07-11
+2493548,curl,Incorrect Type Conversion in interpreting IPv4-mapped IPv6 addresses and below `curl` results in indeterminate SSRF vulnerabilities.,hackerone.com/reports/2493548,20,0.0,Type Confusion,2024-05-08
+2495989,MercadoLibre,Sale cancellations from other sellers without restrictions,hackerone.com/reports/2495989,142,0.0,Insecure Direct Object Reference (IDOR),2025-03-06
+2497947,Nextcloud,Invisible Salamanders Attack against end_to_end_encryption in Nextcloud,hackerone.com/reports/2497947,38,0.0,Use of a Broken or Risky Cryptographic Algorithm,2024-12-03
+2498255,IBM,S3 Bucket Takeover on apptio endpoint,hackerone.com/reports/2498255,71,0.0,Improper Access Control - Generic,2024-06-21
