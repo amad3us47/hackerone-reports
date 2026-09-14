@@ -11075,3 +11075,34 @@ id,program,title,link,upvotes,bounty,vuln_type,date
 2437131,Internet Bug Bounty,Usage of disabled protocol in curl,hackerone.com/reports/2437131,30,560.0,Cleartext Transmission of Sensitive Information,2024-03-29
 2438265,Internet Bug Bounty,CVE-2024-27281: RCE vulnerability with .rdoc_options in RDoc,hackerone.com/reports/2438265,87,4860.0,,2024-03-29
 2439734,passhash,Missing policies for password in password_policies.go,hackerone.com/reports/2439734,15,0.0,,2026-03-27
+2441029,passhash,Potential DoS due to PasswordPoliciesNotMet in errors.go,hackerone.com/reports/2441029,19,0.0,,2026-03-27
+2442008,HackerOne,Attachment disclosure via summary report ,hackerone.com/reports/2442008,336,0.0,Insecure Direct Object Reference (IDOR),2024-04-29
+2442229,U.S. Dept Of Defense,Missing Access Control Allows for User Creation and Privilege Escalation ,hackerone.com/reports/2442229,14,0.0,Improper Access Control - Generic,2024-07-19
+2442613,Internet Bug Bounty,CVE-2024-2398: HTTP/2 push headers memory-leak,hackerone.com/reports/2442613,42,0.0,,2024-04-22
+2443228,TikTok,Account Takeover via Authentication Bypass in TikTok Account Recovery,hackerone.com/reports/2443228,171,12000.0,Authentication Bypass Using an Alternate Path or Channel,2024-07-13
+2444032,U.S. Dept Of Defense,Reflected XSS via Moodle on ███ [CVE-2022-35653],hackerone.com/reports/2444032,24,0.0,Cross-site Scripting (XSS) - Reflected,2024-05-03
+2445106,Mars,CSRF in Delete Pet Function,hackerone.com/reports/2445106,31,0.0,Cross-Site Request Forgery (CSRF),2024-11-19
+2446427,Internet Bug Bounty,[CVE-2024-26142] ReDoS vulnerability in Accept header parsing in Action Dispatch ,hackerone.com/reports/2446427,23,0.0,Uncontrolled Resource Consumption,2024-05-22
+2446433,Internet Bug Bounty,[CVE-2024-26146] Header Parsing leads to Possible Denial of Service Vulnerability,hackerone.com/reports/2446433,27,0.0,Uncontrolled Resource Consumption,2024-05-24
+2446437,Internet Bug Bounty,[CVE-2024-25126] Denial of Service Vulnerability in Rack Content-Type Parsing,hackerone.com/reports/2446437,28,0.0,Uncontrolled Resource Consumption,2024-05-22
+2446531,Nextcloud,Weak ssh algorithms and CVE-2023-48795 Discovered on various subdomains of nextcloud.com,hackerone.com/reports/2446531,37,0.0,Use of a Broken or Risky Cryptographic Algorithm,2024-05-22
+2446550,Mars,sqli on █████████ search functionality,hackerone.com/reports/2446550,71,0.0,SQL Injection,2024-06-25
+2447316,Nextcloud,User can copy locked folders and gain access to the contents,hackerone.com/reports/2447316,44,500.0,Improper Access Control - Generic,2024-11-16
+2449038,Internet Bug Bounty,CVE-2019-1551: rsaz_512_sqr overflow bug on x86_64,hackerone.com/reports/2449038,26,0.0,Cryptographic Issues - Generic,2024-05-09
+2450215,HackerOne,Any user could upload attachments to pentest scoping form they don't have access to,hackerone.com/reports/2450215,121,0.0,Business Logic Errors,2024-05-15
+2450685,MTN Group,Unauthorized access to PII leads to Administrator account Takeover,hackerone.com/reports/2450685,82,0.0,Privilege Escalation,2025-02-22
+2451113,Internet Bug Bounty,Proxy-Authorization header not cleared on cross-origin redirect in undici.request,hackerone.com/reports/2451113,54,420.0,Information Disclosure,2024-05-29
+2453322,Internet Bug Bounty,Apache HTTP Server: HTTP/2 DoS by memory exhaustion on endless continuation frames,hackerone.com/reports/2453322,40,2580.0,Uncontrolled Resource Consumption,2024-04-24
+2453328,Internet Bug Bounty,Assertion failed in node::http2::Http2Session::~Http2Session() leads to HTTP/2 server crash,hackerone.com/reports/2453328,39,3645.0,Uncontrolled Resource Consumption,2024-04-29
+2453475,Mars,Sqli on ██████ search functionality,hackerone.com/reports/2453475,47,0.0,SQL Injection,2024-06-25
+2456603,IBM,Insecure Direct Object Reference Protection bypass by changing HTTP method in IBM Your Learning endpoint. ,hackerone.com/reports/2456603,56,0.0,Insecure Direct Object Reference (IDOR),2024-05-01
+2457588,Nextcloud,Event create can create attachments that link to other websites ,hackerone.com/reports/2457588,25,250.0,Open Redirect,2024-07-14
+2461737,PortSwigger Web Security,Incorrect logic when buy one more license which may lead to extend the expire date of existing license,hackerone.com/reports/2461737,60,0.0,Business Logic Errors,2024-04-16
+2461831,Node.js,Bypass incomplete fix of CVE-2024-27980,hackerone.com/reports/2461831,20,0.0,Command Injection - Generic,2024-07-09
+2463069,HackerOne,2fa can't be activated on app.pullrequest.com,hackerone.com/reports/2463069,25,0.0,Violation of Secure Design Principles,2024-07-11
+2463279,HackerOne,Two factor authentication bypass,hackerone.com/reports/2463279,47,0.0,,2024-07-11
+2467232,Liberapay,Unsafe yaml load can lead to remote code execution,hackerone.com/reports/2467232,55,0.0,Deserialization of Untrusted Data,2024-05-04
+2467999,Mozilla,Jira Credential Disclosure within Mozilla Slack,hackerone.com/reports/2467999,65,1000.0,Information Disclosure,2024-04-23
+2468496,U.S. Dept Of Defense,GlobalProtect - OS Command Injection #█████████,hackerone.com/reports/2468496,14,0.0,OS Command Injection,2026-01-12
+2469706,HackerOne,Session Not Expire / 2FA Bypass,hackerone.com/reports/2469706,28,0.0,Insufficient Session Expiration,2024-07-11
+2469713,GitHub,View private repository NWO of deploy key via internal LFS API,hackerone.com/reports/2469713,69,0.0,Improper Access Control - Generic,2024-07-23
