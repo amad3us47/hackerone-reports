@@ -11129,3 +11129,33 @@ id,program,title,link,upvotes,bounty,vuln_type,date
 2495989,MercadoLibre,Sale cancellations from other sellers without restrictions,hackerone.com/reports/2495989,142,0.0,Insecure Direct Object Reference (IDOR),2025-03-06
 2497947,Nextcloud,Invisible Salamanders Attack against end_to_end_encryption in Nextcloud,hackerone.com/reports/2497947,38,0.0,Use of a Broken or Risky Cryptographic Algorithm,2024-12-03
 2498255,IBM,S3 Bucket Takeover on apptio endpoint,hackerone.com/reports/2498255,71,0.0,Improper Access Control - Generic,2024-06-21
+2499070,GitLab,DOS: taking down a 1k users Gitlab EE instance or multiple Sidekiq instances by importing a malicious repo from a Github EE self-hosted server,hackerone.com/reports/2499070,64,2300.0,Uncontrolled Resource Consumption,2024-10-09
+2499178,U.S. Dept Of Defense,Subdomain takeover ████████.mil,hackerone.com/reports/2499178,63,0.0,Improper Access Control - Generic,2024-06-27
+2501036,GitHub,Access body and title of Internal Repo Issues in Projects,hackerone.com/reports/2501036,100,0.0,Information Disclosure,2024-07-31
+2501378,Brave Software,Brave Android: Incorrect URL Eliding in Brave Shields Pop Up,hackerone.com/reports/2501378,45,0.0,Violation of Secure Design Principles,2024-09-18
+2501984,HackerOne,Bypassing the victim's phone number OTP in the account recovery process on the https://hackerone.com/settings/auth/setup_account_recovery,hackerone.com/reports/2501984,67,0.0,Improper Authentication - Generic,2024-07-11
+2501986,IBM,IBM OpenPages vulnerable to exposure of sensitive information,hackerone.com/reports/2501986,49,0.0,Improper Authentication - Generic,2024-10-01
+2503113,inDrive,Reflected XSS of media.indrive.com,hackerone.com/reports/2503113,80,0.0,Cross-site Scripting (XSS) - Reflected,2024-07-02
+2505761,GitHub,Information Leakage via Clicked Link in GitHub Repository (Fingerprinting),hackerone.com/reports/2505761,72,4000.0,Information Disclosure,2024-10-17
+2508422,Nextcloud,Mail auto configurator can be tricked into sending account information to wrong servers ,hackerone.com/reports/2508422,34,100.0,Information Disclosure,2024-11-15
+2509022,Shopify,Reflected XSS in AI Chat Bot Greetings at help.shopify.com via Markdown Image Rendering,hackerone.com/reports/2509022,102,1600.0,Cross-site Scripting (XSS) - Reflected,2026-06-18
+2509402,U.S. Dept Of Defense,Out-Of-Bounds Memory Read on ███,hackerone.com/reports/2509402,7,0.0,Out-of-bounds Read,2024-06-18
+2513082,HackerOne,Program Member Could Duplicate Report To A Non Related Program Original Report ,hackerone.com/reports/2513082,103,0.0,Improper Access Control - Generic,2024-06-19
+2513333,Mozilla,csrftoken not unique to session or specific user and csrfmiddlewaretoken  can be altered,hackerone.com/reports/2513333,63,500.0,Cross-Site Request Forgery (CSRF),2024-11-20
+2515808,Tools for Humanity,"[Meetup][World ID][OIDC] Insufficient Filtering of ""state"" Parameter in Response Mode form_post leads to XSS and ATO",hackerone.com/reports/2515808,105,0.0,Cross-Site Scripting (XSS),2024-06-19
+2516250,HackerOne,Access Control Vulnerability Enabling Unauthorized Access to Limited Disclosure Reports,hackerone.com/reports/2516250,107,0.0,Improper Access Control - Generic,2024-06-17
+2516732,Basecamp,Account takeover via insecure intent handling  ,hackerone.com/reports/2516732,135,0.0,Deserialization of Untrusted Data,2024-05-30
+2518407,U.S. Dept Of Defense,CVE-2023-26347 in https://████.mil/hax/..CFIDE/adminapi/administrator.cfc?method=getBuildNumber&_cfclient=true,hackerone.com/reports/2518407,14,0.0,Improper Access Control - Generic,2024-07-19
+2520679,Internet Bug Bounty,Possible DoS Vulnerability with Range Header in Rack,hackerone.com/reports/2520679,56,5420.0,,2024-09-25
+2520694,Internet Bug Bounty,Possible XSS Vulnerability in Action Controller,hackerone.com/reports/2520694,32,1068.0,Cross-site Scripting (XSS) - Generic,2024-09-25
+2521186,U.S. Dept Of Defense,Self XSS,hackerone.com/reports/2521186,12,0.0,Cross-site Scripting (XSS) - Generic,2024-07-19
+2521419,Basecamp,Stored XSS on trix editor version 2.1.1,hackerone.com/reports/2521419,75,1000.0,Cross-site Scripting (XSS) - Stored,2024-11-04
+2523654,GitLab,Subdomain takeover in Gitlab pages,hackerone.com/reports/2523654,79,0.0,Misconfiguration,2024-10-09
+2523677,RATELIMITED,Subdomain takeover in GitLab Pages [george.ratelimited.me],hackerone.com/reports/2523677,59,0.0,,2024-08-11
+2524562,WakaTime,IDOR to view order information of users and personal information,hackerone.com/reports/2524562,126,0.0,Insecure Direct Object Reference (IDOR),2024-06-02
+2524939,HackerOne,"[Spot Check] - Ability to disclose metadata about Spot Checks (Number of Hackers + Hackers Criteria) via ""SpotCheckSingleQuery""",hackerone.com/reports/2524939,79,0.0,Information Disclosure,2024-06-11
+2526041,Internet Bug Bounty,CVE-2024-35200 in nginx,hackerone.com/reports/2526041,21,2600.0,NULL Pointer Dereference,2024-07-01
+2526046,Internet Bug Bounty,CVE-2024-32760 in nginx,hackerone.com/reports/2526046,46,2600.0,,2024-07-01
+2526051,Internet Bug Bounty,CVE-2024-31079 in nginx,hackerone.com/reports/2526051,32,2600.0,Stack Overflow,2024-07-01
+2528293,GitLab,IDOR Exposes All Machine Learning Models,hackerone.com/reports/2528293,115,1160.0,Insecure Direct Object Reference (IDOR),2024-10-01
+2528919,HackerOne,2FA requirement bypass when claiming bounty ,hackerone.com/reports/2528919,22,0.0,Business Logic Errors,2024-07-11
