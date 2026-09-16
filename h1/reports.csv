@@ -11209,3 +11209,25 @@ id,program,title,link,upvotes,bounty,vuln_type,date
 2585381,Internet Bug Bounty,important: Apache HTTP Server weakness with encoded question marks in backreferences (CVE-2024-38474),hackerone.com/reports/2585381,51,4920.0,Improper Input Validation,2024-07-13
 2585384,Internet Bug Bounty,moderate: Apache HTTP Server proxy encoding problem (CVE-2024-38473),hackerone.com/reports/2585384,16,2600.0,Improper Input Validation,2024-07-13
 2585385,Internet Bug Bounty,important: Apache HTTP Server on WIndows UNC SSRF (CVE-2024-38472),hackerone.com/reports/2585385,45,4920.0,Server-Side Request Forgery (SSRF),2024-07-13
+2585855,MetaMask,Missing Line Terminator on allowedOrigins enables origin spoofing,hackerone.com/reports/2585855,89,0.0,Improper Access Control - Generic,2024-10-29
+2586226,Internet Bug Bounty,CVE-2024-34750 Apache Tomcat DoS vulnerability in HTTP/2 connector,hackerone.com/reports/2586226,60,4920.0,Uncontrolled Resource Consumption,2024-07-05
+2586433,"ProductBoard, Inc.",Insecure Invitation Link Handling,hackerone.com/reports/2586433,92,0.0,,2024-10-31
+2586584,U.S. Dept Of Defense,IDOR leads to PII Leak,hackerone.com/reports/2586584,64,0.0,Insecure Direct Object Reference (IDOR),2024-07-19
+2586616,U.S. Dept Of Defense,Restrict any user from Login to their account,hackerone.com/reports/2586616,19,0.0,Improper Authentication - Generic,2024-07-19
+2586641,U.S. Dept Of Defense,IDOR  leads to view other user Biographical details (Possible PII LEAK),hackerone.com/reports/2586641,42,0.0,Insecure Direct Object Reference (IDOR),2024-07-19
+2586662,U.S. Dept Of Defense,IDOR : Modify other users demographic details,hackerone.com/reports/2586662,40,0.0,Insecure Direct Object Reference (IDOR),2024-07-19
+2587101,Mars,Reflected HTML Injection via contact (faq) search parameter on ██████████,hackerone.com/reports/2587101,103,0.0,Improper Neutralization of Script-Related HTML Tags in a Web Page (Basic XSS),2024-11-25
+2587844,U.S. Dept Of Defense,Cross Site Scripting,hackerone.com/reports/2587844,40,0.0,Cross-site Scripting (XSS) - Reflected,2024-08-16
+2587953,U.S. Dept Of Defense,Email Takeover leads to permanent account deletion,hackerone.com/reports/2587953,26,0.0,Insecure Direct Object Reference (IDOR),2024-07-19
+2588329,inDrive,Change phone number OTP flaw leads to any phone number takeover,hackerone.com/reports/2588329,240,2000.0,Business Logic Errors,2024-10-09
+2588426,Django,SQL injection in JSONField KeyTransform,hackerone.com/reports/2588426,68,0.0,SQL Injection,2025-09-12
+2588810,HackerOne,TOTP Authenticator implementation Accepts Expired Codes,hackerone.com/reports/2588810,19,0.0,Improper Authentication - Generic,2024-07-11
+2590608,Internet Bug Bounty,fs.fchown/fchmod bypasses permission model,hackerone.com/reports/2590608,33,249.0,Insecure Direct Object Reference (IDOR),2024-10-16
+2591681,Internet Bug Bounty,CVE-2024-38875: Denial-Of-Service through uncontrolled resource consumption caused by poor time complexity of strip_punctuation .,hackerone.com/reports/2591681,14,2142.0,Uncontrolled Resource Consumption,2024-08-23
+2597504,Nextcloud,"X-E2EE-SIGNATURE verification can be bypassed, leading to loss of confidentiality of end-to-end encrypted files",hackerone.com/reports/2597504,27,0.0,Improper Certificate Validation,2024-12-15
+2597543,U.S. Dept Of Defense,Blind Sql Injection in https://████,hackerone.com/reports/2597543,80,0.0,SQL Injection,2024-08-29
+2598548,HackerOne,Bypassing HackerOne 2FA due to race condition,hackerone.com/reports/2598548,139,0.0,Business Logic Errors,2024-10-30
+2599391,Internet Bug Bounty,CVE-2024-3416: MTU of 4096 or greater without fragmentation may cause NGINX worker processes to leak previously freed memory,hackerone.com/reports/2599391,16,2600.0,Information Disclosure,2024-07-12
+2599826,U.S. Dept Of Defense,Boolen Based Blind Sql Injection Via User Agent in ███.mil,hackerone.com/reports/2599826,66,0.0,SQL Injection,2025-01-24
+2599840,GitLab,Remove obsolete domain from handbook subdomain,hackerone.com/reports/2599840,72,0.0,Misconfiguration,2024-10-01
+2604391,curl,CVE-2024-6874: macidn punycode buffer overread,hackerone.com/reports/2604391,25,0.0,Buffer Over-read,2024-07-24
