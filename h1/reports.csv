@@ -11184,3 +11184,28 @@ id,program,title,link,upvotes,bounty,vuln_type,date
 2553411,Basecamp,Path traversal in deeplink query parameter can expose any user's private info to a public directory (one click),hackerone.com/reports/2553411,64,0.0,Path Traversal,2024-07-09
 2554003,U.S. Dept Of Defense,HTML Injection into https://www.██████.mil,hackerone.com/reports/2554003,16,0.0,Command Injection - Generic,2024-07-19
 2554079,Nextcloud,External storage - global credentials returned to the client side in plaintext,hackerone.com/reports/2554079,28,0.0,Information Disclosure,2024-11-21
+2555949,U.S. Dept Of Defense,█████████ (Android): Vulnerable to Javascript Injection and Open redirect,hackerone.com/reports/2555949,41,0.0,Open Redirect,2024-07-26
+2559404,Rootstock Labs,Crafted smart contract can take ~23 seconds to execute due to immense error string construction,hackerone.com/reports/2559404,23,0.0,Uncontrolled Resource Consumption,2025-06-12
+2559516,curl,CVE-2024-6197: freeing stack buffer in utf8asn1str,hackerone.com/reports/2559516,34,0.0,Free of Memory not on the Heap,2024-07-24
+2559558,curl,NULL dereference when encoding DN of x509 certificate,hackerone.com/reports/2559558,26,0.0,NULL Pointer Dereference,2024-06-19
+2564265,U.S. Dept Of Defense,XML E██████ternal Entity (XXE) Injection in ███,hackerone.com/reports/2564265,8,0.0,XML External Entities (XXE),2026-01-12
+2567048,Smule,Possible Subdomain Takeover For Inbound Emails,hackerone.com/reports/2567048,48,0.0,Improper Access Control - Generic,2024-08-07
+2569993,HackerOne,Reports submitted by a non 2fa setupped user account can be transferred to a 2fa require submission program ,hackerone.com/reports/2569993,32,0.0,Improper Access Control - Generic,2024-07-11
+2571981,HackerOne,Business Logic error leads to bypass 2FA requirement ,hackerone.com/reports/2571981,39,0.0,Business Logic Errors,2024-07-11
+2573567,U.S. Dept Of Defense,XML External Entity (XXE) Injection,hackerone.com/reports/2573567,21,0.0,XML External Entities (XXE),2024-07-19
+2575079,HackerOne,Hackers can Invite Collaborators Without 2FA on Programs Requiring 2FA,hackerone.com/reports/2575079,13,0.0,,2024-07-11
+2575105,Node.js,Worker permission bypass via InternalWorker leak in diagnostics,hackerone.com/reports/2575105,42,0.0,Improper Access Control - Generic,2025-01-21
+2578985,Mars,Reflected HTML Injection via contact (faq) search parameter on ███]=,hackerone.com/reports/2578985,82,0.0,Improper Neutralization of Script-Related HTML Tags in a Web Page (Basic XSS),2024-11-25
+2579939,GitHub,SAML Signature verification bypass allows logging into any user (with specific conditions),hackerone.com/reports/2579939,196,0.0,Improper Access Control - Generic,2024-10-10
+2580062,Rocket.Chat,NoSQL injection leaks visitor token and livechat messages,hackerone.com/reports/2580062,29,0.0,Information Disclosure,2024-07-11
+2580982,HackerOne,Private data related to program exposed via /reports/<id>.json endpoint to external user participant,hackerone.com/reports/2580982,68,0.0,Information Disclosure,2024-08-30
+2583874,TikTok,DOM XSS in tiktok.com/login via the redirect_url parameter,hackerone.com/reports/2583874,139,0.0,Cross-site Scripting (XSS) - DOM,2024-09-21
+2584376,Internet Bug Bounty,ReDoS Vulnerability in HTTP Accept Headers Parsing,hackerone.com/reports/2584376,55,2642.0,,2024-10-30
+2585373,Internet Bug Bounty,moderate: Apache HTTP Server: HTTP response splitting (CVE-2023-38709),hackerone.com/reports/2585373,19,2600.0,HTTP Response Splitting,2024-07-13
+2585374,Internet Bug Bounty,moderate: Apache HTTP Server: mod_rewrite proxy handler substitution (CVE-2024-39573) CWE-20 Improper Input Validation,hackerone.com/reports/2585374,88,2600.0,Improper Input Validation,2024-08-12
+2585375,Internet Bug Bounty,important: Apache HTTP Server: Crash resulting in Denial of Service in mod_proxy via a malicious request (CVE-2024-38477),hackerone.com/reports/2585375,27,4920.0,NULL Pointer Dereference,2024-07-13
+2585376,Internet Bug Bounty,important: Apache HTTP Server may use exploitable/malicious backend application output to run local handlers via internal redirect (CVE-2024-38476),hackerone.com/reports/2585376,31,4920.0,Inclusion of Functionality from Untrusted Control Sphere,2024-07-13
+2585378,Internet Bug Bounty,important: Apache HTTP Server weakness in mod_rewrite when first segment of substitution matches filesystem path. (CVE-2024-38475),hackerone.com/reports/2585378,30,4920.0,Improper Input Validation,2024-07-13
+2585381,Internet Bug Bounty,important: Apache HTTP Server weakness with encoded question marks in backreferences (CVE-2024-38474),hackerone.com/reports/2585381,51,4920.0,Improper Input Validation,2024-07-13
+2585384,Internet Bug Bounty,moderate: Apache HTTP Server proxy encoding problem (CVE-2024-38473),hackerone.com/reports/2585384,16,2600.0,Improper Input Validation,2024-07-13
+2585385,Internet Bug Bounty,important: Apache HTTP Server on WIndows UNC SSRF (CVE-2024-38472),hackerone.com/reports/2585385,45,4920.0,Server-Side Request Forgery (SSRF),2024-07-13
