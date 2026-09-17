@@ -11254,3 +11254,19 @@ id,program,title,link,upvotes,bounty,vuln_type,date
 2635315,MTN Group,Yet Another OTP code Leaked in the API Response,hackerone.com/reports/2635315,133,0.0,Improper Authentication - Generic,2025-01-08
 2641211,Mars,phpinfo() exposed on ██████████,hackerone.com/reports/2641211,51,0.0,Misconfiguration,2024-11-21
 2642615,Sony,明確な認証不備および潜在的な中間者攻撃の可能性（Clear Authentication Deficiencies & Potential for Man-in-the-Middle Attacks）,hackerone.com/reports/2642615,71,0.0,Key Exchange without Entity Authentication,2025-07-08
+2644244,Internet Bug Bounty,CVE-2024-41989: Denial-Of-Service vulnerability in the floatformat template filter when input string contains a big exponent in scientific notation,hackerone.com/reports/2644244,49,2142.0,Uncontrolled Resource Consumption,2024-09-22
+2645836,Internet Bug Bounty,[CVE-2024-35176] DoS vulnerability in REXML,hackerone.com/reports/2645836,19,2142.0,Allocation of Resources Without Limits or Throttling,2024-08-23
+2646493,Internet Bug Bounty,CVE-2024-42005: Potential SQL injection in QuerySet.values() and values_list(),hackerone.com/reports/2646493,52,4263.0,,2024-08-24
+2649615,LinkedIn,Forced OAuth authorization using button ID in hash and holding space,hackerone.com/reports/2649615,79,0.0,Improper Authentication - Generic,2024-12-17
+2652190,U.S. Dept Of Defense,CSRF Attack leads to delete album at,hackerone.com/reports/2652190,33,0.0,Cross-Site Request Forgery (CSRF),2024-12-18
+2652603,U.S. Dept Of Defense,CSRF Attack on changing security questions leads to full Account TakeOver,hackerone.com/reports/2652603,47,0.0,Cross-Site Request Forgery (CSRF),2024-12-18
+2653342,Acronis,Potential XSS in redirect_url Parameter,hackerone.com/reports/2653342,64,0.0,Cross-site Scripting (XSS) - Reflected,2024-11-06
+2658447,Internet Bug Bounty,CVE-2024-7347: Buffer overread in the ngx_http_mp4_module,hackerone.com/reports/2658447,43,2142.0,Buffer Over-read,2024-08-27
+2665879,U.S. Dept Of Defense,Improper Authentication Allows Making Requests as Other Users,hackerone.com/reports/2665879,6,0.0,Improper Authentication - Generic,2026-01-12
+2666151,Mars,phpinfo() exposed on ██████████,hackerone.com/reports/2666151,36,0.0,Misconfiguration,2024-11-21
+2666323,U.S. Dept Of Defense,Improper Authentication Allows Making Appeals as Other Users,hackerone.com/reports/2666323,77,0.0,Improper Authentication - Generic,2025-02-12
+2666849,Ruby,Uncontrolled Resource Consumption when parsing maliciously crafted XML with REXML,hackerone.com/reports/2666849,21,0.0,Uncontrolled Resource Consumption,2025-02-20
+2668302,GitLab,Removed Guest role user who dosent have access to private project in members able to view jobs ,hackerone.com/reports/2668302,38,0.0,Improper Authorization,2024-09-18
+2669852,curl,CVE-2024-8096: OCSP stapling bypass with GnuTLS,hackerone.com/reports/2669852,36,0.0,Improper Certificate Validation,2024-09-11
+2670521,U.S. Dept Of Defense,XSS found for https://█████████,hackerone.com/reports/2670521,51,0.0,Cross-site Scripting (XSS) - Reflected,2024-08-29
+2671404,Nextcloud,Nextcloud Tables app - inserting rows to an arbitrary table possible,hackerone.com/reports/2671404,24,0.0,,2024-11-17
