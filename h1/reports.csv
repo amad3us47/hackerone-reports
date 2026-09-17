@@ -11231,3 +11231,26 @@ id,program,title,link,upvotes,bounty,vuln_type,date
 2599826,U.S. Dept Of Defense,Boolen Based Blind Sql Injection Via User Agent in ███.mil,hackerone.com/reports/2599826,66,0.0,SQL Injection,2025-01-24
 2599840,GitLab,Remove obsolete domain from handbook subdomain,hackerone.com/reports/2599840,72,0.0,Misconfiguration,2024-10-01
 2604391,curl,CVE-2024-6874: macidn punycode buffer overread,hackerone.com/reports/2604391,25,0.0,Buffer Over-read,2024-07-24
+2610467,FetLife,Able to see location coordinates in any event without permission to do so,hackerone.com/reports/2610467,62,0.0,Information Disclosure,2024-09-25
+2610478,MTN Group,Unauthenticated phpinfo()files could lead to ability file read at h2f54.n1.ips.mtn.co.ug [/dashboard/],hackerone.com/reports/2610478,33,0.0,Violation of Secure Design Principles,2025-02-20
+2611305,Acronis, Potential XSS Vulnerability in Acronis Login Callback URL,hackerone.com/reports/2611305,82,0.0,Cross-site Scripting (XSS) - Generic,2024-11-06
+2611669,Nintendo,"[Switch, PIA/MK8DX] Stack buffer overflow and potential RCE in PIA (LAN/LDN, possibly NEX) room info deserialization",hackerone.com/reports/2611669,36,0.0,Stack Overflow,2024-09-30
+2612028,Internet Bug Bounty,important: Apache HTTP Server: SSRF with mod_rewrite in server/vhost context on Windows (CVE-2024-40898),hackerone.com/reports/2612028,19,4263.0,,2024-08-27
+2615670,U.S. Dept Of Defense,XSS on ███████,hackerone.com/reports/2615670,48,0.0,Cross-site Scripting (XSS) - Reflected,2024-08-29
+2616045,Automattic,Race condition on add 1 free domain,hackerone.com/reports/2616045,93,0.0,Business Logic Errors,2025-05-09
+2618486,Reddit,IDOR lets a malicious user reveal the unpinned achievement badges of any Reddit user,hackerone.com/reports/2618486,47,0.0,Insecure Direct Object Reference (IDOR),2024-08-09
+2621057,Internet Bug Bounty,libcurl: freeing stack buffer during x509 certificate parsing ,hackerone.com/reports/2621057,8,0.0,Memory Corruption - Generic,2024-08-23
+2621062,Internet Bug Bounty,curl: stack-buffer overread during punycode conversions,hackerone.com/reports/2621062,31,0.0,Buffer Over-read,2024-09-22
+2622671,Internet Bug Bounty,Unbounded memory growth with session handling in TLSv1.3,hackerone.com/reports/2622671,35,497.0,Allocation of Resources Without Limits or Throttling,2024-09-22
+2623715,U.S. Dept Of Defense,Sensitive data exposure: █████████ candidate resumes/CVs available to download with no authentication through BAC/IDOR/Improper Salesforce config,hackerone.com/reports/2623715,55,0.0,Improper Access Control - Generic,2024-12-18
+2627062,Acronis,Rate limit bypass on passport.acronis.work using X-Forwarded-For request header,hackerone.com/reports/2627062,106,0.0,,2024-11-28
+2627221,RubyGems,Host Header Attac,hackerone.com/reports/2627221,74,0.0,,2025-02-08
+2629968,curl,CVE-2024-7264: ASN.1 date parser overread,hackerone.com/reports/2629968,53,0.0,Buffer Over-read,2024-08-01
+2632876,HackerOne,"Access to limited confidential information of private program as a Ex-reporter, Report Participant(external user) & Ex-staff member",hackerone.com/reports/2632876,77,0.0,Improper Access Control - Generic,2024-12-24
+2633771,HackerOne,IDOR Vulnerability at AddTagToAssets operation name,hackerone.com/reports/2633771,176,0.0,Insecure Direct Object Reference (IDOR),2025-06-08
+2633888,MTN Group,OTP code Leaked in API Response ,hackerone.com/reports/2633888,80,0.0,Improper Access Control - Generic,2025-01-08
+2633959,MTN Group,SQL injection in URL path leads to Database Access,hackerone.com/reports/2633959,114,0.0,SQL Injection,2025-01-08
+2633988,U.S. Dept Of Defense,DoD workstation exposed to internet via TinyPilot KVM with no authentication,hackerone.com/reports/2633988,41,0.0,Improper Access Control - Generic,2024-08-16
+2635315,MTN Group,Yet Another OTP code Leaked in the API Response,hackerone.com/reports/2635315,133,0.0,Improper Authentication - Generic,2025-01-08
+2641211,Mars,phpinfo() exposed on ██████████,hackerone.com/reports/2641211,51,0.0,Misconfiguration,2024-11-21
+2642615,Sony,明確な認証不備および潜在的な中間者攻撃の可能性（Clear Authentication Deficiencies & Potential for Man-in-the-Middle Attacks）,hackerone.com/reports/2642615,71,0.0,Key Exchange without Entity Authentication,2025-07-08
