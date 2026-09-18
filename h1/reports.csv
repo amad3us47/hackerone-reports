@@ -11299,3 +11299,19 @@ id,program,title,link,upvotes,bounty,vuln_type,date
 2720030,Nextcloud,Open redirect when logging in with user_oidc,hackerone.com/reports/2720030,30,0.0,Open Redirect,2024-11-15
 2721478,Internet Bug Bounty,`std::process::Command` batch files argument escaping could be bypassed with trailing whitespace or periods,hackerone.com/reports/2721478,53,505.0,,2024-11-22
 2731133,AWS VDP,External service interaction (HTTP),hackerone.com/reports/2731133,62,0.0,Server-Side Request Forgery (SSRF),2024-10-04
+2733190,MOD Supply Chain VDP,Overwrite any file of the web server,hackerone.com/reports/2733190,55,0.0,File Manipulation,2024-11-05
+2733994,PortSwigger Web Security,cgi scripts wordlist entry for windmail.exe has payload that sends arbitrary file read result to third-party,hackerone.com/reports/2733994,81,200.0,Information Disclosure,2025-03-13
+2735646,Mozilla,User API Key leakage in Github commit leads to unauthorized access to sql.telemetry.mozilla.org,hackerone.com/reports/2735646,47,0.0,Information Disclosure,2024-10-08
+2736979,U.S. Dept Of Defense,CSRF to XSS,hackerone.com/reports/2736979,31,0.0,Cross-Site Request Forgery (CSRF),2024-12-18
+2737309,Mozilla,Information disclosure on password cancel endpoint ,hackerone.com/reports/2737309,46,0.0,Information Disclosure,2024-10-29
+2737595,U.S. Dept Of Defense,SQL Injection,hackerone.com/reports/2737595,91,0.0,SQL Injection,2024-10-25
+2741110,U.S. Dept Of Defense,XSS Reflected,hackerone.com/reports/2741110,26,0.0,Cross-site Scripting (XSS) - Reflected,2024-12-18
+2742457,U.S. Dept Of Defense,CVE-2020-7961 RCE Liferay Portal Unauthenticated via https://████████/,hackerone.com/reports/2742457,62,0.0,OS Command Injection,2024-10-25
+2746709,MTN Group,Broken Access Control leads to disclosure of transaction history via /v2/rechargeTransactionHistory endpoint,hackerone.com/reports/2746709,75,0.0,,2025-03-02
+2748003,U.S. Dept Of Defense,Lack of rate limiting in https://███/PKI/PassReset.aspx leads to PII disclosure and potential account takeover,hackerone.com/reports/2748003,98,0.0,Information Exposure Through an Error Message,2024-10-25
+2750728,U.S. Dept Of Defense,Cross-Site Scripting (XSS) Vulnerability via POST Method + Akamai Firewall Bypass,hackerone.com/reports/2750728,6,0.0,Cross-site Scripting (XSS) - DOM,2026-01-12
+2750977,U.S. Dept Of Defense,Cross-Site Scripting (XSS) Vulnerability via parameter c0-id + Akamai Firewall Bypass,hackerone.com/reports/2750977,7,0.0,Cross-site Scripting (XSS) - DOM,2026-01-12
+2756402,Mars,█████████ when adding branches to your account,hackerone.com/reports/2756402,97,0.0,Insecure Direct Object Reference (IDOR),2024-11-26
+2759243,U.S. Dept Of Defense,Time-based blind SQL injection,hackerone.com/reports/2759243,53,0.0,SQL Injection,2025-01-24
+2762119,MTN Group,CVE-2017-9822 DotNetNuke Cookie Deserialization Remote Code Execution (RCE) on lonidoor.mtn.ci,hackerone.com/reports/2762119,46,0.0,Code Injection,2024-11-16
+2762462,MTN Group,Ability to Add and Verify Uncontrolled Mobile Numbers Leading to Account Takeover (ATO),hackerone.com/reports/2762462,97,0.0,Authentication Bypass Using an Alternate Path or Channel,2025-03-04
