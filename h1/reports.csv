@@ -11270,3 +11270,21 @@ id,program,title,link,upvotes,bounty,vuln_type,date
 2669852,curl,CVE-2024-8096: OCSP stapling bypass with GnuTLS,hackerone.com/reports/2669852,36,0.0,Improper Certificate Validation,2024-09-11
 2670521,U.S. Dept Of Defense,XSS found for https://█████████,hackerone.com/reports/2670521,51,0.0,Cross-site Scripting (XSS) - Reflected,2024-08-29
 2671404,Nextcloud,Nextcloud Tables app - inserting rows to an arbitrary table possible,hackerone.com/reports/2671404,24,0.0,,2024-11-17
+2676025,GitLab,Login email verification bypass via `/oauth/token`.,hackerone.com/reports/2676025,66,0.0,Missing Critical Step in Authentication,2024-09-03
+2677187,Internet Bug Bounty,CVE-2024-41937: Apache Airflow: Stored XSS Vulnerability on provider link,hackerone.com/reports/2677187,70,497.0,Cross-site Scripting (XSS) - Stored,2024-09-07
+2677306,Monero,Spamming highly nested JSON RPC requests cause node to disconnect from p2p network,hackerone.com/reports/2677306,22,0.0,Uncontrolled Resource Consumption,2025-04-23
+2679108,HackerOne,Bypass comment restriction,hackerone.com/reports/2679108,47,0.0,Improper Access Control - Generic,2024-09-19
+2682079,U.S. Dept Of Defense,Publicly Editable U.S. Air Force Google Spreadsheet Exposing Student Leave Data ,hackerone.com/reports/2682079,83,0.0,Improper Access Control - Generic,2025-02-12
+2682392,Enjin,Race Condition on Create API Function,hackerone.com/reports/2682392,45,0.0,Leveraging Race Conditions,2024-10-15
+2682974,MTN Group,Social media account takeover ,hackerone.com/reports/2682974,41,0.0,Externally Controlled Reference to a Resource in Another Sphere,2024-11-03
+2684274,Mars,RXSS on ████ via configUrl parameter,hackerone.com/reports/2684274,52,0.0,Cross-site Scripting (XSS) - Reflected,2024-11-26
+2686225,Basecamp,Critical Data Breach - Big Data for all domains,hackerone.com/reports/2686225,53,0.0,,2025-01-14
+2686750,Mozilla,MozillaVPN: Elevation of Privilege via a Logic Vulnerability,hackerone.com/reports/2686750,60,0.0,Improper Link Resolution Before File Access ('Link Following'),2025-07-03
+2693786,Monero,"A peer can remotely fill the pending block queue to an extremely high size, with blocks that will never leave the queue.",hackerone.com/reports/2693786,23,0.0,,2025-04-23
+2696271,IBM,SSRF via host header let access localhost via https://go.dialexa.com,hackerone.com/reports/2696271,75,0.0,,2024-10-03
+2696294,Mozilla,Private Emails of Moz Workers Leaked in Public file,hackerone.com/reports/2696294,52,0.0,,2024-09-04
+2697588,U.S. Dept Of Defense,CSRF Attack leads to delete album at ████████,hackerone.com/reports/2697588,22,0.0,Cross-Site Request Forgery (CSRF),2024-12-18
+2697592,IBM,SSRF and secret key disclosure found on Turbonomic endpoint,hackerone.com/reports/2697592,71,0.0,Server-Side Request Forgery (SSRF),2024-09-19
+2697601,IBM,SSRF and secret key disclosure found on Turbonomic endpoint,hackerone.com/reports/2697601,56,0.0,Server-Side Request Forgery (SSRF),2024-09-19
+2699029,U.S. Dept Of Defense,CSRF leads to Account takeover,hackerone.com/reports/2699029,87,0.0,Cross-Site Request Forgery (CSRF),2024-12-18
+2701701,Kubernetes,Injection in path parameter of Ingress-nginx,hackerone.com/reports/2701701,89,0.0,Code Injection,2026-03-07
