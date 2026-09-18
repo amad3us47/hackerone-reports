@@ -11288,3 +11288,14 @@ id,program,title,link,upvotes,bounty,vuln_type,date
 2697601,IBM,SSRF and secret key disclosure found on Turbonomic endpoint,hackerone.com/reports/2697601,56,0.0,Server-Side Request Forgery (SSRF),2024-09-19
 2699029,U.S. Dept Of Defense,CSRF leads to Account takeover,hackerone.com/reports/2699029,87,0.0,Cross-Site Request Forgery (CSRF),2024-12-18
 2701701,Kubernetes,Injection in path parameter of Ingress-nginx,hackerone.com/reports/2701701,89,0.0,Code Injection,2026-03-07
+2705507,Nextcloud,Share information of Tables app is not limited to affected users ,hackerone.com/reports/2705507,31,0.0,Insecure Direct Object Reference (IDOR),2024-11-18
+2705661,Internet Bug Bounty,CVE-2024-45498: Apache Airflow Command injection in read_dataset_event_from_classic DAG,hackerone.com/reports/2705661,54,0.0,,2024-12-07
+2706358,Mozilla,[ addons-preview-cdn.mozilla.net ] A subdomain takeover is available via unregistered domain in Fastly,hackerone.com/reports/2706358,66,500.0,Misconfiguration,2024-12-06
+2709660,HackerOne,Takeover of hackerone.engineering via Medium ,hackerone.com/reports/2709660,63,0.0,Reliance on Reverse DNS Resolution for a Security-Critical Action,2024-11-14
+2712583,Mozilla, Bypass Email verification for monitoring at `monitor.mozilla.org`,hackerone.com/reports/2712583,85,0.0,Business Logic Errors,2025-01-22
+2712857,U.S. Dept Of Defense,CSRF leads to Account takeover,hackerone.com/reports/2712857,67,0.0,Cross-Site Request Forgery (CSRF),2024-12-18
+2718253,Insightly,"Email verification bypass via request  to endpoint ""accounts.insightly.com/signup/provisionuser""",hackerone.com/reports/2718253,147,0.0,Improper Authorization,2025-08-18
+2719622,HackerOne,Issue with VDP Program's Transition to Private Status and Missing Warning Labels on ORG Invitation,hackerone.com/reports/2719622,33,0.0,,2024-09-19
+2720030,Nextcloud,Open redirect when logging in with user_oidc,hackerone.com/reports/2720030,30,0.0,Open Redirect,2024-11-15
+2721478,Internet Bug Bounty,`std::process::Command` batch files argument escaping could be bypassed with trailing whitespace or periods,hackerone.com/reports/2721478,53,505.0,,2024-11-22
+2731133,AWS VDP,External service interaction (HTTP),hackerone.com/reports/2731133,62,0.0,Server-Side Request Forgery (SSRF),2024-10-04
