@@ -11332,3 +11332,22 @@ id,program,title,link,upvotes,bounty,vuln_type,date
 2792776,Internet Bug Bounty,[CVE-2024-47888] Possible ReDoS vulnerability in plain_text_for_blockquote_node in Action Text,hackerone.com/reports/2792776,60,505.0,Uncontrolled Resource Consumption,2024-11-28
 2794126,AWS VDP,CVE-2020-5902 ,hackerone.com/reports/2794126,43,0.0,Using Components with Known Vulnerabilities,2024-12-24
 2795558,Internet Bug Bounty,CVE-2024-41990: Potential denial-of-service in django.utils.html.urlize(),hackerone.com/reports/2795558,83,2162.0,Allocation of Resources Without Limits or Throttling,2024-11-30
+2798380,HackerOne,Hackerone supports accounts organitation takeover,hackerone.com/reports/2798380,155,2500.0,,2024-11-19
+2800091,AWS VDP,Non-Production API Endpoints for the bedrock-agent Service Fail to Log to CloudTrail Resulting in Silent Permission Enumeration,hackerone.com/reports/2800091,38,0.0,Insufficient Logging,2025-05-28
+2800511,AWS VDP,Session Timeout Does Not Enforce Re-Authentication on AWS Access Portal,hackerone.com/reports/2800511,36,0.0,Reusing Session IDs (aka Session Replay),2025-03-05
+2801036,Doppler,Availability Impact from Exploiting Project Name Vulnerabilities,hackerone.com/reports/2801036,68,250.0,Business Logic Errors,2024-11-13
+2801787,MTN Group,Admin Dashboard Access Leads to Updating Merchant Info,hackerone.com/reports/2801787,80,0.0,Improper Access Control - Generic,2025-03-02
+2802817,Cloudflare Public Bug Bounty,Any WARP User Can Access Organization-Specific Application,hackerone.com/reports/2802817,46,0.0,Improper Authentication - Generic,2025-05-19
+2805173,AWS VDP,A potential risk in the cloudFrontExtensionsConsole which can be used to privilege escalation.,hackerone.com/reports/2805173,22,0.0,Improper Access Control - Generic,2024-11-19
+2806356,Cosmos,Heap-Buffer-Overread in contains_whitespace when calling parser_validate after supplying a maliciously crafted buffer to parser_parse,hackerone.com/reports/2806356,34,2000.0,Buffer Over-read,2024-11-19
+2807139,Internet Bug Bounty,CVE-2024-49761: ReDoS vulnerability in REXML,hackerone.com/reports/2807139,33,0.0,Uncontrolled Resource Consumption,2024-11-30
+2808412,AWS VDP,A potential risk in the experimental-programmatic-access-ccft which can be used to privilege escalation.,hackerone.com/reports/2808412,55,0.0,Incorrect Privilege Assignment,2024-11-06
+2812583,Automattic,Open redirect via redirect_to parameter in tumblr.com,hackerone.com/reports/2812583,51,0.0,Open Redirect,2024-11-05
+2814750,curl,Inconsistent URL Parsing in curl Leading to Potential SSRF and Access Control Bypass,hackerone.com/reports/2814750,22,0.0,Improper Input Validation,2025-09-26
+2817648,Node.js,Improper error handling in async cryptographic operations crashes process,hackerone.com/reports/2817648,37,0.0,Cryptographic Issues - Generic,2025-05-14
+2817658,Trellix,Unauthenticated Path Traversal and Command Injection in Trellix Enterprise Security Manager 11.6.10,hackerone.com/reports/2817658,60,0.0,OS Command Injection,2025-01-12
+2818009,MetaMask,Missing ^ Line Beginner Leads to Origin Spoofing,hackerone.com/reports/2818009,5,0.0,,2025-05-20
+2818147,Sorare,Unsufficent input verification leads to DoS and resource consumption,hackerone.com/reports/2818147,108,300.0,Uncontrolled Resource Consumption,2025-02-26
+2819573,Basecamp,Mutation Based Stored XSS on Trix Editor version latest (2.1.8),hackerone.com/reports/2819573,87,0.0,,2025-06-27
+2819666,curl,Exploitable Format String Vulnerability in curl_mfprintf Function,hackerone.com/reports/2819666,23,0.0,Use of Externally-Controlled Format String,2024-11-06
+2823554,curl,Buffer overflow in strcpy,hackerone.com/reports/2823554,53,0.0,Buffer Underflow,2024-11-07
