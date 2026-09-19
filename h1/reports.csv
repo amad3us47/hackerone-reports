@@ -11315,3 +11315,20 @@ id,program,title,link,upvotes,bounty,vuln_type,date
 2759243,U.S. Dept Of Defense,Time-based blind SQL injection,hackerone.com/reports/2759243,53,0.0,SQL Injection,2025-01-24
 2762119,MTN Group,CVE-2017-9822 DotNetNuke Cookie Deserialization Remote Code Execution (RCE) on lonidoor.mtn.ci,hackerone.com/reports/2762119,46,0.0,Code Injection,2024-11-16
 2762462,MTN Group,Ability to Add and Verify Uncontrolled Mobile Numbers Leading to Account Takeover (ATO),hackerone.com/reports/2762462,97,0.0,Authentication Bypass Using an Alternate Path or Channel,2025-03-04
+2764830,curl,CVE-2024-9681: HSTS subdomain overwrites parent cache entry,hackerone.com/reports/2764830,49,0.0,Business Logic Errors,2024-11-06
+2764952,MTN Group,Unauthenticated phpinfo()files could lead to ability file read at █████████ ,hackerone.com/reports/2764952,44,0.0,Improper Access Control - Generic,2024-11-15
+2765259,MTN Group,Information disclosure due to debug mode enabled at Laravel instance https://mpos.mtn.co.sz/ ,hackerone.com/reports/2765259,60,0.0,Information Disclosure,2025-02-23
+2778350,MTN Group,Cisco IOS XE instance at ████ vulnerable to CVE-██████,hackerone.com/reports/2778350,48,0.0,Command Injection - Generic,2025-02-19
+2778380,U.S. Dept Of Defense,Unauthenticated LFI (Local File Inclusion) using the symbol `!` At the target `https://████/`,hackerone.com/reports/2778380,69,0.0,Path Traversal,2024-10-25
+2778400,MercadoLibre,Es posible poder navegar a cualquier pagina en Point Smart application,hackerone.com/reports/2778400,41,0.0,,2024-12-11
+2778412,U.S. Dept Of Defense,[ CVE-2018-1000129 ] RXSS At `https://███████` via the URI,hackerone.com/reports/2778412,26,0.0,Cross-site Scripting (XSS) - Reflected,2024-12-18
+2778441,Nextcloud, Exposing debug.log file leads to server full path disclosure,hackerone.com/reports/2778441,47,0.0,Business Logic Errors,2025-09-29
+2779070,Linux Foundation Decentralized Trust,Memory Leak in bytes_to_hexstring Function,hackerone.com/reports/2779070,25,0.0,Use After Free,2024-10-24
+2784712,AWS VDP,Information Disclosure Due To exposed .env file (Directory Listing) at ████████,hackerone.com/reports/2784712,46,0.0,Information Exposure Through Directory Listing,2024-10-22
+2786591,WordPress,Unauthenticated WordPress Database Repair DoS,hackerone.com/reports/2786591,70,0.0,Uncontrolled Resource Consumption,2024-10-18
+2787650,AWS VDP,Reflected XSS on Amazon EC2 Instance,hackerone.com/reports/2787650,55,0.0,Reflected XSS,2024-12-24
+2788557,Mars,Insecure API Response Leads to Disclosure of Hashed Passwords,hackerone.com/reports/2788557,61,0.0,Information Disclosure,2024-11-26
+2792484,curl,"When curl uses Schannel as TLS backend, it fails to enforce TLS 1.3 cipher suite selections correctly",hackerone.com/reports/2792484,19,0.0,Business Logic Errors,2024-11-04
+2792776,Internet Bug Bounty,[CVE-2024-47888] Possible ReDoS vulnerability in plain_text_for_blockquote_node in Action Text,hackerone.com/reports/2792776,60,505.0,Uncontrolled Resource Consumption,2024-11-28
+2794126,AWS VDP,CVE-2020-5902 ,hackerone.com/reports/2794126,43,0.0,Using Components with Known Vulnerabilities,2024-12-24
+2795558,Internet Bug Bounty,CVE-2024-41990: Potential denial-of-service in django.utils.html.urlize(),hackerone.com/reports/2795558,83,2162.0,Allocation of Resources Without Limits or Throttling,2024-11-30
