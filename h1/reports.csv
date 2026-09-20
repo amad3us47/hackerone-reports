@@ -11351,3 +11351,25 @@ id,program,title,link,upvotes,bounty,vuln_type,date
 2819573,Basecamp,Mutation Based Stored XSS on Trix Editor version latest (2.1.8),hackerone.com/reports/2819573,87,0.0,,2025-06-27
 2819666,curl,Exploitable Format String Vulnerability in curl_mfprintf Function,hackerone.com/reports/2819666,23,0.0,Use of Externally-Controlled Format String,2024-11-06
 2823554,curl,Buffer overflow in strcpy,hackerone.com/reports/2823554,53,0.0,Buffer Underflow,2024-11-07
+2828263,Internet Bug Bounty,Secrets not masked in UI when sensitive variables are set via Airflow cli,hackerone.com/reports/2828263,78,0.0,Information Disclosure,2024-12-30
+2828271,Internet Bug Bounty,Apache Airflow: Sensitive Information Exposure in DAG Run Logs,hackerone.com/reports/2828271,112,0.0,Information Disclosure,2024-12-30
+2828499,Localize,open redirected by host header,hackerone.com/reports/2828499,73,0.0,Open Redirect,2024-12-02
+2828608,Mars,Users Data Exposure via Insecure Endpoint,hackerone.com/reports/2828608,40,0.0,Information Disclosure,2025-05-12
+2828641,Mars,unauthorized access and add user and change personal information all users,hackerone.com/reports/2828641,54,0.0,Improper Access Control - Generic,2025-05-27
+2828693,Mars,change part of personal information all users,hackerone.com/reports/2828693,53,0.0,Improper Access Control - Generic,2025-05-12
+2828720,Mars,Customer Data Exposure via Insecure Endpoint of coupon,hackerone.com/reports/2828720,28,0.0,Information Disclosure,2025-05-27
+2829063,curl,CVE-2024-11053: netrc + redirect credential leak,hackerone.com/reports/2829063,33,0.0,Information Disclosure,2024-12-11
+2830573,IBM,SQL injection identified on IBM endpoint. ,hackerone.com/reports/2830573,8,0.0,SQL Injection,2026-01-07
+2831558,curl,netrc crlf injection,hackerone.com/reports/2831558,6,0.0,CRLF Injection,2025-07-07
+2831902,Remitly,[CRITICAL] 0-Click Account Takeover via Password Reset [AUTH-3243] /orchestrator/v1/password_reset/start,hackerone.com/reports/2831902,285,0.0,Improper Access Control - Generic,2025-07-21
+2841362,Node.js,GOAWAY HTTP/2 frames cause memory leak outside heap,hackerone.com/reports/2841362,13,0.0,Uncontrolled Resource Consumption,2025-02-06
+2841436,curl,information disclosure ,hackerone.com/reports/2841436,10,0.0,,2025-07-07
+2844797,IBM,Exposed Logs and Bearer Tokens on Test Endpoint,hackerone.com/reports/2844797,57,0.0,Information Disclosure,2024-12-12
+2846011,Khan Academy,"XSS on using the legacy ""Graphie To Png"" API",hackerone.com/reports/2846011,86,0.0,Cross-site Scripting (XSS) - DOM,2025-02-06
+2848610,TikTok,IDOR on ads.tiktok.com Allows Unauthorized Product Addition,hackerone.com/reports/2848610,131,500.0,Insecure Direct Object Reference (IDOR),2025-02-20
+2853023,curl,Information Disclosure at : https://curl.se/.mailmap,hackerone.com/reports/2853023,11,0.0,Information Disclosure,2025-07-07
+2853410,U.S. Dept Of Defense,XSS found in https://www.████████.mil,hackerone.com/reports/2853410,39,0.0,Cross-site Scripting (XSS) - Reflected,2025-01-24
+2855610,Shopify,Staff with Restricted Permissions Could Access Customer Data After Company Removal,hackerone.com/reports/2855610,36,0.0,Improper Access Control - Generic,2025-08-15
+2857082,U.S. Dept Of Defense,Exposed Extremely Sensitive Information in Public ZIP File,hackerone.com/reports/2857082,7,0.0,Insecure Storage of Sensitive Information,2026-01-12
+2858802,Monero,low-level p2p ping + tcp flooding leads to a remote crash in monerod,hackerone.com/reports/2858802,97,0.0,,2025-04-14
+2858876,U.S. Dept Of Defense,Unauthorized Access  Exposing Sensitive Data,hackerone.com/reports/2858876,28,0.0,Improper Authentication - Generic,2024-12-18
