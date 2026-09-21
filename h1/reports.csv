@@ -11396,3 +11396,26 @@ id,program,title,link,upvotes,bounty,vuln_type,date
 2888770,Brave Software, Incorrect security UI of files' download source on brave MacOS,hackerone.com/reports/2888770,86,0.0,User Interface (UI) Misrepresentation of Critical Information,2025-01-16
 2888784,U.S. Dept Of Defense,XSS vulnerability found in javascript code of https://███.mil,hackerone.com/reports/2888784,42,0.0,Cross-site Scripting (XSS) - Reflected,2025-01-24
 2890071,Nextcloud,admin_audit does not log actions on files in a group folder,hackerone.com/reports/2890071,38,0.0,Insufficient Logging,2025-12-05
+2891449,Yelp,"Object Level access control leads to reading user's full requests, sessions, and error messages",hackerone.com/reports/2891449,112,0.0,Improper Access Control - Generic,2025-01-18
+2894018,Bykea,Lack of Feedback Validation Permits Arbitrary Driver Ratings,hackerone.com/reports/2894018,60,0.0,Insecure Direct Object Reference (IDOR),2025-06-12
+2894222,AWS VDP,A potential risk in the aws-lambda-ecs-run-task which can be used to privilege escalation.,hackerone.com/reports/2894222,68,0.0,Incorrect Privilege Assignment,2024-12-27
+2894283,Internet Bug Bounty,netrc and redirect credential leak,hackerone.com/reports/2894283,49,505.0,Information Disclosure,2025-01-15
+2899380,IBM,POST based Cross-Site Scripting on IBM research endpoint,hackerone.com/reports/2899380,44,0.0,Cross-site Scripting (XSS) - Reflected,2025-01-23
+2899858,Mozilla,Subdomain takeover on a subdomain under firefox.com,hackerone.com/reports/2899858,75,500.0,Misconfiguration,2025-07-03
+2900606,PlayStation,sys_fsc2h_ctrl kernel stack free,hackerone.com/reports/2900606,235,10000.0,Use After Free,2025-04-18
+2902856,Nextcloud,"[nextcloud/mail] Blind SSRF to Internal Network via ""List-Unsubscribe"" SMTP Header when allow_local_remote_servers is allowed",hackerone.com/reports/2902856,25,0.0,Server-Side Request Forgery (SSRF),2025-12-23
+2904921,curl,OS Command Injection  (subprocess Module Usage),hackerone.com/reports/2904921,4,0.0,OS Command Injection,2025-07-07
+2905013,Internet Bug Bounty,[SECURITY] CVE-2024-50379 Apache Tomcat - RCE via write-enabled default servlet,hackerone.com/reports/2905013,24,0.0,Code Injection,2025-05-27
+2905532,Internet Bug Bounty,[CVE-2024-54133] Possible Content Security Policy bypass in Action Dispatch,hackerone.com/reports/2905532,30,0.0,Cross-site Scripting (XSS) - Generic,2025-02-06
+2905552,curl,bypass of this Fixed #2437131 [ Inadequate Protocol Restriction Enforcement in curl ],hackerone.com/reports/2905552,30,0.0,Cleartext Transmission of Sensitive Information,2024-12-19
+2912194,Monero,Remote memory exhaustion in Epee RPC stack under zero Receive Window,hackerone.com/reports/2912194,24,0.0,Uncontrolled Resource Consumption,2025-04-23
+2912277,curl,Hackers Attack Curl Vulnerability Accessing Sensitive Information,hackerone.com/reports/2912277,48,0.0,Information Disclosure,2024-12-27
+2913312,Node.js,Usage of unsafe random function in undici for choosing boundary,hackerone.com/reports/2913312,24,0.0,Use of Insufficiently Random Values,2025-01-23
+2914705,Cosmos,Making transfer v2 channel unupgradable through the forwarding ,hackerone.com/reports/2914705,26,0.0,Business Logic Errors,2025-06-30
+2914739,U.S. Dept Of Defense,Secret Access Key of AWS Firehose Disclosure,hackerone.com/reports/2914739,5,0.0,Information Disclosure,2026-01-12
+2915426,curl,Git repository found,hackerone.com/reports/2915426,10,0.0,Information Disclosure,2025-07-07
+2915502,XVIDEOS,Lack of Rate Limiting on Account Creation Endpoint  ,hackerone.com/reports/2915502,110,200.0,,2025-01-16
+2915647,Mozilla,Netlify Authentication Token Exposed in Public Mozilla CI Logs,hackerone.com/reports/2915647,123,0.0,Information Disclosure,2025-05-13
+2917232,curl,CVE-2025-0167: netrc and default credential leak,hackerone.com/reports/2917232,36,0.0,LLM06: Sensitive Information Disclosure,2025-02-07
+2917368,Cosmos,Replacing ICA active channel during the upgrade and a bit more,hackerone.com/reports/2917368,22,0.0,Business Logic Errors,2025-06-30
+2919623,IBM,There is a POST based CSRF issue over IBM endpoint leading to modification of contact information. ,hackerone.com/reports/2919623,37,0.0,Cross-Site Request Forgery (CSRF),2025-02-04
