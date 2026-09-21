@@ -11442,3 +11442,30 @@ id,program,title,link,upvotes,bounty,vuln_type,date
 2946924,curl,Authorization Header Leak via --location-trusted in Curl,hackerone.com/reports/2946924,13,0.0,Information Exposure Through Sent Data,2025-07-03
 2946927,Nextcloud,Sensitive Information Disclosure via Back Button Post Logout on https://apps.nextcloud.com/account/,hackerone.com/reports/2946927,113,0.0,,2025-03-16
 2947762,Yelp,RXSS AT https://proze.yelp.com/tmsubscribe.net/vidsn.aspx,hackerone.com/reports/2947762,56,0.0,Cross-site Scripting (XSS) - Reflected,2025-06-30
+2950536,U.S. Dept Of Defense,Applicant security exam Attachments/Documents accessible through an IDOR/BAC on the custom Apex controller on https://█████.mil ,hackerone.com/reports/2950536,141,0.0,Improper Access Control - Generic,2025-02-12
+2951803,AWS VDP,Non-Production API Endpoints for the bedrock Service Fail to Log to CloudTrail Resulting in Silent Permission Enumeration,hackerone.com/reports/2951803,25,0.0,Insufficient Logging,2025-05-28
+2954286,curl,CVE-2025-0665: eventfd double close,hackerone.com/reports/2954286,24,0.0,Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),2025-02-07
+2954320,U.S. Dept Of Defense,ASBS viewing other soldiers PII/Board/Board Voters/ETC,hackerone.com/reports/2954320,6,0.0,Information Disclosure,2026-01-12
+2954381,U.S. Dept Of Defense,ASBS Analytics Dashboard,hackerone.com/reports/2954381,5,0.0,Improper Access Control - Generic,2026-01-12
+2954547,IBM,Weak credentials found in Jenkins endpoint,hackerone.com/reports/2954547,40,0.0,,2025-02-05
+2956023,curl,CVE-2025-0725: gzip integer overflow,hackerone.com/reports/2956023,17,0.0,Integer Overflow to Buffer Overflow,2025-02-05
+2956266,XVIDEOS,Stored XSS via SMTP Error Message,hackerone.com/reports/2956266,84,250.0,Cross-site Scripting (XSS) - Stored,2025-01-24
+2957962,XVIDEOS,Open redirect,hackerone.com/reports/2957962,143,0.0,Open Redirect,2025-02-06
+2958097,Brave Software,Null Pointer Dereference by Crafted Response from AI Model,hackerone.com/reports/2958097,116,0.0,NULL Pointer Dereference,2025-03-26
+2958619,MTN Group,SQLi | in URL paths,hackerone.com/reports/2958619,148,0.0,SQL Injection,2025-03-06
+2961050,curl,curl allows SSH connection even if host is not in known_hosts,hackerone.com/reports/2961050,11,0.0,Improper Certificate Validation,2025-02-05
+2962056,Autodesk,IDOR Vulnerability Allowing Unauthorized Profile Picture Change,hackerone.com/reports/2962056,68,0.0,Insecure Direct Object Reference (IDOR),2025-02-19
+2962527,U.S. Dept Of Defense,2FA Bypass via Response Manipulation on Login Page,hackerone.com/reports/2962527,21,0.0,Authentication Bypass,2026-01-12
+2964441,Top Echelon Software,Clickjacking in main domain https://topechelon.com/,hackerone.com/reports/2964441,80,0.0,,2025-02-10
+2965143,Autodesk,Django Debug Mode Enabled - Information Disclosure on api.wwm-dev.autodesk.com,hackerone.com/reports/2965143,82,0.0,Information Exposure Through Debug Information,2025-03-18
+2965357,Autodesk,Insecure Direct Object Reference (IDOR) Vulnerability in Autodesk User Profile,hackerone.com/reports/2965357,73,0.0,Insecure Direct Object Reference (IDOR),2025-02-19
+2965723,HackerOne,Ability to access policy and updates for unauthorized program,hackerone.com/reports/2965723,124,0.0,Improper Access Control - Generic,2025-05-08
+2967032,U.S. Dept Of Defense,IDOR Exposes PII of Tens of Thousands of Users and Supervisors,hackerone.com/reports/2967032,23,0.0,Insecure Direct Object Reference (IDOR),2026-01-12
+2967634,Reddit,Exposed proxy allows to access internal reddit domains,hackerone.com/reports/2967634,294,7500.0,Improper Access Control - Generic,2025-02-24
+2968039,Autodesk,Insecure Direct Object Reference (IDOR) in GraphQL deleteProfileImages Mutation,hackerone.com/reports/2968039,79,0.0,Insecure Direct Object Reference (IDOR),2025-02-21
+2968391,U.S. Dept Of Defense,Air Force candidate PII + recruitment chat logs accessible via BAC/IDOR on █████████ (very large/significant exposure),hackerone.com/reports/2968391,18,0.0,Improper Access Control - Generic,2026-01-12
+2968559,XVIDEOS, Error Page Content Spoofing or Text Injection,hackerone.com/reports/2968559,46,0.0,Violation of Secure Design Principles,2025-02-06
+2971572,Autodesk,Stored Cross-Site Scripting found in custom integration app on https://admin.b360.autodesk.com.,hackerone.com/reports/2971572,127,0.0,Cross-site Scripting (XSS) - Stored,2025-03-14
+2972435,AWS VDP,Non-Production API Endpoints for the cloudwatch Service Fail to Log to CloudTrail Resulting in Silent Permission Enumeration,hackerone.com/reports/2972435,23,0.0,Insufficient Logging,2025-04-25
+2974307,Autodesk,Stored XSS via Post Tittle Enabling Non-Privileged User to Privileged User Exploitation on https://forums.autodesk.com/,hackerone.com/reports/2974307,139,0.0,Cross-site Scripting (XSS) - Stored,2025-02-26
+2974850,Internet Bug Bounty,CVE-2025-0725: Heap overflow in curl with Content-Encoding gzip and old libz versions,hackerone.com/reports/2974850,24,0.0,Heap Overflow,2025-04-27
