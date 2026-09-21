@@ -11419,3 +11419,26 @@ id,program,title,link,upvotes,bounty,vuln_type,date
 2917232,curl,CVE-2025-0167: netrc and default credential leak,hackerone.com/reports/2917232,36,0.0,LLM06: Sensitive Information Disclosure,2025-02-07
 2917368,Cosmos,Replacing ICA active channel during the upgrade and a bit more,hackerone.com/reports/2917368,22,0.0,Business Logic Errors,2025-06-30
 2919623,IBM,There is a POST based CSRF issue over IBM endpoint leading to modification of contact information. ,hackerone.com/reports/2919623,37,0.0,Cross-Site Request Forgery (CSRF),2025-02-04
+2921724,Internet Bug Bounty,Deadlock in x86 HVM standard VGA handling,hackerone.com/reports/2921724,87,2162.0,Improper Input Validation,2025-03-07
+2921830,TikTok,Unauthorized Access to Private Video Description via Translation API for Private Accounts,hackerone.com/reports/2921830,81,0.0,Insecure Direct Object Reference (IDOR),2025-06-27
+2921905,Doppler,WAF bypass and java script incomplete handling of Unicode characters might leads to dom-xss,hackerone.com/reports/2921905,34,0.0,Improper Access Control - Generic,2025-01-13
+2923061,1Password - Enterprise Password Manager,API Key Exposed in JavaScript File on 1Password Developer Site,hackerone.com/reports/2923061,62,0.0,Information Disclosure,2025-07-18
+2925666,Nextcloud,Blind SSRF Vulnerability in Appstore Release Upload Form,hackerone.com/reports/2925666,43,0.0,Improper Access Control - Generic,2025-01-14
+2926361,AWS VDP,Non-Production API Endpoints for the ssm Service Fail to Log to CloudTrail Resulting in Silent Permission Enumeration,hackerone.com/reports/2926361,37,0.0,Insufficient Logging,2025-04-24
+2926447,U.S. Dept Of Defense,"Public google drive link Exposes Military Orders Containing PII (Name, SSN etc..) and Operational Details",hackerone.com/reports/2926447,99,0.0,Information Disclosure,2025-01-24
+2928785,U.S. Dept Of Defense,ASP.NET Application Trace Enabled,hackerone.com/reports/2928785,4,0.0,Information Exposure Through Debug Information,2026-01-12
+2930811,Cosmos,Attacker can use any non-enabled capability,hackerone.com/reports/2930811,81,2000.0,Privilege Escalation,2025-01-15
+2931636,Internet Bug Bounty, ActionView sanitize helper bypass with style and math,hackerone.com/reports/2931636,20,0.0,,2025-02-06
+2931639,Internet Bug Bounty,ActionView sanitize helper bypass with style,hackerone.com/reports/2931639,19,0.0,Cross-site Scripting (XSS) - Generic,2025-02-06
+2931688,Internet Bug Bounty,ActionView sanitize helper bypass with 'style' and 'svg' tags,hackerone.com/reports/2931688,25,0.0,Cross-site Scripting (XSS) - Generic,2025-02-06
+2931691,Internet Bug Bounty,ActionView sanitize helper bypass with noscript,hackerone.com/reports/2931691,22,0.0,Cross-site Scripting (XSS) - Generic,2025-02-06
+2931710,Internet Bug Bounty,#2931639   ActionView sanitize helper bypass with math-related tags,hackerone.com/reports/2931710,22,0.0,Cross-site Scripting (XSS) - Generic,2025-02-06
+2932960,Stripo Inc,[my.stripo.email] Blind SSRF Vulnerability in Stripo App Export via Missing Endpoints Export Email Message to Zapier,hackerone.com/reports/2932960,91,0.0,Server-Side Request Forgery (SSRF),2025-12-01
+2937622,HackerOne,Public GitHub repositories for multiple HackerOne managed triage team profiles contain private HackerOne reports information,hackerone.com/reports/2937622,224,0.0,Information Disclosure,2025-05-31
+2939077,Internet Bug Bounty,CVE-2024-56374 Potential denial-of-service in IPv6 validation,hackerone.com/reports/2939077,29,0.0,Allocation of Resources Without Limits or Throttling,2025-02-06
+2939104,Internet Bug Bounty,CVE-2024-56374:  Denial-of-service vulnerability in IPv6 validation,hackerone.com/reports/2939104,25,2162.0,,2025-05-27
+2941920,curl,Elevation of Privileges (EoP) vulnerabilities related to the some easy_options on Windows,hackerone.com/reports/2941920,14,0.0,Privilege Escalation,2025-07-03
+2944357,Yelp,Unauthorized Reservation Cancellation Through IDOR Vulnerability,hackerone.com/reports/2944357,78,0.0,Insecure Direct Object Reference (IDOR),2025-01-29
+2946924,curl,Authorization Header Leak via --location-trusted in Curl,hackerone.com/reports/2946924,13,0.0,Information Exposure Through Sent Data,2025-07-03
+2946927,Nextcloud,Sensitive Information Disclosure via Back Button Post Logout on https://apps.nextcloud.com/account/,hackerone.com/reports/2946927,113,0.0,,2025-03-16
+2947762,Yelp,RXSS AT https://proze.yelp.com/tmsubscribe.net/vidsn.aspx,hackerone.com/reports/2947762,56,0.0,Cross-site Scripting (XSS) - Reflected,2025-06-30
