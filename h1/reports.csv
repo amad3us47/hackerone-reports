@@ -11469,3 +11469,29 @@ id,program,title,link,upvotes,bounty,vuln_type,date
 2972435,AWS VDP,Non-Production API Endpoints for the cloudwatch Service Fail to Log to CloudTrail Resulting in Silent Permission Enumeration,hackerone.com/reports/2972435,23,0.0,Insufficient Logging,2025-04-25
 2974307,Autodesk,Stored XSS via Post Tittle Enabling Non-Privileged User to Privileged User Exploitation on https://forums.autodesk.com/,hackerone.com/reports/2974307,139,0.0,Cross-site Scripting (XSS) - Stored,2025-02-26
 2974850,Internet Bug Bounty,CVE-2025-0725: Heap overflow in curl with Content-Encoding gzip and old libz versions,hackerone.com/reports/2974850,24,0.0,Heap Overflow,2025-04-27
+2976481,Cosmos,Unauthorized coins transfer from locking account(s),hackerone.com/reports/2976481,80,0.0,Improper Access Control - Generic,2025-06-29
+2978267,Internet Bug Bounty,TLS client authentication can be bypassed due to ticket resumption,hackerone.com/reports/2978267,31,2162.0,Improper Authentication - Generic,2025-05-27
+2978923,Autodesk,HTML Injection in Business Name Parameter in Payapps,hackerone.com/reports/2978923,75,0.0,Code Injection,2025-04-07
+2979148,XVIDEOS,Error Page Content Spoofing or Text Injection,hackerone.com/reports/2979148,37,0.0,Violation of Secure Design Principles,2025-02-07
+2979153,XVIDEOS, API Data Leakage Vulnerability Report - `xvcams.com`,hackerone.com/reports/2979153,33,0.0,Information Exposure Through Sent Data,2025-02-09
+2979176,XVIDEOS,Unauthenticated API Access Exposing Premium Content and Financial Data,hackerone.com/reports/2979176,46,0.0,Information Exposure Through Sent Data,2025-02-09
+2979238,AWS VDP,"Amazon Comprehend Medical Service Reporting ""AWS Internal"" for CloudTrail Events Generated from FIPS Endpoints",hackerone.com/reports/2979238,29,0.0,Insufficient Logging,2025-02-25
+2981210,AWS VDP,Non-Production API Endpoints for the Datazone Service Fail to Log to CloudTrail Resulting in Silent Permission Enumeration,hackerone.com/reports/2981210,50,0.0,Insufficient Logging,2025-02-26
+2981245,curl,"(""possible"") UAF",hackerone.com/reports/2981245,29,0.0,Memory Corruption - Generic,2025-02-08
+2981303,curl,TLS Cipher Misconfiguration in HTTP/3/QUIC Support,hackerone.com/reports/2981303,5,0.0,,2025-07-06
+2981756,Autodesk,Wordpress users Disclosure,hackerone.com/reports/2981756,69,0.0,Information Disclosure,2025-02-12
+2987782,Internet Bug Bounty,Possible DoS by memory exhaustion in net/imap ,hackerone.com/reports/2987782,18,0.0,Uncontrolled Resource Consumption,2025-04-27
+2990139,curl,"Format string vulnerability, curl_msnprintf() function ",hackerone.com/reports/2990139,15,0.0,Use of Externally-Controlled Format String,2025-02-20
+2990368,Hemi VDP,Linkedin Broken Link Hijacking on https://hemi.xyz/about,hackerone.com/reports/2990368,110,0.0,Externally Controlled Reference to a Resource in Another Sphere,2025-02-13
+2991326,Hemi VDP,Cloudflare WAF Bypass - Origin IP Exposure,hackerone.com/reports/2991326,118,0.0,,2025-03-27
+2994013,Hemi VDP,Broken X (Twitter) link on hemi.xyz/about,hackerone.com/reports/2994013,36,0.0,Externally Controlled Reference to a Resource in Another Sphere,2025-02-25
+2995025,Mozilla,Mozilla VPN Clients: RCE via file write and path traversal,hackerone.com/reports/2995025,172,6000.0,Path Traversal,2025-07-29
+2997549,Autodesk,CVE-2023-5561 on Payapps.com,hackerone.com/reports/2997549,40,0.0,Information Disclosure,2025-03-05
+2997774,Hemi VDP,VSCode launch.json file exposed on hemi.xyz,hackerone.com/reports/2997774,38,0.0,Information Exposure Through Debug Information,2025-02-21
+2999116,AWS VDP,Non-Production API Endpoints for the Device Farm Service Fail to Log to CloudTrail Resulting in Silent Permission Enumeration,hackerone.com/reports/2999116,30,0.0,Insufficient Logging,2025-03-04
+2999394,WordPress,Pivilege escalation of any new user to Keymaster caused by CSRF,hackerone.com/reports/2999394,61,0.0,Privilege Escalation,2025-09-13
+3000510,HackerOne,The /reports/:id.json endpoint discloses potentially sensitive user attributes when reporter summary is present,hackerone.com/reports/3000510,625,0.0,Information Disclosure,2025-04-01
+3000639,curl,curl doesn't hide credentials in /proc/XXX/cmdline provided via CLI arguments,hackerone.com/reports/3000639,14,0.0,Cleartext Transmission of Sensitive Information,2025-07-03
+3002345,Autodesk,Exposing debug.log file leads to server full path disclosure,hackerone.com/reports/3002345,56,0.0,Information Disclosure,2025-03-06
+3002543,Internet Bug Bounty,CVE-2024-43398: DoS vulnerability in REXML,hackerone.com/reports/3002543,45,505.0,Uncontrolled Resource Consumption,2025-04-27
+3003716,WakaTime,User Email Disclosure via ID-Based Invitation,hackerone.com/reports/3003716,72,0.0,Information Disclosure,2025-02-22
