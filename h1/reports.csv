@@ -11528,3 +11528,23 @@ id,program,title,link,upvotes,bounty,vuln_type,date
 3031512,AWS VDP,Non-Production API Endpoints for the Glue Service Fail to Log to CloudTrail Resulting in Silent Permission Enumeration,hackerone.com/reports/3031512,18,0.0,Insufficient Logging,2025-04-25
 3031518,Internet Bug Bounty,CVE-2025-24813: Remote Code Execution and/or Information disclosure and/or malicious content added to uploaded files via write enabled Default Servlet,hackerone.com/reports/3031518,56,4323.0,Deserialization of Untrusted Data,2025-04-27
 3035275,Autodesk,Twitter broken link hijacking in thewild.com,hackerone.com/reports/3035275,87,0.0,Origin Validation Error,2025-03-24
+3037326,curl,Free of uninitialized pointer in doh_decode_rdata_name(),hackerone.com/reports/3037326,8,0.0,Use After Free,2025-06-28
+3037447,TikTok,"Stored XSS on TikTok's backend leads to the leakage of highly sensitive administrator data (Cookies, API Keys, Internal Paths, Emails, phone numbers).",hackerone.com/reports/3037447,101,0.0,Cross-site Scripting (XSS) - Stored,2025-09-11
+3037583,curl,Buffer Overflow in curl's Rustls Backend,hackerone.com/reports/3037583,8,0.0,Integer Overflow,2025-06-30
+3040887,Nextcloud,Users can modify tags on files that do not belong to them,hackerone.com/reports/3040887,20,150.0,Improper Access Control - Generic,2026-01-04
+3042475,Nintendo,Splatoon 3 Anticheat Seed Randomization Weakness,hackerone.com/reports/3042475,55,0.0,Use of Cryptographically Weak Pseudo-Random Number Generator (PRNG),2026-02-19
+3042588,AWS VDP,Non-Production API Endpoints for the Health Service Fail to Log to CloudTrail Resulting in Silent Permission Enumeration,hackerone.com/reports/3042588,21,0.0,Insufficient Logging,2025-05-28
+3042984,1Password - Enterprise Password Manager,#**CSV Injection in shared passwords leads to complete Private Vault Exfiltration**,hackerone.com/reports/3042984,75,0.0,Improper Neutralization of Formula Elements in a CSV File,2025-04-12
+3044471,AWS VDP,"Amazon Kendra Intelligent Ranking Service Reporting ""AWS Internal"" for CloudTrail Events Generated from FIPS Endpoints",hackerone.com/reports/3044471,16,0.0,Insufficient Logging,2025-05-28
+3045390,curl,Double free caused by mqtt_doing(),hackerone.com/reports/3045390,8,0.0,Double Free,2025-06-30
+3045455,Autodesk,Reflected XSS Vulnerability in SVG File at area-resources-stg.autodesk.com,hackerone.com/reports/3045455,93,0.0,Cross-site Scripting (XSS) - Stored,2025-04-17
+3048061,Nintendo,"[Xenoblade Chronicles X: Definitive Edition] Buffer overflow in string escape function, multiplayer DoS",hackerone.com/reports/3048061,2,0.0,Classic Buffer Overflow,2025-05-15
+3051155,IBM,Information disclosure on IBM training service endpoint,hackerone.com/reports/3051155,49,0.0,Insecure Direct Object Reference (IDOR),2025-04-29
+3052880,Nintendo,[Xenoblade Chronicles X: Definitive Edition] Improper validation of names allows injecting formatting tags and bypassing profanity filter,hackerone.com/reports/3052880,40,0.0,,2025-05-15
+3053220,U.S. Dept Of Defense,XSS on ███,hackerone.com/reports/3053220,11,0.0,Cross-site Scripting (XSS) - Reflected,2026-01-12
+3056937,AWS VDP,Bedrock Guardrails Evasion with Prompt Formatting,hackerone.com/reports/3056937,53,0.0,,2025-05-15
+3058919,Discourse,Application Level DoS - Large Markdown Payload in Reply Section Leading to Resource Exhaustion,hackerone.com/reports/3058919,84,0.0,Uncontrolled Resource Consumption,2025-10-18
+3060373,IBM,Path Traversal Vulnerability found on IBM Cloud,hackerone.com/reports/3060373,63,0.0,Path Traversal,2025-05-07
+3062122,Nintendo,[Xenoblade Chronicles X: Definitive Edition] Unrestricted RPCs allow DoS and writing arbitrary flags remotely,hackerone.com/reports/3062122,65,0.0,Resource Injection,2025-05-15
+3062299,Hiro,Logout Bypass Vulnerability in Hiro.so,hackerone.com/reports/3062299,44,150.0,Insufficient Session Expiration,2025-10-31
+3063026,Mars,debug.log leaked [█████████],hackerone.com/reports/3063026,40,0.0,Information Disclosure,2025-05-12
