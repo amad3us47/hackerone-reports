@@ -11495,3 +11495,36 @@ id,program,title,link,upvotes,bounty,vuln_type,date
 3002345,Autodesk,Exposing debug.log file leads to server full path disclosure,hackerone.com/reports/3002345,56,0.0,Information Disclosure,2025-03-06
 3002543,Internet Bug Bounty,CVE-2024-43398: DoS vulnerability in REXML,hackerone.com/reports/3002543,45,505.0,Uncontrolled Resource Consumption,2025-04-27
 3003716,WakaTime,User Email Disclosure via ID-Based Invitation,hackerone.com/reports/3003716,72,0.0,Information Disclosure,2025-02-22
+3006666,U.S. Dept Of Defense,Error-based blind SQL injection,hackerone.com/reports/3006666,6,0.0,SQL Injection,2026-01-12
+3008066,Autodesk,Stored XSS in AREA tutorials,hackerone.com/reports/3008066,73,0.0,Cross-site Scripting (XSS) - Stored,2025-08-25
+3008446,Ruby on Rails,1-Click Cross-Site Scripting via Custom Configuration in SafeListSanitizer,hackerone.com/reports/3008446,70,0.0,Cross-site Scripting (XSS) - Generic,2025-04-09
+3008481,U.S. Dept Of Defense,Exposed Sensitive PDF: Misconfigured Access Controls Leading to Information Disclosure,hackerone.com/reports/3008481,6,0.0,Information Disclosure,2026-01-12
+3008878,LY Corporation,Stored XSS via SVG Upload in chat.line.biz,hackerone.com/reports/3008878,39,100.0,,2026-01-05
+3009411,AWS VDP,Non-Production API Endpoints for the DocumentDB Elastic Service Fail to Log to CloudTrail Resulting in Silent Permission Enumeration,hackerone.com/reports/3009411,45,0.0,Insufficient Logging,2025-03-11
+3011146,U.S. Dept Of Defense,Sensitive Images & Files Exposed Through Directory Listing,hackerone.com/reports/3011146,2,0.0,Information Exposure Through Directory Listing,2026-01-12
+3012526,TikTok,Chained Broken Access Control in TikTok Live Backstage Enables Full Control of Public Leaderboard Activities,hackerone.com/reports/3012526,89,0.0,Privilege Escalation,2025-09-11
+3013913,Internet Bug Bounty,[CVE-2025-27219] Denial of Service in CGI::Cookie.parse,hackerone.com/reports/3013913,19,0.0,Uncontrolled Resource Consumption,2025-04-27
+3014158,PortSwigger Web Security,Burp Suite extensions can execute arbitrary code,hackerone.com/reports/3014158,84,0.0,,2025-02-26
+3014785,AWS VDP,(Part 2) Non-Production API Endpoints for the Datazone Service Fail to Log to CloudTrail Resulting in Silent Permission Enumeration,hackerone.com/reports/3014785,56,0.0,Insufficient Logging,2025-04-08
+3016540,XVIDEOS,Enable 2FA without verifying the email,hackerone.com/reports/3016540,69,0.0,Improper Access Control - Generic,2025-05-09
+3017105,AWS VDP,Sensitive API Key Leakage,hackerone.com/reports/3017105,41,0.0,Cleartext Storage of Sensitive Information,2025-03-04
+3018307,Cosmos,Groups module can halt chain when handling a proposal with malicious group weights ,hackerone.com/reports/3018307,91,15000.0,,2025-04-23
+3019290,U.S. Dept Of Defense,Exposure of Sensitive Debug File Containing database dump with passwords in plain text,hackerone.com/reports/3019290,7,0.0,Information Disclosure,2026-01-12
+3020021,Mozilla,[Vertical Privilege Escalation] User can Unapproved any Approved Translation at [/translations/unapprove/],hackerone.com/reports/3020021,45,0.0,Privilege Escalation,2026-04-10
+3020733,Malwarebytes,Email Verification Bypass via Race Condition,hackerone.com/reports/3020733,69,0.0,Improper Authentication - Generic,2025-08-15
+3021451,AWS VDP,Non-Production API Endpoint for the ElastiCache Service Fails to Log to CloudTrail Resulting in Silent Permission Enumeration,hackerone.com/reports/3021451,40,0.0,Insufficient Logging,2025-04-25
+3021618,AWS VDP,Non-Production API Endpoint for the EventBridge Service Fails to Log to CloudTrail Resulting in Silent Permission Enumeration,hackerone.com/reports/3021618,26,0.0,Insufficient Logging,2025-05-28
+3022041,curl,"Use after free (read) in curl_multi_perform with DoH and Proxy options, and resolve timeouts",hackerone.com/reports/3022041,26,0.0,Use After Free,2025-03-06
+3022516,AWS VDP,Non-Production API Endpoints for the Forecast Service Fail to Log to CloudTrail Resulting in Silent Permission Enumeration,hackerone.com/reports/3022516,75,0.0,Insufficient Logging,2025-03-24
+3023139,curl,Memory leak of ftp (with proxy reuse),hackerone.com/reports/3023139,20,0.0,,2025-07-01
+3023605,Internet Bug Bounty,[CVE-2025-27220] ReDoS in CGI::Util#escapeElement,hackerone.com/reports/3023605,2,0.0,Uncontrolled Resource Consumption,2025-04-30
+3024673,Autodesk,SSRF in Autodesk Rendering leading to account takeover,hackerone.com/reports/3024673,161,0.0,Server-Side Request Forgery (SSRF),2025-03-18
+3025797,Mozilla,[Privilege Escalation] User can Pin|Unpin Any Comment on Any Project or Locale,hackerone.com/reports/3025797,59,0.0,Privilege Escalation,2026-03-20
+3027405,U.S. Dept Of Defense,Information Disclosure in API Endpoint /users,hackerone.com/reports/3027405,29,0.0,Information Disclosure,2026-01-12
+3027461,Cloudflare Public Bug Bounty,Bypass of Cloudflare's Cache Keys and WAF via header overflow,hackerone.com/reports/3027461,74,0.0,Improper Access Control - Generic,2025-11-18
+3027478,TikTok,Chain Vulnerability lead to Full Control Group Live Accounts & Undeletable Creator,hackerone.com/reports/3027478,98,0.0,Privilege Escalation,2025-07-08
+3029552,AWS VDP,Non-Production API Endpoints for the Global Accelerator Service Fail to Log to CloudTrail Resulting in Silent Permission Enumeration,hackerone.com/reports/3029552,23,0.0,Insufficient Logging,2025-05-28
+3030158,curl,Improper Restriction of Authentication Attempts in cURL,hackerone.com/reports/3030158,7,0.0,Improper Restriction of Authentication Attempts,2025-06-28
+3031512,AWS VDP,Non-Production API Endpoints for the Glue Service Fail to Log to CloudTrail Resulting in Silent Permission Enumeration,hackerone.com/reports/3031512,18,0.0,Insufficient Logging,2025-04-25
+3031518,Internet Bug Bounty,CVE-2025-24813: Remote Code Execution and/or Information disclosure and/or malicious content added to uploaded files via write enabled Default Servlet,hackerone.com/reports/3031518,56,4323.0,Deserialization of Untrusted Data,2025-04-27
+3035275,Autodesk,Twitter broken link hijacking in thewild.com,hackerone.com/reports/3035275,87,0.0,Origin Validation Error,2025-03-24
