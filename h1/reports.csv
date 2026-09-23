@@ -11574,3 +11574,29 @@ id,program,title,link,upvotes,bounty,vuln_type,date
 3091390,Revive Adserver,Reflected Cross-Site Scripting (XSS) in Revive Adserver 5.5.2,hackerone.com/reports/3091390,49,0.0,Cross-site Scripting (XSS) - Reflected,2025-10-22
 3091909,WakaTime,"Leaked credentials ( emails and passwords , etc...)",hackerone.com/reports/3091909,77,0.0,Information Disclosure,2025-04-16
 3092085,AWS VDP,Non-Production API Endpoints for the Route 53 Service Fail to Log to CloudTrail Resulting in Silent Permission Enumeration,hackerone.com/reports/3092085,14,0.0,Insufficient Logging,2025-05-27
+3094406,curl,Heap‑based buffer overflow in curl -K <config_file> allows arbitrary write .,hackerone.com/reports/3094406,29,0.0,Heap Overflow,2025-04-27
+3097900,RubyGems,`/names.nsf` and all `/names*` files route to public API on rubygems.org,hackerone.com/reports/3097900,46,0.0,Improper Access Control - Generic,2025-05-03
+3098717,WakaTime,user api key leaked,hackerone.com/reports/3098717,65,0.0,Information Disclosure,2025-05-13
+3099816,Lichess,Open Redirect Vulnerability in OAuth Flow Leading to Potential Phishing Attack,hackerone.com/reports/3099816,70,0.0,Open Redirect,2025-05-15
+3099978,Khan Academy,Leaked reused password for a few Khan Academy users,hackerone.com/reports/3099978,92,0.0,Cleartext Storage of Sensitive Information,2025-07-12
+3100073,curl,Path Traversal Vulnerability in curl via Unsanitized IPFS_PATH Environment Variable,hackerone.com/reports/3100073,8,0.0,Path Traversal,2025-06-28
+3100570,pixiv,Bypassing Inbox Privacy Settings and Enabling Spam on Pixiv.net,hackerone.com/reports/3100570,53,0.0,Improper Access Control - Generic,2026-04-27
+3101127,curl,Buffer Overflow in curl MQTT Test Server (tests/server/mqttd.c) via Malicious CONNECT Packet,hackerone.com/reports/3101127,11,0.0,Memory Corruption - Generic,2025-06-28
+3101207,Dust,Improper Session Invalidation – Auto Sign-In Without Credentials After Logout (Affects Chrome & Firefox),hackerone.com/reports/3101207,56,0.0,Insufficient Session Expiration,2025-04-29
+3101858,Dust,Unauthorized Table Creation by Member,hackerone.com/reports/3101858,52,0.0,Improper Access Control - Generic,2025-04-23
+3101986,Dust,UI flaw allows unauthorized users to add documents to restricted folders,hackerone.com/reports/3101986,56,0.0,Improper Access Control - Generic,2025-04-23
+3102890,Dust,User Limit Bypass via Pending Invitations in Workspace System,hackerone.com/reports/3102890,49,0.0,Business Logic Errors,2025-04-29
+3103755,Dust,Privilege Escalation in Edit and Create Secret Endpoints Leads to Unauthorized Secret Modification,hackerone.com/reports/3103755,85,0.0,Improper Access Control - Generic,2025-04-24
+3103849,Dust,"Privilege Escalation leads to Unauthorized Access to Private Conversations By any Regular user  [Read , Edit and Delete]",hackerone.com/reports/3103849,61,0.0,Privilege Escalation,2025-04-29
+3104355,Dust,Race Condition in Folder Creation Allows Bypassing Folder Limit,hackerone.com/reports/3104355,65,0.0,Business Logic Errors,2025-04-29
+3104356,PlayStation,Blu-ray Disc Java Sandbox Escape via two vulnerabilities ,hackerone.com/reports/3104356,144,5000.0,Execution with Unnecessary Privileges,2025-10-18
+3108869,Internet Bug Bounty,Denial of Service by memory exhaustion in net/imap,hackerone.com/reports/3108869,23,0.0,Allocation of Resources Without Limits or Throttling,2025-04-27
+3112033,Nextcloud,Calendar attachments of local files are offered to downloaded,hackerone.com/reports/3112033,22,0.0,Improper Handling of Unexpected Data Type,2025-12-05
+3112106,Dust,BAC – Bypass chatbot restrictions via unauthorized mention injection,hackerone.com/reports/3112106,64,0.0,,2025-05-06
+3113398,HackerOne,Internal Access to Hackerone confluence Docs,hackerone.com/reports/3113398,227,12500.0,Misconfiguration,2025-08-15
+3114132,WakaTime,Broken Access Control Exposes Email Verification Status and Privacy Settings via API Endpoint,hackerone.com/reports/3114132,57,0.0,Improper Access Control - Generic,2025-04-29
+3114554,Dust,Privilege Persistence via Cloned Agent,hackerone.com/reports/3114554,91,0.0,Improper Access Control - Generic,2025-04-30
+3115705,Dust,Stored XSS in File Upload Leads to Privilege Escalation and Full Workspace Takeover,hackerone.com/reports/3115705,117,0.0,Cross-site Scripting (XSS) - Stored,2025-05-02
+3116935,curl,Use of a Broken or Risky Cryptographic Algorithm (CWE-327) in libcurl,hackerone.com/reports/3116935,21,0.0,Use of a Broken or Risky Cryptographic Algorithm,2025-04-29
+3117697,curl,Double Free Vulnerability in `libcurl` Cookie Management (`cookie.c`),hackerone.com/reports/3117697,27,0.0,Double Free,2025-04-29
+3118915,curl,Potential XSS vector in curl via unsanitized URL parameter handling,hackerone.com/reports/3118915,8,0.0,Code Injection,2025-06-30
