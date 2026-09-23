@@ -11548,3 +11548,29 @@ id,program,title,link,upvotes,bounty,vuln_type,date
 3062122,Nintendo,[Xenoblade Chronicles X: Definitive Edition] Unrestricted RPCs allow DoS and writing arbitrary flags remotely,hackerone.com/reports/3062122,65,0.0,Resource Injection,2025-05-15
 3062299,Hiro,Logout Bypass Vulnerability in Hiro.so,hackerone.com/reports/3062299,44,150.0,Insufficient Session Expiration,2025-10-31
 3063026,Mars,debug.log leaked [█████████],hackerone.com/reports/3063026,40,0.0,Information Disclosure,2025-05-12
+3066548,Mars,███████ - Publicly Accessible public_html Directory Exposing WordPress Configuration,hackerone.com/reports/3066548,29,0.0,Information Disclosure,2026-02-24
+3066992,U.S. Dept Of Defense,Debug Info disclose ,hackerone.com/reports/3066992,9,0.0,Information Exposure Through Debug Information,2026-01-12
+3068422,AWS VDP,Non-Production API Endpoints for the Neptune Graph Service Fail to Log to CloudTrail Resulting in Silent Permission Enumeration,hackerone.com/reports/3068422,17,0.0,Insufficient Logging,2025-05-27
+3068485,Lichess,Direct IP Access to Website,hackerone.com/reports/3068485,95,0.0,,2025-04-11
+3072841,AWS VDP,"Amazon Pinpoint SMS and Voice, version 2  Service Reporting ""AWS Internal"" for CloudTrail Events Generated from FIPS Endpoints",hackerone.com/reports/3072841,18,0.0,Insufficient Logging,2025-05-28
+3073507,Internet Bug Bounty,Apache Airflow Fab Provider: Application does not invalidate session after password change via Airflow cli,hackerone.com/reports/3073507,57,0.0,Insufficient Session Expiration,2025-05-29
+3078508,U.S. Dept Of Defense,[Critical Data Breach] Exposure of PII Data Leak via API Response,hackerone.com/reports/3078508,8,0.0,Cleartext Storage of Sensitive Information,2026-01-12
+3078856,Internet Bug Bounty,Apache Airflow Sql injection by authenticated user,hackerone.com/reports/3078856,35,505.0,SQL Injection,2025-05-27
+3079738,Basecamp,Two click Account Takeover ,hackerone.com/reports/3079738,77,0.0,Deserialization of Untrusted Data,2025-11-11
+3079931,RubyGems,Memory leak in gem decode logic can allow attacker to take down Rubygems.org application,hackerone.com/reports/3079931,33,0.0,Uncontrolled Resource Consumption,2026-04-09
+3079966,LinkedIn,HTML Injection in LinkedIn Premium Support Chat,hackerone.com/reports/3079966,102,0.0,,2025-05-07
+3080597,Khan Academy,Unauthorized Account Access via Leaked Credentials in URL Format (Account Takeover ),hackerone.com/reports/3080597,107,0.0,Cleartext Storage of Sensitive Information,2025-05-07
+3081691,hostinger ,1 Click Account Takeover via Auth Token Theft on marketing.hostinger.com,hackerone.com/reports/3081691,218,0.0,Improper Access Control - Generic,2025-06-06
+3082917,Internet Bug Bounty,Possible Sensitive Session Information Leak in Active Storage,hackerone.com/reports/3082917,82,4323.0,Information Disclosure,2025-04-27
+3083011,AWS VDP,Private AWS AMIs are temporarily being exposed publicly,hackerone.com/reports/3083011,4,0.0,,2025-05-29
+3083428,Node.js,Corrupted pointer in node::fs::ReadFileUtf8(const FunctionCallbackInfo<Value>& args) when args[0] is a string.,hackerone.com/reports/3083428,59,0.0,Memory Corruption - Generic,2025-05-15
+3085742,Bykea,IDOR on in-app hardcoded zombie endpoint  ,hackerone.com/reports/3085742,128,0.0,Insecure Direct Object Reference (IDOR),2025-06-13
+3085889,Lichess,Weak Rate Limiting Controls in the (LOGIN) page Expose System to Brute Force and DoS Attacks,hackerone.com/reports/3085889,73,0.0,,2025-05-15
+3086301,Brave Software,Prompt Injection via GitHub Patch in Brave AI Chat (Leo),hackerone.com/reports/3086301,77,0.0,LLM01: Prompt Injection,2025-08-22
+3088290,IBM,Middleware Authentication Bypass on IBM Portal,hackerone.com/reports/3088290,80,0.0,Command Injection - Generic,2025-05-02
+3089595,curl,Memory leak from doh_write_cb,hackerone.com/reports/3089595,9,0.0,Allocation of Resources Without Limits or Throttling,2025-06-29
+3090123,Mars,insecure deserilize object leads to RCE On Sitecore (CVE-██████████-27218),hackerone.com/reports/3090123,59,0.0,Deserialization of Untrusted Data,2025-05-12
+3090641,WakaTime,Login Information and Credentials Have Been Leaked on wakatime.com,hackerone.com/reports/3090641,74,0.0,Information Disclosure,2025-04-13
+3091390,Revive Adserver,Reflected Cross-Site Scripting (XSS) in Revive Adserver 5.5.2,hackerone.com/reports/3091390,49,0.0,Cross-site Scripting (XSS) - Reflected,2025-10-22
+3091909,WakaTime,"Leaked credentials ( emails and passwords , etc...)",hackerone.com/reports/3091909,77,0.0,Information Disclosure,2025-04-16
+3092085,AWS VDP,Non-Production API Endpoints for the Route 53 Service Fail to Log to CloudTrail Resulting in Silent Permission Enumeration,hackerone.com/reports/3092085,14,0.0,Insufficient Logging,2025-05-27
