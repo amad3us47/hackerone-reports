@@ -11600,3 +11600,37 @@ id,program,title,link,upvotes,bounty,vuln_type,date
 3116935,curl,Use of a Broken or Risky Cryptographic Algorithm (CWE-327) in libcurl,hackerone.com/reports/3116935,21,0.0,Use of a Broken or Risky Cryptographic Algorithm,2025-04-29
 3117697,curl,Double Free Vulnerability in `libcurl` Cookie Management (`cookie.c`),hackerone.com/reports/3117697,27,0.0,Double Free,2025-04-29
 3118915,curl,Potential XSS vector in curl via unsanitized URL parameter handling,hackerone.com/reports/3118915,8,0.0,Code Injection,2025-06-30
+3119034,Omise,Facebook Username Takeover via Broken Link in Footer,hackerone.com/reports/3119034,110,0.0,Improper Access Control - Generic,2025-05-30
+3120790,WakaTime,Session Replay Attack Allows Authentication Bypass via Captured Login Responses Allowing Bypass of 429 Too many attempts for Multiple Failed Logins,hackerone.com/reports/3120790,54,0.0,Improper Authentication - Generic,2025-05-01
+3120969,curl,"[High] MITM via Insecure CA Path Handling in cURL (--capath, CURLOPT_CAPATH) (CWE-494: Download of Code Without Integrity Check)",hackerone.com/reports/3120969,10,0.0,Reliance on Untrusted Inputs in a Security Decision,2025-06-30
+3120987,curl,"[High] Arbitrary File Write via Path Traversal in cURL CLI (`-o`, `--output`) (CWE-22: Improper Limitation of a Pathname to a Restricted Directory)",hackerone.com/reports/3120987,7,0.0,Path Traversal,2025-06-30
+3122019,Fastify,Remote Code Execution via unsafe usage of `reply.view({ raw })` in @fastify/view (EJS template engine),hackerone.com/reports/3122019,66,0.0,,2025-05-28
+3124103,U.S. Dept Of Defense,Swagger UI Injection via Config URL - `███` ,hackerone.com/reports/3124103,4,0.0,Resource Injection,2026-01-12
+3124490,curl,Speculative Execution Side-Channel in `curl` ,hackerone.com/reports/3124490,16,0.0,Authentication Bypass by Primary Weakness,2025-07-01
+3124517,GitHub,Arbitrary Read of Another Users private repository without Authorization,hackerone.com/reports/3124517,276,10000.0,Insecure Direct Object Reference (IDOR),2025-09-23
+3125820,curl,HTTP/2 CONTINUATION Flood Vulnerability,hackerone.com/reports/3125820,14,0.0,Allocation of Resources Without Limits or Throttling,2025-06-28
+3125832,curl,HTTP/3 Stream Dependency Cycle Exploit,hackerone.com/reports/3125832,59,0.0,Improper Input Validation,2025-05-04
+3126603,Mars,RXSS on ██████ via customerId parameter,hackerone.com/reports/3126603,71,0.0,Cross-site Scripting (XSS) - Reflected,2025-07-28
+3127147,U.S. Dept Of Defense,POST XSS - data[account][id] parameter,hackerone.com/reports/3127147,6,0.0,Cross-site Scripting (XSS) - Reflected,2026-01-12
+3127152,U.S. Dept Of Defense,SQL Injection - data[account][id] parameter,hackerone.com/reports/3127152,6,0.0,SQL Injection,2026-01-12
+3127154,U.S. Dept Of Defense,POST XSS -  data[type] parameter,hackerone.com/reports/3127154,5,0.0,Cross-site Scripting (XSS) - Reflected,2026-01-12
+3127158,U.S. Dept Of Defense,POST XSS -  fields[account][firstname] parameter,hackerone.com/reports/3127158,6,0.0,Cross-site Scripting (XSS) - Reflected,2026-01-12
+3127162,U.S. Dept Of Defense,POST XSS -  fields[account][lastname] parameter,hackerone.com/reports/3127162,6,0.0,Cross-site Scripting (XSS) - Reflected,2026-01-12
+3127198,U.S. Dept Of Defense,SQL Injection - entryid parameter in 'formbuilderv2-confirmation.php',hackerone.com/reports/3127198,6,0.0,SQL Injection,2026-01-12
+3127562,U.S. Dept Of Defense,SQL Injection via URL,hackerone.com/reports/3127562,7,0.0,SQL Injection,2026-01-12
+3131758,Node.js,HashDoS in V8,hackerone.com/reports/3131758,53,0.0,Cryptographic Issues - Generic,2025-07-15
+3133253,curl,curl_easy_header runs at O(N) or worse and can be abused to use minute(s) of CPU time,hackerone.com/reports/3133253,9,0.0,Uncontrolled Resource Consumption,2025-07-01
+3133379,curl,CRLF Injection in `--proxy-header` allows extra HTTP headers (CWE-93),hackerone.com/reports/3133379,42,0.0,CRLF Injection,2025-05-08
+3135626,U.S. Dept Of Defense,Reflected XSS in `Telerik.ReportViewer.axd` with F5 BIG-IP ASM Bypass on `████`,hackerone.com/reports/3135626,5,0.0,Cross-site Scripting (XSS) - Reflected,2026-01-12
+3135673,curl,"curl -OJ allows creating custom .curlrc file which allows exfiltrating private data, among other things",hackerone.com/reports/3135673,10,0.0,,2025-07-01
+3136746,U.S. Dept Of Defense,Cross-Site Scripting via 'currentImage' parameter,hackerone.com/reports/3136746,8,0.0,Cross-site Scripting (XSS) - Reflected,2026-01-12
+3136754,U.S. Dept Of Defense,Cross-Site Scripting via 'autoPlay' parameter,hackerone.com/reports/3136754,10,0.0,Cross-site Scripting (XSS) - Reflected,2026-01-12
+3136790,Tools for Humanity,Unlock underage blocked app without support interaction using airplane mode,hackerone.com/reports/3136790,65,300.0,Business Logic Errors,2025-06-30
+3137200,U.S. Dept Of Defense,Cross-Site Scripting via 'return_link_url' parameter ,hackerone.com/reports/3137200,6,0.0,Cross-site Scripting (XSS) - Reflected,2026-01-12
+3137206,U.S. Dept Of Defense,Cross-Site Scripting via 'description_extra' parameter,hackerone.com/reports/3137206,9,0.0,Cross-site Scripting (XSS) - Reflected,2026-01-12
+3137212,U.S. Dept Of Defense,Cross-Site Scripting via 'wikitext' parameter,hackerone.com/reports/3137212,9,0.0,Cross-site Scripting (XSS) - Reflected,2026-01-12
+3137657,curl,Memory Leak,hackerone.com/reports/3137657,28,0.0,Memory Corruption - Generic,2025-05-10
+3137895,Nextcloud,Missing ownership check in Tables app allows moving columns into tables of other users,hackerone.com/reports/3137895,30,0.0,Insecure Direct Object Reference (IDOR),2025-12-05
+3138721,Nextcloud,Tables app allowed users to view columns metadata information of any table,hackerone.com/reports/3138721,29,0.0,Insecure Direct Object Reference (IDOR),2025-12-05
+3146996,Mars,[XSS] Reflected XSS via POST request in (███████),hackerone.com/reports/3146996,54,0.0,Cross-site Scripting (XSS) - Reflected,2025-06-12
+3148937,curl,`Curl_socketpair()` fallback vulnerable to man-in-the-middle attack,hackerone.com/reports/3148937,45,0.0,Man-in-the-Middle,2025-05-20
