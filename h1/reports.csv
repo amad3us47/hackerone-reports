@@ -11634,3 +11634,24 @@ id,program,title,link,upvotes,bounty,vuln_type,date
 3138721,Nextcloud,Tables app allowed users to view columns metadata information of any table,hackerone.com/reports/3138721,29,0.0,Insecure Direct Object Reference (IDOR),2025-12-05
 3146996,Mars,[XSS] Reflected XSS via POST request in (███████),hackerone.com/reports/3146996,54,0.0,Cross-site Scripting (XSS) - Reflected,2025-06-12
 3148937,curl,`Curl_socketpair()` fallback vulnerable to man-in-the-middle attack,hackerone.com/reports/3148937,45,0.0,Man-in-the-Middle,2025-05-20
+3150884,curl,CVE-2025-4947: QUIC certificate check skip with wolfSSL,hackerone.com/reports/3150884,43,0.0,Improper Validation of Certificate with Host Mismatch,2025-05-28
+3151001,LinkedIn,Previous commentor on post can still comment even after comment permission is changed to disabled,hackerone.com/reports/3151001,112,0.0,Improper Access Control - Generic,2026-02-03
+3153497,curl,CVE-2025-5025: No QUIC certificate pinning with wolfSSL,hackerone.com/reports/3153497,54,0.0,Improper Certificate Validation,2025-05-28
+3153971,curl,Stack Buffer Overflow in curl's OpenSSL Provider Handling,hackerone.com/reports/3153971,11,0.0,Stack Overflow,2025-06-28
+3154983,Mozilla,IDOR: Account Deletion via Session Misbinding – Attacker Can Delete Victim Account,hackerone.com/reports/3154983,243,0.0,Insecure Direct Object Reference (IDOR),2025-06-03
+3156384,curl,Heap buffer overflow vulnerability in conncache.c: incorrect use of pointer arrays resulting in out-of-bounds memory writes.,hackerone.com/reports/3156384,9,0.0,Heap Overflow,2025-07-01
+3158093,curl,Memory Leak in libcurl via Location Header Handling (CWE-770),hackerone.com/reports/3158093,54,0.0,Allocation of Resources Without Limits or Throttling,2025-05-22
+3159877,Nextcloud,Information disclosure via Desktop client when attempting to lock a file inside a end-to-end encrypted directory ,hackerone.com/reports/3159877,8,0.0,Information Disclosure,2026-01-04
+3160210,Lichess,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts ,hackerone.com/reports/3160210,91,0.0,Improper Restriction of Authentication Attempts,2025-06-13
+3160912,Node.js,"Windows Device Names (CON, PRN, AUX) Bypass Path Traversal Protection in path.normalize()",hackerone.com/reports/3160912,35,0.0,Path Traversal,2025-07-15
+3161827,Shopify,Session Persistence Designed to Keep Users Logged In Across Multiple Devices (Intended Behaviour),hackerone.com/reports/3161827,63,0.0,Session Fixation,2025-09-04
+3165242,Lichess,Server-Side Request Forgery (SSRF) via Game Export API,hackerone.com/reports/3165242,115,0.0,Server-Side Request Forgery (SSRF),2025-06-03
+3166579,U.S. Dept Of Defense,Cross-Site Scripting (XSS) in ASP.NET via ResolveUrl on ████ ,hackerone.com/reports/3166579,8,0.0,Cross-site Scripting (XSS) - Reflected,2026-01-12
+3166581,U.S. Dept Of Defense,Cross-Site Scripting (XSS) in ASP.NET via ResolveUrl on ███████,hackerone.com/reports/3166581,8,0.0,Cross-site Scripting (XSS) - Reflected,2026-01-12
+3166582,U.S. Dept Of Defense,Cross-Site Scripting (XSS) in ASP.NET via ResolveUrl on ███████,hackerone.com/reports/3166582,7,0.0,Cross-site Scripting (XSS) - Reflected,2026-01-12
+3166585,U.S. Dept Of Defense,Cross-Site Scripting (XSS) in ASP.NET via ResolveUrl on ██████,hackerone.com/reports/3166585,9,0.0,Cross-site Scripting (XSS) - Reflected,2026-01-12
+3166587,U.S. Dept Of Defense,Cross-Site Scripting (XSS) in ASP.NET via ResolveUrl on ██████████,hackerone.com/reports/3166587,6,0.0,Cross-site Scripting (XSS) - Reflected,2026-01-12
+3168039,curl,CVE-2025-5399: WebSocket endless loop,hackerone.com/reports/3168039,57,0.0,Loop with Unreachable Exit Condition ('Infinite Loop'),2025-06-04
+3168691,HackerOne,Residual Malicious Payloads on HackerOne after Vulnerability Fixes,hackerone.com/reports/3168691,71,0.0,Improper Input Validation,2026-04-16
+3174778,Mars, No Rate Limiting on Password Attempts After Insecure Registration Flow cause ATO,hackerone.com/reports/3174778,28,0.0,Improper Restriction of Authentication Attempts,2026-02-24
+3174987,Nintendo,Man-in-the-middle through broken SSL certificate verification,hackerone.com/reports/3174987,53,0.0,Man-in-the-Middle,2025-08-08
