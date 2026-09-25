@@ -11677,3 +11677,23 @@ id,program,title,link,upvotes,bounty,vuln_type,date
 3204997,U.S. Dept Of Defense,Reflected XSS via user Parameter on getconfig.esp Endpoint,hackerone.com/reports/3204997,8,0.0,Cross-site Scripting (XSS) - Reflected,2026-01-12
 3205104,U.S. Dept Of Defense,Reflected XSS via user Parameter in /ssl-vpn/getconfig.esp,hackerone.com/reports/3205104,7,0.0,Cross-site Scripting (XSS) - Reflected,2026-01-12
 3205667,AWS VDP,XSS on Amazon Aquisition:  elemental,hackerone.com/reports/3205667,83,0.0,Cross-site Scripting (XSS) - Reflected,2025-07-22
+3206013,U.S. Dept Of Defense,Reflected XSS via user parameter on getconfig.esp endpoint,hackerone.com/reports/3206013,3,0.0,Cross-site Scripting (XSS) - Reflected,2026-01-12
+3210022,Omise,PII Exposure via Email Confirmation Link – Email Embedded in Token & Leaked via Wayback Machine,hackerone.com/reports/3210022,78,0.0,Information Disclosure,2025-08-23
+3211031,Cloudflare Public Bug Bounty,`use-mcp`'s oauth2 process uses a window.open call with untrusted mcp server provided data allowing for code execution under the page using it,hackerone.com/reports/3211031,75,550.0,Cross-site Scripting (XSS) - Generic,2025-09-30
+3211126,curl,Sensitive information disclosure with malicious netrc file,hackerone.com/reports/3211126,36,0.0,LLM06: Sensitive Information Disclosure,2025-06-22
+3211973,curl,Credential leak on redirect due to improper state clearing when parsing macdef in netrc.c,hackerone.com/reports/3211973,41,0.0,Information Exposure Through Sent Data,2025-06-22
+3217840,AWS VDP,Remote Code Execution in Amazon MWAA due to outdated Apache Airflow version,hackerone.com/reports/3217840,24,0.0,Code Injection,2025-08-14
+3219944,SingleStore,"IDOR - Scheduled data leak to other accounts By ""projectID""",hackerone.com/reports/3219944,77,0.0,Business Logic Errors,2025-08-12
+3221185,SingleStore,Exceed the maximum number of subscribers using Race Condition ,hackerone.com/reports/3221185,70,0.0,Business Logic Errors,2025-08-12
+3225565,curl, OS Command Injection in scripts/firefox-db2pem.sh via untrusted certificate nicknames,hackerone.com/reports/3225565,12,0.0,OS Command Injection,2025-06-28
+3226502,curl,arbitrary file read via `file://` path traversal with `--path-as-is`,hackerone.com/reports/3226502,10,0.0,Path Traversal,2025-07-01
+3226838,SingleStore,Exceeding the limit of Workspaces via Race Condition,hackerone.com/reports/3226838,62,0.0,Business Logic Errors,2025-10-06
+3228011,Bykea,Critical Information Disclosure via /talos/api/v1/files/upload,hackerone.com/reports/3228011,95,0.0,Inclusion of Sensitive Information in an Include File,2025-09-17
+3228888,Mars,Account Takeover in Password Reset Function,hackerone.com/reports/3228888,104,0.0,Authentication Bypass,2025-09-02
+3229490,curl,Heap Buffer Overflow in libcurl curl_slist_append via Unterminated String,hackerone.com/reports/3229490,10,0.0,Heap Overflow,2025-06-30
+3230082,curl,Stack-based Buffer Overflow in TELNET NEW_ENV Option Handling,hackerone.com/reports/3230082,14,0.0,Stack Overflow,2025-06-30
+3230359,Lichess,CSRF at Network feature,hackerone.com/reports/3230359,58,0.0,Cross-Site Request Forgery (CSRF),2025-07-08
+3231321,curl,HTTP Proxy Bypass via `CURLOPT_CUSTOMREQUEST` Verb Tunneling,hackerone.com/reports/3231321,21,0.0,Improper Access Control - Generic,2025-07-01
+3234050,U.S. Dept Of Defense,SQL Injection in URI Path Leading to Full Database Disclosure on ████████,hackerone.com/reports/3234050,10,0.0,SQL Injection,2026-01-12
+3235428,curl,CRLF injection in libcurl's SMTP client via --mail-from and --mail-rcpt allows SMTP command smuggling,hackerone.com/reports/3235428,21,0.0,CRLF Injection,2025-07-03
+3235855,LinkedIn,"Improper Access Control - Access to ""Active Hiring"" (Premium  feature) filter results ",hackerone.com/reports/3235855,100,0.0,Improper Access Control - Generic,2026-02-03
