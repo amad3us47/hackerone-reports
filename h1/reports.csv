@@ -11655,3 +11655,25 @@ id,program,title,link,upvotes,bounty,vuln_type,date
 3168691,HackerOne,Residual Malicious Payloads on HackerOne after Vulnerability Fixes,hackerone.com/reports/3168691,71,0.0,Improper Input Validation,2026-04-16
 3174778,Mars, No Rate Limiting on Password Attempts After Insecure Registration Flow cause ATO,hackerone.com/reports/3174778,28,0.0,Improper Restriction of Authentication Attempts,2026-02-24
 3174987,Nintendo,Man-in-the-middle through broken SSL certificate verification,hackerone.com/reports/3174987,53,0.0,Man-in-the-Middle,2025-08-08
+3175695,Mozilla,"Bypass ""No Links"" Restriction in Biography via Protocol-Relative URL (//)",hackerone.com/reports/3175695,97,0.0,Improper Input Validation,2025-07-29
+3175928,Lichess,ImageId Format Injection in Image Upload Endpoint,hackerone.com/reports/3175928,73,0.0,Improper Input Validation,2025-06-06
+3176157,PortSwigger Web Security,DNS Rebinding SSRF in Burp Suite MCP Server Enables Internal Network Access via send_http1_request Tool,hackerone.com/reports/3176157,143,0.0,Server-Side Request Forgery (SSRF),2025-10-08
+3176981,MainWP,"Stored Cross-Site Scripting (XSS) in ""Add Contact"" Name Field – MainWP Plugin",hackerone.com/reports/3176981,56,50.0,Cross-site Scripting (XSS) - Reflected,2025-07-17
+3178999,HackerOne,Account takeover of existing HackerOne accounts through SCIM provisioning,hackerone.com/reports/3178999,231,0.0,Improper Access Control - Generic,2025-07-17
+3179138,MainWP,"Reflected XSS in ""Create Category"" Functionality of Post Creation Module",hackerone.com/reports/3179138,64,50.0,Cross-site Scripting (XSS) - Reflected,2025-07-17
+3179850,Weblate,exposure of personal IP address via email.,hackerone.com/reports/3179850,61,0.0,Privacy Violation,2025-07-16
+3180396,curl,Failure to strip Proxy-Authorization header on change in origin,hackerone.com/reports/3180396,11,0.0,Information Disclosure,2025-06-27
+3181066,Lichess,Path Traversal Vulnerability in Lila Project,hackerone.com/reports/3181066,116,0.0,Path Traversal: '.../...//',2025-06-09
+3181802,MainWP,"Reflected XSS in ""Client Notes"" Field",hackerone.com/reports/3181802,65,50.0,Cross-site Scripting (XSS) - Reflected,2025-07-13
+3181803,MainWP,"Reflected XSS in ""Manage Tags"" Notes Field",hackerone.com/reports/3181803,71,50.0,Cross-site Scripting (XSS) - Reflected,2025-07-17
+3183046,Omise,Cache Pollution via Unkeyed GET Parameters on www.omise.co,hackerone.com/reports/3183046,43,0.0,,2026-02-11
+3183520,pixiv,Non-premium user can disable Ads in japanese version of dic.pixiv.net,hackerone.com/reports/3183520,118,3000.0,Business Logic Errors,2026-04-27
+3183957,curl,Arbitrary File Read via Unsanitized curl Usage Results in Sensitive File Exposure,hackerone.com/reports/3183957,8,0.0,External Control of File Name or Path,2025-06-27
+3185001,Mars,Order More Than Maximum Allowed Quantity,hackerone.com/reports/3185001,32,0.0,Business Logic Errors,2025-09-02
+3185083,Monero,Connection Count Bug in Monero Node Enables Outbound Peer Reset Attack,hackerone.com/reports/3185083,39,0.0,Privacy Violation,2026-05-06
+3185205,MainWP,"Reflected XSS in ""Cost Tracker"" Notes Field",hackerone.com/reports/3185205,91,50.0,Cross-site Scripting (XSS) - Reflected,2025-07-17
+3198394,Hemi VDP,WordPress Version Exposure via ███████ on hemi.xyz,hackerone.com/reports/3198394,38,0.0,Information Disclosure,2025-06-13
+3198980,Automattic,Woocommerce SQL Injection in WC_Report_Coupon_Usage,hackerone.com/reports/3198980,96,0.0,SQL Injection,2025-06-24
+3204997,U.S. Dept Of Defense,Reflected XSS via user Parameter on getconfig.esp Endpoint,hackerone.com/reports/3204997,8,0.0,Cross-site Scripting (XSS) - Reflected,2026-01-12
+3205104,U.S. Dept Of Defense,Reflected XSS via user Parameter in /ssl-vpn/getconfig.esp,hackerone.com/reports/3205104,7,0.0,Cross-site Scripting (XSS) - Reflected,2026-01-12
+3205667,AWS VDP,XSS on Amazon Aquisition:  elemental,hackerone.com/reports/3205667,83,0.0,Cross-site Scripting (XSS) - Reflected,2025-07-22
