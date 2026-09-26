@@ -11767,3 +11767,32 @@ id,program,title,link,upvotes,bounty,vuln_type,date
 3295652,curl,Insecure WebSocket Usage in curl Documentation and Examples (CWE-319: Cleartext Transmission of Sensitive Information),hackerone.com/reports/3295652,19,0.0,Cleartext Transmission of Sensitive Information,2025-08-12
 3295656,curl,Unsafe Global IFS Modification in OS400 Shell Script Enables Command Injection and Parsing Flaws (CWE-78/CWE-20),hackerone.com/reports/3295656,15,0.0,Improper Input Validation,2025-08-12
 3295738,curl,Account/Repository Takeover via Abandoned GitHub Username in curl's href_extractor.c,hackerone.com/reports/3295738,19,0.0,LLM05: Supply Chain Vulnerabilities,2025-08-12
+3301553,Nextcloud,Cross-User Lock/Unlock via Absolute DAV Path,hackerone.com/reports/3301553,17,0.0,Improper Authentication - Generic,2026-09-17
+3302484,Node.js,CWE-195 in ExternalMemoryAccounter::Increase(),hackerone.com/reports/3302484,55,0.0,,2025-08-26
+3302518,curl,## Title  Heap Use-After-Free Vulnerability in `curl` Leading to Potential Code Execution,hackerone.com/reports/3302518,19,0.0,Use After Free,2025-08-18
+3303136,Omise,Pending invites remain valid even after the inviter is removed.,hackerone.com/reports/3303136,75,0.0,Privilege Escalation,2025-10-08
+3303283,Nextcloud,Unauthenticated blind SSRF in Circles signature verification bypasses Nextcloud local-address protections,hackerone.com/reports/3303283,13,0.0,Server-Side Request Forgery (SSRF),2026-09-17
+3303765,curl,WebSocket Fragmentation DoS on Curl Client,hackerone.com/reports/3303765,32,0.0,Uncontrolled Resource Consumption,2025-08-19
+3304704,WakaTime,Invalid,hackerone.com/reports/3304704,26,0.0,Improper Access Control - Generic,2025-08-19
+3304830,Nextcloud,Files drop share links for end-to-end encrypted folders allowed to drop files into other folders of the share owner ,hackerone.com/reports/3304830,60,0.0,Insecure Direct Object Reference (IDOR),2026-05-08
+3306456,curl,Curl parse_connect_to_string Heap-Overread Leading to Denial of Service via CURLOPT_CONNECT_TO,hackerone.com/reports/3306456,23,0.0,Buffer Over-read,2025-08-20
+3306475,curl,"curl leaks destination IP via glibc getaddrinfo() UDP connect, bypassing SOCKS5/Tor",hackerone.com/reports/3306475,28,0.0,Information Disclosure,2025-08-20
+3307874,Monero,Critical Deadlock Vulnerability in Monero RPC Leading to Complete Node Paralysis,hackerone.com/reports/3307874,96,0.0,Uncontrolled Resource Consumption,2026-05-06
+3310318,curl,Missing Security Headers,hackerone.com/reports/3310318,32,0.0,,2025-08-22
+3313408,Dynatrace,OneAgent Unprivileged NTLM User Coercion,hackerone.com/reports/3313408,49,750.0,Improper Privilege Management,2025-10-15
+3316910,Cloudflare Public Bug Bounty,Second-Order XSS via javascript protocol in MCP Server Portal Apps leads to ATO,hackerone.com/reports/3316910,50,0.0,Cross-site Scripting (XSS) - Stored,2025-12-16
+3318295,U.S. Dept Of Defense,Information Disclosure via Publicly Accessible Debug Log,hackerone.com/reports/3318295,15,0.0,Information Exposure Through Debug Information,2026-01-12
+3319767,curl,Incorrect Parsing of IPv6 Zone ID in curl,hackerone.com/reports/3319767,21,0.0,Authentication Bypass by Primary Weakness,2025-09-01
+3320669,PlayStation,Double fdrop on a socket through sys_netcontrol,hackerone.com/reports/3320669,227,10000.0,Double Free,2026-05-01
+3321406,Cloudflare Public Bug Bounty,"[Variation of #1554049] 1-Click Chaining of Self-XSS, Cookie Tossing and AntiCSRF Token Prediction leads to auto approval in Access Temp Auth",hackerone.com/reports/3321406,39,0.0,,2026-04-14
+3324190,curl,Heap-buffer-overflow (Out-of-Bounds Read) in DoH hostname encoding,hackerone.com/reports/3324190,24,0.0,Out-of-bounds Read,2025-09-04
+3324823,U.S. Dept Of Defense,Account Takeover via Unverified Email Change and Improper Session Handling,hackerone.com/reports/3324823,16,0.0,Violation of Secure Design Principles,2026-01-12
+3324901,curl,libcurl: Host-Only Cookies Leak to Alternate IPv4 Forms,hackerone.com/reports/3324901,30,0.0,,2025-09-04
+3325582,Mozilla,User Can Delete Other Users' Personal Access Tokens at /delete-token/{token_id}/ on Mozilla Pontoon,hackerone.com/reports/3325582,38,0.0,Improper Access Control - Generic,2026-04-10
+3328291,AWS VDP,Existence of completed pods allows for bypass of Kubernetes NetworkPolicy,hackerone.com/reports/3328291,28,0.0,Improper Access Control - Generic,2025-11-19
+3328343,Bykea,Lack of minimum value bid wheel verification on customer_bid in Rental Trips,hackerone.com/reports/3328343,54,0.0,Business Logic Errors,2025-11-20
+3328367,Django,Path traversal via archive.extract - CVE 2021-3281 incomplete patch,hackerone.com/reports/3328367,38,0.0,Path Traversal,2025-11-21
+3328408,U.S. Dept Of Defense,Exposed wp-config.php file in ███ National Guard website,hackerone.com/reports/3328408,6,0.0,Information Disclosure,2026-01-12
+3329310,Basecamp,Improper bot-authentication allows to impersonate any user when sending messages in a room,hackerone.com/reports/3329310,128,2000.0,Improper Authentication - Generic,2025-11-21
+3329361,SingleStore,2FA bypass possible on https://authsvc.singlestore.com,hackerone.com/reports/3329361,93,0.0,Authentication Bypass,2025-10-22
+3330839,curl,CVE-2025-10148: predictable WebSocket mask,hackerone.com/reports/3330839,30,0.0,"Reusing a Nonce, Key Pair in Encryption",2025-09-10
