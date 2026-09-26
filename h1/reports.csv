@@ -11732,3 +11732,38 @@ id,program,title,link,upvotes,bounty,vuln_type,date
 3262848,curl,on the implications of permitting procedural culling,hackerone.com/reports/3262848,33,0.0,Use of Insufficiently Random Values,2025-07-22
 3264469,curl,Use after free (or assert triggered) with failed allocations in openssl,hackerone.com/reports/3264469,15,0.0,Use After Free,2025-07-24
 3265780,CoinMate.io,Adding phone number to profile By OTP brute forcing,hackerone.com/reports/3265780,111,100.0,Insecure Storage of Sensitive Information,2026-08-08
+3268294,curl,Exposure of Private RSA Private Key in curl GitHub Repository,hackerone.com/reports/3268294,26,0.0,Insecure Storage of Sensitive Information,2025-07-23
+3269761,curl,Security check up,hackerone.com/reports/3269761,44,0.0,Allocation of Resources Without Limits or Throttling,2025-07-24
+3269777,Malwarebytes,Replayable Password Change Request Across Sessions.,hackerone.com/reports/3269777,28,0.0,Insufficient Session Expiration,2025-08-15
+3269780,U.S. Dept Of Defense,Cross-Site Scripting via 'fname' parameter in ███,hackerone.com/reports/3269780,4,0.0,Cross-site Scripting (XSS) - Reflected,2026-01-12
+3272982,curl,Vulnerability Report: Public Exposure of Security Audit File,hackerone.com/reports/3272982,24,0.0,Information Disclosure,2025-07-27
+3275810,Nextcloud,Calendar app allowed booking appointments without the generated token,hackerone.com/reports/3275810,56,0.0,Insecure Direct Object Reference (IDOR),2025-12-05
+3277276,Mars,SQLi at █████ parameter,hackerone.com/reports/3277276,42,0.0,SQL Injection,2026-02-24
+3279441,Mozilla,"Bypass of Restricted Keyword ""Mozilla"" in Display Name Field via Unicode Homoglyphs on addons.allizom.org",hackerone.com/reports/3279441,93,500.0,Improper Input Validation,2026-04-27
+3279508,WakaTime,Unauthorized Disclosure of Private Emails via WakaTime Private Leaderboards,hackerone.com/reports/3279508,93,0.0,Information Disclosure,2025-08-03
+3279804,curl,Stack use-after-scope in HTTP/3 POST request processing via CURLOPT_POSTFIELDS,hackerone.com/reports/3279804,27,0.0,Use After Free,2025-07-31
+3282709,curl,Integer Overflow in schannel.c TLS Data Transmission,hackerone.com/reports/3282709,28,0.0,Integer Overflow,2025-08-02
+3283232,curl,Use After Free (that leads to arbitrary Write for some versions) ,hackerone.com/reports/3283232,30,0.0,Use After Free,2025-08-06
+3284381,U.S. Dept Of Defense,Cross-Site Scripting via 'EVENT_DESCRIPTION' parameter,hackerone.com/reports/3284381,6,0.0,Cross-site Scripting (XSS) - Reflected,2026-01-12
+3284389,U.S. Dept Of Defense,Cross-Site Scripting via 'RAISED_FUNDS_DESC' parameter,hackerone.com/reports/3284389,9,0.0,Cross-site Scripting (XSS) - Reflected,2026-01-12
+3284534,U.S. Dept Of Defense,Reflected Cross-Site Scripting (XSS),hackerone.com/reports/3284534,5,0.0,Cross-site Scripting (XSS) - Reflected,2026-01-12
+3286945,U.S. Dept Of Defense,CVE‑2025‑4123 — Grafana Open Redirect → Stored XSS → SSRF (Full Read) at ██████,hackerone.com/reports/3286945,16,0.0,Open Redirect,2026-01-12
+3287060,WakaTime,Double Clickjacking Attack on WakaTime OAuth Authorization Flow at https://wakatime.com/oauth/authorize,hackerone.com/reports/3287060,57,0.0,Violation of Secure Design Principles,2025-08-05
+3287208,HackerOne,DOS via Mutation Aliasing in GraphQL Account Recovery Phone Number Verification API,hackerone.com/reports/3287208,182,12500.0,,2026-04-16
+3287396,AWS VDP,AWS | Self Registration Internal LibreChat : Access to internal/proprietary LLMs,hackerone.com/reports/3287396,61,0.0,Authentication Bypass Using an Alternate Path or Channel,2025-08-25
+3290630,GitHub,Sample report: Denial of service ,hackerone.com/reports/3290630,33,0.0,LLM06: Sensitive Information Disclosure,2025-08-07
+3291053,U.S. Dept Of Defense,"exposed FOUO documents, including Passport information",hackerone.com/reports/3291053,6,0.0,Information Disclosure,2026-01-12
+3292573,Django,SQL Injection when using FilteredRelation,hackerone.com/reports/3292573,95,0.0,SQL Injection,2025-09-15
+3292590,curl,Heap Buffer Overflow in Curl_memdup0() via CURLOPT_COPYPOSTFIELDS/CURLOPT_POSTFIELDSIZE Mismatch,hackerone.com/reports/3292590,19,0.0,Buffer Over-read,2025-08-09
+3293177,curl,Path Traversal in SFTP QUOTE command leads to Arbitrary File Write and potential RCE,hackerone.com/reports/3293177,10,0.0,Relative Path Traversal,2025-08-10
+3293290,Nextcloud,Stored XSS in contacts app via organisation and title field,hackerone.com/reports/3293290,15,100.0,Cross-site Scripting (XSS) - Stored,2026-01-04
+3293801,curl,Title: Remote Code Execution (RCE) via Arbitrary Library Loading in `--engine` option,hackerone.com/reports/3293801,13,0.0,Code Injection,2025-08-10
+3293803,Mars,SQLi At `███████` via `theme_name` ,hackerone.com/reports/3293803,62,0.0,SQL Injection,2026-02-24
+3293884,curl,Vulnerability Report: Local File Disclosure via file:// Protocol in cURL,hackerone.com/reports/3293884,9,0.0,Path Traversal,2025-08-10
+3294999,curl,CVE-2025-9086: Out of bounds read for cookie path,hackerone.com/reports/3294999,36,0.0,Buffer Over-read,2025-09-10
+3295500,SingleStore,Exceeding the maximum number of spaces allowed by exploiting a Race Condition in the Workspace creation process,hackerone.com/reports/3295500,34,0.0,Business Logic Errors,2026-07-01
+3295503,Bykea,"Customer can cancel a individual booking in a batch, causing locking of partner.",hackerone.com/reports/3295503,49,0.0,Business Logic Errors,2025-11-20
+3295650,curl,Exposure of Hard-coded Private Keys and Credentials in curl Source Repository (CWE-321),hackerone.com/reports/3295650,14,0.0,Use of Hard-coded Cryptographic Key,2025-08-12
+3295652,curl,Insecure WebSocket Usage in curl Documentation and Examples (CWE-319: Cleartext Transmission of Sensitive Information),hackerone.com/reports/3295652,19,0.0,Cleartext Transmission of Sensitive Information,2025-08-12
+3295656,curl,Unsafe Global IFS Modification in OS400 Shell Script Enables Command Injection and Parsing Flaws (CWE-78/CWE-20),hackerone.com/reports/3295656,15,0.0,Improper Input Validation,2025-08-12
+3295738,curl,Account/Repository Takeover via Abandoned GitHub Username in curl's href_extractor.c,hackerone.com/reports/3295738,19,0.0,LLM05: Supply Chain Vulnerabilities,2025-08-12
