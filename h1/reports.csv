@@ -11697,3 +11697,38 @@ id,program,title,link,upvotes,bounty,vuln_type,date
 3234050,U.S. Dept Of Defense,SQL Injection in URI Path Leading to Full Database Disclosure on ████████,hackerone.com/reports/3234050,10,0.0,SQL Injection,2026-01-12
 3235428,curl,CRLF injection in libcurl's SMTP client via --mail-from and --mail-rcpt allows SMTP command smuggling,hackerone.com/reports/3235428,21,0.0,CRLF Injection,2025-07-03
 3235855,LinkedIn,"Improper Access Control - Access to ""Active Hiring"" (Premium  feature) filter results ",hackerone.com/reports/3235855,100,0.0,Improper Access Control - Generic,2026-02-03
+3238249,curl,Integer Overflow Risk in HTTP/2 Proxy Window Size Calculations,hackerone.com/reports/3238249,3,0.0,Integer Overflow,2025-07-07
+3238607,U.S. Dept Of Defense,Reflected XSS Vulnerability in  SSL VPN Endpoint — CVE-2025-0133,hackerone.com/reports/3238607,19,0.0,Cross-site Scripting (XSS) - Reflected,2026-01-12
+3240792,Monero,Reported RPC Overflow,hackerone.com/reports/3240792,25,0.0,Integer Overflow,2026-04-06
+3241102,Monero,Reported Denial of Service,hackerone.com/reports/3241102,23,0.0,Uncontrolled Resource Consumption,2026-04-06
+3241304,curl,access notes without permission,hackerone.com/reports/3241304,14,0.0,Information Disclosure,2025-07-08
+3241308,curl,Disclosure of email addresses,hackerone.com/reports/3241308,9,0.0,Information Disclosure,2025-07-08
+3242005,curl,Use-After-Free in OpenSSL Keylog Callback via SSL_get_ex_data() in libcurl,hackerone.com/reports/3242005,30,0.0,Use After Free,2025-07-09
+3242087,curl,Arbitrary File Read via file:// Protocol in cURL,hackerone.com/reports/3242087,31,0.0,Path Traversal,2025-07-09
+3242830,U.S. Dept Of Defense,Critical PII Data Exposure in ORDER_ERROR_LOG,hackerone.com/reports/3242830,7,0.0,Cleartext Storage of Sensitive Information,2026-01-12
+3243860,Mozilla,Microsoft `x-apikey` Exposed in Mozilla CI Public Logs,hackerone.com/reports/3243860,84,200.0,Cleartext Storage of Sensitive Information,2025-11-03
+3246519,curl,Default Minimum TLS Version Set to TLS v1.0 (Cryptographic Weakness),hackerone.com/reports/3246519,26,0.0,Use of a Broken or Risky Cryptographic Algorithm,2025-07-10
+3247386,Nextcloud,Participants were able to blindly delete poll drafts of other users by ID,hackerone.com/reports/3247386,27,0.0,Insecure Direct Object Reference (IDOR),2025-12-05
+3247499,Nextcloud,"Deck app allowed user with ""Can share"" permission to modify permissions of other non-owners",hackerone.com/reports/3247499,38,0.0,Improper Access Control - Generic,2025-12-05
+3248712,WakaTime,Not a Vuln: Race Condition Allows Creation of Multiple Organizations with the Same Name,hackerone.com/reports/3248712,40,0.0,Business Logic Errors,2025-07-14
+3249406,Bykea,MongoDB Query Logs & Schema Leak via Unauthenticated Endpoint,hackerone.com/reports/3249406,43,0.0,LLM06: Sensitive Information Disclosure,2025-09-17
+3249624,Nextcloud,Path Traversal Vulnerability in Nextcloud Tables Enables Arbitrary File Exfiltration of Any Files Supported by PhpSpreadsheet Library,hackerone.com/reports/3249624,63,0.0,Path Traversal,2025-10-16
+3249794,ExpressionEngine,SQL injection in structure plugin,hackerone.com/reports/3249794,124,0.0,SQL Injection,2026-01-26
+3249936,curl,HTTP Request Smuggling Vulnerability Analysis - cURL Security Report,hackerone.com/reports/3249936,23,0.0,HTTP Request Smuggling,2025-07-13
+3250117,curl,Uncontrolled File Write/Arbitrary File Creation ,hackerone.com/reports/3250117,20,0.0,Code Injection,2025-07-13
+3250315,8x8,█.8x8.vc/index.js: Exposed Google Maps API Key Allowing Potential Abuse of Paid Services,hackerone.com/reports/3250315,87,500.0,Information Disclosure,2025-08-14
+3250490,curl,Disk Space Exhaustion leading to a Denial of Service (DoS),hackerone.com/reports/3250490,21,0.0,LLM04: Model Denial of Service,2025-07-14
+3250691,Khan Academy,337k users and 1 employee leaked credentials,hackerone.com/reports/3250691,85,0.0,Information Disclosure,2025-09-10
+3252302,U.S. Dept Of Defense,Exposed wp-config.php file,hackerone.com/reports/3252302,6,0.0,Information Disclosure,2026-01-12
+3253725,Brave Software,"SameSite restrictions are lifted, and SameSite:Strict cookie are being sent.",hackerone.com/reports/3253725,73,0.0,Improper Certificate Validation,2025-10-15
+3255473,Tucows (VDP),Business Logic Error – Bypass of OTP Verification During Signup on hover.com,hackerone.com/reports/3255473,134,0.0,Business Logic Errors,2025-09-02
+3255707,Node.js,Windows Device Names Still Allow Path Traversal in UNC Paths After CVE-2025-27210 Fix,hackerone.com/reports/3255707,39,0.0,Path Traversal,2025-07-28
+3255910,Tucows (VDP),Vulnerability: XML-RPC Interface Enabled and Accessible,hackerone.com/reports/3255910,15,0.0,Information Disclosure,2025-10-10
+3257171,U.S. Dept Of Defense,SQL Injection - JSON 'name' parameter,hackerone.com/reports/3257171,6,0.0,SQL Injection,2026-01-12
+3258022,curl,curl ASSERTs when accessing an LDAP URL,hackerone.com/reports/3258022,24,0.0,Business Logic Errors,2025-07-22
+3259610,U.S. Dept Of Defense,Unauthenticated Users Can Access Other Users’ Bug Report Attachments via Broken Access Control,hackerone.com/reports/3259610,28,0.0,Insecure Direct Object Reference (IDOR),2026-01-12
+3261248,curl,GnuTLS CURLINFO_TLS_SESSION / CURLINFO_TLS_SSL_PTR type confusion,hackerone.com/reports/3261248,20,0.0,Type Confusion,2025-07-23
+3261310,curl,OpenSSL HTTP/3 bogus CURLINFO_TLS_SSL_PTR,hackerone.com/reports/3261310,21,0.0,Use After Free,2025-07-28
+3262848,curl,on the implications of permitting procedural culling,hackerone.com/reports/3262848,33,0.0,Use of Insufficiently Random Values,2025-07-22
+3264469,curl,Use after free (or assert triggered) with failed allocations in openssl,hackerone.com/reports/3264469,15,0.0,Use After Free,2025-07-24
+3265780,CoinMate.io,Adding phone number to profile By OTP brute forcing,hackerone.com/reports/3265780,111,100.0,Insecure Storage of Sensitive Information,2026-08-08
