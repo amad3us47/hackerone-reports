@@ -11796,3 +11796,32 @@ id,program,title,link,upvotes,bounty,vuln_type,date
 3329310,Basecamp,Improper bot-authentication allows to impersonate any user when sending messages in a room,hackerone.com/reports/3329310,128,2000.0,Improper Authentication - Generic,2025-11-21
 3329361,SingleStore,2FA bypass possible on https://authsvc.singlestore.com,hackerone.com/reports/3329361,93,0.0,Authentication Bypass,2025-10-22
 3330839,curl,CVE-2025-10148: predictable WebSocket mask,hackerone.com/reports/3330839,30,0.0,"Reusing a Nonce, Key Pair in Encryption",2025-09-10
+3331764,curl,"Confirmed Security Misconfigurations on curl.se (BREACH, Missing Security Headers, ETag Info Disclosure)",hackerone.com/reports/3331764,19,0.0,Information Disclosure,2025-09-09
+3334165,Nextcloud, Nextcloud Tables v1 Share Enumeration Without Authorization (Regression of CVE-2024-52507),hackerone.com/reports/3334165,13,0.0,Improper Authentication - Generic,2025-12-05
+3335085,curl,TOCTOU Race Condition in HTTP/2 Connection Reuse Leads to Certificate Validation Bypass,hackerone.com/reports/3335085,23,0.0,Time-of-check Time-of-use (TOCTOU) Race Condition,2025-09-11
+3335709,Django,SQL Injection in Django ORM via Unvalidated `_connector` in Q Objects,hackerone.com/reports/3335709,77,0.0,SQL Injection,2025-11-06
+3337561,curl,Multiple Unsafe strcpy() Function Calls Leading to Potential Buffer Overflow Vulnerabilities in cURL 8.16.1-DEV,hackerone.com/reports/3337561,18,0.0,Classic Buffer Overflow,2025-09-14
+3338748,Nextcloud,Approval app allows users to request approval for other users file ,hackerone.com/reports/3338748,39,0.0,Improper Authentication - Generic,2025-12-05
+3340109,curl,Stack Buffer Overflow in cURL Cookie Parsing Leads to RCE,hackerone.com/reports/3340109,18,0.0,Stack Overflow,2025-09-16
+3340797,IBM,IBM Aspera HTTP Gateway stores sensitive information in clear text in easily obtainable files which can be read by an unauthenticated user.,hackerone.com/reports/3340797,46,0.0,Information Disclosure,2026-04-27
+3341476,curl,int overflow in krb5_read_data() leads to (possible) massive `recv()` write,hackerone.com/reports/3341476,17,0.0,Integer Overflow,2025-09-18
+3344663,curl,Security Analysis Report: CURL Integer Overflow Vulnerability,hackerone.com/reports/3344663,26,0.0,Integer Overflow,2025-09-18
+3346118,curl,Timing Attack Vulnerability in curl Digest Authentication via Non-Constant-Time String Comparison,hackerone.com/reports/3346118,28,0.0,Information Exposure Through Timing Discrepancy,2025-09-18
+3346375,U.S. Dept Of Defense,Publicly Accessible CDN Endpoint Exposing XML Metadata (including ETag),hackerone.com/reports/3346375,14,0.0,Information Disclosure,2026-01-12
+3351408,U.S. Dept Of Defense,Cross-Site Scripting via URL on ███████,hackerone.com/reports/3351408,8,0.0,Cross-site Scripting (XSS) - Reflected,2026-01-12
+3353000,SingleStore,Privilege Escalation – Access to the Alert Subscribers page for users with low privileges,hackerone.com/reports/3353000,26,0.0,Privilege Escalation,2026-07-01
+3353035,SingleStore,Delete any folder for any user within the organization,hackerone.com/reports/3353035,34,0.0,Insecure Direct Object Reference (IDOR),2026-07-01
+3353057,SingleStore,Insecure Direct Object Reference (IDOR) allows creating folders.,hackerone.com/reports/3353057,37,0.0,Insecure Direct Object Reference (IDOR),2026-07-01
+3354494,U.S. Dept Of Defense,Cross-Site Scripting via URL on ███████,hackerone.com/reports/3354494,7,0.0,Cross-site Scripting (XSS) - Reflected,2026-01-12
+3355213,curl,Use-after-free when POST body buffer is freed before transfer,hackerone.com/reports/3355213,16,0.0,Use After Free,2025-09-26
+3355218,curl,CVE-2025-10966: missing SFTP host verification with wolfSSH,hackerone.com/reports/3355218,43,0.0,Improper Certificate Validation,2025-11-05
+3355766,Sony,DLL side-loading vulnerability in Sony Music Center for PC Ver. 2.7.2 (Latest version),hackerone.com/reports/3355766,109,0.0,Uncontrolled Search Path Element,2026-06-05
+3356088,curl,Race condition on global `gss_context` during SOCKS5 GSS-API negotiation in libcurl,hackerone.com/reports/3356088,17,0.0,Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),2025-09-26
+3356149,Omise,2FA requirement bypass when inviting team members,hackerone.com/reports/3356149,105,0.0,Improper Access Control - Generic,2026-02-28
+3357036,Nextcloud,Mail stored HTML injection in subject text,hackerone.com/reports/3357036,47,350.0,,2026-02-12
+3357723,Node.js,Memory leak that enables remote Denial of Service against applications processing TLS client certificates,hackerone.com/reports/3357723,34,0.0,Uncontrolled Resource Consumption,2026-02-12
+3357808,Nextcloud,Stored XSS Vulnerability via SVG File,hackerone.com/reports/3357808,79,150.0,Cross-site Scripting (XSS) - Stored,2025-12-05
+3357960,curl,SMTP Command Injection Vulnerabilities in curl,hackerone.com/reports/3357960,27,0.0,Command Injection - Generic,2025-09-26
+3360293,Mars,Publicly accessible `█████████` endpoint exposing internal user identifiers and email addresses,hackerone.com/reports/3360293,49,0.0,Information Disclosure,2026-02-24
+3360354,Nextcloud,WebAuthn app was updated based on public key,hackerone.com/reports/3360354,84,750.0,Insecure Direct Object Reference (IDOR),2026-02-06
+3361913,curl,AWS SigV4 Signature Disclosure via Verbose Logging in libcurl,hackerone.com/reports/3361913,27,0.0,Information Disclosure,2025-10-01
