@@ -11825,3 +11825,30 @@ id,program,title,link,upvotes,bounty,vuln_type,date
 3360293,Mars,Publicly accessible `█████████` endpoint exposing internal user identifiers and email addresses,hackerone.com/reports/3360293,49,0.0,Information Disclosure,2026-02-24
 3360354,Nextcloud,WebAuthn app was updated based on public key,hackerone.com/reports/3360354,84,750.0,Insecure Direct Object Reference (IDOR),2026-02-06
 3361913,curl,AWS SigV4 Signature Disclosure via Verbose Logging in libcurl,hackerone.com/reports/3361913,27,0.0,Information Disclosure,2025-10-01
+3366484,curl,Unsanitized IPFS CID Allows SSRF Against Configured Gateway,hackerone.com/reports/3366484,34,0.0,Server-Side Request Forgery (SSRF),2025-10-03
+3367292,Tucows (VDP),CSRF allowing unauthorized modification of user Notes on ███████,hackerone.com/reports/3367292,53,0.0,Cross-Site Request Forgery (CSRF),2025-10-10
+3367676,Nextcloud,tabnabbing in roundcube webmail,hackerone.com/reports/3367676,37,0.0,,2025-12-24
+3369843,Lovable VDP,Low-privileged user can enable or disable Lovable AI for new projects in workspace,hackerone.com/reports/3369843,56,0.0,Improper Authorization,2025-11-07
+3370430,Lovable VDP,Users can change project visibility which requires high subscription by just changing request body,hackerone.com/reports/3370430,70,0.0,Improper Access Control - Generic,2026-03-09
+3371067,Tucows (VDP),Unauthenticated Access Control Bypass — Private WordPress Post Disclosure (Outdated WordPress 4.9.40),hackerone.com/reports/3371067,16,0.0,Improper Authorization,2025-10-14
+3371414,Lovable VDP,Improper Authorization Leads to Editor can toggle admin-only workspace features (Lovable Cloud),hackerone.com/reports/3371414,66,0.0,Improper Authorization,2025-11-04
+3371448,Lovable VDP,Improper Authorization Leads to Editor can toggle admin-only workspace features (Lovable AI),hackerone.com/reports/3371448,79,0.0,Improper Authorization,2025-11-04
+3372277,Tucows (VDP),Information Disclosure via Accessible debug.log on ExactHosting,hackerone.com/reports/3372277,14,0.0,Information Disclosure,2025-10-14
+3373640,curl,OpenSSL backend: X509 peer certificate not freed in ossl_get_channel_binding causes per-request memory leak (DoS risk for long-lived clients),hackerone.com/reports/3373640,30,0.0,Uncontrolled Resource Consumption,2025-10-08
+3374554,curl,Apple SecTrust legacy path accepts untrusted certificates on pre-10.14 macOS/iOS when built with USE_APPLE_SECTRUST,hackerone.com/reports/3374554,30,0.0,Improper Certificate Validation,2025-10-09
+3376598,Mars,Sensitive information exposed at [███] via /export_panelists_to_xlsx endpoint,hackerone.com/reports/3376598,35,0.0,Cleartext Storage of Sensitive Information,2026-02-24
+3378540,HackerOne,Lack of Validation in Reward Redemption Allows Unlimited Burp Suite License Abuse,hackerone.com/reports/3378540,124,0.0,Improper Access Control - Generic,2026-03-18
+3378635,lemlist,Unauthorized Password Reset Allows Account Takeover Across Tenant Boundaries,hackerone.com/reports/3378635,65,0.0,,2025-11-07
+3379102,curl,Missing enforcement of SFTP quote syntax can lead to operation on wrong object,hackerone.com/reports/3379102,12,0.0,Improper Validation of Syntactic Correctness of Input,2025-10-12
+3382343,Nextcloud,BOLA/IDOR in Out-of-Office API allows any authenticated user to read other users' absence data,hackerone.com/reports/3382343,40,0.0,Insecure Direct Object Reference (IDOR),2026-04-14
+3382796,AWS VDP,Responsible disclosure - public S3 bucket exposing JSON/config files,hackerone.com/reports/3382796,36,0.0,Information Disclosure,2025-11-14
+3383079,Rocket.Chat,SSRF via Improper Redirect Validation in Rocket.Chat oEmbed Function,hackerone.com/reports/3383079,25,0.0,Server-Side Request Forgery (SSRF),2026-06-11
+3383095,arkadiyt-projects,DNS Rebinding Attack,hackerone.com/reports/3383095,42,0.0,Server-Side Request Forgery (SSRF),2025-10-19
+3384150,arkadiyt-projects,Arbitrary File Write,hackerone.com/reports/3384150,56,0.0,Path Traversal,2025-10-19
+3384615,SingleStore,Insufficient checks in the file path parameter allow writing to unauthorized directories,hackerone.com/reports/3384615,12,0.0,External Control of File Name or Path,2026-06-24
+3385434,Nextcloud,Predictable proposal participant tokens enable unauthorized access and vote submission,hackerone.com/reports/3385434,25,100.0,Use of Insufficiently Random Values,2026-01-04
+3387499,curl,SMTP Command Injection Vulnerability in libcurl 8.16.0 via RFC 3461 Suffix,hackerone.com/reports/3387499,18,0.0,CRLF Injection,2025-10-17
+3390084,Node.js,fs.futimes() Bypasses Read-Only Permission Model,hackerone.com/reports/3390084,34,0.0,Improper Access Control - Generic,2026-01-15
+3392174,curl,Buffer Overflow in WebSocket Handshake (lib/ws.c:1287),hackerone.com/reports/3392174,16,0.0,Classic Buffer Overflow,2025-10-21
+3393539,curl,Memory leak in Curl_auth_create_ntlm_type3_message,hackerone.com/reports/3393539,13,0.0,Uncontrolled Resource Consumption,2025-10-28
+3393664,Rocket.Chat,SSRF via improper validation after DNS name resolution in the link-preview feature,hackerone.com/reports/3393664,26,0.0,Server-Side Request Forgery (SSRF),2026-06-11
