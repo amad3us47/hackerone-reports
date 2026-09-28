@@ -11852,3 +11852,55 @@ id,program,title,link,upvotes,bounty,vuln_type,date
 3392174,curl,Buffer Overflow in WebSocket Handshake (lib/ws.c:1287),hackerone.com/reports/3392174,16,0.0,Classic Buffer Overflow,2025-10-21
 3393539,curl,Memory leak in Curl_auth_create_ntlm_type3_message,hackerone.com/reports/3393539,13,0.0,Uncontrolled Resource Consumption,2025-10-28
 3393664,Rocket.Chat,SSRF via improper validation after DNS name resolution in the link-preview feature,hackerone.com/reports/3393664,26,0.0,Server-Side Request Forgery (SSRF),2026-06-11
+3395218,curl,Use of Deprecated strcpy() with Fixed-Size Buffers in Progress Time Formatting,hackerone.com/reports/3395218,9,0.0,,2025-10-22
+3395221,Revive Adserver,Error-Based & Time-Based SQL Injection in 'keyword' Parameter of admin-search.php Allowing Full Database Access in Revive Adserver v6.0.0,hackerone.com/reports/3395221,93,0.0,SQL Injection,2025-10-24
+3395227,curl,Use of Deprecated strcpy() with User-Controlled Environment Variable in Memory Debug Initialization,hackerone.com/reports/3395227,17,0.0,,2025-10-22
+3395666,curl,libcurl MQTT PUBLISH length overflow (heap overflow),hackerone.com/reports/3395666,9,0.0,Heap Overflow,2025-10-28
+3398283,Revive Adserver,Authorization bypass allows changing email address of other users,hackerone.com/reports/3398283,35,0.0,Improper Access Control - Generic,2025-11-19
+3399016,Nextcloud,Improper input validation On Exported deep-link handler crashes `FileDisplayActivity` on crafted external URL — Denial-of-Service,hackerone.com/reports/3399016,65,0.0,Improper Null Termination,2026-05-01
+3399191,Revive Adserver,Reflected XSS in account-preferences-plugin.php,hackerone.com/reports/3399191,21,0.0,Cross-site Scripting (XSS) - Reflected,2025-11-19
+3399218,Revive Adserver,Improper sanitisation of input in the settings could cause DoS,hackerone.com/reports/3399218,24,0.0,Business Logic Errors,2025-11-19
+3399774,curl,Integer Overflow to Heap Overflow in DoH Response Handling,hackerone.com/reports/3399774,18,0.0,Heap Overflow,2025-10-25
+3399809,Revive Adserver,Stored XSS on inventory-retrieve.php,hackerone.com/reports/3399809,17,0.0,Cross-site Scripting (XSS) - Stored,2025-11-19
+3400140,Discourse,Denial of Service (DoS) Vulnerability in Drafts Creation Endpoint,hackerone.com/reports/3400140,94,1024.0,Uncontrolled Resource Consumption,2026-06-30
+3400143,Nextcloud,Credential Disclosure via Unvalidated directDownloadUrl (Missing DontAddCredentialsAttribute),hackerone.com/reports/3400143,37,250.0,Insufficiently Protected Credentials,2026-04-13
+3400506,Revive Adserver,Stored XSS in Conversion Statistics via Tracker Name,hackerone.com/reports/3400506,28,0.0,Cross-site Scripting (XSS) - Stored,2025-11-19
+3400761,curl,"curl’s persistence files inherit world-readable/writable perms from umask, leaking and tampering with cookies/HSTS/Alt-Svc caches",hackerone.com/reports/3400761,10,0.0,Cleartext Storage of Sensitive Information,2025-10-28
+3400831,curl,CURLX_SET_BINMODE(NULL) can call fileno(NULL) and cause undefined behavior / crash,hackerone.com/reports/3400831,13,0.0,,2025-10-27
+3401464,Revive Adserver,Information Disclosure via “Add user” lookup in Account Management (User Access),hackerone.com/reports/3401464,16,0.0,Exposure of Sensitive Information Due to Incompatible Policies,2025-11-19
+3401612,Revive Adserver,IDOR Vulnerability in Banner Deletion ,hackerone.com/reports/3401612,56,0.0,Insecure Direct Object Reference (IDOR),2025-11-19
+3403450,Revive Adserver,Information Disclosure via Verbose Error Messages,hackerone.com/reports/3403450,17,0.0,Information Exposure Through an Error Message,2025-11-19
+3403727,Revive Adserver,Reflected XSS in /admin/banner-zone.php (v6.0.0+),hackerone.com/reports/3403727,18,0.0,Cross-site Scripting (XSS) - Reflected,2025-11-19
+3403880,curl,Logical Flaw in curl_url_set Leads to Inconsistent Query Parameter Encoding,hackerone.com/reports/3403880,10,0.0,Improper Input Validation,2025-10-29
+3404025,curl,SOCKS5 Heap Buffer Overflow via Malicious HTTP Redirect with Oversized Hostname,hackerone.com/reports/3404025,8,0.0,Heap Overflow,2025-10-31
+3404968,Revive Adserver,Stored-XSS in Banner Name field ,hackerone.com/reports/3404968,21,0.0,Cross-site Scripting (XSS) - Stored,2025-11-19
+3405778,Node.js,Timeout-based race conditions make Uint8Array/Buffer.alloc non-zerofilled,hackerone.com/reports/3405778,43,0.0,Improper Initialization,2026-02-12
+3406123,curl,"Buffer over-read,, Missing NUL termination in addvariable() causes undefined behavior",hackerone.com/reports/3406123,8,0.0,Buffer Over-read,2025-10-31
+3407352,curl,curl built with GnuTLS backend defaults to weak crypto parameters,hackerone.com/reports/3407352,18,0.0,Inadequate Encryption Strength,2025-12-08
+3408126,curl,Directory Traversal Vulnerability in cURL via Content-Disposition Header Processing,hackerone.com/reports/3408126,25,0.0,Path Traversal,2025-11-01
+3409186,curl,Hi Hacker,hackerone.com/reports/3409186,22,0.0,Business Logic Errors,2025-11-03
+3409193,curl,HackerOne,hackerone.com/reports/3409193,26,0.0,Array Index Underflow,2025-11-03
+3411750,Revive Adserver,Stored-XSS in campaign name displayed in Banners modal,hackerone.com/reports/3411750,32,0.0,Cross-site Scripting (XSS) - Stored,2025-11-19
+3413764,Revive Adserver,Username normalization missing allows visually indistinguishable accounts (Whitespace-Based Impersonation),hackerone.com/reports/3413764,27,0.0,Improper Neutralization of Whitespace,2025-11-19
+3413890,Revive Adserver,Unrestricted setPerPage allows huge result sets / resource exhaustion / mass log retrieval,hackerone.com/reports/3413890,22,0.0,Allocation of Resources Without Limits or Throttling,2025-11-19
+3414079,U.S. Dept Of Defense,DNN - Unrestricted Arbitrary File Upload #████████,hackerone.com/reports/3414079,10,0.0,File Content Injection,2026-01-12
+3414088,curl,SMTP CRLF Command Injection in CURLOPT_MAIL_FROM and CURLOPT_MAIL_RCPT,hackerone.com/reports/3414088,11,0.0,CRLF Injection,2025-11-10
+3417162,lemlist,Authentication Bypass in Subscription Management Endpoint,hackerone.com/reports/3417162,67,0.0,Insecure Direct Object Reference (IDOR),2025-11-17
+3417428,curl,libcurl MQTT `CURLOPT_POSTFIELDSIZE_LARGE` overflow leads to immediate DoS,hackerone.com/reports/3417428,8,0.0,Integer Overflow,2025-11-10
+3417819,Node.js,FS Permissions Bypass,hackerone.com/reports/3417819,34,0.0,Violation of Secure Design Principles,2026-02-12
+3417967,Django,Potential SQL Injection when annotating FilteredRelation on PostgreSQL,hackerone.com/reports/3417967,52,0.0,SQL Injection,2025-12-02
+3418031,Rocket.Chat,Open Redirect in Rocket.Chat,hackerone.com/reports/3418031,32,0.0,Open Redirect,2026-04-10
+3418528,curl,Unsafe use of strcpy in Curl_ldap_err2string (packages/OS400/os400sys.c) — stack-buffer-overflow (PoC + ASan),hackerone.com/reports/3418528,14,0.0,Classic Buffer Overflow,2025-11-10
+3418616,curl,SMTP CRLF Injection in curl/libcurl via MAIL FROM/RCPT TO parameters,hackerone.com/reports/3418616,8,0.0,,2025-11-10
+3418646,curl,Arbitrary Configuration File Inclusion: via External Control of File Name or Path,hackerone.com/reports/3418646,9,0.0,External Control of File Name or Path,2025-11-10
+3418760,curl,Command Injection - CRITICISM,hackerone.com/reports/3418760,8,0.0,Command Injection - Generic,2025-11-11
+3418776,curl,Silent TLS Trust Model Hijacking via `CURL_CA_BUNDLE` Environment Variable Leads to MITM,hackerone.com/reports/3418776,11,0.0,Improper Certificate Validation,2025-11-11
+3418861,curl,"libcurl FTP path normalization flaw allows decoded %2e%2e → CWD .. and directory escape (Path Traversal, CWE-22)",hackerone.com/reports/3418861,16,0.0,Path Traversal,2025-11-11
+3418966,AWS VDP,Non-Production API Endpoints for the AI Ops Service Fails to Log to CloudTrail Resulting in Silent Permission Enumeration,hackerone.com/reports/3418966,18,0.0,Insufficient Logging,2026-01-06
+3419587,AWS VDP,"AWS Auto Scaling Service Reporting ""AWS Internal"" for CloudTrail Events Generated from Specific Endpoints",hackerone.com/reports/3419587,23,0.0,Insufficient Logging,2026-01-05
+3419617,curl,Hash exposed in public repository,hackerone.com/reports/3419617,8,0.0,Exposed Dangerous Method or Function,2025-11-11
+3419636,lemlist, Authentication Token Theft via Open Redirect in Callback URL Parameter,hackerone.com/reports/3419636,60,0.0,Insufficiently Protected Credentials,2025-11-14
+3423013,LY Corporation,page.line.me Open Redirect Leading to OAuth Authorization Code Exposure and Access Token Compromise,hackerone.com/reports/3423013,43,1000.0,,2026-06-02
+3423950,Cloudflare Public Bug Bounty,"[Variation of #3321406] YetAnother 1-Click Chaining of Self-XSS, Cookie Tossing and AntiCSRF Token Prediction leads to auto approval in AccessTempAuth",hackerone.com/reports/3423950,63,0.0,Cross-site Scripting (XSS) - Stored,2026-04-14
+3424977,Django,User enumeration via timing attack in Django mod_wsgi authentication backend leads to account discovery,hackerone.com/reports/3424977,62,0.0,,2026-02-04
+3424998,Cloudflare Public Bug Bounty,AI Playground XSS to steal user-chat messages and access to connected MCP Server,hackerone.com/reports/3424998,61,0.0,Cross-site Scripting (XSS) - Reflected,2026-02-26
