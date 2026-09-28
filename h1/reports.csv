@@ -11904,3 +11904,29 @@ id,program,title,link,upvotes,bounty,vuln_type,date
 3423950,Cloudflare Public Bug Bounty,"[Variation of #3321406] YetAnother 1-Click Chaining of Self-XSS, Cookie Tossing and AntiCSRF Token Prediction leads to auto approval in AccessTempAuth",hackerone.com/reports/3423950,63,0.0,Cross-site Scripting (XSS) - Stored,2026-04-14
 3424977,Django,User enumeration via timing attack in Django mod_wsgi authentication backend leads to account discovery,hackerone.com/reports/3424977,62,0.0,,2026-02-04
 3424998,Cloudflare Public Bug Bounty,AI Playground XSS to steal user-chat messages and access to connected MCP Server,hackerone.com/reports/3424998,61,0.0,Cross-site Scripting (XSS) - Reflected,2026-02-26
+3425308,Cosmos,Economic DoS (Griefing) on IBC Relayers via `memo` Callback Gas Exploitation,hackerone.com/reports/3425308,16,0.0,Uncontrolled Resource Consumption,2025-12-18
+3426417,Django,ASGIRequest header concatenation quadratic CPU DoS on Django via repeated headers leads to worker exhaustion,hackerone.com/reports/3426417,24,0.0,,2026-02-09
+3426839,AWS VDP,Unlimited Reuse of Coupon Code Allows Free Shipping on All Orders on ██████████,hackerone.com/reports/3426839,69,0.0,Business Logic Errors,2026-02-09
+3427194,curl,Malicious server forces .curlrc creation via curl -OJ leading to local file exfiltration,hackerone.com/reports/3427194,8,0.0,,2025-11-15
+3427343,curl,Off-by-One Buffer Overflow in SMB Path Handler,hackerone.com/reports/3427343,8,0.0,Off-by-one Error,2025-11-15
+3427370,AWS VDP,Command Injection on Amazon Q Developer CLI via malicious .amazonq/mcp.json leads to arbitrary code execution,hackerone.com/reports/3427370,19,0.0,Command Injection - Generic,2026-01-16
+3427460,curl,Incorrect sizeof() in Rustls Backend Memory Allocation,hackerone.com/reports/3427460,15,0.0,Incorrect Calculation of Buffer Size,2025-11-15
+3427670,curl,Double-free vulnerability in libcurl with rustls via NoServerCertVerifier condition leads to application crash,hackerone.com/reports/3427670,11,0.0,,2025-11-16
+3431180,curl,Double free in tool_ssls_load(),hackerone.com/reports/3431180,5,0.0,Double Free,2025-11-18
+3432159,IBM,Path Traversal vulnerability identified on IBM endpoint. ,hackerone.com/reports/3432159,10,0.0,,2026-01-12
+3432833,curl,[SFTP] TOCTOU Race Condition in Upload Resume Logic Leads to Arbitrary File Append,hackerone.com/reports/3432833,23,0.0,Time-of-check Time-of-use (TOCTOU) Race Condition,2025-11-24
+3434156,Revive Adserver,Username Validation Bypass,hackerone.com/reports/3434156,64,0.0,Improper Authentication - Generic,2025-11-26
+3434510,curl,"Out-of-bounds read in HTTP method handling causes undefined behavior and potential crash This is sharp, Gaurav. We’ve got a real memory-safety bug ins",hackerone.com/reports/3434510,28,0.0,Buffer Over-read,2025-11-20
+3434543,curl,Arbitrary free in curl's config file parsing.,hackerone.com/reports/3434543,26,0.0,,2025-11-23
+3437836,U.S. Dept Of Defense,Cross-Site Scripting via URL on ████████,hackerone.com/reports/3437836,11,0.0,Cross-site Scripting (XSS) - Reflected,2026-01-12
+3442024,curl,runs javascript on powershell when it shouldnt,hackerone.com/reports/3442024,12,0.0,Improper Neutralization of Script-Related HTML Tags in a Web Page (Basic XSS),2025-11-26
+3442060,curl,Infinite loop issue in the state machine of the curl project,hackerone.com/reports/3442060,17,0.0,,2025-11-26
+3443563,Nextcloud,Roundcube Webmail Style Sanitizer can be bypassed using CSS Character Escapes,hackerone.com/reports/3443563,46,0.0,Information Disclosure,2026-01-14
+3444904,curl,Heap Buffer Overflow in TFTP,hackerone.com/reports/3444904,14,0.0,Heap Overflow,2025-12-01
+3445174,curl,Path Traversal in file:// protocol allows Arbitrary File Read,hackerone.com/reports/3445174,15,0.0,Path Traversal,2025-12-01
+3445332,Revive Adserver,INI Format string injection in Revive Adserver 6.0.4 settings,hackerone.com/reports/3445332,19,0.0,Use of Externally-Controlled Format String,2026-01-14
+3445710,Revive Adserver,Broken Access Control allows advertiser accounts to delete trackers they do not own,hackerone.com/reports/3445710,47,0.0,Improper Access Control - Generic,2026-01-14
+3445890,Basecamp,Link unfurling calls out to arbitrary URLs and the private-network guard misses link-local addresses,hackerone.com/reports/3445890,62,0.0,Server-Side Request Forgery (SSRF),2025-12-22
+3447021,Automattic,XSS Vulnerability on Pressable/Atomic Hosting Platform via unescaped admin notices leads to code execution,hackerone.com/reports/3447021,76,0.0,,2026-02-18
+3449392,Node.js,CVE-2024-36137 Patch Bypass - FileHandle.chmod/chown,hackerone.com/reports/3449392,7,0.0,Improper Access Control - Generic,2026-03-30
+3451305,curl,SMTP Protocol Injection via CRLF in CURLOPT_MAIL_FROM leading to Email Spoofing,hackerone.com/reports/3451305,6,0.0,CRLF Injection,2025-12-04
