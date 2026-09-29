@@ -12017,3 +12017,34 @@ id,program,title,link,upvotes,bounty,vuln_type,date
 3508854,curl,MQTT: unsigned integer underflow bypasses MAX_MQTT_MESSAGE_SIZE check,hackerone.com/reports/3508854,4,0.0,,2026-01-13
 3509396,curl,IMAP Protocol Desynchronization and Response Smuggling via Naive Literal Parsing,hackerone.com/reports/3509396,14,0.0,Improper Input Validation,2026-01-14
 3509437,curl,"Directory listing vulnerability is disclosing names and emails, widespread (thousands of records, publicly accessible without auth)",hackerone.com/reports/3509437,10,0.0,Information Exposure Through Directory Listing,2026-01-14
+3509632,GoCD,Information Disclosure via Logback Configuration Injection in GoCD Agent,hackerone.com/reports/3509632,37,0.0,Information Disclosure,2026-02-04
+3510161,Cosmos,Memory Exhaustion in CometBFT v1.0.1 via malicious ProposalMessage leads to network-wide denial of service,hackerone.com/reports/3510161,47,0.0,,2026-01-20
+3511792,Node.js,HashDoS in V8,hackerone.com/reports/3511792,19,0.0,Cryptographic Issues - Generic,2026-03-30
+3511998,Nextcloud,Private circle can be added to another circle via API despite visibility restriction,hackerone.com/reports/3511998,86,150.0,Insecure Direct Object Reference (IDOR),2026-05-08
+3513471,Nextcloud,Unauthenticated testing endpoint of notify_push expose internal IP,hackerone.com/reports/3513471,37,150.0,Information Disclosure,2026-09-05
+3514122,AWS VDP,Password Reuse Vulnerability on AWS Sign-in Page via Password Reset Flow leads to Security Policy Violation,hackerone.com/reports/3514122,55,0.0,Weak Password Requirements,2026-02-26
+3514263,curl,libcurl: Improper Authentication State Management on Cross-Protocol Redirects,hackerone.com/reports/3514263,17,0.0,Insufficiently Protected Credentials,2026-01-17
+3514640,Rocket.Chat,Unauthenticated Path Traversal (LFI) via /custom-sounds/ when CustomSounds uses FileSystem storage,hackerone.com/reports/3514640,47,0.0,Path Traversal,2026-08-03
+3515557,Monero,Loss of multisig funds through single malicious participant's deliberate deception,hackerone.com/reports/3515557,12,0.0,Business Logic Errors,2026-08-20
+3516186,curl,Cookie Max-Age Integer Overflow Vulnerability,hackerone.com/reports/3516186,28,0.0,Integer Overflow,2026-01-19
+3516202,curl,Cookie Replacement Use-After-Free Vulnerability,hackerone.com/reports/3516202,21,0.0,Use After Free,2026-01-19
+3516878,curl,Cross‑origin cookies leak and injection risk when using a custom Host header,hackerone.com/reports/3516878,30,0.0,Insufficiently Protected Credentials,2026-01-20
+3516974,curl,"SSL options ISSUERCERT, EC_CURVES and CRLFILE silently ignored by non-OpenSSL backends",hackerone.com/reports/3516974,31,0.0,Missing Required Cryptographic Step,2026-01-20
+3518571,Weblate,Argument Injection in /manage/ssh/ via host parameter leads to sensitive file disclosure on Weblate,hackerone.com/reports/3518571,34,0.0,,2026-04-26
+3518758,Nextcloud,IDOR on ██████ via direct photo URL leads to unauthorized access to deleted and other users' photos,hackerone.com/reports/3518758,37,0.0,Insecure Direct Object Reference (IDOR),2026-04-07
+3521434,Nextcloud,View-only guests could see deleted Collectives pages in the trashbin,hackerone.com/reports/3521434,86,0.0,Improper Access Control - Generic,2026-05-08
+3521639,Nextcloud,Improper Input Validation and Integer Overflow in timeamount parameter of files_retention app,hackerone.com/reports/3521639,23,0.0,Integer Overflow,2026-09-05
+3521646,Nextcloud,Missing Duplicate Check allowing Multiple Retention Rules per System Tag,hackerone.com/reports/3521646,20,0.0,Business Logic Errors,2026-09-05
+3522157,DuckDuckGo,SSRF with bypass leads to client side hosting / vulnerabilities ( XSS and others ),hackerone.com/reports/3522157,62,500.0,Server-Side Request Forgery (SSRF),2026-09-17
+3522254,GitHub,PATs without the required scope can leak issues,hackerone.com/reports/3522254,59,0.0,Improper Access Control - Generic,2026-03-19
+3523349,curl,Integer Underflow in src/var.c,hackerone.com/reports/3523349,46,0.0,Integer Underflow,2026-01-26
+3523703,Tucows (VDP),Password Strength Policy Bypass via Server-Side Validation Flaw,hackerone.com/reports/3523703,52,0.0,Business Logic Errors,2026-03-27
+3523953,curl,wcurl Argument Injection via Unquoted Variable,hackerone.com/reports/3523953,43,0.0,Command Injection - Generic,2026-01-26
+3524779,Fastify,DoS via Unbounded Memory Allocation in sendWebStream on Fastify v5.7.0+ leads to OOM crash when backpressure is ignored,hackerone.com/reports/3524779,35,0.0,,2026-03-05
+3527771,GitHub,Add labels to arbitrary issues/prs & compromise github actions label checks,hackerone.com/reports/3527771,70,0.0,Insecure Direct Object Reference (IDOR),2026-03-19
+3527788,GitHub,Add labels to arbitrary issues/prs via Memex Bulk Update to compromise github actions label gating ,hackerone.com/reports/3527788,43,0.0,Insecure Direct Object Reference (IDOR),2026-08-25
+3531216,curl,MQTT Protocol Packet Injection via Unchecked CONNACK Remaining Length,hackerone.com/reports/3531216,45,0.0,,2026-02-05
+3531737,Node.js,Memory leak in Node.js HTTP/2 server via WINDOW_UPDATE on stream 0 leads to resource exhaustion,hackerone.com/reports/3531737,7,0.0,Missing Release of Memory after Effective Lifetime,2026-03-30
+3533697,Nextcloud,Public collectives allow to create pages,hackerone.com/reports/3533697,8,0.0,Improper Access Control - Generic,2026-09-17
+3533945,Node.js,Timing side-channel in HMAC verification via memcmp() in crypto_hmac.cc leads to potential MAC forgery,hackerone.com/reports/3533945,16,0.0,Cryptographic Issues - Generic,2026-03-30
+3534050,Nextcloud,Activity app does not verify federated file activity received from remote servers ,hackerone.com/reports/3534050,16,150.0,Improper Authentication - Generic,2026-09-05
