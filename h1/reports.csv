@@ -11930,3 +11930,58 @@ id,program,title,link,upvotes,bounty,vuln_type,date
 3447021,Automattic,XSS Vulnerability on Pressable/Atomic Hosting Platform via unescaped admin notices leads to code execution,hackerone.com/reports/3447021,76,0.0,,2026-02-18
 3449392,Node.js,CVE-2024-36137 Patch Bypass - FileHandle.chmod/chown,hackerone.com/reports/3449392,7,0.0,Improper Access Control - Generic,2026-03-30
 3451305,curl,SMTP Protocol Injection via CRLF in CURLOPT_MAIL_FROM leading to Email Spoofing,hackerone.com/reports/3451305,6,0.0,CRLF Injection,2025-12-04
+3452015,Enjin,Unauthenticated GraphQL access by prepending __schema to private operations,hackerone.com/reports/3452015,75,500.0,Authentication Bypass,2025-12-05
+3452696,PlayStation,PS4 BD-J privilege escalation using nested JAR,hackerone.com/reports/3452696,85,2500.0,Privilege Escalation,2026-04-29
+3452725,curl,Title: Use-After-Free in cURL Test Suite via Improper Cleanup of Global Handle,hackerone.com/reports/3452725,20,0.0,Use After Free,2025-12-05
+3455037,curl,Certificate Hostname Validation Bypass via Leading Dot in Hostname,hackerone.com/reports/3455037,17,0.0,Improper Certificate Validation,2025-12-09
+3456148,Node.js,Unbounded decompression chain in HTTP responses on Node.js Fetch API via Content-Encoding leads to resource exhaustion,hackerone.com/reports/3456148,25,0.0,,2026-02-23
+3456295,Node.js,"Uncatchable ""Maximum call stack size exceeded"" error on Node.js via async_hooks leads to process crashes bypassing error handlers",hackerone.com/reports/3456295,35,0.0,Improper Handling of Exceptional Conditions,2026-02-12
+3458235,IBM,[RCE] Remote Code Execution via  React Server Components Vulnerability CVE-2025-55182,hackerone.com/reports/3458235,67,0.0,Code Injection,2025-12-18
+3459285,Stripo Inc,[Critical] Unauthorized Cross-Tenant Data Access in Stripo AI Hub Campaign via Deleted Project.,hackerone.com/reports/3459285,140,0.0,Improper Access Control - Generic,2026-01-20
+3459417,curl,CVE-2025-14524: bearer token leak on cross-protocol redirect,hackerone.com/reports/3459417,17,0.0,Insufficiently Protected Credentials,2026-01-07
+3459636,curl,Stack Buffer Overflow in cURL wolfSSL Backend (lib/vtls/wolfssl.c),hackerone.com/reports/3459636,12,0.0,Stack Overflow,2025-12-09
+3460184,curl,Terminal Output Not Great,hackerone.com/reports/3460184,8,0.0,"Improper Neutralization of Escape, Meta, or Control Sequences",2025-12-11
+3462525,curl,Buffer Overflow in cURL Internal printf Function,hackerone.com/reports/3462525,15,0.0,Stack Overflow,2025-12-12
+3462991,Nextcloud,SQL Injection in Column Type Parameter Allows Arbitrary SQL Execution,hackerone.com/reports/3462991,80,0.0,SQL Injection,2026-05-15
+3463045,IBM,Remote Code Execution identified on IBM endpoint.,hackerone.com/reports/3463045,60,0.0,,2025-12-31
+3463608,curl,Denial of Service (DoS) vulnerability in dedotdotify() URL path normalization,hackerone.com/reports/3463608,13,0.0,Uncontrolled Resource Consumption,2025-12-13
+3463619,curl,testing hackerone functions,hackerone.com/reports/3463619,35,0.0,Improper Restriction of Authentication Attempts,2025-12-13
+3463719,Nintendo,ASLR leak in Mario Kart World through LAN mode,hackerone.com/reports/3463719,74,0.0,Information Disclosure,2026-02-19
+3463949,Node.js,Missing AES-GCM Authentication Tag Validation and Improper Deprecation Handling,hackerone.com/reports/3463949,24,0.0,Missing Required Cryptographic Step,2025-12-19
+3465094,curl,Path Traversal Bypass in file:// URLs Due to Incomplete URL-Encoded Path Normalization,hackerone.com/reports/3465094,18,0.0,Path Traversal,2025-12-15
+3465156,Node.js,Node.js permission model bypass via unchecked Unix Domain Socket connections (UDS),hackerone.com/reports/3465156,52,0.0,Server-Side Request Forgery (SSRF),2026-02-12
+3466883,curl,Curl Alt-Svc Parser Stack Buffer Overflow,hackerone.com/reports/3466883,8,0.0,Stack Overflow,2025-12-16
+3466896,curl,Heap Overflow in cURL AmigaOS Socket Implementation,hackerone.com/reports/3466896,8,0.0,Heap Overflow,2025-12-16
+3467641,Basecamp,Unauthenticated access to private files on app.fizzy.do via Active Storage URLs leads to information disclosure,hackerone.com/reports/3467641,75,100.0,Insecure Direct Object Reference (IDOR),2026-03-16
+3468098,curl,Certificate Pinning Bypass with wolfSSL backend over HTTP/3,hackerone.com/reports/3468098,7,0.0,Improper Certificate Validation,2025-12-17
+3468169,Revive Adserver,Reflected XSS in afr.php,hackerone.com/reports/3468169,36,0.0,Cross-site Scripting (XSS) - Reflected,2026-01-14
+3468410,curl,Heap buffer overflow in Curl_ipv4_resolve_r due to incorrect buffer alignment and size calculation on AmigaOS,hackerone.com/reports/3468410,4,0.0,,2025-12-17
+3470073,curl,Heap Buffer Over-Read via Malicious SMB Server READ_ANDX Response,hackerone.com/reports/3470073,9,0.0,Out-of-bounds Read,2025-12-25
+3470095,curl,Heap Buffer Over-Read via Malicious SMB Server READ_ANDX Response,hackerone.com/reports/3470095,17,0.0,Out-of-bounds Read,2025-12-20
+3470649,curl,File URL UNC Path Access (Windows SSRF),hackerone.com/reports/3470649,19,0.0,,2025-12-18
+3470970,Revive Adserver,Reflected XSS in banner-acl.php and channel-acl.php via executionorder,hackerone.com/reports/3470970,38,0.0,Cross-site Scripting (XSS) - Reflected,2026-01-14
+3471553,curl,Unbounded memory consumption via compressed HTTP responses (gzip/brotli/zstd),hackerone.com/reports/3471553,21,0.0,Uncontrolled Resource Consumption,2025-12-21
+3473145,Rocket.Chat,Unauthenticated SSRF in Voxtelesys integration ('checkUrlForSsrf' Bypass via DNS rebinding),hackerone.com/reports/3473145,28,0.0,Server-Side Request Forgery (SSRF),2026-07-29
+3473182,curl,A logic error in detect_proxy caused truncation of environment variable names for long protocol schemes.,hackerone.com/reports/3473182,12,0.0,Business Logic Errors,2025-12-21
+3473384,curl,Functional Regression in Digest Authentication: Failure to handle optional spaces and escaped quotes,hackerone.com/reports/3473384,20,0.0,Improper Input Validation,2025-12-21
+3473696,Revive Adserver,[revive-adserver] Reflected XSS in Banner Delivery Options via cap parameter,hackerone.com/reports/3473696,36,0.0,Cross-site Scripting (XSS) - Reflected,2026-01-14
+3473882,Node.js,"TLS PSK/ALPN Callback Exceptions Bypass Error Handlers, Causing DoS and FD Leak",hackerone.com/reports/3473882,81,0.0,Uncontrolled Resource Consumption,2026-02-12
+3474865,curl,libcurl WebSocket handshake accepts any Sec-WebSocket-Accept,hackerone.com/reports/3474865,10,0.0,,2025-12-23
+3475472,curl,Public-suffix cookie injection when libpsl is disabled,hackerone.com/reports/3475472,11,0.0,,2025-12-25
+3475613,curl,HAProxy Connection Reuse leads to IP Spoofing and mTLS Context Smuggling,hackerone.com/reports/3475613,16,0.0,Improper Access Control - Generic,2025-12-23
+3475626,LinkedIn,Session Cookie Leakage via Static Header Field in WebViewerFragment,hackerone.com/reports/3475626,129,0.0,Misconfiguration,2026-03-17
+3476928,curl,Integer Overflow in `curl_easy_escape()` may lead to heap buffer overflow and stack memory disclosure on 32-bit platforms,hackerone.com/reports/3476928,11,0.0,Integer Overflow,2025-12-25
+3477023,curl,Protocol Smuggling / CRLF Injection via Gopher Protocol allows Arbitrary Command Injection,hackerone.com/reports/3477023,20,0.0,CRLF Injection,2025-12-25
+3477116,curl,CVE-2025-15079: libssh global knownhost override ,hackerone.com/reports/3477116,18,0.0,Improper Validation of Certificate with Host Mismatch,2026-01-07
+3478646,AWS VDP,GitHub Retired UsernameTakeover From  [aws/████████],hackerone.com/reports/3478646,47,0.0,Inclusion of Functionality from Untrusted Control Sphere,2026-08-03
+3479019,curl,Security hardening: missing integer overflow check in curl_load_library(),hackerone.com/reports/3479019,12,0.0,Integer Overflow,2025-12-27
+3479203,curl,HTTP/3 Protocol Smuggling and Header Injection via CRLF in QPACK value conversion,hackerone.com/reports/3479203,24,0.0,CRLF Injection,2025-12-27
+3479692,Nextcloud,Unauthenticated SSRF via Public Reference API -Sharing Token Bypass,hackerone.com/reports/3479692,41,0.0,,2026-03-31
+3479984,curl,CRLF Injection / Protocol Smuggling in libcurl via CURLOPT_USERNAME (IMAP),hackerone.com/reports/3479984,5,0.0,CRLF Injection,2025-12-28
+3480039,curl,WebSocket Logic Error: Control Frame (PING/PONG) Starvation causes Connection Drop (DoS) during large transfers,hackerone.com/reports/3480039,9,0.0,Business Logic Errors,2025-12-28
+3480078,curl,Heap Buffer Over-read in lib/http2.c (on_header) handling PUSH_PROMISE frames,hackerone.com/reports/3480078,8,0.0,Buffer Over-read,2025-12-28
+3480641,curl,Cross‑Layer State Confusion in libcurl: Credential & Key‑Material Persistence Across Redirect / Connection Reuse Boundaries,hackerone.com/reports/3480641,16,0.0,Violation of Secure Design Principles,2025-12-28
+3480712,curl,Telnet Suboption Buffer Pointer Underflow in lib/telnet.c leads to Out-of-Bounds Read,hackerone.com/reports/3480712,16,0.0,Buffer Under-read,2025-12-29
+3480713,curl,Proxy-Authorization header is leaked to origin server after redirect from proxied to direct connection,hackerone.com/reports/3480713,18,0.0,Information Exposure Through Sent Data,2025-12-30
+3480841,Node.js,Permission Model Bypass in realpathSync.native Allows File Existence Disclosure,hackerone.com/reports/3480841,15,0.0,Information Disclosure,2026-03-30
+3480925,curl,CVE-2025-15224: libssh key passphrase bypass without agent set,hackerone.com/reports/3480925,13,0.0,,2026-01-07
