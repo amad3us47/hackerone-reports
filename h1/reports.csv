@@ -11985,3 +11985,35 @@ id,program,title,link,upvotes,bounty,vuln_type,date
 3480713,curl,Proxy-Authorization header is leaked to origin server after redirect from proxied to direct connection,hackerone.com/reports/3480713,18,0.0,Information Exposure Through Sent Data,2025-12-30
 3480841,Node.js,Permission Model Bypass in realpathSync.native Allows File Existence Disclosure,hackerone.com/reports/3480841,15,0.0,Information Disclosure,2026-03-30
 3480925,curl,CVE-2025-15224: libssh key passphrase bypass without agent set,hackerone.com/reports/3480925,13,0.0,,2026-01-07
+3481595,curl,SMTP CRLF Injection & Protocol Desynchronization in libcurl,hackerone.com/reports/3481595,16,0.0,CRLF Injection,2025-12-29
+3481849,curl,HTTP/2 and HTTP/3 Header Injection in curl,hackerone.com/reports/3481849,20,0.0,HTTP Response Splitting,2025-12-30
+3483225,curl,A quiet New Year wish for security researchers,hackerone.com/reports/3483225,31,0.0,,2026-01-01
+3483708,Nextcloud,Valid share tokens allow to access tempory upload files of share owner,hackerone.com/reports/3483708,63,0.0,Improper Access Control - Generic,2026-06-07
+3483902,curl,PROTOCOL-LEVEL: Persistent UDP Amplification and Cache Poisoning via Alt-Svc Logic Flaw,hackerone.com/reports/3483902,19,0.0,Business Logic Errors,2026-01-02
+3484319,curl,MQTT Protocol Violation & Integer Overflow in libcurl,hackerone.com/reports/3484319,14,0.0,Integer Overflow,2026-01-01
+3484431,curl,HTTP Request Smuggling and SSRF via CRLF Injection in Curl_add_custom_headers,hackerone.com/reports/3484431,9,0.0,HTTP Request Smuggling,2026-01-02
+3484506,curl,CRLF Injection in Gopher Protocol (`lib/gopher.c`),hackerone.com/reports/3484506,9,0.0,CRLF Injection,2026-01-02
+3484601,Nextcloud,Team membership information returned on API level based on ID,hackerone.com/reports/3484601,14,200.0,Insecure Direct Object Reference (IDOR),2026-09-17
+3485343,8x8,jitsi-call-analytics: Unauthenticated arbitrary file write via path traversal in `/api/v1/uploads/analyze`,hackerone.com/reports/3485343,67,100.0,Path Traversal,2026-07-02
+3485826,curl,Alt-Svc bypasses credential leak protection (CVE-2018-1000007),hackerone.com/reports/3485826,13,0.0,Information Exposure Through Sent Data,2026-01-04
+3485930,curl,Path Traversal in curl file:// Protocol Handler Allows Unauthorized File Access,hackerone.com/reports/3485930,18,0.0,Path Traversal,2026-01-04
+3486747,Nextcloud,"SVG filter primitives bypass remote image blocking, enabling email tracking without consent.",hackerone.com/reports/3486747,53,0.0,Privacy Violation,2026-04-20
+3487952,curl,State Isolation Failure in Multiplexed Connections (Shared Auth Context),hackerone.com/reports/3487952,8,0.0,Exposure of Data Element to Wrong Session,2026-01-08
+3488278,curl,MQTT: Missing upper bound on incoming Remaining Length allows server-controlled long wait,hackerone.com/reports/3488278,10,0.0,Uncontrolled Resource Consumption,2026-01-06
+3489490,Nextcloud,Authentication Bypass in ID4me handling via Missing JWT Signature Verification in User OIDC,hackerone.com/reports/3489490,55,2500.0,Improper Authentication - Generic,2026-06-07
+3493602,curl,Stack Buffer Overflow in mprintf.c formatting function (fallback path),hackerone.com/reports/3493602,8,0.0,Classic Buffer Overflow,2026-01-08
+3494098,curl,inconsistently Rejection Logic in file:// URLs with Authority,hackerone.com/reports/3494098,7,0.0,Path Traversal,2026-01-08
+3505557,curl,CRLF Injection in HTTP header values allows arbitrary header injection,hackerone.com/reports/3505557,5,0.0,CRLF Injection,2026-01-10
+3506159,curl,Heap Out-of-Bounds Read in lib/http2.c via Malformed PUSH_PROMISE Headers,hackerone.com/reports/3506159,5,0.0,Out-of-bounds Read,2026-01-10
+3506183,GitHub,Missing Access Control in MigrationFile allows attacker to upload files to any Migration,hackerone.com/reports/3506183,91,0.0,Insecure Direct Object Reference (IDOR),2026-03-05
+3506873,Nextcloud,Shared smart albums in the Photos app can expose files outside the album owner's configured source folders,hackerone.com/reports/3506873,13,0.0,Improper Access Control - Generic,2026-09-17
+3507241,MetaMask,Authorization Bypass in Starknet Snap via enableAuthorize parameter leads to unauthorized transaction signing,hackerone.com/reports/3507241,85,350.0,Business Logic Errors,2026-03-13
+3507273,Nextcloud,Email Enumeration via Password-Protected Share Identity Verification,hackerone.com/reports/3507273,34,100.0,Information Disclosure,2026-09-05
+3508321,curl,Integer-underflow leads to heap over-read in TFTP implementation,hackerone.com/reports/3508321,7,0.0,Buffer Over-read,2026-01-14
+3508500,curl,integer Overflow in MQTT Protocol Handling Allows Bypassing Message Size Limit,hackerone.com/reports/3508500,5,0.0,Integer Overflow,2026-01-13
+3508701,curl,Use-After-Free in curl_easy_nextheader when reusing header handle across requests,hackerone.com/reports/3508701,8,0.0,Use After Free,2026-01-14
+3508785,curl,Gopher Protocol Command Injection (SSRF Smuggling),hackerone.com/reports/3508785,8,0.0,Server-Side Request Forgery (SSRF),2026-01-14
+3508799,curl,Digest Authentication Header Injection,hackerone.com/reports/3508799,8,0.0,HTTP Response Splitting,2026-01-14
+3508854,curl,MQTT: unsigned integer underflow bypasses MAX_MQTT_MESSAGE_SIZE check,hackerone.com/reports/3508854,4,0.0,,2026-01-13
+3509396,curl,IMAP Protocol Desynchronization and Response Smuggling via Naive Literal Parsing,hackerone.com/reports/3509396,14,0.0,Improper Input Validation,2026-01-14
+3509437,curl,"Directory listing vulnerability is disclosing names and emails, widespread (thousands of records, publicly accessible without auth)",hackerone.com/reports/3509437,10,0.0,Information Exposure Through Directory Listing,2026-01-14
