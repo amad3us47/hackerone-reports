@@ -12048,3 +12048,19 @@ id,program,title,link,upvotes,bounty,vuln_type,date
 3533697,Nextcloud,Public collectives allow to create pages,hackerone.com/reports/3533697,8,0.0,Improper Access Control - Generic,2026-09-17
 3533945,Node.js,Timing side-channel in HMAC verification via memcmp() in crypto_hmac.cc leads to potential MAC forgery,hackerone.com/reports/3533945,16,0.0,Cryptographic Issues - Generic,2026-03-30
 3534050,Nextcloud,Activity app does not verify federated file activity received from remote servers ,hackerone.com/reports/3534050,16,150.0,Improper Authentication - Generic,2026-09-05
+3542546,RubyGems,Server-side ReDoS via user-controlled regex in OIDC Access Policy,hackerone.com/reports/3542546,41,0.0,Uncontrolled Resource Consumption,2026-03-26
+3543475,Basecamp,Improper Access Control in `fizzy.do` import flow allows cross-tenant ActionText reference resolution and data disclosure,hackerone.com/reports/3543475,53,0.0,Improper Access Control - Generic,2026-04-14
+3546390,Node.js,Assertion error in node_url.cc via malformed URL format leads to Node.js crash,hackerone.com/reports/3546390,40,0.0,Reachable Assertion,2026-03-26
+3547349,Monero,Inverted ternary in peerlist_manager::filter() allows unlimited whitelist entries per host via different ports,hackerone.com/reports/3547349,18,0.0,,2026-06-29
+3553340,Ruby on Rails,Active Storage Vips Transformer Missing validate_transformation — CVE-2025-24293 Incomplete Fix,hackerone.com/reports/3553340,30,0.0,Path Traversal,2026-07-30
+3556769,Node.js,Incomplete fix for CVE-2026-21637: loadSNI() in _tls_wrap.js lacks try/catch leading to Remote DoS,hackerone.com/reports/3556769,59,0.0,,2026-04-23
+3556892,PortSwigger Web Security,HTML Injection in DAST Trial Request Form Confirmation Email – PortSwigger,hackerone.com/reports/3556892,91,200.0,,2026-02-26
+3557138,AWS VDP,Arbitrary Code Execution via Scanner Bypass in **aws-diagram-mcp-server** `exec()` Namespace,hackerone.com/reports/3557138,43,0.0,,2026-03-09
+3558277,Python Cryptographic Authority,Fail-Open in set_tlsext_servername_callback on pyopenssl via unhandled exceptions leads to security bypass,hackerone.com/reports/3558277,63,0.0,,2026-03-20
+3558713,AWS VDP,Command Injection via Unsanitized Bundling Options in `aws-cdk-lib/aws-lambda-nodejs`,hackerone.com/reports/3558713,48,0.0,OS Command Injection,2026-06-11
+3559522,Nintendo,Splatoon 3 In-Match Integrity Bypass via Consensus Reflection Attack on Unordered Peer Submission,hackerone.com/reports/3559522,60,0.0,Client-Side Enforcement of Server-Side Security,2026-07-02
+3559715,Node.js,Node.js Permission Model bypass: UDS server bind/listen works without `--allow-net`,hackerone.com/reports/3559715,10,0.0,Improper Access Control - Generic,2026-03-30
+3560256,GitHub,Cross-repository IDOR in `/settings/security_analysis/bypass_reviewers` allows unauthorized delegated bypass reviewer modification,hackerone.com/reports/3560256,106,0.0,Insecure Direct Object Reference (IDOR),2026-05-19
+3560402,Node.js,Denial of Service via `__proto__` header name in `req.headersDistinct` (Uncaught `TypeError` crashes Node.js process),hackerone.com/reports/3560402,22,0.0,Uncontrolled Resource Consumption,2026-03-30
+3564655,Rocket.Chat,Complete authentication bypass to admin permissions,hackerone.com/reports/3564655,99,0.0,SQL Injection,2026-04-22
+3564941,Node.js,HTTP Request Smuggling via Silent Header Truncation in Node.js HTTP Parser,hackerone.com/reports/3564941,15,0.0,HTTP Request Smuggling,2026-08-28
