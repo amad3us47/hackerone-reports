@@ -12064,3 +12064,29 @@ id,program,title,link,upvotes,bounty,vuln_type,date
 3560402,Node.js,Denial of Service via `__proto__` header name in `req.headersDistinct` (Uncaught `TypeError` crashes Node.js process),hackerone.com/reports/3560402,22,0.0,Uncontrolled Resource Consumption,2026-03-30
 3564655,Rocket.Chat,Complete authentication bypass to admin permissions,hackerone.com/reports/3564655,99,0.0,SQL Injection,2026-04-22
 3564941,Node.js,HTTP Request Smuggling via Silent Header Truncation in Node.js HTTP Parser,hackerone.com/reports/3564941,15,0.0,HTTP Request Smuggling,2026-08-28
+3572848,Nextcloud,Group restriction bypass via bearer token in user_oidc (SETTING_RESTRICT_LOGIN_TO_GROUPS not enforced in Backend::getCurrentUserId),hackerone.com/reports/3572848,96,150.0,Improper Access Control - Generic,2026-05-21
+3574928,curl,Able to bypass HSTS using trailing dot,hackerone.com/reports/3574928,22,0.0,Missing Required Cryptographic Step,2026-02-26
+3575245,curl,Integer Overflow in curl_multi_get_handles() Leading to Heap Buffer Overflow,hackerone.com/reports/3575245,36,0.0,Classic Buffer Overflow,2026-02-26
+3575250,curl,RTSP RTP Interleaved Parser Assertion Failure (Zero-Length RTP Payload),hackerone.com/reports/3575250,28,0.0,Improper Check or Handling of Exceptional Conditions,2026-02-26
+3575475,curl,Curl Telnet Handler Buffer Overflow,hackerone.com/reports/3575475,11,0.0,Buffer Underflow,2026-02-26
+3577145,AWS VDP,QuickSight Authorization Bypass: Chat Agents Accessible Despite Custom Permissions Denial,hackerone.com/reports/3577145,59,0.0,,2026-05-12
+3577216,HackerOne,`exportReportPdf` mutation shows internal Activity,hackerone.com/reports/3577216,88,0.0,,2026-07-29
+3578842,IBM,SQL Injection vulnerability found on ibm.com endpoint,hackerone.com/reports/3578842,137,0.0,SQL Injection,2026-03-12
+3580247,curl,Use after free in hyperfifo example,hackerone.com/reports/3580247,19,0.0,Use After Free,2026-03-03
+3580511,Ruby on Rails,ActiveStorage Disk Service Path Traversal via Custom Blob Key Injection,hackerone.com/reports/3580511,57,0.0,Path Traversal,2026-05-07
+3581815,Lovable VDP,Open Redirect on lovable.dev via redirect parameter leads to phishing attacks,hackerone.com/reports/3581815,44,0.0,,2026-03-05
+3581911,Basecamp,Stored XSS on Trix Editor version latest (2.1.16) - Sanitizer Bypass ,hackerone.com/reports/3581911,87,337.0,Cross-site Scripting (XSS) - Stored,2026-07-14
+3582376,Node.js,HTTP Response Queue Poisoning via TOCTOU Race Condition in `http.Agent`,hackerone.com/reports/3582376,11,0.0,Time-of-check Time-of-use (TOCTOU) Race Condition,2026-06-25
+3583983,curl,CVE-2026-3783: token leak with redirect and netrc,hackerone.com/reports/3583983,26,0.0,Information Exposure Through Sent Data,2026-03-11
+3584078,Essity,████████ ████████ Server Full Exposure with Database Credentials,hackerone.com/reports/3584078,12,0.0,Information Exposure Through Directory Listing,2026-06-10
+3584149,curl,SSTI leads to Command injection,hackerone.com/reports/3584149,25,0.0,Command Injection - Generic,2026-03-04
+3584491,curl,LM Challenge-Response Hash Always Sent in SMB Authentication,hackerone.com/reports/3584491,18,0.0,Reversible One-Way Hash,2026-03-09
+3584865,curl,"In curl's SASL OAUTHBEARER authentication, including the SOH character (0x01) in the username corrupts the message structure.",hackerone.com/reports/3584865,17,0.0,Improper Neutralization of Value Delimiters,2026-03-08
+3584903,curl,CVE-2026-3784: wrong proxy connection reuse with credentials,hackerone.com/reports/3584903,30,0.0,Incorrect Authorization,2026-03-11
+3588801,GitHub,OAuth redirect uri validation bypass for :proxima_first_party_sync apps,hackerone.com/reports/3588801,77,0.0,Open Redirect,2026-07-21
+3589247,Enjin,Unauthenticated File Upload to CDN,hackerone.com/reports/3589247,56,0.0,Improper Access Control - Generic,2026-05-18
+3589269,Essity,HTTP Request Smuggling,hackerone.com/reports/3589269,13,0.0,HTTP Request Smuggling,2026-05-20
+3589551,Rocket.Chat,RBAC bypass on App log endpoints via `permissionRequired` typo — any authenticated user reads admin-only Enterprise App logs,hackerone.com/reports/3589551,40,0.0,Improper Access Control - Generic,2026-04-23
+3590576,Nextcloud,"SMIL values and by attributes bypass remote image blocking via unvalidated resource-loading animations, enabling email tracking without consent",hackerone.com/reports/3590576,26,0.0,Remote File Inclusion,2026-04-20
+3590583,Nextcloud,Unquoted body background attribute enables CSS injection that bypasses remote image blocking,hackerone.com/reports/3590583,34,0.0,Resource Injection,2026-04-20
+3590586,Nextcloud,"position: fixed !important bypasses CSS sanitizer's fixed-position mitigation, enabling full-viewport phishing overlays.",hackerone.com/reports/3590586,44,0.0,Resource Injection,2026-04-20
