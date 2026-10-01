@@ -12090,3 +12090,44 @@ id,program,title,link,upvotes,bounty,vuln_type,date
 3590576,Nextcloud,"SMIL values and by attributes bypass remote image blocking via unvalidated resource-loading animations, enabling email tracking without consent",hackerone.com/reports/3590576,26,0.0,Remote File Inclusion,2026-04-20
 3590583,Nextcloud,Unquoted body background attribute enables CSS injection that bypasses remote image blocking,hackerone.com/reports/3590583,34,0.0,Resource Injection,2026-04-20
 3590586,Nextcloud,"position: fixed !important bypasses CSS sanitizer's fixed-position mitigation, enabling full-viewport phishing overlays.",hackerone.com/reports/3590586,44,0.0,Resource Injection,2026-04-20
+3591725,AWS VDP,SQL Injection Detection Bypass in AWS WAF Managed Rules (AWSManagedRulesSQLiRuleSet),hackerone.com/reports/3591725,39,0.0,SQL Injection,2026-04-15
+3591764,Lovable VDP,Business Logic Bypass Allows Setting “Read Access” Role Without Pro Plan Subscription,hackerone.com/reports/3591764,77,0.0,Business Logic Errors,2026-03-16
+3591944,curl,CVE-2026-3805: use after free in SMB connection reuse,hackerone.com/reports/3591944,34,0.0,Use After Free,2026-03-11
+3591956,curl,Use-After-Free in SMB connection reuse (req->path dangling pointer after needle destruction),hackerone.com/reports/3591956,57,0.0,Use After Free,2026-04-29
+3592387,IBM,Potential Subdomain Takeover on IBM.com domain.,hackerone.com/reports/3592387,82,0.0,Improper Access Control - Generic,2026-03-24
+3594137,Nextcloud,Stored XSS in attachment-display exploitable through SameSite,hackerone.com/reports/3594137,39,0.0,Cross-site Scripting (XSS) - Stored,2026-04-19
+3595753,curl,Connection Reuse Ignores OAuth Bearer Token Mismatch,hackerone.com/reports/3595753,17,0.0,Improper Authentication - Generic,2026-03-10
+3595764,curl,CURLOPT_UNRESTRICTED_AUTH Dangerous Default Documentation Gap,hackerone.com/reports/3595764,18,0.0,Information Disclosure,2026-03-10
+3597359,curl,NULL Pointer Dereference (DoS) in libcurl SFTP QUOTE command parsing due to missing return statement,hackerone.com/reports/3597359,25,0.0,NULL Pointer Dereference,2026-03-11
+3598358,curl,urlapi: off-by-one in custom scheme validation skips last character,hackerone.com/reports/3598358,38,0.0,Off-by-one Error,2026-03-12
+3598444,curl,Curl_compareheader() fails to match multi-value HTTP headers,hackerone.com/reports/3598444,28,0.0,Expected Behavior Violation,2026-03-12
+3599248,Lovable VDP,Bypass of Open Redirect Fix on lovable.dev via /..// Path Traversal in redirect parameter,hackerone.com/reports/3599248,73,0.0,Open Redirect,2026-03-12
+3599383,Nextcloud,Arbitrary Board Preference Injection via Deck Config API,hackerone.com/reports/3599383,54,200.0,Improper Access Control - Generic,2026-09-17
+3599470,Nextcloud,Improper input validation in emoji field leads to sidebar UI denial of service,hackerone.com/reports/3599470,60,0.0,Business Logic Errors,2026-09-20
+3601469,Monero,Restricted RPC Policy Bypass on ZMQ JSON-RPC Allows Unauthenticated Remote Admin Actions,hackerone.com/reports/3601469,40,0.0,Improper Authentication - Generic,2026-08-17
+3601655,Ruby on Rails,Rails::HTML::Sanitizer.allowed_uri? returns true for entity-encoded control-character-split javascript: URLs,hackerone.com/reports/3601655,23,0.0,,2026-04-18
+3603300,curl,SMB READ_ANDX DataOffset not validated,hackerone.com/reports/3603300,30,0.0,,2026-03-16
+3604288,LinkedIn,Access to Deactivated LinkedIn Company Pages via Competitor Analytics API,hackerone.com/reports/3604288,76,0.0,Insecure Direct Object Reference (IDOR),2026-03-24
+3606773,phpBB,Stored XSS via SVG Upload — check_content() Blocklist Bypass & 256-Byte Scan Limit (Self-Propagating Worm),hackerone.com/reports/3606773,54,0.0,Cross-site Scripting (XSS) - Stored,2026-07-30
+3608199,Basecamp,DOM XSS in `fizzy.do` import filename preview enables one-click victim account takeover,hackerone.com/reports/3608199,80,0.0,Cross-site Scripting (XSS) - DOM,2026-04-14
+3608522,curl,Unescaped username in SASL DIGEST-MD5 response allows injection,hackerone.com/reports/3608522,26,0.0,"Improper Neutralization of Escape, Meta, or Control Sequences",2026-03-17
+3608558,phpBB,Blind POST SSRF via Web Push Notification Endpoint,hackerone.com/reports/3608558,33,0.0,Server-Side Request Forgery (SSRF),2026-05-30
+3609505,curl,HSTS accepted from HTTP origin behind HTTPS proxy,hackerone.com/reports/3609505,25,0.0,Acceptance of Extraneous Untrusted Data With Trusted Data,2026-03-17
+3610332,Nextcloud,"Approval app's file-freshness check can be bypassed by omitting the etag parameter, allowing approval of unreviewed file changes",hackerone.com/reports/3610332,56,150.0,Business Logic Errors,2026-09-17
+3611825,curl,Bearer Token Leaked to Attacker via .netrc Despite CVE-2026-3783 Fix,hackerone.com/reports/3611825,23,0.0,,2026-03-26
+3611837,Rocket.Chat,Unauthenticated file deletion via deleteFileMessage DDP method allows permanent destruction of any uploaded file,hackerone.com/reports/3611837,33,0.0,Improper Authentication - Generic,2026-06-16
+3612891,curl,Exposed .git/config File Leading to Potential Sensitive Information Disclosure,hackerone.com/reports/3612891,32,0.0,,2026-03-20
+3617719,curl,Function `do_pubkey()` can have out-of-bound read issue,hackerone.com/reports/3617719,13,0.0,Out-of-bounds Read,2026-03-25
+3617729,Nextcloud,Mail contact autocomplete bypasses administrator-configured user enumeration restrictions and expose member information outside the intended scope,hackerone.com/reports/3617729,91,250.0,Privacy Violation,2026-09-04
+3618831,Node.js,Unix domain socket server bypasses --permission network restrictions (incomplete CVE-2026-21636 fix),hackerone.com/reports/3618831,8,0.0,Improper Access Control - Generic,2026-06-25
+3619287,DuckDuckGo,RCE + Supply Chain Attack via pull_request_target in content-scope-scripts/semver-label.yml — Affects All DuckDuckGo Browsers,hackerone.com/reports/3619287,41,0.0,,2026-06-11
+3619288,DuckDuckGo,RCE + PAT Exfiltration via pull_request_target in privacy-configuration/auto-respond-pr.yml — Direct Supply Chain to All DDG Browsers,hackerone.com/reports/3619288,66,0.0,,2026-06-11
+3619409,Monero,"Windows installer grants low-privileged users write access to executable P2Pool directory, enabling local code execution",hackerone.com/reports/3619409,40,0.0,Improper Access Control - Generic,2026-08-20
+3620006,Monero,Wallet RPC Restricted-Mode Policy Bypass,hackerone.com/reports/3620006,53,0.0,Improper Authentication - Generic,2026-08-17
+3620748,AWS VDP,V1Plugin.Decrypt panics on empty ciphertext (Remote DoS),hackerone.com/reports/3620748,41,0.0,Array Index Underflow,2026-05-28
+3620753,AWS VDP,V2Plugin.Decrypt panics on empty ciphertext (Remote DoS),hackerone.com/reports/3620753,25,0.0,Array Index Underflow,2026-05-28
+3620760,AWS VDP,Encryption context keys and values logged at INFO level,hackerone.com/reports/3620760,19,0.0,Insertion of Sensitive Information into Log File,2026-04-10
+3620761,AWS VDP,Health check errors silently dropped when channel buffer full,hackerone.com/reports/3620761,22,0.0,,2026-04-07
+3621588,Monero,Authenticated `unsigned_txset` change spoof lets a malicious hot wallet steal cold-signer change,hackerone.com/reports/3621588,29,0.0,Business Logic Errors,2026-09-16
+3621606,Monero,ZMQ RPC Log Injection and Untrusted Payload Persistence,hackerone.com/reports/3621606,30,0.0,CRLF Injection,2026-07-24
+3621851,curl,CVE-2026-4873: connection reuse ignores TLS requirement,hackerone.com/reports/3621851,13,0.0,Cleartext Transmission of Sensitive Information,2026-04-29
