@@ -12131,3 +12131,40 @@ id,program,title,link,upvotes,bounty,vuln_type,date
 3621588,Monero,Authenticated `unsigned_txset` change spoof lets a malicious hot wallet steal cold-signer change,hackerone.com/reports/3621588,29,0.0,Business Logic Errors,2026-09-16
 3621606,Monero,ZMQ RPC Log Injection and Untrusted Payload Persistence,hackerone.com/reports/3621606,30,0.0,CRLF Injection,2026-07-24
 3621851,curl,CVE-2026-4873: connection reuse ignores TLS requirement,hackerone.com/reports/3621851,13,0.0,Cleartext Transmission of Sensitive Information,2026-04-29
+3622877,Cloudflare Public Bug Bounty,HTTP Request Smuggling via Unsanitized Hop-by-Hop Headers,hackerone.com/reports/3622877,47,1500.0,Improper Access Control - Generic,2026-09-14
+3623064,curl,HTTP/1.1 Response Desynchronization via conflicting CL/TE headers in Proxy CONNECT,hackerone.com/reports/3623064,30,0.0,HTTP Request Smuggling,2026-03-25
+3623149,Nextcloud,SSRF via User-Controlled Push proxyServer in Notifications Push Registration,hackerone.com/reports/3623149,6,0.0,Server-Side Request Forgery (SSRF),2026-09-30
+3625210,Nextcloud,PIN bypass in PassCodeActivity via back button,hackerone.com/reports/3625210,87,150.0,Improper Authentication - Generic,2026-06-07
+3625600,PortSwigger Web Security,Out of scope: Improper Input Validation Order on /api-internal/login via password field leads to unnecessary resource consumption,hackerone.com/reports/3625600,90,200.0,,2026-05-05
+3625987,Node.js,Permission Model bypass via FileHandle.utimes() in the promises API,hackerone.com/reports/3625987,4,0.0,Incorrect Default Permissions,2026-06-25
+3627638,curl,Security Vulnerability Report: Protocol Injection via Programmatic Options,hackerone.com/reports/3627638,14,0.0,CRLF Injection,2026-03-26
+3628961,Shopify,admin.shopify.com: Shopify Flow continues sending internal emails to a configured recipient after the staff author is removed,hackerone.com/reports/3628961,77,0.0,,2026-07-03
+3630310,curl,"HTTP/2 server push accepts a non-authoritative :scheme=https over cleartext h2c, enabling HTTPS cache-key poisoning",hackerone.com/reports/3630310,26,0.0,Improper Input Validation,2026-03-29
+3630605,AWS VDP,Kiro IDE Stores Auth Tokens with World-Readable Permissions (0644),hackerone.com/reports/3630605,54,0.0,Incorrect Default Permissions,2026-07-09
+3632427,curl,Unbounded GZIP Decompression Leading to Event-Loop Starvation,hackerone.com/reports/3632427,17,0.0,Improper Handling of Highly Compressed Data (Data Amplification),2026-03-31
+3632577,AWS VDP,Bedrock AgentCore Starter Toolkit Creates Gateway IAM Roles Without Confused Deputy Protections,hackerone.com/reports/3632577,48,0.0,Incorrect Permission Assignment for Critical Resource,2026-07-15
+3633123,AWS VDP, Incomplete Input Sanitization in CodeInterpreter install_packages Allows Command Injection via pip Flags,hackerone.com/reports/3633123,18,0.0,OS Command Injection,2026-09-16
+3633146,AWS VDP,Sandbox User Can Inject Rogue CA Certificate into OS Trust Store via Sudo-Allowed deploy-certificates.sh,hackerone.com/reports/3633146,17,0.0,Improper Certificate Validation,2026-07-28
+3633534,curl,CRLF Injection in HAProxy PROXY Protocol via CURLOPT_HAPROXY_CLIENT_IP allows IP spoofing and protocol injection,hackerone.com/reports/3633534,9,0.0,CRLF Injection,2026-03-30
+3634400,arkadiyt-projects,SSRF Filter Bypass via Unblocked NAT64 Local-Use IPv6 Prefix (64:ff9b:1::/48),hackerone.com/reports/3634400,65,0.0,Server-Side Request Forgery (SSRF),2026-03-31
+3634571,arkadiyt-projects,Path Traversal in writeFile via Unsafe Prefix Containment Check Allows Out-of-Directory Writes,hackerone.com/reports/3634571,21,0.0,Path Traversal,2026-03-31
+3636044,curl,HTTP/2 PUSH_PROMISE header loss on OOM bypasses scheme validation (regression of 2e8c922a89),hackerone.com/reports/3636044,15,0.0,Improper Handling of Insufficient Permissions or Privileges,2026-03-31
+3636244,curl,HackerOne Vulnerability Report: libcurl SSL/TLS Identity Leakage via Insecure Connection Reuse,hackerone.com/reports/3636244,26,0.0,Authentication Bypass by Primary Weakness,2026-03-31
+3637898,AWS VDP,OS Command Injection in `aws-cdk-lib` NodejsFunction via Unsanitized `OsCommand` Helper (Supply Chain RCE),hackerone.com/reports/3637898,111,0.0,OS Command Injection,2026-07-06
+3638715,curl,Use-After-Free race condition in url_move_hostname() via shared connection pool,hackerone.com/reports/3638715,23,0.0,Use After Free,2026-03-31
+3638909,GitHub,GitHub scoped user to server tokens can escape their installation,hackerone.com/reports/3638909,79,0.0,Improper Access Control - Generic,2026-07-29
+3639277,curl,Bypassing Strict SSH Server Verification via Connection Pool Reuse in libcurl,hackerone.com/reports/3639277,37,0.0,,2026-03-31
+3640932,curl,Missing server identity policy enforcement in SSH connection reuse allows host key verification bypass via pool poisoning,hackerone.com/reports/3640932,16,0.0,Authentication Bypass by Primary Weakness,2026-04-03
+3641229,GitHub,GitHub user to server tokens can create issues in any public repository,hackerone.com/reports/3641229,61,0.0,Improper Access Control - Generic,2026-07-22
+3641893,curl,Cookie attribute TAB injection regression in Set-Cookie parsing,hackerone.com/reports/3641893,18,0.0,Improper Input Validation,2026-04-03
+3642555,curl,CVE-2026-5545: wrong reuse of HTTP Negotiate connection,hackerone.com/reports/3642555,22,0.0,Authentication Bypass by Primary Weakness,2026-04-29
+3642600,arkadiyt-projects,Authorization header leak in ssrf_filter via cross-host redirect leads to credential theft and unauthorized access,hackerone.com/reports/3642600,42,0.0,,2026-04-15
+3644182,Tucows (VDP),Stored XSS in nameserver field on account settings page,hackerone.com/reports/3644182,55,0.0,Cross-site Scripting (XSS) - Stored,2026-07-31
+3645361,curl,Data race in Curl_dnscache_add_negative() corrupts shared DNS cache — heap corruption and double-free when using CURLOPT_SHARE with CURL_LOCK_DATA_DNS,hackerone.com/reports/3645361,23,0.0,Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),2026-04-04
+3645415,curl,# SCURLOPT_SSH_KNOWNHOSTS and host fingerprint pins are silently bypassed when an SSH connection is reused from the connection pool,hackerone.com/reports/3645415,9,0.0,Exposed Dangerous Method or Function,2026-04-06
+3646072,curl,Negotiate connection reuse with wrong credentials when using CURLAUTH_ANY                                        ,hackerone.com/reports/3646072,45,0.0,Authentication Bypass by Primary Weakness,2026-04-29
+3646914,curl,ignoring 'options' when doing connection reuse,hackerone.com/reports/3646914,9,0.0,Incorrect Comparison,2026-04-05
+3648199,curl,Internal application wrapper or script using curl,hackerone.com/reports/3648199,29,0.0,Code Injection,2026-04-03
+3648638,Monero,monero:// deeplink parsing accepts tx_amount=(all) and can trigger send-all transaction mode,hackerone.com/reports/3648638,21,0.0,Business Logic Errors,2026-08-20
+3648681,Node.js,Improper Input Validation — HTTP Response Parser Unconditionally Accepts Bare CR in Status Line,hackerone.com/reports/3648681,29,0.0,HTTP Request Smuggling,2026-07-01
+3649802,Node.js,TLS host identity verification bypass via session reuse with different servername leads to unauthorized connections,hackerone.com/reports/3649802,5,0.0,Exploiting Incorrectly Configured SSL/TLS,2026-06-25
