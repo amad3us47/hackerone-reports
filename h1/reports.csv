@@ -12234,3 +12234,53 @@ id,program,title,link,upvotes,bounty,vuln_type,date
 3702718,curl,MQTT state machine confusion: PINGRESP/DISCONNECT with non-zero remaining_length dispatches to stale nextstate,hackerone.com/reports/3702718,36,0.0,Improper Input Validation,2026-04-29
 3707747,curl,libcurl 8.20.0 incomplete fix for CVE-2026-7168: changing only CURLOPT_PROXYPORT leaks stale Proxy Digest auth to a different proxy,hackerone.com/reports/3707747,18,0.0,,2026-05-05
 3708482,curl,wcurl treats some URL operands after -- as curl options,hackerone.com/reports/3708482,23,0.0,Improper Neutralization of Value Delimiters,2026-05-06
+3709605,Tor,Conflux-queued zero-length RELAY_END triggers heap out-of-bounds read,hackerone.com/reports/3709605,33,0.0,Out-of-bounds Read,2026-09-10
+3709703,Tor, Tor onion service INTRODUCE2 invalid-MAC cells permanently grow service replay cache,hackerone.com/reports/3709703,28,0.0,Uncontrolled Resource Consumption,2026-09-10
+3710209,curl,Potential Resource Leak in tool_parsecfg.c at line 279 during fileerror,hackerone.com/reports/3710209,21,0.0,Uncontrolled Resource Consumption,2026-05-05
+3712279,PortSwigger Web Security,Burp Suite Professional: browser-powered crawl can write attacker-controlled files through file input handling,hackerone.com/reports/3712279,173,5000.0,Path Traversal,2026-06-14
+3712343,curl,MQTT CONNACK Packet Type Bypass leads to RCE via Malicious Broker,hackerone.com/reports/3712343,31,0.0,ASI05: Unexpected Code Execution (RCE),2026-05-05
+3713682,Rocket.Chat,IDOR: autotranslate.translateMessage Full Message Content Leak,hackerone.com/reports/3713682,43,0.0,Insecure Direct Object Reference (IDOR),2026-05-18
+3713965,GitHub,Able to bypass authorization logic and gain more access then intended,hackerone.com/reports/3713965,104,0.0,,2026-07-15
+3717354,PortSwigger Web Security,"UI Consent Bypass via Comma Injection in `addAutoApproveTarget` — User-Approval Dialog and Persistence Layer Disagree on Target Scope, Yielding Authen",hackerone.com/reports/3717354,28,0.0,LLM09:2025 Misinformation,2026-06-15
+3717365,curl,mbedTLS private-key blob null-termination asymmetry in lib/vtls/mbedtls.c (mbed_load_privkey),hackerone.com/reports/3717365,42,0.0,Improper Null Termination,2026-05-07
+3717552,curl,CURLOPT_PROXY_CRLFILE / CURLOPT_PROXY_ISSUERCERT / CURLOPT_PROXY_ISSUERCERT_BLOB silently ignored on backends that don't support them,hackerone.com/reports/3717552,13,0.0,Improper Check for Certificate Revocation,2026-06-05
+3718195,curl,CVE-2026-8286: wrong STARTTLS connection reuse,hackerone.com/reports/3718195,2,0.0,,2026-06-24
+3718265,curl,Shared HSTS cache accessed without lock,hackerone.com/reports/3718265,13,0.0,,2026-06-05
+3720313,Node.js,Proxy credentials leaked in ERR_PROXY_TUNNEL error message,hackerone.com/reports/3720313,4,0.0,Privacy Violation,2026-06-25
+3721183,curl,CVE-2026-8458: wrong reuse for different services,hackerone.com/reports/3721183,2,0.0,Authentication Bypass by Primary Weakness,2026-06-24
+3721519,Liberapay,Liberapay member team twitter account broken Link Hijacking via Expired Twitter Account Link,hackerone.com/reports/3721519,65,0.0,Open Redirect,2026-05-09
+3723002,Liberapay,another liberapay member team twitter account broken Link Hijacking via Expired Twitter Account Link,hackerone.com/reports/3723002,77,0.0,Open Redirect,2026-05-09
+3723248,Node.js,HTTP Request Smuggling via Connection: close<TAB> in Node.js llhttp parser,hackerone.com/reports/3723248,49,0.0,HTTP Request Smuggling,2026-07-31
+3723315,Monero,wallet-rpc describe_transfer uses real_output_in_tx_index instead of real_output: cold-wallet pre-sign review shows wrong ring member,hackerone.com/reports/3723315,19,0.0,Array Index Underflow,2026-08-05
+3723458,Khan Academy,1-Click Account Takeover via Open Redirect through Regex Bypass in Domain Validation,hackerone.com/reports/3723458,123,0.0,Improper Access Control - Generic,2026-06-20
+3725659,curl,Kerberos/SPNEGO Connection Reuse Vulnerability,hackerone.com/reports/3725659,22,0.0,,2026-05-14
+3726887,Essity,Privilege-relevant fields are clientModify in SAP CDC schema allowing role escalation to Admin,hackerone.com/reports/3726887,8,0.0,Improper Privilege Management,2026-05-20
+3727743,Ruby on Rails,URI scheme validation bypass in ActionText `to_markdown` via user-supplied `<action-text-markdown>` marker tag,hackerone.com/reports/3727743,12,0.0,Cross-site Scripting (XSS) - Reflected,2026-08-24
+3729501,Essity,Pre-authentication Stored XSS in Essity Customer-Service Pipeline via ContactApi (reCAPTCHA bypass + no rate limit),hackerone.com/reports/3729501,45,0.0,Cross-site Scripting (XSS) - Stored,2026-08-27
+3733905,curl,CVE-2026-8924: trailing dot domain super cookie,hackerone.com/reports/3733905,1,0.0,Use of Incorrectly-Resolved Name or Reference,2026-06-24
+3733910,curl,CVE-2026-8932: incomplete mTLS config matching in conn reuse,hackerone.com/reports/3733910,3,0.0,Business Logic Errors,2026-06-24
+3733934,curl,CURLOPT_HSTS_CTRL disables shared HSTS without share guard — use-after-free and double-free,hackerone.com/reports/3733934,12,0.0,Use After Free,2026-05-18
+3733946,curl,Credentials forwarded to HTTP after HTTPS→HTTP same-port redirect — url_set_data_creds uses scheme-blind comparator,hackerone.com/reports/3733946,35,0.0,,2026-05-20
+3733984,curl,HSTS multi-trailing-dot bypass-ish: possible incomplete fix for CVE-2022-30115,hackerone.com/reports/3733984,9,0.0,Cleartext Transmission of Sensitive Information,2026-05-18
+3734020,curl,HTTP/2 proxy CONNECT tunnel unbounded 1xx chain (missing Curl_bump_headersize cap in cf-h2-proxy.c),hackerone.com/reports/3734020,7,0.0,Allocation of Resources Without Limits or Throttling,2026-05-19
+3734095,curl,"TLS verifyhost bypass in rustls, mbedTLS, and wolfSSL when verifypeer=0",hackerone.com/reports/3734095,7,0.0,Business Logic Errors,2026-05-19
+3734326,Rocket.Chat,Autotranslate DDP Method Exposes Private Messages Without Authentication or Room Access Check,hackerone.com/reports/3734326,74,0.0,Insecure Direct Object Reference (IDOR),2026-05-25
+3734676,Mozilla,Taskcluster web-server OAuth2 authorization codes are reusable and the exchange handler checks the wrong expiry column,hackerone.com/reports/3734676,41,2000.0,Authentication Bypass by Capture-replay,2026-06-23
+3734921,curl,"Trailing-dot IPv4 URL bypasses IP-address guard, allows wildcard DNS SAN match",hackerone.com/reports/3734921,10,0.0,Business Logic Errors,2026-05-17
+3734935,curl,rustls backend silently ignores CURLOPT_CRLFILE when native CA store is active,hackerone.com/reports/3734935,8,0.0,Business Logic Errors,2026-05-18
+3734947,curl,HTTP/3 paused transfer buffers incoming data without bound up to ~1 GiB,hackerone.com/reports/3734947,39,0.0,Allocation of Resources Without Limits or Throttling,2026-05-19
+3734992,curl,Schannel custom-CA path skips Extended Key Usage enforcement,hackerone.com/reports/3734992,30,0.0,Business Logic Errors,2026-05-19
+3735080,curl,"libssh SFTP initialization ignores CURLOPT_TIMEOUT, hangs indefinitely",hackerone.com/reports/3735080,12,0.0,Allocation of Resources Without Limits or Throttling,2026-05-18
+3735179,curl,CURLOPT_PROXY_CAINFO_BLOB silently activates native CA store on Apple builds,hackerone.com/reports/3735179,15,0.0,Business Logic Errors,2026-05-19
+3735180,curl,HTTPS proxy connection reuse lets one easy handle inherit another handle's mTLS-authenticated proxy session,hackerone.com/reports/3735180,6,0.0,Exposure of Data Element to Wrong Session,2026-06-24
+3735184,curl,CVE-2026-8926: password leak with netrc and user in URL,hackerone.com/reports/3735184,2,0.0,Information Disclosure,2026-06-24
+3735193,curl,CVE-2026-8925: SASL double-free,hackerone.com/reports/3735193,2,0.0,Double Free,2026-06-24
+3735238,curl,cookie: case-insensitive path comparison in replace_existing() allows cookie eviction across distinct paths,hackerone.com/reports/3735238,13,0.0,Business Logic Errors,2026-05-18
+3735276,curl,TLS peer-verification bypass via mid-transfer ssl_config mutation,hackerone.com/reports/3735276,11,0.0,Business Logic Errors,2026-05-19
+3736234,curl,NULL pointer dereference in libcurl URL API redirect_url() with CURLU_DEFAULT_SCHEME,hackerone.com/reports/3736234,5,0.0,NULL Pointer Dereference,2026-05-17
+3736889,Node.js,NULL pointer dereference in node:sqlite DatabaseSync#applyChangeset() via malformed SQLite changeset,hackerone.com/reports/3736889,44,0.0,NULL Pointer Dereference,2026-05-23
+3737516,Essity,"Unauthenticated Account Registration + Email Verification Bypass + PII Data Leak (2,480 Records) on ████████",hackerone.com/reports/3737516,14,0.0,Authentication Bypass by Primary Weakness,2026-05-27
+3738654,AWS VDP, Firecracker Out-of-bounds Read/Write Local Privilege Escalation Vulnerability,hackerone.com/reports/3738654,33,0.0,Out-of-bounds Read,2026-06-11
+3738727,Monero,Restricted RPC leaks alternative block hashes via /get_alt_blocks_hashes,hackerone.com/reports/3738727,51,0.0,Improper Access Control - Generic,2026-07-20
+3739561,curl,SSL session-cache peer key omits signature_algorithms: strict-sigalg handle silently resumes a permissive sibling's session,hackerone.com/reports/3739561,17,0.0,Improper Certificate Validation,2026-05-19
+3741135,curl,"Connection reuse ignores haproxyprotocol and HAPROXY_CLIENT_IP settings, allowing PROXY context to persist across transfers",hackerone.com/reports/3741135,22,0.0,Incorrect Authorization,2026-05-19
