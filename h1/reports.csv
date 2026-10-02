@@ -12204,3 +12204,33 @@ id,program,title,link,upvotes,bounty,vuln_type,date
 3679660,Shopify,mruby-engine: UAF in MRubyEngine#initialize enables local RCE,hackerone.com/reports/3679660,35,0.0,,2026-04-24
 3680038,curl,Digest Auth State Leak on Cross-Origin Redirect via Netrc - Username and Password Hash Sent to Wrong Host,hackerone.com/reports/3680038,17,0.0,Insufficiently Protected Credentials,2026-04-19
 3680090,Revive Adserver,Stored XSS via malicious usernames in audit log details + Username validation bypass in XML‑RPC addUser ,hackerone.com/reports/3680090,9,0.0,Cross-site Scripting (XSS) - Stored,2026-06-03
+3680234,curl,"libcurl reuses a learned RTSP Session header across different hosts on the same easy handle, enabling cross-host session leak and replay",hackerone.com/reports/3680234,13,0.0,Exposure of Data Element to Wrong Session,2026-04-18
+3680680,curl,libcurl omits IPv6 zoneid from host identity and leaks credentials/cookies across scoped link-local realms,hackerone.com/reports/3680680,29,0.0,Information Disclosure,2026-04-19
+3681690,Monero,ZMQ get_output_distribution duplicate amount DoS,hackerone.com/reports/3681690,21,0.0,,2026-09-17
+3682666,curl,Use-after-free in `curl_easy_ssls_export()` during callback re-entrancy,hackerone.com/reports/3682666,8,0.0,Use After Free,2026-04-29
+3683886,Monero,Restricted ZMQ RPC bypasses HTTP restricted-mode resource checks,hackerone.com/reports/3683886,24,0.0,,2026-09-17
+3683934,Monero,sign_multisig crashes monero-wallet-rpc on a malformed but decryptable multisig txset,hackerone.com/reports/3683934,32,0.0,,2026-09-17
+3684603,curl,Stack exhaustion in MIME multipart reading with deeply nested subparts,hackerone.com/reports/3684603,4,0.0,Uncontrolled Recursion,2026-04-29
+3684614,curl,Heap-buffer-overflow in `Curl_ssl_push_certinfo_len()` — sole bounds check is `DEBUGASSERT`,hackerone.com/reports/3684614,7,0.0,Out-of-bounds Read,2026-04-29
+3686259,Monero,"`set_daemon` wallet-rpc silently ignores `ssl_allowed_fingerprints` → pinning bypassed, wallet↔daemon MITM",hackerone.com/reports/3686259,6,0.0,Improper Certificate Validation,2026-08-05
+3686283,Monero,View-only offline transaction creation bypasses the long-payment-ID privacy block,hackerone.com/reports/3686283,32,0.0,Information Disclosure,2026-08-20
+3687142,Rocket.Chat,Unauthenticated reading of every file via livechat auth and predicting MongoDB ObjectId(),hackerone.com/reports/3687142,48,0.0,Improper Access Control - Generic,2026-06-15
+3687543,Monero, `relay_tx` wallet-rpc skips `--restricted-rpc` guard and lets any caller corrupt wallet state via attacker-controlled `pending_tx`,hackerone.com/reports/3687543,20,0.0,Improper Access Control - Generic,2026-08-05
+3688064,Node.js,Node.js unicode dot separator handling can lead to tls wildcard-depth authentication bypass due to resolver and verifier hostname normalization mismat,hackerone.com/reports/3688064,18,0.0,Improper Handling of Unicode Encoding,2026-06-25
+3689633,Discourse,Hidden/restricted tags can be mutated through synonym ID paths without per-tag authorization,hackerone.com/reports/3689633,30,0.0,Insecure Direct Object Reference (IDOR),2026-08-26
+3692858,Node.js,Permission Model Bypass via `process.report.writeReport()` Path Misvalidation,hackerone.com/reports/3692858,29,0.0,Improper Access Control - Generic,2026-06-18
+3693295,Brave Software,"iOS Brave Playlist ""Open in Private Tab"" bypasses FaceID requirement for Private Tabs",hackerone.com/reports/3693295,48,0.0,Improper Authentication - Generic,2026-05-28
+3693636,Monero,wallet-rpc crash via malformed /gettransactions response (empty txs → vector::front() in check_tx_key / check_tx_proof),hackerone.com/reports/3693636,44,0.0,NULL Pointer Dereference,2026-08-05
+3694007,HackerOne,Authenticated Elasticsearch Painless script execution via Query.search.sort_query on hackerone.com/graphql,hackerone.com/reports/3694007,167,7000.0,Code Injection,2026-06-17
+3694390,curl,CVE-2026-7009: OCSP stapling bypass with Apple SecTrust,hackerone.com/reports/3694390,33,0.0,Improper Certificate Validation,2026-04-29
+3696266,Nextcloud,Path Traversal in Nextcloud Talk Android Exposes User Credentials and Private Data via FileProvider,hackerone.com/reports/3696266,17,0.0,Path Traversal,2026-08-24
+3697491,Shopify,Missing HMAC validation on /uninstall webhook in Shopify/sample-django-app reference template,hackerone.com/reports/3697491,18,0.0,Improper Verification of Cryptographic Signature,2026-06-01
+3697719,curl,CVE-2026-7168: cross-proxy Digest auth state leak,hackerone.com/reports/3697719,37,0.0,Exposure of Data Element to Wrong Session,2026-04-29
+3698862,Monero, `check_reserve_proof` sums RingCT ECDH amounts without checking the output commitment,hackerone.com/reports/3698862,37,0.0,Missing Required Cryptographic Step,2026-08-05
+3699522,Monero,`check_reserve_proof` counts duplicate entries: one output can inflate `total`,hackerone.com/reports/3699522,42,0.0,Business Logic Errors,2026-08-05
+3700036,Monero,SpendProofV1 txid-substitution: get_spend_proof/check_spend_proof do not verify returned transaction hash,hackerone.com/reports/3700036,28,0.0,Missing Required Cryptographic Step,2026-08-05
+3701692,Tor,Malicious Conflux Endpoint Can Leave Stale Global OOO Queue Accounting After Teardown,hackerone.com/reports/3701692,35,100.0,Uncontrolled Resource Consumption,2026-06-16
+3702072,AWS VDP,"bedrock-mantle.api.aws accepts Bedrock API keys outside the IAM Deny, CloudTrail signal, and invocation logging AWS publishes for Bedrock keys",hackerone.com/reports/3702072,45,0.0,Insecure Default Initialization of Resource,2026-07-14
+3702718,curl,MQTT state machine confusion: PINGRESP/DISCONNECT with non-zero remaining_length dispatches to stale nextstate,hackerone.com/reports/3702718,36,0.0,Improper Input Validation,2026-04-29
+3707747,curl,libcurl 8.20.0 incomplete fix for CVE-2026-7168: changing only CURLOPT_PROXYPORT leaks stale Proxy Digest auth to a different proxy,hackerone.com/reports/3707747,18,0.0,,2026-05-05
+3708482,curl,wcurl treats some URL operands after -- as curl options,hackerone.com/reports/3708482,23,0.0,Improper Neutralization of Value Delimiters,2026-05-06
