@@ -12168,3 +12168,39 @@ id,program,title,link,upvotes,bounty,vuln_type,date
 3648638,Monero,monero:// deeplink parsing accepts tx_amount=(all) and can trigger send-all transaction mode,hackerone.com/reports/3648638,21,0.0,Business Logic Errors,2026-08-20
 3648681,Node.js,Improper Input Validation — HTTP Response Parser Unconditionally Accepts Bare CR in Status Line,hackerone.com/reports/3648681,29,0.0,HTTP Request Smuggling,2026-07-01
 3649802,Node.js,TLS host identity verification bypass via session reuse with different servername leads to unauthorized connections,hackerone.com/reports/3649802,5,0.0,Exploiting Incorrectly Configured SSL/TLS,2026-06-25
+3650435,curl,Improper enforcement of CURLOPT_SOCKS5_AUTH due to missing reuse key validation in libcurl,hackerone.com/reports/3650435,15,0.0,Improper Authorization,2026-04-07
+3650443,curl,no_proxy IDN mismatch: Unicode hostnames bypass proxy exclusion list,hackerone.com/reports/3650443,15,0.0,Improper Access Control - Generic,2026-04-07
+3650473,curl,"FTP entrypath accepts 0xFF (Telnet IAC) through incomplete ISCNTRL filter, sent on wire via CWD on connection reuse",hackerone.com/reports/3650473,10,0.0,,2026-04-07
+3650504,Revive Adserver,Missing access control when linking banners or campaigns to zones ,hackerone.com/reports/3650504,42,0.0,Improper Access Control - Generic,2026-06-03
+3650582,Revive Adserver,Missing access control when linking trackers to campaigns,hackerone.com/reports/3650582,35,0.0,Improper Access Control - Generic,2026-06-03
+3650689,curl,CVE-2026-5773: wrong reuse of SMB connection,hackerone.com/reports/3650689,14,0.0,,2026-04-29
+3651975,curl,SMTP Command Injection via CRLF in libcurl MAIL_FROM / MAIL_RCPT (lib/smtp.c),hackerone.com/reports/3651975,5,0.0,CRLF Injection,2026-04-06
+3653196,Revive Adserver,Blind SQL injection via clientid parameter in zone‑include.php,hackerone.com/reports/3653196,48,0.0,SQL Injection,2026-06-03
+3653316,Revive Adserver,Reflected XSS via clientid parameter in zone‑include.php,hackerone.com/reports/3653316,25,0.0,Cross-site Scripting (XSS) - Reflected,2026-06-03
+3656716,Node.js,Embedded-nul hostnames can lead to silent authority rebinding due to c-string truncation in resolver bindings,hackerone.com/reports/3656716,4,0.0,Improper Access Control - Generic,2026-06-25
+3656781,Revive Adserver,PHP code injection via delivery limitation logical ,hackerone.com/reports/3656781,36,0.0,Code Injection,2026-06-03
+3656869,Node.js,Uppercase sni context matching can lead to mtls authorization bypass due to case-sensitive hostname matching,hackerone.com/reports/3656869,7,0.0,Improper Access Control - Generic,2026-06-25
+3658049,curl,libcurl: Integer truncation in curl_easy_ssls_import() causes TLS sessions to never expire,hackerone.com/reports/3658049,23,0.0,,2026-04-09
+3658225,Node.js,HTTP/2 sessions never clean up after GOAWAY on invalid protocol errors,hackerone.com/reports/3658225,33,0.0,Uncontrolled Resource Consumption,2026-06-18
+3664261,IBM,Reflected Cross-Site Scripting (XSS) found on IBM.com domain,hackerone.com/reports/3664261,29,0.0,Cross-site Scripting (XSS) - Reflected,2026-06-15
+3665151,Brave Software,Brave Shields Domain Reordering Leads to Origin Confusion,hackerone.com/reports/3665151,51,0.0,Violation of Secure Design Principles,2026-04-13
+3665363,curl,Integer Overflow/Signedness Mismatch in Printf Precision for HTTP/2 Trailer Headers,hackerone.com/reports/3665363,15,0.0,Integer Overflow,2026-04-11
+3666576,curl,Negotiate Authentication Premature on Connection Reuse,hackerone.com/reports/3666576,39,0.0,Improper Authentication - Generic,2026-04-29
+3669305,curl,Argument Injection via curl Short-Flag Grouping,hackerone.com/reports/3669305,23,0.0,Command Injection - Generic,2026-04-13
+3669623,Revive Adserver,Stored XSS via Full Name field in userlog email entries,hackerone.com/reports/3669623,21,0.0,Cross-site Scripting (XSS) - Stored,2026-06-03
+3669637,curl,CVE-2026-6253: proxy credentials leak over redirect-to proxy,hackerone.com/reports/3669637,24,0.0,,2026-04-29
+3670955,CoinMate.io,HMAC signature verification omits endpoint and payload allowing request forgery on CoinMate API,hackerone.com/reports/3670955,66,0.0,Missing Required Cryptographic Step,2026-05-20
+3671818,curl,CVE-2026-6276: stale custom cookie host causes cookie leak,hackerone.com/reports/3671818,24,0.0,Exposure of Data Element to Wrong Session,2026-04-29
+3672641,Revive Adserver,Session ID reuse allowing XML‑RPC API authentication bypass,hackerone.com/reports/3672641,8,0.0,Improper Authentication - Generic,2026-06-03
+3673277,curl,libcurl stale CURLOPT_AUTOREFERER leaks a previous request URL to a different origin on a reused easy handle,hackerone.com/reports/3673277,22,0.0,Information Exposure Through Sent Data,2026-04-17
+3674275,curl,lib/http2.c: SSL connections accept non-HTTP push schemes (incomplete fix for 2e8c922a),hackerone.com/reports/3674275,30,0.0,Authentication Bypass by Primary Weakness,2026-04-16
+3674940,Nextcloud,Critical broken access control: API-only delegated admin can enumerate all Team Folders and grant access to arbitrary groups,hackerone.com/reports/3674940,13,0.0,Improper Access Control - Generic,2026-09-17
+3676308,CoinMate.io,POST /api/bitcoinWithdrawalFees returns financial data without authentication despite being documented as a USER OPERATION (private endpoint),hackerone.com/reports/3676308,92,0.0,Improper Authentication - Generic,2026-05-20
+3676863,Node.js,Unbounded memory growth in `node:http2` clients via attacker-controlled ORIGIN frames,hackerone.com/reports/3676863,4,0.0,Uncontrolled Resource Consumption,2026-06-25
+3677576,Revive Adserver,Missing access control when modifying parent entities via XML‑RPC,hackerone.com/reports/3677576,7,0.0,Improper Access Control - Generic,2026-06-03
+3677759,curl,CVE-2026-6429: netrc credential leak with reused proxy connection,hackerone.com/reports/3677759,19,0.0,Information Exposure Through Sent Data,2026-04-29
+3678828,Revive Adserver,Banner status override by advertiser‑level users,hackerone.com/reports/3678828,5,0.0,Improper Access Control - Generic,2026-06-03
+3679471,Monero,HTML Injection in Transaction Confirmation Dialog via Address Book Description Enables UI Spoofing Before Fund Transfer,hackerone.com/reports/3679471,29,0.0,Code Injection,2026-08-20
+3679660,Shopify,mruby-engine: UAF in MRubyEngine#initialize enables local RCE,hackerone.com/reports/3679660,35,0.0,,2026-04-24
+3680038,curl,Digest Auth State Leak on Cross-Origin Redirect via Netrc - Username and Password Hash Sent to Wrong Host,hackerone.com/reports/3680038,17,0.0,Insufficiently Protected Credentials,2026-04-19
+3680090,Revive Adserver,Stored XSS via malicious usernames in audit log details + Username validation bypass in XML‑RPC addUser ,hackerone.com/reports/3680090,9,0.0,Cross-site Scripting (XSS) - Stored,2026-06-03
