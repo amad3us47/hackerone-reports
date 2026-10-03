@@ -12318,3 +12318,27 @@ id,program,title,link,upvotes,bounty,vuln_type,date
 3771139,MariaDB,Heap Memory Disclosure via Integer Underflow in Item_func_json_arrayagg::cut_max_length in MariaDB Server,hackerone.com/reports/3771139,16,0.0,Buffer Over-read,2026-09-15
 3771144,MariaDB,Use-After-Free in BTREE Index Traversal via Stale key_version in heap_update() in MariaDB Server,hackerone.com/reports/3771144,12,0.0,Use After Free,2026-09-14
 3771147,MariaDB,Stack Buffer Overflow via Crafted keyseg->start/ keyseg->length in .MYI File (MariaDB MyISAM),hackerone.com/reports/3771147,11,0.0,Classic Buffer Overflow,2026-09-15
+3773293,curl,curl/libcurl 8.20.0 NOPROXY bypass via uppercase-hex IPv4 aliases leaks off-proxy Basic credentials to the configured proxy,hackerone.com/reports/3773293,2,0.0,,2026-06-03
+3774279,curl,heap-use-after-free in state.referer when CURLOPT_REFERER replaced or cleared after perform,hackerone.com/reports/3774279,22,0.0,Use After Free,2026-06-11
+3774977,curl,libcurl 8.20.0 ignores HTTP Digest domain protection space and preemptively leaks Digest auth outside the declared scope,hackerone.com/reports/3774977,6,0.0,,2026-06-05
+3775183,PortSwigger Web Security,Incomplete fix for CVE-2022-35406: meta-redirect content-type check bypassable via parameter injection,hackerone.com/reports/3775183,18,0.0,Open Redirect,2026-06-02
+3775702,AWS VDP,Non-Production API Endpoints for the Amazon Cloudwatch Fails to Log to CloudTrail Resulting in Silent Permission Enumeration,hackerone.com/reports/3775702,20,0.0,Insufficient Logging,2026-07-27
+3776433,curl,TFTP upload ignores --continue-at / CURLOPT_RESUME_FROM and leaks skipped local file prefix,hackerone.com/reports/3776433,9,0.0,Information Exposure Through Sent Data,2026-06-05
+3776535,curl,RTSP Digest auth state leaks across origins on reused libcurl easy handle,hackerone.com/reports/3776535,10,0.0,Information Exposure Through Sent Data,2026-06-05
+3777381,curl,PRE_PROXY change leaks stale Proxy Digest state across proxy-chain boundary,hackerone.com/reports/3777381,1,0.0,Information Disclosure,2026-06-03
+3778282,Essity,Critical SQL Injection WDM API (████████),hackerone.com/reports/3778282,36,0.0,SQL Injection,2026-08-27
+3779690,Rocket.Chat,Stored XSS in Rocket.Chat HTML File Export — Unauthenticated Entry via LiveChat,hackerone.com/reports/3779690,95,0.0,Cross-site Scripting (XSS) - Stored,2026-07-16
+3780277,AWS VDP,Non-Production API Endpoints for the Amazon S3 Tables Service Fails to Log to CloudTrail Resulting in Silent Permission Enumeration,hackerone.com/reports/3780277,68,0.0,Insufficient Logging,2026-07-02
+3780695,SingleStore,SELECT ... INTO OUTFILE does not enforce the FILE WRITE privilege  unprivileged arbitrary file write on the   server,hackerone.com/reports/3780695,50,0.0,Missing Authorization,2026-07-13
+3780709,Revive Adserver,Missing ownership validation allows cross‑manager tracker–campaign linking,hackerone.com/reports/3780709,22,0.0,Insecure Direct Object Reference (IDOR),2026-06-25
+3780733,curl,DNS domain search list followed for extant domain missing A or AAAA records,hackerone.com/reports/3780733,12,0.0,Use of Incorrectly-Resolved Name or Reference,2026-06-08
+3780806,Revive Adserver,Reflected XSS via unsanitised refresh parameter in zone invocation tag,hackerone.com/reports/3780806,28,0.0,Cross-site Scripting (XSS) - Reflected,2026-06-25
+3780854,Revive Adserver,PHP code injection in delivery-limitation `logical` validation bypass,hackerone.com/reports/3780854,35,0.0,Code Injection,2026-06-25
+3781015,Node.js, Incomplete Fix for CVE-2026-21637: OCSPRequest and resumeSession Events Crash Node.js TLS Server via Unhandled Synchronous Exceptions,hackerone.com/reports/3781015,41,0.0,Uncontrolled Resource Consumption,2026-06-12
+3781305,curl,OpenSSL TLS 1.2 session resumption accepts expired server certificates in libcurl,hackerone.com/reports/3781305,14,0.0,Improper Validation of Certificate Expiration,2026-06-07
+3781311,Revive Adserver,Stored XSS in maintenance tools via unescaped entity names,hackerone.com/reports/3781311,25,0.0,Cross-site Scripting (XSS) - Stored,2026-06-25
+3781492,Revive Adserver,PHP code injection in delivery-limitation `logical` validation bypass - XML-RPC setChannelTargeting,hackerone.com/reports/3781492,46,0.0,Code Injection,2026-06-25
+3781691,Revive Adserver,CSRF in zone‑include.php allows unauthorized banner and campaign linking,hackerone.com/reports/3781691,20,0.0,Cross-Site Request Forgery (CSRF),2026-06-25
+3781785,Essity,Reflected HTML Injection in ████████ Login Page via infotext/signintext Parameters,hackerone.com/reports/3781785,7,0.0,Improper Input Validation,2026-07-22
+3782405,MariaDB,Stack Buffer-Overflow in MariaDB Charset_collation_map_st::insert_or_replace(),hackerone.com/reports/3782405,23,0.0,Stack Overflow,2026-09-15
+3782701,Mozilla,Unauthenticated RCE in Taskcluster web-server via GraphQL filter argument (sift $where),hackerone.com/reports/3782701,352,12000.0,Code Injection,2026-08-05
