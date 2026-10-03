@@ -12284,3 +12284,37 @@ id,program,title,link,upvotes,bounty,vuln_type,date
 3738727,Monero,Restricted RPC leaks alternative block hashes via /get_alt_blocks_hashes,hackerone.com/reports/3738727,51,0.0,Improper Access Control - Generic,2026-07-20
 3739561,curl,SSL session-cache peer key omits signature_algorithms: strict-sigalg handle silently resumes a permissive sibling's session,hackerone.com/reports/3739561,17,0.0,Improper Certificate Validation,2026-05-19
 3741135,curl,"Connection reuse ignores haproxyprotocol and HAPROXY_CLIENT_IP settings, allowing PROXY context to persist across transfers",hackerone.com/reports/3741135,22,0.0,Incorrect Authorization,2026-05-19
+3741744,curl,CRLF Injection via Custom HTTP Headers,hackerone.com/reports/3741744,20,0.0,CRLF Injection,2026-06-11
+3744200,Revive Adserver,PHP code injection via unexpected delivery limitation parameter,hackerone.com/reports/3744200,11,0.0,Code Injection,2026-06-03
+3744543,curl,CVE-2026-8927: env-set cross-proxy Digest auth state leak,hackerone.com/reports/3744543,3,0.0,Improper Authentication - Generic,2026-06-24
+3747959,curl,curl --skip-existing has a TOCTOU race that lets a post-check symlink redirect the later download write,hackerone.com/reports/3747959,42,0.0,Time-of-check Time-of-use (TOCTOU) Race Condition,2026-05-20
+3749204,curl,CVE-2026-9080: UAF after pause in socket callback,hackerone.com/reports/3749204,3,0.0,Use After Free,2026-06-24
+3749428,curl,curl cross-origin HTTPS redirect reuses TLS client certificate for unintended second-origin mTLS authentication,hackerone.com/reports/3749428,11,0.0,Insufficiently Protected Credentials,2026-06-07
+3749681,Monero,Background sync cache retains outgoing additional transaction secret keys,hackerone.com/reports/3749681,1,0.0,Information Disclosure,2026-08-20
+3750295,curl,CVE-2026-9079: stale proxy password leak,hackerone.com/reports/3750295,4,0.0,Information Disclosure,2026-06-24
+3751697,curl,CVE-2026-10536: HTTP/2 stream-dependency tree UAF,hackerone.com/reports/3751697,5,0.0,Buffer Over-read,2026-06-24
+3751701,curl,Use-after-free in `curl_easy_duphandle()` with HTTP/2 stream-dependency tree,hackerone.com/reports/3751701,5,0.0,Use After Free,2026-06-01
+3751712,curl,CVE-2026-9547: SSH improper host validation,hackerone.com/reports/3751712,2,0.0,"Reusing a Nonce, Key Pair in Encryption",2026-06-24
+3751715,curl,Heap-OOB read in urlapi `redirect_url()` via `CURLU_GUESS_SCHEME` + `CURLU_NO_GUESS_SCHEME` flow,hackerone.com/reports/3751715,27,0.0,Buffer Over-read,2026-05-25
+3752489,Node.js,Memory Corruption via TOCTOU Race in SharedArrayBuffer UTF-8 Decode (`StringBytes::Encode`),hackerone.com/reports/3752489,32,0.0,Time-of-check Time-of-use (TOCTOU) Race Condition,2026-05-23
+3752567,curl,curl GnuTLS backend accepts a clientAuth-only certificate for HTTPS server authentication,hackerone.com/reports/3752567,24,0.0,Improper Certificate Validation,2026-05-25
+3752888,curl,CVE-2026-9545: exposing HTTP/3 early data,hackerone.com/reports/3752888,3,0.0,Improper Certificate Validation,2026-06-24
+3754343,curl,CVE-2026-9546: sending old referer,hackerone.com/reports/3754343,3,0.0,Use After Free,2026-06-24
+3756699,curl,lib/ldap.c follows attacker-controlled LDAP referrals and binds to a second server; WinLDAP builds leak current logon credentials (confirmed on Window,hackerone.com/reports/3756699,8,0.0,Insufficiently Protected Credentials,2026-06-01
+3760016,Node.js,Node.js WebCrypto AES Integer Overflow Leads to Remote Process Abort (DoS),hackerone.com/reports/3760016,13,0.0,Integer Overflow,2026-06-25
+3761342,Node.js,Permission Model: --allow-fs-read/--allow-fs-write radix-tree prefix-boundary over-grant,hackerone.com/reports/3761342,33,0.0,Improper Access Control - Generic,2026-07-29
+3761647,curl,TLS conn reuse and session cache ignore fsslctx callback and ssl_config_data flags ( incomplete fix variant of 7541ae569 ),hackerone.com/reports/3761647,16,0.0,Insufficiently Protected Credentials,2026-06-01
+3761789,curl,Mentioned unites are at the same time .Then we have to increase the bounty.,hackerone.com/reports/3761789,17,0.0,Forced Browsing,2026-06-01
+3764217,Basecamp,Any installed app can force immediate logout and persistent DOS of authenticated Basecamp sessions via unprotected exported StartActivity,hackerone.com/reports/3764217,104,0.0,Improper Access Control - Generic,2026-07-04
+3765476,Essity,Unauthenticated File Upload with CORS Wildcard and No Rate Limiting on ████████ and ████████,hackerone.com/reports/3765476,8,0.0,Missing Authentication for Critical Function,2026-06-29
+3766065,curl,CURLOPT_COOKIE leaked to cross-origin redirect target — CURLOPT_UNRESTRICTED_AUTH bypass for the STRING_COOKIE path,hackerone.com/reports/3766065,4,0.0,Information Disclosure,2026-06-05
+3766392,curl,curl External-Controlled Filename in `--url @file` Leads to Arbitrary File Overwrite,hackerone.com/reports/3766392,13,0.0,External Control of File Name or Path,2026-06-07
+3766455,Yelp,Yelp for Business: locked Email field silently editable via API,hackerone.com/reports/3766455,75,0.0,Client-Side Enforcement of Server-Side Security,2026-07-02
+3767963,curl,Proxy CONNECT response poisoning via authentication retry in cf-h1-proxy.c (libcurl),hackerone.com/reports/3767963,2,0.0,Business Logic Errors,2026-06-03
+3769293,curl,Low priority HSTS bypass in curl_easy_duphandle(),hackerone.com/reports/3769293,5,0.0,Information Exposure Through Sent Data,2026-06-01
+3769676,MariaDB,Stack Overflow DoS in ST_GeomFromGeoJSON Allows Any Authenticated User to Crash the Entire Server,hackerone.com/reports/3769676,18,0.0,Stack Overflow,2026-09-03
+3770482,Nextcloud,"files_lock: a write-share collaborator can place a TYPE_TOKEN lock that permanently denies the file owner, survives share revocation and account delet",hackerone.com/reports/3770482,30,0.0,Improper Access Control - Generic,2026-09-18
+3770979,curl,SMTP connection reuse ignores --ssl-reqd / CURLOPT_USE_SSL and reuses a clear-text STARTTLS session on current master,hackerone.com/reports/3770979,1,0.0,Cleartext Transmission of Sensitive Information,2026-06-03
+3771139,MariaDB,Heap Memory Disclosure via Integer Underflow in Item_func_json_arrayagg::cut_max_length in MariaDB Server,hackerone.com/reports/3771139,16,0.0,Buffer Over-read,2026-09-15
+3771144,MariaDB,Use-After-Free in BTREE Index Traversal via Stale key_version in heap_update() in MariaDB Server,hackerone.com/reports/3771144,12,0.0,Use After Free,2026-09-14
+3771147,MariaDB,Stack Buffer Overflow via Crafted keyseg->start/ keyseg->length in .MYI File (MariaDB MyISAM),hackerone.com/reports/3771147,11,0.0,Classic Buffer Overflow,2026-09-15
